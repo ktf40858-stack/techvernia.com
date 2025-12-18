@@ -1,0 +1,71 @@
+{
+  "total_keys": 210,
+  "languages": {
+    "en": {
+      "keys_count": 210,
+      "missing_count": 0,
+      "completion_rate": 100.0,
+      "missing_keys": []
+    },
+    "es": {
+      "keys_count": 210,
+      "missing_count": 0,
+      "completion_rate": 100.0,
+      "missing_keys": []
+    },
+    "fr": {
+      "keys_count": 210,
+      "missing_count": 0,
+      "completion_rate": 100.0,
+      "missing_keys": []
+    },
+    "de": {
+      "keys_count": 210,
+      "missing_count": 0,
+      "completion_rate": 100.0,
+      "missing_keys": []
+    },
+    "pt": {
+      "keys_count": 210,
+      "missing_count": 0,
+      "completion_rate": 100.0,
+      "missing_keys": []
+    },
+    "zh": {
+      "keys_count": 210,
+      "missing_count": 0,
+      "completion_rate": 100.0,
+      "missing_keys": []
+    },
+    "ja": {
+      "keys_count": 210,
+      "missing_count": 0,
+      "completion_rate": 100.0,
+      "missing_keys": []
+    },
+    "ko": {
+      "keys_count": 210,
+      "missing_count": 0,
+      "completion_rate": 100.0,
+      "missing_keys": []
+    },
+    "ar": {
+      "keys_count": 210,
+      "missing_count": 0,
+      "completion_rate": 100.0,
+      "missing_keys": []
+    },
+    "hi": {
+      "keys_count": 210,
+      "missing_count": 0,
+      "completion_rate": 100.0,
+      "missing_keys": []
+    }
+  },
+  "global_stats": {
+    "total_possible": 2100,
+    "total_present": 2100,
+    "total_missing": 0,
+    "completion_rate": 100.0
+  }
+}

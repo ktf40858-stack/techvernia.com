@@ -1,0 +1,28 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Backups
+backups/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+*~
+
+# Node modules (si présent)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers de test
+test_translations.html

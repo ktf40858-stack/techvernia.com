@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the best AI video generation tools. Compare Synthesia, HeyGen, Runway, Descript, Pictory and more with expert reviews and guides.">
+    <meta name="keywords" content="AI video, AI video generator, Synthesia, HeyGen, Runway, text to video, AI video editing, best AI video tools">
+    <title>Best AI Video Tools 2026 | GenuisNet.ai</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .category-hero {
+            padding: calc(80px + var(--space-4xl)) var(--space-lg) var(--space-3xl);
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.05) 0%, transparent 50%);
+        }
+        .category-hero-content {
+            max-width: 800px;
+        }
+        .category-hero .hero-badge {
+            margin-bottom: var(--space-lg);
+        }
+        .category-hero h1 {
+            font-size: clamp(var(--text-3xl), 6vw, var(--text-5xl));
+            font-weight: 800;
+            margin-bottom: var(--space-lg);
+        }
+        .category-hero p {
+            font-size: var(--text-lg);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+        .tools-filter {
+            display: flex;
+            gap: var(--space-sm);
+            flex-wrap: wrap;
+            margin-bottom: var(--space-2xl);
+        }
+        .filter-btn {
+            padding: var(--space-sm) var(--space-lg);
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-full);
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--gradient-primary);
+            border-color: transparent;
+            color: var(--bg-primary);
+        }
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--space-lg);
+        }
+        .tool-card-full {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            transition: all var(--transition-normal);
+        }
+        .tool-card-full:hover {
+            transform: translateY(-5px);
+            border-color: var(--border-color-hover);
+            box-shadow: var(--shadow-glow);
+        }
+        .tool-card-header {
+            padding: var(--space-xl);
+            background: var(--bg-tertiary);
+            display: flex;
+            align-items: center;
+            gap: var(--space-lg);
+        }
+        .tool-logo-large {
+            width: 72px;
+            height: 72px;
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: var(--text-2xl);
+            color: white;
+            background-size: 60% !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+        }
+        .tool-logo-large.synthesia { background: url('../../images/logos/video/synthesia.png') center/60% no-repeat, linear-gradient(135deg, #6366F1, #4F46E5); }
+        .tool-logo-large.heygen { background: url('../../images/logos/video/heygen.png') center/60% no-repeat, linear-gradient(135deg, #3B82F6, #2563EB); }
+        .tool-logo-large.runway { background: url('../../images/logos/video/runway.png') center/60% no-repeat, linear-gradient(135deg, #000000, #1F2937); }
+        .tool-logo-large.descript { background: url('../../images/logos/video/descript.png') center/60% no-repeat, linear-gradient(135deg, #7C3AED, #6D28D9); }
+        .tool-logo-large.pictory { background: url('../../images/logos/video/pictory.png') center/60% no-repeat, linear-gradient(135deg, #10B981, #059669); }
+        .tool-logo-large.invideo { background: url('../../images/logos/video/invideo.png') center/60% no-repeat, linear-gradient(135deg, #F97316, #EA580C); }
+        .tool-logo-large.lumen5 { background: url('../../images/logos/video/lumen5.png') center/60% no-repeat, linear-gradient(135deg, #8B5CF6, #7C3AED); }
+        .tool-logo-large.kapwing { background: url('../../images/logos/video/kapwing.png') center/60% no-repeat, linear-gradient(135deg, #EC4899, #DB2777); }
+        .tool-header-info h3 {
+            font-size: var(--text-xl);
+            font-weight: 700;
+            margin-bottom: var(--space-xs);
+        }
+        .tool-header-info .company {
+            font-size: var(--text-sm);
+            color: var(--text-tertiary);
+        }
+        .tool-card-body {
+            padding: var(--space-xl);
+        }
+        .tool-description {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--space-lg);
+        }
+        .tool-features-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-lg);
+        }
+        .feature-tag {
+            padding: var(--space-xs) var(--space-sm);
+            background: rgba(0, 217, 255, 0.1);
+            border-radius: var(--radius-sm);
+            font-size: var(--text-xs);
+            color: var(--accent-primary);
+        }
+        .tool-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-md);
+            padding: var(--space-lg);
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--space-lg);
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-value {
+            font-size: var(--text-lg);
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .stat-label {
+            font-size: var(--text-xs);
+            color: var(--text-tertiary);
+        }
+        .tool-pricing-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-md) 0;
+            border-top: 1px solid var(--border-color);
+        }
+        .pricing-info {
+            display: flex;
+            align-items: baseline;
+            gap: var(--space-sm);
+        }
+        .pricing-info .price {
+            font-size: var(--text-xl);
+            font-weight: 700;
+            color: var(--accent-primary);
+        }
+        .pricing-info .period {
+            font-size: var(--text-sm);
+            color: var(--text-tertiary);
+        }
+        .tool-actions {
+            display: flex;
+            gap: var(--space-sm);
+        }
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-lg);
+            margin: var(--space-lg) 0;
+        }
+        .pros h4, .cons h4 {
+            font-size: var(--text-sm);
+            font-weight: 600;
+            margin-bottom: var(--space-sm);
+        }
+        .pros h4 { color: var(--accent-tertiary); }
+        .cons h4 { color: var(--accent-error); }
+        .pros ul li, .cons ul li {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            padding: var(--space-xs) 0;
+            padding-left: var(--space-lg);
+            position: relative;
+        }
+        .pros ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-tertiary);
+        }
+        .cons ul li::before {
+            content: '✗';
+            position: absolute;
+            left: 0;
+            color: var(--accent-error);
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--space-2xl) 0;
+        }
+        .comparison-table th, .comparison-table td {
+            padding: var(--space-md);
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .comparison-table th {
+            font-weight: 600;
+            color: var(--text-primary);
+            background: var(--bg-tertiary);
+        }
+        .comparison-table td {
+            color: var(--text-secondary);
+        }
+        .check-icon { color: var(--accent-tertiary); }
+        .cross-icon { color: var(--accent-error); }
+        .hero-badge svg {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        @media (max-width: 768px) {
+            .tools-grid { grid-template-columns: 1fr; }
+            .pros-cons { grid-template-columns: 1fr; }
+            .tool-stats { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="neural-bg"></canvas>
+    <div id="particles-container"></div>
+
+    <!-- Navigation (same as index) -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="18" stroke="url(#logoGradient)" stroke-width="2"/>
+                        <circle cx="20" cy="20" r="8" fill="url(#logoGradient)"/>
+                        <defs>
+                            <linearGradient id="logoGradient" x1="0" y1="0" x2="40" y2="40">
+                                <stop offset="0%" stop-color="#00D9FF"/>
+                                <stop offset="100%" stop-color="#7C3AED"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span class="logo-text">Genuis<span class="highlight">Net</span>.ai</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active">Categories</a></li>
+                <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+                <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+                <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Category Hero -->
+    <header class="category-hero">
+        <div class="container">
+            <div class="category-hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#FB923C" stroke-width="2" style="filter: drop-shadow(0 0 6px #FB923C);"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></span>
+                    <span>8 Tools Reviewed</span>
+                </div>
+                <h1>Best AI Video Tools</h1>
+                <p>Discover the most powerful AI video generation and editing tools. From AI avatar videos with Synthesia and HeyGen to cutting-edge video AI with Runway and Descript — find the perfect tool to create stunning videos effortlessly.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tools Section -->
+    <section class="section">
+        <div class="container">
+            <!-- Filters -->
+            <div class="tools-filter">
+                <button class="filter-btn active">All Tools</button>
+                <button class="filter-btn">Free Tier</button>
+                <button class="filter-btn">Best for Avatars</button>
+                <button class="filter-btn">Best for Editing</button>
+                <button class="filter-btn">Text to Video</button>
+            </div>
+
+            <!-- Tools Grid -->
+            <div class="tools-grid">
+                <!-- Synthesia -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large synthesia"></div>
+                        <div class="tool-header-info">
+                            <h3>Synthesia</h3>
+                            <span class="company">AI Avatar Videos</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-popular">Most Popular</span>
+                                <span class="badge badge-rating">4.7 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Synthesia is the leading AI video platform that turns text into professional videos featuring realistic AI avatars. Create training videos, marketing content, and presentations in 120+ languages without cameras or actors.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">140+ AI Avatars</span>
+                            <span class="feature-tag">120+ Languages</span>
+                            <span class="feature-tag">Custom Avatars</span>
+                            <span class="feature-tag">Video Templates</span>
+                            <span class="feature-tag">Screen Recorder</span>
+                            <span class="feature-tag">Brand Kit</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">140+</div>
+                                <div class="stat-label">AI Avatars</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">120+</div>
+                                <div class="stat-label">Languages</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">50K+</div>
+                                <div class="stat-label">Companies</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Most realistic AI avatars</li>
+                                    <li>Extensive language support</li>
+                                    <li>Professional templates</li>
+                                    <li>Easy to use interface</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>No free tier</li>
+                                    <li>Expensive for individuals</li>
+                                    <li>Limited editing capabilities</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">From $22/mo</span>
+                                <span class="period">Starter / Creator / Enterprise</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/video/synthesia.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://www.synthesia.io/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Synthesia →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- HeyGen -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large heygen"></div>
+                        <div class="tool-header-info">
+                            <h3>HeyGen</h3>
+                            <span class="company">AI Video Generation</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-new">Free Trial</span>
+                                <span class="badge badge-rating">4.6 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            HeyGen is an innovative AI video platform that creates engaging videos with customizable AI avatars. Perfect for marketing, sales, training, and social media content with powerful lip-sync and voice cloning technology.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">100+ Avatars</span>
+                            <span class="feature-tag">Voice Cloning</span>
+                            <span class="feature-tag">Video Translation</span>
+                            <span class="feature-tag">Custom Avatars</span>
+                            <span class="feature-tag">API Access</span>
+                            <span class="feature-tag">40+ Languages</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">100+</div>
+                                <div class="stat-label">AI Avatars</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">40+</div>
+                                <div class="stat-label">Languages</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">1M+</div>
+                                <div class="stat-label">Users</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Free trial available</li>
+                                    <li>Voice cloning included</li>
+                                    <li>Fast video generation</li>
+                                    <li>Great for marketing videos</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Free tier limited</li>
+                                    <li>Fewer avatars than Synthesia</li>
+                                    <li>Occasional sync issues</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $24/mo Creator / $72/mo Business</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/video/heygen.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://www.heygen.com/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Runway -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large runway"></div>
+                        <div class="tool-header-info">
+                            <h3>Runway</h3>
+                            <span class="company">Gen-2 Video AI</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-popular">Top Rated</span>
+                                <span class="badge badge-rating">4.8 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Runway is a cutting-edge AI video platform featuring Gen-2 text-to-video and advanced video editing tools. Used by filmmakers and creators for AI-powered effects, motion tracking, and generative video creation.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">Gen-2 Text to Video</span>
+                            <span class="feature-tag">Image to Video</span>
+                            <span class="feature-tag">Motion Tracking</span>
+                            <span class="feature-tag">Green Screen</span>
+                            <span class="feature-tag">Inpainting</span>
+                            <span class="feature-tag">30+ AI Tools</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">30+</div>
+                                <div class="stat-label">AI Tools</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">Gen-2</div>
+                                <div class="stat-label">Latest Model</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">8M+</div>
+                                <div class="stat-label">Creators</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Most advanced video AI</li>
+                                    <li>Text and image to video</li>
+                                    <li>Professional-grade tools</li>
+                                    <li>Constant innovation</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Steep learning curve</li>
+                                    <li>Credits run out quickly</li>
+                                    <li>Generation can be slow</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $12/mo Standard / $28/mo Pro</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/video/runway.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://runwayml.com/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Descript -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large descript"></div>
+                        <div class="tool-header-info">
+                            <h3>Descript</h3>
+                            <span class="company">Video Editing with AI</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-creative">Best for Editing</span>
+                                <span class="badge badge-rating">4.6 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Descript revolutionizes video editing by letting you edit videos as easily as text documents. Features AI voice cloning, overdub, filler word removal, and automatic transcription for podcasters and content creators.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">Text-based Editing</span>
+                            <span class="feature-tag">Overdub (Voice Clone)</span>
+                            <span class="feature-tag">Filler Word Removal</span>
+                            <span class="feature-tag">Auto Transcription</span>
+                            <span class="feature-tag">Screen Recording</span>
+                            <span class="feature-tag">Studio Sound</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">1-Click</div>
+                                <div class="stat-label">Editing</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">AI Voice</div>
+                                <div class="stat-label">Cloning</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">100K+</div>
+                                <div class="stat-label">Creators</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Edit video like text</li>
+                                    <li>Excellent for podcasts</li>
+                                    <li>AI voice overdub</li>
+                                    <li>Automatic transcription</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Can be resource intensive</li>
+                                    <li>Learning curve for features</li>
+                                    <li>Export limits on free tier</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $12/mo Creator / $24/mo Pro</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/video/descript.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://www.descript.com/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Pictory -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large pictory"></div>
+                        <div class="tool-header-info">
+                            <h3>Pictory</h3>
+                            <span class="company">Text to Video</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-creative">Article to Video</span>
+                                <span class="badge badge-rating">4.4 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Pictory transforms long-form content into engaging short videos using AI. Convert articles, blog posts, and scripts into professional videos with stock footage, voiceovers, and captions automatically added.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">Article to Video</span>
+                            <span class="feature-tag">Script to Video</span>
+                            <span class="feature-tag">Auto Captions</span>
+                            <span class="feature-tag">AI Voiceovers</span>
+                            <span class="feature-tag">Stock Library</span>
+                            <span class="feature-tag">Video Highlights</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">3M+</div>
+                                <div class="stat-label">Stock Videos</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">Auto</div>
+                                <div class="stat-label">Captions</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">Fast</div>
+                                <div class="stat-label">Generation</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Great for repurposing content</li>
+                                    <li>Automatic captioning</li>
+                                    <li>Large stock library</li>
+                                    <li>Easy to use</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Limited customization</li>
+                                    <li>No free tier</li>
+                                    <li>Templates can feel generic</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">$19/mo</span>
+                                <span class="period">Standard / $39/mo Premium</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/video/pictory.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://pictory.ai/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Pictory →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- InVideo -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large invideo"></div>
+                        <div class="tool-header-info">
+                            <h3>InVideo</h3>
+                            <span class="company">AI Video Maker</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-new">Free Tier</span>
+                                <span class="badge badge-rating">4.5 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            InVideo is an AI-powered video creation platform with 5000+ templates for social media, marketing, and YouTube. Features text-to-video AI, automated voiceovers, and an intuitive drag-and-drop editor.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">5000+ Templates</span>
+                            <span class="feature-tag">Text to Video AI</span>
+                            <span class="feature-tag">Auto Subtitles</span>
+                            <span class="feature-tag">8M+ Media Library</span>
+                            <span class="feature-tag">Brand Presets</span>
+                            <span class="feature-tag">Collaboration</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">5000+</div>
+                                <div class="stat-label">Templates</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">8M+</div>
+                                <div class="stat-label">Media Assets</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">7M+</div>
+                                <div class="stat-label">Users</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Massive template library</li>
+                                    <li>Free tier available</li>
+                                    <li>Great for social media</li>
+                                    <li>Easy to learn</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Watermark on free plan</li>
+                                    <li>Can be overwhelming</li>
+                                    <li>Occasional rendering delays</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $15/mo Plus / $30/mo Max</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/video/invideo.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://invideo.io/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Lumen5 -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large lumen5"></div>
+                        <div class="tool-header-info">
+                            <h3>Lumen5</h3>
+                            <span class="company">Blog to Video</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-creative">Content Repurposing</span>
+                                <span class="badge badge-rating">4.4 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Lumen5 uses AI to transform blog posts and articles into engaging video content automatically. Perfect for content marketers looking to repurpose written content into social media videos quickly and easily.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">Blog to Video</span>
+                            <span class="feature-tag">AI Content Analysis</span>
+                            <span class="feature-tag">Drag & Drop Editor</span>
+                            <span class="feature-tag">Stock Media</span>
+                            <span class="feature-tag">Brand Kit</span>
+                            <span class="feature-tag">Auto-resize</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">AI</div>
+                                <div class="stat-label">Blog Analysis</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">Auto</div>
+                                <div class="stat-label">Storyboards</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">500K+</div>
+                                <div class="stat-label">Users</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Perfect for blog repurposing</li>
+                                    <li>Fast video creation</li>
+                                    <li>Brand customization</li>
+                                    <li>Great for marketing teams</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Limited free plan</li>
+                                    <li>Less creative control</li>
+                                    <li>Watermark on free tier</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $29/mo Basic / $79/mo Starter</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/video/lumen5.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://lumen5.com/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Kapwing -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large kapwing"></div>
+                        <div class="tool-header-info">
+                            <h3>Kapwing</h3>
+                            <span class="company">Online Video Editor</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-dev">All-in-One</span>
+                                <span class="badge badge-rating">4.5 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Kapwing is a collaborative online video editor with powerful AI tools including auto-subtitles, background removal, and smart cut. Perfect for teams creating content for TikTok, YouTube, and social media.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">Auto Subtitles</span>
+                            <span class="feature-tag">Background Removal</span>
+                            <span class="feature-tag">Smart Cut</span>
+                            <span class="feature-tag">Text to Video</span>
+                            <span class="feature-tag">Team Collaboration</span>
+                            <span class="feature-tag">Cloud-based</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">Cloud</div>
+                                <div class="stat-label">Based</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">Team</div>
+                                <div class="stat-label">Collaboration</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">10M+</div>
+                                <div class="stat-label">Users</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>No download needed</li>
+                                    <li>Great collaboration features</li>
+                                    <li>Auto subtitle accuracy</li>
+                                    <li>Regular new AI features</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Needs good internet</li>
+                                    <li>Free tier limited</li>
+                                    <li>Processing can be slow</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $16/mo Pro / $67/mo Business</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/video/kapwing.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://www.kapwing.com/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="section-header" style="margin-top: var(--space-4xl);">
+                <h2 class="section-title">Quick Comparison</h2>
+                <p class="section-subtitle">Compare all AI video tools at a glance</p>
+            </div>
+
+            <div style="overflow-x: auto;">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Tool</th>
+                            <th>Best For</th>
+                            <th>Starting Price</th>
+                            <th>Free Tier</th>
+                            <th>AI Avatars</th>
+                            <th>Text to Video</th>
+                            <th>Editing Tools</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Synthesia</strong></td>
+                            <td>AI Avatars</td>
+                            <td>From $22/mo</td>
+                            <td><span class="cross-icon">✗</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>HeyGen</strong></td>
+                            <td>Marketing Videos</td>
+                            <td>Free / $24/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Runway</strong></td>
+                            <td>Creative AI</td>
+                            <td>Free / $12/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Descript</strong></td>
+                            <td>Video Editing</td>
+                            <td>Free / $12/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pictory</strong></td>
+                            <td>Article to Video</td>
+                            <td>$19/mo</td>
+                            <td><span class="cross-icon">✗</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>InVideo</strong></td>
+                            <td>Social Media</td>
+                            <td>Free / $15/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Lumen5</strong></td>
+                            <td>Blog to Video</td>
+                            <td>Free / $29/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Kapwing</strong></td>
+                            <td>Collaboration</td>
+                            <td>Free / $16/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Categories -->
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Explore More</span>
+                <h2 class="section-title">Related Categories</h2>
+            </div>
+            <div class="categories-grid">
+                <a href="ai-image.html" class="category-card">
+                    <div class="category-icon"><span>🎨</span></div>
+                    <h3 class="category-title">AI Image</h3>
+                    <p class="category-desc">Generate stunning images with AI art tools.</p>
+                </a>
+                <a href="ai-writing.html" class="category-card">
+                    <div class="category-icon"><span>✍️</span></div>
+                    <h3 class="category-title">AI Writing</h3>
+                    <p class="category-desc">Content creation tools for blogs, marketing, and more.</p>
+                </a>
+                <a href="ai-productivity.html" class="category-card">
+                    <div class="category-icon"><span>⚡</span></div>
+                    <h3 class="category-title">AI Productivity</h3>
+                    <p class="category-desc">Automation and workflow optimization.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../../index.html" class="footer-logo">
+                        <span class="logo-text">Genuis<span class="highlight">Net</span>.ai</span>
+                    </a>
+                    <p class="footer-desc">Your trusted source for AI tool reviews, comparisons, and guides.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="ai-chatbots.html">AI Chatbots</a></li>
+                        <li><a href="ai-video.html">AI Video</a></li>
+                        <li><a href="ai-image.html">AI Image</a></li>
+                        <li><a href="ai-coding.html">AI Coding</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="../guides.html">Guides</a></li>
+                        <li><a href="../comparisons.html">Comparisons</a></li>
+                        <li><a href="../about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 GenuisNet.ai. All rights reserved.</p>
+                <p class="affiliate-notice">Some links may be affiliate links. We may earn a commission at no extra cost to you.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/i18n.js"></script>
+    <script src="../../js/animations.js"></script>
+    <script src="../../js/main.js"></script>
+</body>
+</html>

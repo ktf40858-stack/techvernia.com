@@ -1,0 +1,23 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad-gaming" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#A855F7;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#9333EA;stop-opacity:1" />
+        </linearGradient>
+        <filter id="glow-gaming">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Game Controller -->
+    <path d="M 35 50 Q 30 45 30 55 L 30 65 Q 30 75 40 75 L 50 75 Q 55 75 55 70 L 55 60 L 65 60 L 65 70 Q 65 75 70 75 L 80 75 Q 90 75 90 65 L 90 55 Q 90 45 85 50" stroke="url(#grad-gaming)" stroke-width="3" fill="none" filter="url(#glow-gaming)"/>
+    <!-- D-Pad -->
+    <line x1="38" y1="62" x2="48" y2="62" stroke="url(#grad-gaming)" stroke-width="2" filter="url(#glow-gaming)"/>
+    <line x1="43" y1="57" x2="43" y2="67" stroke="url(#grad-gaming)" stroke-width="2" filter="url(#glow-gaming)"/>
+    <!-- Buttons -->
+    <circle cx="75" cy="58" r="3" fill="url(#grad-gaming)" filter="url(#glow-gaming)"/>
+    <circle cx="82" cy="65" r="3" fill="url(#grad-gaming)" filter="url(#glow-gaming)"/>
+</svg>

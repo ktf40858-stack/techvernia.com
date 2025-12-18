@@ -1,0 +1,17 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad-productivity" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FACC15;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#EAB308;stop-opacity:1" />
+        </linearGradient>
+        <filter id="glow-productivity">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Lightning bolt -->
+    <path d="M 60 20 L 45 60 L 60 60 L 50 100 L 75 55 L 60 55 L 70 20 Z" fill="url(#grad-productivity)" filter="url(#glow-productivity)"/>
+</svg>

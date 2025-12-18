@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Viz.ai Logo -->
+  <rect width="200" height="200" rx="20" fill="#000000"/>
+
+  <!-- Letter Icon -->
+  <text x="100" y="115" font-family="Arial, sans-serif" font-size="80" font-weight="700" fill="#EF4444" text-anchor="middle">V</text>
+
+  <!-- Brand Text -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">VIZ.AI</text>
+
+  <!-- Accent -->
+  <circle cx="100" cy="50" r="8" fill="#EF4444" opacity="0.6"/>
+</svg>

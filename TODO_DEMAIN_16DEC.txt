@@ -1,0 +1,132 @@
+╔════════════════════════════════════════════════════════════════╗
+║           PLAN DE TRAVAIL - 16 DÉCEMBRE 2025                  ║
+╚════════════════════════════════════════════════════════════════╝
+
+📋 RÉSUMÉ DE AUJOURD'HUI (15 DÉCEMBRE):
+  ✅ Catégorie CHATBOTS complète (8 outils)
+  ✅ Catégorie WRITING complète (7 outils)
+     - Contenu: 489 clés traduites
+     - FAQ: 84 clés traduites
+     - Total: 5,157 traductions générées
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 OBJECTIFS POUR DEMAIN:
+
+1. Traiter la catégorie IMAGE
+2. Traiter la catégorie VIDEO
+3. Si le temps: traiter CODING ou SEO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 COMMANDES À EXÉCUTER:
+
+# 1. CRÉER UNE SAUVEGARDE (IMPORTANT!)
+cd "/home/komet/Desktop/Projekt/AI Tools"
+cp GenuisNet.ai/js/i18n.js GenuisNet.ai/js/i18n.js.backup-20251216
+
+# 2. TESTER LE SCRIPT
+./test_script.sh
+
+# 3. TRAITER LA CATÉGORIE IMAGE
+python3 process_category.py image
+
+# 4. VÉRIFIER LE RÉSULTAT
+cd GenuisNet.ai/js
+node -c i18n.js
+
+# 5. TESTER DANS LE NAVIGATEUR
+# - Ouvrir GenuisNet.ai/pages/reviews/image/<un-fichier>.html
+# - Vider le cache (Ctrl+Shift+Del)
+# - Recharger (Ctrl+F5)
+# - Changer de langue et vérifier
+
+# 6. SI OK, CONTINUER AVEC VIDEO
+python3 process_category.py video
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📂 FICHIERS CRÉÉS AUJOURD'HUI:
+
+1. process_category.py
+   → Script automatique de traduction
+
+2. GUIDE_TRADUCTION_CATEGORIE.md
+   → Documentation complète
+
+3. test_script.sh
+   → Script de vérification
+
+4. TODO_DEMAIN_16DEC.txt (ce fichier)
+   → Plan de travail
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚙️ LE SCRIPT AUTOMATIQUE FAIT:
+
+✅ Extraction des FAQ
+✅ Ajout de data-i18n aux FAQ
+✅ Extraction du contenu existant
+✅ Génération des traductions (9 langues)
+✅ Injection dans i18n.js
+✅ Vérification de la syntaxe
+
+Temps estimé: 3-10 minutes par catégorie
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 PROGRESSION GLOBALE:
+
+CATÉGORIES:
+  ✅ chatbots (8 outils)
+  ✅ writing (7 outils)
+  ⬜ image
+  ⬜ video
+  ⬜ coding
+  ⬜ seo
+  ⬜ productivity
+  ⬜ sales (16 outils)
+  ⬜ customer-service (15 outils)
+  ⬜ analytics (15 outils)
+  ⬜ ... 18 catégories restantes
+
+TOTAL: 2/23 catégories terminées (9%)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔥 CONSEILS IMPORTANTS:
+
+1. TOUJOURS créer une sauvegarde avant de traiter une catégorie
+2. Vider le cache du navigateur pour tester
+3. Si erreur de syntaxe: restaurer la sauvegarde
+4. Le script peut prendre 5-10 minutes, c'est normal
+5. Les fichiers de traduction sont sauvegardés dans:
+   - /tmp/CATEGORY_all_data.json
+   - CATEGORY_translations.json
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📞 EN CAS DE PROBLÈME:
+
+1. Syntaxe invalide après traitement:
+   cp GenuisNet.ai/js/i18n.js.backup-20251216 GenuisNet.ai/js/i18n.js
+
+2. Script plante:
+   - Vérifier les logs
+   - Les traductions partielles sont dans CATEGORY_translations.json
+
+3. Besoin d'aide:
+   - Lire GUIDE_TRADUCTION_CATEGORIE.md
+   - Vérifier avec ./test_script.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 BONNE CHANCE!
+
+Pour commencer demain, exécutez simplement:
+
+  cd "/home/komet/Desktop/Projekt/AI Tools"
+  ./test_script.sh
+  python3 process_category.py image
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

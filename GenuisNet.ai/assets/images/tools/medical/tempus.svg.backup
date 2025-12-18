@@ -1,0 +1,750 @@
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="3keYX3UHjKAf6MpCMCUzvw5dargjpEzXU9jLW1ElVgg" />
+    <meta name="facebook-domain-verification" content="bg82balkk2cmp9osolnfmsi64vafjh" />
+
+      <!-- OneTrust Cookies Consent Notice start for www.tempus.com -->
+    <script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" src="https://cdn.cookielaw.org/consent/a7448ce5-71a8-4c59-a558-c6127a81da9b/OtAutoBlock.js"></script>
+    <script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="a7448ce5-71a8-4c59-a558-c6127a81da9b"></script>
+    <!-- OneTrust Cookies Consent Notice end for www.tempus.com -->
+  
+  <!-- Google Tag Manager -->
+  <script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5">
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!=='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
+      n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-599P97K');
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!=='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
+      n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-54THMLD');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" src="https://player.vimeo.com/api/player.js"></script>
+
+  <script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript">
+    var ajaxurl = "https://www.tempus.com/wp-admin/admin-ajax.php";
+  </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="https://www.tempus.com/wp-content/uploads/2023/04/t1_trim.mp4" as="video" type="video/mp4" crossorigin>
+    <link rel="preload" href="https://www.tempus.com/wp-content/uploads/2021/01/DataOrb_Loop-1-4.mp4" as="video" type="video/mp4" crossorigin>
+    <link rel="preload" href="https://www.tempus.com/wp-content/uploads/2018/06/Homepage-Compressed.mp4" as="video" type="video/mp4" crossorigin>
+    <link rel="preload" href="https://www.tempus.com/wp-content/uploads/2018/06/compressed-Vid1.webm" as="video" type="video/webm" crossorigin>
+
+    <meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v26.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - Tempus</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - Tempus" />
+	<meta property="og:site_name" content="Tempus" />
+	<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.tempus.com/#website","url":"https://www.tempus.com/","name":"Tempus","description":"AI-enabled precision medicine","publisher":{"@id":"https://www.tempus.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.tempus.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.tempus.com/#organization","name":"Tempus","url":"https://www.tempus.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.tempus.com/#/schema/logo/image/","url":"https://www.tempus.com/wp-content/uploads/2018/05/tempus-logo.png","contentUrl":"https://www.tempus.com/wp-content/uploads/2018/05/tempus-logo.png","width":506,"height":75,"caption":"Tempus"},"image":{"@id":"https://www.tempus.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/tempuslabs/","https://x.com/tempuslabs","https://www.linkedin.com/company/tempus-health/","https://www.youtube.com/channel/UCRGse_Ebap2YFG0dog7uSaA?view_as=subscriber"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.tempus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=575c105a9829ca1e4e667c96719e75a3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.tempus.com/wp-includes/css/dist/block-library/style.min.css?ver=575c105a9829ca1e4e667c96719e75a3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wppopups-pro-css' href='https://www.tempus.com/wp-content/plugins/wppopups/pro/assets/css/wppopups.css?ver=2.2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wppopups-base-css' href='https://www.tempus.com/wp-content/plugins/wppopups/src/assets/css/wppopups-base.css?ver=2.2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='sage/css-css' href='https://www.tempus.com/wp-content/themes/tempus-theme/dist/styles/main.css?ver=1761845307' type='text/css' media='all' />
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" src="https://www.tempus.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" src="https://www.tempus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" src="https://www.tempus.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" src="https://www.tempus.com/wp-content/plugins/svg-support/vendor/DOMPurify/DOMPurify.min.js?ver=2.5.8" id="bodhi-dompurify-library-js"></script>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" id="bodhi_svg_inline-js-extra">
+/* <![CDATA[ */
+var svgSettings = {"skipNested":""};
+/* ]]> */
+</script>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" src="https://www.tempus.com/wp-content/plugins/svg-support/js/min/svgs-inline-min.js" id="bodhi_svg_inline-js"></script>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" id="bodhi_svg_inline-js-after">
+/* <![CDATA[ */
+cssTarget={"Bodhi":"img.style-svg","ForceInlineSVG":"style-svg"};ForceInlineSVGActive="false";frontSanitizationEnabled="on";
+/* ]]> */
+</script>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" id="wppopups-pro-js-js-extra">
+/* <![CDATA[ */
+var wppopups_pro_vars = {"enable_stats":"1","m_id":"","data_sampling":"","post_id":"0","l18n":{"wait":"Please wait","seconds":"seconds"}};
+/* ]]> */
+</script>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" src="https://www.tempus.com/wp-content/plugins/wppopups/pro/assets/js/wppopups.js?ver=2.2.0.3" id="wppopups-pro-js-js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.tempus.com/xmlrpc.php?rsd" />
+
+<!-- Stream WordPress user activity plugin v4.1.1 -->
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://www.tempus.com/wp-content/uploads/2018/06/cropped-TempusFavicon-1-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.tempus.com/wp-content/uploads/2018/06/cropped-TempusFavicon-1.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.tempus.com/wp-content/uploads/2018/06/cropped-TempusFavicon-1.png" />
+<meta name="msapplication-TileImage" content="https://www.tempus.com/wp-content/uploads/2018/06/cropped-TempusFavicon-1.png" />
+		<style type="text/css" id="wp-custom-css">
+			.grecaptcha-badge {
+	visibility: hidden;
+	opacity: 0;
+}
+@media only screen and (max-width: 580px) and (min-width: 1px) {
+  .page-template-template-patients-new .lab-section .row {
+      padding: 0;
+  }
+}
+.sitemap-container li {
+    display: block;
+}
+button.js-hamburger span{
+  display: none;
+}
+.access-st span{
+  display: none;
+}
+.access-st label {
+  display: none!important;
+}
+iframe {
+  border: 0!important;
+}
+.page-crumb {
+  color: #000;
+}
+
+.page-crumb.black {
+	color: #000;
+}
+.page-crumb.white {
+	color: #fff;
+}
+.page-template-template-tempus-one { background: #000;
+}		</style>
+		</head>
+  <body class="error404 wp-theme-tempus-theme  show-banner sticky-banner">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-599P97K"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54THMLD"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    
+      <div class="announcement-banner tempus-one">
+    <button class="close"></button>
+        <a target="_blank" href="https://www.tempus.com/oncology/genomic-profiling/xm/">
+    
+      <div class="image-holder">
+                      </div>
+
+              <span class="desktop-text">
+          NEW MRD MEDICARE COVERAGE FOR SELECT INDICATIONS ///                      <em>LEARN MORE</em>
+                  </span>
+      
+              <span class="mobile-text">
+          NEW MRD MEDICARE COVERAGE FOR SELECT INDICATIONS /// LEARN MORE        </span>
+          </a>
+  </div>
+  
+    
+    <div id="shell" class="shell ">
+      <header id="header" class="header page-top">
+  <div class="brand">
+    <a href="/" class="logo">Tempus</a>
+    <div class="navigation-drop">
+      <div class="main-navigation">
+        <ul class="main-navigation-list">
+          <li class="acc-holder">
+            <a class="acc-opener nav-link-top" href="https://www.tempus.com/providers/">PROVIDERS<i class="acc-ico">
+                        <svg class="plus" width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.99992 1.33325L4.99992 9.66659M9.16659 5.49992L0.833252 5.49992" stroke="white" stroke-width="1.66667" stroke-linecap="round"/>
+                        </svg>
+                        <svg class="cross" width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.94627 1.55372L1.05371 7.44627M6.94629 7.44627L1.05374 1.55371" stroke="white" stroke-width="1.66667" stroke-linecap="round"/>
+                        </svg>
+                      </i>
+                    </a>            <div class="sub-navigation-drop">
+              <div class="left-navigation-column">
+                <ul id="menu-1-0-providers" class="main-navigation-item nav-item-1"><li id="menu-item-8146" class="landing menu-item menu-item-type-post_type menu-item-object-page menu-item-8146"><a href="https://www.tempus.com/providers/" class="nav-link-lvl-0">Providers</a></li>
+<li id="menu-item-8147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8147"><a href="https://www.tempus.com/oncology/" class="nav-link-lvl-0">Oncology</a>
+<ul class="sub-menu">
+	<li id="menu-item-16385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16385"><a href="https://www.tempus.com/oncology/" class="nav-link-lvl-1">Oncology Overview</a></li>
+	<li id="menu-item-27758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27758"><a href="https://www.tempus.com/oncology/genomic-profiling/" class="nav-link-lvl-1">Genomic Profiling</a></li>
+	<li id="menu-item-16387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16387"><a href="https://www.tempus.com/oncology/algorithmic-tests/" class="nav-link-lvl-1">Algorithmic Tests</a></li>
+	<li id="menu-item-26855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26855"><a href="https://www.tempus.com/oncology/hub/" class="nav-link-lvl-1">Tempus Hub</a></li>
+	<li id="menu-item-36942" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36942"><a href="https://www.tempus.com/oncology/tempus-one/" class="nav-link-lvl-1">Tempus One</a></li>
+	<li id="menu-item-8998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8998"><a href="https://www.tempus.com/oncology/ehr-integration/" class="nav-link-lvl-1">EHR Integration</a></li>
+	<li id="menu-item-16392" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16392"><a href="https://www.tempus.com/oncology/tempus-plus/" class="nav-link-lvl-1">Tempus+</a></li>
+	<li id="menu-item-40733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40733"><a href="https://www.tempus.com/oncology/clinical-trial-matching/" class="nav-link-lvl-1">Clinical trial matching</a></li>
+	<li id="menu-item-16389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16389"><a href="https://www.tempus.com/pathology/" class="nav-link-lvl-1">Digital Pathology</a></li>
+	<li id="menu-item-24678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24678"><a href="https://www.tempus.com/oncology/care-pathway-solutions/" class="nav-link-lvl-1">Oncology Care Pathway Solutions</a></li>
+</ul>
+</li>
+<li id="menu-item-19395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19395"><a href="https://www.tempus.com/neurology-psychiatry/" class="nav-link-lvl-0">Neurology &#038; Psychiatry</a>
+<ul class="sub-menu">
+	<li id="menu-item-19397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19397"><a href="https://www.tempus.com/neurology-psychiatry/" class="nav-link-lvl-1">Neurology &#038; Psychiatry Overview</a></li>
+	<li id="menu-item-17658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17658"><a href="https://www.tempus.com/neurology-psychiatry/tempus-pro/" class="nav-link-lvl-1">Tempus PRO™</a></li>
+	<li id="menu-item-35532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35532"><a href="https://www.tempus.com/neurology-psychiatry/notetaker/" class="nav-link-lvl-1">Notetaker</a></li>
+</ul>
+</li>
+<li id="menu-item-35963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-35963"><a href="https://www.tempus.com/cardiology/" class="nav-link-lvl-0">Cardiology</a>
+<ul class="sub-menu">
+	<li id="menu-item-35964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35964"><a href="https://www.tempus.com/cardiology/" class="nav-link-lvl-1">Cardiology Overview</a></li>
+	<li id="menu-item-35967" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35967"><a href="#" class="nav-link-lvl-1">Solutions to Identify Underdiagnosed Patients</a>
+	<ul class="sub-menu">
+		<li id="menu-item-35966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35966"><a href="https://www.tempus.com/cardiology/ecg-ai/" class="nav-link-lvl-2">ECG-AI</a></li>
+		<li id="menu-item-35969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35969"><a href="https://www.tempus.com/radiology/tempus-pixel-cardio/" class="nav-link-lvl-2">Tempus Pixel Cardio</a></li>
+	</ul>
+</li>
+	<li id="menu-item-35968" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35968"><a href="#" class="nav-link-lvl-1">Solutions to Identify Undertreated Patients</a>
+	<ul class="sub-menu">
+		<li id="menu-item-35965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35965"><a href="https://www.tempus.com/cardiology/care-pathway-solutions/" class="nav-link-lvl-2">Cardiology Care Pathway Solutions</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-30289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30289"><a href="https://www.tempus.com/dermatology/" class="nav-link-lvl-0">Dermatology</a></li>
+<li id="menu-item-21706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21706"><a href="https://www.tempus.com/radiology/" class="nav-link-lvl-0">Radiology</a>
+<ul class="sub-menu">
+	<li id="menu-item-22376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22376"><a href="https://www.tempus.com/radiology/" class="nav-link-lvl-1">Radiology Overview</a></li>
+	<li id="menu-item-21707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21707"><a href="https://www.tempus.com/radiology/tempus-pixel-therapy-response-evaluation/" class="nav-link-lvl-1">Tempus Pixel Therapy Response Evaluation</a></li>
+	<li id="menu-item-21709" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21709"><a href="https://www.tempus.com/radiology/tempus-pixel-lung/" class="nav-link-lvl-1">Tempus Pixel Lung</a></li>
+	<li id="menu-item-21710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21710"><a href="https://www.tempus.com/radiology/tempus-pixel-breast/" class="nav-link-lvl-1">Tempus Pixel Breast</a></li>
+	<li id="menu-item-21711" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21711"><a href="https://www.tempus.com/radiology/tempus-pixel-cardio/" class="nav-link-lvl-1">Tempus Pixel Cardio</a></li>
+	<li id="menu-item-39253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39253"><a href="https://www.tempus.com/radiology/prostate/" class="nav-link-lvl-1">Tempus Pixel Prostate</a></li>
+</ul>
+</li>
+<li id="menu-item-8151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8151"><a href="https://www.tempus.com/research/" class="nav-link-lvl-0">Academic &#038; Research Centers</a></li>
+<li id="menu-item-16393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16393"><a href="https://www.tempus.com/oncology/ehr-integration/" class="nav-link-lvl-0">EHR Integration</a></li>
+</ul>              </div>
+              <div class="center-navigation-column">
+
+              </div>
+
+              
+                            <div class="featured-module">
+                  <div class="image-holder" style="background-image:url(https://www.tempus.com/wp-content/uploads/2025/09/Tempus_xM_MRD-white-paper.png)">
+                    <!-- Add link object with target -->
+                    <a href="https://www.tempus.com/oncology/genomic-profiling/xm/" target="_blank" class="link nav-link-featured">
+                    <svg width="75" height="74" viewBox="0 0 75 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.5,2h74 M72.5,2v72 M72.5,2L3.6,71.2" stroke="white" stroke-width="4"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="text-box">
+                    <a href="https://www.tempus.com/oncology/genomic-profiling/xm/" target="_blank" class="nav-link-featured">
+                      New MRD Medicare Coverage for Select Indications*                    </a>
+                    <p><i>*When coverage criteria are met. Additional criteria and exceptions for coverage may apply.</i></p>
+                </div>
+              </div>
+              
+            </div>
+          </li>
+          <li class="acc-holder">
+            <a class="acc-opener nav-link-top" href="https://www.tempus.com/life-sciences/">LIFE SCIENCES<i class="acc-ico">
+                        <svg class="plus" width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.99992 1.33325L4.99992 9.66659M9.16659 5.49992L0.833252 5.49992" stroke="white" stroke-width="1.66667" stroke-linecap="round"/>
+                        </svg>
+                        <svg class="cross" width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.94627 1.55372L1.05371 7.44627M6.94629 7.44627L1.05374 1.55371" stroke="white" stroke-width="1.66667" stroke-linecap="round"/>
+                        </svg>
+                      </i>
+                    </a>            <div class="sub-navigation-drop">
+              <div class="left-navigation-column">
+                <ul id="menu-2-0-life-sciences" class="main-navigation-item nav-item-2"><li id="menu-item-34941" class="landing menu-item menu-item-type-post_type menu-item-object-page menu-item-34941"><a href="https://www.tempus.com/life-sciences/" class="nav-link-lvl-0">Life Sciences</a></li>
+<li id="menu-item-34942" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34942"><a href="https://www.tempus.com/life-sciences/" class="nav-link-lvl-0">Life Sciences Overview</a></li>
+<li id="menu-item-35390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35390"><a href="https://www.tempus.com/life-sciences/research/" class="nav-link-lvl-0">Research</a></li>
+<li id="menu-item-35389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35389"><a href="https://www.tempus.com/life-sciences/clinical-development/" class="nav-link-lvl-0">Clinical Development</a></li>
+<li id="menu-item-35388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35388"><a href="https://www.tempus.com/life-sciences/commercialization/" class="nav-link-lvl-0">Commercialization</a></li>
+<li id="menu-item-34944" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-34944"><a href="#" class="nav-link-lvl-0">All Solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-20426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20426"><a href="https://www.tempus.com/life-sciences/sequencing/" class="nav-link-lvl-1">Sequencing</a></li>
+	<li id="menu-item-11554" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11554"><a href="https://www.tempus.com/life-sciences/real-world-data/" class="nav-link-lvl-1">RWD &#038; Tempus Lens</a></li>
+	<li id="menu-item-11555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11555"><a href="https://www.tempus.com/life-sciences/biological-modeling/" class="nav-link-lvl-1">Biological Modeling</a></li>
+	<li id="menu-item-24889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24889"><a href="https://www.tempus.com/life-sciences/cdx/" class="nav-link-lvl-1">Companion Diagnostics</a></li>
+	<li id="menu-item-16437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16437"><a href="https://www.tempus.com/life-sciences/omics-solutions/" class="nav-link-lvl-1">Omics Solutions</a></li>
+	<li id="menu-item-32847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32847"><a href="https://www.tempus.com/life-sciences/compass/" class="nav-link-lvl-1">CRO Services</a></li>
+	<li id="menu-item-32848" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32848"><a href="https://www.tempus.com/life-sciences/studies/" class="nav-link-lvl-1">Clinical Trials Execution</a></li>
+	<li id="menu-item-40734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40734"><a href="https://www.tempus.com/life-sciences/clinical-trial-enrollment/" class="nav-link-lvl-1">Clinical Trial Enrollment</a></li>
+	<li id="menu-item-34945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34945"><a href="https://www.tempus.com/life-sciences/studies/" class="nav-link-lvl-1">Tempus Studies</a></li>
+	<li id="menu-item-31464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31464"><a href="https://www.tempus.com/life-sciences/oncology-care-gap-solutions/" class="nav-link-lvl-1">Care Gap Solutions</a></li>
+	<li id="menu-item-34946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34946"><a href="https://www.tempus.com/life-sciences/algorithmic-tests/" class="nav-link-lvl-1">AI-enabled Algorithms</a></li>
+</ul>
+</li>
+</ul>              </div>
+              <div class="center-navigation-column">
+
+              </div>
+                            <div class="featured-module">
+                  <div class="image-holder" style="background-image:url(https://www.tempus.com/wp-content/uploads/2025/11/Tempus_Webinar-Banner_10.png)">
+                    <!-- Add link object with target -->
+                    <a href="https://go.tempus.com/2025-ai-apps-dct-webinar-registration.html?utm_source=website-nav&utm_medium=website&utm_campaign=DCT-webinar&utm_content=navbar    " target="_blank" class="link nav-link-featured">
+                    <svg width="75" height="74" viewBox="0 0 75 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.5,2h74 M72.5,2v72 M72.5,2L3.6,71.2" stroke="white" stroke-width="4"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="text-box">
+                    <a href="https://go.tempus.com/2025-ai-apps-dct-webinar-registration.html?utm_source=website-nav&utm_medium=website&utm_campaign=DCT-webinar&utm_content=navbar    " target="_blank" class="nav-link-featured">
+                      REGISTER NOW                    </a>
+                    <p><b>UPCOMING WEBINAR</b><br>Pioneering decentralized oncology trials: Success at the nation's largest community practices</p>
+                </div>
+              </div>
+                          </div>
+          </li>
+          <li class="acc-holder">
+            <a class="acc-opener nav-link-top" href="https://www.tempus.com/patients/">PATIENTS<i class="acc-ico">
+                        <svg class="plus" width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.99992 1.33325L4.99992 9.66659M9.16659 5.49992L0.833252 5.49992" stroke="white" stroke-width="1.66667" stroke-linecap="round"/>
+                        </svg>
+                        <svg class="cross" width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.94627 1.55372L1.05371 7.44627M6.94629 7.44627L1.05374 1.55371" stroke="white" stroke-width="1.66667" stroke-linecap="round"/>
+                        </svg>
+                      </i>
+                    </a>            <div class="sub-navigation-drop">
+              <div class="left-navigation-column">
+                <ul id="menu-3-0-patients" class="main-navigation-item nav-item-3"><li id="menu-item-28394" class="landing menu-item menu-item-type-post_type menu-item-object-page menu-item-28394"><a href="https://www.tempus.com/patients/" class="nav-link-lvl-0">Patients</a></li>
+<li id="menu-item-28412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28412"><a href="https://www.tempus.com/patients/" class="nav-link-lvl-0">Patients Overview</a></li>
+<li id="menu-item-28395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28395"><a href="https://www.tempus.com/patients/oncology/" class="nav-link-lvl-0">Oncology</a></li>
+<li id="menu-item-20613" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20613"><a href="https://www.tempus.com/ttct/" class="nav-link-lvl-0">Clinical Trials</a></li>
+<li id="menu-item-6091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6091"><a href="https://www.tempus.com/patients/neuro-psych/" class="nav-link-lvl-0">Neurology &#038; Psychiatry</a></li>
+</ul>              </div>
+              <div class="center-navigation-column">
+
+              </div>
+
+                            <div class="featured-module">
+                  <div class="image-holder" style="background-image:url(https://www.tempus.com/wp-content/uploads/2023/01/item3.jpeg)">
+                    <!-- Add link object with target -->
+                    <a href="https://www.tempus.com/#tempusvision" target="" class="link nav-link-featured">
+                    <svg width="75" height="74" viewBox="0 0 75 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.5,2h74 M72.5,2v72 M72.5,2L3.6,71.2" stroke="white" stroke-width="4"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="text-box">
+                    <a href="https://www.tempus.com/#tempusvision" target="" class="nav-link-featured">
+                      It's About Time                    </a>
+                    <p>View the Tempus vision.</p>
+                </div>
+              </div>
+                          </div>
+          </li>
+          <li class="acc-holder resources-item">
+            <a class="acc-opener nav-link-top" href="https://www.tempus.com/resources/">RESOURCES<i class="acc-ico">
+                        <svg class="plus" width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.99992 1.33325L4.99992 9.66659M9.16659 5.49992L0.833252 5.49992" stroke="white" stroke-width="1.66667" stroke-linecap="round"/>
+                        </svg>
+                        <svg class="cross" width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.94627 1.55372L1.05371 7.44627M6.94629 7.44627L1.05374 1.55371" stroke="white" stroke-width="1.66667" stroke-linecap="round"/>
+                        </svg>
+                      </i>
+                    </a>            <div class="sub-navigation-drop">
+              <div class="left-navigation-column">
+                <ul id="menu-4-0-resources" class="main-navigation-item nav-item-4"><li id="menu-item-16397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16397"><a href="https://www.tempus.com/resources/" class="nav-link-lvl-0">Resources</a></li>
+<li id="menu-item-16398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16398"><a href="https://www.tempus.com/publications/" class="nav-link-lvl-0">Publications</a>
+<ul class="sub-menu">
+	<li id="menu-item-16399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16399"><a href="https://www.tempus.com/publications/" class="nav-link-lvl-1">All</a></li>
+	<li id="menu-item-16400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16400"><a href="/publications/?post-search=&#038;filter=oncology" class="nav-link-lvl-1">Oncology</a></li>
+	<li id="menu-item-16401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16401"><a href="/publications/?post-search=&#038;filter=neuro-psych" class="nav-link-lvl-1">Neurology &#038; Psychiatry</a></li>
+	<li id="menu-item-16402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16402"><a href="/publications/?post-search=&#038;filter=cardiology" class="nav-link-lvl-1">Cardiology</a></li>
+	<li id="menu-item-16403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16403"><a href="/publications/?post-search=&#038;filter=infectious-disease" class="nav-link-lvl-1">Infectious Disease</a></li>
+</ul>
+</li>
+<li id="menu-item-16404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16404"><a href="/resources/content/" class="nav-link-lvl-0">Content</a>
+<ul class="sub-menu">
+	<li id="menu-item-16405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16405"><a href="/resources/content/" class="nav-link-lvl-1">All</a></li>
+	<li id="menu-item-16406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16406"><a href="/resources/content/?filter-tag=providers" class="nav-link-lvl-1">Providers</a></li>
+	<li id="menu-item-16408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16408"><a href="/resources/content/?filter-tag=life-sciences" class="nav-link-lvl-1">Life Sciences</a></li>
+</ul>
+</li>
+<li id="menu-item-18253" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18253"><a href="https://www.tempus.com/events/" class="nav-link-lvl-0">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-18254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18254"><a href="/events/" class="nav-link-lvl-1">All</a></li>
+	<li id="menu-item-18255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18255"><a href="https://www.tempus.com/events/?filter=providers&#038;post-search=" class="nav-link-lvl-1">Providers</a></li>
+	<li id="menu-item-18256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18256"><a href="https://www.tempus.com/events/?filter=life-sciences&#038;post-search=" class="nav-link-lvl-1">Life Sciences</a></li>
+</ul>
+</li>
+</ul>              </div>
+              <div class="center-navigation-column">
+
+              </div>
+
+                            <div class="featured-module">
+                  <div class="image-holder" style="background-image:url(https://www.tempus.com/wp-content/uploads/2023/01/item4.jpeg)">
+                    <!-- Add link object with target -->
+                    <a href="https://www.tempus.com/newsletter-signup/" target="" class="link nav-link-featured">
+                    <svg width="75" height="74" viewBox="0 0 75 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.5,2h74 M72.5,2v72 M72.5,2L3.6,71.2" stroke="white" stroke-width="4"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="text-box">
+                    <a href="https://www.tempus.com/newsletter-signup/" target="" class="nav-link-featured">
+                      STAY INFORMED                    </a>
+                    <p>Be notified whenever Tempus publishes new  research, webinars, and other resources.</p>
+                </div>
+              </div>
+                          </div>
+          </li>
+          <li class="acc-holder">
+            <a class="acc-opener nav-link-top" href="https://www.tempus.com/about-us/">ABOUT US<i class="acc-ico">
+                        <svg class="plus" width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4.99992 1.33325L4.99992 9.66659M9.16659 5.49992L0.833252 5.49992" stroke="white" stroke-width="1.66667" stroke-linecap="round"/>
+                        </svg>
+                        <svg class="cross" width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.94627 1.55372L1.05371 7.44627M6.94629 7.44627L1.05374 1.55371" stroke="white" stroke-width="1.66667" stroke-linecap="round"/>
+                        </svg>
+                      </i>
+                    </a>            <div class="sub-navigation-drop">
+              <div class="left-navigation-column">
+                <ul id="menu-5-0-about-us" class="main-navigation-item nav-item-5"><li id="menu-item-9144" class="landing menu-item menu-item-type-custom menu-item-object-custom menu-item-9144"><a href="/about-us/our-team/" class="nav-link-lvl-0">About Us</a></li>
+<li id="menu-item-20796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20796"><a href="https://www.tempus.com/about-us/our-history/" class="nav-link-lvl-0">Our History</a></li>
+<li id="menu-item-22708" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22708"><a href="https://www.tempus.com/about-us/tempus-tech/" class="nav-link-lvl-0">Our Technology</a></li>
+<li id="menu-item-6103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6103"><a href="https://www.tempus.com/about-us/our-team/" class="nav-link-lvl-0">Our Team</a></li>
+<li id="menu-item-24295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24295"><a href="https://www.tempus.com/about-us/careers/" class="nav-link-lvl-0">Careers</a></li>
+<li id="menu-item-6105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6105"><a href="https://www.tempus.com/about-us/culture/" class="nav-link-lvl-0">Culture</a></li>
+<li id="menu-item-9779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9779"><a href="https://www.tempus.com/news/" class="nav-link-lvl-0">News</a></li>
+</ul>              </div>
+              <div class="center-navigation-column">
+
+              </div>
+
+                            <div class="featured-module">
+                  <div class="image-holder" style="background-image:url(https://www.tempus.com/wp-content/uploads/2023/01/item5.jpeg)">
+                    <!-- Add link object with target -->
+                    <a href="https://www.tempus.com/job-postings/" target="" class="link nav-link-featured">
+                    <svg width="75" height="74" viewBox="0 0 75 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.5,2h74 M72.5,2v72 M72.5,2L3.6,71.2" stroke="white" stroke-width="4"/>
+                    </svg>
+                  </a>
+                </div>
+                <div class="text-box">
+                    <a href="https://www.tempus.com/job-postings/" target="" class="nav-link-featured">
+                      View Job Postings                    </a>
+                    <p>We’re looking for people who can change the world.</p>
+                </div>
+              </div>
+                          </div>
+          </li>
+          <li>
+            <a class="nav-link-top" href="https://investors.tempus.com/">INVESTORS
+                    </a>          </li>
+        </ul>
+      </div>
+      <div class="header-buttons-holder">
+                  <a href="/order/" class="btn" >ORDER A TEST</a>
+                          <a href="http://accounts.securetempus.com/" class="btn" >Log In</a>
+                          <a href="/contact-us/" class="btn info-btn" >Contact Us</a>
+              </div>
+      <button class="hamburger hamburger--boring">
+        <div class="hamburger-box">
+          <div class="hamburger-inner">
+            <span>Menu</span>
+          </div>
+        </div>
+      </button>
+    </div>
+    <button class="hamburger hamburger--boring">
+      <div class="hamburger-box">
+        <div class="hamburger-inner">
+          <span>Menu</span>
+        </div>
+      </div>
+    </button>
+  </div>
+</header>
+
+
+      <div id="hero" class="banner error-banner">
+
+      <section class="content-separator-component white md"></section>
+  
+      <section class="header-subpage-component ">
+      <div class="default-container">
+                              <h1 class="header-05">404 ERROR</h1>
+                                    <h2>Page Not Found</h2>
+                          <p>Please check your URL and try again</p>
+                          <a class="link-text-icon paragraph-02 bold" href="https://www.tempus.com">Return home</a>
+        
+        
+        
+    </section>
+  
+  <div id="hero-contact" class="banner contact-banner contact-page-banner">
+    <div class="row">
+        <div class="col-xs-12 col-md-5 col-lg-4">
+            <h1 class="header-02">Contact Us</h1>
+            <div class="phone-list">
+              <p><strong>Customer Service:</strong> <a href="tel:8007394137">800.739.4137</a></p>
+              <p>
+                                                                            Fax: 800.893.0276 or 708.575.1789                                                                    </p>
+            </div>
+            <p class="">Our customer service team is available from 7am - 7pm CST, Monday - Friday<br /><a
+                    href="mailto:" target="_blank"></a></p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="section form-section">
+              <div><script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" src="//go.tempus.com/js/forms2/js/forms2.min.js"></script></div>
+<form id="mktoForm_1975" class="default-marketo-form"></form>
+<div><script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5">MktoForms2.loadForm("//go.tempus.com", "833-QRC-346", 1975);</script></div>
+<div><script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5">
+MktoForms2.whenReady(function (form){
+ form.onSuccess(function(values, followUpUrl){
+  form.getFormElem().hide();
+  document.getElementById('confirmForm').style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  return false;
+ });
+});
+</script></div>
+<p id="confirmForm" style="display: none; font-family: nolan_nextregular; margin: 60px 0 0 0; font-size: 24px; line-height: 31.2px; padding: 0; text-align: center;">Thank you for contacting Tempus. We will respond shortly.</p>
+              <div class="emails">
+                                </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+</div>
+
+
+      <footer id="footer" class="footer">
+
+  
+  <div class="footer-wrap">
+        <div class="left-box">
+              <div class="footer-btn">
+                      <a href="/order/" class="btn" >ORDER A TEST</a>
+                                <a href="http://accounts.securetempus.com/" class="btn" >Log In</a>
+                                <a href="/contact-us/" class="btn info-btn" >Contact Us</a>
+                  </div>
+            <ul class="social">
+                  <li class="linkedin">
+            <a class="access-st" href="https://www.linkedin.com/company/tempusai" target="_blank">Linkedin<span> Opens a new window</span></a>
+          </li>
+                          <li class="twitter">
+            <a class="access-st" href="https://twitter.com/TempusAI" target="_blank">Twitter<span> Opens a new window</span></a>
+          </li>
+                          <li class="youtube">
+            <a class="access-st" href="https://www.youtube.com/@Tempus_AI" target="_blank">YouTube<span> Opens a new window</span></a>
+          </li>
+                          <li class="instagram">
+            <a class="access-st" href="https://www.instagram.com/tempus.ai" target="_blank">Instagram<span> Opens a new window</span></a>
+          </li>
+              </ul>
+    </div>
+    <div class="right-box nav-footer">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="menu-1-0-providers-container"><ul id="menu-1-0-providers-1" class="secondary-nav nav-1"><li class="landing menu-item menu-item-type-post_type menu-item-object-page menu-item-8146"><a href="https://www.tempus.com/providers/" class="nav-link-lvl-0">Providers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8147"><a href="https://www.tempus.com/oncology/" class="nav-link-lvl-0">Oncology</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16385"><a href="https://www.tempus.com/oncology/" class="nav-link-lvl-1">Oncology Overview</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27758"><a href="https://www.tempus.com/oncology/genomic-profiling/" class="nav-link-lvl-1">Genomic Profiling</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16387"><a href="https://www.tempus.com/oncology/algorithmic-tests/" class="nav-link-lvl-1">Algorithmic Tests</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26855"><a href="https://www.tempus.com/oncology/hub/" class="nav-link-lvl-1">Tempus Hub</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36942"><a href="https://www.tempus.com/oncology/tempus-one/" class="nav-link-lvl-1">Tempus One</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8998"><a href="https://www.tempus.com/oncology/ehr-integration/" class="nav-link-lvl-1">EHR Integration</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16392"><a href="https://www.tempus.com/oncology/tempus-plus/" class="nav-link-lvl-1">Tempus+</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40733"><a href="https://www.tempus.com/oncology/clinical-trial-matching/" class="nav-link-lvl-1">Clinical trial matching</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16389"><a href="https://www.tempus.com/pathology/" class="nav-link-lvl-1">Digital Pathology</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24678"><a href="https://www.tempus.com/oncology/care-pathway-solutions/" class="nav-link-lvl-1">Oncology Care Pathway Solutions</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19395"><a href="https://www.tempus.com/neurology-psychiatry/" class="nav-link-lvl-0">Neurology &#038; Psychiatry</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19397"><a href="https://www.tempus.com/neurology-psychiatry/" class="nav-link-lvl-1">Neurology &#038; Psychiatry Overview</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17658"><a href="https://www.tempus.com/neurology-psychiatry/tempus-pro/" class="nav-link-lvl-1">Tempus PRO™</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35532"><a href="https://www.tempus.com/neurology-psychiatry/notetaker/" class="nav-link-lvl-1">Notetaker</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-35963"><a href="https://www.tempus.com/cardiology/" class="nav-link-lvl-0">Cardiology</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35964"><a href="https://www.tempus.com/cardiology/" class="nav-link-lvl-1">Cardiology Overview</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35967"><a href="#" class="nav-link-lvl-1">Solutions to Identify Underdiagnosed Patients</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35966"><a href="https://www.tempus.com/cardiology/ecg-ai/" class="nav-link-lvl-2">ECG-AI</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35969"><a href="https://www.tempus.com/radiology/tempus-pixel-cardio/" class="nav-link-lvl-2">Tempus Pixel Cardio</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-35968"><a href="#" class="nav-link-lvl-1">Solutions to Identify Undertreated Patients</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35965"><a href="https://www.tempus.com/cardiology/care-pathway-solutions/" class="nav-link-lvl-2">Cardiology Care Pathway Solutions</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30289"><a href="https://www.tempus.com/dermatology/" class="nav-link-lvl-0">Dermatology</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21706"><a href="https://www.tempus.com/radiology/" class="nav-link-lvl-0">Radiology</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22376"><a href="https://www.tempus.com/radiology/" class="nav-link-lvl-1">Radiology Overview</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21707"><a href="https://www.tempus.com/radiology/tempus-pixel-therapy-response-evaluation/" class="nav-link-lvl-1">Tempus Pixel Therapy Response Evaluation</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21709"><a href="https://www.tempus.com/radiology/tempus-pixel-lung/" class="nav-link-lvl-1">Tempus Pixel Lung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21710"><a href="https://www.tempus.com/radiology/tempus-pixel-breast/" class="nav-link-lvl-1">Tempus Pixel Breast</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21711"><a href="https://www.tempus.com/radiology/tempus-pixel-cardio/" class="nav-link-lvl-1">Tempus Pixel Cardio</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39253"><a href="https://www.tempus.com/radiology/prostate/" class="nav-link-lvl-1">Tempus Pixel Prostate</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8151"><a href="https://www.tempus.com/research/" class="nav-link-lvl-0">Academic &#038; Research Centers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16393"><a href="https://www.tempus.com/oncology/ehr-integration/" class="nav-link-lvl-0">EHR Integration</a></li>
+</ul></div>        </div>
+        <div class="col-xs-4">
+          <div class="menu-2-0-life-sciences-container"><ul id="menu-2-0-life-sciences-1" class="secondary-nav nav-1"><li class="landing menu-item menu-item-type-post_type menu-item-object-page menu-item-34941"><a href="https://www.tempus.com/life-sciences/" class="nav-link-lvl-0">Life Sciences</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34942"><a href="https://www.tempus.com/life-sciences/" class="nav-link-lvl-0">Life Sciences Overview</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35390"><a href="https://www.tempus.com/life-sciences/research/" class="nav-link-lvl-0">Research</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35389"><a href="https://www.tempus.com/life-sciences/clinical-development/" class="nav-link-lvl-0">Clinical Development</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35388"><a href="https://www.tempus.com/life-sciences/commercialization/" class="nav-link-lvl-0">Commercialization</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-34944"><a href="#" class="nav-link-lvl-0">All Solutions</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20426"><a href="https://www.tempus.com/life-sciences/sequencing/" class="nav-link-lvl-1">Sequencing</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11554"><a href="https://www.tempus.com/life-sciences/real-world-data/" class="nav-link-lvl-1">RWD &#038; Tempus Lens</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11555"><a href="https://www.tempus.com/life-sciences/biological-modeling/" class="nav-link-lvl-1">Biological Modeling</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24889"><a href="https://www.tempus.com/life-sciences/cdx/" class="nav-link-lvl-1">Companion Diagnostics</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16437"><a href="https://www.tempus.com/life-sciences/omics-solutions/" class="nav-link-lvl-1">Omics Solutions</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32847"><a href="https://www.tempus.com/life-sciences/compass/" class="nav-link-lvl-1">CRO Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32848"><a href="https://www.tempus.com/life-sciences/studies/" class="nav-link-lvl-1">Clinical Trials Execution</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40734"><a href="https://www.tempus.com/life-sciences/clinical-trial-enrollment/" class="nav-link-lvl-1">Clinical Trial Enrollment</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34945"><a href="https://www.tempus.com/life-sciences/studies/" class="nav-link-lvl-1">Tempus Studies</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31464"><a href="https://www.tempus.com/life-sciences/oncology-care-gap-solutions/" class="nav-link-lvl-1">Care Gap Solutions</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34946"><a href="https://www.tempus.com/life-sciences/algorithmic-tests/" class="nav-link-lvl-1">AI-enabled Algorithms</a></li>
+</ul>
+</li>
+</ul></div>        </div>
+        <div class="col-xs-4">
+          <div class="menu-3-0-patients-container"><ul id="menu-3-0-patients-1" class="secondary-nav nav-2"><li class="landing menu-item menu-item-type-post_type menu-item-object-page menu-item-28394"><a href="https://www.tempus.com/patients/" class="nav-link-lvl-0">Patients</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28412"><a href="https://www.tempus.com/patients/" class="nav-link-lvl-0">Patients Overview</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28395"><a href="https://www.tempus.com/patients/oncology/" class="nav-link-lvl-0">Oncology</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20613"><a href="https://www.tempus.com/ttct/" class="nav-link-lvl-0">Clinical Trials</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6091"><a href="https://www.tempus.com/patients/neuro-psych/" class="nav-link-lvl-0">Neurology &#038; Psychiatry</a></li>
+</ul></div>        </div>
+        <div class="col-xs-4">
+          <div class="menu-4-0-resources-container"><ul id="menu-4-0-resources-1" class="secondary-nav nav-3"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16397"><a href="https://www.tempus.com/resources/" class="nav-link-lvl-0">Resources</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16398"><a href="https://www.tempus.com/publications/" class="nav-link-lvl-0">Publications</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16399"><a href="https://www.tempus.com/publications/" class="nav-link-lvl-1">All</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16400"><a href="/publications/?post-search=&#038;filter=oncology" class="nav-link-lvl-1">Oncology</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16401"><a href="/publications/?post-search=&#038;filter=neuro-psych" class="nav-link-lvl-1">Neurology &#038; Psychiatry</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16402"><a href="/publications/?post-search=&#038;filter=cardiology" class="nav-link-lvl-1">Cardiology</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16403"><a href="/publications/?post-search=&#038;filter=infectious-disease" class="nav-link-lvl-1">Infectious Disease</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16404"><a href="/resources/content/" class="nav-link-lvl-0">Content</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16405"><a href="/resources/content/" class="nav-link-lvl-1">All</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16406"><a href="/resources/content/?filter-tag=providers" class="nav-link-lvl-1">Providers</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16408"><a href="/resources/content/?filter-tag=life-sciences" class="nav-link-lvl-1">Life Sciences</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18253"><a href="https://www.tempus.com/events/" class="nav-link-lvl-0">Events</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18254"><a href="/events/" class="nav-link-lvl-1">All</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18255"><a href="https://www.tempus.com/events/?filter=providers&#038;post-search=" class="nav-link-lvl-1">Providers</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18256"><a href="https://www.tempus.com/events/?filter=life-sciences&#038;post-search=" class="nav-link-lvl-1">Life Sciences</a></li>
+</ul>
+</li>
+</ul></div>        </div>
+        <div class="col-xs-4">
+          <div class="menu-5-0-about-us-container"><ul id="menu-5-0-about-us-1" class="secondary-nav nav-3"><li class="landing menu-item menu-item-type-custom menu-item-object-custom menu-item-9144"><a href="/about-us/our-team/" class="nav-link-lvl-0">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20796"><a href="https://www.tempus.com/about-us/our-history/" class="nav-link-lvl-0">Our History</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22708"><a href="https://www.tempus.com/about-us/tempus-tech/" class="nav-link-lvl-0">Our Technology</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6103"><a href="https://www.tempus.com/about-us/our-team/" class="nav-link-lvl-0">Our Team</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24295"><a href="https://www.tempus.com/about-us/careers/" class="nav-link-lvl-0">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6105"><a href="https://www.tempus.com/about-us/culture/" class="nav-link-lvl-0">Culture</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9779"><a href="https://www.tempus.com/news/" class="nav-link-lvl-0">News</a></li>
+</ul></div>        </div>
+        <div class="col-xs-4">
+          <div class="menu-utility-navigation-container"><ul id="menu-utility-navigation" class="secondary-nav nav-3"><li id="menu-item-16436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-16436"><a href="https://www.tempus.com/" class="nav-link-lvl-0">Homepage</a></li>
+<li id="menu-item-11781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11781"><a href="https://www.tempus.com/responsible-disclosure/" class="nav-link-lvl-0">Responsible Disclosure</a></li>
+<li id="menu-item-4229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4229"><a href="https://www.tempus.com/resources/faqs-oncology/" class="nav-link-lvl-0">FAQ</a></li>
+<li id="menu-item-9206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9206"><a href="https://www.tempus.com/resources/media-kit/" class="nav-link-lvl-0">Media Library</a></li>
+<li id="menu-item-8469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8469"><a href="https://www.tempus.com/resources/document-library/" class="nav-link-lvl-0">Document Library</a></li>
+<li id="menu-item-28640" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28640"><a href="https://investors.tempus.com/" class="nav-link-lvl-0">Investors</a></li>
+</ul></div>        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-wrap">
+    <div class="small-nav no-desktop">
+      <div class="menu-utility-navigation-container"><ul id="menu-utility-navigation-1" class="utility-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-16436"><a href="https://www.tempus.com/" class="nav-link-lvl-0">Homepage</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11781"><a href="https://www.tempus.com/responsible-disclosure/" class="nav-link-lvl-0">Responsible Disclosure</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4229"><a href="https://www.tempus.com/resources/faqs-oncology/" class="nav-link-lvl-0">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9206"><a href="https://www.tempus.com/resources/media-kit/" class="nav-link-lvl-0">Media Library</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8469"><a href="https://www.tempus.com/resources/document-library/" class="nav-link-lvl-0">Document Library</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28640"><a href="https://investors.tempus.com/" class="nav-link-lvl-0">Investors</a></li>
+</ul></div>    </div>
+    <div class="brand">
+      <a href="/" class="logo">Tempus</a>
+    </div>
+    <div class="right-box line-box">
+      <p class="legal">
+        <span class="legal-wrap">All Content Copyright 2025</span><span class="no-mobile">|</span>
+        <a href="https://www.tempus.com/tempus-privacy-and-compliance-policies/">Privacy and Compliance Policies</a><span class="no-mobile">|</span>
+        <a href="https://www.tempus.com/terms-of-use/">Terms of Use</a>
+                  <span class="no-mobile">|</span>
+          <a class="ot-sdk-show-settings" role="button" style="outline: none;">Cookie Preferences</a>
+              </p>
+    </div>
+  </div>
+</footer>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/tempus-theme\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div class="wppopups-whole" style="display: none"></div><script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" id="wppopups-js-extra">
+/* <![CDATA[ */
+var wppopups_vars = {"is_admin":"","ajax_url":"https:\/\/www.tempus.com\/wp-admin\/admin-ajax.php","pid":"0","is_front_page":"","is_blog_page":"","is_category":"","site_url":"https:\/\/www.tempus.com","is_archive":"","is_search":"","is_singular":"","is_preview":"","facebook":"","twitter":"","val_required":"This field is required.","val_url":"Please enter a valid URL.","val_email":"Please enter a valid email address.","val_number":"Please enter a valid number.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","disable_form_reopen":"__return_false"};
+/* ]]> */
+</script>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" src="https://www.tempus.com/wp-content/plugins/wppopups/src/assets/js/wppopups.js?ver=2.2.0.3" id="wppopups-js"></script>
+<script nonce="9e73f2ceec09b080069e54b709f96c3af3d27ead8ba4cf59058ffc064137ace5" type="text/javascript" src="https://www.tempus.com/wp-content/themes/tempus-theme/dist/scripts/main.js?ver=1761845307" id="sage/js-js"></script>
+    </div>
+  </body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using Disk: Enhanced (Page is 404) 
+
+Served from: www.tempus.com @ 2025-11-29 20:19:48 by W3 Total Cache
+-->

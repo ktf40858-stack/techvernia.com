@@ -1,0 +1,23 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad-translation" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#22C55E;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#16A34A;stop-opacity:1" />
+        </linearGradient>
+        <filter id="glow-translation">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Globe -->
+    <circle cx="60" cy="60" r="30" stroke="url(#grad-translation)" stroke-width="3" fill="none" filter="url(#glow-translation)"/>
+    <!-- Latitude Lines -->
+    <ellipse cx="60" cy="60" rx="30" ry="12" stroke="url(#grad-translation)" stroke-width="2" fill="none" filter="url(#glow-translation)"/>
+    <ellipse cx="60" cy="60" rx="30" ry="20" stroke="url(#grad-translation)" stroke-width="1.5" fill="none" filter="url(#glow-translation)"/>
+    <!-- Longitude Lines -->
+    <ellipse cx="60" cy="60" rx="12" ry="30" stroke="url(#grad-translation)" stroke-width="2" fill="none" filter="url(#glow-translation)"/>
+    <ellipse cx="60" cy="60" rx="20" ry="30" stroke="url(#grad-translation)" stroke-width="1.5" fill="none" filter="url(#glow-translation)"/>
+</svg>

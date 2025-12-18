@@ -1,0 +1,910 @@
+{
+  "adobe-firefly": {
+    "file": "GenuisNet.ai/pages/reviews/image/adobe-firefly.html",
+    "item_count": 134
+  },
+  "canva-ai": {
+    "file": "GenuisNet.ai/pages/reviews/image/canva-ai.html",
+    "item_count": 135
+  },
+  "clipdrop": {
+    "file": "GenuisNet.ai/pages/reviews/image/clipdrop.html",
+    "item_count": 133
+  },
+  "dall-e-3": {
+    "file": "GenuisNet.ai/pages/reviews/image/dall-e-3.html",
+    "item_count": 250
+  },
+  "ideogram": {
+    "file": "GenuisNet.ai/pages/reviews/image/ideogram.html",
+    "item_count": 256
+  },
+  "leonardo-ai": {
+    "file": "GenuisNet.ai/pages/reviews/image/leonardo-ai.html",
+    "item_count": 153
+  },
+  "midjourney": {
+    "file": "GenuisNet.ai/pages/reviews/image/midjourney.html",
+    "item_count": 262
+  },
+  "stable-diffusion": {
+    "file": "GenuisNet.ai/pages/reviews/image/stable-diffusion.html",
+    "item_count": 254
+  },
+  "descript": {
+    "file": "GenuisNet.ai/pages/reviews/audio/descript.html",
+    "item_count": 100
+  },
+  "elevenlabs": {
+    "file": "GenuisNet.ai/pages/reviews/audio/elevenlabs.html",
+    "item_count": 103
+  },
+  "murf-ai": {
+    "file": "GenuisNet.ai/pages/reviews/audio/murf-ai.html",
+    "item_count": 103
+  },
+  "playht": {
+    "file": "GenuisNet.ai/pages/reviews/audio/playht.html",
+    "item_count": 100
+  },
+  "resemble-ai": {
+    "file": "GenuisNet.ai/pages/reviews/audio/resemble-ai.html",
+    "item_count": 101
+  },
+  "speechify": {
+    "file": "GenuisNet.ai/pages/reviews/audio/speechify.html",
+    "item_count": 102
+  },
+  "suno-ai": {
+    "file": "GenuisNet.ai/pages/reviews/audio/suno-ai.html",
+    "item_count": 105
+  },
+  "udio": {
+    "file": "GenuisNet.ai/pages/reviews/audio/udio.html",
+    "item_count": 103
+  },
+  "codeium": {
+    "file": "GenuisNet.ai/pages/reviews/coding/codeium.html",
+    "item_count": 72
+  },
+  "codewhisperer": {
+    "file": "GenuisNet.ai/pages/reviews/coding/codewhisperer.html",
+    "item_count": 106
+  },
+  "cursor": {
+    "file": "GenuisNet.ai/pages/reviews/coding/cursor.html",
+    "item_count": 78
+  },
+  "deepseek-coder": {
+    "file": "GenuisNet.ai/pages/reviews/coding/deepseek-coder.html",
+    "item_count": 105
+  },
+  "github-copilot": {
+    "file": "GenuisNet.ai/pages/reviews/coding/github-copilot.html",
+    "item_count": 81
+  },
+  "replit": {
+    "file": "GenuisNet.ai/pages/reviews/coding/replit.html",
+    "item_count": 110
+  },
+  "tabnine": {
+    "file": "GenuisNet.ai/pages/reviews/coding/tabnine.html",
+    "item_count": 110
+  },
+  "windsurf": {
+    "file": "GenuisNet.ai/pages/reviews/coding/windsurf.html",
+    "item_count": 105
+  },
+  "clickup-ai": {
+    "file": "GenuisNet.ai/pages/reviews/productivity/clickup-ai.html",
+    "item_count": 65
+  },
+  "firefliesai": {
+    "file": "GenuisNet.ai/pages/reviews/productivity/firefliesai.html",
+    "item_count": 64
+  },
+  "mem-ai": {
+    "file": "GenuisNet.ai/pages/reviews/productivity/mem-ai.html",
+    "item_count": 61
+  },
+  "motion": {
+    "file": "GenuisNet.ai/pages/reviews/productivity/motion.html",
+    "item_count": 65
+  },
+  "notion-ai": {
+    "file": "GenuisNet.ai/pages/reviews/productivity/notion-ai.html",
+    "item_count": 65
+  },
+  "otterai": {
+    "file": "GenuisNet.ai/pages/reviews/productivity/otterai.html",
+    "item_count": 65
+  },
+  "reclaim-ai": {
+    "file": "GenuisNet.ai/pages/reviews/productivity/reclaim-ai.html",
+    "item_count": 65
+  },
+  "zapier": {
+    "file": "GenuisNet.ai/pages/reviews/productivity/zapier.html",
+    "item_count": 65
+  },
+  "ahrefs": {
+    "file": "GenuisNet.ai/pages/reviews/seo/ahrefs.html",
+    "item_count": 75
+  },
+  "clearscope": {
+    "file": "GenuisNet.ai/pages/reviews/seo/clearscope.html",
+    "item_count": 71
+  },
+  "frase": {
+    "file": "GenuisNet.ai/pages/reviews/seo/frase.html",
+    "item_count": 71
+  },
+  "marketmuse": {
+    "file": "GenuisNet.ai/pages/reviews/seo/marketmuse.html",
+    "item_count": 75
+  },
+  "neuronwriter": {
+    "file": "GenuisNet.ai/pages/reviews/seo/neuronwriter.html",
+    "item_count": 75
+  },
+  "scalenut": {
+    "file": "GenuisNet.ai/pages/reviews/seo/scalenut.html",
+    "item_count": 75
+  },
+  "semrush": {
+    "file": "GenuisNet.ai/pages/reviews/seo/semrush.html",
+    "item_count": 75
+  },
+  "surfer-seo": {
+    "file": "GenuisNet.ai/pages/reviews/seo/surfer-seo.html",
+    "item_count": 75
+  },
+  "chorusai": {
+    "file": "GenuisNet.ai/pages/reviews/sales/chorusai.html",
+    "item_count": 80
+  },
+  "conversica": {
+    "file": "GenuisNet.ai/pages/reviews/sales/conversica.html",
+    "item_count": 80
+  },
+  "drift": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/drift.html",
+    "item_count": 80
+  },
+  "gong": {
+    "file": "GenuisNet.ai/pages/reviews/sales/gong.html",
+    "item_count": 80
+  },
+  "hubspot-ai": {
+    "file": "GenuisNet.ai/pages/reviews/sales/hubspot-ai.html",
+    "item_count": 80
+  },
+  "looker": {
+    "file": "GenuisNet.ai/pages/reviews/business/looker.html",
+    "item_count": 55
+  },
+  "salesforce-einstein": {
+    "file": "GenuisNet.ai/pages/reviews/business/salesforce-einstein.html",
+    "item_count": 55
+  },
+  "tableau": {
+    "file": "GenuisNet.ai/pages/reviews/business/tableau.html",
+    "item_count": 55
+  },
+  "ansible": {
+    "file": "GenuisNet.ai/pages/reviews/networking/ansible.html",
+    "item_count": 84
+  },
+  "cisco-ai": {
+    "file": "GenuisNet.ai/pages/reviews/networking/cisco-ai.html",
+    "item_count": 76
+  },
+  "datadog": {
+    "file": "GenuisNet.ai/pages/reviews/networking/datadog.html",
+    "item_count": 73
+  },
+  "juniper-mist": {
+    "file": "GenuisNet.ai/pages/reviews/networking/juniper-mist.html",
+    "item_count": 70
+  },
+  "prtg": {
+    "file": "GenuisNet.ai/pages/reviews/networking/prtg.html",
+    "item_count": 74
+  },
+  "splunk": {
+    "file": "GenuisNet.ai/pages/reviews/networking/splunk.html",
+    "item_count": 86
+  },
+  "terraform": {
+    "file": "GenuisNet.ai/pages/reviews/networking/terraform.html",
+    "item_count": 82
+  },
+  "test-debug": {
+    "file": "GenuisNet.ai/pages/reviews/networking/test-debug.html",
+    "item_count": 6
+  },
+  "test-simple": {
+    "file": "GenuisNet.ai/pages/reviews/networking/test-simple.html",
+    "item_count": 5
+  },
+  "test_links": {
+    "file": "GenuisNet.ai/pages/reviews/networking/test_links.html",
+    "item_count": 7
+  },
+  "zabbix": {
+    "file": "GenuisNet.ai/pages/reviews/networking/zabbix.html",
+    "item_count": 82
+  },
+  "abnormal-security": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/abnormal-security.html",
+    "item_count": 72
+  },
+  "carbon-black": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/carbon-black.html",
+    "item_count": 73
+  },
+  "cisco-securex": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/cisco-securex.html",
+    "item_count": 38
+  },
+  "cortex-xdr": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/cortex-xdr.html",
+    "item_count": 37
+  },
+  "crowdstrike": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/crowdstrike.html",
+    "item_count": 39
+  },
+  "cyberark": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/cyberark.html",
+    "item_count": 37
+  },
+  "cybereason": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/cybereason.html",
+    "item_count": 74
+  },
+  "cylance": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/cylance.html",
+    "item_count": 74
+  },
+  "darktrace": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/darktrace.html",
+    "item_count": 37
+  },
+  "exabeam": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/exabeam.html",
+    "item_count": 75
+  },
+  "fortinet": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/fortinet.html",
+    "item_count": 38
+  },
+  "ibm-qradar": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/ibm-qradar.html",
+    "item_count": 38
+  },
+  "lacework": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/lacework.html",
+    "item_count": 74
+  },
+  "mcafee-mvision": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/mcafee-mvision.html",
+    "item_count": 73
+  },
+  "microsoft-sentinel": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/microsoft-sentinel.html",
+    "item_count": 39
+  },
+  "okta": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/okta.html",
+    "item_count": 39
+  },
+  "palo-alto-ngfw": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/palo-alto-ngfw.html",
+    "item_count": 39
+  },
+  "qualys": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/qualys.html",
+    "item_count": 38
+  },
+  "rapid7": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/rapid7.html",
+    "item_count": 39
+  },
+  "recorded-future": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/recorded-future.html",
+    "item_count": 76
+  },
+  "sentinelone": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/sentinelone.html",
+    "item_count": 39
+  },
+  "snyk": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/snyk.html",
+    "item_count": 74
+  },
+  "sophos-interceptx": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/sophos-interceptx.html",
+    "item_count": 39
+  },
+  "splunk-security": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/splunk-security.html",
+    "item_count": 39
+  },
+  "symantec-endpoint": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/symantec-endpoint.html",
+    "item_count": 73
+  },
+  "tenable": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/tenable.html",
+    "item_count": 37
+  },
+  "trend-micro-vision-one": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/trend-micro-vision-one.html",
+    "item_count": 39
+  },
+  "vectra-ai": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/vectra-ai.html",
+    "item_count": 72
+  },
+  "wiz": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/wiz.html",
+    "item_count": 74
+  },
+  "zerofox": {
+    "file": "GenuisNet.ai/pages/reviews/cybersecurity/zerofox.html",
+    "item_count": 90
+  },
+  "architechtures": {
+    "file": "GenuisNet.ai/pages/reviews/architecture/architechtures.html",
+    "item_count": 136
+  },
+  "arko-ai": {
+    "file": "GenuisNet.ai/pages/reviews/architecture/arko-ai.html",
+    "item_count": 139
+  },
+  "finch3d": {
+    "file": "GenuisNet.ai/pages/reviews/architecture/finch3d.html",
+    "item_count": 139
+  },
+  "hypar": {
+    "file": "GenuisNet.ai/pages/reviews/architecture/hypar.html",
+    "item_count": 136
+  },
+  "maket-ai": {
+    "file": "GenuisNet.ai/pages/reviews/architecture/maket-ai.html",
+    "item_count": 141
+  },
+  "spacemaker-ai": {
+    "file": "GenuisNet.ai/pages/reviews/architecture/spacemaker-ai.html",
+    "item_count": 127
+  },
+  "testfit": {
+    "file": "GenuisNet.ai/pages/reviews/architecture/testfit.html",
+    "item_count": 136
+  },
+  "veras-ai": {
+    "file": "GenuisNet.ai/pages/reviews/architecture/veras-ai.html",
+    "item_count": 140
+  },
+  "aidoc": {
+    "file": "GenuisNet.ai/pages/reviews/medical/aidoc.html",
+    "item_count": 74
+  },
+  "butterfly-iq": {
+    "file": "GenuisNet.ai/pages/reviews/medical/butterfly-iq.html",
+    "item_count": 73
+  },
+  "nuance-dragon": {
+    "file": "GenuisNet.ai/pages/reviews/medical/nuance-dragon.html",
+    "item_count": 74
+  },
+  "paige-ai": {
+    "file": "GenuisNet.ai/pages/reviews/medical/paige-ai.html",
+    "item_count": 74
+  },
+  "pathai": {
+    "file": "GenuisNet.ai/pages/reviews/medical/pathai.html",
+    "item_count": 74
+  },
+  "tempus": {
+    "file": "GenuisNet.ai/pages/reviews/medical/tempus.html",
+    "item_count": 74
+  },
+  "viz-ai": {
+    "file": "GenuisNet.ai/pages/reviews/medical/viz-ai.html",
+    "item_count": 74
+  },
+  "zebra-medical": {
+    "file": "GenuisNet.ai/pages/reviews/medical/zebra-medical.html",
+    "item_count": 74
+  },
+  "alteryx-ai": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/alteryx-ai.html",
+    "item_count": 80
+  },
+  "amazon-quicksight-q": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/amazon-quicksight-q.html",
+    "item_count": 80
+  },
+  "datarobot": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/datarobot.html",
+    "item_count": 80
+  },
+  "domo-ai": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/domo-ai.html",
+    "item_count": 80
+  },
+  "h2oai": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/h2oai.html",
+    "item_count": 80
+  },
+  "looker-ai": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/looker-ai.html",
+    "item_count": 80
+  },
+  "microstrategy-ai": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/microstrategy-ai.html",
+    "item_count": 80
+  },
+  "mode-analytics": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/mode-analytics.html",
+    "item_count": 80
+  },
+  "power-bi-copilot": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/power-bi-copilot.html",
+    "item_count": 80
+  },
+  "prophet-meta": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/prophet-meta.html",
+    "item_count": 80
+  },
+  "qlik-sense-ai": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/qlik-sense-ai.html",
+    "item_count": 80
+  },
+  "sisense-ai": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/sisense-ai.html",
+    "item_count": 80
+  },
+  "tableau-pulse": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/tableau-pulse.html",
+    "item_count": 80
+  },
+  "thoughtspot": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/thoughtspot.html",
+    "item_count": 80
+  },
+  "yellowfin-ai": {
+    "file": "GenuisNet.ai/pages/reviews/analytics/yellowfin-ai.html",
+    "item_count": 80
+  },
+  "blue-j-legal": {
+    "file": "GenuisNet.ai/pages/reviews/legal/blue-j-legal.html",
+    "item_count": 80
+  },
+  "casetext": {
+    "file": "GenuisNet.ai/pages/reviews/legal/casetext.html",
+    "item_count": 80
+  },
+  "cocounsel": {
+    "file": "GenuisNet.ai/pages/reviews/legal/cocounsel.html",
+    "item_count": 80
+  },
+  "everlaw": {
+    "file": "GenuisNet.ai/pages/reviews/legal/everlaw.html",
+    "item_count": 80
+  },
+  "harvey-ai": {
+    "file": "GenuisNet.ai/pages/reviews/legal/harvey-ai.html",
+    "item_count": 80
+  },
+  "kira-systems": {
+    "file": "GenuisNet.ai/pages/reviews/legal/kira-systems.html",
+    "item_count": 80
+  },
+  "lawgeex": {
+    "file": "GenuisNet.ai/pages/reviews/legal/lawgeex.html",
+    "item_count": 80
+  },
+  "lex-machina": {
+    "file": "GenuisNet.ai/pages/reviews/legal/lex-machina.html",
+    "item_count": 80
+  },
+  "luminance": {
+    "file": "GenuisNet.ai/pages/reviews/legal/luminance.html",
+    "item_count": 80
+  },
+  "primer": {
+    "file": "GenuisNet.ai/pages/reviews/legal/primer.html",
+    "item_count": 80
+  },
+  "ravel-law": {
+    "file": "GenuisNet.ai/pages/reviews/legal/ravel-law.html",
+    "item_count": 80
+  },
+  "ross-intelligence": {
+    "file": "GenuisNet.ai/pages/reviews/legal/ross-intelligence.html",
+    "item_count": 80
+  },
+  "ada": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/ada.html",
+    "item_count": 80
+  },
+  "certainly": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/certainly.html",
+    "item_count": 80
+  },
+  "cognigy": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/cognigy.html",
+    "item_count": 80
+  },
+  "forethought": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/forethought.html",
+    "item_count": 80
+  },
+  "freshdesk-ai": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/freshdesk-ai.html",
+    "item_count": 80
+  },
+  "helpshift": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/helpshift.html",
+    "item_count": 80
+  },
+  "intercom-fin": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/intercom-fin.html",
+    "item_count": 80
+  },
+  "kustomer": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/kustomer.html",
+    "item_count": 80
+  },
+  "liveperson": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/liveperson.html",
+    "item_count": 80
+  },
+  "netomi": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/netomi.html",
+    "item_count": 80
+  },
+  "polyai": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/polyai.html",
+    "item_count": 80
+  },
+  "ultimateai": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/ultimateai.html",
+    "item_count": 80
+  },
+  "yellowai": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/yellowai.html",
+    "item_count": 80
+  },
+  "zendesk-ai": {
+    "file": "GenuisNet.ai/pages/reviews/customer-service/zendesk-ai.html",
+    "item_count": 80
+  },
+  "aleks": {
+    "file": "GenuisNet.ai/pages/reviews/education/aleks.html",
+    "item_count": 80
+  },
+  "carnegie-learning": {
+    "file": "GenuisNet.ai/pages/reviews/education/carnegie-learning.html",
+    "item_count": 80
+  },
+  "century-tech": {
+    "file": "GenuisNet.ai/pages/reviews/education/century-tech.html",
+    "item_count": 80
+  },
+  "cognii": {
+    "file": "GenuisNet.ai/pages/reviews/education/cognii.html",
+    "item_count": 80
+  },
+  "coursera-coach": {
+    "file": "GenuisNet.ai/pages/reviews/education/coursera-coach.html",
+    "item_count": 80
+  },
+  "duolingo-max": {
+    "file": "GenuisNet.ai/pages/reviews/education/duolingo-max.html",
+    "item_count": 80
+  },
+  "gradescope": {
+    "file": "GenuisNet.ai/pages/reviews/education/gradescope.html",
+    "item_count": 80
+  },
+  "khan-academy-ai": {
+    "file": "GenuisNet.ai/pages/reviews/education/khan-academy-ai.html",
+    "item_count": 80
+  },
+  "knewton-alta": {
+    "file": "GenuisNet.ai/pages/reviews/education/knewton-alta.html",
+    "item_count": 80
+  },
+  "querium": {
+    "file": "GenuisNet.ai/pages/reviews/education/querium.html",
+    "item_count": 80
+  },
+  "quizlet-ai": {
+    "file": "GenuisNet.ai/pages/reviews/education/quizlet-ai.html",
+    "item_count": 80
+  },
+  "socratic-by-google": {
+    "file": "GenuisNet.ai/pages/reviews/education/socratic-by-google.html",
+    "item_count": 80
+  },
+  "squirrel-ai": {
+    "file": "GenuisNet.ai/pages/reviews/education/squirrel-ai.html",
+    "item_count": 80
+  },
+  "thinkster-math": {
+    "file": "GenuisNet.ai/pages/reviews/education/thinkster-math.html",
+    "item_count": 80
+  },
+  "6sense": {
+    "file": "GenuisNet.ai/pages/reviews/sales/6sense.html",
+    "item_count": 80
+  },
+  "apolloio": {
+    "file": "GenuisNet.ai/pages/reviews/sales/apolloio.html",
+    "item_count": 80
+  },
+  "attention": {
+    "file": "GenuisNet.ai/pages/reviews/sales/attention.html",
+    "item_count": 80
+  },
+  "clari": {
+    "file": "GenuisNet.ai/pages/reviews/sales/clari.html",
+    "item_count": 80
+  },
+  "exceedai": {
+    "file": "GenuisNet.ai/pages/reviews/sales/exceedai.html",
+    "item_count": 80
+  },
+  "insidesales": {
+    "file": "GenuisNet.ai/pages/reviews/sales/insidesales.html",
+    "item_count": 80
+  },
+  "lavender": {
+    "file": "GenuisNet.ai/pages/reviews/sales/lavender.html",
+    "item_count": 80
+  },
+  "outreach": {
+    "file": "GenuisNet.ai/pages/reviews/sales/outreach.html",
+    "item_count": 80
+  },
+  "peopleai": {
+    "file": "GenuisNet.ai/pages/reviews/sales/peopleai.html",
+    "item_count": 80
+  },
+  "regieai": {
+    "file": "GenuisNet.ai/pages/reviews/sales/regieai.html",
+    "item_count": 80
+  },
+  "salesforce-einstein-gpt": {
+    "file": "GenuisNet.ai/pages/reviews/sales/salesforce-einstein-gpt.html",
+    "item_count": 80
+  },
+  "troopsai": {
+    "file": "GenuisNet.ai/pages/reviews/sales/troopsai.html",
+    "item_count": 80
+  },
+  "connected-papers": {
+    "file": "GenuisNet.ai/pages/reviews/research/connected-papers.html",
+    "item_count": 80
+  },
+  "consensus": {
+    "file": "GenuisNet.ai/pages/reviews/research/consensus.html",
+    "item_count": 80
+  },
+  "elicit": {
+    "file": "GenuisNet.ai/pages/reviews/research/elicit.html",
+    "item_count": 80
+  },
+  "irisai": {
+    "file": "GenuisNet.ai/pages/reviews/research/irisai.html",
+    "item_count": 80
+  },
+  "litmaps": {
+    "file": "GenuisNet.ai/pages/reviews/research/litmaps.html",
+    "item_count": 80
+  },
+  "perplexity-research": {
+    "file": "GenuisNet.ai/pages/reviews/research/perplexity-research.html",
+    "item_count": 80
+  },
+  "researchrabbit": {
+    "file": "GenuisNet.ai/pages/reviews/research/researchrabbit.html",
+    "item_count": 80
+  },
+  "scholarcy": {
+    "file": "GenuisNet.ai/pages/reviews/research/scholarcy.html",
+    "item_count": 80
+  },
+  "scispace": {
+    "file": "GenuisNet.ai/pages/reviews/research/scispace.html",
+    "item_count": 80
+  },
+  "scite": {
+    "file": "GenuisNet.ai/pages/reviews/research/scite.html",
+    "item_count": 80
+  },
+  "semantic-scholar": {
+    "file": "GenuisNet.ai/pages/reviews/research/semantic-scholar.html",
+    "item_count": 80
+  },
+  "undermind": {
+    "file": "GenuisNet.ai/pages/reviews/research/undermind.html",
+    "item_count": 80
+  },
+  "beamery": {
+    "file": "GenuisNet.ai/pages/reviews/hr/beamery.html",
+    "item_count": 80
+  },
+  "eightfold-ai": {
+    "file": "GenuisNet.ai/pages/reviews/hr/eightfold-ai.html",
+    "item_count": 80
+  },
+  "fetcher": {
+    "file": "GenuisNet.ai/pages/reviews/hr/fetcher.html",
+    "item_count": 80
+  },
+  "findem": {
+    "file": "GenuisNet.ai/pages/reviews/hr/findem.html",
+    "item_count": 80
+  },
+  "harver": {
+    "file": "GenuisNet.ai/pages/reviews/hr/harver.html",
+    "item_count": 80
+  },
+  "hirevue": {
+    "file": "GenuisNet.ai/pages/reviews/hr/hirevue.html",
+    "item_count": 80
+  },
+  "humanly": {
+    "file": "GenuisNet.ai/pages/reviews/hr/humanly.html",
+    "item_count": 80
+  },
+  "paradox-olivia": {
+    "file": "GenuisNet.ai/pages/reviews/hr/paradox-olivia.html",
+    "item_count": 80
+  },
+  "phenom": {
+    "file": "GenuisNet.ai/pages/reviews/hr/phenom.html",
+    "item_count": 80
+  },
+  "pymetrics": {
+    "file": "GenuisNet.ai/pages/reviews/hr/pymetrics.html",
+    "item_count": 80
+  },
+  "seekout": {
+    "file": "GenuisNet.ai/pages/reviews/hr/seekout.html",
+    "item_count": 80
+  },
+  "sense": {
+    "file": "GenuisNet.ai/pages/reviews/hr/sense.html",
+    "item_count": 80
+  },
+  "textio": {
+    "file": "GenuisNet.ai/pages/reviews/hr/textio.html",
+    "item_count": 80
+  },
+  "workable-ai": {
+    "file": "GenuisNet.ai/pages/reviews/hr/workable-ai.html",
+    "item_count": 80
+  },
+  "deepl-pro": {
+    "file": "GenuisNet.ai/pages/reviews/translation/deepl-pro.html",
+    "item_count": 80
+  },
+  "google-translate-ai": {
+    "file": "GenuisNet.ai/pages/reviews/translation/google-translate-ai.html",
+    "item_count": 80
+  },
+  "lilt": {
+    "file": "GenuisNet.ai/pages/reviews/translation/lilt.html",
+    "item_count": 80
+  },
+  "lokalise": {
+    "file": "GenuisNet.ai/pages/reviews/translation/lokalise.html",
+    "item_count": 80
+  },
+  "microsoft-translator": {
+    "file": "GenuisNet.ai/pages/reviews/translation/microsoft-translator.html",
+    "item_count": 80
+  },
+  "modernmt": {
+    "file": "GenuisNet.ai/pages/reviews/translation/modernmt.html",
+    "item_count": 80
+  },
+  "phrase": {
+    "file": "GenuisNet.ai/pages/reviews/translation/phrase.html",
+    "item_count": 80
+  },
+  "smartling": {
+    "file": "GenuisNet.ai/pages/reviews/translation/smartling.html",
+    "item_count": 80
+  },
+  "systran": {
+    "file": "GenuisNet.ai/pages/reviews/translation/systran.html",
+    "item_count": 80
+  },
+  "unbabel": {
+    "file": "GenuisNet.ai/pages/reviews/translation/unbabel.html",
+    "item_count": 80
+  },
+  "artomatix": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/artomatix.html",
+    "item_count": 80
+  },
+  "charismaai": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/charismaai.html",
+    "item_count": 80
+  },
+  "hidden-door": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/hidden-door.html",
+    "item_count": 80
+  },
+  "inworld-ai": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/inworld-ai.html",
+    "item_count": 80
+  },
+  "latitude-ai-dungeon": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/latitude-ai-dungeon.html",
+    "item_count": 80
+  },
+  "ludoai": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/ludoai.html",
+    "item_count": 80
+  },
+  "promethean-ai": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/promethean-ai.html",
+    "item_count": 80
+  },
+  "rct-ai": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/rct-ai.html",
+    "item_count": 80
+  },
+  "replika": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/replika.html",
+    "item_count": 80
+  },
+  "rosebud-ai": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/rosebud-ai.html",
+    "item_count": 80
+  },
+  "scenario": {
+    "file": "GenuisNet.ai/pages/reviews/gaming/scenario.html",
+    "item_count": 80
+  },
+  "amazon-braket": {
+    "file": "GenuisNet.ai/pages/reviews/quantum/amazon-braket.html",
+    "item_count": 80
+  },
+  "azure-quantum": {
+    "file": "GenuisNet.ai/pages/reviews/quantum/azure-quantum.html",
+    "item_count": 80
+  },
+  "d-wave-leap": {
+    "file": "GenuisNet.ai/pages/reviews/quantum/d-wave-leap.html",
+    "item_count": 80
+  },
+  "google-cirq": {
+    "file": "GenuisNet.ai/pages/reviews/quantum/google-cirq.html",
+    "item_count": 80
+  },
+  "ibm-quantum": {
+    "file": "GenuisNet.ai/pages/reviews/quantum/ibm-quantum.html",
+    "item_count": 80
+  },
+  "ionq": {
+    "file": "GenuisNet.ai/pages/reviews/quantum/ionq.html",
+    "item_count": 80
+  },
+  "rigetti-qcs": {
+    "file": "GenuisNet.ai/pages/reviews/quantum/rigetti-qcs.html",
+    "item_count": 80
+  },
+  "xanadu-pennylane": {
+    "file": "GenuisNet.ai/pages/reviews/quantum/xanadu-pennylane.html",
+    "item_count": 80
+  }
+}

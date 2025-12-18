@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Simple</title>
+    <style>
+        .card {
+            border: 2px solid red;
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            color: black;
+        }
+        .card:hover {
+            background: yellow;
+        }
+    </style>
+</head>
+<body style="background: #ccc; padding: 50px;">
+    <h1>Test des liens de certification</h1>
+
+    <a href="../../certifications/ccna.html" class="card" style="display: block; text-decoration: none;">
+        <h2>CCNA - Cliquez ici</h2>
+        <p>Ce lien devrait ouvrir ccna.html</p>
+    </a>
+
+    <a href="../../certifications/devnet-associate.html" class="card" style="display: block; text-decoration: none;">
+        <h2>DevNet - Cliquez ici</h2>
+        <p>Ce lien devrait ouvrir devnet-associate.html</p>
+    </a>
+
+    <script>
+        console.log('Test page loaded');
+        document.querySelectorAll('.card').forEach((card, i) => {
+            card.addEventListener('click', (e) => {
+                console.log('Card clicked:', i, 'href:', card.getAttribute('href'));
+            });
+        });
+    </script>
+</body>
+</html>

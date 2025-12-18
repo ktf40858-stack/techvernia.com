@@ -1,0 +1,122 @@
+{
+  "en": {
+    "review.claude.faq1.question": "Is Claude better than ChatGPT for coding?",
+    "review.claude.faq1.answer": "Yes, Claude consistently outperforms ChatGPT on coding benchmarks like SWE-bench. Claude 3.5 Sonnet is particularly strong at understanding complex codebases, debugging, and writing production-quality code. The larger context window (200K vs 128K) also helps when working with large projects.",
+    "review.claude.faq2.question": "Can Claude access the internet?",
+    "review.claude.faq2.answer": "No, Claude does not have built-in web browsing capabilities. Its knowledge comes from its training data with a cutoff date. For tasks requiring current information, you would need to provide that information directly or use ChatGPT/Gemini which have web access.",
+    "review.claude.faq3.question": "What is Claude's context window?",
+    "review.claude.faq3.answer": "Claude has a 200,000 token context window - the largest among mainstream AI assistants. This means it can process roughly 150,000 words or 500+ pages of text in a single conversation, making it ideal for analyzing entire codebases, books, or long documents.",
+    "review.claude.faq4.question": "Can Claude generate images?",
+    "review.claude.faq4.answer": "No, Claude cannot generate images. Unlike ChatGPT (which has DALL-E) or Gemini (which has Imagen), Claude is purely a text-based AI. However, it can analyze and describe images you upload, and can create SVGs and code-based visualizations through Artifacts.",
+    "review.claude.faq5.question": "What are Claude Artifacts?",
+    "review.claude.faq5.answer": "Artifacts is Claude's feature for creating and previewing content in a dedicated panel alongside the chat. You can generate interactive React components, SVG graphics, HTML/CSS previews, documents, and more. It's particularly useful for developers who want to see code output immediately."
+  },
+  "es": {
+    "review.claude.faq1.question": "¿Es Claude mejor que ChatGPT por codificación?",
+    "review.claude.faq1.answer": "Sí, Claude supera constantemente a ChatGPT en parámetros de codificación como SWE-bench. Claude 3.5 Sonnet es particularmente fuerte en entender códigos complejos, depurar y escribir código de calidad de producción. La ventana de contexto más grande (200K vs 128K) también ayuda al trabajar con grandes proyectos.",
+    "review.claude.faq2.question": "¿Puede Claude acceder a Internet?",
+    "review.claude.faq2.answer": "No, Claude no tiene capacidades de navegación web incorporadas. Su conocimiento proviene de sus datos de entrenamiento con una fecha de corte. Para tareas que requieren información actual, usted necesita proporcionar esa información directamente o utilizar ChatGPT/Gemini que tienen acceso a la web.",
+    "review.claude.faq3.question": "¿Cuál es la ventana de contexto de Claude?",
+    "review.claude.faq3.answer": "Claude tiene una ventana de contexto de 200.000 toneladas - la más grande entre los asistentes principales de IA. Esto significa que puede procesar aproximadamente 150.000 palabras o 500 páginas más de texto en una sola conversación, lo que lo hace ideal para analizar bases de código completas, libros o documentos largos.",
+    "review.claude.faq4.question": "¿Puede Claude generar imágenes?",
+    "review.claude.faq4.answer": "No, Claude no puede generar imágenes. A diferencia de ChatGPT (que tiene DALL-E) o Gemini (que tiene Imagen), Claude es puramente una AI basada en texto. Sin embargo, puede analizar y describir imágenes que subes, y puede crear SVGs y visualizaciones basadas en códigos a través de Artifacts.",
+    "review.claude.faq5.question": "¿Qué son Claude Artifacts?",
+    "review.claude.faq5.answer": "Artifacts es la característica de Claude para crear y prever contenido en un panel dedicado junto al chat. Puede generar componentes interactivos React, gráficos SVG, previsualizaciones HTML/CSS, documentos y más. Es particularmente útil para los desarrolladores que quieren ver la salida de código inmediatamente."
+  },
+  "fr": {
+    "review.claude.faq1.question": "Claude est-il meilleur que ChatGPT pour le codage ?",
+    "review.claude.faq1.answer": "Oui, Claude surpasse systématiquement ChatGPT sur les repères de codage comme SWE-bench. Claude 3.5 Sonnet est particulièrement fort pour comprendre les bases de code complexes, le débogage et l'écriture de code qualité de production. La fenêtre contextuelle plus grande (200K vs 128K) aide également à travailler avec de grands projets.",
+    "review.claude.faq2.question": "Claude peut-il accéder à Internet ?",
+    "review.claude.faq2.answer": "Non, Claude n'a pas de capacités de navigation web intégrées. Ses connaissances proviennent de ses données de formation avec une date limite. Pour les tâches nécessitant des informations actuelles, vous devez fournir ces informations directement ou utiliser ChatGPT/Gemini qui ont accès au Web.",
+    "review.claude.faq3.question": "Quelle est la fenêtre contextuelle de Claude ?",
+    "review.claude.faq3.answer": "Claude a une fenêtre contextuelle de 200 000 jetons - la plus importante parmi les assistants d'IA. Cela signifie qu'il peut traiter environ 150 000 mots ou plus de 500 pages de texte en une seule conversation, ce qui le rend idéal pour analyser des bases de code complètes, des livres ou des documents longs.",
+    "review.claude.faq4.question": "Claude peut-il générer des images ?",
+    "review.claude.faq4.answer": "Non, Claude ne peut pas générer d'images. Contrairement à ChatGPT (qui a DALL-E) ou Gemini (qui a Imagen), Claude est purement une AI basée sur le texte. Cependant, il peut analyser et décrire les images que vous téléchargez, et peut créer des SVG et des visualisations basées sur le code à travers Artifacts.",
+    "review.claude.faq5.question": "Qu'est-ce que Claude Artifacts ?",
+    "review.claude.faq5.answer": "Artifacts est la fonction de Claude pour créer et prévisualiser du contenu dans un panneau dédié à côté du chat. Vous pouvez générer des composants réactifs interactifs, des graphiques SVG, des prévisualisations HTML/CSS, des documents et plus encore. Il est particulièrement utile pour les développeurs qui veulent voir la sortie de code immédiatement."
+  },
+  "de": {
+    "review.claude.faq1.question": "Ist Claude besser als ChatGPT für Codierung?",
+    "review.claude.faq1.answer": "Ja, Claude erklärt ChatGPT konsequent über die Codierung von Benchmarks wie SWE-Bench. Claude 3.5 Sonnet ist besonders stark beim Verständnis komplexer Codebasen, Debugging und Schreiben von Produktions-Qualität Code. Das größere Kontextfenster (200K vs 128K) hilft auch bei der Arbeit mit großen Projekten.",
+    "review.claude.faq2.question": "Kann Claude das Internet nutzen?",
+    "review.claude.faq2.answer": "Nein, Claude hat keine integrierten Web-Browsing-Funktionen. Ihr Wissen stammt aus seinen Trainingsdaten mit einem Cutoff-Datum. Für Aufgaben, die aktuelle Informationen benötigen, müssen Sie diese Informationen direkt bereitstellen oder ChatGPT/Gemini nutzen, die einen Web-Zugriff haben.",
+    "review.claude.faq3.question": "Was ist Claudes Kontextfenster?",
+    "review.claude.faq3.answer": "Claude hat ein 200.000-Token-Kontextfenster - das größte unter den Mainstream-KI-Assistenten. Das bedeutet, dass es in einem Gespräch rund 150.000 Wörter oder 500+ Textseiten verarbeiten kann, was es ideal für die Analyse von gesamten Codebasen, Büchern oder langen Dokumenten macht.",
+    "review.claude.faq4.question": "Kann Claude Bilder erzeugen?",
+    "review.claude.faq4.answer": "Nein, Claude kann keine Bilder erzeugen. Im Gegensatz zu ChatGPT (das hat DALL-E) oder Gemini (was Imagen hat), ist Claude rein eine textbasierte KI. Es kann jedoch Bilder analysieren und beschreiben, die Sie hochladen, und kann SVGs und codebasierte Visualisierungen durch Artifacts erstellen.",
+    "review.claude.faq5.question": "Was sind Claude Artefakte?",
+    "review.claude.faq5.answer": "Artifacts ist Claudes Feature, um Inhalte in einem dedizierten Panel neben dem Chat zu erstellen und zu sehen. Sie können interaktive React-Komponenten, SVG-Grafik, HTML/CSS-Vorschauen, Dokumente und mehr generieren. Es ist besonders nützlich für Entwickler, die sofort Codeausgabe sehen möchten."
+  },
+  "pt": {
+    "review.claude.faq1.question": "O Claude é melhor do que o ChatGPT para codificação?",
+    "review.claude.faq1.answer": "Sim, Claude constantemente supera ChatGPT em benchmarks de codificação como SWE-bench. Claude 3.5 Sonnet é particularmente forte no entendimento de bases de código complexas, depuração e gravação de código de qualidade de produção. A janela de contexto maior (200K vs 128K) também ajuda ao trabalhar com grandes projetos.",
+    "review.claude.faq2.question": "O Claude pode aceder à Internet?",
+    "review.claude.faq2.answer": "Não, Claude não tem capacidade de navegação na web integrada. Seu conhecimento vem de seus dados de treinamento com data de corte. Para tarefas que exigem informações atuais, você precisará fornecer essas informações diretamente ou usar ChatGPT/Gemini que têm acesso à web.",
+    "review.claude.faq3.question": "Qual é a janela de contexto do Claude?",
+    "review.claude.faq3.answer": "Claude tem uma janela de contexto de 200 mil tokens, a maior entre os principais assistentes de IA. Isso significa que ele pode processar cerca de 150.000 palavras ou mais de 500 páginas de texto em uma única conversa, tornando-o ideal para analisar bases de código inteiras, livros ou documentos longos.",
+    "review.claude.faq4.question": "Claude pode gerar imagens?",
+    "review.claude.faq4.answer": "Não, Claude não pode gerar imagens. Ao contrário do ChatGPT (que tem DALL-E) ou Gemini (que tem Imagem), Claude é puramente uma IA baseada em texto. No entanto, ele pode analisar e descrever imagens que você carrega, e pode criar SVGs e visualizações baseadas em código através de artefatos.",
+    "review.claude.faq5.question": "O que são Claude Artifacts?",
+    "review.claude.faq5.answer": "Artefatos é a característica de Claude para criar e visualizar conteúdo em um painel dedicado ao lado do chat. Você pode gerar componentes interativos de React, gráficos SVG, visualizações HTML/CSS, documentos e muito mais. É particularmente útil para desenvolvedores que querem ver saída de código imediatamente."
+  },
+  "zh": {
+    "review.claude.faq1.question": "Claude比ChatGPT更好的编码吗?",
+    "review.claude.faq1.answer": "是的 Claude在像SWE-bench这样的编码基准上 一直比ChatGPT表现优异 克劳德·3.5 Sonnet在理解复杂的代码库,调试,并写出生产质量代码方面特别强. 较大的上下文窗口(200K vs 128K)在与大型项目合作时也有帮助.",
+    "review.claude.faq2.question": "克劳德能上网吗?",
+    "review.claude.faq2.answer": "不 Claude没有内置的网页浏览能力 其知识来源于有截止日期的培训数据. 对于需要当前信息的任务,您需要直接提供这些信息,或者使用ChatGPT/Gemini的网络访问.",
+    "review.claude.faq3.question": "Claude的背景窗口是什么?",
+    "review.claude.faq3.answer": "Claude拥有20万个符号上下文窗口——在主流AI助手中最大的. 这意味着它可以在一次谈话中处理大约15万个字或500多页的文字,使得分析整个代码库,书籍,或长文件的理想.",
+    "review.claude.faq4.question": "Claude能生成图像吗?",
+    "review.claude.faq4.answer": "不,克劳德无法生成图像。 与ChatGPT(拥有DALL-E)或双子座(拥有Imagen)不同,克洛德纯粹是一个基于文字的AI. 然而,它可以分析和描述您上传的图像,并且可以通过Artifacts创建SVG和基于代码的可视化.",
+    "review.claude.faq5.question": "克劳德·阿蒂法克斯是什么",
+    "review.claude.faq5.answer": "Artifacts是克洛德在聊天的同时在专用面板中创建和预览内容的功能. 您可以生成交互反应组件, SVG 图形, HTML/CSS 预览, 文档, 以及更多 。 这对希望立即看到代码输出的开发者特别有用."
+  },
+  "ja": {
+    "review.claude.faq1.question": "Claudeは、コーディングのためにChatGPTよりも優れていますか?",
+    "review.claude.faq1.answer": "はい、Claude は一貫して SWE-bench のようなコーディングベンチマークで ChatGPT を上回っています。 クロード 3.5 Sonnetは、複雑なコードベース、デバッグ、および製造品質コードの書き込みを理解することで特に強いです。 大規模なコンテクストウィンドウ(200K対128K)は、大規模なプロジェクトで作業する際に役立ちます。",
+    "review.claude.faq2.question": "インターネットにアクセスできますか?",
+    "review.claude.faq2.answer": "いいえ、ClaudeはWeb閲覧機能を内蔵していません。 その知識は、カットオフ日付でトレーニングデータから来ています。 現在の情報を必要とするタスクについては、その情報を直接提供したり、Webアクセスを持つChatGPT/Geminiを使用する必要があります。",
+    "review.claude.faq3.question": "クロードのコンテキストウィンドウとは何ですか?",
+    "review.claude.faq3.answer": "Claudeには、メインストリームのAIアシスタントの中で最大20万のトークンコンテキストウィンドウがあります。 これは、単一の会話で約150,000語または500+ページのテキストを処理することができることを意味します。コードベース、書籍、または長い文書全体を分析するのに理想的です。",
+    "review.claude.faq4.question": "Claudeは画像を生成できますか?",
+    "review.claude.faq4.answer": "いいえ、Claudeはイメージを生成できません。 ChatGPT(DALL-E)やGemini(Imagen)とは異なり、Claudeは純粋にテキストベースのAIです。 しかし、アップロードした画像を解析・記述し、アーティファクトによるSVGやコードベースの可視化を作成することができます。",
+    "review.claude.faq5.question": "クロードアーティファクトとは?",
+    "review.claude.faq5.answer": "アーティファクトは、チャットと一緒に専用のパネルでコンテンツを作成およびプレビューするためのClaudeの機能です。 インタラクティブな React コンポーネント、SVG グラフィックス、HTML/CSS プレビュー、ドキュメントなどを生成することができます。 すぐにコード出力を見たい開発者にとっては特に便利です。"
+  },
+  "ko": {
+    "review.claude.faq1.question": "코딩을 위한 ChatGPT 보다는 Claude 더 낫습니까?",
+    "review.claude.faq1.answer": "예, Claude는 SWE-bench와 같은 코딩 벤치 마크에 ChatGPT를 지속적으로 개요합니다. 클로드 3.5 Sonnet은 복잡한 코베이스, 디버깅 및 쓰기 생산 품질의 코드를 이해하는 데 특히 강합니다. 더 큰 컨텍스트 윈도우 (200K 대 128K) 또한 큰 프로젝트를 작업할 때 도움이됩니다.",
+    "review.claude.faq2.question": "인터넷에 액세스 할 수 있습니까?",
+    "review.claude.faq2.answer": "아니요, Claude는 웹 브라우징 기능을 내장하지 않습니다. 그것의 지식은 커트오프 날짜를 가진 그것의 훈련 자료에서 옵니다. 현재 정보를 필요로 하는 작업의 경우, 웹 액세스가 있는 ChatGPT/Gemini를 직접 제공해야 합니다.",
+    "review.claude.faq3.question": "Claude의 컨텍스트 창은 무엇입니까?",
+    "review.claude.faq3.answer": "Claude에는 200,000 개의 토큰 컨텍스트 창이 있습니다. 주류 AI 조수 중 가장 큰 것. 이것은 약 150,000 단어 또는 500 + 텍스트의 페이지를 단일 대화에서 처리 할 수 있으며 전체 코베이스, 서적 또는 긴 문서 분석에 이상적입니다.",
+    "review.claude.faq4.question": "Claude가 이미지를 생성 할 수 있습니까?",
+    "review.claude.faq4.answer": "아니요, Claude는 이미지를 생성 할 수 없습니다. ChatGPT (DALL-E) 또는 Gemini ( Imagen)와는 달리, Claude는 순수하게 텍스트 기반 AI입니다. 그러나, 업로드 할 이미지를 분석하고 설명 할 수 있으며, Artifacts를 통해 SVG 및 코드 기반 시각화를 만들 수 있습니다.",
+    "review.claude.faq5.question": "Claude Artifacts는 무엇입니까?",
+    "review.claude.faq5.answer": "Artifacts는 채팅과 함께 전용 패널에서 콘텐츠를 만들고 미리보기하는 Claude의 기능입니다. 대화 형 React 구성 요소, SVG 그래픽, HTML/CSS 미리보기, 문서 등을 생성할 수 있습니다. 코드 출력을 즉시 보고 싶은 개발자를 위해 특히 유용합니다."
+  },
+  "ar": {
+    "review.claude.faq1.question": "هل (كلود) أفضل من (تشات جي تي) للترميز؟",
+    "review.claude.faq1.answer": "نعم، (كلود) يتفوق باستمرار على (تشات جي بي تي) في تدوين النقاط المرجعية مثل (سو وي بينش) البند 3-5 (سونيت) قوي بشكل خاص في فهم قواعد الشفرة المعقدة، وتفكيك، وكتابة مدونة جودة الإنتاج. The larger context window (200K vs 128K) also helps when working with large projects.",
+    "review.claude.faq2.question": "هل يستطيع (كلود) الدخول إلى الإنترنت؟",
+    "review.claude.faq2.answer": "لا، (كلود) ليس لديه قدرات على التصفح وتأتي معرفته من بياناتها التدريبية في تاريخ التوقف. أما بالنسبة للمهام التي تتطلب معلومات حالية، فستحتاجون إلى تقديم تلك المعلومات مباشرة أو إلى استخدام شات جي بي تي/غيميني التي لها موقع على الشبكة.",
+    "review.claude.faq3.question": "ما هي نافذة سياق كلود؟",
+    "review.claude.faq3.answer": "(كلود) لديه نوافذ السياق المكسور بـ200 ألف دولار - أكبرها بين مساعدي الإسعاف وهذا يعني أنها يمكن أن تجهز ما يقرب من 000 150 كلمة أو 500 صفحة من النص في محادثة واحدة، مما يجعلها مثالية لتحليل جميع القواعد المدونة أو الكتب أو الوثائق الطويلة.",
+    "review.claude.faq4.question": "أيمكن لـ(كلود) أن تولد الصور؟",
+    "review.claude.faq4.answer": "لا، لا يستطيع (كلود) توليد الصور وخلافاً لـ &quot; تشاتغيب &quot; (التي لديها دال إي) أو &quot; غيميني &quot; (التي لديها &quot; إيماغن &quot; )، فإن &quot; كلود &quot; عبارة عن مصطلح &quot; أي. على أي حال، يمكن تحليل ووصف الصور التي قمت بتحميلها، ويمكن أن يخلق SVGs والتصوير على أساس الشفرة من خلال القطع الأثرية.",
+    "review.claude.faq5.question": "ما هي (كلود آرتيفتكس)؟",
+    "review.claude.faq5.answer": "القطع الأثرية هي سمة (كلود) لخلق وفحص محتوى في فريق مخصص إلى جانب الدردشة يمكنك أن تولد عناصر تفاعلية ورسوم بيانية لـ (إف جي) و (إتش تي إل) و (سي إس إس إس) إنه مفيد جداً للمطورين الذين يريدون رؤية ناتج الشفرة فوراً"
+  },
+  "hi": {
+    "review.claude.faq1.question": "क्या क्लाउड कोडिंग के लिए ChatGPT से बेहतर है?",
+    "review.claude.faq1.answer": "हां, क्लाउड लगातार SWE-बेंच जैसे कोडिंग बेंचमार्क पर चैटजीपीटी को दर्शाता है। क्लाउड 3.5 सोननेट विशेष रूप से जटिल कोडबेस, डीबगिंग और उत्पादन-गुणवत्ता कोड लिखने में मजबूत है। बड़े संदर्भ विंडो (200K बनाम 128K) भी बड़ी परियोजनाओं के साथ काम करते समय मदद करता है।",
+    "review.claude.faq2.question": "क्या क्लाउड इंटरनेट तक पहुंच सकता है?",
+    "review.claude.faq2.answer": "नहीं, क्लाउड में अंतर्निहित वेब ब्राउज़िंग क्षमताओं नहीं है। इसका ज्ञान एक कटऑफ तारीख के साथ अपने प्रशिक्षण डेटा से आता है। वर्तमान जानकारी की आवश्यकता वाले कार्यों के लिए, आपको उस जानकारी को सीधे प्रदान करने या ChatGPT/Gemini का उपयोग करने की आवश्यकता होगी, जिसमें वेब एक्सेस है।",
+    "review.claude.faq3.question": "क्लाउड की संदर्भ विंडो क्या है?",
+    "review.claude.faq3.answer": "क्लाउड में 200,000 टोकन संदर्भ विंडो है - मुख्यधारा एआई सहायकों में सबसे बड़ा। इसका मतलब यह है कि यह किसी भी बातचीत में लगभग 150,000 शब्दों या 500+ पृष्ठों को संसाधित कर सकता है, जिससे पूरे कोडबेस, पुस्तकों या लंबे दस्तावेज़ों का विश्लेषण करने के लिए इसे आदर्श बनाया जा सकता है।",
+    "review.claude.faq4.question": "क्या क्लाउड छवियां उत्पन्न कर सकते हैं?",
+    "review.claude.faq4.answer": "नहीं, क्लाउड छवियां उत्पन्न नहीं कर सकता। ChatGPT के विपरीत (जिसमें DALL-E है) या मिथुन (जिसमें इमेजन है), क्लाउड पूरी तरह से एक टेक्स्ट-आधारित AI है। हालांकि, यह आपके द्वारा अपलोड की गई छवियों का विश्लेषण और वर्णन कर सकता है और कलाकृतियों के माध्यम से SVG और कोड-आधारित विज़ुअलाइज़ेशन बना सकता है।",
+    "review.claude.faq5.question": "क्लाउड आर्टिफैक्ट्स क्या हैं?",
+    "review.claude.faq5.answer": "कलाकृतियों के साथ एक समर्पित पैनल में सामग्री बनाने और पूर्वावलोकन के लिए क्लाउड की सुविधा है। आप इंटरैक्टिव रिएक्ट घटकों, एसवीजी ग्राफिक्स, एचटीएमएल / सीएसएस पूर्वावलोकन, दस्तावेजों और अधिक उत्पन्न कर सकते हैं। यह डेवलपर्स के लिए विशेष रूप से उपयोगी है जो तुरंत कोड आउटपुट देखना चाहते हैं।"
+  }
+}

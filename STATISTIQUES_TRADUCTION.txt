@@ -1,0 +1,97 @@
+╔════════════════════════════════════════════════════════════════╗
+║         STATISTIQUES TRADUCTION GENUISNET.AI                   ║
+║                 15 Décembre 2025                               ║
+╚════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────┐
+│ FICHIERS HTML - NOMBRE D'ÉLÉMENTS data-i18n                 │
+├──────────────────────────────────────────────────────────────┤
+│ chatgpt.html      │ 216 éléments │ 1,688 lignes │ COMPLET ✓ │
+│ claude.html       │  83 éléments │   974 lignes │ PARTIEL ⚠ │
+│ gemini.html       │  61 éléments │   591 lignes │ PARTIEL ⚠ │
+│ copilot.html      │  57 éléments │   582 lignes │ PARTIEL ⚠ │
+│ deepseek.html     │ 120 éléments │ 1,058 lignes │ PARTIEL ⚠ │
+│ grok.html         │ 122 éléments │ 1,058 lignes │ PARTIEL ⚠ │
+│ perplexity.html   │  59 éléments │   584 lignes │ PARTIEL ⚠ │
+│ poe.html          │  60 éléments │   614 lignes │ PARTIEL ⚠ │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ TRADUCTIONS GÉNÉRÉES (9 langues par outil)                  │
+├──────────────────────────────────────────────────────────────┤
+│ ChatGPT           │ 216 clés → 1,944 traductions │ 161 KB   │
+│ Claude            │  83 clés →   747 traductions │  93 KB   │
+│ Gemini            │  61 clés →   549 traductions │  57 KB   │
+│ Copilot           │  57 clés →   513 traductions │  53 KB   │
+│ DeepSeek          │ 120 clés → 1,080 traductions │ 111 KB   │
+│ Grok              │ 122 clés → 1,098 traductions │ 109 KB   │
+│ Perplexity        │  59 clés →   531 traductions │  58 KB   │
+│ Poe               │  60 clés →   540 traductions │  51 KB   │
+├──────────────────────────────────────────────────────────────┤
+│ TOTAL ACTUEL      │ 778 clés → 7,002 traductions │ 693 KB   │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ OBJECTIF APRÈS CORRECTION                                    │
+├──────────────────────────────────────────────────────────────┤
+│ Estimation avec tous les data-i18n ajoutés:                 │
+│                                                              │
+│ ChatGPT (déjà OK) │ 216 clés → 1,944 traductions            │
+│ Claude            │ 150 clés → 1,350 traductions (estimé)   │
+│ Gemini            │ 130 clés → 1,170 traductions (estimé)   │
+│ Copilot           │ 120 clés → 1,080 traductions (estimé)   │
+│ DeepSeek          │ 180 clés → 1,620 traductions (estimé)   │
+│ Grok              │ 180 clés → 1,620 traductions (estimé)   │
+│ Perplexity        │ 120 clés → 1,080 traductions (estimé)   │
+│ Poe               │ 120 clés → 1,080 traductions (estimé)   │
+├──────────────────────────────────────────────────────────────┤
+│ TOTAL ESTIMÉ      │ ~1,200 clés → ~10,800 traductions       │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ LANGUES SUPPORTÉES                                           │
+├──────────────────────────────────────────────────────────────┤
+│ 1. Espagnol (es)   │ SPANISH                                │
+│ 2. Français (fr)   │ FRENCH                                 │
+│ 3. Allemand (de)   │ GERMAN                                 │
+│ 4. Portugais (pt)  │ PORTUGUESE                             │
+│ 5. Chinois (zh)    │ CHINESE                                │
+│ 6. Japonais (ja)   │ JAPANESE                               │
+│ 7. Coréen (ko)     │ KOREAN                                 │
+│ 8. Arabe (ar)      │ ARABIC                                 │
+│ 9. Hindi (hi)      │ HINDI                                  │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ TEMPS DE TRADUCTION OBSERVÉS                                │
+├──────────────────────────────────────────────────────────────┤
+│ Perplexity (59 clés)   │ 13.4 minutes                       │
+│ Poe (60 clés)          │ 12.3 minutes                       │
+│ Grok (122 clés)        │ 18.5 minutes                       │
+├──────────────────────────────────────────────────────────────┤
+│ Moyenne: ~0.15 minute par clé (9 langues)                   │
+│ Estimation pour 150 clés: ~22 minutes                       │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ PROBLÈME IDENTIFIÉ                                           │
+├──────────────────────────────────────────────────────────────┤
+│ Les fichiers HTML manquent de data-i18n sur:                │
+│   • Titres <h4> des features                                │
+│   • Certains titres de sections                             │
+│   • Éléments de tableaux                                    │
+│   • Items de listes                                         │
+│   • Textes de boutons                                       │
+│                                                              │
+│ Seul ChatGPT est complètement annoté!                       │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ À FAIRE DEMAIN                                               │
+├──────────────────────────────────────────────────────────────┤
+│ 1. ✓ Lire RAPPORT_TRADUCTION_2025-12-15.md                  │
+│ 2. □ Ajouter data-i18n manquants dans claude.html           │
+│ 3. □ Re-traduire Claude avec process_tool.py                │
+│ 4. □ Répéter pour les 6 autres outils                       │
+│ 5. □ Vérifier que chaque outil a ~150-200 clés              │
+└──────────────────────────────────────────────────────────────┘

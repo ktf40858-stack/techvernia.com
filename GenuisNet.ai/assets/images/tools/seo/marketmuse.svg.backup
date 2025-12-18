@@ -1,0 +1,511 @@
+<!doctype html>
+<html dir="ltr" lang="en-US">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="preload" href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/fonts/ResistSansDisplayBold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/fonts/ResistSansDisplayBoldOblique.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/fonts/ResistSansTextRegular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/fonts/ResistSansTextRegularOblique.woff2" as="font" type="font/woff2" crossorigin>
+
+		<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<script type="text/javascript">
+    (function() {
+  var pvData = {"source":"Direct","referrer":"Direct","visitor_type":"logged out","visitor_login_status":"logged out","visitor_id":0,"page_title":"Page Not Found - MarketMuse","post_type":"unknown","post_type_with_prefix":"","post_categories":"","post_tags":"","post_author":"","post_full_date":"","post_year":"","post_month":"","post_day":"","is_front_page":0,"is_home":1,"search_query":"","search_results_count":0};
+  var body = {
+    url: encodeURIComponent(window.location.href),
+    referrer: encodeURIComponent(document.referrer)
+  };
+
+  function makePostRequest(e,t){var n=[];if(t.body){for(var o in t.body)n.push(encodeURIComponent(o)+"="+encodeURIComponent(t.body[o]));t.body=n.join("&")}return window.fetch?new Promise(n=>{var o={method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},redirect:"follow",body:{},...t};window.fetch(e,o).then(e=>{n(e.text())})}):new Promise(t=>{var o;"undefined"==typeof XMLHttpRequest&&t(null),(o=new XMLHttpRequest).open("POST",e,!0),o.onreadystatechange=function(){4==o.readyState&&200==o.status&&t(o.responseText)},o.setRequestHeader("Content-type","application/x-www-form-urlencoded"),o.send(n.join("&"))})}
+  function observeAjaxCartActions(e){new PerformanceObserver(function(t){for(var n=t.getEntries(),r=0;r<n.length;r++)["xmlhttprequest","fetch"].includes(n[r].initiatorType)&&['=get_refreshed_fragments', 'add_to_cart'].some(p => n[r].name.includes(p))&&fetchCart(e)}).observe({entryTypes:["resource"]})};
+
+  function fetchCart(adapter) {
+    makePostRequest("//www.marketmuse.com/index.php?plugin=optimonk&action=cartData", { body })
+      .then((response) => {
+        var data = JSON.parse(response);
+        setCartData(data, adapter);
+      })
+  }
+
+  function setCartData(cartData, adapter) {
+    adapter.Cart.clear();
+
+    cartData.cart.forEach(cartItem => {
+      adapter.Cart.add(cartItem.sku, {quantity: cartItem.quantity, price: cartItem.price, name: cartItem.name});
+    });
+    Object.keys(cartData.avs).forEach((key, value) => {
+      adapter.attr(`wp_${key}`, cartData.avs[key]);
+    })
+  }
+
+  function setAssocData(assocData, adapter) {
+    Object.keys(assocData).forEach((key) => {
+      adapter.attr(`wp_${key}`, assocData[key]);
+    })
+  }
+
+  var RuleHandler = {
+    hasVisitorCartRules: (campaignMeta) => {
+      return !!(campaignMeta.rules.visitorCart || campaignMeta.rules.visitorCartRevamp || campaignMeta.rules.visitorCartV3);
+    },
+    hasVisitorAttributeRule: (campaignMeta) => {
+      return !!campaignMeta.rules.visitorAttribute;
+    }
+  }
+
+  document.querySelector('html').addEventListener('optimonk#embedded-campaigns-init', function(e) {
+    var campaignsData = e.parameters;
+
+    if (!campaignsData.length) {
+      return;
+    }
+
+    var adapter = window.OptiMonkEmbedded.Visitor.createAdapter();
+    var hasCartRule = false;
+    var hasAttributeRule = false;
+
+    campaignsData.forEach((campaignMetaData) => {
+      hasCartRule = hasCartRule || RuleHandler.hasVisitorCartRules(campaignMetaData);
+      hasAttributeRule = hasAttributeRule || RuleHandler.hasVisitorAttributeRule(campaignMetaData);
+    });
+
+    setAssocData(pvData, adapter);
+
+    if (hasCartRule) {
+      observeAjaxCartActions(adapter);
+      fetchCart(adapter);
+    }
+
+    if (hasAttributeRule) {
+      makePostRequest("//www.marketmuse.com/index.php?plugin=optimonk&action=productData", { body })
+        .then((response) => {
+          var data = JSON.parse(response);
+          setAssocData(data, adapter);
+        })
+    }
+  });
+
+  document.querySelector('html').addEventListener('optimonk#campaigns_initialized', function () {
+    if (!OptiMonk.campaigns) {
+      return;
+    }
+
+    var adapter = window.OptiMonk.Visitor.createAdapter();
+
+    setAssocData(pvData, adapter);
+
+    if (OptiMonk.campaigns.filter(campaign => campaign.hasVisitorCartRules()).length) {
+      observeAjaxCartActions(adapter);
+      fetchCart(adapter);
+    }
+
+    if (OptiMonk.campaigns.filter(campaign => campaign.hasVisitorAttributeRules()).length) {
+      makePostRequest("//www.marketmuse.com/index.php?plugin=optimonk&action=productData", { body })
+        .then((response) => {
+          var data = JSON.parse(response);
+          setAssocData(data, adapter);
+        });
+    }
+  });
+}());
+
+</script>
+<script type="text/javascript" src="https://onsite.optimonk.com/script.js?account=239687" async></script>
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>Page Not Found - MarketMuse</title>
+<meta name="robots" content="follow, noindex"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Page Not Found - MarketMuse" />
+<meta property="og:site_name" content="MarketMuse" />
+<meta property="og:image" content="https://mms-app.s3.amazonaws.com/wordpress/2021/06/15120226/marketmuse-share.png" />
+<meta property="og:image:secure_url" content="https://mms-app.s3.amazonaws.com/wordpress/2021/06/15120226/marketmuse-share.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="MarketMuse" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Page Not Found - MarketMuse" />
+<meta name="twitter:image" content="https://mms-app.s3.amazonaws.com/wordpress/2021/06/15120226/marketmuse-share.png" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.marketmuse.com/#organization","name":"MarketMuse","url":"https://www.marketmuse.com","logo":{"@type":"ImageObject","@id":"https://www.marketmuse.com/#logo","url":"https://marketmuse2021.wpengine.com/wp-content/uploads/2021/06/social-square.png","contentUrl":"https://marketmuse2021.wpengine.com/wp-content/uploads/2021/06/social-square.png","caption":"MarketMuse","inLanguage":"en-US","width":"600","height":"600"}},{"@type":"WebSite","@id":"https://www.marketmuse.com/#website","url":"https://www.marketmuse.com","name":"MarketMuse","publisher":{"@id":"https://www.marketmuse.com/#organization"},"inLanguage":"en-US"},{"@type":"WebPage","@id":"#webpage","url":"","name":"Page Not Found - MarketMuse","isPartOf":{"@id":"https://www.marketmuse.com/#website"},"inLanguage":"en-US"}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//d3gtgdletrrcg5.cloudfront.net' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://d3gtgdletrrcg5.cloudfront.net/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='rank-math-toc-block-style-inline-css' type='text/css'>
+.wp-block-rank-math-toc-block nav ol{counter-reset:item}.wp-block-rank-math-toc-block nav ol li{display:block}.wp-block-rank-math-toc-block nav ol li:before{content:counters(item, ".") ". ";counter-increment:item}
+
+</style>
+<link rel='stylesheet' id='ht_toc-style-css-css' href='https://d3gtgdletrrcg5.cloudfront.net/wp-content/plugins/heroic-table-of-contents/dist/blocks.style.build.css' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #0C131D;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--space-gray: #7B86A1;--wp--preset--color--gray: #8f8b8f;--wp--preset--color--gray-light: #cfcfcf;--wp--preset--color--gray-lighter: #f4f4f4;--wp--preset--color--blue: #359FF4;--wp--preset--color--green: #38DA8B;--wp--preset--color--purple: #A908E2;--wp--preset--color--yellow: #f3bd1c;--wp--preset--color--orange: #FC954F;--wp--preset--color--red: #ED6A5A;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 18px;--wp--preset--font-size--medium: 24px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--code: 14px;--wp--preset--font-size--tiny: 12px;--wp--preset--font-size--xlarge: 54px;--wp--preset--font-size--extreme: 76px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wp-featherlight-css' href='https://d3gtgdletrrcg5.cloudfront.net/wp-content/plugins/wp-featherlight/css/wp-featherlight.min.css' type='text/css' media='all' />
+<style id='kadence-blocks-global-variables-inline-css' type='text/css'>
+:root {--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);}:root {--global-palette1: #3182CE;--global-palette2: #2B6CB0;--global-palette3: #1A202C;--global-palette4: #2D3748;--global-palette5: #4A5568;--global-palette6: #718096;--global-palette7: #EDF2F7;--global-palette8: #F7FAFC;--global-palette9: #ffffff;}
+</style>
+<link rel='stylesheet' id='egg-stylesheet-css' href='https://d3gtgdletrrcg5.cloudfront.net/wp-content/themes/marketmuse-2021/assets/css/style.css?v=1756383560' type='text/css' media='all' />
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://www.marketmuse.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<script type="text/javascript" src="https://d3gtgdletrrcg5.cloudfront.net/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://d3gtgdletrrcg5.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="op3-dashboard-tracking-js-extra">
+/* <![CDATA[ */
+var OPDashboardStats = {"pid":"","pageview_record_id":null,"rest_url":"https:\/\/www.marketmuse.com\/wp-json\/opd\/v1\/opd-tracking"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://d3gtgdletrrcg5.cloudfront.net/wp-content/plugins/op-dashboard/public/assets/js/tracking.js" id="op3-dashboard-tracking-js"></script>
+<script type="text/javascript" src="https://d3gtgdletrrcg5.cloudfront.net/wp-content/themes/marketmuse-2021/assets/js/scripts.js?1756383560" id="egg-theme-js"></script>
+<script>!function () {var reb2b = window.reb2b = window.reb2b || [];if (reb2b.invoked) return;reb2b.invoked = true;reb2b.methods = ["identify", "collect"];reb2b.factory = function (method) {return function () {var args = Array.prototype.slice.call(arguments);args.unshift(method);reb2b.push(args);return reb2b;};};for (var i = 0; i < reb2b.methods.length; i++) {var key = reb2b.methods[i];reb2b[key] = reb2b.factory(key);}reb2b.load = function (key) {var script = document.createElement("script");script.type = "text/javascript";script.async = true;script.src = "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/" + key + "/reb2b.js.gz";var first = document.getElementsByTagName("script")[0];first.parentNode.insertBefore(script, first);};reb2b.SNIPPET_VERSION = "1.0.1";reb2b.load("1VN080HL1L6J");}();</script>
+		<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:4958183,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+		<script>document.addEventListener('DOMContentLoaded', function () {
+  const categoryLinks = document.querySelectorAll('a[href^="/category/"]');
+  categoryLinks.forEach(function(link) {
+    const href = link.getAttribute('href');
+    if (!href.endsWith('/')) {
+      link.setAttribute('href', href + '/');
+    }
+  });
+});
+</script><style class="wpcode-css-snippet">/* Group wrapper to allow div highlight on focus */
+html[data-op3-support] #op3-designer-element .op3-element-input-edit {
+  position: relative;
+}
+
+/* Default hidden border on the wrapper */
+html[data-op3-support] #op3-designer-element .op3-element-input-edit [data-op3-border] {
+  border: 1px solid transparent;
+  transition: border 0.2s ease;
+  border-radius: 4px;
+}
+
+/* Visible wrapper border when input inside is focused */
+html[data-op3-support] #op3-designer-element .op3-element-input-edit:focus-within [data-op3-border] {
+  border: 2px solid #000000 !important;
+}
+
+html[data-op3-support] #op3-designer-element .op3-element-input-edit input.op3-element-input-edit-text:focus {
+  outline: 1px solid #ffffff !important; /* thin white outline */
+}</style><style class="wpcode-css-snippet">/*Removing featured images from blog posts*/
+<style>
+  .wp-post-image { display: none !important; }
+</style></style><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>		<link rel="icon" type="image/svg+xml" href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/components/favicons/favicon.svg">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<meta name="theme-color" content="#359FF4">
+		
+		<meta name="apple-mobile-web-app-title" content="MarketMuse">
+		<meta name="author" content="MarketMuse">
+		<meta name="revisit-after" content="15 days">
+		<meta name="rating" content="general">
+		<meta name="distribution" content="global">
+				<!-- Google Tag Manager -->
+			<script>
+				(function(w, d, s, l, i) {
+					w[l] = w[l] || [];
+					w[l].push({
+						'gtm.start': new Date().getTime(),
+						event: 'gtm.js'
+					});
+					var f = d.getElementsByTagName(s)[0],
+						j = d.createElement(s),
+						dl = l != 'dataLayer' ? '&l=' + l : '';
+					j.async = true;
+					j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '';
+					f.parentNode.insertBefore(j, f);
+				})(window, document, 'script', 'dataLayer', 'GTM-M2DKC3D');
+			</script>
+			<!-- End Google Tag Manager -->
+			<!-- Start Mutiny -->
+			<script>
+				(function() {
+					var a = window.mutiny = window.mutiny || {};
+					if (!window.mutiny.client) {
+						a.client = {
+							_queue: {}
+						};
+						var b = ["identify", "trackConversion"];
+						var c = [].concat(b, ["defaultOptOut", "optOut", "optIn"]);
+						var d = function factory(c) {
+							return function() {
+								for (var d = arguments.length, e = new Array(d), f = 0; f < d; f++) {
+									e[f] = arguments[f]
+								}
+								a.client._queue[c] = a.client._queue[c] || [];
+								if (b.includes(c)) {
+									return new Promise(function(b, d) {
+										a.client._queue[c].push({
+											args: e,
+											resolve: b,
+											reject: d
+										});
+										setTimeout(d, 500)
+									})
+								} else {
+									a.client._queue[c].push({
+										args: e
+									})
+								}
+							}
+						};
+						c.forEach(function(b) {
+							a.client[b] = d(b)
+						})
+					}
+				})();
+			</script>
+			<script src="https://client-registry.mutinycdn.com/personalize/client/103469d1ef3fe6a8.js"></script>
+			<!-- End Mutiny -->
+
+	
+</head>
+
+<body class="error404 wp-theme-marketmuse-2021 wp-featherlight-captions darkHeader">
+
+	<div id="container">
+
+		<a class="screen-reader-text" href="#content">Skip to Content</a>
+					<header class="pageHeader">
+
+				
+				<div class="wrapper">
+
+					<a id="logo" href="/" title="MarketMuse Home">
+						<svg width="153" height="34" viewBox="0 0 153 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path fill="#519ad3" class="logo-stars" d="M14.9075 9.60416L18.8238 8.34036L14.9075 7.07656L13.619 3.2596L12.3051 7.07656L8.38858 8.34036L12.3051 9.60416L13.619 13.4209L14.9075 9.60416Z" />
+	<path fill="#519ad3" class="logo-stars" d="M5.05337 14.9628L8.0601 13.9772L5.05337 12.9913L4.04269 10.0591L3.03202 12.9913L0 13.9772L3.03202 14.9628L4.04269 17.9203L5.05337 14.9628Z" />
+	<path fill="#519ad3" class="logo-stars" d="M4.80078 3.91679L7.1253 3.15845L4.80078 2.42541L4.04271 0.150665L3.25961 2.42541L0.960114 3.15845L3.25961 3.91679L4.04271 6.16651L4.80078 3.91679Z" />
+
+	<path class="logo-text" d="M150.082 10.4471C150.056 9.55728 149.805 8.87112 149.277 8.36275C148.749 7.85439 148.019 7.6002 147.088 7.6002C146.207 7.6002 145.503 7.85439 144.975 8.36275C144.446 8.87112 144.144 9.55754 144.019 10.4218H150.082V10.4473L150.082 10.4471ZM144.019 12.6841C144.119 13.5739 144.471 14.2856 145.05 14.7684C145.629 15.2768 146.358 15.5057 147.189 15.5057C147.918 15.5057 148.547 15.3532 149.05 15.0482C149.553 14.7431 149.981 14.3617 150.359 13.9042L152.472 15.531C151.793 16.3952 151.013 17.0052 150.157 17.3611C149.302 17.7169 148.422 17.9203 147.465 17.9203C146.585 17.9203 145.755 17.7678 144.95 17.4628C144.145 17.1577 143.49 16.7511 142.912 16.1919C142.333 15.6326 141.88 14.9971 141.553 14.2092C141.226 13.4467 141.05 12.5825 141.05 11.6418C141.05 10.7012 141.226 9.83701 141.553 9.07446C141.88 8.31191 142.333 7.65104 142.912 7.09184C143.49 6.53263 144.17 6.12594 144.95 5.82092C145.73 5.5159 146.585 5.36339 147.465 5.36339C148.296 5.36339 149.025 5.5159 149.73 5.79564C150.434 6.07537 150.988 6.50735 151.465 7.04126C151.943 7.57518 152.321 8.26134 152.598 9.07473C152.874 9.88811 153 10.8032 153 11.8455V12.6588L144.019 12.6841ZM138.157 8.97279C137.578 8.1594 136.823 7.75271 135.842 7.75271C135.44 7.75271 135.062 7.85439 134.685 8.05773C134.307 8.26108 134.131 8.59165 134.131 9.02363C134.131 9.37948 134.282 9.65922 134.61 9.81173C134.937 9.96424 135.314 10.1167 135.792 10.244C136.27 10.3712 136.773 10.4729 137.327 10.5998C137.88 10.727 138.383 10.9048 138.861 11.159C139.339 11.4132 139.742 11.7691 140.043 12.2266C140.345 12.6841 140.522 13.2942 140.522 14.0567C140.522 14.7684 140.371 15.3785 140.069 15.8615C139.767 16.3446 139.364 16.7513 138.886 17.0308C138.408 17.3358 137.855 17.5392 137.251 17.6664C136.647 17.7936 136.043 17.8697 135.44 17.8697C134.534 17.8697 133.679 17.7425 132.899 17.463C132.119 17.2088 131.439 16.7258 130.836 16.0141L132.798 14.1584C133.176 14.5906 133.578 14.9465 134.006 15.226C134.434 15.5054 134.962 15.6326 135.591 15.6326C135.792 15.6326 136.018 15.6074 136.245 15.5563C136.471 15.5054 136.698 15.429 136.874 15.3021C137.075 15.1749 137.226 15.0479 137.352 14.8698C137.478 14.6918 137.528 14.4884 137.528 14.2598C137.528 13.8531 137.377 13.5481 137.05 13.3447C136.748 13.1414 136.346 12.9889 135.868 12.8617C135.389 12.7344 134.886 12.6328 134.333 12.5058C133.78 12.4041 133.276 12.2261 132.798 11.9719C132.32 11.743 131.918 11.3871 131.616 10.9552C131.314 10.5229 131.138 9.93842 131.138 9.17587C131.138 8.515 131.264 7.93025 131.54 7.44743C131.817 6.96435 132.169 6.55766 132.622 6.25264C133.075 5.94762 133.578 5.69344 134.157 5.56621C134.735 5.4137 135.314 5.33732 135.893 5.33732C136.672 5.33732 137.452 5.46454 138.232 5.74401C139.012 6.02348 139.616 6.48127 140.094 7.14215L138.157 8.97226L138.157 8.97279ZM130.031 17.6153H127.213V15.7088H127.163C126.886 16.2935 126.458 16.8272 125.88 17.2594C125.301 17.6917 124.521 17.9203 123.54 17.9203C122.76 17.9203 122.081 17.7931 121.527 17.5389C120.974 17.2847 120.521 16.9288 120.194 16.4966C119.842 16.0644 119.615 15.556 119.464 14.9968C119.313 14.4376 119.238 13.8528 119.238 13.2428V5.66789H122.181V11.7177C122.181 12.0483 122.206 12.4294 122.231 12.8361C122.256 13.2428 122.357 13.6242 122.483 13.9801C122.634 14.3359 122.835 14.6409 123.112 14.8698C123.389 15.0987 123.816 15.2257 124.32 15.2257C124.823 15.2257 125.225 15.1493 125.552 14.9715C125.88 14.7934 126.156 14.5901 126.383 14.3106C126.609 14.0312 126.76 13.7006 126.861 13.3447C126.961 12.9889 127.012 12.6075 127.012 12.2008V5.66815H129.955L130.031 17.6153ZM99.2873 0H104.017L108.671 12.3283L113.376 0H118.055V17.6153H115.112V2.99936H115.061L109.778 17.6153H107.614L102.331 2.99936H102.281V17.6153H99.3373L99.2873 0ZM89.4 8.21024V5.66841H91.8404V2.21152H94.7839V5.66841H98.0293V8.21024H94.7839V13.4211C94.7839 14.0059 94.8845 14.4887 95.1111 14.8445C95.3376 15.2004 95.7651 15.3785 96.4194 15.3785C96.6709 15.3785 96.9728 15.3532 97.2746 15.3021C97.5765 15.2512 97.8281 15.1496 98.0043 15.0226V17.5392C97.7024 17.6917 97.2999 17.7933 96.8722 17.8442C96.4444 17.895 96.0169 17.9203 95.6898 17.9203C94.9098 17.9203 94.2558 17.8442 93.7527 17.6661C93.2496 17.4881 92.8471 17.2339 92.5703 16.878C92.2934 16.5222 92.0922 16.0899 91.9916 15.5563C91.891 15.0226 91.8407 14.4123 91.8407 13.7261V8.21024H89.4002H89.4ZM86.3809 10.4471C86.3556 9.55728 86.104 8.87112 85.5759 8.36275C85.0475 7.85439 84.3179 7.6002 83.387 7.6002C82.5065 7.6002 81.8021 7.85439 81.2738 8.36275C80.7454 8.87112 80.4435 9.55754 80.3179 10.4218H86.3811V10.4473L86.3809 10.4471ZM80.3179 12.6841C80.4185 13.5739 80.7707 14.2856 81.3494 14.7684C81.928 15.2768 82.6577 15.5057 83.4879 15.5057C84.2175 15.5057 84.8465 15.3532 85.3496 15.0482C85.8527 14.7431 86.2805 14.3617 86.658 13.9042L88.7712 15.531C88.0919 16.3952 87.312 17.0052 86.4567 17.3611C85.6014 17.7169 84.7209 17.9203 83.7647 17.9203C82.8842 17.9203 82.054 17.7678 81.249 17.4628C80.4691 17.1577 79.7897 16.7511 79.2111 16.1919C78.6324 15.6326 78.1796 14.9971 77.8524 14.2092C77.5253 13.4467 77.3493 12.5825 77.3493 11.6418C77.3493 10.7012 77.5255 9.83701 77.8524 9.07446C78.1793 8.31191 78.6324 7.65104 79.2111 7.09184C79.7897 6.53263 80.4691 6.12594 81.249 5.82092C82.0289 5.5159 82.8842 5.36339 83.7647 5.36339C84.595 5.36339 85.3246 5.5159 86.029 5.79564C86.7083 6.07537 87.287 6.50735 87.7648 7.04126C88.2428 7.60047 88.62 8.26134 88.8969 9.07473C89.1737 9.88811 89.2994 10.8032 89.2994 11.8455V12.6588L80.3179 12.6841ZM67.1098 0H70.0534V10.6251L74.607 5.66841H78.4058L73.349 11.0826L78.733 17.59H74.8083L70.1037 11.4893H70.0534V17.59H67.1098V0ZM58.3546 5.66841H61.2981V7.54937H61.3484C61.6756 6.86294 62.1534 6.30374 62.7574 5.9226C63.3611 5.54119 64.0657 5.36339 64.8456 5.36339C65.0218 5.36339 65.1978 5.38868 65.374 5.41423L65.9024 5.54145V8.41385C65.6509 8.33773 65.4243 8.28663 65.1728 8.26134C64.9212 8.23606 64.6947 8.21051 64.4684 8.21051C63.7891 8.21051 63.2357 8.33773 62.808 8.59191C62.3802 8.84609 62.0783 9.15111 61.8521 9.48168C61.6258 9.81225 61.4746 10.1426 61.3993 10.4731C61.3237 10.8037 61.2987 11.0579 61.2987 11.2104V17.5905H58.3551V5.66841H58.3546ZM54.2287 12.2774H53.625C53.2225 12.2774 52.7444 12.3027 52.2413 12.3283C51.7382 12.3536 51.2601 12.4299 50.8074 12.5572C50.3546 12.6844 49.9771 12.8622 49.6753 13.1164C49.3734 13.345 49.1972 13.7011 49.1972 14.1331C49.1972 14.4128 49.2475 14.6415 49.3734 14.8448C49.4993 15.0229 49.6502 15.2007 49.8515 15.3279C50.0527 15.4549 50.2792 15.5565 50.5055 15.6076C50.757 15.6585 51.0086 15.6837 51.2351 15.6837C52.2413 15.6837 52.9962 15.4296 53.4993 14.9465C53.9774 14.4634 54.2289 13.8025 54.2289 12.9383L54.2287 12.2774ZM54.4049 15.963H54.3293C53.9015 16.6494 53.3734 17.1322 52.6941 17.4372C52.0401 17.7422 51.3105 17.8947 50.5305 17.8947C49.9771 17.8947 49.4487 17.8184 48.9456 17.6658C48.4172 17.5133 47.9645 17.2844 47.562 17.005C47.1595 16.7 46.8324 16.3441 46.5808 15.8866C46.3293 15.429 46.2034 14.9207 46.2034 14.3106C46.2034 13.675 46.3293 13.1158 46.5555 12.6583C46.782 12.2008 47.0839 11.8194 47.4864 11.5144C47.8638 11.2093 48.3166 10.9552 48.8197 10.7771C49.3228 10.599 49.8512 10.4465 50.4046 10.3704C50.958 10.2687 51.5117 10.2179 52.0651 10.1923C52.6185 10.1668 53.1469 10.1671 53.65 10.1671H54.3796V9.83649C54.3796 9.09922 54.1281 8.54002 53.625 8.15888C53.1219 7.77747 52.4676 7.59968 51.6879 7.59968C51.0589 7.59968 50.4802 7.70135 49.9521 7.93025C49.3987 8.15888 48.9456 8.46416 48.5432 8.8453L46.9833 7.26937C47.6373 6.58294 48.4172 6.10013 49.2728 5.79511C50.1533 5.49009 51.0589 5.33758 51.9898 5.33758C52.82 5.33758 53.5243 5.43925 54.103 5.61731C54.6817 5.79537 55.1598 6.04955 55.537 6.35457C55.9145 6.65959 56.2163 6.99016 56.4176 7.39686C56.6188 7.80355 56.7697 8.18496 56.8703 8.5661C56.971 8.97279 57.0213 9.3542 57.0213 9.71005C57.0463 10.0915 57.0466 10.4218 57.0466 10.7015V17.5647H54.3799L54.4052 15.9632L54.4049 15.963ZM26.3534 0H31.083L35.7373 12.3283L40.4167 0H45.096V17.6153H42.1525V2.99936H42.1022L36.8189 17.6153H34.6553L29.372 2.99936H29.3217V17.6153H26.3781L26.3528 0H26.3534Z" fill="#17191a"/>
+	<path class="logo-text" d="M81.898 30.9487C81.5698 30.9487 81.2735 30.9 81.0088 30.803C80.7443 30.7058 80.5149 30.5718 80.3208 30.4011C80.1267 30.2304 79.9744 30.0328 79.8638 29.8084L80.0447 29.5221V30.798H78.9095V23.5647H80.1901V26.9252L79.9138 26.6342C80.1383 26.3194 80.4135 26.0723 80.7404 25.8932C81.0667 25.7141 81.446 25.6245 81.878 25.6245C82.3735 25.6245 82.8123 25.7426 83.194 25.9786C83.5756 26.2146 83.8736 26.5346 84.0882 26.9381C84.3024 27.3417 84.4096 27.7913 84.4096 28.2868C84.4096 28.6718 84.3477 29.0277 84.2239 29.3543C84.0998 29.6807 83.9257 29.963 83.7016 30.2006C83.4771 30.4385 83.2119 30.6229 82.9056 30.7532C82.5992 30.8839 82.2634 30.9492 81.8986 30.9492L81.898 30.9487ZM81.662 29.8237C81.9431 29.8237 82.1952 29.761 82.418 29.6351C82.6406 29.5095 82.8157 29.3322 82.9427 29.1028C83.0699 28.8736 83.1337 28.6015 83.1337 28.2865C83.1337 27.9715 83.0702 27.6991 82.9427 27.4678C82.8157 27.2368 82.6414 27.0593 82.4206 26.9355C82.1994 26.8117 81.9465 26.7498 81.662 26.7498C81.3776 26.7498 81.1236 26.8117 80.9008 26.9355C80.6782 27.0596 80.5041 27.2371 80.3787 27.4678C80.2528 27.6991 80.1901 27.972 80.1901 28.2865C80.1901 28.601 80.2536 28.8736 80.3811 29.1028C80.5083 29.3322 80.6827 29.5097 80.9034 29.6351C81.1244 29.761 81.3773 29.8237 81.662 29.8237Z" fill="#17191a"/>
+	<path class="logo-text" d="M85.9568 33.0483C85.7592 33.0483 85.5651 33.0264 85.3741 32.9829C85.1832 32.9395 84.999 32.8692 84.8215 32.772L85.1078 31.682C85.2116 31.7455 85.3272 31.7942 85.4545 31.8277C85.5814 31.8611 85.6971 31.8777 85.8008 31.8777C86.015 31.8777 86.1894 31.8282 86.3232 31.7297C86.457 31.6309 86.5592 31.4742 86.6295 31.2603L86.7652 30.8583L84.796 25.7752H86.1975L87.4935 29.5171L88.7541 25.7752H90.1154L87.9755 31.446C87.8148 31.8545 87.6323 32.1754 87.4281 32.4079C87.224 32.6405 86.9985 32.8054 86.7525 32.9026C86.5065 32.9995 86.2412 33.0483 85.9565 33.0483H85.9568Z" fill="#17191a"/>
+	<path class="logo-text" d="M95.832 30.9487C95.3297 30.9487 94.8398 30.876 94.3627 30.7301C93.8855 30.5844 93.4827 30.3761 93.1548 30.1048L93.7875 29.1152C93.9482 29.2627 94.141 29.3899 94.3651 29.4968C94.5895 29.604 94.8282 29.687 95.081 29.7455C95.3336 29.8042 95.5857 29.8334 95.8367 29.8334C96.2556 29.8334 96.5953 29.7555 96.8566 29.5998C97.1177 29.4439 97.2483 29.2189 97.2483 28.9242C97.2483 28.6932 97.1577 28.4998 96.977 28.3442C96.7961 28.1882 96.4631 28.0421 95.9774 27.9046L95.2944 27.7088C94.608 27.5147 94.1115 27.254 93.8051 26.9276C93.4985 26.6012 93.3455 26.2001 93.3455 25.7246C93.3455 25.4133 93.409 25.1286 93.5365 24.871C93.6634 24.6131 93.8436 24.3905 94.0764 24.2027C94.3093 24.0152 94.5845 23.8713 94.9027 23.7707C95.2209 23.6704 95.5673 23.6201 95.9426 23.6201C96.4347 23.6201 96.8919 23.6914 97.3139 23.8337C97.7359 23.9762 98.0807 24.1692 98.3485 24.4139L97.7006 25.3733C97.5599 25.2429 97.3942 25.1288 97.2033 25.0316C97.0123 24.9347 96.8063 24.8602 96.5853 24.808C96.3643 24.7564 96.1415 24.7303 95.9173 24.7303C95.6526 24.7303 95.4216 24.7672 95.2241 24.8407C95.0265 24.9144 94.8724 25.02 94.7621 25.1573C94.6514 25.2945 94.5961 25.4618 94.5961 25.6593C94.5961 25.8034 94.6341 25.9288 94.7094 26.0362C94.7845 26.1434 94.9143 26.2414 95.0987 26.3299C95.2828 26.4187 95.5373 26.5117 95.862 26.6089L96.5753 26.8199C97.2486 27.0177 97.739 27.2713 98.0472 27.5811C98.3551 27.8909 98.5092 28.2933 98.5092 28.7891C98.5092 29.2142 98.402 29.5895 98.1876 29.914C97.9735 30.2388 97.6663 30.4925 97.266 30.6753C96.8656 30.8576 96.3878 30.9487 95.832 30.9487Z" fill="#17191a"/>
+	<path class="logo-text" d="M100.327 24.931C100.106 24.931 99.9155 24.8607 99.7546 24.72C99.5936 24.5794 99.5135 24.3934 99.5135 24.1624C99.5135 23.9314 99.5939 23.7454 99.7546 23.605C99.9152 23.4644 100.106 23.3938 100.327 23.3938C100.548 23.3938 100.739 23.4644 100.9 23.605C101.061 23.7454 101.141 23.9314 101.141 24.1624C101.141 24.3934 101.061 24.5794 100.9 24.72C100.739 24.8607 100.548 24.931 100.327 24.931ZM99.6845 30.798V25.7752H100.97V30.798H99.6845Z" fill="#17191a"/>
+	<path class="logo-text" d="M101.859 26.8196V25.7749H103.065V26.8196H101.859ZM104.597 30.9487C104.081 30.9487 103.673 30.8012 103.371 30.5064C103.07 30.212 102.919 29.7663 102.919 29.1705V24.3183H104.205V25.7749H105.526V26.8196H104.205V28.9142C104.205 29.2358 104.269 29.4626 104.396 29.5948C104.523 29.7273 104.699 29.7934 104.924 29.7934C105.037 29.7934 105.145 29.78 105.247 29.7531C105.35 29.7262 105.444 29.6915 105.531 29.6478L105.732 30.6726C105.585 30.7496 105.412 30.8149 105.215 30.8684C105.017 30.9218 104.811 30.9487 104.597 30.9487Z" fill="#17191a"/>
+	<path class="logo-text" d="M109.128 30.9487C108.582 30.9487 108.103 30.8373 107.691 30.6144C107.279 30.3919 106.959 30.0813 106.729 29.6828C106.5 29.2843 106.385 28.8207 106.385 28.2915C106.385 27.903 106.451 27.5463 106.584 27.2215C106.716 26.897 106.903 26.6147 107.146 26.3752C107.389 26.1358 107.673 25.9509 108 25.8203C108.326 25.6899 108.684 25.6245 109.072 25.6245C109.494 25.6245 109.871 25.6991 110.202 25.8482C110.534 25.997 110.81 26.2064 111.029 26.4761C111.248 26.7456 111.402 27.0606 111.491 27.4204C111.58 27.7802 111.591 28.173 111.524 28.5984H107.596C107.592 28.8631 107.655 29.0941 107.784 29.2916C107.913 29.4892 108.097 29.6441 108.337 29.7563C108.576 29.8685 108.858 29.9246 109.183 29.9246C109.471 29.9246 109.748 29.883 110.012 29.7989C110.276 29.7154 110.522 29.5914 110.75 29.4273L111.202 30.3263C111.045 30.4535 110.849 30.5641 110.615 30.6579C110.38 30.7517 110.133 30.8238 109.874 30.8739C109.615 30.9239 109.366 30.9492 109.128 30.9492L109.128 30.9487ZM107.671 27.6838H110.278C110.268 27.3456 110.156 27.0804 109.941 26.8878C109.727 26.6953 109.427 26.5989 109.042 26.5989C108.66 26.5989 108.346 26.695 108.098 26.8878C107.85 27.0804 107.708 27.3456 107.671 27.6838Z" fill="#17191a"/>
+	<path class="logo-text" d="M113.272 24.931C113.051 24.931 112.86 24.8607 112.699 24.72C112.538 24.5794 112.458 24.3934 112.458 24.1624C112.458 23.9314 112.539 23.7454 112.699 23.605C112.86 23.4644 113.051 23.3938 113.272 23.3938C113.493 23.3938 113.684 23.4644 113.844 23.605C114.005 23.7454 114.086 23.9314 114.086 24.1624C114.086 24.3934 114.005 24.5794 113.844 24.72C113.684 24.8607 113.493 24.931 113.272 24.931ZM112.629 30.798V25.7752H113.915V30.798H112.629Z" fill="#17191a"/>
+	<path class="logo-text" d="M115.396 30.798V25.7752H116.682V26.4432C116.813 26.2557 116.963 26.1016 117.134 25.9809C117.305 25.8603 117.488 25.7707 117.682 25.712C117.876 25.6535 118.072 25.6243 118.27 25.6243C118.665 25.6243 118.998 25.7112 119.269 25.8853C119.54 26.0594 119.729 26.287 119.837 26.5686C120.068 26.2204 120.349 25.9759 120.681 25.8353C121.012 25.6946 121.352 25.6243 121.7 25.6243C122.172 25.6243 122.547 25.7165 122.825 25.9006C123.103 26.0847 123.302 26.321 123.423 26.6086C123.543 26.8968 123.604 27.1981 123.604 27.5129V30.798H122.318V27.8845C122.318 27.5598 122.23 27.2977 122.054 27.0985C121.879 26.8994 121.621 26.7996 121.283 26.7996C121.066 26.7996 120.87 26.8467 120.698 26.9402C120.525 27.034 120.39 27.1639 120.291 27.3295C120.192 27.4955 120.143 27.6838 120.143 27.8948V30.798H118.857V27.8845C118.857 27.5598 118.769 27.2977 118.593 27.0985C118.418 26.8994 118.16 26.7996 117.822 26.7996C117.605 26.7996 117.41 26.8467 117.237 26.9402C117.065 27.034 116.929 27.1639 116.83 27.3295C116.731 27.4955 116.682 27.6838 116.682 27.8948V30.798H115.396H115.396Z" fill="#17191a"/>
+	<path class="logo-text" d="M125.036 32.9079V25.7752H126.171V26.4382C126.365 26.1938 126.615 25.997 126.919 25.8482C127.224 25.6994 127.592 25.6245 128.024 25.6245C128.51 25.6245 128.942 25.7383 129.32 25.9662C129.699 26.1938 129.996 26.5077 130.212 26.9078C130.428 27.3079 130.536 27.7678 130.536 28.2865C130.536 28.6581 130.474 29.005 130.35 29.3261C130.226 29.6477 130.052 29.9299 129.828 30.1727C129.604 30.4156 129.336 30.6057 129.026 30.7427C128.717 30.8799 128.376 30.9487 128.004 30.9487C127.643 30.9487 127.322 30.886 127.043 30.7604C126.763 30.6344 126.521 30.463 126.317 30.2454V32.9076H125.036L125.036 32.9079ZM127.788 29.8237C128.073 29.8237 128.326 29.761 128.547 29.6351C128.768 29.5095 128.942 29.3322 129.069 29.1028C129.196 28.8736 129.26 28.6015 129.26 28.2865C129.26 27.9715 129.196 27.6991 129.069 27.4678C128.942 27.2368 128.767 27.0593 128.544 26.9355C128.321 26.8117 128.069 26.7498 127.788 26.7498C127.503 26.7498 127.251 26.8117 127.03 26.9355C126.809 27.0596 126.634 27.2371 126.507 27.4678C126.38 27.6991 126.316 27.972 126.316 28.2865C126.316 28.601 126.379 28.8736 126.505 29.1028C126.631 29.3322 126.805 29.5097 127.027 29.6351C127.25 29.761 127.503 29.8237 127.788 29.8237Z" fill="#17191a"/>
+	<path class="logo-text" d="M131.596 30.798V25.7752H132.882V26.4332C133.056 26.1384 133.274 25.929 133.537 25.8052C133.8 25.6812 134.084 25.6193 134.388 25.6193C134.495 25.6193 134.594 25.6245 134.685 25.6346C134.775 25.6446 134.862 25.6596 134.946 25.6796L134.785 27.0058C134.681 26.969 134.573 26.9413 134.461 26.9231C134.349 26.9047 134.238 26.8955 134.127 26.8955C133.766 26.8955 133.467 27.0035 133.233 27.2194C132.998 27.4352 132.881 27.7376 132.881 28.1258V30.7983H131.595L131.596 30.798Z" fill="#17191a"/>
+	<path class="logo-text" d="M138.055 30.9487C137.52 30.9487 137.045 30.8273 136.631 30.5844C136.218 30.3415 135.894 30.0186 135.659 29.6148C135.425 29.2116 135.308 28.7685 135.308 28.2862C135.308 27.9314 135.375 27.5929 135.509 27.2716C135.643 26.95 135.833 26.6663 136.079 26.4203C136.325 26.1743 136.616 25.9799 136.951 25.8376C137.285 25.6951 137.654 25.624 138.056 25.624C138.588 25.624 139.061 25.7444 139.475 25.9857C139.888 26.2267 140.213 26.5499 140.449 26.955C140.685 27.3604 140.803 27.8042 140.803 28.2862C140.803 28.6413 140.735 28.9787 140.6 29.2985C140.465 29.6182 140.275 29.9022 140.03 30.1498C139.785 30.3977 139.496 30.5928 139.161 30.7351C138.826 30.8773 138.458 30.9487 138.056 30.9487H138.055ZM138.055 29.8237C138.337 29.8237 138.588 29.761 138.811 29.6351C139.034 29.5095 139.209 29.3322 139.336 29.1028C139.463 28.8736 139.527 28.6015 139.527 28.2865C139.527 27.9715 139.463 27.6991 139.336 27.4678C139.209 27.2368 139.035 27.0593 138.814 26.9355C138.593 26.8117 138.34 26.7498 138.055 26.7498C137.771 26.7498 137.517 26.8117 137.294 26.9355C137.072 27.0596 136.897 27.2371 136.772 27.4678C136.646 27.6991 136.583 27.972 136.583 28.2865C136.583 28.601 136.647 28.8736 136.775 29.1028C136.902 29.3322 137.076 29.5097 137.297 29.6351C137.518 29.761 137.771 29.8237 138.055 29.8237Z" fill="#17191a"/>
+	<path class="logo-text" d="M143.038 30.798L141.195 25.7752H142.591L143.872 29.6931H143.701L144.957 25.7752H146.319L144.52 30.798H143.039H143.038Z" fill="#17191a"/>
+	<path class="logo-text" d="M149.452 30.9487C148.907 30.9487 148.428 30.8373 148.016 30.6144C147.604 30.3919 147.283 30.0813 147.054 29.6828C146.825 29.2843 146.71 28.8207 146.71 28.2915C146.71 27.903 146.776 27.5463 146.908 27.2215C147.041 26.897 147.228 26.6147 147.471 26.3752C147.714 26.1358 147.999 25.9509 148.325 25.8203C148.651 25.6899 149.009 25.6245 149.397 25.6245C149.819 25.6245 150.196 25.6991 150.527 25.8482C150.859 25.9973 151.134 26.2064 151.354 26.4761C151.573 26.7458 151.727 27.0606 151.816 27.4204C151.905 27.7802 151.916 28.173 151.849 28.5984H147.921C147.917 28.8631 147.98 29.0941 148.109 29.2916C148.238 29.4892 148.422 29.6441 148.662 29.7563C148.901 29.8685 149.183 29.9246 149.508 29.9246C149.796 29.9246 150.072 29.883 150.337 29.7989C150.601 29.7154 150.847 29.5914 151.075 29.4273L151.527 30.3263C151.37 30.4535 151.174 30.5641 150.94 30.6579C150.705 30.7517 150.458 30.8238 150.199 30.8739C149.94 30.9239 149.691 30.9492 149.453 30.9492L149.452 30.9487ZM147.996 27.6838H150.603C150.593 27.3456 150.48 27.0804 150.266 26.8878C150.052 26.6953 149.752 26.5989 149.367 26.5989C148.985 26.5989 148.67 26.695 148.423 26.8878C148.175 27.0804 148.033 27.3456 147.996 27.6838Z" fill="#17191a"/>
+</svg>
+					</a>
+
+					<button id="menuToggleOpen">
+	<svg class="open">
+		<title>Open Menu</title>
+		<use xlink:href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/icons/icons.svg?1756384207#menu"></use>
+	</svg>
+</button>
+
+<nav class="menuFull scroll-overflow">
+	
+    <button id="menuToggleClose">
+        <svg class="close">
+        <title>Close Menu</title>
+            <use xlink:href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/icons/icons.svg?1756384207#close"></use>
+        </svg>
+    </button>
+
+	<ul id="menu-main-menu" class="mainNav pageMenu"><li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20"><a href="#">Product</a>
+<ul class="sub-menu">
+	<li id="menu-item-893" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-893"><a href="https://www.marketmuse.com/why-marketmuse/">Why MarketMuse?</a></li>
+	<li id="menu-item-1373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1373"><a href="https://www.marketmuse.com/competitive-content-analysis/">Competitive Content Analysis</a></li>
+	<li id="menu-item-1372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1372"><a href="https://www.marketmuse.com/content-clusters/">Content Clusters</a></li>
+	<li id="menu-item-1371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1371"><a href="https://www.marketmuse.com/content-planning/">Content Planning</a></li>
+	<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="https://www.marketmuse.com/content-briefs/">Content Brief Generator</a></li>
+	<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="https://www.marketmuse.com/optimize/">Optimize</a></li>
+</ul>
+</li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="https://www.marketmuse.com/about/">About</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://www.marketmuse.com/pricing/">Pricing</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21"><a target="_blank" href="https://blog.marketmuse.com">Learn</a>
+<ul class="sub-menu">
+	<li id="menu-item-873" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873"><a href="https://blog.marketmuse.com/">Blog</a></li>
+	<li id="menu-item-874" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-874"><a href="https://blog.marketmuse.com/content-strategy-crash-course-updated/">Content Strategy Crash Course</a></li>
+	<li id="menu-item-1007" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1007"><a href="https://blog.marketmuse.com/marketmuse-case-studies/">Case Studies</a></li>
+	<li id="menu-item-872" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872"><a href="https://blog.marketmuse.com/content-strategy-guides-case-studies/">Guides</a></li>
+	<li id="menu-item-894" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-894"><a href="https://help.marketmuse.com/">Knowledge Base</a></li>
+	<li id="menu-item-820" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-820"><a href="https://blog.marketmuse.com/content-strategy-webinars/">Webinars</a></li>
+	<li id="menu-item-972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-972"><a href="https://marketmuse.thinkific.com/">MarketMuse Academy</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="alignright menu-item menu-item-type-custom menu-item-object-custom menu-item-23"><a target="_blank" href="https://app.marketmuse.com">Login</a></li>
+<li id="menu-item-24" class="cta menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a target="_blank" href="https://app.marketmuse.com/welcome/free">Start my free trial</a></li>
+</ul>
+    
+</nav>
+
+				</div>
+
+			</header>
+
+		
+<main id="content">
+	<div class="wp-block-cover alignfull" style="min-height:600px; align-items: stretch;"><img loading="lazy" width="1920" height="760" class="wp-block-cover__image-background wp-image-5635" alt="Lost space person" src="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/img/bad-trip-dark.jpg" data-object-fit="cover">
+		<div class="wp-block-cover__inner-container" style="display: flex; align-items: stretch; flex-direction: column; justify-content: space-between;">
+		<p class="has-text-align-center has-code-font-size" style="padding-top: 100px;">"Am I lost, or is this content enlightenment?"</p>
+		<p class="has-text-align-center has-code-font-size">This is a 404. <a href="https://www.marketmuse.com/">Go home.</a></p>
+</div></div>
+</main>
+
+<footer class="pageFooter">
+
+	<div class="wrapper">
+
+		<div class="footerMain">
+
+			<a class="footerLogo" href="/" title="MarketMuse Home Page">
+				<svg>
+					<title>MarketMuse</title>
+					<use xlink:href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/icons/icons.svg?1756384207#mm_stars"></use>
+				</svg>
+			</a>
+
+			<ul id="menu-footer-links" class="footerLinks"><li id="menu-item-224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-224"><a href="#">Product</a>
+<ul class="sub-menu">
+	<li id="menu-item-892" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-892"><a href="https://www.marketmuse.com/why-marketmuse/">Why MarketMuse?</a></li>
+	<li id="menu-item-1374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1374"><a href="https://www.marketmuse.com/content-planning/">Content Planning</a></li>
+	<li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="https://www.marketmuse.com/content-briefs/">Content Brief Generator</a></li>
+	<li id="menu-item-219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-219"><a href="https://www.marketmuse.com/optimize/">Optimize</a></li>
+	<li id="menu-item-221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221"><a href="https://www.marketmuse.com/pricing/">Pricing</a></li>
+	<li id="menu-item-706" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-706"><a href="https://help.marketmuse.com/">Documentation</a></li>
+</ul>
+</li>
+<li id="menu-item-260" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-260"><a href="#">Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220"><a href="https://www.marketmuse.com/about/">About</a></li>
+	<li id="menu-item-222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222"><a href="https://www.marketmuse.com/careers/">Careers</a></li>
+	<li id="menu-item-223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223"><a href="https://www.marketmuse.com/press-awards/">Press &#038; Awards</a></li>
+	<li id="menu-item-287" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-287"><a target="_blank" href="https://blog.marketmuse.com">Blog</a></li>
+	<li id="menu-item-290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-290"><a rel="privacy-policy" href="https://www.marketmuse.com/privacy-policy/">Privacy Policy</a></li>
+	<li id="menu-item-291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-291"><a href="https://www.marketmuse.com/terms-of-service/">Terms of Service</a></li>
+</ul>
+</li>
+<li id="menu-item-261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a href="#">Connect</a>
+<ul class="sub-menu">
+	<li id="menu-item-289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-289"><a href="https://www.marketmuse.com/book-demo/">Book a Demo</a></li>
+	<li id="menu-item-926" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-926"><a href="https://www.marketmuse.com/ai-content-marketing-expert/">Book Jeff Coyle for Your Event</a></li>
+</ul>
+</li>
+</ul>
+		</div>
+
+
+					<div class="footerSide">
+				<div class="badges count3">
+											<a rel="noopener" target="_blank" href="https://www.g2.com/products/marketmuse/reviews?utm_source=rewards-badge">															<figure><img width="616" height="800" src="https://mms-app.s3.amazonaws.com/wordpress/2025/02/13150517/easiest-setup-winter-2025-MM-616x800.png" class="attachment-medium size-medium" alt="" decoding="async" /></figure>
+							
+														</a>											<a rel="noopener" target="_blank" href="https://www.g2.com/products/marketmuse/reviews?utm_source=rewards-badge">															<figure><img width="616" height="800" src="https://mms-app.s3.amazonaws.com/wordpress/2025/02/13150442/high-performer-winter-2025-MM-616x800.png" class="attachment-medium size-medium" alt="" decoding="async" /></figure>
+							
+														</a>											<a rel="noopener" target="_blank" href="https://www.g2.com/products/marketmuse/reviews?utm_source=rewards-badge">															<figure><img width="616" height="800" src="https://mms-app.s3.amazonaws.com/wordpress/2025/02/26152554/G2-fall-high-performer-2024-616x800.png" class="attachment-medium size-medium" alt="G2 badge for High Performer in Fall 2024" decoding="async" /></figure>
+							
+														</a>									</div>
+			</div>
+		
+		<div class="footerLower">
+
+			<div class="socialLinks">
+									<a rel="noopener" target="_blank" href="https://www.linkedin.com/company/marketmuse"><svg>
+							<title>LinkedIn</title>
+							<use xlink:href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/icons/icons.svg?1756384207#linkedin"></use>
+						</svg></a>
+				
+									<a rel="noopener" target="_blank" href="https://www.facebook.com/marketmuseco/"><svg>
+							<title>Facebook</title>
+							<use xlink:href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/icons/icons.svg?1756384207#facebook"></use>
+						</svg></a>
+				
+									<a rel="noopener" target="_blank" href="https://twitter.com/MarketMuseCo/"><svg>
+							<title>Twitter</title>
+							<use xlink:href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/icons/icons.svg?1756384207#twitter"></use>
+						</svg></a>
+				
+				
+				
+				
+									<a rel="noopener" target="_blank" href="https://www.youtube.com/c/MarketMuse"><svg>
+							<title>YouTube</title>
+							<use xlink:href="https://www.marketmuse.com/wp-content/themes/marketmuse-2021/assets/icons/icons.svg?1756384207#youtube"></use>
+						</svg></a>
+							</div>
+
+			<p class="copyright">&copy; 2025				MarketMuse, Inc. All rights reserved. 77 Sleeper St. One Seaport Square, Boston, MA 02210				<br><a class="credit" rel="noopener" target="_blank" href="https://creativeslice.com">Website built by Creative Slice</a>
+			</p>
+
+		</div>
+
+	</div>
+
+</footer>
+
+</div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/marketmuse-2021\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" src="https://d3gtgdletrrcg5.cloudfront.net/wp-content/plugins/heroic-table-of-contents/dist/script.min.js" id="ht_toc-script-js-js"></script>
+<script type="text/javascript" src="https://d3gtgdletrrcg5.cloudfront.net/wp-content/plugins/table-of-contents-plus/front.min.js" id="toc-front-js"></script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/www.marketmuse.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket_lazyload_css-js-extra">
+/* <![CDATA[ */
+var rocket_lazyload_css_data = {"threshold":"300"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket_lazyload_css-js-after">
+/* <![CDATA[ */
+!function o(n,c,a){function u(t,e){if(!c[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(s)return s(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=c[t]={exports:{}},n[t][0].call(r.exports,function(e){return u(n[t][1][e]||e)},r,r.exports,o,n,c,a)}return c[t].exports}for(var s="function"==typeof require&&require,e=0;e<a.length;e++)u(a[e]);return u}({1:[function(e,t,r){"use strict";{const c="undefined"==typeof rocket_pairs?[]:rocket_pairs,a=(("undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs).map(t=>{var e=t.selector;document.querySelectorAll(e).forEach(e=>{e.setAttribute("data-rocket-lazy-bg-"+t.hash,"excluded")})}),document.querySelector("#wpr-lazyload-bg-container"));var o=rocket_lazyload_css_data.threshold||300;const u=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&c.filter(e=>t.target.matches(e.selector)).map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,a.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{u.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:o+"px"});function n(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&c.forEach(t=>{try{document.querySelectorAll(t.selector).forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(u.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}n(),function(){const r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}}()(document.querySelector("body"),n)}},{}]},{},[1]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://d3gtgdletrrcg5.cloudfront.net/wp-content/plugins/wp-featherlight/js/wpFeatherlight.pkgd.min.js" id="wp-featherlight-js"></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.marketmuse.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=[];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script>
+<!-- Zoom Info pixel -->
+<noscript>
+	<img src="https://ws.zoominfo.com/pixel/2MUc5hQiSg39FreQdXwZ" width="1" height="1" style="display: none;" />
+</noscript>
+
+</body>
+
+</html>

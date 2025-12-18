@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Certifications</title>
+    <style>
+        body {
+            background: #0a0e27;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 50px;
+        }
+        .cert-card {
+            background: #1a1f3a;
+            border: 2px solid #049FD9;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px;
+            text-decoration: none;
+            display: block;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .cert-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(4, 159, 217, 0.3);
+            background: #2a2f4a;
+        }
+        h1 {
+            color: #049FD9;
+        }
+    </style>
+</head>
+<body>
+    <h1><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg> Test des Liens de Certification</h1>
+    <p>Cliquez sur les cartes ci-dessous. Elles devraient ouvrir les pages de certification.</p>
+
+    <a href="pages/certifications/ccna.html" class="cert-card">
+        <h2>📘 CCNA</h2>
+        <p>Cisco Certified Network Associate</p>
+        <p style="color: #049FD9;">→ Cliquez pour ouvrir</p>
+    </a>
+
+    <a href="pages/certifications/devnet-associate.html" class="cert-card">
+        <h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg> DevNet Associate</h2>
+        <p>Cisco Certified DevNet Associate</p>
+        <p style="color: #049FD9;">→ Cliquez pour ouvrir</p>
+    </a>
+
+    <a href="pages/certifications/ccnp-enterprise.html" class="cert-card">
+        <h2>🏆 CCNP Enterprise</h2>
+        <p>Professional Level Certification</p>
+        <p style="color: #049FD9;">→ Cliquez pour ouvrir</p>
+    </a>
+
+    <script>
+        console.log('<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Page de test chargée');
+        console.log('📍 Emplacement:', window.location.href);
+
+        // Vérifier que les fichiers existent
+        const files = [
+            'pages/certifications/ccna.html',
+            'pages/certifications/devnet-associate.html',
+            'pages/certifications/ccnp-enterprise.html'
+        ];
+
+        files.forEach(file => {
+            fetch(file)
+                .then(r => {
+                    if (r.ok) {
+                        console.log('<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Fichier trouvé:', file);
+                    } else {
+                        console.log('<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Fichier NON trouvé:', file, 'Status:', r.status);
+                    }
+                })
+                .catch(e => console.log('<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Erreur:', file, e.message));
+        });
+
+        // Capturer tous les clics
+        document.addEventListener('click', (e) => {
+            console.log('🖱️ CLIC DÉTECTÉ!');
+            console.log('  Element:', e.target);
+            console.log('  Tag:', e.target.tagName);
+
+            const link = e.target.closest('a');
+            if (link) {
+                console.log('  <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> C\'est un lien!');
+                console.log('  📎 href:', link.getAttribute('href'));
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "fortinet-nse8": {
+    "name": "NSE 8 - Written Exam",
+    "full_name": "Fortinet Network Security Expert 8",
+    "level": "Master Level",
+    "vendor": "Fortinet",
+    "brand_color": "#EE3124"
+  },
+  "paloalto-pccet": {
+    "name": "PCCET",
+    "full_name": "Palo Alto Networks Certified Cybersecurity Entry-level Technician",
+    "level": "Entry-Level",
+    "vendor": "Palo Alto Networks",
+    "brand_color": "#FA582D"
+  }
+}

@@ -1,0 +1,20 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad-seo" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#34D399;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#10B981;stop-opacity:1" />
+        </linearGradient>
+        <filter id="glow-seo">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Search magnifying glass -->
+    <circle cx="50" cy="50" r="20" stroke="url(#grad-seo)" stroke-width="3" fill="none" filter="url(#glow-seo)"/>
+    <line x1="65" y1="65" x2="85" y2="85" stroke="url(#grad-seo)" stroke-width="3" stroke-linecap="round" filter="url(#glow-seo)"/>
+    <!-- Upward trending arrow inside -->
+    <path d="M 42 55 L 50 45 L 58 55" stroke="url(#grad-seo)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow-seo)"/>
+</svg>

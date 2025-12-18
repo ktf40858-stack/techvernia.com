@@ -1,0 +1,32 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Runway Logo - Modern Minimalist -->
+  <rect width="200" height="200" rx="20" fill="#0C0C0C"/>
+
+  <!-- Runway "R" lettermark with runway stripes concept -->
+  <g transform="translate(100, 85)">
+    <!-- Letter R design -->
+    <path d="M -30 -30 L -30 40 M -30 -30 L 0 -30 Q 15 -30 15 -10 Q 15 5 0 5 L -30 5"
+          stroke="#FFFFFF"
+          stroke-width="8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none"/>
+
+    <!-- R leg -->
+    <path d="M -5 5 L 15 40"
+          stroke="#FFFFFF"
+          stroke-width="8"
+          stroke-linecap="round"
+          fill="none"/>
+
+    <!-- Runway stripe accent -->
+    <rect x="-45" y="50" width="15" height="3" fill="#00FF88" opacity="0.8"/>
+    <rect x="-25" y="50" width="15" height="3" fill="#00FF88" opacity="0.8"/>
+    <rect x="-5" y="50" width="15" height="3" fill="#00FF88" opacity="0.8"/>
+    <rect x="15" y="50" width="15" height="3" fill="#00FF88" opacity="0.8"/>
+    <rect x="35" y="50" width="15" height="3" fill="#00FF88" opacity="0.8"/>
+  </g>
+
+  <!-- Brand Text -->
+  <text x="100" y="165" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">RUNWAY</text>
+</svg>

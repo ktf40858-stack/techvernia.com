@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Adobe Firefly Translations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #0a0a0a;
+            color: #fff;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #00ff88;
+        }
+
+        .controls {
+            margin: 20px 0;
+            padding: 20px;
+            background: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .lang-button {
+            padding: 10px 20px;
+            margin: 5px;
+            background: #2a2a2a;
+            border: 2px solid #00ff88;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .lang-button:hover {
+            background: #3a3a3a;
+        }
+
+        .lang-button.active {
+            background: #00ff88;
+            color: #000;
+        }
+
+        .content {
+            margin-top: 30px;
+            padding: 30px;
+            background: #1a1a1a;
+            border-radius: 8px;
+            line-height: 1.8;
+        }
+
+        .key-label {
+            color: #888;
+            font-size: 12px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        .translation {
+            color: #fff;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔥 Test des Traductions Adobe Firefly</h1>
+
+    <div class="controls">
+        <button class="lang-button active" data-lang="en">🇺🇸 English</button>
+        <button class="lang-button" data-lang="es">🇪🇸 Español</button>
+        <button class="lang-button" data-lang="fr">🇫🇷 Français</button>
+        <button class="lang-button" data-lang="de">🇩🇪 Deutsch</button>
+        <button class="lang-button" data-lang="pt">🇧🇷 Português</button>
+        <button class="lang-button" data-lang="zh">🇨🇳 中文</button>
+        <button class="lang-button" data-lang="ja">🇯🇵 日本語</button>
+        <button class="lang-button" data-lang="ko">🇰🇷 한국어</button>
+        <button class="lang-button" data-lang="ar">🇸🇦 العربية</button>
+        <button class="lang-button" data-lang="hi">🇮🇳 हिन्दी</button>
+    </div>
+
+    <div class="content" id="content">
+        <p>Chargement...</p>
+    </div>
+
+    <script>
+        const translations = {};
+        let currentLang = 'en';
+
+        // Clés à afficher
+        const testKeys = [
+            'review.adobe-firefly.adobe.firefly.represents.adobes.strategic',
+            'review.adobe-firefly.adobe.firefly.excels.at',
+            'review.adobe-firefly.adobe.firefly.is.the.best'
+        ];
+
+        // Charger les traductions depuis les fichiers JSON
+        async function loadTranslations(lang) {
+            if (translations[lang]) {
+                return translations[lang];
+            }
+
+            try {
+                const response = await fetch(`all_full_translations_${lang}.json`);
+                const data = await response.json();
+                translations[lang] = data;
+                return data;
+            } catch (error) {
+                console.error(`Erreur chargement ${lang}:`, error);
+                return null;
+            }
+        }
+
+        // Afficher les traductions
+        async function displayTranslations(lang) {
+            const content = document.getElementById('content');
+            content.innerHTML = '<p>Chargement...</p>';
+
+            const langTranslations = await loadTranslations(lang);
+
+            if (!langTranslations) {
+                content.innerHTML = '<p style="color: #ff5555;">❌ Erreur: Impossible de charger les traductions</p>';
+                return;
+            }
+
+            let html = `<h2>Langue: ${lang.toUpperCase()}</h2>`;
+
+            testKeys.forEach(key => {
+                const translation = langTranslations[key] || 'Non trouvé';
+                html += `
+                    <div class="key-label">${key}</div>
+                    <div class="translation">${translation}</div>
+                `;
+            });
+
+            content.innerHTML = html;
+        }
+
+        // Setup boutons
+        document.querySelectorAll('.lang-button').forEach(button => {
+            button.addEventListener('click', async () => {
+                const lang = button.getAttribute('data-lang');
+                currentLang = lang;
+
+                // Update active state
+                document.querySelectorAll('.lang-button').forEach(b => b.classList.remove('active'));
+                button.classList.add('active');
+
+                // Display translations
+                await displayTranslations(lang);
+            });
+        });
+
+        // Charger anglais par défaut
+        displayTranslations('en');
+    </script>
+</body>
+</html>

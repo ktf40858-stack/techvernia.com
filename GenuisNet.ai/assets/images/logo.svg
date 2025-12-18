@@ -1,0 +1,158 @@
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Filtres de glow -->
+    <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-purple" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-green" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Gradient pour le noyau -->
+    <radialGradient id="nucleusGradient">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#22D3EE;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+
+  <!-- STRUCTURE ATOMIQUE -->
+  <g transform="translate(120, 155)">
+
+    <!-- NOYAU CENTRAL (protons + neutrons) -->
+    <g filter="url(#glow-cyan)">
+      <!-- Noyau principal -->
+      <circle cx="0" cy="0" r="20" stroke="#00D9FF" stroke-width="4" fill="none" opacity="0.9"/>
+      <circle cx="0" cy="0" r="14" stroke="#22D3EE" stroke-width="3" fill="url(#nucleusGradient)" opacity="0.3"/>
+
+      <!-- Protons (cyan) -->
+      <circle cx="-6" cy="-6" r="5" fill="#00D9FF" opacity="0.9"/>
+      <circle cx="6" cy="-6" r="5" fill="#22D3EE" opacity="0.9"/>
+      <circle cx="6" cy="6" r="5" fill="#00D9FF" opacity="0.9"/>
+      <circle cx="-6" cy="6" r="5" fill="#22D3EE" opacity="0.9"/>
+
+      <!-- Neutrons (violet) au centre -->
+      <circle cx="0" cy="0" r="4" fill="#A855F7" opacity="0.8">
+        <animate attributeName="r" values="4;5;4" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- ORBITE 1 (intérieure - violet) -->
+    <g filter="url(#glow-purple)">
+      <!-- Ellipse d'orbite -->
+      <ellipse cx="0" cy="0" rx="45" ry="30" stroke="#A855F7" stroke-width="1.5" fill="none" opacity="0.4" stroke-dasharray="3,3"/>
+
+      <!-- Électrons sur orbite 1 -->
+      <circle cx="45" cy="0" r="6" fill="#A855F7" stroke="#9333EA" stroke-width="2" opacity="0.9">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="-45" cy="0" r="5" fill="#8B5CF6" stroke="#A855F7" stroke-width="1.5" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" from="180 0 0" to="540 0 0" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- ORBITE 2 (milieu - cyan) -->
+    <g filter="url(#glow-cyan)">
+      <!-- Ellipse d'orbite inclinée -->
+      <ellipse cx="0" cy="0" rx="65" ry="40" stroke="#00D9FF" stroke-width="2" fill="none" opacity="0.5" transform="rotate(60)"/>
+
+      <!-- Électrons sur orbite 2 -->
+      <g transform="rotate(60)">
+        <circle cx="65" cy="0" r="7" fill="#00D9FF" stroke="#22D3EE" stroke-width="2" opacity="0.95">
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="5s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="-32" cy="35" r="6" fill="#22D3EE" stroke="#00D9FF" stroke-width="1.8" opacity="0.9">
+          <animateTransform attributeName="transform" type="rotate" from="120 0 0" to="480 0 0" dur="5s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="-32" cy="-35" r="6" fill="#06B6D4" stroke="#22D3EE" stroke-width="1.8" opacity="0.9">
+          <animateTransform attributeName="transform" type="rotate" from="240 0 0" to="600 0 0" dur="5s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <!-- ORBITE 3 (extérieure - vert) -->
+    <g filter="url(#glow-green)">
+      <!-- Ellipse d'orbite inclinée -->
+      <ellipse cx="0" cy="0" rx="85" ry="50" stroke="#10B981" stroke-width="1.8" fill="none" opacity="0.45" transform="rotate(-60)"/>
+
+      <!-- Électrons sur orbite 3 -->
+      <g transform="rotate(-60)">
+        <circle cx="85" cy="0" r="6" fill="#10B981" stroke="#22C55E" stroke-width="2" opacity="0.9">
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="6s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="-42" cy="37" r="5" fill="#22C55E" stroke="#10B981" stroke-width="1.5" opacity="0.85">
+          <animateTransform attributeName="transform" type="rotate" from="135 0 0" to="495 0 0" dur="6s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <!-- Particules d'énergie (photons) -->
+    <g>
+      <circle cx="55" cy="-25" r="2" fill="#00D9FF" opacity="0.7">
+        <animate attributeName="cx" values="55;60;55" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="-25;-30;-25" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="-50" cy="30" r="2" fill="#A855F7" opacity="0.7">
+        <animate attributeName="cx" values="-50;-55;-50" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="30;35;30" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="40" cy="40" r="2" fill="#10B981" opacity="0.7">
+        <animate attributeName="cx" values="40;45;40" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="40;45;40" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+  </g>
+
+  <!-- TEXTE "GenuisNet.ai" (version Inter - sans-serif) -->
+  <g>
+    <!-- Genuis (Blanc) -->
+    <text x="280" y="180" font-family="Inter, Arial, sans-serif" font-size="90" font-weight="700" fill="#FFFFFF">Genuis</text>
+
+    <!-- Net (Cyan) - bien espacé -->
+    <text x="590" y="180" font-family="Inter, Arial, sans-serif" font-size="90" font-weight="700" fill="#00D9FF" filter="url(#glow-cyan)">Net</text>
+
+    <!-- .ai (Gris clair) -->
+    <text x="735" y="180" font-family="Inter, Arial, sans-serif" font-size="90" font-weight="700" fill="#E5E7EB">.ai</text>
+  </g>
+
+  <!-- Effet de lueur autour du noyau -->
+  <g opacity="0.3">
+    <circle cx="120" cy="155" r="100" fill="none" stroke="#00D9FF" stroke-width="0.5" opacity="0.2">
+      <animate attributeName="r" values="100;110;100" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="155" r="120" fill="none" stroke="#7C3AED" stroke-width="0.5" opacity="0.15">
+      <animate attributeName="r" values="120;130;120" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.2;0.1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+</svg>

@@ -1,0 +1,531 @@
+OUTILS SANS PAGE DE REVIEW
+======================================================================
+
+
+ANALYTICS:
+  - Tableau Pulse
+    Path: pages/reviews/analytics/tableau-pulse.html
+    Has link: False
+
+  - ThoughtSpot
+    Path: pages/reviews/analytics/thoughtspot.html
+    Has link: False
+
+  - Power BI Copilot
+    Path: pages/reviews/analytics/power-bi-copilot.html
+    Has link: False
+
+  - Looker AI
+    Path: pages/reviews/analytics/looker-ai.html
+    Has link: False
+
+  - Domo AI
+    Path: pages/reviews/analytics/domo-ai.html
+    Has link: False
+
+  - Qlik Sense AI
+    Path: pages/reviews/analytics/qlik-sense-ai.html
+    Has link: False
+
+  - Sisense AI
+    Path: pages/reviews/analytics/sisense-ai.html
+    Has link: False
+
+  - Alteryx AI
+    Path: pages/reviews/analytics/alteryx-ai.html
+    Has link: False
+
+  - Yellowfin AI
+    Path: pages/reviews/analytics/yellowfin-ai.html
+    Has link: False
+
+  - MicroStrategy AI
+    Path: pages/reviews/analytics/microstrategy-ai.html
+    Has link: False
+
+  - Mode Analytics
+    Path: pages/reviews/analytics/mode-analytics.html
+    Has link: False
+
+  - DataRobot
+    Path: pages/reviews/analytics/datarobot.html
+    Has link: False
+
+  - H2O.ai
+    Path: pages/reviews/analytics/h2oai.html
+    Has link: False
+
+  - Prophet (Meta)
+    Path: pages/reviews/analytics/prophet-(meta).html
+    Has link: False
+
+  - Amazon QuickSight Q
+    Path: pages/reviews/analytics/amazon-quicksight-q.html
+    Has link: False
+
+
+CUSTOMER-SERVICE:
+  - Intercom Fin
+    Path: pages/reviews/customer-service/intercom-fin.html
+    Has link: False
+
+  - Zendesk AI
+    Path: pages/reviews/customer-service/zendesk-ai.html
+    Has link: False
+
+  - Ada
+    Path: pages/reviews/customer-service/ada.html
+    Has link: False
+
+  - Drift
+    Path: pages/reviews/customer-service/drift.html
+    Has link: False
+
+  - LivePerson
+    Path: pages/reviews/customer-service/liveperson.html
+    Has link: False
+
+  - Freshdesk AI
+    Path: pages/reviews/customer-service/freshdesk-ai.html
+    Has link: False
+
+  - Kustomer
+    Path: pages/reviews/customer-service/kustomer.html
+    Has link: False
+
+  - Ultimate.ai
+    Path: pages/reviews/customer-service/ultimateai.html
+    Has link: False
+
+  - PolyAI
+    Path: pages/reviews/customer-service/polyai.html
+    Has link: False
+
+  - Forethought
+    Path: pages/reviews/customer-service/forethought.html
+    Has link: False
+
+  - Helpshift
+    Path: pages/reviews/customer-service/helpshift.html
+    Has link: False
+
+  - Yellow.ai
+    Path: pages/reviews/customer-service/yellowai.html
+    Has link: False
+
+  - Netomi
+    Path: pages/reviews/customer-service/netomi.html
+    Has link: False
+
+  - Certainly
+    Path: pages/reviews/customer-service/certainly.html
+    Has link: False
+
+  - Cognigy
+    Path: pages/reviews/customer-service/cognigy.html
+    Has link: False
+
+
+EDUCATION:
+  - Khan Academy AI
+    Path: pages/reviews/education/khan-academy-ai.html
+    Has link: False
+
+  - Duolingo Max
+    Path: pages/reviews/education/duolingo-max.html
+    Has link: False
+
+  - Coursera Coach
+    Path: pages/reviews/education/coursera-coach.html
+    Has link: False
+
+  - Century Tech
+    Path: pages/reviews/education/century-tech.html
+    Has link: False
+
+  - Squirrel AI
+    Path: pages/reviews/education/squirrel-ai.html
+    Has link: False
+
+  - Carnegie Learning
+    Path: pages/reviews/education/carnegie-learning.html
+    Has link: False
+
+  - Gradescope
+    Path: pages/reviews/education/gradescope.html
+    Has link: False
+
+  - Socratic by Google
+    Path: pages/reviews/education/socratic-by-google.html
+    Has link: False
+
+  - Quizlet AI
+    Path: pages/reviews/education/quizlet-ai.html
+    Has link: False
+
+  - Cognii
+    Path: pages/reviews/education/cognii.html
+    Has link: False
+
+  - Thinkster Math
+    Path: pages/reviews/education/thinkster-math.html
+    Has link: False
+
+  - ALEKS
+    Path: pages/reviews/education/aleks.html
+    Has link: False
+
+  - Knewton Alta
+    Path: pages/reviews/education/knewton-alta.html
+    Has link: False
+
+  - Querium
+    Path: pages/reviews/education/querium.html
+    Has link: False
+
+
+GAMING:
+  - Inworld AI
+    Path: pages/reviews/gaming/inworld-ai.html
+    Has link: False
+
+  - Scenario
+    Path: pages/reviews/gaming/scenario.html
+    Has link: False
+
+  - Ludo.ai
+    Path: pages/reviews/gaming/ludoai.html
+    Has link: False
+
+  - Latitude (AI Dungeon)
+    Path: pages/reviews/gaming/latitude-(ai-dungeon).html
+    Has link: False
+
+  - Promethean AI
+    Path: pages/reviews/gaming/promethean-ai.html
+    Has link: False
+
+  - Rosebud AI
+    Path: pages/reviews/gaming/rosebud-ai.html
+    Has link: False
+
+  - Hidden Door
+    Path: pages/reviews/gaming/hidden-door.html
+    Has link: False
+
+  - Charisma.ai
+    Path: pages/reviews/gaming/charismaai.html
+    Has link: False
+
+  - Rct AI
+    Path: pages/reviews/gaming/rct-ai.html
+    Has link: False
+
+  - Artomatix
+    Path: pages/reviews/gaming/artomatix.html
+    Has link: False
+
+  - Replika
+    Path: pages/reviews/gaming/replika.html
+    Has link: False
+
+
+HR:
+  - Paradox (Olivia)
+    Path: pages/reviews/hr/paradox-(olivia).html
+    Has link: False
+
+  - HireVue
+    Path: pages/reviews/hr/hirevue.html
+    Has link: False
+
+  - Pymetrics
+    Path: pages/reviews/hr/pymetrics.html
+    Has link: False
+
+  - Eightfold AI
+    Path: pages/reviews/hr/eightfold-ai.html
+    Has link: False
+
+  - Beamery
+    Path: pages/reviews/hr/beamery.html
+    Has link: False
+
+  - Phenom
+    Path: pages/reviews/hr/phenom.html
+    Has link: False
+
+  - Seekout
+    Path: pages/reviews/hr/seekout.html
+    Has link: False
+
+  - Harver
+    Path: pages/reviews/hr/harver.html
+    Has link: False
+
+  - Textio
+    Path: pages/reviews/hr/textio.html
+    Has link: False
+
+  - Fetcher
+    Path: pages/reviews/hr/fetcher.html
+    Has link: False
+
+  - Humanly
+    Path: pages/reviews/hr/humanly.html
+    Has link: False
+
+  - Sense
+    Path: pages/reviews/hr/sense.html
+    Has link: False
+
+  - Findem
+    Path: pages/reviews/hr/findem.html
+    Has link: False
+
+  - Workable AI
+    Path: pages/reviews/hr/workable-ai.html
+    Has link: False
+
+
+LEGAL:
+  - Harvey AI
+    Path: pages/reviews/legal/harvey-ai.html
+    Has link: False
+
+  - CoCounsel
+    Path: pages/reviews/legal/cocounsel.html
+    Has link: False
+
+  - LawGeex
+    Path: pages/reviews/legal/lawgeex.html
+    Has link: False
+
+  - Luminance
+    Path: pages/reviews/legal/luminance.html
+    Has link: False
+
+  - Kira Systems
+    Path: pages/reviews/legal/kira-systems.html
+    Has link: False
+
+  - ROSS Intelligence
+    Path: pages/reviews/legal/ross-intelligence.html
+    Has link: False
+
+  - Casetext
+    Path: pages/reviews/legal/casetext.html
+    Has link: False
+
+  - Lex Machina
+    Path: pages/reviews/legal/lex-machina.html
+    Has link: False
+
+  - Blue J Legal
+    Path: pages/reviews/legal/blue-j-legal.html
+    Has link: False
+
+  - Everlaw
+    Path: pages/reviews/legal/everlaw.html
+    Has link: False
+
+  - Primer
+    Path: pages/reviews/legal/primer.html
+    Has link: False
+
+  - Ravel Law
+    Path: pages/reviews/legal/ravel-law.html
+    Has link: False
+
+
+QUANTUM:
+  - IBM Quantum
+    Path: pages/reviews/quantum/ibm-quantum.html
+    Has link: False
+
+  - Google Cirq
+    Path: pages/reviews/quantum/google-cirq.html
+    Has link: False
+
+  - Amazon Braket
+    Path: pages/reviews/quantum/amazon-braket.html
+    Has link: False
+
+  - Azure Quantum
+    Path: pages/reviews/quantum/azure-quantum.html
+    Has link: False
+
+  - D-Wave Leap
+    Path: pages/reviews/quantum/d-wave-leap.html
+    Has link: False
+
+  - Rigetti QCS
+    Path: pages/reviews/quantum/rigetti-qcs.html
+    Has link: False
+
+  - Xanadu PennyLane
+    Path: pages/reviews/quantum/xanadu-pennylane.html
+    Has link: False
+
+  - IonQ
+    Path: pages/reviews/quantum/ionq.html
+    Has link: False
+
+
+RESEARCH:
+  - Consensus
+    Path: pages/reviews/research/consensus.html
+    Has link: False
+
+  - Elicit
+    Path: pages/reviews/research/elicit.html
+    Has link: False
+
+  - Scite
+    Path: pages/reviews/research/scite.html
+    Has link: False
+
+  - SciSpace
+    Path: pages/reviews/research/scispace.html
+    Has link: False
+
+  - ResearchRabbit
+    Path: pages/reviews/research/researchrabbit.html
+    Has link: False
+
+  - Semantic Scholar
+    Path: pages/reviews/research/semantic-scholar.html
+    Has link: False
+
+  - Iris.ai
+    Path: pages/reviews/research/irisai.html
+    Has link: False
+
+  - Scholarcy
+    Path: pages/reviews/research/scholarcy.html
+    Has link: False
+
+  - Litmaps
+    Path: pages/reviews/research/litmaps.html
+    Has link: False
+
+  - Connected Papers
+    Path: pages/reviews/research/connected-papers.html
+    Has link: False
+
+  - Perplexity Research
+    Path: pages/reviews/research/perplexity-research.html
+    Has link: False
+
+  - Undermind
+    Path: pages/reviews/research/undermind.html
+    Has link: False
+
+
+SALES:
+  - Salesforce Einstein GPT
+    Path: pages/reviews/sales/salesforce-einstein-gpt.html
+    Has link: False
+
+  - HubSpot AI
+    Path: pages/reviews/sales/hubspot-ai.html
+    Has link: False
+
+  - Gong
+    Path: pages/reviews/sales/gong.html
+    Has link: False
+
+  - Outreach
+    Path: pages/reviews/sales/outreach.html
+    Has link: False
+
+  - Apollo.io
+    Path: pages/reviews/sales/apolloio.html
+    Has link: False
+
+  - People.ai
+    Path: pages/reviews/sales/peopleai.html
+    Has link: False
+
+  - Clari
+    Path: pages/reviews/sales/clari.html
+    Has link: False
+
+  - Chorus.ai
+    Path: pages/reviews/sales/chorusai.html
+    Has link: False
+
+  - Conversica
+    Path: pages/reviews/sales/conversica.html
+    Has link: False
+
+  - Exceed.ai
+    Path: pages/reviews/sales/exceedai.html
+    Has link: False
+
+  - 6sense
+    Path: pages/reviews/sales/6sense.html
+    Has link: False
+
+  - InsideSales
+    Path: pages/reviews/sales/insidesales.html
+    Has link: False
+
+  - Troops.ai
+    Path: pages/reviews/sales/troopsai.html
+    Has link: False
+
+  - Attention
+    Path: pages/reviews/sales/attention.html
+    Has link: False
+
+  - Lavender
+    Path: pages/reviews/sales/lavender.html
+    Has link: False
+
+  - Regie.ai
+    Path: pages/reviews/sales/regieai.html
+    Has link: False
+
+
+TRANSLATION:
+  - DeepL Pro
+    Path: pages/reviews/translation/deepl-pro.html
+    Has link: False
+
+  - Google Translate AI
+    Path: pages/reviews/translation/google-translate-ai.html
+    Has link: False
+
+  - Microsoft Translator
+    Path: pages/reviews/translation/microsoft-translator.html
+    Has link: False
+
+  - Phrase
+    Path: pages/reviews/translation/phrase.html
+    Has link: False
+
+  - Smartling
+    Path: pages/reviews/translation/smartling.html
+    Has link: False
+
+  - Lokalise
+    Path: pages/reviews/translation/lokalise.html
+    Has link: False
+
+  - SYSTRAN
+    Path: pages/reviews/translation/systran.html
+    Has link: False
+
+  - Unbabel
+    Path: pages/reviews/translation/unbabel.html
+    Has link: False
+
+  - Lilt
+    Path: pages/reviews/translation/lilt.html
+    Has link: False
+
+  - ModernMT
+    Path: pages/reviews/translation/modernmt.html
+    Has link: False
+

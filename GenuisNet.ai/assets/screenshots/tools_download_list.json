@@ -1,0 +1,266 @@
+{
+  "seo": {
+    "ahrefs": {
+      "name": "Ahrefs",
+      "url": "https://ahrefs.com"
+    },
+    "clearscope": {
+      "name": "Clearscope",
+      "url": "https://www.clearscope.io"
+    },
+    "frase": {
+      "name": "Frase",
+      "url": "https://www.frase.io"
+    },
+    "marketmuse": {
+      "name": "MarketMuse",
+      "url": "https://www.marketmuse.com"
+    },
+    "neuronwriter": {
+      "name": "NeuronWriter",
+      "url": "https://www.neuronwriter.com"
+    },
+    "scalenut": {
+      "name": "Scalenut",
+      "url": "https://www.scalenut.com"
+    },
+    "semrush": {
+      "name": "Semrush",
+      "url": "https://www.semrush.com"
+    },
+    "surfer-seo": {
+      "name": "Surfer SEO",
+      "url": "https://surferseo.com"
+    }
+  },
+  "analytics": {
+    "alteryx-ai": {
+      "name": "Alteryx AI",
+      "url": "https://www.alteryx.com"
+    },
+    "amazon-quicksight-q": {
+      "name": "Amazon QuickSight Q",
+      "url": "https://aws.amazon.com/quicksight"
+    },
+    "datarobot": {
+      "name": "DataRobot",
+      "url": "https://www.datarobot.com"
+    },
+    "domo-ai": {
+      "name": "Domo AI",
+      "url": "https://www.domo.com"
+    },
+    "h2oai": {
+      "name": "H2O.ai",
+      "url": "https://www.h2o.ai"
+    },
+    "looker-ai": {
+      "name": "Looker AI",
+      "url": "https://www.looker.com"
+    },
+    "microstrategy-ai": {
+      "name": "MicroStrategy AI",
+      "url": "https://www.microstrategy.com"
+    },
+    "mode-analytics": {
+      "name": "Mode Analytics",
+      "url": "https://mode.com"
+    },
+    "prophet-meta": {
+      "name": "Prophet (Meta)",
+      "url": "https://facebook.github.io/prophet"
+    },
+    "qlik-sense-ai": {
+      "name": "Qlik Sense AI",
+      "url": "https://www.qlik.com"
+    },
+    "sisense-ai": {
+      "name": "Sisense AI",
+      "url": "https://www.sisense.com"
+    },
+    "yellowfin-ai": {
+      "name": "Yellowfin AI",
+      "url": "https://www.yellowfinbi.com"
+    }
+  },
+  "business": {
+    "chorusai": {
+      "name": "Chorus.ai",
+      "url": "https://www.chorus.ai"
+    },
+    "conversica": {
+      "name": "Conversica",
+      "url": "https://www.conversica.com"
+    },
+    "drift": {
+      "name": "Drift",
+      "url": "https://www.drift.com"
+    },
+    "gong": {
+      "name": "Gong",
+      "url": "https://www.gong.io"
+    },
+    "hubspot-ai": {
+      "name": "HubSpot AI",
+      "url": "https://www.hubspot.com"
+    },
+    "looker": {
+      "name": "Looker",
+      "url": "https://www.looker.com"
+    },
+    "salesforce-einstein": {
+      "name": "Salesforce Einstein",
+      "url": "https://www.salesforce.com/einstein"
+    },
+    "tableau": {
+      "name": "Tableau",
+      "url": "https://www.tableau.com"
+    }
+  },
+  "networking": {
+    "cisco-ai": {
+      "name": "Cisco AI",
+      "url": "https://www.cisco.com"
+    },
+    "datadog": {
+      "name": "Datadog",
+      "url": "https://www.datadoghq.com"
+    },
+    "prtg": {
+      "name": "PRTG Network Monitor",
+      "url": "https://www.paessler.com/prtg"
+    },
+    "splunk": {
+      "name": "Splunk",
+      "url": "https://www.splunk.com"
+    },
+    "zabbix": {
+      "name": "Zabbix",
+      "url": "https://www.zabbix.com"
+    }
+  },
+  "legal": {
+    "blue-j-legal": {
+      "name": "Blue J Legal",
+      "url": "https://www.bluejlegal.com"
+    },
+    "cocounsel": {
+      "name": "Casetext CoCounsel",
+      "url": "https://casetext.com/cocounsel"
+    },
+    "kira-systems": {
+      "name": "Kira Systems",
+      "url": "https://kirasystems.com"
+    },
+    "lawgeex": {
+      "name": "LawGeex",
+      "url": "https://www.lawgeex.com"
+    },
+    "lex-machina": {
+      "name": "Lex Machina",
+      "url": "https://lexmachina.com"
+    },
+    "primer": {
+      "name": "Primer",
+      "url": "https://primer.ai"
+    },
+    "ravel-law": {
+      "name": "Ravel Law",
+      "url": "https://www.ravellaw.com"
+    }
+  },
+  "sales": {
+    "attention": {
+      "name": "Attention",
+      "url": "https://www.attention.tech"
+    },
+    "chorusai": {
+      "name": "Chorus.ai",
+      "url": "https://www.chorus.ai"
+    },
+    "exceedai": {
+      "name": "Exceed.ai",
+      "url": "https://exceed.ai"
+    },
+    "insidesales": {
+      "name": "InsideSales",
+      "url": "https://www.insidesales.com"
+    },
+    "regieai": {
+      "name": "Regie.ai",
+      "url": "https://www.regie.ai"
+    },
+    "troopsai": {
+      "name": "Troops.ai",
+      "url": "https://www.troops.ai"
+    }
+  },
+  "coding": {
+    "codewhisperer": {
+      "name": "Amazon CodeWhisperer",
+      "url": "https://aws.amazon.com/codewhisperer"
+    },
+    "deepseek-coder": {
+      "name": "DeepSeek Coder",
+      "url": "https://www.deepseek.com"
+    }
+  },
+  "education": {
+    "cognii": {
+      "name": "Cognii",
+      "url": "https://www.cognii.com"
+    },
+    "knewton-alta": {
+      "name": "Knewton Alta",
+      "url": "https://www.knewtonalta.com"
+    },
+    "socratic-by-google": {
+      "name": "Socratic by Google",
+      "url": "https://socratic.org"
+    },
+    "squirrel-ai": {
+      "name": "Squirrel AI",
+      "url": "https://www.squirrelai.com"
+    }
+  },
+  "hr": {
+    "sense": {
+      "name": "Sense",
+      "url": "https://www.sense.io"
+    },
+    "textio": {
+      "name": "Textio",
+      "url": "https://textio.com"
+    }
+  },
+  "medical": {
+    "paige-ai": {
+      "name": "Paige AI",
+      "url": "https://paige.ai"
+    }
+  },
+  "research": {
+    "irisai": {
+      "name": "Iris.ai",
+      "url": "https://iris.ai"
+    },
+    "perplexity-research": {
+      "name": "Perplexity for Research",
+      "url": "https://www.perplexity.ai"
+    },
+    "undermind": {
+      "name": "Undermind",
+      "url": "https://www.undermind.ai"
+    }
+  },
+  "architecture": {
+    "architechtures": {
+      "name": "Architechtures",
+      "url": "https://www.architechtures.com"
+    },
+    "hypar": {
+      "name": "Hypar",
+      "url": "https://hypar.io"
+    }
+  }
+}

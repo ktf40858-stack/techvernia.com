@@ -1,0 +1,58 @@
+╔════════════════════════════════════════════════════════════╗
+║           À FAIRE DEMAIN - 16 DÉCEMBRE 2025                ║
+╚════════════════════════════════════════════════════════════╝
+
+┌────────────────────────────────────────────────────────────┐
+│ COMMANDES RAPIDES                                          │
+└────────────────────────────────────────────────────────────┘
+
+cd /home/komet/Desktop/Projekt/AI\ Tools
+source venv/bin/activate
+
+# Pour chaque outil (claude, gemini, copilot, deepseek, grok, perplexity, poe):
+
+python3 add_missing_i18n.py <tool>      # Ajoute les data-i18n manquants
+python3 process_tool.py <tool>          # Traduit en 9 langues
+
+┌────────────────────────────────────────────────────────────┐
+│ LISTE DES 7 OUTILS À TRAITER                               │
+└────────────────────────────────────────────────────────────┘
+
+[ ] Claude (83 → ~150 clés)
+[ ] Gemini (61 → ~130 clés)
+[ ] Copilot (57 → ~120 clés)
+[ ] DeepSeek (120 → ~180 clés)
+[ ] Grok (122 → ~180 clés)
+[ ] Perplexity (59 → ~120 clés)
+[ ] Poe (60 → ~120 clés)
+
+┌────────────────────────────────────────────────────────────┐
+│ MODE AUTOMATIQUE (tout en une fois)                        │
+└────────────────────────────────────────────────────────────┘
+
+for tool in claude gemini copilot deepseek grok perplexity poe; do
+    python3 add_missing_i18n.py $tool
+    python3 process_tool.py $tool
+done
+
+Temps estimé: 2h30-3h
+
+┌────────────────────────────────────────────────────────────┐
+│ FICHIERS CRÉÉS AUJOURD'HUI                                 │
+└────────────────────────────────────────────────────────────┘
+
+✓ add_missing_i18n.py              - Script d'automatisation
+✓ GUIDE_DEMARRAGE_RAPIDE.md        - Guide complet
+✓ RAPPORT_TRADUCTION_2025-12-15.md - Rapport détaillé
+✓ STATISTIQUES_TRADUCTION.txt      - Statistiques
+✓ EXEMPLE_CORRECTIONS_A_FAIRE.md   - Exemples
+✓ TODO_DEMAIN.txt                  - Ce fichier
+
+┌────────────────────────────────────────────────────────────┐
+│ LIRE D'ABORD                                               │
+└────────────────────────────────────────────────────────────┘
+
+1. GUIDE_DEMARRAGE_RAPIDE.md - Instructions pas-à-pas
+2. RAPPORT_TRADUCTION_2025-12-15.md - Contexte complet
+
+Bon courage! 🚀

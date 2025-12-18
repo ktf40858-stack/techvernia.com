@@ -1,0 +1,153 @@
+/* ==============================================
+   GUIDES & REVIEWS - MODERN AI TYPOGRAPHY
+   Police: Space Grotesk (géométrique moderne)
+   ============================================== */
+
+/* Importer Space Grotesk si pas déjà fait */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* Appliquer Space Grotesk aux guides et reviews */
+.guide-content,
+.review-content,
+.guide-section,
+.review-section {
+    font-family: 'Space Grotesk', var(--font-sans);
+}
+
+/* Titres avec Space Grotesk */
+.guide-section h1,
+.guide-section h2,
+.guide-section h3,
+.review-content h1,
+.review-content h2,
+.review-content h3 {
+    font-family: 'Space Grotesk', var(--font-sans);
+    letter-spacing: -0.02em;
+}
+
+/* Icônes SVG inline - style professionnel high-tech */
+.inline-icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: middle;
+    margin-right: 0.3em;
+    stroke: currentColor;
+    stroke-width: 2;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: all 0.3s ease;
+}
+
+/* Icônes dans les titres h2 */
+h2 .inline-icon {
+    width: 1.5em;
+    height: 1.5em;
+    stroke: url(#icon-gradient);
+    filter: drop-shadow(0 0 8px rgba(0, 217, 255, 0.4));
+}
+
+/* Icônes dans les titres h3 */
+h3 .inline-icon {
+    width: 1.3em;
+    height: 1.3em;
+    stroke: url(#icon-gradient-secondary);
+    filter: drop-shadow(0 0 6px rgba(168, 85, 247, 0.4));
+}
+
+/* Animation au survol des icônes */
+.guide-section h2:hover .inline-icon,
+.review-content h2:hover .inline-icon {
+    transform: scale(1.1) rotate(5deg);
+    filter: drop-shadow(0 0 12px rgba(0, 217, 255, 0.6));
+}
+
+/* Icônes dans les listes */
+li .inline-icon {
+    width: 1.1em;
+    height: 1.1em;
+    stroke: var(--accent-primary);
+}
+
+/* Icônes dans les boxes (tip, warning, success) */
+.tip-box .inline-icon {
+    stroke: #8B5CF6;
+}
+
+.warning-box .inline-icon {
+    stroke: #FB923C;
+}
+
+.success-box .inline-icon {
+    stroke: #22C55E;
+}
+
+.info-box .inline-icon {
+    stroke: #00D9FF;
+}
+
+/* Gradient SVG pour les icônes */
+.icon-gradient-def {
+    position: absolute;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+/* Style pour les paragraphes avec icônes */
+p .inline-icon {
+    opacity: 0.8;
+}
+
+p:hover .inline-icon {
+    opacity: 1;
+}
+
+/* Amélioration du rendu typographique avec Space Grotesk */
+.guide-content,
+.review-content {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* Espacement optimal pour Space Grotesk */
+.guide-section p,
+.review-content p {
+    line-height: 1.75;
+    letter-spacing: -0.01em;
+}
+
+/* Listes avec meilleur espacement */
+.guide-section ul,
+.guide-section ol,
+.review-content ul,
+.review-content ol {
+    line-height: 1.7;
+}
+
+/* Code blocks restent avec JetBrains Mono */
+code,
+pre,
+.code-block {
+    font-family: var(--font-mono);
+}
+
+/* Responsive: ajuster la taille des icônes sur mobile */
+@media (max-width: 768px) {
+    .inline-icon {
+        width: 1.1em;
+        height: 1.1em;
+    }
+
+    h2 .inline-icon {
+        width: 1.3em;
+        height: 1.3em;
+    }
+
+    h3 .inline-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+}

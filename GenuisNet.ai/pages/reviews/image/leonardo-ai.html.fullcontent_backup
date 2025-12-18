@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Complete Leonardo AI review 2026. Discover features, pricing, pros &amp; cons of Leonardo.ai's AI art generation with fine control." name="description"/>
+<meta content="Leonardo AI review, AI image generation, AI art, fine control, text to image" name="keywords"/>
+<meta content="GenuisNet.ai" name="author"/>
+<title>Leonardo AI Review 2026: Features, Pricing &amp; Comparison | GenuisNet.ai</title>
+<link href="../../../css/style.css" rel="stylesheet"/>
+<link href="../../../css/guides-reviews.css" rel="stylesheet"/>
+<link href="../../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="../../../css/neon-icons.css" rel="stylesheet"/>
+<style>
+
+        .inline-icon {
+            display: inline-block;
+            width: 1.2em;
+            height: 1.2em;
+            vertical-align: middle;
+            margin-right: 0.3em;
+            stroke: currentColor;
+            stroke-width: 2;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        h2 .inline-icon {
+            width: 1.5em;
+            height: 1.5em;
+            stroke: url(#icon-gradient);
+        }
+
+        /* Gradient pour les icônes dans les titres */
+        .icon-gradient-def {
+            position: absolute;
+            width: 0;
+            height: 0;
+        }
+
+        .review-hero {
+            padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+            background: linear-gradient(135deg, rgba(0, 204, 182, 0.15) 0%, rgba(124, 58, 237, 0.1) 100%);
+            border-bottom: 1px solid var(--border-color);
+        }
+        .tool-logo-xl {
+            width: 120px;
+            height: 120px;
+            border-radius: var(--radius-xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: 800;
+            color: white;
+            background: linear-gradient(135deg, #00CCB6, #7C3AED);
+            box-shadow: 0 20px 40px rgba(0, 204, 182, 0.3);
+        }
+        .rating-score {
+            font-size: var(--text-5xl);
+            font-weight: 800;
+            background: linear-gradient(135deg, #00CCB6, #7C3AED);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1;
+        }
+        .feature-card-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(0, 204, 182, 0.1);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--text-xl);
+            margin-bottom: var(--space-md);
+        }
+        .pros-box {
+            border: 1px solid rgba(0, 204, 182, 0.3);
+        }
+        .pros-box h4 { color: #00CCB6; }
+        .pros-box ul li::marker { color: #00CCB6; }
+        .pricing-table .price {
+            font-weight: 700;
+            color: #00CCB6;
+        }
+        .winner {
+            background: rgba(0, 204, 182, 0.1);
+            color: #00CCB6;
+            font-weight: 600;
+        }
+        .verdict-box {
+            background: linear-gradient(135deg, rgba(0, 204, 182, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
+            border: 1px solid rgba(0, 204, 182, 0.3);
+            border-radius: var(--radius-xl);
+            padding: var(--space-2xl);
+            margin: var(--space-2xl) 0;
+        }
+        .rating-item-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00CCB6, #7C3AED);
+            border-radius: var(--radius-full);
+        }
+        /* Common styles from template */
+        .review-hero-content {display: grid; grid-template-columns: auto 1fr auto; gap: var(--space-2xl); align-items: center;}
+        .tool-logo-xl img {width: 80%; height: 80%; object-fit: contain;}
+        .review-hero-info h1 {font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: var(--space-sm);}
+        .review-hero-info .company {color: var(--text-tertiary); font-size: var(--text-lg); margin-bottom: var(--space-md);}
+        .review-badges {display: flex; gap: var(--space-sm); flex-wrap: wrap;}
+        .review-badges .badge {padding: var(--space-xs) var(--space-md); font-size: var(--text-sm);}
+        .rating-box {background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: var(--space-xl); text-align: center; min-width: 180px;}
+        .rating-stars {color: #F59E0B; font-size: var(--text-xl); margin: var(--space-sm) 0;}
+        .rating-label {font-size: var(--text-sm); color: var(--text-tertiary);}
+        .quick-stats {background: var(--bg-secondary); padding: var(--space-lg) 0; border-bottom: 1px solid var(--border-color);}
+        .quick-stats-grid {display: grid; grid-template-columns: repeat(5, 1fr); gap: var(--space-lg);}
+        .quick-stat {text-align: center;}
+        .quick-stat-value {font-size: var(--text-xl); font-weight: 700; color: var(--text-primary);}
+        .quick-stat-label {font-size: var(--text-xs); color: var(--text-tertiary); margin-top: var(--space-xs);}
+        .review-content {display: grid; grid-template-columns: 1fr 350px; gap: var(--space-3xl); padding: var(--space-4xl) 0;}
+        .review-main h2 {font-size: var(--text-2xl); font-weight: 700; margin: var(--space-2xl) 0 var(--space-lg); padding-bottom: var(--space-sm); border-bottom: 2px solid var(--border-color);}
+        .review-main h2:first-child {margin-top: 0;}
+        .review-main h3 {font-size: var(--text-lg); font-weight: 600; margin: var(--space-xl) 0 var(--space-md); color: var(--text-primary);}
+        .review-main p {color: var(--text-secondary); line-height: 1.8; margin-bottom: var(--space-lg);}
+        .review-main ul, .review-main ol {margin-bottom: var(--space-lg); padding-left: var(--space-xl);}
+        .review-main li {color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-sm);}
+        .features-grid {display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); margin: var(--space-xl) 0;}
+        .feature-card {background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg);}
+        .feature-card h4 {font-size: var(--text-md); font-weight: 600; margin-bottom: var(--space-sm);}
+        .feature-card p {font-size: var(--text-sm); color: var(--text-secondary); margin: 0;}
+        .pros-cons-grid {display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); margin: var(--space-xl) 0;}
+        .pros-box, .cons-box {background: var(--bg-card); border-radius: var(--radius-lg); padding: var(--space-xl);}
+        .cons-box {border: 1px solid rgba(239, 68, 68, 0.3);}
+        .pros-box h4, .cons-box h4 {display: flex; align-items: center; gap: var(--space-sm); font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-lg);}
+        .cons-box h4 { color: #EF4444; }
+        .cons-box ul li::marker { color: #EF4444; }
+        .pricing-table {width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; background: var(--bg-card); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border-color);}
+        .pricing-table th, .pricing-table td {padding: var(--space-lg); text-align: left; border-bottom: 1px solid var(--border-color);}
+        .pricing-table th {background: var(--bg-tertiary); font-weight: 600; color: var(--text-primary);}
+        .pricing-table td {color: var(--text-secondary);}
+        .pricing-table .plan-name {font-weight: 600; color: var(--text-primary);}
+        .comparison-table {width: 100%; border-collapse: collapse; margin: var(--space-xl) 0;}
+        .comparison-table th, .comparison-table td {padding: var(--space-md); text-align: center; border: 1px solid var(--border-color);}
+        .comparison-table th {background: var(--bg-tertiary); font-weight: 600;}
+        .comparison-table td:first-child {text-align: left; font-weight: 500;}
+        .verdict-box h3 {font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-md); color: var(--text-primary);}
+        .verdict-box p {font-size: var(--text-md); margin: 0;}
+        .review-sidebar {position: sticky; top: 100px;}
+        .sidebar-card {background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: var(--space-xl); margin-bottom: var(--space-xl);}
+        .sidebar-card h3 {font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-lg); padding-bottom: var(--space-sm); border-bottom: 1px solid var(--border-color);}
+        .cta-buttons {display: flex; flex-direction: column; gap: var(--space-sm);}
+        .cta-buttons .btn {width: 100%; justify-content: center;}
+        .rating-breakdown {margin-top: var(--space-lg);}
+        .rating-item {display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-md);}
+        .rating-item-label {flex: 1; font-size: var(--text-sm); color: var(--text-secondary);}
+        .rating-item-bar {width: 100px; height: 8px; background: var(--bg-tertiary); border-radius: var(--radius-full); overflow: hidden;}
+        .rating-item-score {font-size: var(--text-sm); font-weight: 600; color: var(--text-primary); min-width: 30px;}
+        .toc-list {list-style: none; padding: 0;}
+        .toc-list li {margin-bottom: var(--space-sm);}
+        .toc-list a {font-size: var(--text-sm); color: var(--text-secondary); text-decoration: none; transition: color var(--transition-fast);}
+        .toc-list a:hover {color: var(--accent-primary);}
+        .faq-item {background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); margin-bottom: var(--space-md); overflow: hidden;}
+        .faq-question {padding: var(--space-lg); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 600;}
+        .faq-question:hover {background: var(--bg-tertiary);}
+        .faq-answer {padding: 0 var(--space-lg) var(--space-lg); color: var(--text-secondary); line-height: 1.7;}
+        @media (max-width: 1024px) {.review-content {grid-template-columns: 1fr;} .review-sidebar {position: static;}}
+        @media (max-width: 768px) {.review-hero-content {grid-template-columns: 1fr; text-align: center;} .tool-logo-xl {margin: 0 auto;} .review-badges {justify-content: center;} .rating-box {margin: 0 auto;} .quick-stats-grid {grid-template-columns: repeat(2, 1fr);} .features-grid, .pros-cons-grid {grid-template-columns: 1fr;}}
+    
+        /* Test Section at Top */
+        .test-section-top {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(59, 130, 246, 0.1));
+            border: 2px solid var(--border-color-hover);
+            border-radius: var(--radius-xl);
+            padding: var(--space-2xl);
+            text-align: center;
+            margin-bottom: var(--space-3xl);
+        }
+        .test-section-top h2 {
+            margin-top: 0;
+            margin-bottom: var(--space-lg);
+            font-size: var(--text-2xl);
+        }
+        .cta-buttons-top {
+            display: flex;
+            gap: var(--space-md);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .cta-buttons-top .btn {
+            min-width: 200px;
+        }
+        @media (max-width: 768px) {
+            .cta-buttons-top {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style>
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+<nav class="navbar" id="navbar">
+<div class="nav-container">
+<a class="logo" href="../../../index.html">
+<img alt="GenuisNet.ai Logo" src="../../../assets/images/logo-neon.svg" style="height: 40px; width: auto;"/>
+</a>
+<ul class="nav-menu" id="nav-menu">
+<li class="nav-item"><a class="nav-link active" data-i18n="nav.home" href="../../../index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link active" href="../../categories/ai-image.html">Categories</a></li>
+<li class="nav-item"><a class="nav-link" href="../../guides.html"><span data-i18n="nav.guides">Guides</span></a></li>
+<li class="nav-item"><a class="nav-link" href="../../comparisons.html"><span data-i18n="nav.compare">Compare</span></a></li>
+<li class="nav-item"><a class="nav-link" href="../../about.html"><span data-i18n="nav.about">About</span></a></li>
+</ul>
+<div class="nav-actions">
+<!-- Language Selector -->
+<div class="language-selector">
+<button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+<span class="lang-current">EN</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="lang-dropdown" id="lang-dropdown">
+<button class="lang-option active" data-lang="en">
+<span class="flag">🇺🇸</span> English
+                        </button>
+<button class="lang-option" data-lang="es">
+<span class="flag">🇪🇸</span> Español
+                        </button>
+<button class="lang-option" data-lang="fr">
+<span class="flag">🇫🇷</span> Français
+                        </button>
+<button class="lang-option" data-lang="de">
+<span class="flag">🇩🇪</span> Deutsch
+                        </button>
+<button class="lang-option" data-lang="pt">
+<span class="flag">🇧🇷</span> Português
+                        </button>
+<button class="lang-option" data-lang="zh">
+<span class="flag">🇨🇳</span> 中文
+                        </button>
+<button class="lang-option" data-lang="ja">
+<span class="flag">🇯🇵</span> 日本語
+                        </button>
+<button class="lang-option" data-lang="ko">
+<span class="flag">🇰🇷</span> 한국어
+                        </button>
+<button class="lang-option" data-lang="ar">
+<span class="flag">🇸🇦</span> العربية
+                        </button>
+<button class="lang-option" data-lang="hi">
+<span class="flag">🇮🇳</span> हिन्दी
+                        </button>
+</div>
+</div>
+<button aria-label="Toggle Theme" class="theme-toggle" id="theme-toggle">
+<svg class="sun-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+</svg>
+<svg class="moon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+</button>
+<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+<span></span><span></span><span></span>
+</button>
+</div>
+</div>
+</nav>
+<div class="container" style="padding-top: calc(80px + var(--space-lg));">
+<nav style="font-size: var(--text-sm); color: var(--text-tertiary);">
+<a href="../../../index.html" style="color: var(--text-tertiary); text-decoration: none;">Home</a>
+<span style="margin: 0 var(--space-sm);">/</span>
+<a href="../../categories/ai-image.html" style="color: var(--text-tertiary); text-decoration: none;">AI Image Generation</a>
+<span style="margin: 0 var(--space-sm);">/</span>
+<span style="color: var(--text-primary);">Leonardo AI Review</span>
+</nav>
+</div>
+<header class="review-hero">
+<div class="container">
+<div class="review-hero-content">
+<div class="tool-logo-xl">
+<img alt="Leonardo AI Logo" src="../../../assets/images/logos/leonardoai.png"/>
+</div>
+<div class="review-hero-info">
+<h1>Leonardo AI Review 2026</h1>
+<p class="company">by Leonardo.ai</p>
+<div class="review-badges">
+<span class="badge badge-popular">8M+ Users</span>
+<span class="badge badge-new">Phoenix</span>
+<span class="badge" style="background: rgba(0, 204, 182, 0.1); color: #00CCB6;">Fine Control</span>
+</div>
+</div>
+<div class="rating-box">
+<div class="rating-score">4.5</div>
+<div class="rating-stars">★★★★★</div>
+<div class="rating-label">Expert Rating</div>
+</div>
+</div>
+</div>
+</header>
+<div class="quick-stats">
+<div class="container">
+<div class="quick-stats-grid">
+<div class="quick-stat">
+<div class="quick-stat-value">8M+</div>
+<div class="quick-stat-label">Active Users</div>
+</div>
+<div class="quick-stat">
+<div class="quick-stat-value">Phoenix</div>
+<div class="quick-stat-label">Latest Model</div>
+</div>
+<div class="quick-stat">
+<div class="quick-stat-value">Fine Control</div>
+<div class="quick-stat-label">Key Feature</div>
+</div>
+<div class="quick-stat">
+<div class="quick-stat-value">Free</div>
+<div class="quick-stat-label">Starting Price</div>
+</div>
+<div class="quick-stat">
+<div class="quick-stat-value">2022</div>
+<div class="quick-stat-label">Launch Year</div>
+</div>
+</div>
+</div>
+</div>
+<main class="container">
+<div class="review-content">
+<article class="review-main">
+<!-- Try It Section -->
+<div class="test-section-top">
+<h2><span data-i18n="review.common.try.it.now">Try It Now</span></h2>
+<div class="cta-buttons-top">
+<a class="btn btn-primary" href="#" rel="nofollow sponsored" target="_blank">Try Leonardo AI →</a>
+<a class="btn btn-outline" href="#" target="_blank">View Pricing</a>
+</div>
+</div>
+<h2><span data-i18n="review.common.overview">Overview</span></h2>
+<p>Leonardo AI combines powerful image generation with unprecedented control over the creative process. Built for game developers, artists, and designers who need consistency and precision, Leonardo offers advanced features like Canvas editing, character consistency tools, and fine-grained control over every aspect of generation.</p>
+<p>What distinguishes Leonardo is its game asset focus and professional toolset. With features like Image Guidance, Prompt Magic, and customizable AI models, Leonardo bridges the gap between AI generation and professional creative work. The platform excels at creating game assets, character art, and iterative design work requiring consistency across multiple outputs.</p>
+<h2><span data-i18n="review.common.key.features">Key Features</span></h2>
+<div class="features-grid">
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M12 2a10 10 0 017.38 16.75 2 2 0 01-3.5.54l-.9-1.34a2 2 0 00-1.65-.88H9.87a2 2 0 01-1.99-2.33L8.53 12a2 2 0 00-.26-1.5L6.8 8.53a10 10 0 015.2-6.53z"></path><circle cx="7.5" cy="10.5" r=".5"></circle><circle cx="18.5" cy="7.5" r=".5"></circle><circle cx="16.5" cy="13.5" r=".5"></circle></svg></div>
+<h4>Phoenix Model</h4>
+<p>Leonardo's latest Phoenix model delivers exceptional quality with improved photorealism, better prompt understanding, and superior detail.</p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="18" rx="2" width="18" x="3" y="3"></rect><path d="M9 3v18M3 9h18M3 15h18M15 3v18"></path></svg></div>
+<h4>Canvas Editor</h4>
+<p>Advanced canvas editing with inpainting, outpainting, and sketch-to-image capabilities for precise control over your creations.</p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+<h4>Image Guidance</h4>
+<p>Use reference images to guide AI generation, ensuring consistency across multiple outputs and maintaining style coherence.</p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></div>
+<h4>Prompt Magic</h4>
+<p>Enhanced prompt processing that better interprets your descriptions and adds stylistic flair automatically.</p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v6M5.6 5.6l4.2 4.2m4.2 4.2l4.2 4.2M1 12h6m6 0h6M5.6 18.4l4.2-4.2m4.2-4.2l4.2-4.2"/></svg></div>
+<h4>Custom AI Models</h4>
+<p>Train custom models on your own datasets for unique styles and consistent character/asset generation.</p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="6" y1="12" x2="10" y2="12"/><line x1="8" y1="10" x2="8" y2="14"/><line x1="15" y1="13" x2="15.01" y2="13"/><line x1="18" y1="11" x2="18.01" y2="11"/><rect x="2" y="6" width="20" height="12" rx="2"/></svg></div>
+<h4>Game Asset Tools</h4>
+<p>Specialized features for game developers including texture generation, character sheets, and seamless pattern creation.</p>
+</div>
+</div>
+<h3>Additional Capabilities</h3>
+<ul>
+<li><strong>Real-time Canvas:</strong> Edit and generate images in real-time with immediate feedback and iteration</li>
+<li><strong>Motion Generation:</strong> Animate your static images with AI-powered motion effects</li>
+<li><strong>3D Texture Generation:</strong> Create seamless textures perfect for 3D models and game assets</li>
+<li><strong>Universal Upscaler:</strong> Enhance image resolution up to 8K with AI-powered upscaling</li>
+<li><strong>Negative Prompts:</strong> Fine-tune outputs by specifying what not to include in generations</li>
+<li><strong>Batch Generation:</strong> Generate multiple variations simultaneously to explore different creative directions</li>
+</ul>
+<h2 id="image-quality">Image Quality &amp; Style Control</h2>
+<h3>Image Quality</h3>
+<p>Leonardo AI's Phoenix model represents a significant leap in image generation quality. The platform excels at photorealistic renders, game asset creation, and artistic illustrations. Images are characterized by sharp details, accurate lighting, natural textures, and coherent composition. The platform particularly shines in character design, environmental art, and product visualization where consistency and quality are paramount.</p>
+<p>Compared to competitors, Leonardo strikes an excellent balance between creative freedom and technical precision. While Midjourney may excel in artistic interpretation and DALL-E 3 in prompt adherence, Leonardo's strength lies in its fine-grained control and iterative workflow, making it ideal for professional projects requiring multiple revisions and consistency.</p>
+<h3>Style Control</h3>
+<p>Leonardo offers extensive style control through multiple mechanisms:</p>
+<ul>
+<li><strong>Model Selection:</strong> Choose from 15+ specialized models including PhotoReal, Anime Pastel Dream, RPG 4.0, and more for different artistic styles</li>
+<li><strong>Image Guidance:</strong> Upload reference images to guide style, composition, and character consistency across generations</li>
+<li><strong>Prompt Magic:</strong> Advanced prompt processing that enhances your descriptions with optimal styling parameters</li>
+<li><strong>ControlNet:</strong> Use edge detection, pose detection, and depth maps for precise compositional control</li>
+<li><strong>Style Presets:</strong> Quick access to popular aesthetic styles from photorealistic to fantasy art</li>
+<li><strong>Negative Prompts:</strong> Exclude specific elements, styles, or artifacts from your generations</li>
+</ul>
+<p>This multi-layered approach to style control makes Leonardo particularly powerful for projects requiring brand consistency, character coherence across multiple images, or specific artistic direction.</p>
+<h2 id="commercial-rights">Commercial Usage Rights</h2>
+<p>Leonardo AI provides clear commercial usage rights, making it a safe choice for professional projects:</p>
+<ul>
+<li><strong>Paid Plans:</strong> Full commercial rights to all images generated with paid subscriptions (Apprentice, Artisan, Maestro)</li>
+<li><strong>Free Tier:</strong> Commercial use allowed but with attribution requirements - check current terms</li>
+<li><strong>Custom Models:</strong> You retain full rights to custom models trained on your data</li>
+<li><strong>Training Data:</strong> Leonardo's models are trained on licensed datasets, reducing copyright concerns</li>
+<li><strong>Content Ownership:</strong> You own the outputs you create, subject to the tier's licensing terms</li>
+</ul>
+<p>For enterprise clients with specific licensing needs, Leonardo offers custom commercial licensing agreements. This makes Leonardo particularly attractive for game studios, marketing agencies, and businesses requiring clear IP ownership.</p>
+<h2 id="prompt-engineering">Prompt Engineering</h2>
+<h3>Best Practices</h3>
+<p>Mastering Leonardo's prompt system unlocks the platform's full potential. Here are proven techniques for optimal results:</p>
+<ul>
+<li><strong>Be Specific:</strong> Include details about subject, style, lighting, composition, and mood (e.g., "portrait of a warrior, cinematic lighting, fantasy art style, highly detailed armor")</li>
+<li><strong>Use Style Modifiers:</strong> Add quality boosters like "highly detailed," "8K resolution," "professional photography," "trending on ArtStation"</li>
+<li><strong>Leverage Negative Prompts:</strong> Exclude unwanted elements (e.g., "blurry, low quality, distorted, extra limbs")</li>
+<li><strong>Reference Art Styles:</strong> Mention specific artists, art movements, or visual styles for consistent aesthetic</li>
+<li><strong>Control Composition:</strong> Specify camera angles, framing, and perspective (e.g., "wide-angle shot," "close-up portrait," "bird's eye view")</li>
+</ul>
+<h3>Advanced Techniques</h3>
+<ul>
+<li><strong>Prompt Magic:</strong> Enable this feature to automatically enhance your prompts with optimal parameters</li>
+<li><strong>Image Guidance Weight:</strong> Adjust how strongly reference images influence the output (0.1-1.0)</li>
+<li><strong>Model-Specific Prompting:</strong> Different models respond better to different prompt styles - experiment with each</li>
+<li><strong>Iterative Refinement:</strong> Use Canvas to progressively refine generations rather than starting from scratch</li>
+</ul>
+<h2 id="pros-cons">Pros &amp; Cons</h2>
+<div class="pros-cons-grid">
+<div class="pros-box">
+<h4><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Advantages</h4>
+<ul>
+<li>Exceptional fine control over image generation</li>
+<li>Phoenix model delivers outstanding quality</li>
+<li>Excellent for game assets and character consistency</li>
+<li>Powerful Canvas editor with real-time editing</li>
+<li>Custom model training for unique styles</li>
+<li>Generous free tier with daily token allocation</li>
+<li>Strong community with shared custom models</li>
+<li>Regular feature updates and model improvements</li>
+<li>Superior workflow for iterative design projects</li>
+<li>Clear commercial licensing terms</li>
+</ul>
+</div>
+<div class="cons-box">
+<h4><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Disadvantages</h4>
+<ul>
+<li>Steeper learning curve than simpler tools</li>
+<li>Token system can be limiting on free tier</li>
+<li>Some advanced features locked behind higher tiers</li>
+<li>Interface can feel overwhelming for beginners</li>
+<li>Generation speed varies with server load</li>
+<li>Less "artistic magic" than Midjourney for pure aesthetics</li>
+</ul>
+</div>
+</div>
+<h2><span data-i18n="review.common.pricing.plans">Pricing Plans</span></h2>
+<p>Leonardo AI offers a tiered pricing structure designed to accommodate everyone from hobbyists to professional studios:</p>
+<div class="pricing-grid">
+<div class="pricing-card">
+<h4>Free Tier</h4>
+<p class="price">$0/month</p>
+<ul>
+<li>150 daily tokens (refreshes every 24h)</li>
+<li>Access to community models</li>
+<li>Basic image generation</li>
+<li>Canvas editing (limited)</li>
+<li>Commercial use with attribution</li>
+</ul>
+</div>
+<div class="pricing-card featured">
+<h4>Apprentice Standard</h4>
+<p class="price">$12/month</p>
+<ul>
+<li>8,500 tokens/month</li>
+<li>All community models</li>
+<li>Private generation queue</li>
+<li>Full Canvas access</li>
+<li>Commercial use without attribution</li>
+<li>Remove watermarks</li>
+</ul>
+</div>
+<div class="pricing-card">
+<h4>Artisan Unlimited</h4>
+<p class="price">$30/month</p>
+<ul>
+<li>25,000 tokens/month</li>
+<li>Relaxed unlimited generations</li>
+<li>Priority generation queue</li>
+<li>Custom model training (3 slots)</li>
+<li>Advanced Canvas features</li>
+<li>API access (coming soon)</li>
+</ul>
+</div>
+<div class="pricing-card">
+<h4>Maestro Unlimited</h4>
+<p class="price">$60/month</p>
+<ul>
+<li>60,000 tokens/month</li>
+<li>Truly unlimited relaxed mode</li>
+<li>Highest priority queue</li>
+<li>Custom model training (unlimited)</li>
+<li>Early access to new features</li>
+<li>Dedicated support</li>
+</ul>
+</div>
+</div>
+<p><strong>Token System:</strong> Leonardo uses a token-based system where different features consume different amounts. A standard Phoenix generation costs ~6-8 tokens, while Canvas operations and upscaling cost more. The relaxed unlimited mode on higher tiers allows generations without token consumption (slower queue).</p>
+<h2><span data-i18n="review.common.best.use.cases">Best Use Cases</span></h2>
+<p>Leonardo AI excels in specific creative domains where precision and consistency matter:</p>
+<h3>Game Development</h3>
+<ul>
+<li><strong>Character Design:</strong> Create consistent character variations with Image Guidance and custom models</li>
+<li><strong>Environment Art:</strong> Generate game environments, props, and background assets at scale</li>
+<li><strong>Texture Generation:</strong> Produce seamless textures for 3D models and game assets</li>
+<li><strong>Concept Art:</strong> Rapid prototyping of game concepts and visual direction</li>
+</ul>
+<h3>Professional Design</h3>
+<ul>
+<li><strong>Product Visualization:</strong> Create photorealistic product renders and marketing imagery</li>
+<li><strong>Brand Assets:</strong> Generate brand-consistent imagery using custom-trained models</li>
+<li><strong>Marketing Materials:</strong> Produce social media content, ads, and promotional graphics</li>
+<li><strong>UI/UX Design:</strong> Create interface elements, icons, and visual assets</li>
+</ul>
+<h3>Creative Projects</h3>
+<ul>
+<li><strong>Character Art:</strong> Illustration, comic book art, and character sheets with consistency</li>
+<li><strong>Fantasy/Sci-Fi Art:</strong> Detailed worldbuilding visuals and concept exploration</li>
+<li><strong>Digital Painting:</strong> Use Canvas as a collaborative AI painting partner</li>
+</ul>
+<h2><span data-i18n="review.common.comparison.with.competitors">Comparison with Competitors</span></h2>
+<div class="comparison-table">
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Leonardo AI</th>
+<th>Midjourney</th>
+<th>DALL-E 3</th>
+<th>Adobe Firefly</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Best For</strong></td>
+<td>Game assets, consistency</td>
+<td>Artistic images</td>
+<td>Prompt accuracy</td>
+<td>Commercial safety</td>
+</tr>
+<tr>
+<td><strong>Control Level</strong></td>
+<td>Very High</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>High</td>
+</tr>
+<tr>
+<td><strong>Learning Curve</strong></td>
+<td>Moderate-Steep</td>
+<td>Easy-Moderate</td>
+<td>Easy</td>
+<td>Easy</td>
+</tr>
+<tr>
+<td><strong>Custom Models</strong></td>
+<td>Yes (paid tiers)</td>
+<td>No</td>
+<td>No</td>
+<td>Yes (enterprise)</td>
+</tr>
+<tr>
+<td><strong>Free Tier</strong></td>
+<td>Generous (150/day)</td>
+<td>No</td>
+<td>Via ChatGPT</td>
+<td>25/month</td>
+</tr>
+<tr>
+<td><strong>Canvas Editing</strong></td>
+<td>Advanced</td>
+<td>Basic</td>
+<td>ChatGPT only</td>
+<td>Photoshop integrated</td>
+</tr>
+<tr>
+<td><strong>Commercial Use</strong></td>
+<td>Clear licensing</td>
+<td>Paid plans only</td>
+<td>Varies by plan</td>
+<td>Commercially safe</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>When to Choose Leonardo:</strong> If you need fine-grained control, character/asset consistency across multiple images, or are working on game development and iterative design projects, Leonardo is the superior choice. Its Canvas editor and custom model training make it ideal for professional workflows requiring precision.</p>
+<p><strong>When to Choose Alternatives:</strong> For purely artistic exploration without technical requirements, Midjourney's aesthetic quality is unmatched. For commercial projects requiring zero copyright risk, Adobe Firefly's licensed training data provides peace of mind. For simple, quick generations with excellent prompt understanding, DALL-E 3 integrated in ChatGPT is convenient.</p>
+
+        <h2><span data-i18n="review.common.screenshots.interface">Screenshots & Interface</span></h2>
+        <p>Explore Leonardo Ai's interface:</p>
+
+        <div class="screenshots-gallery-enhanced">
+            <div class="screenshot-card">
+                <img src="../../../assets/screenshots/image/leonardo-ai.png" alt="Leonardo Ai Interface">
+                <div class="screenshot-overlay">
+                    <div class="screenshot-title">Main Interface</div>
+                    <div class="screenshot-description">Overview of the main interface and features</div>
+                </div>
+            </div>
+        </div>
+
+
+<h2><span data-i18n="review.common.final.verdict">Final Verdict</span></h2>
+<div class="verdict-box">
+<h3>Our Recommendation</h3>
+<p>Leonardo AI stands out as the premier choice for creators who prioritize control, consistency, and professional-grade results. The Phoenix model delivers exceptional quality that rivals or exceeds competitors, while the Canvas editor and custom model training provide unmatched flexibility for iterative workflows.</p>
+<p><strong>Ideal For:</strong> Game developers, digital artists, product designers, marketing agencies, and anyone requiring consistent character/asset generation across multiple images. The generous free tier makes it accessible for experimentation, while paid plans offer excellent value for professional use.</p>
+<p><strong>Not Ideal For:</strong> Users seeking the quickest path to artistic images without learning curve, or those who prefer Discord-based workflows over web interfaces. Midjourney may be better for pure artistic exploration, while DALL-E 3 suits casual users wanting simplicity.</p>
+<p><strong>Bottom Line:</strong> With a rating of 4.5/5, Leonardo AI represents the best balance of power, flexibility, and value in the AI image generation space. Its focus on professional workflows, combined with generous pricing and regular feature updates, makes it our top recommendation for serious creators needing precision and consistency.</p>
+</div>
+<h2><span data-i18n="review.common.frequently.asked.questions">Frequently Asked Questions</span></h2>
+<div class="faq-item">
+<div class="faq-question">
+                        Is Leonardo AI free to use?
+                        <span>+</span>
+</div>
+<div class="faq-answer">
+                        Leonardo AI offers both free and paid tiers. Check the pricing section above for current plan details and feature access.
+                    </div>
+</div>
+<div class="faq-item">
+<div class="faq-question">
+                        Can I use Leonardo AI images commercially?
+                        <span>+</span>
+</div>
+<div class="faq-answer">
+                        Commercial usage rights depend on your subscription tier. Review the commercial rights section and current terms of service for specific details.
+                    </div>
+</div>
+</article>
+<aside class="review-sidebar">
+<div class="sidebar-card">
+<h3>Get Leonardo AI</h3>
+<div class="cta-buttons">
+<a class="btn btn-primary" href="#" rel="nofollow sponsored" target="_blank">Try Leonardo AI →</a>
+<a class="btn btn-outline" href="#" target="_blank">View Pricing</a>
+</div>
+<div class="rating-breakdown">
+<div class="rating-item">
+<span class="rating-item-label">Image Quality</span>
+<div class="rating-item-bar">
+<div class="rating-item-fill" style="width: 90%"></div>
+</div>
+<span class="rating-item-score">9.0</span>
+</div>
+<div class="rating-item">
+<span class="rating-item-label">Ease of Use</span>
+<div class="rating-item-bar">
+<div class="rating-item-fill" style="width: 85%"></div>
+</div>
+<span class="rating-item-score">8.5</span>
+</div>
+<div class="rating-item">
+<span class="rating-item-label">Value</span>
+<div class="rating-item-bar">
+<div class="rating-item-fill" style="width: 88%"></div>
+</div>
+<span class="rating-item-score">8.8</span>
+</div>
+</div>
+</div>
+<div class="sidebar-card">
+<h3>Table of Contents</h3>
+<ul class="toc-list">
+<li><a href="#overview">Overview</a></li>
+<li><a href="#features">Key Features</a></li>
+<li><a href="#image-quality">Image Quality</a></li>
+<li><a href="#commercial-rights">Commercial Rights</a></li>
+<li><a href="#prompt-engineering">Prompt Engineering</a></li>
+<li><a href="#pros-cons">Pros &amp; Cons</a></li>
+<li><a href="#pricing">Pricing</a></li>
+<li><a href="#use-cases">Use Cases</a></li>
+<li><a href="#comparison">Comparison</a></li>
+<li><a href="#verdict">Verdict</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+</div>
+<div class="sidebar-card">
+<h3>Quick Info</h3>
+<ul style="list-style: none; padding: 0; font-size: var(--text-sm);">
+<li style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+<span style="color: var(--text-tertiary);">Company</span>
+<span style="font-weight: 500;">Leonardo.ai</span>
+</li>
+<li style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+<span style="color: var(--text-tertiary);">Founded</span>
+<span style="font-weight: 500;">2022</span>
+</li>
+<li style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+<span style="color: var(--text-tertiary);">Headquarters</span>
+<span style="font-weight: 500;">Sydney, Australia</span>
+</li>
+<li style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+<span style="color: var(--text-tertiary);">Platform</span>
+<span style="font-weight: 500;">Web</span>
+</li>
+<li style="display: flex; justify-content: space-between; padding: var(--space-sm) 0;">
+<span style="color: var(--text-tertiary);">API Available</span>
+<span style="font-weight: 500; color: #00CCB6;">Yes</span>
+</li>
+</ul>
+</div>
+</aside>
+</div>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="../../../index.html">
+<img alt="GenuisNet.ai Logo" src="../../../assets/images/logo-neon.svg" style="height: 40px; width: auto;"/>
+</a>
+<p class="footer-desc">Your trusted source for AI tool reviews, comparisons, and guides.</p>
+</div>
+<div class="footer-links">
+<h4>Categories</h4>
+<ul>
+<li><a href="../../categories/ai-chatbots.html">AI Chatbots</a></li>
+<li><a href="../../categories/ai-image.html">AI Image Generation</a></li>
+<li><a href="../../categories/ai-video.html">AI Video</a></li>
+<li><a href="../../categories/ai-writing.html">AI Writing</a></li>
+</ul>
+</div>
+<div class="footer-links">
+<h4>Resources</h4>
+<ul>
+<li><a href="../../guides.html"><span data-i18n="nav.guides">Guides</span></a></li>
+<li><a href="../../comparisons.html">Comparisons</a></li>
+<li><a href="../../about.html"><span data-i18n="nav.about">About</span></a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p class="copyright">© 2026 GenuisNet.ai. All rights reserved.</p>
+<p class="affiliate-notice">Some links may be affiliate links. We may earn a commission at no extra cost to you.</p>
+</div>
+</div>
+</footer>
+<script src="../../../js/i18n.js"></script>
+<script src="../../../js/auto-translate.js"></script>
+<script src="../../../js/animations.js"></script>
+<script src="../../../js/main.js"></script>
+<script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isOpen = answer.style.display === 'block';
+                document.querySelectorAll('.faq-answer').forEach(a => a.style.display = 'none');
+                document.querySelectorAll('.faq-question span').forEach(s => s.textContent = '+');
+                if (!isOpen) {
+                    answer.style.display = 'block';
+                    question.querySelector('span').textContent = '−';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide de Traduction - Espagnol</title>
+    <style>
+        @page {
+            margin: 2cm;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 4px solid #3498db;
+            padding-bottom: 10px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            font-size: 1.8em;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #34495e;
+            font-size: 1.3em;
+            margin-top: 20px;
+        }
+        .header-info {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .header-info p {
+            margin: 5px 0;
+            font-weight: bold;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #e74c3c;
+        }
+        pre {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 0.9em;
+        }
+        .prompt-box {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .important {
+            background: #f8d7da;
+            border-left: 5px solid #dc3545;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .tip {
+            background: #d1ecf1;
+            border-left: 5px solid #17a2b8;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .success {
+            background: #d4edda;
+            border-left: 5px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        ol, ul {
+            margin-left: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+        .checkbox {
+            width: 20px;
+            height: 20px;
+        }
+        .page-break {
+            page-break-after: always;
+        }
+        .step-number {
+            background: #3498db;
+            color: white;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            color: #7f8c8d;
+        }
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📘 GUIDE DE TRADUCTION - ESPAGNOL</h1>
+
+        <div class="header-info">
+            <p><strong>Projet:</strong> Traduction de 18,425 clés en espagnol</p>
+            <p><strong>Méthode:</strong> Traduction batch via Claude.ai</p>
+            <p><strong>Nombre de chunks:</strong> 37 fichiers (500 clés par chunk)</p>
+            <p><strong>Temps estimé:</strong> 15-20 minutes (avec parallélisation)</p>
+        </div>
+
+        <h2>🎯 OBJECTIF</h2>
+        <p>Traduire tous les fichiers <code>chunk_XX_of_37.json</code> en utilisant Claude.ai (gratuit), puis fusionner les résultats en un fichier final <code>es.json</code>.</p>
+
+        <div class="page-break"></div>
+
+        <h2>📋 ÉTAPE 1: PRÉPARATION</h2>
+
+        <h3>Ouvrir Claude.ai</h3>
+        <ol>
+            <li>Allez sur: <strong>https://claude.ai</strong></li>
+            <li>Connectez-vous (compte gratuit suffisant)</li>
+            <li><strong>ASTUCE:</strong> Ouvrez 5-10 onglets en parallèle pour accélérer!</li>
+        </ol>
+
+        <h3>Localiser les fichiers</h3>
+        <p>Tous les chunks sont dans:</p>
+        <pre>/home/komet/Desktop/Projekt/AI Tools/batch_translation/es/</pre>
+
+        <p>Liste des fichiers:</p>
+        <ul>
+            <li><code>chunk_01_of_37.json</code> → <code>chunk_37_of_37.json</code></li>
+        </ul>
+
+        <div class="page-break"></div>
+
+        <h2>📝 ÉTAPE 2: PROMPT À UTILISER</h2>
+
+        <div class="prompt-box">
+            <h3>⚠️ Copiez ce prompt et utilisez-le pour TOUS les 37 chunks:</h3>
+        </div>
+
+        <pre>You are a professional translator. I need you to translate a JSON file from English to Spanish (Español).
+
+IMPORTANT RULES:
+1. Translate ONLY the VALUES, NEVER the keys
+2. Preserve ALL special characters: {{variable}}, %s, %d, \n, etc.
+3. Keep the same JSON structure
+4. Maintain HTML tags if present: &lt;b&gt;, &lt;i&gt;, &lt;a&gt;, etc.
+5. Preserve spacing and formatting
+6. Return ONLY valid JSON, nothing else
+
+Example:
+Input:  {"welcome_message": "Hello {{name}}, welcome!"}
+Output: {"welcome_message": "¡Hola {{name}}, bienvenido!"}
+
+Please translate the attached JSON file to Spanish (Español) following these rules strictly.
+Return the complete translated JSON.</pre>
+
+        <div class="page-break"></div>
+
+        <h2>🔄 ÉTAPE 3: TRADUCTION DES CHUNKS</h2>
+
+        <h3>Pour CHAQUE chunk (répéter 37 fois):</h3>
+
+        <h4><span class="step-number">A</span> Nouvelle conversation</h4>
+        <ul>
+            <li>Ouvrez une <strong>nouvelle conversation</strong> dans Claude.ai</li>
+            <li>Ou utilisez un nouvel onglet pour paralléliser</li>
+        </ul>
+
+        <h4><span class="step-number">B</span> Envoyez le prompt</h4>
+        <ol>
+            <li><strong>Collez</strong> le prompt ci-dessus dans la zone de texte</li>
+            <li><strong>Attachez</strong> le fichier correspondant:
+                <ul>
+                    <li>Chunk 1: <code>chunk_01_of_37.json</code></li>
+                    <li>Chunk 2: <code>chunk_02_of_37.json</code></li>
+                    <li>etc.</li>
+                </ul>
+            </li>
+            <li><strong>Cliquez</strong> sur "Send" ou appuyez sur Entrée</li>
+        </ol>
+
+        <h4><span class="step-number">C</span> Attendez la réponse</h4>
+        <ul>
+            <li>Temps d'attente: <strong>30-60 secondes</strong></li>
+            <li>Claude.ai va retourner le JSON traduit</li>
+        </ul>
+
+        <h4><span class="step-number">D</span> Sauvegardez le résultat</h4>
+        <ol>
+            <li><strong>Copiez</strong> le JSON traduit (tout le bloc de code)</li>
+            <li><strong>Créez un nouveau fichier</strong> avec le nom: <code>translated_chunk_XX.json</code></li>
+            <li><strong>Collez</strong> le JSON copié dans ce fichier</li>
+            <li><strong>Sauvegardez</strong> dans le même dossier: <code>batch_translation/es/</code></li>
+        </ol>
+
+        <div class="page-break"></div>
+
+        <h2>⚡ MÉTHODE RAPIDE: PARALLÉLISATION</h2>
+
+        <div class="tip">
+            <h3>💡 Au lieu de faire les chunks un par un, faites-les en parallèle!</h3>
+        </div>
+
+        <h3>Configuration</h3>
+        <ol>
+            <li>Ouvrez <strong>10 onglets</strong> Claude.ai simultanément</li>
+            <li>Dans chaque onglet, collez le même prompt</li>
+            <li>Attachez des chunks différents dans chaque onglet:
+                <ul>
+                    <li>Onglet 1: <code>chunk_01_of_37.json</code></li>
+                    <li>Onglet 2: <code>chunk_02_of_37.json</code></li>
+                    <li>Onglet 3: <code>chunk_03_of_37.json</code></li>
+                    <li>... jusqu'à l'onglet 10: <code>chunk_10_of_37.json</code></li>
+                </ul>
+            </li>
+            <li>Cliquez "Send" dans tous les onglets</li>
+            <li>Pendant que les 10 premiers traitent, préparez 10 nouveaux onglets pour chunks 11-20</li>
+            <li>Sauvegardez les résultats au fur et à mesure</li>
+        </ol>
+
+        <div class="success">
+            <h3>✅ Résultat</h3>
+            <ul>
+                <li><strong>Sans parallélisation:</strong> ~60 minutes (37 × ~1.5 min)</li>
+                <li><strong>Avec 10 onglets parallèles:</strong> ~15-20 minutes</li>
+            </ul>
+        </div>
+
+        <div class="page-break"></div>
+
+        <h2>📊 ÉTAPE 4: VÉRIFIER LA PROGRESSION</h2>
+
+        <h3>Compter les fichiers traduits</h3>
+        <p>Ouvrez un terminal et tapez:</p>
+        <pre>cd /home/komet/Desktop/Projekt/AI\ Tools/batch_translation/es/
+ls translated_chunk_*.json | wc -l</pre>
+
+        <p><strong>Résultat attendu:</strong> 37 fichiers</p>
+
+        <h3>Liste de contrôle</h3>
+        <p>Vérifiez que vous avez bien:</p>
+        <ul>
+            <li>☐ <code>translated_chunk_01.json</code></li>
+            <li>☐ <code>translated_chunk_02.json</code></li>
+            <li>☐ <code>translated_chunk_03.json</code></li>
+            <li>☐ ... (jusqu'à 37)</li>
+            <li>☐ <code>translated_chunk_37.json</code></li>
+        </ul>
+
+        <div class="page-break"></div>
+
+        <h2>✅ ÉTAPE 5: FUSION DES TRADUCTIONS</h2>
+
+        <p>Une fois les <strong>37 chunks traduits</strong>, fusionnez-les:</p>
+
+        <h3>Commande</h3>
+        <pre>cd /home/komet/Desktop/Projekt/AI\ Tools
+python3 merge_translations.py</pre>
+
+        <h3>Résultat attendu</h3>
+        <pre>🔄 FUSION DES TRADUCTIONS
+📦 Fusion es:
+   ✓ translated_chunk_01.json: 500 clés
+   ✓ translated_chunk_02.json: 500 clés
+   ...
+   ✓ translated_chunk_37.json: 425 clés
+   ✅ es.json créé: 18,425 clés
+
+✅ 1/9 langues fusionnées avec succès</pre>
+
+        <h3>Fichier final</h3>
+        <p>Le fichier <code>es.json</code> sera créé avec <strong>toutes les 18,425 traductions</strong> dans:</p>
+        <pre>/home/komet/Desktop/Projekt/AI Tools/es.json</pre>
+
+        <div class="page-break"></div>
+
+        <h2>🔍 ÉTAPE 6: VALIDATION (OPTIONNEL)</h2>
+
+        <h3>Vérifier le fichier final</h3>
+        <pre>cd /home/komet/Desktop/Projekt/AI\ Tools
+python3 -m json.tool es.json > /dev/null && echo "✅ JSON valide" || echo "❌ JSON invalide"</pre>
+
+        <h3>Compter les clés</h3>
+        <pre>python3 -c "import json; print(len(json.load(open('es.json'))))"</pre>
+        <p><strong>Résultat attendu:</strong> 18425</p>
+
+        <div class="page-break"></div>
+
+        <h2>❗ RÉSOLUTION DE PROBLÈMES</h2>
+
+        <div class="important">
+            <h3>Problème: Claude.ai ne retourne pas du JSON pur</h3>
+            <p><strong>Solution:</strong> Ajoutez à la fin du prompt:</p>
+            <pre>CRITICAL: Return ONLY the JSON object. No explanations, no markdown code blocks, just pure JSON.</pre>
+        </div>
+
+        <div class="important">
+            <h3>Problème: Caractères spéciaux mal encodés</h3>
+            <p><strong>Solution:</strong></p>
+            <ol>
+                <li>Vérifiez l'encodage UTF-8 lors de la sauvegarde</li>
+                <li>Sous Linux: utilisez <code>gedit</code> ou <code>nano</code> avec option UTF-8</li>
+                <li>Sous Windows: utilisez Notepad++ avec encodage UTF-8</li>
+            </ol>
+        </div>
+
+        <div class="important">
+            <h3>Problème: Fichier trop gros pour Claude.ai</h3>
+            <p><strong>Solution:</strong> Les chunks de 500 clés devraient passer. Si problème:</p>
+            <ol>
+                <li>Divisez le chunk en 2 parties</li>
+                <li>Traduisez séparément</li>
+                <li>Fusionnez manuellement</li>
+            </ol>
+        </div>
+
+        <div class="important">
+            <h3>Problème: Erreur lors de la fusion</h3>
+            <p><strong>Erreur:</strong> "Aucun fichier traduit trouvé"</p>
+            <p><strong>Solution:</strong> Vérifiez que les fichiers sont bien nommés <code>translated_chunk_XX.json</code></p>
+
+            <p><strong>Erreur:</strong> "Erreur de syntaxe JSON"</p>
+            <p><strong>Solution:</strong></p>
+            <ol>
+                <li>Trouvez le chunk problématique dans le log</li>
+                <li>Ouvrez-le et vérifiez la syntaxe JSON</li>
+                <li>Retraduisez ce chunk si nécessaire</li>
+            </ol>
+        </div>
+
+        <div class="page-break"></div>
+
+        <h2>📈 TABLEAU DE PROGRESSION</h2>
+
+        <p>Utilisez ce tableau pour suivre votre avancement:</p>
+
+        <table>
+            <tr>
+                <th>Chunk</th>
+                <th>Statut</th>
+                <th>Chunk</th>
+                <th>Statut</th>
+                <th>Chunk</th>
+                <th>Statut</th>
+                <th>Chunk</th>
+                <th>Statut</th>
+            </tr>
+            <tr>
+                <td>01</td><td>☐</td>
+                <td>11</td><td>☐</td>
+                <td>21</td><td>☐</td>
+                <td>31</td><td>☐</td>
+            </tr>
+            <tr>
+                <td>02</td><td>☐</td>
+                <td>12</td><td>☐</td>
+                <td>22</td><td>☐</td>
+                <td>32</td><td>☐</td>
+            </tr>
+            <tr>
+                <td>03</td><td>☐</td>
+                <td>13</td><td>☐</td>
+                <td>23</td><td>☐</td>
+                <td>33</td><td>☐</td>
+            </tr>
+            <tr>
+                <td>04</td><td>☐</td>
+                <td>14</td><td>☐</td>
+                <td>24</td><td>☐</td>
+                <td>34</td><td>☐</td>
+            </tr>
+            <tr>
+                <td>05</td><td>☐</td>
+                <td>15</td><td>☐</td>
+                <td>25</td><td>☐</td>
+                <td>35</td><td>☐</td>
+            </tr>
+            <tr>
+                <td>06</td><td>☐</td>
+                <td>16</td><td>☐</td>
+                <td>26</td><td>☐</td>
+                <td>36</td><td>☐</td>
+            </tr>
+            <tr>
+                <td>07</td><td>☐</td>
+                <td>17</td><td>☐</td>
+                <td>27</td><td>☐</td>
+                <td>37</td><td>☐</td>
+            </tr>
+            <tr>
+                <td>08</td><td>☐</td>
+                <td>18</td><td>☐</td>
+                <td>28</td><td>☐</td>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td>09</td><td>☐</td>
+                <td>19</td><td>☐</td>
+                <td>29</td><td>☐</td>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td>10</td><td>☐</td>
+                <td>20</td><td>☐</td>
+                <td>30</td><td>☐</td>
+                <td></td><td></td>
+            </tr>
+        </table>
+
+        <p><strong>Légende:</strong> ☐ = À faire | ✓ = Terminé</p>
+
+        <div class="page-break"></div>
+
+        <h2>🎯 RÉCAPITULATIF RAPIDE</h2>
+
+        <ol style="font-size: 1.1em; line-height: 2;">
+            <li><strong>Ouvrir:</strong> https://claude.ai (+ 10 onglets pour paralléliser)</li>
+            <li><strong>Copier:</strong> Le prompt de traduction (page 3)</li>
+            <li><strong>Traduire:</strong> Les 37 chunks (attacher + envoyer + sauvegarder)</li>
+            <li><strong>Vérifier:</strong> Compter les fichiers traduits (doit être 37)</li>
+            <li><strong>Fusionner:</strong> <code>python3 merge_translations.py</code></li>
+            <li><strong>Valider:</strong> Vérifier que <code>es.json</code> contient 18,425 clés</li>
+        </ol>
+
+        <h2>📞 BESOIN D'AIDE?</h2>
+
+        <p>Si vous rencontrez un problème:</p>
+        <ol>
+            <li>Vérifiez la section "Résolution de problèmes" (page 8)</li>
+            <li>Relancez le terminal et demandez de l'aide</li>
+            <li>Conservez ce guide pour référence</li>
+        </ol>
+
+        <h2>✨ PROCHAINES ÉTAPES</h2>
+
+        <p>Une fois l'espagnol terminé, vous pourrez répéter le même processus pour les <strong>8 autres langues:</strong></p>
+
+        <ul>
+            <li>☑️ Espagnol (es) - <strong>EN COURS</strong></li>
+            <li>☐ Français (fr)</li>
+            <li>☐ Allemand (de)</li>
+            <li>☐ Italien (it)</li>
+            <li>☐ Portugais (pt)</li>
+            <li>☐ Russe (ru)</li>
+            <li>☐ Japonais (ja)</li>
+            <li>☐ Chinois (zh)</li>
+            <li>☐ Arabe (ar)</li>
+        </ul>
+
+        <p>Chaque langue a son propre dossier avec 37 chunks et ses propres instructions!</p>
+
+        <div class="footer">
+            <h2>🚀 Bonne traduction!</h2>
+            <p><em>Document créé le 14 décembre 2025</em></p>
+        </div>
+    </div>
+</body>
+</html>

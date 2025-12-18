@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Motion Logo -->
+  <rect width="200" height="200" rx="20" fill="#000000"/>
+
+  <!-- Letter Icon -->
+  <text x="100" y="115" font-family="Arial, sans-serif" font-size="80" font-weight="700" fill="#6366F1" text-anchor="middle">M</text>
+
+  <!-- Brand Text -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">MOTION</text>
+
+  <!-- Accent -->
+  <circle cx="100" cy="50" r="8" fill="#6366F1" opacity="0.6"/>
+</svg>

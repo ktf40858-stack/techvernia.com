@@ -1,0 +1,690 @@
+/* ============================================
+   GenuisNet.ai - Animations & Effects
+   AI-themed animations for a futuristic feel
+   ============================================ */
+
+/* ============================================
+   Keyframe Animations
+   ============================================ */
+
+/* Pulse Animation - For the AI orb core */
+@keyframes pulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 1;
+    }
+}
+
+/* Spin Animation - For orbital rings */
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/* Bounce Animation - For scroll indicator */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Dash Animation - For network connection lines */
+@keyframes dash {
+    to {
+        stroke-dashoffset: -100;
+    }
+}
+
+/* Letter Slide - For newsletter envelope */
+@keyframes letterSlide {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Fade In Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Scale Animations */
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+/* Glow Animations */
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 20px rgba(0, 217, 255, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 40px rgba(0, 217, 255, 0.6), 0 0 60px rgba(124, 58, 237, 0.3);
+    }
+}
+
+@keyframes glowPulse {
+    0%, 100% {
+        filter: drop-shadow(0 0 10px rgba(0, 217, 255, 0.5));
+    }
+    50% {
+        filter: drop-shadow(0 0 20px rgba(0, 217, 255, 0.8));
+    }
+}
+
+/* Typing Cursor Animation */
+@keyframes blink {
+    0%, 50% {
+        border-color: var(--accent-primary);
+    }
+    51%, 100% {
+        border-color: transparent;
+    }
+}
+
+/* Float Animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-10px) rotate(2deg);
+    }
+    75% {
+        transform: translateY(10px) rotate(-2deg);
+    }
+}
+
+/* Shimmer Effect */
+@keyframes shimmer {
+    0% {
+        background-position: -200% center;
+    }
+    100% {
+        background-position: 200% center;
+    }
+}
+
+/* Rotate Animation */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Wave Animation */
+@keyframes wave {
+    0%, 100% {
+        transform: scaleY(1);
+    }
+    50% {
+        transform: scaleY(0.5);
+    }
+}
+
+/* Network Pulse */
+@keyframes networkPulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+/* Particle Float */
+@keyframes particleFloat {
+    0% {
+        transform: translateY(100vh) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+/* Data Stream */
+@keyframes dataStream {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+}
+
+/* ============================================
+   Animation Classes
+   ============================================ */
+
+/* Fade In Classes */
+.animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-fade-in-down {
+    opacity: 0;
+    animation: fadeInDown 0.6s ease-out forwards;
+}
+
+.animate-fade-in-left {
+    opacity: 0;
+    animation: fadeInLeft 0.6s ease-out forwards;
+}
+
+.animate-fade-in-right {
+    opacity: 0;
+    animation: fadeInRight 0.6s ease-out forwards;
+}
+
+.animate-scale-in {
+    opacity: 0;
+    animation: scaleIn 0.5s ease-out forwards;
+}
+
+/* Animation Delays */
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+.delay-5 { animation-delay: 0.5s; }
+.delay-6 { animation-delay: 0.6s; }
+
+/* Scroll Triggered Animations */
+[data-animate] {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+[data-animate].animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+[data-animate="fade-up"] {
+    transform: translateY(40px);
+}
+
+[data-animate="fade-down"] {
+    transform: translateY(-40px);
+}
+
+[data-animate="fade-left"] {
+    transform: translateX(-40px);
+}
+
+[data-animate="fade-right"] {
+    transform: translateX(40px);
+}
+
+[data-animate="scale"] {
+    transform: scale(0.9);
+}
+
+[data-animate="scale"].animated {
+    transform: scale(1);
+}
+
+/* Stagger Animations for Lists */
+[data-stagger] > * {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+[data-stagger].animated > *:nth-child(1) { transition-delay: 0s; }
+[data-stagger].animated > *:nth-child(2) { transition-delay: 0.1s; }
+[data-stagger].animated > *:nth-child(3) { transition-delay: 0.2s; }
+[data-stagger].animated > *:nth-child(4) { transition-delay: 0.3s; }
+[data-stagger].animated > *:nth-child(5) { transition-delay: 0.4s; }
+[data-stagger].animated > *:nth-child(6) { transition-delay: 0.5s; }
+[data-stagger].animated > *:nth-child(7) { transition-delay: 0.6s; }
+[data-stagger].animated > *:nth-child(8) { transition-delay: 0.7s; }
+[data-stagger].animated > *:nth-child(9) { transition-delay: 0.8s; }
+[data-stagger].animated > *:nth-child(10) { transition-delay: 0.9s; }
+
+[data-stagger].animated > * {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+/* ============================================
+   Hover Effects
+   ============================================ */
+
+/* Lift on Hover */
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Glow on Hover */
+.hover-glow {
+    transition: box-shadow 0.3s ease;
+}
+
+.hover-glow:hover {
+    box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);
+}
+
+/* Scale on Hover */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* Rotate on Hover */
+.hover-rotate {
+    transition: transform 0.3s ease;
+}
+
+.hover-rotate:hover {
+    transform: rotate(5deg);
+}
+
+/* ============================================
+   Special Effects
+   ============================================ */
+
+/* Typing Effect */
+.typing-effect {
+    display: inline-block;
+    border-right: 3px solid var(--accent-primary);
+    animation: blink 0.7s step-end infinite;
+}
+
+/* Shimmer Effect */
+.shimmer {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+}
+
+/* Gradient Text Animation */
+.animated-gradient {
+    background: linear-gradient(
+        90deg,
+        var(--accent-primary),
+        var(--accent-secondary),
+        var(--accent-tertiary),
+        var(--accent-primary)
+    );
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 8s linear infinite;
+}
+
+/* Pulsing Dot */
+.pulse-dot {
+    position: relative;
+}
+
+.pulse-dot::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -12px;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: var(--accent-tertiary);
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Loading Spinner */
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--border-color);
+    border-top-color: var(--accent-primary);
+    border-radius: 50%;
+    animation: rotate 0.8s linear infinite;
+}
+
+/* Wave Bars */
+.wave-bars {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    height: 20px;
+}
+
+.wave-bars span {
+    width: 3px;
+    height: 100%;
+    background: var(--accent-primary);
+    border-radius: 2px;
+    animation: wave 0.8s ease-in-out infinite;
+}
+
+.wave-bars span:nth-child(1) { animation-delay: 0s; }
+.wave-bars span:nth-child(2) { animation-delay: 0.1s; }
+.wave-bars span:nth-child(3) { animation-delay: 0.2s; }
+.wave-bars span:nth-child(4) { animation-delay: 0.3s; }
+.wave-bars span:nth-child(5) { animation-delay: 0.4s; }
+
+/* ============================================
+   Neural Network Background Styles
+   ============================================ */
+
+.neural-node {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: var(--accent-primary);
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.neural-connection {
+    position: absolute;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
+    opacity: 0.2;
+    transform-origin: left center;
+}
+
+/* ============================================
+   Particle System Styles
+   ============================================ */
+
+.particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: var(--accent-primary);
+    border-radius: 50%;
+    opacity: 0.6;
+    pointer-events: none;
+    animation: particleFloat linear infinite;
+}
+
+.particle:nth-child(odd) {
+    background: var(--accent-secondary);
+}
+
+.particle:nth-child(3n) {
+    background: var(--accent-tertiary);
+}
+
+/* ============================================
+   Data Stream Effect
+   ============================================ */
+
+.data-stream {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.data-stream::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
+    animation: dataStream 2s linear infinite;
+}
+
+/* ============================================
+   Card Reveal Animation
+   ============================================ */
+
+.card-reveal {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-reveal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.1),
+        transparent
+    );
+    transition: left 0.5s ease;
+}
+
+.card-reveal:hover::before {
+    left: 100%;
+}
+
+/* ============================================
+   Magnetic Button Effect
+   ============================================ */
+
+.magnetic-btn {
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* ============================================
+   Parallax Styles
+   ============================================ */
+
+.parallax-layer {
+    will-change: transform;
+}
+
+[data-parallax="slow"] {
+    transform: translateY(calc(var(--scroll) * 0.3));
+}
+
+[data-parallax="medium"] {
+    transform: translateY(calc(var(--scroll) * 0.5));
+}
+
+[data-parallax="fast"] {
+    transform: translateY(calc(var(--scroll) * 0.8));
+}
+
+/* ============================================
+   Counter Animation
+   ============================================ */
+
+.counter {
+    font-variant-numeric: tabular-nums;
+}
+
+/* ============================================
+   Cursor Effects
+   ============================================ */
+
+.custom-cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--accent-primary);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 10000;
+    transition: transform 0.1s ease, opacity 0.1s ease;
+    mix-blend-mode: difference;
+}
+
+.custom-cursor.hovering {
+    transform: scale(2);
+    background: var(--accent-primary);
+    opacity: 0.3;
+}
+
+/* ============================================
+   Reduced Motion
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .typing-effect {
+        border-right: none;
+    }
+
+    [data-animate] {
+        opacity: 1;
+        transform: none;
+    }
+
+    .parallax-layer {
+        transform: none !important;
+    }
+}
+
+/* ============================================
+   Performance Optimizations
+   ============================================ */
+
+.gpu-accelerated {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+/* Only animate visible elements */
+.animate-on-visible {
+    animation-play-state: paused;
+}
+
+.animate-on-visible.is-visible {
+    animation-play-state: running;
+}

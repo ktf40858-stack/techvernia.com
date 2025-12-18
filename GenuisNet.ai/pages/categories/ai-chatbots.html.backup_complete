@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the best AI chatbots and assistants. Compare ChatGPT, Claude, Gemini, Copilot, Perplexity and more with expert reviews and guides.">
+    <meta name="keywords" content="AI chatbots, ChatGPT, Claude, Gemini, AI assistants, conversational AI, best AI chatbot">
+    <title>Best AI Chatbots & Assistants 2024 | GenuisNet.ai</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .category-hero {
+            padding: calc(80px + var(--space-4xl)) var(--space-lg) var(--space-3xl);
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.05) 0%, transparent 50%);
+        }
+        .category-hero-content {
+            max-width: 800px;
+        }
+        .category-hero .hero-badge {
+            margin-bottom: var(--space-lg);
+        }
+        .category-hero h1 {
+            font-size: clamp(var(--text-3xl), 6vw, var(--text-5xl));
+            font-weight: 800;
+            margin-bottom: var(--space-lg);
+        }
+        .category-hero p {
+            font-size: var(--text-lg);
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+        .tools-filter {
+            display: flex;
+            gap: var(--space-sm);
+            flex-wrap: wrap;
+            margin-bottom: var(--space-2xl);
+        }
+        .filter-btn {
+            padding: var(--space-sm) var(--space-lg);
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-full);
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--gradient-primary);
+            border-color: transparent;
+            color: var(--bg-primary);
+        }
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--space-lg);
+        }
+        .tool-card-full {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            transition: all var(--transition-normal);
+        }
+        .tool-card-full:hover {
+            transform: translateY(-5px);
+            border-color: var(--border-color-hover);
+            box-shadow: var(--shadow-glow);
+        }
+        .tool-card-header {
+            padding: var(--space-xl);
+            background: var(--bg-tertiary);
+            display: flex;
+            align-items: center;
+            gap: var(--space-lg);
+        }
+        .tool-logo-large {
+            width: 72px;
+            height: 72px;
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: var(--text-2xl);
+            color: white;
+            background-size: 60% !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+        }
+        .tool-logo-large.chatgpt { background: url('../../images/logos/chatbots/openai.png') center/60% no-repeat, linear-gradient(135deg, #10B981, #059669); }
+        .tool-logo-large.claude { background: url('../../images/logos/chatbots/anthropic.png') center/60% no-repeat, linear-gradient(135deg, #D97706, #B45309); }
+        .tool-logo-large.gemini { background: url('../../images/logos/chatbots/google.png') center/60% no-repeat, linear-gradient(135deg, #4285F4, #34A853); }
+        .tool-logo-large.perplexity { background: url('../../images/logos/chatbots/perplexity.png') center/60% no-repeat, linear-gradient(135deg, #20B2AA, #008080); }
+        .tool-logo-large.copilot { background: url('../../images/logos/chatbots/microsoft.png') center/60% no-repeat, linear-gradient(135deg, #0078D4, #005A9E); }
+        .tool-logo-large.poe { background: url('../../images/logos/chatbots/poe.png') center/60% no-repeat, linear-gradient(135deg, #8B5CF6, #7C3AED); }
+        .tool-header-info h3 {
+            font-size: var(--text-xl);
+            font-weight: 700;
+            margin-bottom: var(--space-xs);
+        }
+        .tool-header-info .company {
+            font-size: var(--text-sm);
+            color: var(--text-tertiary);
+        }
+        .tool-card-body {
+            padding: var(--space-xl);
+        }
+        .tool-description {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--space-lg);
+        }
+        .tool-features-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-lg);
+        }
+        .feature-tag {
+            padding: var(--space-xs) var(--space-sm);
+            background: rgba(0, 217, 255, 0.1);
+            border-radius: var(--radius-sm);
+            font-size: var(--text-xs);
+            color: var(--accent-primary);
+        }
+        .tool-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-md);
+            padding: var(--space-lg);
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--space-lg);
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-value {
+            font-size: var(--text-lg);
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .stat-label {
+            font-size: var(--text-xs);
+            color: var(--text-tertiary);
+        }
+        .tool-pricing-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-md) 0;
+            border-top: 1px solid var(--border-color);
+        }
+        .pricing-info {
+            display: flex;
+            align-items: baseline;
+            gap: var(--space-sm);
+        }
+        .pricing-info .price {
+            font-size: var(--text-xl);
+            font-weight: 700;
+            color: var(--accent-primary);
+        }
+        .pricing-info .period {
+            font-size: var(--text-sm);
+            color: var(--text-tertiary);
+        }
+        .tool-actions {
+            display: flex;
+            gap: var(--space-sm);
+        }
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-lg);
+            margin: var(--space-lg) 0;
+        }
+        .pros h4, .cons h4 {
+            font-size: var(--text-sm);
+            font-weight: 600;
+            margin-bottom: var(--space-sm);
+        }
+        .pros h4 { color: var(--accent-tertiary); }
+        .cons h4 { color: var(--accent-error); }
+        .pros ul li, .cons ul li {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            padding: var(--space-xs) 0;
+            padding-left: var(--space-lg);
+            position: relative;
+        }
+        .pros ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-tertiary);
+        }
+        .cons ul li::before {
+            content: '✗';
+            position: absolute;
+            left: 0;
+            color: var(--accent-error);
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--space-2xl) 0;
+        }
+        .comparison-table th, .comparison-table td {
+            padding: var(--space-md);
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .comparison-table th {
+            font-weight: 600;
+            color: var(--text-primary);
+            background: var(--bg-tertiary);
+        }
+        .comparison-table td {
+            color: var(--text-secondary);
+        }
+        .check-icon { color: var(--accent-tertiary); }
+        .cross-icon { color: var(--accent-error); }
+        .hero-badge svg {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        @media (max-width: 768px) {
+            .tools-grid { grid-template-columns: 1fr; }
+            .pros-cons { grid-template-columns: 1fr; }
+            .tool-stats { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <canvas id="neural-bg"></canvas>
+    <div id="particles-container"></div>
+
+    <!-- Navigation (same as index) -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="18" stroke="url(#logoGradient)" stroke-width="2"/>
+                        <circle cx="20" cy="20" r="8" fill="url(#logoGradient)"/>
+                        <defs>
+                            <linearGradient id="logoGradient" x1="0" y1="0" x2="40" y2="40">
+                                <stop offset="0%" stop-color="#00D9FF"/>
+                                <stop offset="100%" stop-color="#7C3AED"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span class="logo-text">Genuis<span class="highlight">Net</span>.ai</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active">Categories</a></li>
+                <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+                <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+                <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Category Hero -->
+    <header class="category-hero">
+        <div class="container">
+            <div class="category-hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#00D9FF" stroke-width="2" style="filter: drop-shadow(0 0 6px #00D9FF);"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span>
+                    <span>8 Tools Reviewed</span>
+                </div>
+                <h1>Best AI Chatbots & Assistants</h1>
+                <p>Discover the most powerful AI chatbots and virtual assistants. From general-purpose tools like ChatGPT and Claude to specialized assistants like Perplexity for research — find the perfect AI companion for your needs.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tools Section -->
+    <section class="section">
+        <div class="container">
+            <!-- Filters -->
+            <div class="tools-filter">
+                <button class="filter-btn active">All Tools</button>
+                <button class="filter-btn">Free Tier</button>
+                <button class="filter-btn">Best for Coding</button>
+                <button class="filter-btn">Best for Writing</button>
+                <button class="filter-btn">Best for Research</button>
+            </div>
+
+            <!-- Tools Grid -->
+            <div class="tools-grid">
+                <!-- ChatGPT -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large chatgpt"></div>
+                        <div class="tool-header-info">
+                            <h3>ChatGPT</h3>
+                            <span class="company">by OpenAI</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm); align-items: center;">
+                                <span class="badge badge-popular">Most Popular</span>
+                                <span class="badge badge-rating">4.8 ★</span>
+                                <span class="country-flag" style="font-size: 1.2em; opacity: 0.7;">🇺🇸</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            ChatGPT is the world's most widely used AI chatbot, powered by GPT-4 Turbo. Excellent for writing, coding, analysis, creative tasks, and general knowledge. Features include vision capabilities, code interpreter, and custom GPTs.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">GPT-4 Turbo</span>
+                            <span class="feature-tag">Vision</span>
+                            <span class="feature-tag">Code Interpreter</span>
+                            <span class="feature-tag">Custom GPTs</span>
+                            <span class="feature-tag">DALL-E Integration</span>
+                            <span class="feature-tag">Plugins</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">180M+</div>
+                                <div class="stat-label">Monthly Users</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">128K</div>
+                                <div class="stat-label">Context Window</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">95+</div>
+                                <div class="stat-label">Languages</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Largest ecosystem of plugins & GPTs</li>
+                                    <li>Excellent general knowledge</li>
+                                    <li>Vision and image generation</li>
+                                    <li>Great mobile app</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Can be verbose</li>
+                                    <li>Knowledge cutoff date</li>
+                                    <li>Rate limits on free tier</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $20/mo Pro / $200/mo Team</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/chatbots/chatgpt.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://chatgpt.com/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Claude -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large claude"></div>
+                        <div class="tool-header-info">
+                            <h3>Claude</h3>
+                            <span class="company">by Anthropic</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-new">Top Rated</span>
+                                <span class="badge badge-rating">4.9 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Claude is Anthropic's advanced AI assistant, known for nuanced understanding, safety, and exceptional coding abilities. Features the industry-leading 200K context window and innovative features like Artifacts and Projects.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">Claude 3.5 Sonnet</span>
+                            <span class="feature-tag">200K Context</span>
+                            <span class="feature-tag">Artifacts</span>
+                            <span class="feature-tag">Projects</span>
+                            <span class="feature-tag">Vision</span>
+                            <span class="feature-tag">Constitutional AI</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">200K</div>
+                                <div class="stat-label">Context Window</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">#1</div>
+                                <div class="stat-label">Coding Benchmarks</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">50+</div>
+                                <div class="stat-label">Languages</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Best-in-class coding abilities</li>
+                                    <li>Massive 200K context window</li>
+                                    <li>Thoughtful, nuanced responses</li>
+                                    <li>Excellent at following instructions</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>No image generation</li>
+                                    <li>Smaller plugin ecosystem</li>
+                                    <li>Can be overly cautious</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $20/mo Pro / $30/mo Team</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/chatbots/claude.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://claude.ai/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Gemini -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large gemini"></div>
+                        <div class="tool-header-info">
+                            <h3>Google Gemini</h3>
+                            <span class="company">by Google</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-popular">Google Ecosystem</span>
+                                <span class="badge badge-rating">4.5 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Google Gemini (formerly Bard) is Google's flagship AI assistant, deeply integrated with Google services. Features real-time internet access, Google Workspace integration, and multimodal capabilities.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">Gemini Ultra</span>
+                            <span class="feature-tag">Real-time Web</span>
+                            <span class="feature-tag">Google Integration</span>
+                            <span class="feature-tag">Multimodal</span>
+                            <span class="feature-tag">1M Context</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">1M</div>
+                                <div class="stat-label">Context (Pro)</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">Real-time</div>
+                                <div class="stat-label">Web Access</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">40+</div>
+                                <div class="stat-label">Languages</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Real-time internet access</li>
+                                    <li>Google Workspace integration</li>
+                                    <li>Free access to advanced model</li>
+                                    <li>Excellent for research</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Less consistent than competitors</li>
+                                    <li>Limited outside Google ecosystem</li>
+                                    <li>Data privacy concerns</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $20/mo Advanced</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/chatbots/gemini.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://gemini.google.com/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Perplexity -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large perplexity"></div>
+                        <div class="tool-header-info">
+                            <h3>Perplexity AI</h3>
+                            <span class="company">by Perplexity</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-creative">Best for Research</span>
+                                <span class="badge badge-rating">4.7 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Perplexity is an AI-powered search engine that combines conversational AI with real-time web search. Perfect for research, fact-checking, and getting up-to-date information with cited sources.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">Real-time Search</span>
+                            <span class="feature-tag">Source Citations</span>
+                            <span class="feature-tag">Multiple AI Models</span>
+                            <span class="feature-tag">Focus Modes</span>
+                            <span class="feature-tag">Pro Search</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">10M+</div>
+                                <div class="stat-label">Monthly Users</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">Real-time</div>
+                                <div class="stat-label">Information</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">100%</div>
+                                <div class="stat-label">Cited Sources</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Always up-to-date information</li>
+                                    <li>Sources for every answer</li>
+                                    <li>Multiple AI model options</li>
+                                    <li>Great for academic research</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Less creative than ChatGPT/Claude</li>
+                                    <li>Limited coding abilities</li>
+                                    <li>Fewer features overall</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $20/mo Pro</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/chatbots/perplexity.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://www.perplexity.ai/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Microsoft Copilot -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large copilot"></div>
+                        <div class="tool-header-info">
+                            <h3>Microsoft Copilot</h3>
+                            <span class="company">by Microsoft</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-dev">Office Integration</span>
+                                <span class="badge badge-rating">4.4 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Microsoft Copilot (formerly Bing Chat) is powered by GPT-4 and integrated into Microsoft's ecosystem. Features free GPT-4 access, image generation with DALL-E, and deep integration with Microsoft 365 apps.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">GPT-4 Free</span>
+                            <span class="feature-tag">DALL-E 3</span>
+                            <span class="feature-tag">Web Search</span>
+                            <span class="feature-tag">M365 Integration</span>
+                            <span class="feature-tag">Edge Browser</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">Free</div>
+                                <div class="stat-label">GPT-4 Access</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">Built-in</div>
+                                <div class="stat-label">Image Gen</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">Windows</div>
+                                <div class="stat-label">Integration</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Free GPT-4 access</li>
+                                    <li>Free DALL-E image generation</li>
+                                    <li>Great M365 integration</li>
+                                    <li>Built into Windows & Edge</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>More limited than ChatGPT Pro</li>
+                                    <li>Conversation limits</li>
+                                    <li>Best in Microsoft ecosystem</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $20/mo Pro</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/chatbots/copilot.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://copilot.microsoft.com/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Poe -->
+                <article class="tool-card-full">
+                    <div class="tool-card-header">
+                        <div class="tool-logo-large poe"></div>
+                        <div class="tool-header-info">
+                            <h3>Poe</h3>
+                            <span class="company">by Quora</span>
+                            <div style="display: flex; gap: var(--space-sm); margin-top: var(--space-sm);">
+                                <span class="badge badge-creative">Multi-Model</span>
+                                <span class="badge badge-rating">4.3 ★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-card-body">
+                        <p class="tool-description">
+                            Poe is a multi-model AI platform that gives you access to ChatGPT, Claude, Gemini, and many other models in one subscription. Create and share custom bots, and access the latest AI models as they're released.
+                        </p>
+                        <div class="tool-features-list">
+                            <span class="feature-tag">Multiple Models</span>
+                            <span class="feature-tag">Custom Bots</span>
+                            <span class="feature-tag">GPT-4 & Claude</span>
+                            <span class="feature-tag">Bot Sharing</span>
+                            <span class="feature-tag">API Access</span>
+                        </div>
+                        <div class="tool-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">10+</div>
+                                <div class="stat-label">AI Models</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">1M+</div>
+                                <div class="stat-label">Custom Bots</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">1</div>
+                                <div class="stat-label">Subscription</div>
+                            </div>
+                        </div>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4>Pros</h4>
+                                <ul>
+                                    <li>Access multiple AI models</li>
+                                    <li>Create custom bots</li>
+                                    <li>One subscription for all</li>
+                                    <li>Great mobile app</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4>Cons</h4>
+                                <ul>
+                                    <li>Usage limits per model</li>
+                                    <li>Less polished UI</li>
+                                    <li>Can be confusing for beginners</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-pricing-row">
+                            <div class="pricing-info">
+                                <span class="price">Free</span>
+                                <span class="period">/ $20/mo Subscription</span>
+                            </div>
+                            <div class="tool-actions">
+                                <a href="../reviews/chatbots/poe.html" class="btn btn-outline">Full Review</a>
+                                <a href="https://poe.com/" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try Free →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="section-header" style="margin-top: var(--space-4xl);">
+                <h2 class="section-title">Quick Comparison</h2>
+                <p class="section-subtitle">Compare all AI chatbots at a glance</p>
+            </div>
+
+            <div style="overflow-x: auto;">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Tool</th>
+                            <th>Best For</th>
+                            <th>Context Window</th>
+                            <th>Free Tier</th>
+                            <th>Pro Price</th>
+                            <th>Vision</th>
+                            <th>Web Access</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>ChatGPT</strong></td>
+                            <td>General Use</td>
+                            <td>128K tokens</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td>$20/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Claude</strong></td>
+                            <td>Coding & Analysis</td>
+                            <td>200K tokens</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td>$20/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="cross-icon">✗</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gemini</strong></td>
+                            <td>Google Ecosystem</td>
+                            <td>1M tokens</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td>$20/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Perplexity</strong></td>
+                            <td>Research</td>
+                            <td>Varies</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td>$20/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Copilot</strong></td>
+                            <td>Microsoft Users</td>
+                            <td>32K tokens</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td>$20/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Poe</strong></td>
+                            <td>Multi-Model Access</td>
+                            <td>Varies</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td>$20/mo</td>
+                            <td><span class="check-icon">✓</span></td>
+                            <td><span class="check-icon">✓</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Categories -->
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <!-- SVG Gradients for Neon Icons -->
+            <svg width="0" height="0" style="position:absolute">
+                <defs>
+                    <linearGradient id="gradient-writing" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#A855F7"/>
+                        <stop offset="100%" style="stop-color:#6366F1"/>
+                    </linearGradient>
+                    <linearGradient id="gradient-coding" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#38BDF8"/>
+                        <stop offset="100%" style="stop-color:#0EA5E9"/>
+                    </linearGradient>
+                    <linearGradient id="gradient-productivity" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#FACC15"/>
+                        <stop offset="100%" style="stop-color:#EAB308"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+
+            <div class="section-header">
+                <span class="section-badge">Explore More</span>
+                <h2 class="section-title">Related Categories</h2>
+            </div>
+            <div class="categories-grid">
+                <a href="ai-writing.html" class="category-card">
+                    <div class="category-icon neon-icon icon-writing">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="url(#gradient-writing)" stroke-width="1.5">
+                            <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+                            <path d="M2 2l7.586 7.586"/>
+                            <circle cx="11" cy="11" r="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">AI Writing</h3>
+                    <p class="category-desc">Content creation tools for blogs, marketing, and more.</p>
+                </a>
+                <a href="ai-coding.html" class="category-card">
+                    <div class="category-icon neon-icon icon-coding">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="url(#gradient-coding)" stroke-width="1.5">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">AI Coding</h3>
+                    <p class="category-desc">Code assistants and development tools.</p>
+                </a>
+                <a href="ai-productivity.html" class="category-card">
+                    <div class="category-icon neon-icon icon-productivity">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="url(#gradient-productivity)" stroke-width="1.5">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-title">AI Productivity</h3>
+                    <p class="category-desc">Automation and workflow optimization.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../../index.html" class="footer-logo">
+                        <span class="logo-text">Genuis<span class="highlight">Net</span>.ai</span>
+                    </a>
+                    <p class="footer-desc">Your trusted source for AI tool reviews, comparisons, and guides.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="ai-chatbots.html">AI Chatbots</a></li>
+                        <li><a href="ai-writing.html">AI Writing</a></li>
+                        <li><a href="ai-image.html">AI Image</a></li>
+                        <li><a href="ai-coding.html">AI Coding</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="../guides.html">Guides</a></li>
+                        <li><a href="../comparisons.html">Comparisons</a></li>
+                        <li><a href="../about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 GenuisNet.ai. All rights reserved.</p>
+                <p class="affiliate-notice">Some links may be affiliate links. We may earn a commission at no extra cost to you.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/i18n.js"></script>
+    <script src="../../js/animations.js"></script>
+    <script src="../../js/main.js"></script>
+</body>
+</html>

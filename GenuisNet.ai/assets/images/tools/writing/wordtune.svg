@@ -1,0 +1,12 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gradWord" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0052CC;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#003D99;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="200" height="200" rx="40" fill="url(#gradWord)"/>
+    <!-- Wordtune tuning fork / sound wave -->
+    <path d="M 60 100 Q 80 60 100 100 Q 120 140 140 100" stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 70 100 Q 85 75 100 100 Q 115 125 130 100" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+</svg>

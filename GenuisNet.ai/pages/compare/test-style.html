@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Style - GenuisNet.ai</title>
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/animations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        .test-section {
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .test-box {
+            background: var(--bg-card);
+            border: 2px solid var(--accent-primary);
+            border-radius: var(--radius-xl);
+            padding: 3rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .test-box h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 2rem;
+        }
+
+        .test-box p {
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .color-samples {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .color-sample {
+            height: 100px;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container test-section">
+        <div class="test-box">
+            <h1><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> CSS Chargés Correctement!</h1>
+            <p>Si vous voyez ce texte avec un beau dégradé bleu/violet,</p>
+            <p>et un background sombre, alors les CSS fonctionnent!</p>
+
+            <div class="color-samples">
+                <div class="color-sample" style="background: var(--bg-primary); border: 1px solid var(--border-color);">
+                    BG Primary
+                </div>
+                <div class="color-sample" style="background: var(--bg-secondary); border: 1px solid var(--border-color);">
+                    BG Secondary
+                </div>
+                <div class="color-sample" style="background: var(--accent-primary);">
+                    Accent Primary
+                </div>
+                <div class="color-sample" style="background: var(--accent-secondary);">
+                    Accent Secondary
+                </div>
+            </div>
+
+            <p style="margin-top: 2rem; font-family: 'Space Grotesk', sans-serif; font-size: 1.2rem;">
+                Font: Space Grotesk <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<div id="ticker"></div>
+	<script>
+		(function (w) {
+			w.URLSearchParams = w.URLSearchParams || function (searchString) {
+				var self = this;
+				self.searchString = searchString;
+				self.get = function (name) {
+					var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(self.searchString);
+					if (results == null) {
+						return null;
+					}
+					else {
+						return decodeURI(results[1]) || 0;
+					}
+				};
+			}
+		})(window)
+
+		var authMethod = "Unknown";
+		if (location.pathname == "/") {
+			location.href = "/idaas/mtfim/sps/idaas/login?runtime=true";
+		} else {
+			var queryIndex = location.href.indexOf("?");
+			if (queryIndex == -1) {
+				var targetQParam = "Target=" + encodeURIComponent(location.href)
+				location.href = "/idaas/mtfim/sps/idaas/login?runtime=true&" + targetQParam;
+			} else {
+				var query = location.href.substring(queryIndex + 1);
+				if (query.search("Target=") != -1) {
+					location.href = "/idaas/mtfim/sps/idaas/login?" + query;
+				} else {
+					var targetQParam = "Target=" + encodeURIComponent(location.href);
+					
+					var themeId = ""
+					if (query.search("themeId") != -1) {
+						themeId = "&themeId=" + new URLSearchParams(location.search).get('themeId');
+					}
+
+					var lang = ""
+					if (query.search("lang") != -1) {
+						lang = "&lang=" + new URLSearchParams(location.search).get('lang');
+					}
+
+					location.href = "/idaas/mtfim/sps/idaas/login?runtime=true&" + targetQParam + themeId + lang;
+				}
+			}
+		}
+	</script>
+<script type="text/javascript"  src="/y82CoWy9V4_CJ/MZx/ByfZXNHLGvk/9NfEfQQVN8htwb/Vy9GAQ/Fh0hU1I/YFwU"></script></body>
+</html>

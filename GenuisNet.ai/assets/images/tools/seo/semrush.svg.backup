@@ -1,0 +1,2877 @@
+<!DOCTYPE html>
+
+
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>
+                
+    Page not found | Semrush
+
+            </title>
+            
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="preconnect" href="https://static.semrush.com">
+            <link rel="preconnect" href="https://www.googletagmanager.com">
+            <link rel="preconnect" href="https://cookiehub.net">
+            <link rel="preconnect" href="https://cdn.cookiehub.eu">
+
+            <link rel="stylesheet"
+                  href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap">
+            <link rel="stylesheet"
+                  href="/__static__/fonts/factor_a/v2/factor_a.css">
+
+            <script>window.__sm2mfp = 'https://static.semrush.com/remote-integrations'</script>
+
+            
+
+
+
+
+            
+    <script>
+    
+    window.ANALYTICS_GTM_ID = "GTM-5K82J2";
+    
+
+    window.pendingAnalytics = window.pendingAnalytics || [];
+    window.analytics = {};
+
+    ["track", "setDefaults", "deleteDefaults"].forEach((name) => {
+        window.analytics[name] = function () {
+            pendingAnalytics.push([name, arguments]);
+        };
+    });
+
+    
+        window.analytics.setDefaults("user_type", "unlogged");
+    
+    </script>
+    <script async src="https://static.semrush.com/ajst/ajst.js"></script>
+
+
+
+            <script>
+                window.sm2 = {"GAexperiments": [], "language": "en", "isSessionCreatedByAdmin": false, "abTestsLabels": [], "ipCountryCode": "US"};
+
+                
+            </script>
+
+            <script>
+  window.sm2.getComponent = function queueGetComponentRequest(...args) {
+    const queue = (window[Symbol.for("sm2.getComponent.pending")] ??= []);
+    let resolve;
+    let reject;
+    const promise = new Promise((res, rej) => {
+      resolve = res;
+      reject = rej;
+    });
+    queue.push({args, resolve, reject});
+    return promise;
+  };
+</script>
+
+            
+
+<script src="/__static__/webpack/runtime.634d2098.js"></script>
+<script src="/__static__/webpack/mf_widgets.46bdcca4.js"></script>
+
+
+            
+    <link rel="stylesheet" href="/__static__/webpack/1069.3d7aea2f.css">
+<link rel="stylesheet" href="/__static__/webpack/error_page.71f65a68.css">
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      window.__sm2init_error_page__(
+        JSON.parse(document.getElementById('error_page_initial_state').textContent),
+      );
+    });
+    </script>
+    <script>
+  
+  
+  
+  dataLayer = window.dataLayer || [];
+  dataLayer.push({site_is_controlling_cookie_settings_widget: true});
+</script>
+
+
+
+            
+
+            
+
+            <script>
+  (function (i) {
+    window[i] =
+      window[i] ||
+      function () {
+        (window[i].dataLayerProxyQueue = window[i].dataLayerProxyQueue || []).push(
+          arguments,
+        );
+      };
+  })('ga');
+</script>
+
+<script src="/__static__/webpack/data_layer_proxy.cc00df3f.js"></script>
+<script>ga("set", "dimension2", "Unlogged-User")
+ga("set", "dimension3", "not set")
+ga("set", "dimension5", "{}")
+ga("set", "dimension16", "all tools")</script>
+
+            
+            
+
+            <script src="/jsi18n/" defer></script>
+
+            
+
+
+
+
+            <link rel="dns-prefetch" href="https://suggestions.semrush.com">
+            <link rel="dns-prefetch" href="https://www.google.com">
+            <link rel="dns-prefetch" href="https://a.quora.com">
+            <link rel="dns-prefetch" href="https://snap.licdn.com">
+            <link rel="dns-prefetch" href="https://bat.bing.com">
+            <link rel="dns-prefetch" href="https://connect.facebook.net">
+            <link rel="dns-prefetch" href="https://munchkin.marketo.net">
+            <link rel="dns-prefetch" href="https://s.yimg.com">
+            <link rel="dns-prefetch" href="https://analytics.tiktok.com">
+            <link rel="dns-prefetch" href="https://www.google-analytics.com">
+            <link rel="dns-prefetch" href="https://q.quora.com">
+            <link rel="dns-prefetch" href="https://data.adxcel-ec2.com">
+            <link rel="dns-prefetch" href="https://cdn.speedcurve.com">
+            <link rel="dns-prefetch" href="https://streaming.bi.owox.com">
+            <link rel="dns-prefetch" href="https://td.doubleclick.net">
+            <link rel="dns-prefetch" href="https://ad.doubleclick.net">
+            <link rel="dns-prefetch" href="https://google-analytics.bi.owox.com">
+            <link rel="dns-prefetch" href="https://widget.intercom.io">
+            <link rel="dns-prefetch" href="https://sp.analytics.yahoo.com">
+            <link rel="dns-prefetch" href="https://www.facebook.com">
+            <link rel="dns-prefetch" href="https://px.ads.linkedin.com">
+            <link rel="dns-prefetch" href="https://bat.bing.net">
+            <link rel="dns-prefetch" href="https://cdn.mouseflow.com">
+            <link rel="dns-prefetch" href="https://region1.analytics.google.com">
+            <link rel="dns-prefetch" href="https://sentry.semrush.net">
+            <link rel="dns-prefetch" href="https://api.amplitude.com">
+
+            <meta name="theme-color"
+                  media="(prefers-color-scheme: light)"
+                  content="#F6F7F8">
+            <meta name="theme-color"
+                  media="(prefers-color-scheme: dark)"
+                  content="#111317">
+            <meta name="format-detection" content="telephone=no">
+
+            
+
+
+
+
+            <link rel="canonical" href="">
+            
+
+            <link rel="manifest" href="/__static__/manifest.c126ad9aade5.json">
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="/__static__/apple-touch-icon.a7f1927cca17.png">
+            <link rel="shortcut icon" href="/__static__/favicon.f8cd638f087a.ico">
+
+            <link rel="search"
+                  type="application/opensearchdescription+xml"
+                  href="/__static__/semrush-opensearch.xml"
+                  title="Semrush.com">
+
+            
+
+        </head>
+
+        <body>
+            <svg xmlns="http://www.w3.org/2000/svg" style="position: absolute; width: 0; height: 0">
+    <symbol viewBox="0 0 158 21" id="srf-icon-semrush-logo">
+        <path fill="#fff"
+              d="M108.808 8.212c0-2.579-1.586-4.456-4.628-4.456h-9.826v13.37h3.227v-4.563h3.822l3.742 4.562h3.637v-.29l-3.637-4.351c2.288-.463 3.663-2.13 3.663-4.272Zm-4.985 1.653h-6.229V6.533h6.229c1.15 0 1.891.608 1.891 1.666 0 1.084-.714 1.666-1.891 1.666Zm53.77-6.109h-3.029v5.078h-8.133V3.756h-3.266v13.383h3.266v-5.277h8.133v5.277h3.029V3.756Zm-71.873 0-3.598 11.253h-.198l-3.61-11.253H72.56v13.383h3.081V6.149h.185l3.597 10.99h4.96l3.61-10.99h.185v10.99h3.174V3.756h-5.634ZM50.57 9.23c-1.138-.118-3.267-.317-4.404-.436-1.124-.119-1.772-.45-1.772-1.19 0-.714.687-1.31 3.464-1.31 2.46 0 4.721.53 6.692 1.482V4.787c-1.97-.939-4.153-1.402-6.864-1.402-3.808 0-6.44 1.587-6.44 4.285 0 2.275 1.547 3.518 4.642 3.861 1.124.12 3.028.291 4.364.397 1.454.12 1.878.569 1.878 1.23 0 .913-1.019 1.468-3.597 1.468-2.619 0-5.277-.86-7.168-2.063v3.081c1.521 1.019 4.14 1.878 7.062 1.878 4.152 0 6.824-1.6 6.824-4.47.026-2.168-1.402-3.478-4.682-3.821Zm6.823-5.474v13.383h12.47V14.4h-9.389v-2.71h9.23V8.978h-9.23V6.493h9.39V3.756H57.392Zm79.094 5.474c-1.138-.118-3.267-.317-4.404-.436-1.124-.119-1.772-.45-1.772-1.19 0-.714.688-1.31 3.465-1.31 2.459 0 4.721.53 6.691 1.482V4.787c-1.97-.939-4.152-1.402-6.863-1.402-3.809 0-6.44 1.587-6.44 4.285 0 2.275 1.547 3.518 4.641 3.861 1.124.12 3.029.291 4.364.397 1.455.12 1.878.569 1.878 1.23 0 .913-1.018 1.468-3.597 1.468-2.618 0-5.276-.86-7.167-2.063v3.081c1.52 1.019 4.139 1.878 7.061 1.878 4.153 0 6.824-1.6 6.824-4.47.027-2.168-1.402-3.478-4.681-3.821Zm-14.745-5.474v6.85c0 2.592-1.574 4.02-3.941 4.02-2.38 0-3.941-1.402-3.941-4.06v-6.81h-3.213v6.506c0 4.853 3.028 7.26 7.207 7.26 4.007 0 7.115-2.301 7.115-7.101V3.756h-3.227Z"/>
+        <path fill="#FF642D"
+              d="M30.19 10.368c0 .648-.33.753-1.15.753-.872 0-1.031-.145-1.124-.806-.172-1.68-1.309-3.108-3.213-3.267-.608-.052-.754-.277-.754-1.031 0-.7.106-1.031.648-1.031 3.306.013 5.594 2.67 5.594 5.382Zm4.814 0C35.004 5.329 31.593 0 23.711 0H8.054c-.318 0-.516.159-.516.45 0 .158.119.304.225.383.568.45 1.415.952 2.525 1.508 1.085.542 1.931.899 2.777 1.243.357.145.49.304.49.502 0 .278-.199.45-.582.45H.543c-.371 0-.543.238-.543.476 0 .198.066.37.238.542 1.005 1.058 2.618 2.328 4.96 3.796a71.557 71.557 0 0 0 6.611 3.636c.344.159.45.344.45.542-.013.225-.185.41-.582.41h-5.7c-.317 0-.502.172-.502.437 0 .145.119.33.278.476 1.295 1.177 3.372 2.46 6.136 3.636C15.579 20.061 19.32 21 23.526 21c7.974 0 11.478-5.964 11.478-10.632Zm-10.407 7.445c-4.073 0-7.485-3.32-7.485-7.458 0-4.074 3.399-7.353 7.485-7.353 4.179 0 7.458 3.266 7.458 7.353-.013 4.139-3.28 7.458-7.458 7.458Z"/>
+    </symbol>
+</svg>
+
+
+
+            
+
+            <div class="srf-layout">
+                
+
+<script src="/__static__/webpack/skip_to_content.be928104.js" defer></script>
+
+<div class="srf-layout__skip-to-content">
+    <button id="skip-to-content">Skip to content</button>
+</div>
+
+
+                <div class="srf-layout__notification">
+                    
+
+
+                    
+    
+    <!--googleoff: all-->
+    <div role="complementary"
+         id="srf-browser-unhappy"
+         class="srf-browser-unhappy">
+        
+            <p>
+                <b>Your browser or operating system is out of date and Semrush might not be displayed correctly.</b> Please update your browser or operating system.
+            </p>
+        
+        <button id="srf-browser-unhappy-btn-close"
+                class="srf-browser-unhappy--btn-close">
+            <svg width="16"
+                 height="16"
+                 viewBox="0 0 16 16"
+                 class="srf-icon"
+                 aria-label="Close outdated browser notice">
+                <path d="M3.323 3.323c-.43.43-.43 1.128 0 1.559L6.44 8l-3.118 3.118a1.102 1.102 0 1 0 1.559 1.56L8 9.558l3.118 3.118a1.102 1.102 0 0 0 1.56-1.559L9.558 8l3.118-3.118a1.102 1.102 0 0 0-1.559-1.56L8 6.442 4.882 3.323a1.102 1.102 0 0 0-1.56 0Z" shape-rendering="geometricPrecision">
+                </path>
+            </svg>
+        </button>
+    </div>
+    <script>
+    (function () {
+      var el = document.getElementById("srf-browser-unhappy");
+      var closeBtn = document.getElementById("srf-browser-unhappy-btn-close");
+
+      function handler() {
+        var d = new Date();
+        // we don't use max-age here because it's not supported by IE < 9
+        d.setTime(d.getTime() + 2592000000); // 30 days
+        document.cookie =
+          "browser-unhappy-closed=true; expires=" +
+          d.toGMTString() +
+          "; path=/; domain=.semrush.com;";
+        el.setAttribute("class", "srf-browser-unhappy--hide");
+      }
+
+      if (closeBtn.attachEvent) {
+        closeBtn.attachEvent("onclick", handler);
+      } else {
+        closeBtn.addEventListener("click", handler);
+      }
+    })();
+    </script>
+    <!--googleon: all-->
+
+
+                    
+
+
+
+                    
+
+
+                    
+                </div>
+
+                <div class="srf-layout__header">
+                    
+                        
+
+
+
+                        
+    
+        
+<link rel="stylesheet" href="/__static__/webpack/2579.020e69a1.css">
+<link rel="stylesheet" href="/__static__/webpack/header.7c21caf3.css">
+<header class="srf-header" id="srf-header" style="display: none">
+    <div class="srf-navbar srf-navbar--adaptive">
+        <div class="srf-navbar-inner">
+            <div class="srf-navbar__left">
+                
+                <a href="/"
+                   class="srf-navbar-logo"
+                   aria-label="Semrush homepage"
+                   data-test="semrush_logo"
+                   data-ga-category="Navigation:top_menu"
+                   data-ga-action="link.click"
+                   data-ga-label="logo"
+                   data-ga4-click
+                   data-ga4-item-location="navigation.header.logo">
+                    <svg aria-hidden="true">
+                        <use href="#srf-icon-semrush-logo"></use>
+                    </svg>
+                </a>
+            </div>
+            
+                <nav class="srf-navbar__primary" aria-label="Top menu">
+                    <ul>
+                        
+                            <li>
+                                
+                                    
+                                        <div class="srf-dropdown"><button aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="srf-dropdown-menu-products"
+            class="srf-nav-link srf-dropdown-label"
+            data-ga-category="Navigation:top_menu"
+            data-ga-action="link.click"
+            data-ga4-click data-ga4-item-location="navigation.header.products.dropdown"
+            data-test="header_products_dropdown"
+            data-ga-label="Products"
+            data-nav-item="products:dropdown"
+            >
+        Products
+        
+        
+    </button><ul class="srf-dropdown-menu" id=srf-dropdown-menu-products><li><a class="srf-dropdown-menu-item"
+       href="/one/?utm_source=semrush&amp;utm_medium=header"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.products.semrush_one"
+       data-test="header_semrush_one"
+       data-ga-label="semrush_one"
+       data-nav-item="semrush-one:index"
+       >
+        Semrush One
+        
+        
+    </a></li><li><a class="srf-dropdown-menu-item"
+       href="/toolkits/?utm_source=semrush&amp;utm_medium=header"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.products.toolkits"
+       data-test="header_toolkits"
+       data-ga-label="Toolkits"
+       data-nav-item="toolkits:index"
+       >
+        Toolkits
+        
+        
+    </a></li><li><a class="srf-dropdown-menu-item"
+       href="/features/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.products.features"
+       data-test="header_features"
+       data-ga-label="Features"
+       data-nav-item="features:index"
+       >
+        Features
+        
+        
+    </a></li></ul></div>
+
+                                    
+                                
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                        
+<a class="srf-nav-link"
+       href="/pricing/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.index.pricing"
+       data-test="header_prices"
+       data-ga-label="Prices"
+       data-nav-item="index:pricing"
+       >
+        Pricing
+        
+        
+    </a>
+
+                                    
+                                
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                        <div class="srf-dropdown"><button aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="srf-dropdown-menu-resources"
+            class="srf-nav-link srf-dropdown-label"
+            data-ga-category="Navigation:top_menu"
+            data-ga-action="link.click"
+            data-ga4-click data-ga4-item-location="navigation.header.resources.dropdown"
+            data-test="header_resources"
+            data-ga-label="Resources"
+            data-nav-item="resources:dropdown"
+            >
+        Resources
+        
+        
+    </button><ul class="srf-dropdown-menu-grid" id="srf-dropdown-menu-resources"><li><a href="/blog/"
+                       class="srf-dropdown-menu-grid-item"
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="link.click"
+                       data-ga4-click data-ga4-item-location="navigation.header.blog.index"
+                       data-test="header_blog"
+                       data-ga-label="blog"
+                       data-nav-item="blog:index"><div class="srf-dropdown-menu-grid-item__title">Blog</div><div class="srf-dropdown-menu-grid-item__text">Read the industry&#x27;s latest thoughts on digital marketing, content strategy, SEO, PPC, social media and more.</div></a></li><li><a href="/kb/"
+                       class="srf-dropdown-menu-grid-item"
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="link.click"
+                       data-ga4-click data-ga4-item-location="navigation.header.kb.index"
+                       data-test="header_knowledge"
+                       data-ga-label="Knowledge"
+                       data-nav-item="kb:index"><div class="srf-dropdown-menu-grid-item__title">Help Center</div><div class="srf-dropdown-menu-grid-item__text">Learn how to use Semrush with user manuals, how-to’s, videos and more!</div></a></li><li><a href="/news/releases/product-news/"
+                       class="srf-dropdown-menu-grid-item"
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="link.click"
+                       data-ga4-click data-ga4-item-location="navigation.header.news.product.news"
+                       data-test="header_news"
+                       data-ga-label="News"
+                       data-nav-item="news:product-news"><div class="srf-dropdown-menu-grid-item__title">What&#x27;s New</div><div class="srf-dropdown-menu-grid-item__text">Keep track of the newest Semrush features and improvements.</div></a></li><li><a href="/academy/webinars/"
+                       class="srf-dropdown-menu-grid-item"
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="link.click"
+                       data-ga4-click data-ga4-item-location="navigation.header.webinars.index"
+                       data-test="header_webinars"
+                       data-ga-label="webinars"
+                       data-nav-item="webinars:index"><div class="srf-dropdown-menu-grid-item__title">Webinars</div><div class="srf-dropdown-menu-grid-item__text">Register and take part in educational webinars conducted by the best digital marketing experts.</div></a></li><li><a href="/news/releases/data-insights/"
+                       class="srf-dropdown-menu-grid-item"
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="link.click"
+                       data-ga4-click data-ga4-item-location="navigation.header.news.insights"
+                       data-test="header_insights"
+                       data-ga-label="insights"
+                       data-nav-item="news:insights"><div class="srf-dropdown-menu-grid-item__title">Insights</div><div class="srf-dropdown-menu-grid-item__text">See the latest in original research and thought leadership from the Semrush team.</div></a></li><li><a href="/agencies/"
+                       class="srf-dropdown-menu-grid-item"
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="link.click"
+                       data-ga4-click data-ga4-item-location="navigation.header.agencies.index"
+                       data-test="header_agency_partners"
+                       data-ga-label="Agency Partners"
+                       data-nav-item="agencies:index"><div class="srf-dropdown-menu-grid-item__title">Hire a Trusted Agency</div><div class="srf-dropdown-menu-grid-item__text">Pressed for time? Need rare skills? Get help from a trusted agency. Our experts work with marketing projects of all kinds and budgets.</div></a></li><li><a href="/academy/"
+                       class="srf-dropdown-menu-grid-item"
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="link.click"
+                       data-ga4-click data-ga4-item-location="navigation.header.academy.index"
+                       data-test="header_academy"
+                       data-ga-label="Academy"
+                       data-nav-item="academy:index"><div class="srf-dropdown-menu-grid-item__title">Academy</div><div class="srf-dropdown-menu-grid-item__text">Get vital SEO skills, learn how to use our toolkits and get official certificates of your proficiency in SEO and Semrush.</div></a></li><li><a href="/website/top/?from_page=header"
+                       class="srf-dropdown-menu-grid-item"
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="link.click"
+                       data-ga4-click data-ga4-item-location="navigation.header.website.top"
+                       data-test="header_top_websites"
+                       data-ga-label="top-websites"
+                       data-nav-item="website:top"><div class="srf-dropdown-menu-grid-item__title">Top Websites</div><div class="srf-dropdown-menu-grid-item__text">Discover the most visited websites. Analyze their traffic and search rankings. Choose country or industry to find out who currently leads the market.</div></a></li><li><a href="https://ai-visibility-index.semrush.com/?utm_source=semrush&amp;utm_medium=main_header"
+                       class="srf-dropdown-menu-grid-item"
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="link.click"
+                       data-ga4-click data-ga4-item-location="navigation.header.ai.visibility.index"
+                       data-test="header_ai_visibility_index"
+                       data-ga-label="ai-visibility-index"
+                       ><div class="srf-dropdown-menu-grid-item__title">AI Visibility Index</div><div class="srf-dropdown-menu-grid-item__text">Discover which brands are leading AI search and learn their strategies to boost your own visibility.</div></a></li><li><a href="/local/"
+                       class="srf-dropdown-menu-grid-item"
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="link.click"
+                       data-ga4-click data-ga4-item-location="navigation.header.local.marketing.index"
+                       data-test="header_local_marketing"
+                       data-ga-label="local-marketing"
+                       data-nav-item="local-marketing:index"><div class="srf-dropdown-menu-grid-item__title">Local Marketing Hub</div><div class="srf-dropdown-menu-grid-item__text">Start outperforming your nearby competition today! Discover the expert insights, strategies, and tools you need to increase the digital footprint of your business and get more local customers.</div></a></li></ul></div>
+
+                                    
+                                
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                        <div class="srf-dropdown"><button aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="srf-dropdown-menu-company"
+            class="srf-nav-link srf-dropdown-label"
+            data-ga-category="Navigation:top_menu"
+            data-ga-action="link.click"
+            data-ga4-click data-ga4-item-location="navigation.header.company.dropdown"
+            data-test="header_company"
+            data-ga-label="Company"
+            data-nav-item="company:dropdown"
+            >
+        Company
+        
+        
+    </button><ul class="srf-dropdown-menu" id=srf-dropdown-menu-company><li><a class="srf-dropdown-menu-item"
+       href="/company/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.index"
+       data-test="header_about_us"
+       data-ga-label="About Us"
+       data-nav-item="company:index"
+       >
+        About Us
+        
+        
+    </a></li><li><a class="srf-dropdown-menu-item"
+       href="/news/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.news.index"
+       data-test="header_newsroom"
+       data-ga-label="Newsroom"
+       data-nav-item="news:index"
+       >
+        Newsroom
+        
+        
+    </a></li><li><a class="srf-dropdown-menu-item"
+       href="https://careers.semrush.com/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.careers"
+       data-test="header_careers"
+       data-ga-label="Careers"
+       data-nav-item="company:careers"
+       target="_blank" aria-describedby="srf-header-opens-in-new-header_careers">
+        Careers
+        
+        
+            <svg class="srf-icon srf-icon-external-link -s"
+                 aria-hidden="true"
+                 id="srf-header-opens-in-new-header_careers"
+                 aria-label="External link, opens in a new window"><use href="#srf-icon-link"></use></svg></a></li><li><a class="srf-dropdown-menu-item"
+       href="/semrush-free-trial/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.free.trial"
+       data-test="header_free_trial"
+       data-ga-label="Free trial"
+       data-nav-item="semrush-free-trial:index"
+       >
+        Free Trial
+        
+        
+    </a></li><li><a class="srf-dropdown-menu-item"
+       href="/vs/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.semrush.versus"
+       data-test="header_semrush_versus"
+       data-ga-label="Semrush Versus"
+       data-nav-item="semrush-versus:index"
+       >
+        Compare Semrush
+        
+        
+    </a></li><li><a class="srf-dropdown-menu-item"
+       href="/company/stories/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.stories"
+       data-test="header_success_stories"
+       data-ga-label="Success stories"
+       data-nav-item="company:stories"
+       >
+        Success Stories
+        
+        
+    </a></li><li><a class="srf-dropdown-menu-item"
+       href="/lp/affiliate-program/en/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.berush.index"
+       data-test="header_affiliate_program"
+       data-ga-label="Affiliate Program"
+       data-nav-item="berush:index"
+       >
+        Affiliate Program
+        
+        
+    </a></li><li><a class="srf-dropdown-menu-item"
+       href="https://investors.semrush.com"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.investors"
+       data-test="header_for_investors"
+       data-ga-label="For Investors"
+       data-nav-item="company:investors"
+       target="_blank" aria-describedby="srf-header-opens-in-new-header_for_investors">
+        For Investors
+        
+        
+            <svg class="srf-icon srf-icon-external-link -s"
+                 aria-hidden="true"
+                 id="srf-header-opens-in-new-header_for_investors"
+                 aria-label="External link, opens in a new window"><use href="#srf-icon-link"></use></svg></a></li><li><a class="srf-dropdown-menu-item"
+       href="/company/partner-integrations/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.partner.integrations"
+       data-test="header_partner_integrations"
+       data-ga-label="Partner Integrations"
+       data-nav-item="company:partner-integrations"
+       >
+        Partner Integrations
+        
+        
+    </a></li><li><a class="srf-dropdown-menu-item"
+       href="/company/contacts/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.contacts"
+       data-test="header_contacts"
+       data-ga-label="Contacts"
+       data-nav-item="company:contacts"
+       >
+        Contacts
+        
+        
+    </a></li><li><a class="srf-dropdown-menu-item"
+       href="/stats/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.stats.index"
+       data-test="header_stats_and_facts"
+       data-ga-label="Stats and Facts"
+       data-nav-item="stats:index"
+       >
+        Stats and Facts
+        
+        
+    </a></li></ul></div>
+
+                                    
+                                
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                        <div class="srf-dropdown" data-widget="app-center-dropdown"><button aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="srf-dropdown-menu-app-center"
+            class="srf-nav-link srf-dropdown-label"
+            data-ga-category="Navigation:top_menu"
+            data-ga-action="link.click"
+            data-ga4-click data-ga4-item-location="navigation.header.app.center"
+            
+            data-ga-label="app_center"
+            data-nav-item="app_center"
+            >
+        App Center
+        
+        
+    </button><div class="srf-dropdown-menu srf-dropdown-menu-slot" id=srf-dropdown-menu-app-center></div></div>
+
+                                    
+                                
+                            </li>
+                        
+                            <li>
+                                
+                                    
+                                        
+<a class="srf-nav-link"
+       href="/enterprise/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.enterprise"
+       data-test="header_enterprise"
+       data-ga-label="Enterprise"
+       
+       target="_blank" aria-describedby="srf-header-opens-in-new-header_enterprise">
+        Enterprise
+        
+        
+            <svg class="srf-icon srf-icon-external-link -s"
+                 aria-hidden="true"
+                 id="srf-header-opens-in-new-header_enterprise"
+                 aria-label="External link, opens in a new window"><use href="#srf-icon-link"></use></svg></a>
+
+                                    
+                                
+                            </li>
+                        
+                    </ul>
+                </nav>
+                <div class="srf-navbar__right">
+                    
+<div class="srf-adaptive-menu-trigger srf-dropdown"><button class="srf-dropdown-label srf-nav-link srf-btn-mobile-menu"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-controls="srf-mobile-menu"
+                data-ga4-click
+                data-ga4-item-location="navigation.header.mobilemenu.dropdown"><span class="srf-btn-mobile-menu__content srf-dropdown-label">Menu</span></button><ul class="srf-dropdown-menu" id="srf-mobile-menu"><li><div class="srf-sub-dropdown"><div class="srf-dropdown-label-container"><button class="srf-dropdown-label"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
+                                        data-nav-item="products:dropdown"
+                                        data-ga4-click data-ga4-item-location="navigation.header.products.dropdown"><span>
+                                        Products
+                                        
+                                    </span></button></div><ul class="srf-sub-dropdown-menu"><li><a class="srf-sub-dropdown-menu-item"
+       href="/one/?utm_source=semrush&amp;utm_medium=header"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.products.semrush_one"
+       data-test="header_semrush_one"
+       data-ga-label="semrush_one"
+       data-nav-item="semrush-one:index"
+       >
+        Semrush One
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/toolkits/?utm_source=semrush&amp;utm_medium=header"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.products.toolkits"
+       data-test="header_toolkits"
+       data-ga-label="Toolkits"
+       data-nav-item="toolkits:index"
+       >
+        Toolkits
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/features/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.products.features"
+       data-test="header_features"
+       data-ga-label="Features"
+       data-nav-item="features:index"
+       >
+        Features
+        
+        
+    </a></li></ul></div></li><li><a class="srf-dropdown-menu-item"
+       href="/pricing/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.index.pricing"
+       data-test="header_prices"
+       data-ga-label="Prices"
+       data-nav-item="index:pricing"
+       >
+        Pricing
+        
+        
+    </a></li><li><div class="srf-sub-dropdown"><div class="srf-dropdown-label-container"><button class="srf-dropdown-label"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
+                                        data-nav-item="resources:dropdown"
+                                        data-ga4-click data-ga4-item-location="navigation.header.resources.dropdown"><span>
+                                        Resources
+                                        
+                                    </span></button></div><ul class="srf-sub-dropdown-menu"><li><a class="srf-sub-dropdown-menu-item"
+       href="/blog/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.blog.index"
+       data-test="header_blog"
+       data-ga-label="blog"
+       data-nav-item="blog:index"
+       >
+        Blog
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/kb/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.kb.index"
+       data-test="header_knowledge"
+       data-ga-label="Knowledge"
+       data-nav-item="kb:index"
+       >
+        Help Center
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/news/releases/product-news/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.news.product.news"
+       data-test="header_news"
+       data-ga-label="News"
+       data-nav-item="news:product-news"
+       >
+        What&#x27;s New
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/academy/webinars/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.webinars.index"
+       data-test="header_webinars"
+       data-ga-label="webinars"
+       data-nav-item="webinars:index"
+       >
+        Webinars
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/news/releases/data-insights/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.news.insights"
+       data-test="header_insights"
+       data-ga-label="insights"
+       data-nav-item="news:insights"
+       >
+        Insights
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/agencies/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.agencies.index"
+       data-test="header_agency_partners"
+       data-ga-label="Agency Partners"
+       data-nav-item="agencies:index"
+       >
+        Hire a Trusted Agency
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/academy/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.academy.index"
+       data-test="header_academy"
+       data-ga-label="Academy"
+       data-nav-item="academy:index"
+       >
+        Academy
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/website/top/?from_page=header"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.website.top"
+       data-test="header_top_websites"
+       data-ga-label="top-websites"
+       data-nav-item="website:top"
+       >
+        Top Websites
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="https://ai-visibility-index.semrush.com/?utm_source=semrush&amp;utm_medium=main_header"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.ai.visibility.index"
+       data-test="header_ai_visibility_index"
+       data-ga-label="ai-visibility-index"
+       
+       >
+        AI Visibility Index
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/local/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.local.marketing.index"
+       data-test="header_local_marketing"
+       data-ga-label="local-marketing"
+       data-nav-item="local-marketing:index"
+       >
+        Local Marketing Hub
+        
+        
+    </a></li></ul></div></li><li><div class="srf-sub-dropdown"><div class="srf-dropdown-label-container"><button class="srf-dropdown-label"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
+                                        data-nav-item="company:dropdown"
+                                        data-ga4-click data-ga4-item-location="navigation.header.company.dropdown"><span>
+                                        Company
+                                        
+                                    </span></button></div><ul class="srf-sub-dropdown-menu"><li><a class="srf-sub-dropdown-menu-item"
+       href="/company/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.index"
+       data-test="header_about_us"
+       data-ga-label="About Us"
+       data-nav-item="company:index"
+       >
+        About Us
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/news/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.news.index"
+       data-test="header_newsroom"
+       data-ga-label="Newsroom"
+       data-nav-item="news:index"
+       >
+        Newsroom
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="https://careers.semrush.com/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.careers"
+       data-test="header_careers"
+       data-ga-label="Careers"
+       data-nav-item="company:careers"
+       target="_blank" aria-describedby="srf-header-opens-in-new-header_careers">
+        Careers
+        
+        
+            <svg class="srf-icon srf-icon-external-link -s"
+                 aria-hidden="true"
+                 id="srf-header-opens-in-new-header_careers"
+                 aria-label="External link, opens in a new window"><use href="#srf-icon-link"></use></svg></a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/semrush-free-trial/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.free.trial"
+       data-test="header_free_trial"
+       data-ga-label="Free trial"
+       data-nav-item="semrush-free-trial:index"
+       >
+        Free Trial
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/vs/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.semrush.versus"
+       data-test="header_semrush_versus"
+       data-ga-label="Semrush Versus"
+       data-nav-item="semrush-versus:index"
+       >
+        Compare Semrush
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/company/stories/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.stories"
+       data-test="header_success_stories"
+       data-ga-label="Success stories"
+       data-nav-item="company:stories"
+       >
+        Success Stories
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/lp/affiliate-program/en/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.berush.index"
+       data-test="header_affiliate_program"
+       data-ga-label="Affiliate Program"
+       data-nav-item="berush:index"
+       >
+        Affiliate Program
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="https://investors.semrush.com"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.investors"
+       data-test="header_for_investors"
+       data-ga-label="For Investors"
+       data-nav-item="company:investors"
+       target="_blank" aria-describedby="srf-header-opens-in-new-header_for_investors">
+        For Investors
+        
+        
+            <svg class="srf-icon srf-icon-external-link -s"
+                 aria-hidden="true"
+                 id="srf-header-opens-in-new-header_for_investors"
+                 aria-label="External link, opens in a new window"><use href="#srf-icon-link"></use></svg></a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/company/partner-integrations/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.partner.integrations"
+       data-test="header_partner_integrations"
+       data-ga-label="Partner Integrations"
+       data-nav-item="company:partner-integrations"
+       >
+        Partner Integrations
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/company/contacts/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.company.contacts"
+       data-test="header_contacts"
+       data-ga-label="Contacts"
+       data-nav-item="company:contacts"
+       >
+        Contacts
+        
+        
+    </a></li><li><a class="srf-sub-dropdown-menu-item"
+       href="/stats/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.stats.index"
+       data-test="header_stats_and_facts"
+       data-ga-label="Stats and Facts"
+       data-nav-item="stats:index"
+       >
+        Stats and Facts
+        
+        
+    </a></li></ul></div></li><li><div class="srf-sub-dropdown"
+                             data-widget="app-center-dropdown"
+                             data-mobile><div class="srf-dropdown-label-container"><button class="srf-dropdown-label"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
+                                        data-nav-item="app_center"
+                                        data-ga4-click data-ga4-item-location="navigation.header.app.center"><span>
+                                        App Center
+                                        
+                                    </span></button></div><span class="srf-sub-dropdown-menu srf-dropdown-menu-slot"></span></div></li><li><a class="srf-dropdown-menu-item"
+       href="/enterprise/"
+       data-ga-category="Navigation:top_menu"
+       data-ga-action="link.click"
+       data-ga4-click data-ga4-item-location="navigation.header.enterprise"
+       data-test="header_enterprise"
+       data-ga-label="Enterprise"
+       
+       target="_blank" aria-describedby="srf-header-opens-in-new-header_enterprise">
+        Enterprise
+        
+        
+            <svg class="srf-icon srf-icon-external-link -s"
+                 aria-hidden="true"
+                 id="srf-header-opens-in-new-header_enterprise"
+                 aria-label="External link, opens in a new window"><use href="#srf-icon-link"></use></svg></a></li></ul></div>
+
+                    
+                
+                
+                
+                    
+<div class="srf-dropdown srf-switch-locale-trigger"><div class="srf-dropdown-label-container"><button class="srf-dropdown-label srf-nav-link"
+                    data-test="header_lang_switcher_button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-controls="srf-dropdown-menu-switch-language"
+                    aria-label="Change language"
+                    data-ga4-click
+                    data-ga4-item-location="navigation.header.lang_button.dropdown">EN</button><div class="srf-switch-locale"></div></div><ul class="srf-dropdown-menu -right"
+            id="srf-dropdown-menu-switch-language"
+            onclick="sm2.switchLanguage(arguments[0].target.value)"
+            aria-label="List of available languages"><li><button type="button"
+                            value="en"
+                            lang="en"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang EN"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.en"
+                            data-test="header_lang_en"
+                            aria-current="true">English</button></li><li><button type="button"
+                            value="de"
+                            lang="de"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang DE"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.de"
+                            data-test="header_lang_de"
+                            >Deutsch</button></li><li><button type="button"
+                            value="es"
+                            lang="es"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang ES"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.es"
+                            data-test="header_lang_es"
+                            >Español</button></li><li><button type="button"
+                            value="fr"
+                            lang="fr"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang FR"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.fr"
+                            data-test="header_lang_fr"
+                            >Français</button></li><li><button type="button"
+                            value="it"
+                            lang="it"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang IT"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.it"
+                            data-test="header_lang_it"
+                            >Italiano</button></li><li><button type="button"
+                            value="nl"
+                            lang="nl"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang NL"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.nl"
+                            data-test="header_lang_nl"
+                            >Nederlands</button></li><li><button type="button"
+                            value="pl"
+                            lang="pl"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang PL"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.pl"
+                            data-test="header_lang_pl"
+                            >Polski</button></li><li><button type="button"
+                            value="pt"
+                            lang="pt"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang PT"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.pt"
+                            data-test="header_lang_pt"
+                            >Português (Brasil)</button></li><li><button type="button"
+                            value="sv"
+                            lang="sv"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang SV"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.sv"
+                            data-test="header_lang_sv"
+                            >Svenska</button></li><li><button type="button"
+                            value="vi"
+                            lang="vi"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang VI"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.vi"
+                            data-test="header_lang_vi"
+                            >Tiếng Việt</button></li><li><button type="button"
+                            value="tr"
+                            lang="tr"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang TR"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.tr"
+                            data-test="header_lang_tr"
+                            >Türkçe</button></li><li><button type="button"
+                            value="zh"
+                            lang="zh"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang ZH"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.zh"
+                            data-test="header_lang_zh"
+                            >中文</button></li><li><button type="button"
+                            value="ja"
+                            lang="ja"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang JA"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.ja"
+                            data-test="header_lang_ja"
+                            >日本語</button></li><li><button type="button"
+                            value="ko"
+                            lang="ko"
+                            class="srf-btn-inline srf-dropdown-menu-item"
+                            data-ga-category="Navigation:top_menu"
+                            data-ga-action="link.click"
+                            data-ga-label="Lang KO"
+                            data-ga4-click
+                            data-ga4-item-location="navigation.header.lang_button.ko"
+                            data-test="header_lang_ko"
+                            >한국어</button></li></ul></div>
+
+                
+                
+                    <a href="/login/?src=header"
+                       class="srf-btn -xs srf-btn--secondary srf-login-btn"
+                       data-ga-event-onclick
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="button.click"
+                       data-ga-label="login"
+                       data-ga4-click
+                       data-ga4-item-location="navigation.header.login"
+                       data-test="auth-popup__btn-login">
+                        <span class="srf-btn__text srf-login-btn__text">Log In</span>
+                        <span class="srf-btn__text srf-login-btn__text srf-login-btn__text_adaptive">
+                            <svg class="srf-icon -s">
+                                <use href="#srf-icon-user"></use>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="/signup/?src=header"
+                       class="srf-btn -xs -success srf-register-btn"
+                       data-ga-event-onclick
+                       data-ga-category="Navigation:top_menu"
+                       data-ga-action="button.click"
+                       data-ga-label="signup"
+                       data-ga4-click
+                       data-ga4-item-location="navigation.header.signup"
+                       data-test="auth-popup__btn-register">
+                        <span class="srf-btn__text srf-login-btn__text">Sign Up</span>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+(function () {
+  const header = document.getElementById("srf-header");
+  const activeLinks = header.querySelectorAll(
+    '.srf-navbar [data-nav-item="None"]'
+  );
+  for (let link of activeLinks) {
+    link.classList.add("-active");
+    const dropdown = link.parentElement.closest(".srf-dropdown");
+    if (header.contains(dropdown)) {
+      const label = dropdown.querySelector(".srf-dropdown-label");
+      if (label) {
+        label.classList.add("-active");
+      }
+    }
+  }
+  header.removeAttribute("style");
+})();
+</script>
+<script src="/__static__/webpack/3486.23a06664.js" defer></script>
+<script src="/__static__/webpack/9752.80836542.js" defer></script>
+<script src="/__static__/webpack/258.75b72f44.js" defer></script>
+<script src="/__static__/webpack/1633.239d30a1.js" defer></script>
+<script src="/__static__/webpack/2579.0488db4a.js" defer></script>
+<script src="/__static__/webpack/header.de1b1360.js" defer></script>
+<script id="header_props" type="application/json">{"SwitchLocale": {"switchLabels": {"en": ["Switch to English?", "Yes", "No"], "de": ["Nach Deutsch wechseln", "Ja", "Nein"], "es": ["\u00bfDeseas cambiar a Espa\u00f1ol?", "S\u00ed", "No"], "fr": ["Passer en Fran\u00e7ais ?", "Oui", "Non"], "it": ["Passa all'Italiano?", "S\u00ec", "No"], "nl": ["Overschakelen naar Nederlands?", "Ja", "Nee"], "pl": ["Prze\u0142\u0105czy\u0107 na j\u0119zyk Polski?", "Tak", "Nie"], "pt": ["Mudar para Portugu\u00eas (Brasil)?", "Sim", "N\u00e3o"], "sv": ["Byta till Svenska?", "Ja", "Nej"], "vi": ["Chuy\u1ec3n sang Ti\u1ebfng Vi\u1ec7t?", "C\u00f3", "Kh\u00f4ng"], "tr": ["De\u011fi\u015ftirin T\u00fcrk\u00e7e?", "Evet", "Hay\u0131r"], "zh": ["\u5207\u6362\u81f3\u4e2d\u6587\uff1f", "\u662f", "\u5426"], "ja": ["\u65e5\u672c\u8a9e\u306b\u5207\u308a\u66ff\u3048\u307e\u3059\u304b\uff1f", "\u306f\u3044", "\u3044\u3044\u3048"], "ko": ["\ud55c\uad6d\uc5b4\ub85c \uc804\ud658\ud558\uc2dc\uaca0\uc5b4\uc694?", "\ub124", "\uc544\ub2c8\uc694"]}, "formAction": "/i18n/set_language/", "next": "/404/", "csrf": "SzMiYgDLqcV3WhdPaYnjc6UBU9UajuFVGlh7ojiJy1OucMXDSF5R9bSGRhx1BQZR", "hostLanguage": "en"}, "redirectAfterSignup": null}</script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      window.__sm2init_header__(
+        document.getElementById('srf-header'),
+        JSON.parse(document.getElementById('header_props').textContent),
+      );
+    });
+</script>
+
+    
+
+                    
+                </div>
+
+                <div class="srf-layout__sidebar">
+                    
+                        
+                    
+                </div>
+
+                <div class="srf-layout-main-content-wrapper">
+                    <main class="srf-layout__body" id="root-content">
+                        
+    <div class="error-404-hero">
+        <h1 class="error-404-hero__title">404</h1>
+        <h2 class="error-404-hero__subtitle">This page doesn't exist.</h2>
+        <p class="error-404-hero__description">
+            The page you're looking for isn't here, but we'll help you find what you need.
+        </p>
+        <div class="error-404-hero__buttons">
+            
+                <a href="https://www.semrush.com/toolkits/" class="error-404-hero__buttons__button">Marketing Toolkits</a>
+            
+                <a href="https://www.semrush.com/features/" class="error-404-hero__buttons__button">Features</a>
+            
+                <a href="https://www.semrush.com/pricing/" class="error-404-hero__buttons__button">Pricing</a>
+            
+        </div>
+    </div>
+
+    <div class="error-404-content">
+        <section class="error-404-tools">
+            <h2 class="error-404-content__section-title">Useful Tools</h2>
+            <div class="error-404-tools-list">
+                
+                    <a class="error-404-tool-card"
+                       href="https://www.semrush.com/ai-seo/overview/"
+                       target="_blank" data-external
+                       data-variant="ai-visibility">
+                        <h3 class="error-404-tool-card__title">AI Visibility</h3>
+                        <p class="error-404-tool-card__description">Increase your visibility in AI search engines: ChatGPT, Google AI Mode, etc.</p>
+                        <div class="error-404-tool-card__footer">
+                            <span class="error-404-tool-card__link">Learn more</span>
+                            
+                        </div>
+                    </a>
+                
+                    <a class="error-404-tool-card"
+                       href="https://www.semrush.com/features/keyword-research-toolkit/"
+                       
+                       >
+                        <h3 class="error-404-tool-card__title">Keyword Research</h3>
+                        <p class="error-404-tool-card__description">Bring traffic to your site by finding the best keywords</p>
+                        <div class="error-404-tool-card__footer">
+                            <span class="error-404-tool-card__link">Learn more</span>
+                            <span class="error-404-tool-card__count">6 tools</span>
+                        </div>
+                    </a>
+                
+                    <a class="error-404-tool-card"
+                       href="https://www.semrush.com/features/technical-seo-tools/"
+                       
+                       >
+                        <h3 class="error-404-tool-card__title">On-page SEO</h3>
+                        <p class="error-404-tool-card__description">Get new ideas to improve your site&#x27;s health and SEO performance</p>
+                        <div class="error-404-tool-card__footer">
+                            <span class="error-404-tool-card__link">Learn more</span>
+                            <span class="error-404-tool-card__count">3 tools</span>
+                        </div>
+                    </a>
+                
+                    <a class="error-404-tool-card"
+                       href="https://www.semrush.com/features/competitor-website-analysis-tools/"
+                       
+                       >
+                        <h3 class="error-404-tool-card__title">Competitor Analysis</h3>
+                        <p class="error-404-tool-card__description">Boost your performance by unpacking competitor strategies with daily and weekly traffic data.</p>
+                        <div class="error-404-tool-card__footer">
+                            <span class="error-404-tool-card__link">Learn more</span>
+                            <span class="error-404-tool-card__count">5 tools</span>
+                        </div>
+                    </a>
+                
+            </div>
+        </section>
+
+        <section class="error-404-articles">
+            <h2 class="error-404-content__section-title">Helpful Articles</h2>
+            <div class="error-404-articles-list">
+                
+                    <a class="error-404-article" href="https://www.semrush.com/blog/ai-search-optimization/">
+                        <h3 class="error-404-article__title">How to Optimize for AI Search Results in 2025</h3>
+                        <p class="error-404-article__description">Learn AI search optimization tactics to get cited by ChatGPT, Perplexity, and Google AI Overviews. Start capturing high-intent traffic.</p>
+                        <div class="error-404-article__meta">
+                            <span class="error-404-article__category">General SEO</span>
+                            <span class="error-404-article__date">Jul 18, 2025</span>
+                        </div>
+                    </a>
+                
+                    <a class="error-404-article" href="https://www.semrush.com/blog/keyword-search-volume/">
+                        <h3 class="error-404-article__title">What Is Keyword Search Volume? (&amp; How to Check It)</h3>
+                        <p class="error-404-article__description">Keyword search volume is the average number of monthly searches for a search term in a particular location.</p>
+                        <div class="error-404-article__meta">
+                            <span class="error-404-article__category">Keyword Research</span>
+                            <span class="error-404-article__date">Jan 10, 2025</span>
+                        </div>
+                    </a>
+                
+                    <a class="error-404-article" href="https://www.semrush.com/blog/how-to-get-backlinks/">
+                        <h3 class="error-404-article__title">How to Get Backlinks: 10 Realistic Methods</h3>
+                        <p class="error-404-article__description">Learn how to get backlinks by responding to media requests, creating link bait, finding broken links, &amp; more.</p>
+                        <div class="error-404-article__meta">
+                            <span class="error-404-article__category">Link Building</span>
+                            <span class="error-404-article__date">Oct 17, 2024</span>
+                        </div>
+                    </a>
+                
+                    <a class="error-404-article" href="https://www.semrush.com/blog/seo-audit/">
+                        <h3 class="error-404-article__title">How to Perform a Complete SEO Audit in 14 Steps</h3>
+                        <p class="error-404-article__description">Learn how to do a comprehensive SEO audit step by step and identify errors on your site or a client&#x27;s.</p>
+                        <div class="error-404-article__meta">
+                            <span class="error-404-article__category">Technical SEO</span>
+                            <span class="error-404-article__date">Apr 17, 2025</span>
+                        </div>
+                    </a>
+                
+                    <a class="error-404-article" href="https://www.semrush.com/blog/ai-seo/">
+                        <h3 class="error-404-article__title">10 Ways to Use AI for SEO to Streamline Your Work</h3>
+                        <p class="error-404-article__description">Learn how to use AI for keyword research, SERP analyses, content optimization, and more.</p>
+                        <div class="error-404-article__meta">
+                            <span class="error-404-article__category">General SEO</span>
+                            <span class="error-404-article__date">Jul 04, 2025</span>
+                        </div>
+                    </a>
+                
+            </div>
+            <div class="error-404-articles-buttons">
+                
+                    <a href="https://www.semrush.com/blog/" class="error-404-articles-buttons__button">View more articles</a>
+                
+            </div>
+        </section>
+    </div>
+
+                    </main>
+
+                    <div class="srf-layout__footer">
+                        
+                            
+    
+        
+<link rel="stylesheet" href="/__static__/webpack/footer.2e3fddee.css">
+
+<footer class="srf-footer"
+        id="srf-footer">
+    
+        <div class="srf-footer__adaptive-content">
+            
+                <div class="srf-adaptive-social">
+                    
+                        
+                            <a class="srf-adaptive-social__item"
+                               href="https://x.com/semrush"
+                               rel="nofollow"
+                               data-ga-category="Navigation:btm_menu"
+                               data-ga-action="link.click"
+                               data-ga-label="X (Twitter)"
+                               data-ga4-click
+                               data-ga4-item-location="navigation.footer.social_networks.X (Twitter)"
+                               aria-label="Semrush X (Twitter)">
+                                
+                                    <svg class="srf-icon -m" aria-hidden="true">
+                                        <use href="#srf-icon-twitter"></use>
+                                    </svg>
+                                
+                            </a>
+                        
+                    
+                        
+                            <a class="srf-adaptive-social__item"
+                               href="https://www.facebook.com/Semrush"
+                               rel="nofollow"
+                               data-ga-category="Navigation:btm_menu"
+                               data-ga-action="link.click"
+                               data-ga-label="Facebook"
+                               data-ga4-click
+                               data-ga4-item-location="navigation.footer.social_networks.Facebook"
+                               aria-label="Semrush Facebook">
+                                
+                                    <svg class="srf-icon -m" aria-hidden="true">
+                                        <use href="#srf-icon-facebook"></use>
+                                    </svg>
+                                
+                            </a>
+                        
+                    
+                        
+                            <a class="srf-adaptive-social__item"
+                               href="https://www.linkedin.com/company/semrush"
+                               rel="nofollow"
+                               data-ga-category="Navigation:btm_menu"
+                               data-ga-action="link.click"
+                               data-ga-label="LinkedIn"
+                               data-ga4-click
+                               data-ga4-item-location="navigation.footer.social_networks.LinkedIn"
+                               aria-label="Semrush LinkedIn">
+                                
+                                    <svg class="srf-icon -m" aria-hidden="true">
+                                        <use href="#srf-icon-linkedin"></use>
+                                    </svg>
+                                
+                            </a>
+                        
+                    
+                        
+                            <a class="srf-adaptive-social__item"
+                               href="https://instagram.com/semrush/"
+                               rel="nofollow"
+                               data-ga-category="Navigation:btm_menu"
+                               data-ga-action="link.click"
+                               data-ga-label="Instagram"
+                               data-ga4-click
+                               data-ga4-item-location="navigation.footer.social_networks.Instagram"
+                               aria-label="Semrush Instagram">
+                                
+                                    <svg class="srf-icon -m" aria-hidden="true">
+                                        <use href="#srf-icon-instagram"></use>
+                                    </svg>
+                                
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                            <a class="srf-adaptive-social__item"
+                               href="https://www.pinterest.com/semrush/"
+                               rel="nofollow"
+                               data-ga-category="Navigation:btm_menu"
+                               data-ga-action="link.click"
+                               data-ga-label="Pinterest"
+                               data-ga4-click
+                               data-ga4-item-location="navigation.footer.social_networks.Pinterest"
+                               aria-label="Semrush Pinterest">
+                                
+                                    <svg class="srf-icon -m" aria-hidden="true">
+                                        <use href="#srf-icon-pinterest"></use>
+                                    </svg>
+                                
+                            </a>
+                        
+                    
+                </div>
+            
+            
+<div class="srf-contacts-adaptive">
+    <div>
+        <div class="srf-contacts-address">
+            <svg width="13"
+                 height="19"
+                 viewBox="0 0 13 19"
+                 fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.5 9.025C5.88432 9.025 5.29385 8.77478 4.8585 8.32938C4.42315 7.88398 4.17857 7.27989 4.17857 6.65C4.17857 6.02011 4.42315 5.41602 4.8585 4.97062C5.29385 4.52522 5.88432 4.275 6.5 4.275C7.11568 4.275 7.70615 4.52522 8.1415 4.97062C8.57685 5.41602 8.82143 6.02011 8.82143 6.65C8.82143 6.96189 8.76138 7.27073 8.64472 7.55887C8.52806 7.84702 8.35706 8.10884 8.1415 8.32938C7.92593 8.54992 7.67002 8.72486 7.38837 8.84421C7.10672 8.96357 6.80485 9.025 6.5 9.025ZM6.5 0C4.77609 0 3.12279 0.700623 1.90381 1.94774C0.684819 3.19486 0 4.88631 0 6.65C0 11.6375 6.5 19 6.5 19C6.5 19 13 11.6375 13 6.65C13 4.88631 12.3152 3.19486 11.0962 1.94774C9.87721 0.700623 8.22391 0 6.5 0Z" fill="#898D9A">
+                </path>
+            </svg>
+            <address>USA, 800 Boylston Street, Suite 2475, Boston, MA 02199</address>
+        </div>
+        <a class="srf-btn -contacts -adaptive"
+           data-ga4-click
+           data-ga4-item-location="navigation.footer.adaptive.contacts"
+           href="/company/contacts/">
+            <svg class="srf-icon -s">
+                <use href="#srf-icon-mail"></use>
+            </svg>
+            <span>Contact us</span>
+        </a>
+    </div>
+</div>
+
+            <div class="srf-dropdown srf-adaptive-switch-locale-trigger">
+                <div class="srf-dropdown-label-container">
+                    <button class="srf-dropdown-label srf-btn"
+                            data-test="footer_lang_switcher_button"
+                            aria-expanded="false">
+                        Change language
+                        <svg class="srf-icon -s srf-icon-dropdown" aria-hidden="true">
+                            <use href="#srf-icon-dropdown"></use>
+                        </svg>
+                        <svg class="srf-icon -s srf-icon-dropup" aria-hidden="true">
+                            <use href="#srf-icon-dropup"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="srf-dropdown-menu -right">
+                    <form class="srf-dropdown-menu__form"
+                          method="post"
+                          action="/i18n/set_language/">
+                        
+                            <input type="hidden" name="csrfmiddlewaretoken" value="WCN8wUowiAfxtXgtcwRnFjCosaGg04OFKoiXWX3uqp8YJs0hUdzVCoAtpij7iq8B">
+                            <input type="hidden" name="next" value="/404/">
+                        
+                        <ul>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="en"
+                                            lang="en"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang EN"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.en"
+                                            data-test="adaptive_footer_lang_en"
+                                            aria-current="true">
+                                        English
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="de"
+                                            lang="de"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang DE"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.de"
+                                            data-test="adaptive_footer_lang_de"
+                                            >
+                                        Deutsch
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="es"
+                                            lang="es"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang ES"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.es"
+                                            data-test="adaptive_footer_lang_es"
+                                            >
+                                        Español
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="fr"
+                                            lang="fr"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang FR"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.fr"
+                                            data-test="adaptive_footer_lang_fr"
+                                            >
+                                        Français
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="it"
+                                            lang="it"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang IT"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.it"
+                                            data-test="adaptive_footer_lang_it"
+                                            >
+                                        Italiano
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="nl"
+                                            lang="nl"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang NL"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.nl"
+                                            data-test="adaptive_footer_lang_nl"
+                                            >
+                                        Nederlands
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="pl"
+                                            lang="pl"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang PL"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.pl"
+                                            data-test="adaptive_footer_lang_pl"
+                                            >
+                                        Polski
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="pt"
+                                            lang="pt"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang PT"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.pt"
+                                            data-test="adaptive_footer_lang_pt"
+                                            >
+                                        Português (Brasil)
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="sv"
+                                            lang="sv"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang SV"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.sv"
+                                            data-test="adaptive_footer_lang_sv"
+                                            >
+                                        Svenska
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="vi"
+                                            lang="vi"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang VI"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.vi"
+                                            data-test="adaptive_footer_lang_vi"
+                                            >
+                                        Tiếng Việt
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="tr"
+                                            lang="tr"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang TR"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.tr"
+                                            data-test="adaptive_footer_lang_tr"
+                                            >
+                                        Türkçe
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="zh"
+                                            lang="zh"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang ZH"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.zh"
+                                            data-test="adaptive_footer_lang_zh"
+                                            >
+                                        中文
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="ja"
+                                            lang="ja"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang JA"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.ja"
+                                            data-test="adaptive_footer_lang_ja"
+                                            >
+                                        日本語
+                                    </button>
+                                </li>
+                            
+                                <li>
+                                    <button class="srf-btn-inline srf-dropdown-menu-item"
+                                            name="language"
+                                            value="ko"
+                                            lang="ko"
+                                            data-ga-category="Navigation:btm_menu"
+                                            data-ga-action="link.click"
+                                            data-ga-label="Lang KO"
+                                            data-ga4-click
+                                            data-ga4-item-location="navigation.footer.languages.ko"
+                                            data-test="adaptive_footer_lang_ko"
+                                            >
+                                        한국어
+                                    </button>
+                                </li>
+                            
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+    <div class="s-container -outer srf-footer__content">
+        
+            
+<div class="srf-contacts">
+    <div>
+        <a class="srf-btn -contacts"
+           data-ga4-click
+           data-ga4-item-location="navigation.footer.contacts"
+           href="/company/contacts/">
+            <svg class="srf-icon -s">
+                <use href="#srf-icon-mail"></use>
+            </svg>
+            <span>Contact us</span>
+        </a>
+        <address>USA, 800 Boylston Street, Suite 2475, Boston, MA 02199</address>
+    </div>
+    
+<div class="srf-getstarted">
+    <div role="heading" aria-level="2">
+        <a class="srf-btn -block -success"
+           href="/signup/?src=footer"
+           data-ga-category="footer cta"
+           data-ga-action="button.click:get started"
+           data-ga4-click
+           data-ga4-item-location="navigation.footer.get_started.button">
+            Get started with Semrush!
+        </a>
+    </div>
+    <a class="srf-link"
+       data-ga4-click
+       data-ga4-item-location="navigation.footer.get_started.link"
+       href="/pricing/">or see our plans & pricing</a>
+</div>
+
+</div>
+
+        
+        <nav class="s-row srf-navigation"
+             aria-label="Bottom menu">
+            
+                <div class="s-col-8 srf-footer-navigation-links">
+                    
+                        <div class="srf-menu">
+                            <div role="heading"
+                                 aria-level="3"
+                                 class="srf-menu-title"
+                                 id="srf-footer-title-1">Semrush</div>
+                            <ul class="srf-menu-items"
+                                aria-describedby="srf-footer-title-1">
+                                
+                                    <li>
+                                        <a href="/features/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Features" 
+                                           data-ga-label="Features"
+                                           data-test="features">
+                                            Features
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pricing/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Prices" 
+                                           data-ga-label="Prices"
+                                           data-test="prices">
+                                            Pricing
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/semrush-free-trial/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Free.trial" 
+                                           data-ga-label="Free trial"
+                                           data-test="free_trial">
+                                            Free Trial
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/vs/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Semrush.Versus" 
+                                           data-ga-label="Semrush Versus"
+                                           data-test="semrush_versus">
+                                            Compare Semrush
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/company/stories/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Success.stories" 
+                                           data-ga-label="Success stories"
+                                           data-test="success_stories">
+                                            Success Stories
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/stats/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Stats.and.Facts" 
+                                           data-ga-label="Stats and Facts"
+                                           data-test="stats_and_facts">
+                                            Stats and Facts
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/news/releases/data-insights/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Data.Studies" 
+                                           data-ga-label="Data Studies"
+                                           data-test="data_studies">
+                                            Insights
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/news/releases/product-news/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.News" 
+                                           data-ga-label="News"
+                                           data-test="news">
+                                            News
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/lp/affiliate-program/en/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Affiliate.Program" 
+                                           data-ga-label="Affiliate Program"
+                                           data-test="affiliate_program">
+                                            Affiliate Program
+                                            
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div class="srf-menu">
+                            <div role="heading"
+                                 aria-level="3"
+                                 class="srf-menu-title"
+                                 id="srf-footer-title-2">Help</div>
+                            <ul class="srf-menu-items"
+                                aria-describedby="srf-footer-title-2">
+                                
+                                    <li>
+                                        <a href="/kb/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Manual" 
+                                           data-ga-label="Manual"
+                                           data-test="manual">
+                                            Knowledge Base
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/academy/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Academy" 
+                                           data-ga-label="Academy"
+                                           data-test="academy">
+                                            Academy
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/api-documentation/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Semrush.API" 
+                                           data-ga-label="Semrush API"
+                                           data-test="semrush_api">
+                                            Semrush API
+                                            
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div class="srf-menu">
+                            <div role="heading"
+                                 aria-level="3"
+                                 class="srf-menu-title"
+                                 id="srf-footer-title-3">Community</div>
+                            <ul class="srf-menu-items"
+                                aria-describedby="srf-footer-title-3">
+                                
+                                    <li>
+                                        <a href="/blog/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Blog" 
+                                           data-ga-label="Blog"
+                                           data-test="blog">
+                                            Semrush Blog
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/academy/webinars/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Webinars" 
+                                           data-ga-label="Webinars"
+                                           data-test="webinars">
+                                            Webinars
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/lp/semrush-circle/en/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.AmbassadorProgram" 
+                                           data-ga-label="ambassador-program"
+                                           data-test="ambassador_program">
+                                            Ambassador Program
+                                            
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div class="srf-menu">
+                            <div role="heading"
+                                 aria-level="3"
+                                 class="srf-menu-title"
+                                 id="srf-footer-title-4">Free tools</div>
+                            <ul class="srf-menu-items"
+                                aria-describedby="srf-footer-title-4">
+                                
+                                    <li>
+                                        <a href="/website/top/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.free.top.websites" 
+                                           data-ga-label="top-websites"
+                                           data-test="top_websites">
+                                            Top Websites
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/free-tools/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.free.tools" 
+                                           data-ga-label="free-tools"
+                                           data-test="free_tools">
+                                            SEO Tools
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.seoquake.com/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.SEOquake" 
+                                           data-ga-label="SEOquake"
+                                           data-test="seoquake">
+                                            SEOquake
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/sensor/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Sensor" 
+                                           data-ga-label="Sensor"
+                                           data-test="sensor">
+                                            Sensor
+                                            
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div class="srf-menu">
+                            <div role="heading"
+                                 aria-level="3"
+                                 class="srf-menu-title"
+                                 id="srf-footer-title-5">More tools</div>
+                            <ul class="srf-menu-items"
+                                aria-describedby="srf-footer-title-5">
+                                
+                                    <li>
+                                        <a href="/enterprise/seo/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.enterprise" 
+                                           data-ga-label="enterprise"
+                                           >
+                                            Enterprise SEO
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/lp/enterprise-crawler/en/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.EnterpriseCrawler" 
+                                           data-ga-label="enterprise-crawler"
+                                           data-test="enterprise_crawler">
+                                            Enterprise Crawler
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/lp/insights/en/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Insights24" 
+                                           data-ga-label="insights"
+                                           data-test="insights">
+                                            Insights24
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/lp/mfour/en/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Mfour" 
+                                           data-ga-label="mfour"
+                                           data-test="mfour">
+                                            Mfour
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://prowly.com/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Prowly" 
+                                           data-ga-label="Prowly"
+                                           data-test="prowly">
+                                            Prowly
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/apps/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.app.center" 
+                                           data-ga-label="app_center"
+                                           >
+                                            App Center
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/agencies/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Agency.Partners" 
+                                           data-ga-label="Agency Partners"
+                                           data-test="agency_partners">
+                                            Agency Partners
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/splitsignal/?utm_source=semrush&amp;utm_medium=footer"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.SplitSignal" 
+                                           data-ga-label="SplitSignal"
+                                           data-test="splitsignal">
+                                            SplitSignal
+                                            
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
+                        <div class="srf-menu">
+                            <div role="heading"
+                                 aria-level="3"
+                                 class="srf-menu-title"
+                                 id="srf-footer-title-6">Company</div>
+                            <ul class="srf-menu-items"
+                                aria-describedby="srf-footer-title-6">
+                                
+                                    <li>
+                                        <a href="/company/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.About.Us" 
+                                           data-ga-label="About Us"
+                                           data-test="about_us">
+                                            About Us
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/news/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Newsroom" 
+                                           data-ga-label="Newsroom"
+                                           data-test="footer_newsroom">
+                                            Newsroom
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://careers.semrush.com/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Careers" 
+                                           data-ga-label="Careers"
+                                           data-test="footer_careers">
+                                            Careers
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/company/partners/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Partners" 
+                                           data-ga-label="Partners"
+                                           data-test="partners">
+                                            Partners
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/company/legal/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Legal.Info" 
+                                           data-ga-label="Legal Info"
+                                           data-test="legal_info">
+                                            Legal Info
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/company/legal/privacy-policy/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Privacy.Policy" 
+                                           data-ga-label="Privacy Policy"
+                                           data-test="privacy_policy">
+                                            Privacy Policy
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="javascript:window.showConsentSettings();"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Cookie.Settings" 
+                                           data-ga-label="Cookie Settings"
+                                           data-test="cookie_settings">
+                                            Cookie Settings
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="javascript:window.showDontSellMyDataSettings();"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Personal.Info" 
+                                           data-ga-label="Personal Info"
+                                           data-test="personal_info">
+                                            Do not sell my personal info
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/company/security/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Security.Info" 
+                                           data-ga-label="Security Info"
+                                           data-test="security_info">
+                                            Security Info
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://investors.semrush.com"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.For.Investors" 
+                                           data-ga-label="For Investors"
+                                           data-test="for_investors">
+                                            For Investors
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/company/semrush-select/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Semrush.Select" 
+                                           data-ga-label="Semrush Select"
+                                           data-test="semrush_select">
+                                            Semrush Select
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/company/global-issues/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Global.Issues.Index" 
+                                           data-ga-label="Global Issues Index"
+                                           data-test="global_issues_index">
+                                            Global Issues Index
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/company/contacts/"
+                                           data-ga-category="Navigation:btm_menu"
+                                           data-ga-action="link.click"
+                                            data-ga4-click data-ga4-item-location="navigation.footer.menu.item.Contact.Us" 
+                                           data-ga-label="Contact Us"
+                                           data-test="contact_us">
+                                            Contact Us
+                                            
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
+                </div>
+            
+            <div class="s-col-2">
+                
+                    <div class="srf-menu">
+                        <div role="heading" aria-level="3" class="srf-menu-title">Follow us</div>
+                        <ul class="srf-menu-items -icons-left">
+                            
+                                <li>
+                                    <a href="https://x.com/semrush"
+                                       rel="nofollow"
+                                       data-ga-category="Navigation:btm_menu"
+                                       data-ga-action="link.click"
+                                       data-ga-label="X (Twitter)"
+                                       data-ga4-click
+                                       data-ga4-item-location="navigation.footer.social_networks.twitter"
+                                       data-test="x (twitter)"
+                                       aria-label="Semrush X (Twitter)">X (Twitter)</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://www.facebook.com/Semrush"
+                                       rel="nofollow"
+                                       data-ga-category="Navigation:btm_menu"
+                                       data-ga-action="link.click"
+                                       data-ga-label="Facebook"
+                                       data-ga4-click
+                                       data-ga4-item-location="navigation.footer.social_networks.facebook"
+                                       data-test="facebook"
+                                       aria-label="Semrush Facebook">Facebook</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://www.linkedin.com/company/semrush"
+                                       rel="nofollow"
+                                       data-ga-category="Navigation:btm_menu"
+                                       data-ga-action="link.click"
+                                       data-ga-label="LinkedIn"
+                                       data-ga4-click
+                                       data-ga4-item-location="navigation.footer.social_networks.linkedin"
+                                       data-test="linkedin"
+                                       aria-label="Semrush LinkedIn">LinkedIn</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://instagram.com/semrush/"
+                                       rel="nofollow"
+                                       data-ga-category="Navigation:btm_menu"
+                                       data-ga-action="link.click"
+                                       data-ga-label="Instagram"
+                                       data-ga4-click
+                                       data-ga4-item-location="navigation.footer.social_networks.instagram"
+                                       data-test="instagram"
+                                       aria-label="Semrush Instagram">Instagram</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://www.youtube.com/user/SemrushHQ"
+                                       rel="nofollow"
+                                       data-ga-category="Navigation:btm_menu"
+                                       data-ga-action="link.click"
+                                       data-ga-label="YouTube"
+                                       data-ga4-click
+                                       data-ga4-item-location="navigation.footer.social_networks.youtube"
+                                       data-test="youtube"
+                                       aria-label="Semrush YouTube">YouTube</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://www.pinterest.com/semrush/"
+                                       rel="nofollow"
+                                       data-ga-category="Navigation:btm_menu"
+                                       data-ga-action="link.click"
+                                       data-ga-label="Pinterest"
+                                       data-ga4-click
+                                       data-ga4-item-location="navigation.footer.social_networks.pinterest"
+                                       data-test="pinterest"
+                                       aria-label="Semrush Pinterest">Pinterest</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                
+            </div>
+            
+                <div class="s-col-2">
+                    <div class="srf-menu">
+                        <div role="heading" aria-level="3" class="srf-menu-title">Language</div>
+                        <form method="post" action="/i18n/set_language/">
+                            
+                                <input type="hidden" name="csrfmiddlewaretoken" value="WCN8wUowiAfxtXgtcwRnFjCosaGg04OFKoiXWX3uqp8YJs0hUdzVCoAtpij7iq8B">
+                                <input type="hidden" name="next" value="/404/">
+                            
+                            <div class="srf-language-switcher">
+                                <div class="srf-language-switcher-toggle"
+                                     aria-haspopup="true"
+                                     tabindex="0"
+                                     role="combobox"
+                                     aria-expanded="false"
+                                     aria-label="Change language">
+                                    
+                                        English
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                    <svg class="srf-icon -s srf-icon-dropdown" aria-hidden="true">
+                                        <use href="#srf-icon-dropdown"></use>
+                                    </svg>
+                                </div>
+                                <ul class="srf-language-switcher-menu"
+                                    role="listbox"
+                                    aria-label="List of available languages">
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            >
+                                            <button name="language"
+                                                    value="en"
+                                                    lang="en"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang EN"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.en"
+                                                    data-test="footer_lang_en"
+                                                    class="srf-b -active"
+                                                    tabindex="-1">English</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="de"
+                                                    lang="de"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang DE"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.de"
+                                                    data-test="footer_lang_de"
+                                                    class="srf-b"
+                                                    tabindex="-1">Deutsch</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="es"
+                                                    lang="es"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang ES"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.es"
+                                                    data-test="footer_lang_es"
+                                                    class="srf-b"
+                                                    tabindex="-1">Español</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="fr"
+                                                    lang="fr"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang FR"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.fr"
+                                                    data-test="footer_lang_fr"
+                                                    class="srf-b"
+                                                    tabindex="-1">Français</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="it"
+                                                    lang="it"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang IT"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.it"
+                                                    data-test="footer_lang_it"
+                                                    class="srf-b"
+                                                    tabindex="-1">Italiano</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="nl"
+                                                    lang="nl"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang NL"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.nl"
+                                                    data-test="footer_lang_nl"
+                                                    class="srf-b"
+                                                    tabindex="-1">Nederlands</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="pl"
+                                                    lang="pl"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang PL"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.pl"
+                                                    data-test="footer_lang_pl"
+                                                    class="srf-b"
+                                                    tabindex="-1">Polski</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="pt"
+                                                    lang="pt"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang PT"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.pt"
+                                                    data-test="footer_lang_pt"
+                                                    class="srf-b"
+                                                    tabindex="-1">Português (Brasil)</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="sv"
+                                                    lang="sv"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang SV"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.sv"
+                                                    data-test="footer_lang_sv"
+                                                    class="srf-b"
+                                                    tabindex="-1">Svenska</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="vi"
+                                                    lang="vi"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang VI"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.vi"
+                                                    data-test="footer_lang_vi"
+                                                    class="srf-b"
+                                                    tabindex="-1">Tiếng Việt</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="tr"
+                                                    lang="tr"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang TR"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.tr"
+                                                    data-test="footer_lang_tr"
+                                                    class="srf-b"
+                                                    tabindex="-1">Türkçe</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="zh"
+                                                    lang="zh"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang ZH"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.zh"
+                                                    data-test="footer_lang_zh"
+                                                    class="srf-b"
+                                                    tabindex="-1">中文</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="ja"
+                                                    lang="ja"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang JA"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.ja"
+                                                    data-test="footer_lang_ja"
+                                                    class="srf-b"
+                                                    tabindex="-1">日本語</button>
+                                        </li>
+                                    
+                                        <li role="option"
+                                            tabindex="0"
+                                            aria-selected="false">
+                                            <button name="language"
+                                                    value="ko"
+                                                    lang="ko"
+                                                    data-ga-category="Navigation:btm_menu"
+                                                    data-ga-action="link.click"
+                                                    data-ga-label="Lang KO"
+                                                    data-ga4-click
+                                                    data-ga4-item-location="navigation.footer.languages.ko"
+                                                    data-test="footer_lang_ko"
+                                                    class="srf-b"
+                                                    tabindex="-1">한국어</button>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            
+        </nav>
+    </div>
+    <div class="srf-copyright">
+        <div class="s-container -outer">
+            <div class="srf-logo">
+                <svg width="165.1" height="22" aria-hidden="true">
+                    <use href="#srf-icon-semrush-logo"></use>
+                </svg>
+            </div>
+            <div>© 2008 - 2025 Semrush. All rights reserved.</div>
+            <a href="javascript:window.showConsentSettings();"
+               data-ga-category="Navigation:btm_menu"
+               data-ga-action="link.click"
+               data-ga-label="Cookie Settings"
+               data-ga4-click
+               data-ga4-item-location="navigation.footer.cookie_settings.link"
+               data-test="cookie_settings"
+               class="srf-link srf-copyright__cookie-settings-link">Cookie Settings</a>
+        </div>
+    </div>
+</footer>
+<script src="/__static__/webpack/footer.0288eb4c.js" defer></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      window.__sm2init_footer__(
+        document.getElementById('srf-footer'),
+      )
+    });
+</script>
+
+    
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div id="srf-notice-bubble-container"></div>
+            <div class="srf-overlay"></div>
+            <div class="srf-popup-manager"></div>
+            <div id="srf-sso-login-form"></div>
+            <div id="srf-limit-popup"></div>
+            <div id="srf-billing-popup"></div>
+            <div id="srf-sharing-popup"></div>
+            <div id="srf-multi-invite-popup"></div>
+
+            
+                
+
+
+
+                
+
+
+    
+    
+    <script>
+window.Intercom = function (action) {
+  try {
+    console.group('Intercom(' + action + ')');
+    console.log(Array.from(arguments));
+    console.groupEnd();
+  } catch (e) {
+    console.log('Intercom: ', action);
+  }
+};
+</script>
+
+
+
+            
+
+            
+            <script>
+            if (window.ga) {
+                if (window.sm2.GAexperiments.length) {
+                    window.ga('set', 'exp', window.sm2.GAexperiments.join('!'));
+                }
+                
+                    window.ga('send', 'pageview');
+                
+            }
+            </script>
+
+            
+    <script id="error_page_initial_state" type="application/json">{"base": {"cookie_domain": ".semrush.com", "csrfToken": "SzMiYgDLqcV3WhdPaYnjc6UBU9UajuFVGlh7ojiJy1OucMXDSF5R9bSGRhx1BQZR", "language_code": "en", "PopupManager": {"popups": {"need_confirm_email": null, "disabled_user": false, "reset_password": false}}, "switchLanguageApiEndpoint": "/i18n/switch_language_api/", "sso": {"enable_preload": false, "env": "production", "root_url": "/sso", "root_semrush_url": "https://www.semrush.com"}}}</script>
+    <script src="/__static__/webpack/9327.12762969.js" defer></script>
+<script src="/__static__/webpack/7353.078de124.js" defer></script>
+<script src="/__static__/webpack/1069.ec25aa9e.js" defer></script>
+<script src="/__static__/webpack/9331.df043705.js" defer></script>
+<script src="/__static__/webpack/error_page.2a262c65.js" defer></script>
+
+            
+
+            <script>
+            
+            </script>
+        </body>
+    </html>
+
+<!--sm_log_id:"flb-46faf087fe747d960e1e766bde121083"-->
+<!--otel_trace_id:"46faf087fe747d960e1e766bde121083"-->
+

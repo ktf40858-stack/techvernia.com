@@ -1,0 +1,21 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad-education" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+        </linearGradient>
+        <filter id="glow-education">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Graduation Cap -->
+    <path d="M 60 30 L 95 45 L 60 60 L 25 45 Z" stroke="url(#grad-education)" stroke-width="3" fill="none" filter="url(#glow-education)"/>
+    <path d="M 95 45 L 95 60 L 75 70" stroke="url(#grad-education)" stroke-width="2" fill="none" filter="url(#glow-education)"/>
+    <!-- Tassel -->
+    <line x1="60" y1="30" x2="60" y2="85" stroke="url(#grad-education)" stroke-width="2" filter="url(#glow-education)"/>
+    <circle cx="60" cy="87" r="3" fill="url(#grad-education)" filter="url(#glow-education)"/>
+</svg>

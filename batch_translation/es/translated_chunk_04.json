@@ -1,0 +1,21 @@
+{
+  "review.stable-diffusion.content.freedom": "Libertad de Contenido",
+  "review.stable-diffusion.55.no.filters": "5/5 (sin filtros)",
+  "review.stable-diffusion.45.light.filters": "4/5 (filtros ligeros)",
+  "review.stable-diffusion.25.strict.filters": "2/5 (filtros estrictos)",
+  "review.stable-diffusion.45": "4/5",
+  "review.stable-diffusion.editing.tools": "Herramientas de Edición",
+  "review.stable-diffusion.55.inpaintoutpaint": "5/5 (inpaint/outpaint)",
+  "review.stable-diffusion.35": "3/5",
+  "review.stable-diffusion.15.none": "1/5 (ninguno)",
+  "review.stable-diffusion.local.own.gpu": "Local (GPU Propio)",
+  "review.stable-diffusion.500-2000.one-time.gpu": "$500-2000 (GPU por única vez)",
+  "review.stable-diffusion.0month": "$0/mes",
+  "review.stable-diffusion.heavy.users.professionals": "Usuarios intensivos, profesionales",
+  "review.stable-diffusion.cloud.gpu.rental": "Alquiler de GPU en la Nube",
+  "review.stable-diffusion.10-50month.variable": "$10-50/mes (variable)",
+  "review.stable-diffusion.occasional.users.no.gpu": "Usuarios ocasionales, sin GPU",
+  "review.stable-diffusion.stability.ai.api": "API de Stability AI",
+  "review.stable-diffusion.0002-001.per.image": "$0.002-0.01 por imagen",
+  "review.stable-diffusion.developers.apps": "Desarrolladores, aplicaciones"
+}

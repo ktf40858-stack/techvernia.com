@@ -1,0 +1,40 @@
+<h4>GPT-4 Turbo</h4>
+<p><span data-i18n="review.chatgpt.feature.gpt4.desc">The latest and most capable model with enhanced reasoning, longer context (128K), and knowledge up to April 2026.</span></p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></div>
+<h4><span data-i18n="review.chatgpt.feature.vision.title">Vision Capabilities</span></h4>
+<p><span data-i18n="review.chatgpt.feature.vision.desc">Upload images for analysis, explanation, and extraction. Works with screenshots, diagrams, and documents.</span></p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M12 2a10 10 0 017.38 16.75 2 2 0 01-3.5.54l-.9-1.34a2 2 0 00-1.65-.88H9.87a2 2 0 01-1.99-2.33L8.53 12a2 2 0 00-.26-1.5L6.8 8.53a10 10 0 015.2-6.53z"></path><circle cx="7.5" cy="10.5" r=".5"></circle><circle cx="18.5" cy="7.5" r=".5"></circle><circle cx="16.5" cy="13.5" r=".5"></circle></svg></div>
+<h4><span data-i18n="review.chatgpt.feature.dalle.title">DALL-E 3 Integration</span></h4>
+<p><span data-i18n="review.chatgpt.feature.dalle.desc">Generate high-quality images directly in chat. Create, edit, and iterate on visual content seamlessly.</span></p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="14" rx="2" width="20" x="2" y="3"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg></div>
+<h4><span data-i18n="review.chatgpt.feature.code.title">Code Interpreter</span></h4>
+<p><span data-i18n="review.chatgpt.feature.code.desc">Execute Python code, analyze data files, create visualizations, and perform complex calculations.</span></p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="12" rx="1" width="10" x="7" y="7"></rect><path d="M9 1v3M15 1v3M9 20v3M15 20v3"></path></svg></div>
+<h4><span data-i18n="review.chatgpt.feature.custom.title">Custom GPTs</span></h4>
+<p><span data-i18n="review.chatgpt.feature.custom.desc">Build specialized AI assistants for specific tasks. Access thousands of community-created GPTs in the store.</span></p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"></path></svg></div>
+<h4><span data-i18n="review.chatgpt.feature.web.title">Web Browsing</span></h4>
+<p><span data-i18n="review.chatgpt.feature.web.desc">Search the internet in real-time for up-to-date information. Cite sources and provide current data.</span></p>
+</div>
+</div>
+<h3><span data-i18n="review.common.additional">Additional Features</span></h3>
+<ul>
+--
+<h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg> Advantages</h4>
+<ul>
+<li><span data-i18n="review.chatgpt.pro.1">Industry-leading ecosystem with custom GPTs and plugins</span></li>
+<li><span data-i18n="review.chatgpt.pro.2">Excellent general knowledge and reasoning</span></li>
+<li><span data-i18n="review.chatgpt.pro.3">Built-in image generation with DALL-E 3</span></li>
+<li><span data-i18n="review.chatgpt.pro.4">Best-in-class mobile apps for iOS and Android</span></li>
+--
+<h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg> Disadvantages</h4>

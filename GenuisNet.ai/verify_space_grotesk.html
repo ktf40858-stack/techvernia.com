@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification Police Space Grotesk - GenuisNet.ai</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .verification-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-4xl) var(--space-lg);
+        }
+        .section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            padding: var(--space-2xl);
+            margin-bottom: var(--space-xl);
+        }
+        .section h2 {
+            color: var(--accent-primary);
+            margin-bottom: var(--space-lg);
+            font-size: var(--text-2xl);
+        }
+        .test-item {
+            background: var(--bg-tertiary);
+            padding: var(--space-lg);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--space-md);
+            border-left: 4px solid var(--accent-primary);
+        }
+        .test-item h3 {
+            margin-bottom: var(--space-sm);
+            font-size: var(--text-lg);
+        }
+        .test-item p {
+            color: var(--text-secondary);
+            margin-bottom: var(--space-xs);
+        }
+        .font-info {
+            display: inline-block;
+            background: rgba(0, 217, 255, 0.1);
+            padding: var(--space-xs) var(--space-md);
+            border-radius: var(--radius-sm);
+            font-size: var(--text-sm);
+            color: var(--accent-primary);
+            font-family: var(--font-mono);
+        }
+        .success {
+            color: var(--accent-tertiary);
+        }
+        .hero-section {
+            text-align: center;
+            margin-bottom: var(--space-4xl);
+            padding: var(--space-4xl) 0;
+        }
+        .hero-section h1 {
+            font-size: var(--text-5xl);
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: var(--space-md);
+        }
+    </style>
+</head>
+<body>
+    <div class="verification-container">
+        <div class="hero-section">
+            <h1>Vérification Police Space Grotesk</h1>
+            <p style="font-size: var(--text-xl); color: var(--text-secondary);">
+                Test de tous les éléments typographiques du site
+            </p>
+        </div>
+
+        <!-- Titres -->
+        <div class="section">
+            <h2>Titres (H1-H6)</h2>
+            <div class="test-item">
+                <h1 style="margin-bottom: var(--space-sm);">Titre H1 - The quick brown fox jumps</h1>
+                <span class="font-info" id="h1-font">Chargement...</span>
+            </div>
+            <div class="test-item">
+                <h2 style="margin-bottom: var(--space-sm);">Titre H2 - The quick brown fox jumps</h2>
+                <span class="font-info" id="h2-font">Chargement...</span>
+            </div>
+            <div class="test-item">
+                <h3 style="margin-bottom: var(--space-sm);">Titre H3 - The quick brown fox jumps</h3>
+                <span class="font-info" id="h3-font">Chargement...</span>
+            </div>
+        </div>
+
+        <!-- Paragraphes -->
+        <div class="section">
+            <h2>Paragraphes & Texte</h2>
+            <div class="test-item">
+                <p id="test-p" style="margin-bottom: var(--space-sm);">
+                    Paragraphe normal - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Space Grotesk est une police moderne parfaite pour l'univers AI et tech.
+                </p>
+                <span class="font-info" id="p-font">Chargement...</span>
+            </div>
+            <div class="test-item">
+                <span id="test-span" style="display: block; margin-bottom: var(--space-sm);">
+                    Span element - Testing Space Grotesk with numbers: 0123456789
+                </span>
+                <span class="font-info" id="span-font">Chargement...</span>
+            </div>
+        </div>
+
+        <!-- Boutons -->
+        <div class="section">
+            <h2>Boutons & Liens</h2>
+            <div class="test-item">
+                <button class="btn btn-primary" id="test-btn" style="margin-bottom: var(--space-sm);">
+                    Bouton Primary
+                </button>
+                <br>
+                <span class="font-info" id="btn-font">Chargement...</span>
+            </div>
+            <div class="test-item">
+                <a href="#" id="test-link" style="display: block; margin-bottom: var(--space-sm); color: var(--accent-primary);">
+                    Lien hypertexte avec Space Grotesk
+                </a>
+                <span class="font-info" id="link-font">Chargement...</span>
+            </div>
+        </div>
+
+        <!-- Alphabet complet -->
+        <div class="section">
+            <h2>Alphabet Complet</h2>
+            <div class="test-item">
+                <p style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">
+                    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                </p>
+                <p style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">
+                    abcdefghijklmnopqrstuvwxyz
+                </p>
+                <p style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">
+                    0123456789 !@#$%^&*()
+                </p>
+            </div>
+        </div>
+
+        <!-- Différentes tailles -->
+        <div class="section">
+            <h2>Différentes Tailles</h2>
+            <div class="test-item">
+                <p style="font-size: var(--text-xs);">Extra Small (XS) - Space Grotesk</p>
+                <p style="font-size: var(--text-sm);">Small (SM) - Space Grotesk</p>
+                <p style="font-size: var(--text-base);">Base - Space Grotesk</p>
+                <p style="font-size: var(--text-lg);">Large (LG) - Space Grotesk</p>
+                <p style="font-size: var(--text-xl);">Extra Large (XL) - Space Grotesk</p>
+                <p style="font-size: var(--text-2xl);">2XL - Space Grotesk</p>
+                <p style="font-size: var(--text-3xl);">3XL - Space Grotesk</p>
+            </div>
+        </div>
+
+        <!-- Différents poids -->
+        <div class="section">
+            <h2>Différents Poids</h2>
+            <div class="test-item">
+                <p style="font-weight: 300; font-size: var(--text-xl);">Light 300 - Space Grotesk</p>
+                <p style="font-weight: 400; font-size: var(--text-xl);">Regular 400 - Space Grotesk</p>
+                <p style="font-weight: 500; font-size: var(--text-xl);">Medium 500 - Space Grotesk</p>
+                <p style="font-weight: 600; font-size: var(--text-xl);">Semibold 600 - Space Grotesk</p>
+                <p style="font-weight: 700; font-size: var(--text-xl);">Bold 700 - Space Grotesk</p>
+            </div>
+        </div>
+
+        <!-- Résultat -->
+        <div class="section" style="border: 2px solid var(--accent-tertiary);">
+            <h2 class="success"><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Résultat de la Vérification</h2>
+            <div class="test-item">
+                <p style="font-size: var(--text-lg); font-weight: 600;" id="verification-result">
+                    Vérification en cours...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Fonction pour obtenir la police d'un élément
+        function getFontFamily(elementId) {
+            const element = document.getElementById(elementId);
+            const computedStyle = window.getComputedStyle(element);
+            return computedStyle.fontFamily;
+        }
+
+        // Attendre que les fonts soient chargées
+        document.fonts.ready.then(() => {
+            // Vérifier chaque élément
+            const elements = ['test-p', 'test-span', 'test-btn', 'test-link'];
+            const fontDisplays = ['p-font', 'span-font', 'btn-font', 'link-font'];
+
+            // Vérifier les titres
+            document.getElementById('h1-font').textContent = getFontFamily('verification-result').split(',')[0];
+            document.getElementById('h2-font').textContent = getFontFamily('verification-result').split(',')[0];
+            document.getElementById('h3-font').textContent = getFontFamily('verification-result').split(',')[0];
+
+            // Vérifier les autres éléments
+            elements.forEach((elementId, index) => {
+                const font = getFontFamily(elementId);
+                document.getElementById(fontDisplays[index]).textContent = font.split(',')[0];
+            });
+
+            // Résultat final
+            const allFonts = elements.map(id => getFontFamily(id));
+            const hasSpaceGrotesk = allFonts.every(font => font.includes('Space Grotesk'));
+
+            const resultElement = document.getElementById('verification-result');
+            if (hasSpaceGrotesk) {
+                resultElement.innerHTML = '<span class="success"><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> SUCCESS!</span> Space Grotesk est correctement appliquée sur TOUS les éléments du site!';
+            } else {
+                resultElement.innerHTML = '<svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Certains éléments n\'utilisent pas Space Grotesk.';
+            }
+        });
+    </script>
+</body>
+</html>

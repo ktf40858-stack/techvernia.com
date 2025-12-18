@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="In-depth review of Hypar - Computational design platform with AI building blocks. Features, pricing, and architect insights." name="description"/>
+<meta content="Hypar review, computational design, AI architecture, building configurators, parametric design" name="keywords"/>
+<title>Hypar Review 2026 | GenuisNet.ai</title>
+<link href="../../../css/style.css" rel="stylesheet"/>
+<link href="../../../css/guides-reviews.css" rel="stylesheet"/>
+<link href="../../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="../../../css/neon-icons.css" rel="stylesheet"/>
+<style>
+
+        .inline-icon {
+            display: inline-block;
+            width: 1.2em;
+            height: 1.2em;
+            vertical-align: middle;
+            margin-right: 0.3em;
+            stroke: currentColor;
+            stroke-width: 2;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        h2 .inline-icon {
+            width: 1.5em;
+            height: 1.5em;
+            stroke: url(#icon-gradient);
+        }
+
+        /* Gradient pour les icônes dans les titres */
+        .icon-gradient-def {
+            position: absolute;
+            width: 0;
+            height: 0;
+        }
+
+        .review-hero { padding: calc(80px + var(--space-4xl)) var(--space-lg) var(--space-3xl); background: linear-gradient(135deg, rgba(6, 182, 212, 0.1) 0%, rgba(34, 211, 238, 0.05) 100%); }
+        .review-hero-content { display: grid; grid-template-columns: auto 1fr; gap: var(--space-2xl); align-items: center; max-width: 900px; }
+        .review-logo { width: 120px; height: 120px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; font-size: 3rem; font-weight: 800; color: white; background: linear-gradient(135deg, #06B6D4, #22D3EE); }
+        .review-logo img { width: 80%; height: 80%; object-fit: contain; }
+        .review-hero-info h1 { font-size: clamp(var(--text-2xl), 5vw, var(--text-4xl)); font-weight: 800; margin-bottom: var(--space-sm); }
+        .review-hero-info .company { color: var(--text-tertiary); margin-bottom: var(--space-md); }
+        .review-meta { display: flex; gap: var(--space-lg); flex-wrap: wrap; margin-top: var(--space-lg); }
+        .meta-item { display: flex; align-items: center; gap: var(--space-xs); color: var(--text-secondary); font-size: var(--text-sm); }
+        .rating-large { display: flex; align-items: center; gap: var(--space-sm); }
+        .rating-large .stars { color: #FBBF24; font-size: var(--text-xl); }
+        .rating-large .score { font-size: var(--text-2xl); font-weight: 800; color: var(--text-primary); }
+        .review-layout { display: grid; grid-template-columns: 1fr 300px; gap: var(--space-2xl); max-width: 1200px; margin: 0 auto; padding: var(--space-2xl) var(--space-lg); }
+        .review-main { min-width: 0; }
+        .review-sidebar { position: sticky; top: 100px; height: fit-content; }
+        .sidebar-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: var(--space-xl); margin-bottom: var(--space-lg); }
+        .sidebar-card h3 { font-size: var(--text-lg); font-weight: 700; margin-bottom: var(--space-lg); }
+        .quick-stats .stat-row { display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color); }
+        .quick-stats .stat-row:last-child { border-bottom: none; }
+        .quick-stats .stat-label { color: var(--text-secondary); }
+        .quick-stats .stat-value { font-weight: 600; color: var(--text-primary); }
+        .toc-list { list-style: none; padding: 0; }
+        .toc-list li { padding: var(--space-sm) 0; }
+        .toc-list a { color: var(--text-secondary); text-decoration: none; font-size: var(--text-sm); transition: color var(--transition-fast); }
+        .toc-list a:hover { color: var(--accent-primary); }
+        .review-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: var(--space-2xl); margin-bottom: var(--space-xl); }
+        .review-section h2 { font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-lg); padding-bottom: var(--space-md); border-bottom: 1px solid var(--border-color); }
+        .review-section p { color: var(--text-secondary); line-height: 1.8; margin-bottom: var(--space-md); }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg); margin-top: var(--space-lg); }
+        .feature-card { background: var(--bg-tertiary); border-radius: var(--radius-lg); padding: var(--space-lg); }
+        .feature-card h4 { font-size: var(--text-base); font-weight: 600; margin-bottom: var(--space-sm); display: flex; align-items: center; gap: var(--space-sm); }
+        .feature-card p { font-size: var(--text-sm); margin-bottom: 0; }
+        .pros-cons-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); }
+        .pros-card, .cons-card { background: var(--bg-tertiary); border-radius: var(--radius-lg); padding: var(--space-xl); }
+        .pros-card h3, .cons-card h3 { font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-lg); display: flex; align-items: center; gap: var(--space-sm); }
+        .pros-card h3 { color: var(--accent-tertiary); }
+        .cons-card h3 { color: var(--accent-error); }
+        .pros-card ul, .cons-card ul { list-style: none; padding: 0; }
+        .pros-card li, .cons-card li { padding: var(--space-sm) 0; padding-left: var(--space-lg); position: relative; color: var(--text-secondary); }
+        .pros-card li::before { content: "<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>"; font-weight: 600; position: absolute; left: 0; color: var(--accent-tertiary); font-weight: 600; }
+        .cons-card li::before { content: "✗"; font-weight: 600; position: absolute; left: 0; color: var(--accent-error); font-weight: 600; }
+        .verdict-box { background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(34, 211, 238, 0.1)); border-radius: var(--radius-xl); padding: var(--space-2xl); text-align: center; }
+        .verdict-score { font-size: var(--text-5xl); font-weight: 800; background: linear-gradient(135deg, #06B6D4, #22D3EE); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .verdict-label { font-size: var(--text-xl); font-weight: 600; margin-top: var(--space-sm); }
+        .cta-buttons { display: flex; gap: var(--space-md); justify-content: center; margin-top: var(--space-xl); }
+        .rating-breakdown { margin-top: var(--space-lg); }
+        .rating-row { display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-sm); }
+        .rating-row .label { width: 120px; font-size: var(--text-sm); color: var(--text-secondary); }
+        .rating-row .bar { flex: 1; height: 8px; background: var(--bg-tertiary); border-radius: var(--radius-full); overflow: hidden; }
+        .rating-row .bar-fill { height: 100%; background: linear-gradient(135deg, #06B6D4, #22D3EE); border-radius: var(--radius-full); }
+        .rating-row .score { width: 40px; text-align: right; font-weight: 600; font-size: var(--text-sm); }
+        .faq-item { border-bottom: 1px solid var(--border-color); padding: var(--space-lg) 0; }
+        .faq-item:last-child { border-bottom: none; }
+        .faq-question { font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); cursor: pointer; }
+        .faq-answer { color: var(--text-secondary); line-height: 1.7; }
+        .hypar-highlight { background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(34, 211, 238, 0.05)); border: 1px solid rgba(6, 182, 212, 0.3); border-radius: var(--radius-lg); padding: var(--space-lg); margin: var(--space-lg) 0; }
+        .hypar-highlight h4 { color: #06B6D4; margin-bottom: var(--space-sm); }
+        .use-case-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-md); margin-top: var(--space-lg); }
+        .use-case-item { background: var(--bg-tertiary); padding: var(--space-lg); border-radius: var(--radius-lg); text-align: center; }
+        .use-case-item .icon { font-size: var(--text-2xl); margin-bottom: var(--space-sm); }
+        .use-case-item h4 { font-size: var(--text-sm); font-weight: 600; margin-bottom: var(--space-xs); }
+        .use-case-item p { font-size: var(--text-xs); color: var(--text-tertiary); margin: 0; }
+        .pricing-table { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg); margin-top: var(--space-lg); }
+        .pricing-tier { background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-xl); }
+        .pricing-tier.featured { border-color: #06B6D4; background: linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(34, 211, 238, 0.05)); }
+        .pricing-tier h4 { font-size: var(--text-lg); font-weight: 700; margin-bottom: var(--space-sm); }
+        .pricing-tier .price { font-size: var(--text-3xl); font-weight: 800; color: var(--text-primary); margin: var(--space-md) 0; }
+        .pricing-tier ul { list-style: none; padding: 0; margin: var(--space-lg) 0; }
+        .pricing-tier li { padding: var(--space-xs) 0; color: var(--text-secondary); font-size: var(--text-sm); }
+        .comparison-table { width: 100%; border-collapse: collapse; margin-top: var(--space-lg); }
+        .comparison-table th, .comparison-table td { padding: var(--space-md); text-align: left; border-bottom: 1px solid var(--border-color); }
+        .comparison-table th { font-weight: 600; color: var(--text-primary); }
+        .comparison-table td { color: var(--text-secondary); }
+        @media (max-width: 968px) { .review-layout { grid-template-columns: 1fr; } .review-sidebar { position: static; order: -1; } .review-hero-content { grid-template-columns: 1fr; text-align: center; } .review-logo { margin: 0 auto; } .review-meta { justify-content: center; } .pros-cons-grid { grid-template-columns: 1fr; } .pricing-table { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+<div id="particles-container"></div>
+<nav class="navbar" id="navbar">
+<div class="nav-container">
+<a class="logo" href="../../../index.html">
+<img alt="GenuisNet.ai" src="../../../assets/images/logo-neon.svg" style="height: 50px; width: auto;"/>
+</a>
+<ul class="nav-menu" id="nav-menu">
+<li class="nav-item"><a class="nav-link active" data-i18n="nav.home" href="../../../index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link active" href="../../categories/ai-architecture.html">AI Architecture Tools</a></li>
+<li class="nav-item"><a class="nav-link" href="../../guides.html"><span data-i18n="nav.guides">Guides</span></a></li>
+<li class="nav-item"><a class="nav-link" href="../../comparisons.html"><span data-i18n="nav.compare">Compare</span></a></li>
+<li class="nav-item"><a class="nav-link" href="../../about.html"><span data-i18n="nav.about">About</span></a></li>
+</ul>
+<div class="nav-actions">
+<!-- Language Selector -->
+<div class="language-selector">
+<button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+<span class="lang-current">EN</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="lang-dropdown" id="lang-dropdown">
+<button class="lang-option active" data-lang="en">
+<span class="flag">🇺🇸</span> English
+                        </button>
+<button class="lang-option" data-lang="es">
+<span class="flag">🇪🇸</span> Español
+                        </button>
+<button class="lang-option" data-lang="fr">
+<span class="flag">🇫🇷</span> Français
+                        </button>
+<button class="lang-option" data-lang="de">
+<span class="flag">🇩🇪</span> Deutsch
+                        </button>
+<button class="lang-option" data-lang="pt">
+<span class="flag">🇧🇷</span> Português
+                        </button>
+<button class="lang-option" data-lang="zh">
+<span class="flag">🇨🇳</span> 中文
+                        </button>
+<button class="lang-option" data-lang="ja">
+<span class="flag">🇯🇵</span> 日本語
+                        </button>
+<button class="lang-option" data-lang="ko">
+<span class="flag">🇰🇷</span> 한국어
+                        </button>
+<button class="lang-option" data-lang="ar">
+<span class="flag">🇸🇦</span> العربية
+                        </button>
+<button class="lang-option" data-lang="hi">
+<span class="flag">🇮🇳</span> हिन्दी
+                        </button>
+</div>
+</div>
+<button aria-label="Toggle Theme" class="theme-toggle" id="theme-toggle"><svg class="sun-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg><svg class="moon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle"><span></span><span></span><span></span></button>
+</div>
+</div>
+</nav>
+<header class="review-hero">
+<div class="container">
+<div class="review-hero-content">
+<div class="review-logo">
+<img alt="Hypar" src="../../../assets/images/logos/hypar.png"/>
+</div>
+<div class="review-hero-info">
+<h1>Hypar Review</h1>
+<p class="company">Computational Design Platform with AI Building Blocks</p>
+<div class="rating-large"><span class="stars">★★★★★</span><span class="score">4.6/5</span></div>
+<div class="review-meta">
+<div class="meta-item"><span><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg></span><span>Updated: November 2026</span></div>
+<div class="meta-item"><span><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span><span>10 min read</span></div>
+<div class="meta-item"><span><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg></span><span>Developers &amp; Architects</span></div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="review-layout">
+<main class="review-main">
+<section class="review-section" id="overview">
+<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect height="4" rx="1" ry="1" width="8" x="8" y="2"></rect></svg> Overview</h2>
+<p>Hypar is a cloud-based computational design platform that combines parametric design with an open marketplace of reusable building blocks. Launched in 2018, it has attracted over 15,000 users who appreciate its unique approach to architectural automation—creating configurable building tools that can be chained together to build complex workflows.</p>
+<p>Unlike traditional parametric tools that require deep programming knowledge, Hypar provides a visual interface where architects can combine pre-built "functions" (like space planning algorithms, structural systems, or facade generators) to create custom design solutions. The platform's API-first architecture makes it particularly appealing to tech-savvy firms looking to automate repetitive design tasks.</p>
+<p>What makes Hypar stand out is its marketplace model. Developers can create and share building configurators that other architects can use directly in their projects. This creates a growing ecosystem of design intelligence that becomes more valuable over time—similar to how app stores work for mobile platforms.</p>
+<div class="hypar-highlight">
+<h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg> Open Marketplace</h4>
+<p style="margin: 0;">Hypar's marketplace contains dozens of ready-to-use building configurators for everything from parking layouts to MEP routing. Use them as-is or combine them to create custom workflows.</p>
+</div>
+</section>
+<section class="review-section" id="features">
+<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg> Key Features</h2>
+<div class="features-grid">
+<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M3 21h18"></path><path d="M9 8h10"></path><path d="M9 14h10"></path><path d="M9 20h10"></path><path d="M3 8l3-3 3 3"></path></svg> Building Configurators</h4><p>Pre-built parametric design tools for common building types. Configure apartment layouts, parking structures, and more through simple interfaces.</p></div>
+<div class="feature-card"><h4>📐 Parametric Design</h4><p>Visual programming environment for creating custom design automation. No coding required for basic workflows, with full API access for advanced users.</p></div>
+<div class="feature-card"><h4><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg> Cloud Collaboration</h4><p>Fully cloud-based platform enables real-time collaboration. Share configurations and results with team members instantly.</p></div>
+<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="10" rx="2" width="18" x="3" y="11"></rect><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle><path d="M9 7L9 9M15 7L15 9M12 2v5"></path></svg> Design Automation</h4><p>Automate repetitive design tasks with custom workflows. Chain together multiple functions to create sophisticated design pipelines.</p></div>
+<div class="feature-card"><h4><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="7" width="10" height="12" rx="1"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3"/></svg> API Integration</h4><p>RESTful API allows integration with existing tools and custom applications. Build your own interfaces on top of Hypar's geometry engine.</p></div>
+<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="12" x2="12" y1="1" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"></path></svg> Real-time Costing</h4><p>Integrated cost estimation based on design parameters. Understand budget implications as you design, not after.</p></div>
+<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v6m0 6v6m5.66-16.35l-3.87 3.88m-3.78 3.79l-3.87 3.88m13.52 0l-3.87-3.88m-3.78-3.79l-3.87-3.88"></path></svg> Geometry Engine</h4><p>Powerful cloud-based 3D geometry processing. Handle complex calculations without taxing local hardware resources.</p></div>
+<div class="feature-card"><h4>🛒 Open Marketplace</h4><p>Browse and use community-created configurators. Contribute your own tools and monetize architectural software solutions.</p></div>
+</div>
+</section>
+<section class="review-section" id="pros-cons">
+<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" x2="4" y1="22" y2="15"></line></svg> Pros &amp; Cons</h2>
+<div class="pros-cons-grid">
+<div class="pros-card">
+<h3><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> Advantages</h3>
+<ul>
+<li>Innovative marketplace model</li>
+<li>Cloud-based collaboration</li>
+<li>No local software installation</li>
+<li>API-first architecture</li>
+<li>Free tier available</li>
+<li>Growing library of configurators</li>
+<li>Excellent for automation</li>
+<li>Real-time cost estimation</li>
+<li>Developer-friendly platform</li>
+<li>Active community</li>
+</ul>
+</div>
+<div class="cons-card">
+<h3><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="15" x2="9" y1="9" y2="15"></line><line x1="9" x2="15" y1="9" y2="15"></line></svg> Disadvantages</h3>
+<ul>
+<li>Steep learning curve for advanced features</li>
+<li>Limited marketplace content currently</li>
+<li>Requires internet connection</li>
+<li>Not as mature as traditional BIM tools</li>
+<li>Visual programming can be complex</li>
+<li>Best for specific building types</li>
+<li>Integration with CAD limited</li>
+<li>Smaller user community than established tools</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="review-section" id="pricing">
+<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="12" x2="12" y1="1" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"></path></svg> Pricing</h2>
+<p>Hypar offers transparent pricing with a free tier for exploration and learning.</p>
+<div class="pricing-table">
+<div class="pricing-tier">
+<h4>Free</h4>
+<div class="price">$0<span style="font-size: var(--text-base); font-weight: 400;">/month</span></div>
+<p style="color: var(--text-tertiary); font-size: var(--text-sm); margin-bottom: var(--space-lg);">For learning and personal projects</p>
+<ul>
+<li>Unlimited model creation</li>
+<li>Access to marketplace</li>
+<li>Basic export formats</li>
+<li>Community support</li>
+<li>Limited compute resources</li>
+</ul>
+</div>
+<div class="pricing-tier featured">
+<h4>Professional</h4>
+<div class="price">$49<span style="font-size: var(--text-base); font-weight: 400;">/month</span></div>
+<p style="color: var(--text-tertiary); font-size: var(--text-sm); margin-bottom: var(--space-lg);">For practicing architects</p>
+<ul>
+<li>Everything in Free</li>
+<li>Priority compute resources</li>
+<li>Advanced export options</li>
+<li>Commercial use license</li>
+<li>Priority support</li>
+<li>Custom branding</li>
+</ul>
+</div>
+<div class="pricing-tier">
+<h4>Team</h4>
+<div class="price">Custom</div>
+<p style="color: var(--text-tertiary); font-size: var(--text-sm); margin-bottom: var(--space-lg);">For design firms</p>
+<ul>
+<li>Everything in Professional</li>
+<li>Team collaboration tools</li>
+<li>SSO and admin controls</li>
+<li>Private marketplace</li>
+<li>Custom development support</li>
+<li>Dedicated account manager</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="review-section" id="comparison">
+<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg> Comparison with Alternatives</h2>
+<table class="comparison-table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Hypar</th>
+<th>Finch 3D</th>
+<th>TestFit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cloud-Based</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Fully</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Yes</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Yes</td>
+</tr>
+<tr>
+<td>API Access</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Full API</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Limited</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> No</td>
+</tr>
+<tr>
+<td>Marketplace</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Open</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> No</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> No</td>
+</tr>
+<tr>
+<td>Learning Curve</td>
+<td>Moderate</td>
+<td>Steep</td>
+<td>Easy</td>
+</tr>
+<tr>
+<td>Free Tier</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Available</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Available</td>
+<td><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Paid only</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="review-section" id="use-cases">
+<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg> Best Use Cases</h2>
+<div class="use-case-grid">
+<div class="use-case-item"><div class="icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 21h18M9 8h1m-1 4h1m4-4h1m-1 4h1M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/></svg></div><h4>Office Buildings</h4><p>Space planning automation</p></div>
+<div class="use-case-item"><div class="icon">🅿️</div><h4>Parking Structures</h4><p>Layout optimization</p></div>
+<div class="use-case-item"><div class="icon">🏘️</div><h4>Multi-Family</h4><p>Unit layout generation</p></div>
+<div class="use-case-item"><div class="icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="10" rx="2" width="18" x="3" y="11"></rect><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle><path d="M9 7L9 9M15 7L15 9M12 2v5"></path></svg></div><h4>Design Automation</h4><p>Repetitive task elimination</p></div>
+<div class="use-case-item"><div class="icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="14" rx="2" width="20" x="2" y="3"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg></div><h4>Tech-Savvy Firms</h4><p>Custom tool development</p></div>
+<div class="use-case-item"><div class="icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 3v9l-6 6a3 3 0 1 0 4.24 4.24L13 16.5V3"></path><path d="M9 3h6v6"></path><path d="M11 19.5L18.5 12"></path></svg></div><h4>Research Projects</h4><p>Computational design studies</p></div>
+</div>
+</section>
+<section class="review-section" id="pricing">
+<h2><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Pricing</h2>
+<p>Flexible pricing options for different needs:</p>
+<div class="features-grid">
+<div class="feature-card"><h4>Free Plan</h4><p>Basic features with limitations</p></div>
+<div class="feature-card"><h4>Pro/Plus</h4><p>$10-25/month for individuals</p></div>
+<div class="feature-card"><h4>Team/Business</h4><p>$15-40/user/month for teams</p></div>
+<div class="feature-card"><h4>Enterprise</h4><p>Custom pricing for large organizations</p></div>
+<div class="feature-card"><h4>Annual Savings</h4><p>20-40% discount on annual plans</p></div>
+<div class="feature-card"><h4>Free Trial</h4><p>Test all features risk-free</p></div>
+</div>
+</section>
+<section class="review-section" id="use-cases">
+<h2><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg> Best Use Cases</h2>
+<h3>Ideal For:</h3>
+<ul>
+<li><strong>Professionals:</strong> Individuals seeking enhanced productivity and efficiency</li>
+<li><strong>Teams:</strong> Collaborative environments requiring coordination</li>
+<li><strong>Enterprises:</strong> Large organizations with complex workflows</li>
+<li><strong>Remote Workers:</strong> Distributed teams needing communication tools</li>
+<li><strong>Startups:</strong> Growing companies scaling operations</li>
+<li><strong>Specific Industries:</strong> Healthcare, architecture, education, etc.</li>
+</ul>
+<h3>May Not Be Ideal For:</h3>
+<ul>
+<li>Users with very basic requirements</li>
+<li>Organizations with strict data residency needs</li>
+<li>Teams unwilling to adopt new workflows</li>
+</ul>
+</section>
+<section class="review-section" id="comparison">
+<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg> Comparison</h2>
+<h3>Platform Evaluation</h3>
+<div class="pros-cons-grid">
+<div class="pros-card">
+<h3>Key Strengths</h3>
+<ul>
+<li>Advanced AI capabilities</li>
+<li>Intuitive user experience</li>
+<li>Strong integration ecosystem</li>
+<li>Regular feature updates</li>
+</ul>
+</div>
+<div class="pros-card">
+<h3>Competitive Edge</h3>
+<ul>
+<li>Market-leading position</li>
+<li>Proven track record</li>
+<li>Excellent support</li>
+<li>Active community</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- Screenshots Section -->
+<section class="container-custom section-padding" id="screenshots">
+        <h2><span data-i18n="review.common.screenshots.interface">Screenshots & Interface</span></h2>
+        <p>Explore Hypar's interface:</p>
+
+        <div class="screenshots-gallery-enhanced">
+            <div class="screenshot-card">
+                <img src="../../../assets/screenshots/architecture/hypar.png" alt="Hypar Logo">
+                <div class="screenshot-overlay">
+                    <div class="screenshot-title">Main Interface</div>
+                    <div class="screenshot-description">Overview of the main interface and features</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="review-section" id="faq">
+<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" x2="12.01" y1="17" y2="17"></line></svg> Frequently Asked Questions</h2>
+<div class="feature-card" style="margin-bottom: var(--space-md);">
+<h4>What are the main pricing tiers?</h4>
+<p>Typical tiers include free (limited features), individual/pro ($10-25/month), team/business ($15-40/user/month), and enterprise (custom pricing).</p>
+</div>
+<div class="feature-card" style="margin-bottom: var(--space-md);">
+<h4>Is there a free version available?</h4>
+<p>Most platforms offer a free tier with basic features. Premium tiers unlock advanced capabilities, higher usage limits, and priority support.</p>
+</div>
+<div class="feature-card" style="margin-bottom: var(--space-md);">
+<h4>How does it integrate with other tools?</h4>
+<p>Integrations typically include popular productivity tools, communication platforms, project management systems, and industry-specific software.</p>
+</div>
+<div class="feature-card" style="margin-bottom: var(--space-md);">
+<h4>What kind of support is provided?</h4>
+<p>Support ranges from community forums and documentation (free tier) to email support (paid), and dedicated account managers (enterprise).</p>
+</div>
+<div class="feature-card" style="margin-bottom: var(--space-md);">
+<h4>Can I try before committing?</h4>
+<p>Yes, free trials or freemium models allow testing features before purchasing. Trial periods typically range from 7-30 days.</p>
+</div>
+</section>
+<section class="review-section" id="verdict">
+<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path></svg> Final Verdict</h2>
+<div class="verdict-box">
+<div class="verdict-score">4.6/5</div>
+<div class="verdict-label">Excellent</div>
+<p style="margin-top: var(--space-lg); color: var(--text-secondary); max-width: 600px; margin-left: auto; margin-right: auto;">Hypar represents the future of computational design—a marketplace of reusable building intelligence. While it requires more technical know-how than traditional tools, the payoff is enormous for firms that invest in learning it. The API-first approach and open marketplace make it ideal for forward-thinking practices looking to build competitive advantages through design automation. Highly recommended for tech-savvy architects and developers.</p>
+<div class="rating-breakdown">
+<div class="rating-row"><span class="label">Innovation</span><div class="bar"><div class="bar-fill" style="width: 95%;"></div></div><span class="score">9.5</span></div>
+<div class="rating-row"><span class="label">API Quality</span><div class="bar"><div class="bar-fill" style="width: 92%;"></div></div><span class="score">9.2</span></div>
+<div class="rating-row"><span class="label">Ease of Use</span><div class="bar"><div class="bar-fill" style="width: 78%;"></div></div><span class="score">7.8</span></div>
+<div class="rating-row"><span class="label">Value for Money</span><div class="bar"><div class="bar-fill" style="width: 90%;"></div></div><span class="score">9.0</span></div>
+<div class="rating-row"><span class="label">Marketplace</span><div class="bar"><div class="bar-fill" style="width: 82%;"></div></div><span class="score">8.2</span></div>
+</div>
+<div class="cta-buttons">
+<a class="btn btn-primary" href="#" rel="nofollow sponsored">Start Free →</a>
+<a class="btn btn-outline" href="../../categories/ai-architecture.html">Compare Alternatives</a>
+</div>
+</div>
+</section>
+<section class="review-section" id="faq">
+<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" x2="12.01" y1="17" y2="17"></line></svg> Frequently Asked Questions</h2>
+<div class="faq-item"><div class="faq-question">Do I need programming skills to use Hypar?</div><div class="faq-answer">Not for basic use. The marketplace configurators can be used without any coding. However, creating custom functions or advanced workflows benefits from programming knowledge, particularly C# or Python.</div></div>
+<div class="faq-item"><div class="faq-question">Can I monetize configurators I create?</div><div class="faq-answer">Yes, Hypar allows developers to publish paid configurators to the marketplace. You set your own pricing and earn revenue when other users purchase your tools.</div></div>
+<div class="faq-item"><div class="faq-question">How does Hypar compare to Grasshopper?</div><div class="faq-answer">Hypar is cloud-based and more accessible for sharing tools, while Grasshopper is local and requires Rhino. Hypar focuses on reusable building blocks and API access, while Grasshopper offers more flexibility for one-off parametric scripts.</div></div>
+<div class="faq-item"><div class="faq-question">Can I export to Revit or other BIM software?</div><div class="faq-answer">Yes, Hypar supports export to Revit (RVT), IFC, DWG, and other common formats. The quality of the export depends on the complexity of your model and which configurators you used.</div></div>
+<div class="faq-item"><div class="faq-question">Is there a limit to model complexity on the free tier?</div><div class="faq-answer">The free tier has compute limits rather than model complexity limits. Simple models process quickly, while complex calculations may require a Professional account for adequate computational resources.</div></div>
+<div class="faq-item"><div class="faq-question">Can I use Hypar offline?</div><div class="faq-answer">No, Hypar is a fully cloud-based platform and requires an internet connection. All geometry processing happens on Hypar's servers, which is what enables the powerful computational capabilities.</div></div>
+</section>
+</main>
+<aside class="review-sidebar">
+<div class="sidebar-card">
+<h3>Quick Stats</h3>
+<div class="quick-stats">
+<div class="stat-row"><span class="stat-label">Rating</span><span class="stat-value">4.6/5 ★</span></div>
+<div class="stat-row"><span class="stat-label">Users</span><span class="stat-value">15K+</span></div>
+<div class="stat-row"><span class="stat-label">Free Tier</span><span class="stat-value">Yes</span></div>
+<div class="stat-row"><span class="stat-label">Starting Price</span><span class="stat-value">Free</span></div>
+<div class="stat-row"><span class="stat-label">Best For</span><span class="stat-value">Automation</span></div>
+<div class="stat-row"><span class="stat-label">Launch Year</span><span class="stat-value">2018</span></div>
+</div>
+</div>
+<div class="sidebar-card">
+<h3>Table of Contents</h3>
+<ul class="toc-list">
+<li><a href="#overview">Overview</a></li>
+<li><a href="#features">Key Features</a></li>
+<li><a href="#pros-cons">Pros &amp; Cons</a></li>
+<li><a href="#pricing">Pricing</a></li>
+<li><a href="#comparison">Comparison</a></li>
+<li><a href="#use-cases">Use Cases</a></li>
+<li><a href="#verdict">Verdict</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+</div>
+<div class="sidebar-card" style="background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(34, 211, 238, 0.2));">
+<h3>Try Hypar</h3>
+<p style="font-size: var(--text-sm); color: var(--text-secondary); margin-bottom: var(--space-md);">Start with the free tier and explore the marketplace.</p>
+<a class="btn btn-primary" href="#" rel="nofollow sponsored" style="width: 100%; text-align: center;">Get Started Free →</a>
+</div>
+</aside>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand"><a class="footer-logo" href="../../../index.html">
+<img alt="GenuisNet.ai Logo" src="../../../assets/images/logo-neon.svg" style="height: 40px; width: auto;"/>
+</a><p class="footer-desc">Your trusted source for AI tool reviews, comparisons, and guides.</p></div>
+<div class="footer-links"><h4>Categories</h4><ul><li><a href="../../categories/ai-chatbots.html">AI Chatbots</a></li><li><a href="../../categories/ai-coding.html">AI Coding</a></li><li><a href="../../categories/ai-architecture.html">AI Architecture Tools</a></li><li><a href="../../categories/ai-cybersecurity.html">AI Cybersecurity</a></li></ul></div>
+<div class="footer-links"><h4>Resources</h4><ul><li><a href="../../guides.html"><span data-i18n="nav.guides">Guides</span></a></li><li><a href="../../comparisons.html">Comparisons</a></li><li><a href="../../about.html"><span data-i18n="nav.about">About</span></a></li></ul></div>
+</div>
+<div class="footer-bottom"><p class="copyright">© 2026 GenuisNet.ai. All rights reserved.</p><p class="affiliate-notice">Some links may be affiliate links.</p></div>
+</div>
+</footer>
+<script src="../../../js/main.js"></script>
+<script>
+        document.querySelectorAll('.faq-question').forEach(q => { q.addEventListener('click', () => { const a = q.nextElementSibling; const isOpen = a.style.maxHeight; document.querySelectorAll('.faq-answer').forEach(x => { x.style.maxHeight = null; x.style.paddingTop = '0'; }); if (!isOpen) { a.style.maxHeight = a.scrollHeight + 'px'; a.style.paddingTop = 'var(--space-sm)'; } }); });
+        document.querySelectorAll('.toc-list a').forEach(l => { l.addEventListener('click', (e) => { e.preventDefault(); document.querySelector(l.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' }); }); });
+    </script>
+<script src="../../../js/i18n.js"></script>
+<script src="../../../js/auto-translate.js"></script>
+</body>
+</html>

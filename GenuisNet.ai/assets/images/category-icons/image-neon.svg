@@ -1,0 +1,22 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad-image" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#F472B6;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+        </linearGradient>
+        <filter id="glow-image">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Palette shape -->
+    <path d="M 60 25 C 38 25 20 43 20 65 C 20 87 38 95 50 95 C 54 95 58 93 62 90 C 66 93 70 95 75 95 C 87 95 100 87 100 65 C 100 43 82 25 60 25 Z" stroke="url(#grad-image)" stroke-width="3" fill="none" filter="url(#glow-image)"/>
+    <!-- Paint dots -->
+    <circle cx="45" cy="50" r="5" fill="url(#grad-image)" filter="url(#glow-image)"/>
+    <circle cx="65" cy="45" r="5" fill="url(#grad-image)" filter="url(#glow-image)"/>
+    <circle cx="75" cy="60" r="5" fill="url(#grad-image)" filter="url(#glow-image)"/>
+    <circle cx="50" cy="70" r="5" fill="url(#grad-image)" filter="url(#glow-image)"/>
+</svg>

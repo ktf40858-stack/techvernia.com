@@ -1,0 +1,2018 @@
+[
+  {
+    "name": "alteryx-ai",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/alteryx-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "amazon-quicksight-q",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/amazon-quicksight-q.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "datarobot",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/datarobot.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "domo-ai",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/domo-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "h2oai",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/h2oai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "looker-ai",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/looker-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "microstrategy-ai",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/microstrategy-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "mode-analytics",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/mode-analytics.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "power-bi-copilot",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/power-bi-copilot.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "prophet-meta",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/prophet-meta.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "qlik-sense-ai",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/qlik-sense-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "sisense-ai",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/sisense-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "tableau-pulse",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/tableau-pulse.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "thoughtspot",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/thoughtspot.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "yellowfin-ai",
+    "category": "analytics",
+    "html_file": "pages/reviews/analytics/yellowfin-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "architechtures",
+    "category": "architecture",
+    "html_file": "pages/reviews/architecture/architechtures.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "arko-ai",
+    "category": "architecture",
+    "html_file": "pages/reviews/architecture/arko-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "finch3d",
+    "category": "architecture",
+    "html_file": "pages/reviews/architecture/finch3d.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "hypar",
+    "category": "architecture",
+    "html_file": "pages/reviews/architecture/hypar.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "maket-ai",
+    "category": "architecture",
+    "html_file": "pages/reviews/architecture/maket-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "spacemaker-ai",
+    "category": "architecture",
+    "html_file": "pages/reviews/architecture/spacemaker-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "testfit",
+    "category": "architecture",
+    "html_file": "pages/reviews/architecture/testfit.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "veras-ai",
+    "category": "architecture",
+    "html_file": "pages/reviews/architecture/veras-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "descript",
+    "category": "audio",
+    "html_file": "pages/reviews/audio/descript.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "elevenlabs",
+    "category": "audio",
+    "html_file": "pages/reviews/audio/elevenlabs.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/audio/elevenlabs.png"
+  },
+  {
+    "name": "murf-ai",
+    "category": "audio",
+    "html_file": "pages/reviews/audio/murf-ai.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/audio/murf-ai.png"
+  },
+  {
+    "name": "playht",
+    "category": "audio",
+    "html_file": "pages/reviews/audio/playht.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "resemble-ai",
+    "category": "audio",
+    "html_file": "pages/reviews/audio/resemble-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "speechify",
+    "category": "audio",
+    "html_file": "pages/reviews/audio/speechify.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "suno-ai",
+    "category": "audio",
+    "html_file": "pages/reviews/audio/suno-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "udio",
+    "category": "audio",
+    "html_file": "pages/reviews/audio/udio.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "chorusai",
+    "category": "business",
+    "html_file": "pages/reviews/business/chorusai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "conversica",
+    "category": "business",
+    "html_file": "pages/reviews/business/conversica.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "drift",
+    "category": "business",
+    "html_file": "pages/reviews/business/drift.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "gong",
+    "category": "business",
+    "html_file": "pages/reviews/business/gong.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "hubspot-ai",
+    "category": "business",
+    "html_file": "pages/reviews/business/hubspot-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "looker",
+    "category": "business",
+    "html_file": "pages/reviews/business/looker.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "salesforce-einstein",
+    "category": "business",
+    "html_file": "pages/reviews/business/salesforce-einstein.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "tableau",
+    "category": "business",
+    "html_file": "pages/reviews/business/tableau.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "chatgpt",
+    "category": "chatbots",
+    "html_file": "pages/reviews/chatbots/chatgpt.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/chatbots/chatgpt.png"
+  },
+  {
+    "name": "claude",
+    "category": "chatbots",
+    "html_file": "pages/reviews/chatbots/claude.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "copilot",
+    "category": "chatbots",
+    "html_file": "pages/reviews/chatbots/copilot.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/chatbots/copilot.png"
+  },
+  {
+    "name": "deepseek",
+    "category": "chatbots",
+    "html_file": "pages/reviews/chatbots/deepseek.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "gemini",
+    "category": "chatbots",
+    "html_file": "pages/reviews/chatbots/gemini.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/chatbots/gemini.png"
+  },
+  {
+    "name": "grok",
+    "category": "chatbots",
+    "html_file": "pages/reviews/chatbots/grok.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "perplexity",
+    "category": "chatbots",
+    "html_file": "pages/reviews/chatbots/perplexity.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/chatbots/perplexity.png"
+  },
+  {
+    "name": "poe",
+    "category": "chatbots",
+    "html_file": "pages/reviews/chatbots/poe.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/chatbots/poe.png"
+  },
+  {
+    "name": "codeium",
+    "category": "coding",
+    "html_file": "pages/reviews/coding/codeium.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/coding/codeium.png"
+  },
+  {
+    "name": "codewhisperer",
+    "category": "coding",
+    "html_file": "pages/reviews/coding/codewhisperer.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "cursor",
+    "category": "coding",
+    "html_file": "pages/reviews/coding/cursor.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/coding/cursor.png"
+  },
+  {
+    "name": "deepseek-coder",
+    "category": "coding",
+    "html_file": "pages/reviews/coding/deepseek-coder.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "github-copilot",
+    "category": "coding",
+    "html_file": "pages/reviews/coding/github-copilot.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/coding/github-copilot.png"
+  },
+  {
+    "name": "replit",
+    "category": "coding",
+    "html_file": "pages/reviews/coding/replit.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "tabnine",
+    "category": "coding",
+    "html_file": "pages/reviews/coding/tabnine.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/coding/tabnine.png"
+  },
+  {
+    "name": "windsurf",
+    "category": "coding",
+    "html_file": "pages/reviews/coding/windsurf.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ada",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/ada.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/customer-service/ada.png"
+  },
+  {
+    "name": "certainly",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/certainly.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "cognigy",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/cognigy.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "drift",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/drift.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/customer-service/drift.png"
+  },
+  {
+    "name": "forethought",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/forethought.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/customer-service/forethought.png"
+  },
+  {
+    "name": "freshdesk-ai",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/freshdesk-ai.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/customer-service/freshdesk-ai.png"
+  },
+  {
+    "name": "helpshift",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/helpshift.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "intercom-fin",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/intercom-fin.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/customer-service/intercom-fin.png"
+  },
+  {
+    "name": "kustomer",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/kustomer.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/customer-service/kustomer.png"
+  },
+  {
+    "name": "liveperson",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/liveperson.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/customer-service/liveperson.png"
+  },
+  {
+    "name": "netomi",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/netomi.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "polyai",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/polyai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ultimateai",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/ultimateai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "yellowai",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/yellowai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "zendesk-ai",
+    "category": "customer-service",
+    "html_file": "pages/reviews/customer-service/zendesk-ai.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/customer-service/zendesk-ai.png"
+  },
+  {
+    "name": "abnormal-security",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/abnormal-security.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "carbon-black",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/carbon-black.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "cisco-securex",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/cisco-securex.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "cortex-xdr",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/cortex-xdr.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "crowdstrike",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/crowdstrike.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "cyberark",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/cyberark.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "cybereason",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/cybereason.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "cylance",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/cylance.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "darktrace",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/darktrace.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "exabeam",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/exabeam.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "fortinet",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/fortinet.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ibm-qradar",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/ibm-qradar.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "lacework",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/lacework.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "mcafee-mvision",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/mcafee-mvision.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "microsoft-sentinel",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/microsoft-sentinel.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "okta",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/okta.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "palo-alto-ngfw",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/palo-alto-ngfw.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "qualys",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/qualys.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "rapid7",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/rapid7.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "recorded-future",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/recorded-future.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "sentinelone",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/sentinelone.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "snyk",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/snyk.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "sophos-interceptx",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/sophos-interceptx.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "splunk-security",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/splunk-security.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "symantec-endpoint",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/symantec-endpoint.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "tenable",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/tenable.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "trend-micro-vision-one",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/trend-micro-vision-one.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "vectra-ai",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/vectra-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "wiz",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/wiz.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "zerofox",
+    "category": "cybersecurity",
+    "html_file": "pages/reviews/cybersecurity/zerofox.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "aleks",
+    "category": "education",
+    "html_file": "pages/reviews/education/aleks.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "carnegie-learning",
+    "category": "education",
+    "html_file": "pages/reviews/education/carnegie-learning.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "century-tech",
+    "category": "education",
+    "html_file": "pages/reviews/education/century-tech.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "cognii",
+    "category": "education",
+    "html_file": "pages/reviews/education/cognii.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "coursera-coach",
+    "category": "education",
+    "html_file": "pages/reviews/education/coursera-coach.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "duolingo-max",
+    "category": "education",
+    "html_file": "pages/reviews/education/duolingo-max.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "gradescope",
+    "category": "education",
+    "html_file": "pages/reviews/education/gradescope.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "khan-academy-ai",
+    "category": "education",
+    "html_file": "pages/reviews/education/khan-academy-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "knewton-alta",
+    "category": "education",
+    "html_file": "pages/reviews/education/knewton-alta.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "querium",
+    "category": "education",
+    "html_file": "pages/reviews/education/querium.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "quizlet-ai",
+    "category": "education",
+    "html_file": "pages/reviews/education/quizlet-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "socratic-by-google",
+    "category": "education",
+    "html_file": "pages/reviews/education/socratic-by-google.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "squirrel-ai",
+    "category": "education",
+    "html_file": "pages/reviews/education/squirrel-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "thinkster-math",
+    "category": "education",
+    "html_file": "pages/reviews/education/thinkster-math.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "artomatix",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/artomatix.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "charismaai",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/charismaai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "hidden-door",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/hidden-door.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "inworld-ai",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/inworld-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "latitude-ai-dungeon",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/latitude-ai-dungeon.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ludoai",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/ludoai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "promethean-ai",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/promethean-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "rct-ai",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/rct-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "replika",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/replika.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "rosebud-ai",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/rosebud-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "scenario",
+    "category": "gaming",
+    "html_file": "pages/reviews/gaming/scenario.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "beamery",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/beamery.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "eightfold-ai",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/eightfold-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "fetcher",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/fetcher.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "findem",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/findem.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "harver",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/harver.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "hirevue",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/hirevue.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "humanly",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/humanly.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "paradox-olivia",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/paradox-olivia.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "phenom",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/phenom.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "pymetrics",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/pymetrics.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "seekout",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/seekout.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "sense",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/sense.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "textio",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/textio.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "workable-ai",
+    "category": "hr",
+    "html_file": "pages/reviews/hr/workable-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "adobe-firefly",
+    "category": "image",
+    "html_file": "pages/reviews/image/adobe-firefly.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/image/adobe-firefly.png"
+  },
+  {
+    "name": "canva-ai",
+    "category": "image",
+    "html_file": "pages/reviews/image/canva-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "clipdrop",
+    "category": "image",
+    "html_file": "pages/reviews/image/clipdrop.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "dall-e-3",
+    "category": "image",
+    "html_file": "pages/reviews/image/dall-e-3.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ideogram",
+    "category": "image",
+    "html_file": "pages/reviews/image/ideogram.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/image/ideogram.png"
+  },
+  {
+    "name": "leonardo-ai",
+    "category": "image",
+    "html_file": "pages/reviews/image/leonardo-ai.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/image/leonardo-ai.png"
+  },
+  {
+    "name": "midjourney",
+    "category": "image",
+    "html_file": "pages/reviews/image/midjourney.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/image/midjourney.png"
+  },
+  {
+    "name": "stable-diffusion",
+    "category": "image",
+    "html_file": "pages/reviews/image/stable-diffusion.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/image/stable-diffusion.png"
+  },
+  {
+    "name": "blue-j-legal",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/blue-j-legal.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "casetext",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/casetext.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "cocounsel",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/cocounsel.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "everlaw",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/everlaw.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "harvey-ai",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/harvey-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "kira-systems",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/kira-systems.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "lawgeex",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/lawgeex.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "lex-machina",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/lex-machina.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "luminance",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/luminance.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "primer",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/primer.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ravel-law",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/ravel-law.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ross-intelligence",
+    "category": "legal",
+    "html_file": "pages/reviews/legal/ross-intelligence.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "aidoc",
+    "category": "medical",
+    "html_file": "pages/reviews/medical/aidoc.html",
+    "url": "https://www.aidoc.com",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "butterfly-iq",
+    "category": "medical",
+    "html_file": "pages/reviews/medical/butterfly-iq.html",
+    "url": "https://www.butterflynetwork.com",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "nuance-dragon",
+    "category": "medical",
+    "html_file": "pages/reviews/medical/nuance-dragon.html",
+    "url": "https://www.nuance.com/healthcare/dragon-medical.html",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "paige-ai",
+    "category": "medical",
+    "html_file": "pages/reviews/medical/paige-ai.html",
+    "url": "https://paige.ai",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "pathai",
+    "category": "medical",
+    "html_file": "pages/reviews/medical/pathai.html",
+    "url": "https://www.pathai.com",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "tempus",
+    "category": "medical",
+    "html_file": "pages/reviews/medical/tempus.html",
+    "url": "https://www.tempus.com",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "viz-ai",
+    "category": "medical",
+    "html_file": "pages/reviews/medical/viz-ai.html",
+    "url": "https://www.viz.ai",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "zebra-medical",
+    "category": "medical",
+    "html_file": "pages/reviews/medical/zebra-medical.html",
+    "url": "https://www.nanox.vision/ai",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ansible",
+    "category": "networking",
+    "html_file": "pages/reviews/networking/ansible.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "cisco-ai",
+    "category": "networking",
+    "html_file": "pages/reviews/networking/cisco-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "datadog",
+    "category": "networking",
+    "html_file": "pages/reviews/networking/datadog.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "juniper-mist",
+    "category": "networking",
+    "html_file": "pages/reviews/networking/juniper-mist.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "prtg",
+    "category": "networking",
+    "html_file": "pages/reviews/networking/prtg.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "splunk",
+    "category": "networking",
+    "html_file": "pages/reviews/networking/splunk.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "terraform",
+    "category": "networking",
+    "html_file": "pages/reviews/networking/terraform.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "zabbix",
+    "category": "networking",
+    "html_file": "pages/reviews/networking/zabbix.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "clickup-ai",
+    "category": "productivity",
+    "html_file": "pages/reviews/productivity/clickup-ai.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/productivity/clickup-ai.png"
+  },
+  {
+    "name": "firefliesai",
+    "category": "productivity",
+    "html_file": "pages/reviews/productivity/firefliesai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "mem-ai",
+    "category": "productivity",
+    "html_file": "pages/reviews/productivity/mem-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "motion",
+    "category": "productivity",
+    "html_file": "pages/reviews/productivity/motion.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "notion-ai",
+    "category": "productivity",
+    "html_file": "pages/reviews/productivity/notion-ai.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/productivity/notion-ai.png"
+  },
+  {
+    "name": "otterai",
+    "category": "productivity",
+    "html_file": "pages/reviews/productivity/otterai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "reclaim-ai",
+    "category": "productivity",
+    "html_file": "pages/reviews/productivity/reclaim-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "zapier",
+    "category": "productivity",
+    "html_file": "pages/reviews/productivity/zapier.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "amazon-braket",
+    "category": "quantum",
+    "html_file": "pages/reviews/quantum/amazon-braket.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "azure-quantum",
+    "category": "quantum",
+    "html_file": "pages/reviews/quantum/azure-quantum.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "d-wave-leap",
+    "category": "quantum",
+    "html_file": "pages/reviews/quantum/d-wave-leap.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "google-cirq",
+    "category": "quantum",
+    "html_file": "pages/reviews/quantum/google-cirq.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ibm-quantum",
+    "category": "quantum",
+    "html_file": "pages/reviews/quantum/ibm-quantum.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ionq",
+    "category": "quantum",
+    "html_file": "pages/reviews/quantum/ionq.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "rigetti-qcs",
+    "category": "quantum",
+    "html_file": "pages/reviews/quantum/rigetti-qcs.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "xanadu-pennylane",
+    "category": "quantum",
+    "html_file": "pages/reviews/quantum/xanadu-pennylane.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "connected-papers",
+    "category": "research",
+    "html_file": "pages/reviews/research/connected-papers.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/research/connected-papers.png"
+  },
+  {
+    "name": "consensus",
+    "category": "research",
+    "html_file": "pages/reviews/research/consensus.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/research/consensus.png"
+  },
+  {
+    "name": "elicit",
+    "category": "research",
+    "html_file": "pages/reviews/research/elicit.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/research/elicit.png"
+  },
+  {
+    "name": "irisai",
+    "category": "research",
+    "html_file": "pages/reviews/research/irisai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "litmaps",
+    "category": "research",
+    "html_file": "pages/reviews/research/litmaps.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/research/litmaps.png"
+  },
+  {
+    "name": "perplexity-research",
+    "category": "research",
+    "html_file": "pages/reviews/research/perplexity-research.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "researchrabbit",
+    "category": "research",
+    "html_file": "pages/reviews/research/researchrabbit.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/research/researchrabbit.png"
+  },
+  {
+    "name": "scholarcy",
+    "category": "research",
+    "html_file": "pages/reviews/research/scholarcy.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/research/scholarcy.png"
+  },
+  {
+    "name": "scispace",
+    "category": "research",
+    "html_file": "pages/reviews/research/scispace.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/research/scispace.png"
+  },
+  {
+    "name": "scite",
+    "category": "research",
+    "html_file": "pages/reviews/research/scite.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/research/scite.png"
+  },
+  {
+    "name": "semantic-scholar",
+    "category": "research",
+    "html_file": "pages/reviews/research/semantic-scholar.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/research/semantic-scholar.png"
+  },
+  {
+    "name": "undermind",
+    "category": "research",
+    "html_file": "pages/reviews/research/undermind.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "6sense",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/6sense.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "apolloio",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/apolloio.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "attention",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/attention.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "chorusai",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/chorusai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "clari",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/clari.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "conversica",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/conversica.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "exceedai",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/exceedai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "gong",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/gong.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "hubspot-ai",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/hubspot-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "insidesales",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/insidesales.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "lavender",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/lavender.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "outreach",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/outreach.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "peopleai",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/peopleai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "regieai",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/regieai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "salesforce-einstein-gpt",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/salesforce-einstein-gpt.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "troopsai",
+    "category": "sales",
+    "html_file": "pages/reviews/sales/troopsai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "ahrefs",
+    "category": "seo",
+    "html_file": "pages/reviews/seo/ahrefs.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "clearscope",
+    "category": "seo",
+    "html_file": "pages/reviews/seo/clearscope.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "frase",
+    "category": "seo",
+    "html_file": "pages/reviews/seo/frase.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "marketmuse",
+    "category": "seo",
+    "html_file": "pages/reviews/seo/marketmuse.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "neuronwriter",
+    "category": "seo",
+    "html_file": "pages/reviews/seo/neuronwriter.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "scalenut",
+    "category": "seo",
+    "html_file": "pages/reviews/seo/scalenut.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "semrush",
+    "category": "seo",
+    "html_file": "pages/reviews/seo/semrush.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "surfer-seo",
+    "category": "seo",
+    "html_file": "pages/reviews/seo/surfer-seo.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "deepl-pro",
+    "category": "translation",
+    "html_file": "pages/reviews/translation/deepl-pro.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "google-translate-ai",
+    "category": "translation",
+    "html_file": "pages/reviews/translation/google-translate-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "lilt",
+    "category": "translation",
+    "html_file": "pages/reviews/translation/lilt.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "lokalise",
+    "category": "translation",
+    "html_file": "pages/reviews/translation/lokalise.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "microsoft-translator",
+    "category": "translation",
+    "html_file": "pages/reviews/translation/microsoft-translator.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "modernmt",
+    "category": "translation",
+    "html_file": "pages/reviews/translation/modernmt.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "phrase",
+    "category": "translation",
+    "html_file": "pages/reviews/translation/phrase.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "smartling",
+    "category": "translation",
+    "html_file": "pages/reviews/translation/smartling.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "systran",
+    "category": "translation",
+    "html_file": "pages/reviews/translation/systran.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "unbabel",
+    "category": "translation",
+    "html_file": "pages/reviews/translation/unbabel.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "heygen",
+    "category": "video",
+    "html_file": "pages/reviews/video/heygen.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "invideo",
+    "category": "video",
+    "html_file": "pages/reviews/video/invideo.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "kapwing",
+    "category": "video",
+    "html_file": "pages/reviews/video/kapwing.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "kling-ai",
+    "category": "video",
+    "html_file": "pages/reviews/video/kling-ai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "lumen5",
+    "category": "video",
+    "html_file": "pages/reviews/video/lumen5.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "pictory",
+    "category": "video",
+    "html_file": "pages/reviews/video/pictory.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/video/pictory.png"
+  },
+  {
+    "name": "runway",
+    "category": "video",
+    "html_file": "pages/reviews/video/runway.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/video/runway.png"
+  },
+  {
+    "name": "synthesia",
+    "category": "video",
+    "html_file": "pages/reviews/video/synthesia.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/video/synthesia.png"
+  },
+  {
+    "name": "copyai",
+    "category": "writing",
+    "html_file": "pages/reviews/writing/copyai.html",
+    "url": "",
+    "screenshot_exists": false,
+    "screenshot_path": ""
+  },
+  {
+    "name": "grammarly",
+    "category": "writing",
+    "html_file": "pages/reviews/writing/grammarly.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/writing/grammarly.png"
+  },
+  {
+    "name": "jasper-ai",
+    "category": "writing",
+    "html_file": "pages/reviews/writing/jasper-ai.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/writing/jasper-ai.png"
+  },
+  {
+    "name": "quillbot",
+    "category": "writing",
+    "html_file": "pages/reviews/writing/quillbot.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/writing/quillbot.png"
+  },
+  {
+    "name": "rytr",
+    "category": "writing",
+    "html_file": "pages/reviews/writing/rytr.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/writing/rytr.png"
+  },
+  {
+    "name": "wordtune",
+    "category": "writing",
+    "html_file": "pages/reviews/writing/wordtune.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/writing/wordtune.png"
+  },
+  {
+    "name": "writesonic",
+    "category": "writing",
+    "html_file": "pages/reviews/writing/writesonic.html",
+    "url": "",
+    "screenshot_exists": true,
+    "screenshot_path": "assets/screenshots/writing/writesonic.png"
+  }
+]

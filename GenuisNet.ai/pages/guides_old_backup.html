@@ -1,0 +1,1938 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete guides for AI tools. Learn how to use ChatGPT, AI coding tools, image generators, and more with our expert tutorials.">
+    <meta name="keywords" content="AI guides, AI tutorials, ChatGPT guide, AI tools how-to, learn AI">
+    <title>AI Tools Guides & Tutorials 2025 | GenuisNet.ai</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .guides-hero {
+            padding: calc(80px + var(--space-4xl)) var(--space-lg) var(--space-3xl);
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.03) 0%, rgba(124, 58, 237, 0.03) 100%);
+            text-align: center;
+        }
+        .guides-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: var(--space-xl);
+            margin-bottom: var(--space-4xl);
+        }
+        .guide-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-2xl);
+            overflow: hidden;
+            transition: all var(--transition-normal);
+            position: relative;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+        }
+        .guide-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--border-color-hover);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+        .guide-card-header {
+            padding: var(--space-2xl);
+            background: var(--bg-tertiary);
+            position: relative;
+            overflow: hidden;
+        }
+        .guide-card-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-card);
+        }
+        .guide-icon-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: var(--space-lg);
+        }
+        .guide-icon-neon {
+            width: 100px;
+            height: 100px;
+            border-radius: var(--radius-xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            transition: all var(--transition-normal);
+        }
+        .guide-card:hover .guide-icon-neon {
+            transform: scale(1.1) rotate(5deg);
+        }
+        .guide-card-body {
+            padding: var(--space-2xl);
+        }
+        .guide-card h3 {
+            font-size: var(--text-2xl);
+            font-weight: 700;
+            margin-bottom: var(--space-sm);
+            color: var(--text-primary);
+            text-align: center;
+        }
+        .guide-card .guide-level {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            border-radius: var(--radius-full);
+            font-size: var(--text-sm);
+            font-weight: 600;
+            margin-bottom: var(--space-md);
+        }
+        .level-beginner {
+            background: rgba(34, 197, 94, 0.1);
+            color: #22C55E;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+        .level-intermediate {
+            background: rgba(59, 130, 246, 0.1);
+            color: #3B82F6;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+        .level-advanced {
+            background: rgba(168, 85, 247, 0.1);
+            color: #A855F7;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+        }
+        .guide-description {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--space-lg);
+        }
+        .guide-meta {
+            display: flex;
+            gap: var(--space-lg);
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+            margin-top: var(--space-md);
+            padding-top: var(--space-md);
+            border-top: 1px solid var(--border-color);
+        }
+        .guide-meta-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+        }
+        .featured-guide {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.05), rgba(124, 58, 237, 0.05));
+            border: 2px solid;
+            border-image: linear-gradient(135deg, #00D9FF, #7C3AED) 1;
+        }
+        .featured-guide .guide-card-header {
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.1), rgba(124, 58, 237, 0.1));
+        }
+        .featured-badge {
+            position: absolute;
+            top: var(--space-md);
+            right: var(--space-md);
+            background: var(--gradient-primary);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: var(--radius-full);
+            font-size: var(--text-xs);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .section-divider {
+            margin: var(--space-4xl) 0;
+            text-align: center;
+        }
+        .section-divider h2 {
+            font-size: var(--text-3xl);
+            font-weight: 800;
+            margin-bottom: var(--space-sm);
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 0 30px rgba(var(--glow-rgb), 0.4), inset 0 0 15px rgba(var(--glow-rgb), 0.1); }
+            50% { box-shadow: 0 0 50px rgba(var(--glow-rgb), 0.7), inset 0 0 25px rgba(var(--glow-rgb), 0.2); }
+        }
+
+        /* Section Navigation Bar */
+        .section-nav {
+            position: sticky;
+            top: 70px;
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 900;
+            padding: var(--space-md) 0;
+            margin-top: var(--space-2xl);
+            opacity: 0;
+            transform: translateY(-20px);
+            transition: all 0.3s ease;
+        }
+
+        .section-nav.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section-nav-inner {
+            display: flex;
+            gap: var(--space-sm);
+            align-items: center;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .section-nav-inner::-webkit-scrollbar {
+            display: none;
+        }
+
+        .section-nav-item {
+            padding: 0.6rem 1.2rem;
+            background: transparent;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-full);
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+            font-weight: 600;
+            text-decoration: none;
+            white-space: nowrap;
+            transition: all var(--transition-fast);
+            cursor: pointer;
+        }
+
+        .section-nav-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--border-color-hover);
+            color: var(--text-primary);
+        }
+
+        .section-nav-item.active {
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(124, 58, 237, 0.2));
+            border-color: rgba(0, 217, 255, 0.5);
+            color: #00D9FF;
+        }
+            .category-card {
+            display: block;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            padding: var(--space-xl);
+            transition: all var(--transition-normal);
+        }
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-glow);
+            border-color: var(--border-color-hover);
+        }
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-lg);
+            margin-bottom: var(--space-md);
+            padding: var(--space-lg);
+            border-radius: var(--radius-lg);
+        }
+        .category-icon {
+            width: 72px;
+            height: 72px;
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .category-info {
+            flex: 1;
+        }
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--space-xl);
+            margin-bottom: var(--space-4xl);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Neural Network Background Animation -->
+    <canvas id="neural-bg"></canvas>
+
+    <!-- Floating Particles -->
+    <div id="particles-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo-neon.svg" alt="GenuisNet.ai Logo" style="height: 40px; width: auto;">
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link active" data-i18n="nav.home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle"><span data-i18n="nav.categories">Categories</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></a>
+                    <div class="dropdown-menu mega-menu">
+                        <svg width="0" height="0" style="position:absolute">
+                            <defs>
+                                <linearGradient id="gradient-chatbots-menu" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00D9FF"/>
+                                    <stop offset="100%" style="stop-color:#0066FF"/>
+                                </linearGradient>
+                                <linearGradient id="gradient-coding-menu" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#38BDF8"/>
+                                    <stop offset="100%" style="stop-color:#0EA5E9"/>
+                                </linearGradient>
+                                <linearGradient id="gradient-image-menu" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#F472B6"/>
+                                    <stop offset="100%" style="stop-color:#EC4899"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="mega-menu-grid">
+                            <a href="categories/ai-chatbots.html" class="mega-item">
+                                <span class="mega-icon icon-chatbots">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="url(#gradient-chatbots-menu)" stroke-width="1.5">
+                                        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <span class="mega-title">AI Chatbots</span>
+                                    <span class="mega-desc">ChatGPT, Claude, Gemini</span>
+                                </div>
+                            </a>
+                            <a href="categories/ai-coding.html" class="mega-item">
+                                <span class="mega-icon icon-coding">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="url(#gradient-coding-menu)" stroke-width="1.5">
+                                        <polyline points="16 18 22 12 16 6"/>
+                                        <polyline points="8 6 2 12 8 18"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <span class="mega-title">AI Coding</span>
+                                    <span class="mega-desc">Copilot, Cursor & more</span>
+                                </div>
+                            </a>
+                            <a href="categories/ai-image.html" class="mega-item">
+                                <span class="mega-icon icon-image">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="url(#gradient-image-menu)" stroke-width="1.5">
+                                        <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                        <circle cx="8.5" cy="8.5" r="1.5"/>
+                                        <polyline points="21 15 16 10 5 21"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <span class="mega-title">AI Image</span>
+                                    <span class="mega-desc">Midjourney, DALL-E</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="guides.html" class="nav-link active"><span data-i18n="nav.guides">Guides</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="comparisons.html" class="nav-link"><span data-i18n="nav.compare">Compare</span></a>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Language Selector -->
+                <div class="language-selector">
+                    <button class="lang-btn" id="lang-btn" aria-label="Select Language">
+                        <span class="lang-icon"><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+                        <span class="lang-current">EN</span>
+                        <svg class="chevron" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                        </svg>
+                    </button>
+                    <div class="lang-dropdown" id="lang-dropdown">
+                        <button class="lang-option active" data-lang="en">
+                            <span class="flag">🇺🇸</span> English
+                        </button>
+                        <button class="lang-option" data-lang="es">
+                            <span class="flag">🇪🇸</span> Español
+                        </button>
+                        <button class="lang-option" data-lang="fr">
+                            <span class="flag">🇫🇷</span> Français
+                        </button>
+                        <button class="lang-option" data-lang="de">
+                            <span class="flag">🇩🇪</span> Deutsch
+                        </button>
+                        <button class="lang-option" data-lang="pt">
+                            <span class="flag">🇧🇷</span> Português
+                        </button>
+                        <button class="lang-option" data-lang="zh">
+                            <span class="flag">🇨🇳</span> 中文
+                        </button>
+                        <button class="lang-option" data-lang="ja">
+                            <span class="flag">🇯🇵</span> 日本語
+                        </button>
+                        <button class="lang-option" data-lang="ko">
+                            <span class="flag">🇰🇷</span> 한국어
+                        </button>
+                        <button class="lang-option" data-lang="ar">
+                            <span class="flag">🇸🇦</span> العربية
+                        </button>
+                        <button class="lang-option" data-lang="hi">
+                            <span class="flag">🇮🇳</span> हिन्दी
+                        </button>
+                    </div>
+                </div>
+
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="guides-hero">
+        <div class="container">
+            <span class="section-badge">Learn AI Tools</span>
+            <h1 style="font-size: var(--text-5xl); font-weight: 800; margin: var(--space-lg) 0;">
+                Expert Guides & Tutorials
+            </h1>
+            <p style="font-size: var(--text-lg); color: var(--text-secondary); max-width: 700px; margin: 0 auto;">
+                Master AI tools with our comprehensive, step-by-step guides. From complete beginners to advanced users.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section Navigation Bar -->
+    <div class="section-nav" id="sectionNav">
+        <div class="container">
+            <div class="section-nav-inner">
+                <a href="#featured" class="section-nav-item active" data-section="featured">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right: 6px; vertical-align: middle;">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                    Featured
+                </a>
+                <a href="#by-category" class="section-nav-item" data-section="by-category">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right: 6px; vertical-align: middle;">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                    </svg>
+                    By Category
+                </a>
+                <a href="#beginner" class="section-nav-item" data-section="beginner">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right: 6px; vertical-align: middle;">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 16v-4"/>
+                        <path d="M12 8h.01"/>
+                    </svg>
+                    Beginner
+                </a>
+                <a href="#intermediate" class="section-nav-item" data-section="intermediate">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right: 6px; vertical-align: middle;">
+                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                        <polyline points="17 6 23 6 23 12"/>
+                    </svg>
+                    Intermediate
+                </a>
+                <a href="#advanced" class="section-nav-item" data-section="advanced">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" style="margin-right: 6px; vertical-align: middle;">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                    </svg>
+                    Advanced
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Guides Content -->
+    <section class="section">
+        <div class="container">
+            <!-- Featured Guide -->
+            <div id="featured"></div>
+            <a href="guides/ai-beginners-guide.html" class="guide-card featured-guide">
+                <span class="featured-badge"><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Start Here</span>
+                <div class="guide-card-header">
+                    <div class="guide-icon-container">
+                        <div class="guide-icon-neon" style="width: 120px; height: 120px; background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(139, 92, 246, 0.3); --glow-rgb: 139, 92, 246; animation: float 3s ease-in-out infinite, glow 3s ease-in-out infinite;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-beginner)" stroke-width="1.5" width="80" height="80" style="filter: drop-shadow(0 0 15px rgba(139, 92, 246, 0.9));">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="url(#grad-beginner)" opacity="0.3"/>
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                                <circle cx="12" cy="12" r="2" fill="url(#grad-beginner)"/>
+                            </svg>
+                            <svg width="0" height="0" style="position: absolute;">
+                                <defs>
+                                    <linearGradient id="grad-beginner" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#8B5CF6"/>
+                                        <stop offset="100%" style="stop-color:#3B82F6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="guide-card-body">
+                    <div style="text-align: center;">
+                        <span class="guide-level level-beginner">Beginner Friendly</span>
+                    </div>
+                    <h3>Complete Beginner's Guide to AI Tools</h3>
+                    <p class="guide-description">
+                        New to AI? Start here! This comprehensive guide teaches you everything from "What is AI?" to using ChatGPT, creating images, and boosting productivity. Zero experience required.
+                    </p>
+                    <div class="guide-meta">
+                        <div class="guide-meta-item">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="8" cy="8" r="6"/>
+                                <path d="M8 4v4l2 2"/>
+                            </svg>
+                            <span>45 min read</span>
+                        </div>
+                        <div class="guide-meta-item">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 11l-3-3 3-3M13 8H6"/>
+                            </svg>
+                            <span>9 sections</span>
+                        </div>
+                        <div class="guide-meta-item">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v4M12 12v8M6 12c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8c-1.1 0-2 .9-2 2v4z"/>
+                            </svg>
+                            <span>Free tools only</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Section: By Category -->
+            <div id="by-category"></div>
+            <div class="section-divider">
+                <h2>Guides by Category</h2>
+                <p style="color: var(--text-secondary);">Master specific AI tools and use cases</p>
+            </div>
+
+            <div class="guides-grid">
+                <!-- AI Chatbots Guide -->
+                <a href="guides/multi-agent-ai-systems.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(0, 217, 255, 0.1), rgba(124, 58, 237, 0.1)); border: 2px solid rgba(0, 217, 255, 0.3); --glow-rgb: 0, 217, 255; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-chatbot2)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(0, 217, 255, 0.8));">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                                    <path d="M8 12h.01M12 12h.01M16 12h.01" stroke-linecap="round"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-chatbot2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#00D9FF"/>
+                                            <stop offset="100%" style="stop-color:#7C3AED"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guide-card-body">
+                        <div style="text-align: center;">
+                            <span class="guide-level level-intermediate">Intermediate</span>
+                        </div>
+                        <h3>AI Chatbots Guide</h3>
+                        <p class="guide-description">
+                            Master ChatGPT, Claude, Gemini, and more. Learn prompt engineering, advanced techniques, and real-world applications.
+                        </p>
+                        <div class="guide-meta">
+                            <div class="guide-meta-item">
+                                <span>60 min</span>
+                            </div>
+                            <div class="guide-meta-item">
+                                <span>9 sections</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- AI Coding Guide -->
+                <a href="guides/ai-coding-guide.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(99, 102, 241, 0.1)); border: 2px solid rgba(14, 165, 233, 0.3); --glow-rgb: 14, 165, 233; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-coding2)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(14, 165, 233, 0.9));">
+                                    <polyline points="16 18 22 12 16 6"/>
+                                    <polyline points="8 6 2 12 8 18"/>
+                                    <circle cx="12" cy="12" r="1.5" fill="url(#grad-coding2)"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-coding2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#0EA5E9"/>
+                                            <stop offset="100%" style="stop-color:#6366F1"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guide-card-body">
+                        <div style="text-align: center;">
+                            <span class="guide-level level-advanced">Advanced</span>
+                        </div>
+                        <h3>AI Coding Assistant Guide</h3>
+                        <p class="guide-description">
+                            Master GitHub Copilot, Cursor, Windsurf, and DeepSeek Coder. Code 10x faster with AI pair programming.
+                        </p>
+                        <div class="guide-meta">
+                            <div class="guide-meta-item">
+                                <span>75 min</span>
+                            </div>
+                            <div class="guide-meta-item">
+                                <span>9 sections</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Placeholder: Coming Soon Guides -->
+                <div class="guide-card" style="opacity: 0.6; cursor: default; pointer-events: none;">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(244, 114, 182, 0.1), rgba(236, 72, 153, 0.1)); border: 2px solid rgba(244, 114, 182, 0.3);">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-image2)" stroke-width="1.5" width="60" height="60">
+                                    <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                    <circle cx="8.5" cy="8.5" r="1.5" fill="url(#grad-image2)"/>
+                                    <polyline points="21 15 16 10 5 21"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-image2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#F472B6"/>
+                                            <stop offset="100%" style="stop-color:#EC4899"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guide-card-body">
+                        <div style="text-align: center;">
+                            <span class="guide-level level-beginner">Coming Soon</span>
+                        </div>
+                        <h3>AI Image Generation Guide</h3>
+                        <p class="guide-description">
+                            Master DALL-E, Midjourney, Stable Diffusion, and Ideogram. Create stunning visuals with AI.
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            
+            
+            <div id="intermediate"></div>
+            <div class="section-divider" style="margin-top: var(--space-4xl);">
+                <div style="display: flex; align-items: center; justify-content: center; gap: var(--space-md); margin-bottom: var(--space-md);">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-intermediate-section)" stroke-width="2" width="40" height="40" style="filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.6));">
+                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                        <polyline points="17 6 23 6 23 12"/>
+                    </svg>
+                    <h2>Intermediate Guides</h2>
+                </div>
+                <a href="../categories/guides-intermediate.html" target="_blank" class="btn btn-outline" style="border-color: #3B82F6; color: #3B82F6; margin-top: var(--space-md);">
+                    View All Intermediate Guides
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-left: 6px;">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <p style="color: var(--text-secondary);">Level up your AI skills with advanced techniques and workflows</p>
+                <svg width="0" height="0" style="position: absolute;">
+                    <defs>
+                        <linearGradient id="grad-intermediate-section" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                            <stop offset="100%" style="stop-color:#2563EB"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="guides-grid">
+                <!-- Guide 1: Advanced Prompting -->
+                <a href="guides/ai-fundamentals.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(37, 99, 235, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-prompt)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-prompt" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+
+                </div>
+                    </div>
+                    <h3>Advanced Prompt Engineering</h3>
+                </a>
+                <p class="guide-description">Master complex prompting techniques for sophisticated AI interactions</p>
+                <div class="guide-meta">
+                    <span class="meta-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                        35 min
+                    </span>
+                    <span class="meta-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                        </svg>
+                        8 lessons
+                    </span>
+                </div>
+            </div>
+
+            <a href="guides/advanced-prompt-engineering.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-2)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M16 18l2-2-2-2M8 6L6 8l2 2"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>API Integration Mastery</h3>
+                    </div>
+                    <p class="guide-description">Connect AI capabilities to your applications via APIs</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            38 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            9 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/introduction-image-ai.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-3)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M3 3v18h18M7 16l4-4 4 4 6-6"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Multimodal AI Applications</h3>
+                    </div>
+                    <p class="guide-description">Combine text, image, and audio AI for powerful solutions</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            42 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            10 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/ai-writing-tools-basics.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-4)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Content Strategy</h3>
+                    </div>
+                    <p class="guide-description">Develop professional content workflows using AI tools</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            35 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            8 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/understanding-ai-models.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-5)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Data Analysis</h3>
+                    </div>
+                    <p class="guide-description">Leverage AI for advanced data processing and insights</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            40 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            9 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/ai-safety-ethics-101.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-6)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M9 10h.01M15 10h.01M12 14h.01"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-6" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Building AI Chatbots</h3>
+                    </div>
+                    <p class="guide-description">Create custom chatbots for business and personal use</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            45 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            10 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/prompt-engineering-basics.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-7)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-7" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Video & Animation</h3>
+                    </div>
+                    <p class="guide-description">Master AI tools for video creation and editing</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            38 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            9 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/ai-personal-productivity.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-8)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-8" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Testing & Optimization</h3>
+                    </div>
+                    <p class="guide-description">Learn to test, benchmark, and improve AI outputs</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            35 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            8 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/voice-audio-ai-intro.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-9)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-9" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Custom AI Training Basics</h3>
+                    </div>
+                    <p class="guide-description">Learn to fine-tune AI models for specialized tasks</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            45 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            10 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/ai-tools-comparison.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-10)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M12 22V12M22 8.5l-10 5.75M2 8.5l10 5.75"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-10" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Workflow Automation</h3>
+                    </div>
+                    <p class="guide-description">Build automated workflows combining multiple AI tools</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            40 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            9 lessons
+                        </span>
+                    </div>
+                </a>
+
+                        </div>
+                    </div>
+                    <div class="guide-card-body">
+                        <div style="text-align: center;">
+                            <span class="guide-level level-intermediate">Intermediate</span>
+                        </div>
+                        <h3>Advanced Prompt Engineering</h3>
+                        <p class="guide-description">
+                            Master prompt engineering techniques: chain-of-thought, few-shot learning, role prompting, and structured outputs.
+                        </p>
+                        <div class="guide-meta">
+                            <div class="guide-meta-item">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="8" cy="8" r="6"/>
+                                    <path d="M8 4v4l2 2"/>
+                                </svg>
+                                <span>50 min read</span>
+                            </div>
+                            <div class="guide-meta-item">
+                                <span>10 lessons</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Guide 2: AI Workflow Automation -->
+                <a href="guides/ai-workflow-automation.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(37, 99, 235, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-workflow)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                    <path d="M9 9h6v6H9z"/>
+                                    <path d="M9 3v6M15 9h6M15 15h6M9 15v6"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-workflow" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guide-card-body">
+                        <div style="text-align: center;">
+                            <span class="guide-level level-intermediate">Intermediate</span>
+                        </div>
+                        <h3>AI Workflow Automation</h3>
+                        <p class="guide-description">
+                            Build automated workflows combining multiple AI tools. Zapier, Make, and custom integrations for maximum efficiency.
+                        </p>
+                        <div class="guide-meta">
+                            <div class="guide-meta-item">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="8" cy="8" r="6"/>
+                                    <path d="M8 4v4l2 2"/>
+                                </svg>
+                                <span>45 min read</span>
+                            </div>
+                            <div class="guide-meta-item">
+                                <span>8 lessons</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Guide 3: Multi-Modal AI -->
+                <a href="guides/enterprise-ai-architecture.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(37, 99, 235, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-multimodal)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <rect x="3" y="3" width="7" height="7" rx="1"/>
+                                    <rect x="14" y="3" width="7" height="7" rx="1"/>
+                                    <rect x="14" y="14" width="7" height="7" rx="1"/>
+                                    <rect x="3" y="14" width="7" height="7" rx="1"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-multimodal" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guide-card-body">
+                        <div style="text-align: center;">
+                            <span class="guide-level level-intermediate">Intermediate</span>
+                        </div>
+                        <h3>Multi-Modal AI Mastery</h3>
+                        <p class="guide-description">
+                            Work with text, images, audio, and video together. Create complete projects using GPT-4V, DALL-E, and more.
+                        </p>
+                        <div class="guide-meta">
+                            <div class="guide-meta-item">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="8" cy="8" r="6"/>
+                                    <path d="M8 4v4l2 2"/>
+                                </svg>
+                                <span>55 min read</span>
+                            </div>
+                            <div class="guide-meta-item">
+                                <span>9 lessons</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+
+            <!-- Section: Beginner Guides -->
+            <div id="beginner"></div>
+            <div class="section-divider" style="margin-top: var(--space-4xl);">
+                <div style="display: flex; align-items: center; justify-content: center; gap: var(--space-md); margin-bottom: var(--space-md);">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-beginner-section)" stroke-width="2" width="40" height="40" style="filter: drop-shadow(0 0 10px rgba(34, 197, 94, 0.6));">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 16v-4"/>
+                        <path d="M12 8h.01"/>
+                    </svg>
+                    <h2>Beginner Guides</h2>
+                </div>
+                <a href="../categories/guides-beginner.html" target="_blank" class="btn btn-outline" style="border-color: #22C55E; color: #22C55E; margin-top: var(--space-md);">
+                    View All Beginner Guides
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-left: 6px;">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <p style="color: var(--text-secondary);">Perfect starting point for AI newcomers - no experience required</p>
+                <svg width="0" height="0" style="position: absolute;">
+                    <defs>
+                        <linearGradient id="grad-beginner-section" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#22C55E"/>
+                            <stop offset="100%" style="stop-color:#10B981"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="guides-grid">
+                <a href="guides/ai-fundamentals.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.1)); border: 2px solid rgba(34, 197, 94, 0.3); --glow-rgb: 34, 197, 94; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-beginner-1)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(34, 197, 94, 0.8));">
+                                    <circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-beginner-1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#22C55E"/>
+                                            <stop offset="100%" style="stop-color:#10B981"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Fundamentals</h3>
+                    </div>
+                    <p class="guide-description">Master the core concepts of artificial intelligence, machine learning, and neural networks</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            20 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            5 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/getting-started-chatgpt.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.1)); border: 2px solid rgba(34, 197, 94, 0.3); --glow-rgb: 34, 197, 94; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-beginner-2)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(34, 197, 94, 0.8));">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-beginner-2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#22C55E"/>
+                                            <stop offset="100%" style="stop-color:#10B981"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Getting Started with ChatGPT</h3>
+                    </div>
+                    <p class="guide-description">Learn how to use ChatGPT effectively for writing, coding, and problem-solving</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            25 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            6 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/introduction-image-ai.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.1)); border: 2px solid rgba(34, 197, 94, 0.3); --glow-rgb: 34, 197, 94; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-beginner-3)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(34, 197, 94, 0.8));">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-beginner-3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#22C55E"/>
+                                            <stop offset="100%" style="stop-color:#10B981"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Introduction to Image AI</h3>
+                    </div>
+                    <p class="guide-description">Discover how to create stunning visuals with DALL-E, Midjourney, and Stable Diffusion</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            30 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            7 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/ai-writing-tools-basics.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.1)); border: 2px solid rgba(34, 197, 94, 0.3); --glow-rgb: 34, 197, 94; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-beginner-4)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(34, 197, 94, 0.8));">
+                                    <path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-beginner-4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#22C55E"/>
+                                            <stop offset="100%" style="stop-color:#10B981"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Writing Tools Basics</h3>
+                    </div>
+                    <p class="guide-description">Master AI-powered writing assistants for content creation and editing</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            18 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            4 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/understanding-ai-models.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.1)); border: 2px solid rgba(34, 197, 94, 0.3); --glow-rgb: 34, 197, 94; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-beginner-5)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(34, 197, 94, 0.8));">
+                                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-beginner-5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#22C55E"/>
+                                            <stop offset="100%" style="stop-color:#10B981"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Understanding AI Models</h3>
+                    </div>
+                    <p class="guide-description">Learn about different types of AI models and their applications</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            22 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            5 lessons
+                        </span>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- Section: Intermediate Guides -->
+            <div id="intermediate"></div>
+            <div class="section-divider" style="margin-top: var(--space-4xl);">
+                <div style="display: flex; align-items: center; justify-content: center; gap: var(--space-md); margin-bottom: var(--space-md);">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-intermediate-section)" stroke-width="2" width="40" height="40" style="filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.6));">
+                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                        <polyline points="17 6 23 6 23 12"/>
+                    </svg>
+                    <h2>Intermediate Guides</h2>
+                </div>
+                <a href="../categories/guides-intermediate.html" target="_blank" class="btn btn-outline" style="border-color: #3B82F6; color: #3B82F6; margin-top: var(--space-md);">
+                    View All Intermediate Guides
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-left: 6px;">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <p style="color: var(--text-secondary);">Level up your AI skills with advanced techniques and workflows</p>
+                <svg width="0" height="0" style="position: absolute;">
+                    <defs>
+                        <linearGradient id="grad-intermediate-section" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                            <stop offset="100%" style="stop-color:#2563EB"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="guides-grid">
+                <a href="guides/advanced-prompt-engineering.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-1)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Advanced Prompt Engineering</h3>
+                    </div>
+                    <p class="guide-description">Master complex prompting techniques for sophisticated AI interactions</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            35 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            8 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/api-integration-mastery.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-2)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M16 18l2-2-2-2M8 6L6 8l2 2"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>API Integration Mastery</h3>
+                    </div>
+                    <p class="guide-description">Connect AI capabilities to your applications via APIs</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            38 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            9 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/multimodal-ai-applications.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-3)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M3 3v18h18M7 16l4-4 4 4 6-6"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Multimodal AI Applications</h3>
+                    </div>
+                    <p class="guide-description">Combine text, image, and audio AI for powerful solutions</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            42 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            10 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/ai-content-strategy.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-4)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Content Strategy</h3>
+                    </div>
+                    <p class="guide-description">Develop professional content workflows using AI tools</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            35 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            8 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/ai-data-analysis.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.1)); border: 2px solid rgba(59, 130, 246, 0.3); --glow-rgb: 59, 130, 246; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-inter-5)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));">
+                                    <path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-inter-5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#3B82F6"/>
+                                            <stop offset="100%" style="stop-color:#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Data Analysis</h3>
+                    </div>
+                    <p class="guide-description">Leverage AI for advanced data processing and insights</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            40 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            9 lessons
+                        </span>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- Section: Advanced Guides -->
+            <div id="advanced"></div>
+            <div class="section-divider" style="margin-top: var(--space-4xl);">
+                <div style="display: flex; align-items: center; justify-content: center; gap: var(--space-md); margin-bottom: var(--space-md);">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-advanced-section)" stroke-width="2" width="40" height="40" style="filter: drop-shadow(0 0 10px rgba(168, 85, 247, 0.6));">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5"/>
+                        <path d="M2 12l10 5 10-5"/>
+                    </svg>
+                    <h2>Advanced Guides</h2>
+                </div>
+                <a href="../categories/guides-advanced.html" target="_blank" class="btn btn-outline" style="border-color: #A855F7; color: #A855F7; margin-top: var(--space-md);">
+                    View All Advanced Guides
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-left: 6px;">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <p style="color: var(--text-secondary);">Expert-level techniques for AI professionals and researchers</p>
+                <svg width="0" height="0" style="position: absolute;">
+                    <defs>
+                        <linearGradient id="grad-advanced-section" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#A855F7"/>
+                            <stop offset="100%" style="stop-color:#7C3AED"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="guides-grid">
+                <a href="guides/enterprise-ai-architecture.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(168, 85, 247, 0.1)); border: 2px solid rgba(168, 85, 247, 0.3); --glow-rgb: 168, 85, 247; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-adv-1)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.8));">
+                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-adv-1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#A855F7"/>
+                                            <stop offset="100%" style="stop-color:#7C3AED"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Enterprise AI Architecture</h3>
+                    </div>
+                    <p class="guide-description">Design scalable AI systems for large organizations</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            50 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            12 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/ai-model-development.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(168, 85, 247, 0.1)); border: 2px solid rgba(168, 85, 247, 0.3); --glow-rgb: 168, 85, 247; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-adv-2)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.8));">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-adv-2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#A855F7"/>
+                                            <stop offset="100%" style="stop-color:#7C3AED"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Model Development</h3>
+                    </div>
+                    <p class="guide-description">Build and deploy custom AI models from scratch</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            60 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            14 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/advanced-neural-networks.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(168, 85, 247, 0.1)); border: 2px solid rgba(168, 85, 247, 0.3); --glow-rgb: 168, 85, 247; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-adv-3)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.8));">
+                                    <circle cx="12" cy="12" r="3"/><path d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-adv-3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#A855F7"/>
+                                            <stop offset="100%" style="stop-color:#7C3AED"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Advanced Neural Networks</h3>
+                    </div>
+                    <p class="guide-description">Deep dive into transformer models and neural architecture</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            55 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            13 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/ai-security-privacy.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(168, 85, 247, 0.1)); border: 2px solid rgba(168, 85, 247, 0.3); --glow-rgb: 168, 85, 247; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-adv-4)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.8));">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 9v4M12 17h.01"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-adv-4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#A855F7"/>
+                                            <stop offset="100%" style="stop-color:#7C3AED"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>AI Security & Privacy</h3>
+                    </div>
+                    <p class="guide-description">Implement robust security measures for AI systems</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            45 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            11 lessons
+                        </span>
+                    </div>
+                </a>
+
+                <a href="guides/production-ai-deployment.html" class="guide-card">
+                    <div class="guide-card-header">
+                        <div class="guide-icon-container">
+                            <div class="guide-icon-neon" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(168, 85, 247, 0.1)); border: 2px solid rgba(168, 85, 247, 0.3); --glow-rgb: 168, 85, 247; animation: glow 3s ease-in-out infinite;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="url(#grad-adv-5)" stroke-width="1.5" width="60" height="60" style="filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.8));">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                                <svg width="0" height="0" style="position: absolute;">
+                                    <defs>
+                                        <linearGradient id="grad-adv-5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#A855F7"/>
+                                            <stop offset="100%" style="stop-color:#7C3AED"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Production AI Deployment</h3>
+                    </div>
+                    <p class="guide-description">Deploy and monitor AI models in production environments</p>
+                    <div class="guide-meta">
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            50 min
+                        </span>
+                        <span class="meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                            </svg>
+                            12 lessons
+                        </span>
+                    </div>
+                </a>
+
+            </div>
+
+             0; padding: var(--space-3xl); background: var(--bg-card); border-radius: var(--radius-2xl); border: 1px solid var(--border-color);">
+                <h2 style="font-size: var(--text-3xl); font-weight: 800; margin-bottom: var(--space-md);">
+                    Ready to Start?
+                </h2>
+                <p style="color: var(--text-secondary); margin-bottom: var(--space-xl); max-width: 600px; margin-left: auto; margin-right: auto;">
+                    Choose a guide above and start your AI journey today. All guides are free, comprehensive, and updated regularly.
+                </p>
+                <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+                    <a href="guides/ai-beginners-guide.html" class="btn btn-primary">
+                        Start with Beginner's Guide
+                    </a>
+                    <a href="../index.html#categories" class="btn btn-outline">
+                        Explore AI Tools
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="footer-logo">
+                        <img src="../assets/images/logo-neon.svg" alt="GenuisNet.ai Logo" style="height: 40px; width: auto;">
+                    </a>
+                    <p class="footer-desc">Your trusted source for AI tool reviews, comparisons, and guides.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="categories/ai-chatbots.html">AI Chatbots</a></li>
+                        <li><a href="categories/ai-coding.html">AI Coding</a></li>
+                        <li><a href="categories/ai-image.html">AI Image</a></li>
+                        <li><a href="categories/ai-video.html">AI Video</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Guides</h4>
+                    <ul>
+                        <li><a href="guides/ai-beginners-guide.html">Beginner's Guide</a></li>
+                        <li><a href="guides/ai-chatbots-guide.html">Chatbots Guide</a></li>
+                        <li><a href="guides/ai-coding-guide.html">Coding Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 GenuisNet.ai. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/animations.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        // Section Navigation
+        const sectionNav = document.getElementById('sectionNav');
+        const navItems = document.querySelectorAll('.section-nav-item');
+
+        // Show nav on scroll
+        let lastScroll = 0;
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > 300) {
+                sectionNav.classList.add('visible');
+            } else {
+                sectionNav.classList.remove('visible');
+            }
+
+            // Update active section based on scroll position
+            const sections = ['featured', 'by-category'];
+            sections.forEach(sectionId => {
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    const rect = section.getBoundingClientRect();
+                    if (rect.top <= 150 && rect.bottom >= 150) {
+                        navItems.forEach(item => item.classList.remove('active'));
+                        document.querySelector(`[data-section="${sectionId}"]`)?.classList.add('active');
+                    }
+                }
+            });
+
+            lastScroll = currentScroll;
+        });
+
+        // Smooth scroll on click
+        navItems.forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+                const section = item.getAttribute('data-section');
+                const target = document.getElementById(section);
+
+                if (target) {
+                    const yOffset = -100;
+                    const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+                    window.scrollTo({ top: y, behavior: 'smooth' });
+
+                    navItems.forEach(nav => nav.classList.remove('active'));
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+    <script src="../js/i18n.js"></script>
+    <script src="../js/auto-translate.js"></script>
+</body>
+</html>

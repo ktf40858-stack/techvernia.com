@@ -1,0 +1,21 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad-sales" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#EF4444;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+        </linearGradient>
+        <filter id="glow-sales">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Trending Up Arrow -->
+    <path d="M 25 75 L 45 55 L 65 65 L 95 25" stroke="url(#grad-sales)" stroke-width="3" fill="none" filter="url(#glow-sales)"/>
+    <path d="M 95 25 L 85 28 L 92 35 Z" fill="url(#grad-sales)" filter="url(#glow-sales)"/>
+    <!-- Dollar Sign -->
+    <path d="M 58 35 Q 50 35 50 42 Q 50 48 58 48 L 62 48 Q 70 48 70 55 Q 70 62 62 62" stroke="url(#grad-sales)" stroke-width="2.5" fill="none" filter="url(#glow-sales)"/>
+    <line x1="60" y1="30" x2="60" y2="67" stroke="url(#grad-sales)" stroke-width="2" filter="url(#glow-sales)"/>
+</svg>
