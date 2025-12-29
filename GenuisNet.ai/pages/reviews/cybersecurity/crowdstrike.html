@@ -96,8 +96,64 @@
 <nav class="navbar" id="navbar">
 <div class="nav-container">
 <a class="logo" href="../../../index.html">
-<img alt="GenuisNet.ai" src="../../../assets/images/logo-neon.svg" style="height: 50px; width: auto;"/>
+<img alt="GenuisNet.ai Logo" src="../../../assets/images/logo-neon.svg" style="height: 40px; width: auto;"/>
 </a>
+<ul class="nav-menu" id="nav-menu">
+<li class="nav-item"><a class="nav-link active" data-i18n="nav.home" href="../../../index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link active" href="../../categories/ai-cybersecurity.html">Categories</a></li>
+<li class="nav-item"><a class="nav-link" href="../../guides.html"><span data-i18n="nav.guides">Guides</span></a></li>
+<li class="nav-item"><a class="nav-link" href="../../comparisons.html"><span data-i18n="nav.compare">Compare</span></a></li>
+<li class="nav-item"><a class="nav-link" href="../../about.html"><span data-i18n="nav.about">About</span></a></li>
+</ul>
+<div class="nav-actions">
+<!-- Language Selector -->
+<div class="language-selector">
+<button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+<span class="lang-current">EN</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="lang-dropdown" id="lang-dropdown">
+<button class="lang-option active" data-lang="en">
+<span class="flag">🇺🇸</span> English
+                        </button>
+<button class="lang-option" data-lang="es">
+<span class="flag">🇪🇸</span> Español
+                        </button>
+<button class="lang-option" data-lang="fr">
+<span class="flag">🇫🇷</span> Français
+                        </button>
+<button class="lang-option" data-lang="de">
+<span class="flag">🇩🇪</span> Deutsch
+                        </button>
+<button class="lang-option" data-lang="pt">
+<span class="flag">🇵🇹</span> Português
+                        </button>
+<button class="lang-option" data-lang="zh">
+<span class="flag">🇨🇳</span> 中文
+                        </button>
+<button class="lang-option" data-lang="ja">
+<span class="flag">🇯🇵</span> 日本語
+                        </button>
+<button class="lang-option" data-lang="ko">
+<span class="flag">🇰🇷</span> 한국어
+                        </button>
+<button class="lang-option" data-lang="ar">
+<span class="flag">🇸🇦</span> العربية
+                        </button>
+<button class="lang-option" data-lang="hi">
+<span class="flag">🇮🇳</span> हिन्दी
+                        </button>
+</div>
+</div>
+<button class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
 </div>
 </nav>
 <header class="review-hero">
@@ -223,7 +279,7 @@
 
 
 <section class="review-section" id="use-cases">
-<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg> Best Use Cases</h2>
+<h2><span data-i18n="review.common.best.use.cases">Best Use Cases</span></h2>
 <h3>CrowdStrike Excels For:</h3>
 <ul>
 <li><strong>Enterprise Security:</strong> Large organizations needing comprehensive endpoint protection at scale</li>
@@ -233,7 +289,7 @@
 <li><strong>Healthcare:</strong> HIPAA-compliant organizations protecting sensitive patient data</li>
 <li><strong>Ransomware Protection:</strong> Companies prioritizing ransomware prevention and response</li>
 </ul>
-<h3>May Not Be Ideal For:</h3>
+<h3><span data-i18n="review.common.may.not.be.ideal.for">May Not Be Ideal For:</span></h3>
 <ul>
 <li>Small businesses with limited security budgets (consider Microsoft Defender)</li>
 <li>Organizations requiring heavy on-premise deployment</li>
@@ -241,7 +297,7 @@
 </ul>
 </section>
 <section class="review-section" id="comparison">
-<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg> Comparison</h2>
+<h2><span data-i18n="review.common.comparison">Comparison</span></h2>
 <h3>CrowdStrike vs Competitors</h3>
 <div class="pros-cons-grid">
 <div class="pros-card">
@@ -279,30 +335,30 @@
 </div>
 </section>
 <section class="review-section" id="faq">
-<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" x2="12.01" y1="17" y2="17"></line></svg> Frequently Asked Questions</h2>
+<h2><span data-i18n="review.common.frequently.asked.questions">Frequently Asked Questions</span></h2>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4>Is CrowdStrike worth the cost?</h4>
-<p>For most enterprises, yes. The prevention of a single ransomware attack typically justifies years of licensing costs. CrowdStrike's detection rates and Charlotte AI capabilities deliver strong ROI for security-conscious organizations.</p>
+<h4><span data-i18n="review.crowdstrike.faq.q1">Is CrowdStrike worth the cost?</span></h4>
+<p><span data-i18n="review.crowdstrike.faq.a1">For most enterprises, yes. The prevention of a single ransomware attack typically justifies years of licensing costs. CrowdStrike's detection rates and Charlotte AI capabilities deliver strong ROI for security-conscious organizations.</span></p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4>What is Charlotte AI?</h4>
-<p>Charlotte AI is CrowdStrike's generative AI security analyst introduced in 2023. It helps security teams investigate threats, write custom queries, and automate responses using natural language, dramatically accelerating SOC operations.</p>
+<h4><span data-i18n="review.crowdstrike.faq.q2">What is Charlotte AI?</span></h4>
+<p><span data-i18n="review.crowdstrike.faq.a2">Charlotte AI is CrowdStrike's generative AI security analyst introduced in 2023. It helps security teams investigate threats, write custom queries, and automate responses using natural language, dramatically accelerating SOC operations.</span></p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4>Does CrowdStrike require on-premise infrastructure?</h4>
-<p>No. Falcon is cloud-native and requires no on-premise infrastructure. The lightweight agent communicates directly with CrowdStrike's cloud, providing real-time protection and updates without maintenance overhead.</p>
+<h4><span data-i18n="review.crowdstrike.faq.q3">Does CrowdStrike require on-premise infrastructure?</span></h4>
+<p><span data-i18n="review.crowdstrike.faq.a3">No. Falcon is cloud-native and requires no on-premise infrastructure. The lightweight agent communicates directly with CrowdStrike's cloud, providing real-time protection and updates without maintenance overhead.</span></p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4>Can CrowdStrike protect Linux and Mac?</h4>
-<p>Yes. Falcon supports Windows, macOS, Linux, and mobile devices (iOS/Android) with a single unified agent and management console.</p>
+<h4><span data-i18n="review.crowdstrike.faq.q4">Can CrowdStrike protect Linux and Mac?</span></h4>
+<p><span data-i18n="review.crowdstrike.faq.a4">Yes. Falcon supports Windows, macOS, Linux, and mobile devices (iOS/Android) with a single unified agent and management console.</span></p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4>How does CrowdStrike compare to traditional antivirus?</h4>
-<p>CrowdStrike uses machine learning and behavioral analysis instead of signature-based detection. This provides superior protection against zero-day threats and ransomware that traditional AV misses.</p>
+<h4><span data-i18n="review.crowdstrike.faq.q5">How does CrowdStrike compare to traditional antivirus?</span></h4>
+<p><span data-i18n="review.crowdstrike.faq.a5">CrowdStrike uses machine learning and behavioral analysis instead of signature-based detection. This provides superior protection against zero-day threats and ransomware that traditional AV misses.</span></p>
 </div>
 </section>
 <section class="review-section" id="verdict">
-<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path></svg> Final Verdict</h2>
+<h2><span data-i18n="review.common.final.verdict">Final Verdict</span></h2>
 <div class="verdict-box">
 <div class="verdict-score">4.9/5</div>
 <div class="verdict-label">Outstanding</div>
@@ -322,7 +378,7 @@
 
 <aside class="review-sidebar">
 <div class="sidebar-card">
-<h3>Quick Stats</h3>
+<h3><span data-i18n="review.common.quick.stats">Quick Stats</span></h3>
 <div class="quick-stats">
 <div class="stat-row"><span class="stat-label">Rating</span><span class="stat-value">4.9/5 ★</span></div>
 <div class="stat-row"><span class="stat-label">Price</span><span class="stat-value">$8.99/ep/mo</span></div>
@@ -340,7 +396,8 @@
 
 <footer class="footer"><div class="container"><div class="footer-bottom"><p class="copyright">© 2026 GenuisNet.ai. All rights reserved.</p></div></div></footer>
 <script src="../../../js/main.js"></script>
-<script src="../../../js/i18n.js"></script>
+<script src="../../../js/crowdstrike-i18n.js"></script>
+    <script src="../../../js/i18n.js"></script>
 <script src="../../../js/auto-translate.js"></script>
 </body>
 </html>

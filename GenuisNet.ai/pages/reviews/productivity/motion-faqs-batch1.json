@@ -1,0 +1,58 @@
+{
+  "en": {
+    "review.motion.faq.q1": "Do I need to pay extra for Motion features?",
+    "review.motion.faq.a1": "Yes, AI features like Motion Brain and the Auto-scheduling Assistant are available as add-ons starting from the Business plan ($12/user/month) or can be purchased separately. The core project management features work without AI.",
+    "review.motion.faq.q2": "Is Motion suitable for small teams?",
+    "review.motion.faq.a2": "Absolutely! Motion offers a generous free forever plan for small teams. While it has advanced features for large enterprises, small teams can start simple and add complexity as they grow. The AI features scale well for teams of any size.",
+    "review.motion.faq.q3": "Can Motion write entire project plans?",
+    "review.motion.faq.a3": "Yes! Give Motion a project description and it can generate complete project plans with tasks, subtasks, timelines, and assignments. You can refine and customize the AI-generated plan to fit your specific needs.",
+    "review.motion.faq.q4": "How does Motion Brain work?",
+    "review.motion.faq.a4": "Motion Brain indexes all content in your workspace - tasks, docs, comments, and chat. Ask it questions in natural language and it retrieves relevant information instantly. Think of it as a search engine that understands context and can synthesize answers.",
+    "review.motion.faq.q5": "Does Motion integrate with other tools?",
+    "review.motion.faq.a5": "Yes, Motion integrates with 1000+ tools including Slack, Google Drive, GitHub, Figma, Zoom, and more. The AI features work across integrations, so you can use AI on imported content from other platforms.",
+    "review.motion.faq.q6": "Is there a mobile app with AI features?",
+    "review.motion.faq.a6": "Yes, Motion has iOS and Android apps with AI features including the writing assistant and Motion Brain. However, some advanced features work better on the web version. Mobile apps are great for task management on the go."
+  },
+  "es": {
+    "review.motion.faq.q1": "¿Necesito pagar extra por las funcionalidades de Motion?",
+    "review.motion.faq.a1": "Sí, las funcionalidades de IA como Motion Brain y el Asistente de Programación Automática están disponibles como complementos a partir del plan Business ($12/usuario/mes) o se pueden comprar por separado. Las funcionalidades centrales de gestión de proyectos funcionan sin IA.",
+    "review.motion.faq.q2": "¿Es Motion adecuado para equipos pequeños?",
+    "review.motion.faq.a2": "¡Por supuesto! Motion ofrece un generoso plan gratuito para siempre para equipos pequeños. Aunque tiene funcionalidades avanzadas para grandes empresas, los equipos pequeños pueden comenzar de manera simple y añadir complejidad según crecen. Las funcionalidades de IA escalan bien para equipos de cualquier tamaño.",
+    "review.motion.faq.q3": "¿Puede Motion escribir planes de proyecto completos?",
+    "review.motion.faq.a3": "¡Sí! Dale a Motion una descripción del proyecto y puede generar planes de proyecto completos con tareas, subtareas, cronogramas y asignaciones. Puedes refinar y personalizar el plan generado por IA para adaptarlo a tus necesidades específicas.",
+    "review.motion.faq.q4": "¿Cómo funciona Motion Brain?",
+    "review.motion.faq.a4": "Motion Brain indexa todo el contenido en tu espacio de trabajo - tareas, documentos, comentarios y chat. Hazle preguntas en lenguaje natural y recupera información relevante al instante. Piénsalo como un motor de búsqueda que entiende el contexto y puede sintetizar respuestas.",
+    "review.motion.faq.q5": "¿Se integra Motion con otras herramientas?",
+    "review.motion.faq.a5": "Sí, Motion se integra con más de 1000 herramientas incluyendo Slack, Google Drive, GitHub, Figma, Zoom y más. Las funcionalidades de IA funcionan en todas las integraciones, por lo que puedes usar IA en contenido importado de otras plataformas.",
+    "review.motion.faq.q6": "¿Hay una aplicación móvil con funcionalidades de IA?",
+    "review.motion.faq.a6": "Sí, Motion tiene aplicaciones iOS y Android con funcionalidades de IA incluyendo el asistente de escritura y Motion Brain. Sin embargo, algunas funcionalidades avanzadas funcionan mejor en la versión web. Las aplicaciones móviles son excelentes para la gestión de tareas sobre la marcha."
+  },
+  "fr": {
+    "review.motion.faq.q1": "Dois-je payer un supplément pour les fonctionnalités de Motion ?",
+    "review.motion.faq.a1": "Oui, les fonctionnalités d'IA comme Motion Brain et l'Assistant de Programmation Automatique sont disponibles en tant que modules complémentaires à partir du plan Business ($12/utilisateur/mois) ou peuvent être achetées séparément. Les fonctionnalités essentielles de gestion de projet fonctionnent sans IA.",
+    "review.motion.faq.q2": "Motion convient-il aux petites équipes ?",
+    "review.motion.faq.a2": "Absolument ! Motion propose un généreux plan gratuit illimité pour les petites équipes. Bien qu'il dispose de fonctionnalités avancées pour les grandes entreprises, les petites équipes peuvent commencer simplement et ajouter de la complexité au fur et à mesure qu'elles se développent. Les fonctionnalités d'IA s'adaptent bien aux équipes de toute taille.",
+    "review.motion.faq.q3": "Motion peut-il rédiger des plans de projet complets ?",
+    "review.motion.faq.a3": "Oui ! Donnez à Motion une description de projet et il peut générer des plans de projet complets avec des tâches, des sous-tâches, des chronologies et des attributions. Vous pouvez affiner et personnaliser le plan généré par l'IA pour l'adapter à vos besoins spécifiques.",
+    "review.motion.faq.q4": "Comment fonctionne Motion Brain ?",
+    "review.motion.faq.a4": "Motion Brain indexe tout le contenu de votre espace de travail - tâches, documents, commentaires et chat. Posez-lui des questions en langage naturel et il récupère les informations pertinentes instantanément. Pensez-y comme un moteur de recherche qui comprend le contexte et peut synthétiser des réponses.",
+    "review.motion.faq.q5": "Motion s'intègre-t-il avec d'autres outils ?",
+    "review.motion.faq.a5": "Oui, Motion s'intègre à plus de 1000 outils, notamment Slack, Google Drive, GitHub, Figma, Zoom et bien d'autres. Les fonctionnalités d'IA fonctionnent à travers les intégrations, vous pouvez donc utiliser l'IA sur le contenu importé d'autres plateformes.",
+    "review.motion.faq.q6": "Y a-t-il une application mobile avec des fonctionnalités d'IA ?",
+    "review.motion.faq.a6": "Oui, Motion dispose d'applications iOS et Android avec des fonctionnalités d'IA, notamment l'assistant d'écriture et Motion Brain. Cependant, certaines fonctionnalités avancées fonctionnent mieux sur la version web. Les applications mobiles sont excellentes pour la gestion des tâches en déplacement."
+  },
+  "de": {
+    "review.motion.faq.q1": "Muss ich extra für Motion-Funktionen bezahlen?",
+    "review.motion.faq.a1": "Ja, KI-Funktionen wie Motion Brain und der Auto-Scheduling Assistant sind als Add-ons ab dem Business-Plan ($12/Benutzer/Monat) oder zum separaten Kauf verfügbar. Die Kernfunktionen des Projektmanagements funktionieren ohne KI.",
+    "review.motion.faq.q2": "Ist Motion für kleine Teams geeignet?",
+    "review.motion.faq.a2": "Absolut! Motion bietet einen großzügigen kostenlosen Plan für immer für kleine Teams. Während es erweiterte Funktionen für große Unternehmen hat, können kleine Teams einfach beginnen und Komplexität hinzufügen, während sie wachsen. Die KI-Funktionen skalieren gut für Teams jeder Größe.",
+    "review.motion.faq.q3": "Kann Motion komplette Projektpläne schreiben?",
+    "review.motion.faq.a3": "Ja! Geben Sie Motion eine Projektbeschreibung und es kann komplette Projektpläne mit Aufgaben, Unteraufgaben, Zeitplänen und Zuweisungen generieren. Sie können den von der KI generierten Plan verfeinern und anpassen, um Ihren spezifischen Anforderungen zu entsprechen.",
+    "review.motion.faq.q4": "Wie funktioniert Motion Brain?",
+    "review.motion.faq.a4": "Motion Brain indexiert alle Inhalte in Ihrem Arbeitsbereich - Aufgaben, Dokumente, Kommentare und Chat. Stellen Sie Fragen in natürlicher Sprache und es ruft sofort relevante Informationen ab. Stellen Sie sich das als eine Suchmaschine vor, die den Kontext versteht und Antworten zusammentragen kann.",
+    "review.motion.faq.q5": "Integriert sich Motion mit anderen Tools?",
+    "review.motion.faq.a5": "Ja, Motion integriert sich mit über 1000 Tools, darunter Slack, Google Drive, GitHub, Figma, Zoom und mehr. Die KI-Funktionen funktionieren über Integrationen hinweg, daher können Sie KI auf importierte Inhalte von anderen Plattformen anwenden.",
+    "review.motion.faq.q6": "Gibt es eine mobile App mit KI-Funktionen?",
+    "review.motion.faq.a6": "Ja, Motion hat iOS- und Android-Apps mit KI-Funktionen, einschließlich des Schreibassistenten und Motion Brain. Einige erweiterte Funktionen funktionieren jedoch besser in der Webversion. Mobile Apps sind hervorragend für die Aufgabenverwaltung unterwegs."
+  }
+}

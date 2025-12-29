@@ -168,8 +168,9 @@
         }
         .pros-box h4 { color: var(--accent-success); }
         .cons-box h4 { color: var(--accent-error); }
-        .pros-box li::marker { content: "<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> "; color: var(--accent-success); }
+        .pros-box li::marker { content: "✓ "; color: var(--accent-success); }
         .cons-box li::marker { content: "✗ "; color: var(--accent-error); }
+/* Icon sizing */        .neon-icon {            width: 18px;            height: 18px;            display: inline-block;            vertical-align: middle;        }        td .neon-icon {            width: 16px;            height: 16px;        }
 
         /* Verdict Box */
         .verdict-box {
@@ -295,12 +296,7 @@
     <!-- Article Hero -->
     <header class="article-hero">
         <div class="container">
-            <div class="article-meta">
-                <span><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> November 22, 2026</span>
-                <span><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 min read</span>
-                <span>👁️ 12.5K views</span>
-                <span><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Best Value</span>
-            </div>
+
             <h1 class="article-title">ChatGPT Plus vs Claude Pro: Which $20/Month Subscription is Worth It?</h1>
             <p class="article-excerpt">
                 Both OpenAI and Anthropic offer premium AI subscriptions at the same price point.
@@ -639,6 +635,7 @@
     <!-- Scripts -->
     <script src="../../js/i18n.js"></script>
     <script src="../../js/auto-translate.js"></script>
+    <script src="../../js/chatgpt-vs-claude-i18n.js"></script>
     <script src="../../js/animations.js"></script>
     <script src="../../js/main.js"></script>
 </body>

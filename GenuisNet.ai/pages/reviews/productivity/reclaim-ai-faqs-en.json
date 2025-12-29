@@ -1,0 +1,14 @@
+{
+  "review.reclaim-ai.faq.q1": "Do I need to pay extra for Reclaim.ai features?",
+  "review.reclaim-ai.faq.a1": "Yes, AI features like Reclaim Brain and the Auto-scheduling Assistant are available as add-ons starting from the Business plan ($12/user/month) or can be purchased separately. The core project management features work without AI.",
+  "review.reclaim-ai.faq.q2": "Is Reclaim suitable for small teams?",
+  "review.reclaim-ai.faq.a2": "Absolutely! Reclaim offers a generous free forever plan for small teams. While it has advanced features for large enterprises, small teams can start simple and add complexity as they grow. The AI features scale well for teams of any size.",
+  "review.reclaim-ai.faq.q3": "Can Reclaim.ai write entire project plans?",
+  "review.reclaim-ai.faq.a3": "Yes! Give Reclaim.ai a project description and it can generate complete project plans with tasks, subtasks, timelines, and assignments. You can refine and customize the AI-generated plan to fit your specific needs.",
+  "review.reclaim-ai.faq.q4": "How does Reclaim Brain work?",
+  "review.reclaim-ai.faq.a4": "Reclaim Brain indexes all content in your workspace - tasks, docs, comments, and chat. Ask it questions in natural language and it retrieves relevant information instantly. Think of it as a search engine that understands context and can synthesize answers.",
+  "review.reclaim-ai.faq.q5": "Does Reclaim integrate with other tools?",
+  "review.reclaim-ai.faq.a5": "Yes, Reclaim integrates with 1000+ tools including Slack, Google Drive, GitHub, Figma, Zoom, and more. The AI features work across integrations, so you can use AI on imported content from other platforms.",
+  "review.reclaim-ai.faq.q6": "Is there a mobile app with AI features?",
+  "review.reclaim-ai.faq.a6": "Yes, Reclaim has iOS and Android apps with AI features including the writing assistant and Reclaim Brain. However, some advanced features work better on the web version. Mobile apps are great for task management on the go."
+}

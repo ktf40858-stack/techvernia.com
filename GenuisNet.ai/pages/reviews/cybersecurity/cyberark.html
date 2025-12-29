@@ -95,8 +95,64 @@
 <nav class="navbar" id="navbar">
 <div class="nav-container">
 <a class="logo" href="../../../index.html">
-<img alt="GenuisNet.ai" src="../../../assets/images/logo-neon.svg" style="height: 50px; width: auto;"/>
+<img alt="GenuisNet.ai Logo" src="../../../assets/images/logo-neon.svg" style="height: 40px; width: auto;"/>
 </a>
+<ul class="nav-menu" id="nav-menu">
+<li class="nav-item"><a class="nav-link active" data-i18n="nav.home" href="../../../index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link active" href="../../categories/ai-cybersecurity.html">Categories</a></li>
+<li class="nav-item"><a class="nav-link" href="../../guides.html"><span data-i18n="nav.guides">Guides</span></a></li>
+<li class="nav-item"><a class="nav-link" href="../../comparisons.html"><span data-i18n="nav.compare">Compare</span></a></li>
+<li class="nav-item"><a class="nav-link" href="../../about.html"><span data-i18n="nav.about">About</span></a></li>
+</ul>
+<div class="nav-actions">
+<!-- Language Selector -->
+<div class="language-selector">
+<button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+<span class="lang-current">EN</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="lang-dropdown" id="lang-dropdown">
+<button class="lang-option active" data-lang="en">
+<span class="flag">🇺🇸</span> English
+                        </button>
+<button class="lang-option" data-lang="es">
+<span class="flag">🇪🇸</span> Español
+                        </button>
+<button class="lang-option" data-lang="fr">
+<span class="flag">🇫🇷</span> Français
+                        </button>
+<button class="lang-option" data-lang="de">
+<span class="flag">🇩🇪</span> Deutsch
+                        </button>
+<button class="lang-option" data-lang="pt">
+<span class="flag">🇵🇹</span> Português
+                        </button>
+<button class="lang-option" data-lang="zh">
+<span class="flag">🇨🇳</span> 中文
+                        </button>
+<button class="lang-option" data-lang="ja">
+<span class="flag">🇯🇵</span> 日本語
+                        </button>
+<button class="lang-option" data-lang="ko">
+<span class="flag">🇰🇷</span> 한국어
+                        </button>
+<button class="lang-option" data-lang="ar">
+<span class="flag">🇸🇦</span> العربية
+                        </button>
+<button class="lang-option" data-lang="hi">
+<span class="flag">🇮🇳</span> हिन्दी
+                        </button>
+</div>
+</div>
+<button class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
 </div>
 </nav>
 <header class="review-hero">
@@ -221,7 +277,7 @@
 
 
 <section class="review-section" id="use-cases">
-<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg> Best Use Cases</h2>
+<h2><span data-i18n="review.common.best.use.cases">Best Use Cases</span></h2>
 <h3>CyberArk Excels For:</h3>
 <ul>
 <li><strong>Enterprise Organizations:</strong> Large companies with thousands of privileged accounts</li>
@@ -231,7 +287,7 @@
 <li><strong>Critical Infrastructure:</strong> Utilities, energy protecting operational technology</li>
 <li><strong>Compliance-Heavy Industries:</strong> PCI-DSS, SOX, and regulatory requirements</li>
 </ul>
-<h3>May Not Be Ideal For:</h3>
+<h3><span data-i18n="review.common.may.not.be.ideal.for">May Not Be Ideal For:</span></h3>
 <ul>
 <li>Small businesses (complexity and cost prohibitive)</li>
 <li>Organizations under 100 privileged users</li>
@@ -240,7 +296,7 @@
 </ul>
 </section>
 <section class="review-section" id="comparison">
-<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg> Comparison</h2>
+<h2><span data-i18n="review.common.comparison">Comparison</span></h2>
 <h3>CyberArk vs Competitors</h3>
 <div class="pros-cons-grid">
 <div class="pros-card">
@@ -278,30 +334,30 @@
 </div>
 </section>
 <section class="review-section" id="faq">
-<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" x2="12.01" y1="17" y2="17"></line></svg> Frequently Asked Questions</h2>
+<h2><span data-i18n="review.common.frequently.asked.questions">Frequently Asked Questions</span></h2>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4>What is Privileged Access Management (PAM)?</h4>
-<p>PAM secures and manages accounts with elevated permissions (admin, root, service accounts). CyberArk vaults credentials, controls access, monitors sessions, and enforces least privilege to prevent credential theft and insider threats.</p>
+<h4><span data-i18n="review.cyberark.faq.q1">What is Privileged Access Management (PAM)?</span></h4>
+<p><span data-i18n="review.cyberark.faq.a1">PAM secures and manages accounts with elevated permissions (admin, root, service accounts). CyberArk vaults credentials, controls access, monitors sessions, and enforces least privilege to prevent credential theft and insider threats.</span></p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4>How does CyberArk prevent credential theft?</h4>
-<p>CyberArk stores credentials in an encrypted vault, rotates passwords automatically, requires just-in-time access approval, records privileged sessions, and detects anomalous behavior using AI—preventing attackers from stealing and reusing credentials.</p>
+<h4><span data-i18n="review.cyberark.faq.q2">How does CyberArk prevent credential theft?</span></h4>
+<p><span data-i18n="review.cyberark.faq.a2">CyberArk stores credentials in an encrypted vault, rotates passwords automatically, requires just-in-time access approval, records privileged sessions, and detects anomalous behavior using AI—preventing attackers from stealing and reusing credentials.</span></p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4>What's the difference between PAM and EPM?</h4>
-<p>PAM (Privileged Access Management) secures admin accounts. EPM (Endpoint Privilege Management) removes admin rights from endpoints and elevates only when needed. CyberArk offers both to implement comprehensive least privilege.</p>
+<h4><span data-i18n="review.cyberark.faq.q3">What's the difference between PAM and EPM?</span></h4>
+<p><span data-i18n="review.cyberark.faq.a3">PAM (Privileged Access Management) secures admin accounts. EPM (Endpoint Privilege Management) removes admin rights from endpoints and elevates only when needed. CyberArk offers both to implement comprehensive least privilege.</span></p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4>Is CyberArk cloud-based or on-premise?</h4>
-<p>Both. CyberArk Privilege Cloud is SaaS. Self-Hosted allows on-premise or private cloud deployment. Many enterprises use hybrid—cloud management with on-premise vaults for sensitive credentials.</p>
+<h4><span data-i18n="review.cyberark.faq.q4">Is CyberArk cloud-based or on-premise?</span></h4>
+<p><span data-i18n="review.cyberark.faq.a4">Both. CyberArk Privilege Cloud is SaaS. Self-Hosted allows on-premise or private cloud deployment. Many enterprises use hybrid—cloud management with on-premise vaults for sensitive credentials.</span></p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4>How long does CyberArk implementation take?</h4>
-<p>Typical enterprise deployments take 3-9 months depending on scope, number of systems, and organizational complexity. Phased rollouts starting with critical systems are recommended to demonstrate value early.</p>
+<h4><span data-i18n="review.cyberark.faq.q5">How long does CyberArk implementation take?</span></h4>
+<p><span data-i18n="review.cyberark.faq.a5">Typical enterprise deployments take 3-9 months depending on scope, number of systems, and organizational complexity. Phased rollouts starting with critical systems are recommended to demonstrate value early.</span></p>
 </div>
 </section>
 <section class="review-section" id="verdict">
-<h2><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path></svg> Final Verdict</h2>
+<h2><span data-i18n="review.common.final.verdict">Final Verdict</span></h2>
 <div class="verdict-box">
 <div class="verdict-score">4.6/5</div>
 <div class="verdict-label">Excellent</div>
@@ -321,7 +377,7 @@
 
 <aside class="review-sidebar">
 <div class="sidebar-card">
-<h3>Quick Stats</h3>
+<h3><span data-i18n="review.common.quick.stats">Quick Stats</span></h3>
 <div class="quick-stats">
 <div class="stat-row"><span class="stat-label">Rating</span><span class="stat-value">4.6/5 ★</span></div>
 <div class="stat-row"><span class="stat-label">Price</span><span class="stat-value">Enterprise</span></div>
@@ -339,7 +395,8 @@
 
 <footer class="footer"><div class="container"><div class="footer-bottom"><p class="copyright">© 2026 GenuisNet.ai. All rights reserved.</p></div></div></footer>
 <script src="../../../js/main.js"></script>
-<script src="../../../js/i18n.js"></script>
+<script src="../../../js/cyberark-i18n.js"></script>
+    <script src="../../../js/i18n.js"></script>
 <script src="../../../js/auto-translate.js"></script>
 </body>
 </html>

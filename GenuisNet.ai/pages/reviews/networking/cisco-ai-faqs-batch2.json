@@ -1,0 +1,32 @@
+{
+  "pt": {
+    "review.cisco-ai.faq.q1": "Preciso do DNA Center para Cisco AI Analytics?",
+    "review.cisco-ai.faq.a1": "Sim, Cisco AI Network Analytics funciona como parte do DNA Center (agora Catalyst Center). Você precisa implantar o appliance DNA Center no local para usar esses recursos.",
+    "review.cisco-ai.faq.q2": "Funciona com dispositivos não-Cisco?",
+    "review.cisco-ai.faq.a2": "Limitado. Embora o DNA Center possa descobrir e monitorar alguns dispositivos de terceiros, os recursos de análise de AI funcionam melhor com hardware Cisco Catalyst e Meraki. Para ambientes multi-vendor, considere alternativas como Datadog ou Splunk.",
+    "review.cisco-ai.faq.q3": "Qual é a diferença do Meraki AI?",
+    "review.cisco-ai.faq.a3": "Meraki possui seus próprios recursos de AI baseados em nuvem. DNA Center/Catalyst Center fornece capacidades semelhantes para equipamento Catalyst no local. Os dois podem se integrar através da integração DNA-Meraki para visibilidade unificada.",
+    "review.cisco-ai.faq.q4": "Quanto tempo leva a implantação?",
+    "review.cisco-ai.faq.a4": "A implantação inicial do DNA Center normalmente leva 2-4 semanas para uma grande empresa. Obter valor total da análise de AI requer coleta de dados históricos, então espere 1-3 meses antes que os recursos preditivos sejam totalmente treinados."
+  },
+  "zh": {
+    "review.cisco-ai.faq.q1": "我需要 DNA Center 才能使用 Cisco AI Analytics 吗？",
+    "review.cisco-ai.faq.a1": "是的，Cisco AI Network Analytics 作为 DNA Center（现称 Catalyst Center）的一部分运行。您需要在本地部署 DNA Center 设备才能使用这些功能。",
+    "review.cisco-ai.faq.q2": "它可以与非 Cisco 设备配合使用吗？",
+    "review.cisco-ai.faq.a2": "受限。虽然 DNA Center 可以发现和监控某些第三方设备，但 AI 分析功能最适用于 Cisco Catalyst 和 Meraki 硬件。对于多厂商环境，请考虑 Datadog 或 Splunk 等替代方案。",
+    "review.cisco-ai.faq.q3": "与 Meraki AI 有什么区别？",
+    "review.cisco-ai.faq.a3": "Meraki 拥有自己的基于云的 AI 功能。DNA Center/Catalyst Center 为本地 Catalyst 设备提供类似的功能。两者可以通过 DNA-Meraki 集成进行集成，以实现统一的可见性。",
+    "review.cisco-ai.faq.q4": "部署需要多长时间？",
+    "review.cisco-ai.faq.a4": "初始 DNA Center 部署通常需要 2-4 周的大型企业部署。从 AI 分析中获取全部价值需要历史数据收集，因此在预测性功能完全训练之前预计需要 1-3 个月。"
+  },
+  "ja": {
+    "review.cisco-ai.faq.q1": "Cisco AI Analytics に DNA Center が必要ですか？",
+    "review.cisco-ai.faq.a1": "はい、Cisco AI Network Analytics は DNA Center（現在は Catalyst Center）の一部として実行されます。これらの機能を使用するには、DNA Center アプライアンスをオンプレミスに導入する必要があります。",
+    "review.cisco-ai.faq.q2": "非 Cisco デバイスで動作しますか？",
+    "review.cisco-ai.faq.a2": "制限あり。DNA Center はサードパーティ製デバイスの一部を検出および監視できますが、AI 分析機能は Cisco Catalyst および Meraki ハードウェアで最適に動作します。マルチベンダー環境では、Datadog や Splunk などの代替製品を検討してください。",
+    "review.cisco-ai.faq.q3": "Meraki AI とどのような違いがありますか？",
+    "review.cisco-ai.faq.a3": "Meraki には独自のクラウドベースの AI 機能があります。DNA Center/Catalyst Center はオンプレミスの Catalyst 機器に同様の機能を提供します。DNA-Meraki 統合を通じて統合し、統一された可視性を実現できます。",
+    "review.cisco-ai.faq.q4": "導入にはどのくらい時間がかかりますか？",
+    "review.cisco-ai.faq.a4": "初期の DNA Center 展開は通常、大規模企業の場合 2 ～ 4 週間かかります。AI 分析から全価値を得るには履歴データ収集が必要なため、予測機能が完全にトレーニングされるまで 1 ～ 3 ヶ月かかると予想してください。"
+  }
+}

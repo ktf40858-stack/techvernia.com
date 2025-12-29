@@ -1,0 +1,14 @@
+{
+  "review.clearscope.faq.q1": "How does Clearscope's content grading work?",
+  "review.clearscope.faq.a1": "Clearscope analyzes the top 30 ranking pages for your target keyword and identifies common terms, topics, and patterns. It then compares your content against this data to generate a grade from 0-100. Higher grades indicate better coverage of relevant terms and topics. The grade updates in real-time as you write, providing instant feedback on optimization.",
+  "review.clearscope.faq.q2": "Does Clearscope write content for me?",
+  "review.clearscope.faq.a2": "No, Clearscope is an optimization tool, not a content generator. It provides recommendations on what to include in your content, but you or your writers create the actual text. This ensures content remains original, high-quality, and aligned with your brand voice. Clearscope is designed to enhance human writing, not replace it.",
+  "review.clearscope.faq.q3": "Can I use Clearscope with WordPress?",
+  "review.clearscope.faq.a3": "Yes, while Clearscope doesn't have a native WordPress plugin, it integrates seamlessly with Google Docs. Most users write in Google Docs with Clearscope's sidebar active, then copy the optimized content to WordPress. You can also use the web editor and copy content to any CMS. The Google Docs integration is the most popular workflow.",
+  "review.clearscope.faq.q4": "How many content reports can I create per month?",
+  "review.clearscope.faq.a4": "The Essentials plan includes credits for approximately 10 new content reports per month. However, you can optimize and re-optimize existing reports unlimited times. If you need more reports, you can purchase additional credits or upgrade to Business/Enterprise plans with higher limits. Most teams find 10-20 reports per month sufficient.",
+  "review.clearscope.faq.q5": "Is there a free trial available?",
+  "review.clearscope.faq.a5": "Clearscope doesn't offer a traditional free trial. However, they provide personalized demos where you can see the platform in action with your own keywords and content. This gives you a thorough understanding of the tool's capabilities before committing. Contact their sales team to schedule a demo and discuss your specific needs.",
+  "review.clearscope.faq.q6": "How does Clearscope compare to free SEO tools?",
+  "review.clearscope.faq.a6": "Free tools like Yoast or Rank Math provide basic on-page SEO checks (meta tags, readability), while Clearscope offers advanced content optimization based on competitive analysis of top-ranking pages. The depth, accuracy, and actionability of Clearscope's recommendations far exceed what free tools provide. For professional content marketing where rankings matter, the investment is worthwhile."
+}

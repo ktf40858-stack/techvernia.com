@@ -1,0 +1,44 @@
+{
+  "es": {
+    "review.reclaim-ai.faq.q1": "¿Necesito pagar extra por las características de Reclaim.ai?",
+    "review.reclaim-ai.faq.a1": "Sí, las características de IA como Reclaim Brain y el Auto-scheduling Assistant están disponibles como complementos a partir del plan Business ($12/usuario/mes) o se pueden comprar por separado. Las características principales de gestión de proyectos funcionan sin IA.",
+    "review.reclaim-ai.faq.q2": "¿Es Reclaim adecuado para equipos pequeños?",
+    "review.reclaim-ai.faq.a2": "¡Absolutamente! Reclaim ofrece un generoso plan gratuito permanente para equipos pequeños. Aunque tiene características avanzadas para grandes empresas, los equipos pequeños pueden comenzar simple y añadir complejidad conforme crecen. Las características de IA se escalan bien para equipos de cualquier tamaño.",
+    "review.reclaim-ai.faq.q3": "¿Puede Reclaim.ai escribir planes de proyectos completos?",
+    "review.reclaim-ai.faq.a3": "¡Sí! Dale a Reclaim.ai una descripción del proyecto y puede generar planes de proyectos completos con tareas, subtareas, cronogramas y asignaciones. Puedes refinar y personalizar el plan generado por IA para adaptarlo a tus necesidades específicas.",
+    "review.reclaim-ai.faq.q4": "¿Cómo funciona Reclaim Brain?",
+    "review.reclaim-ai.faq.a4": "Reclaim Brain indexa todo el contenido en tu espacio de trabajo - tareas, documentos, comentarios y chat. Hazle preguntas en lenguaje natural y recupera información relevante al instante. Piénsalo como un motor de búsqueda que comprende el contexto y puede sintetizar respuestas.",
+    "review.reclaim-ai.faq.q5": "¿Se integra Reclaim con otras herramientas?",
+    "review.reclaim-ai.faq.a5": "Sí, Reclaim se integra con más de 1000 herramientas incluyendo Slack, Google Drive, GitHub, Figma, Zoom y más. Las características de IA funcionan en todas las integraciones, así que puedes usar IA en contenido importado de otras plataformas.",
+    "review.reclaim-ai.faq.q6": "¿Hay una aplicación móvil con características de IA?",
+    "review.reclaim-ai.faq.a6": "Sí, Reclaim tiene aplicaciones iOS y Android con características de IA incluyendo el asistente de escritura y Reclaim Brain. Sin embargo, algunas características avanzadas funcionan mejor en la versión web. Las aplicaciones móviles son excelentes para la gestión de tareas sobre la marcha."
+  },
+  "fr": {
+    "review.reclaim-ai.faq.q1": "Dois-je payer un supplément pour les fonctionnalités de Reclaim.ai?",
+    "review.reclaim-ai.faq.a1": "Oui, les fonctionnalités IA comme Reclaim Brain et l'Auto-scheduling Assistant sont disponibles en tant que modules complémentaires à partir du plan Business ($12/utilisateur/mois) ou peuvent être achetées séparément. Les fonctionnalités principales de gestion de projets fonctionnent sans IA.",
+    "review.reclaim-ai.faq.q2": "Reclaim est-il adapté aux petites équipes?",
+    "review.reclaim-ai.faq.a2": "Absolument! Reclaim offre un plan gratuit très généreux et illimité pour les petites équipes. Bien qu'il dispose de fonctionnalités avancées pour les grandes entreprises, les petites équipes peuvent commencer simplement et ajouter de la complexité au fur et à mesure de leur croissance. Les fonctionnalités IA se dimensionnent bien pour les équipes de toute taille.",
+    "review.reclaim-ai.faq.q3": "Reclaim.ai peut-il écrire des plans de projet complets?",
+    "review.reclaim-ai.faq.a3": "Oui! Donnez à Reclaim.ai une description de projet et il peut générer des plans de projet complets avec des tâches, des sous-tâches, des chronologies et des affectations. Vous pouvez affiner et personnaliser le plan généré par IA pour répondre à vos besoins spécifiques.",
+    "review.reclaim-ai.faq.q4": "Comment fonctionne Reclaim Brain?",
+    "review.reclaim-ai.faq.a4": "Reclaim Brain indexe tout le contenu de votre espace de travail - tâches, documents, commentaires et chat. Posez-lui des questions en langage naturel et il récupère les informations pertinentes instantanément. Pensez-y comme un moteur de recherche qui comprend le contexte et peut synthétiser les réponses.",
+    "review.reclaim-ai.faq.q5": "Reclaim s'intègre-t-il avec d'autres outils?",
+    "review.reclaim-ai.faq.a5": "Oui, Reclaim s'intègre avec plus de 1000 outils, y compris Slack, Google Drive, GitHub, Figma, Zoom, et bien d'autres. Les fonctionnalités IA fonctionnent dans toutes les intégrations, vous pouvez donc utiliser l'IA sur le contenu importé d'autres plateformes.",
+    "review.reclaim-ai.faq.q6": "Y a-t-il une application mobile avec des fonctionnalités IA?",
+    "review.reclaim-ai.faq.a6": "Oui, Reclaim dispose d'applications iOS et Android avec des fonctionnalités IA, y compris l'assistant d'écriture et Reclaim Brain. Cependant, certaines fonctionnalités avancées fonctionnent mieux sur la version web. Les applications mobiles sont excellentes pour la gestion des tâches en déplacement."
+  },
+  "de": {
+    "review.reclaim-ai.faq.q1": "Muss ich extra für Reclaim.ai-Funktionen bezahlen?",
+    "review.reclaim-ai.faq.a1": "Ja, KI-Funktionen wie Reclaim Brain und der Auto-scheduling Assistant sind als Add-ons ab dem Business-Plan ($12/Benutzer/Monat) verfügbar oder können separat erworben werden. Die Kern-Projektmanagement-Funktionen funktionieren ohne KI.",
+    "review.reclaim-ai.faq.q2": "Ist Reclaim für kleine Teams geeignet?",
+    "review.reclaim-ai.faq.a2": "Auf jeden Fall! Reclaim bietet einen großzügigen kostenlosen Plan für kleine Teams ohne Laufzeitbegrenzung. Obwohl es erweiterte Funktionen für große Unternehmen hat, können kleine Teams einfach anfangen und Komplexität hinzufügen, wenn sie wachsen. Die KI-Funktionen skalieren gut für Teams jeder Größe.",
+    "review.reclaim-ai.faq.q3": "Kann Reclaim.ai komplette Projektpläne schreiben?",
+    "review.reclaim-ai.faq.a3": "Ja! Geben Sie Reclaim.ai eine Projektbeschreibung und es kann komplette Projektpläne mit Aufgaben, Unteraufgaben, Zeitplänen und Zuweisungen generieren. Sie können den von der KI generierten Plan verfeinern und anpassen, um ihn Ihren spezifischen Anforderungen anzupassen.",
+    "review.reclaim-ai.faq.q4": "Wie funktioniert Reclaim Brain?",
+    "review.reclaim-ai.faq.a4": "Reclaim Brain indexiert alle Inhalte in Ihrem Arbeitsbereich - Aufgaben, Dokumente, Kommentare und Chat. Stellen Sie Fragen in natürlicher Sprache und es ruft relevante Informationen sofort ab. Denken Sie daran als eine Suchmaschine, die den Kontext versteht und Antworten synthetisieren kann.",
+    "review.reclaim-ai.faq.q5": "Wird Reclaim mit anderen Tools integriert?",
+    "review.reclaim-ai.faq.a5": "Ja, Reclaim wird mit über 1000 Tools integriert, darunter Slack, Google Drive, GitHub, Figma, Zoom und mehr. Die KI-Funktionen funktionieren über alle Integrationen hinweg, sodass Sie KI bei importiertem Inhalt von anderen Plattformen verwenden können.",
+    "review.reclaim-ai.faq.q6": "Gibt es eine mobile App mit KI-Funktionen?",
+    "review.reclaim-ai.faq.a6": "Ja, Reclaim hat iOS- und Android-Apps mit KI-Funktionen, einschließlich des Schreibassistenten und Reclaim Brain. Einige erweiterte Funktionen funktionieren jedoch besser in der Webversion. Mobile Apps sind großartig für die Aufgabenverwaltung unterwegs."
+  }
+}

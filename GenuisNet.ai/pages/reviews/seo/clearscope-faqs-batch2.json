@@ -1,0 +1,44 @@
+{
+  "pt": {
+    "review.clearscope.faq.q1": "Como funciona a classificação de conteúdo do Clearscope?",
+    "review.clearscope.faq.a1": "O Clearscope analisa as 30 páginas mais bem classificadas para sua palavra-chave alvo e identifica termos, tópicos e padrões comuns. Em seguida, compara seu conteúdo com esses dados para gerar uma classificação de 0 a 100. Classificações mais altas indicam melhor cobertura de termos e tópicos relevantes. A classificação é atualizada em tempo real enquanto você escreve, fornecendo feedback instantâneo sobre otimização.",
+    "review.clearscope.faq.q2": "O Clearscope escreve conteúdo para mim?",
+    "review.clearscope.faq.a2": "Não, o Clearscope é uma ferramenta de otimização, não um gerador de conteúdo. Ele fornece recomendações sobre o que incluir em seu conteúdo, mas você ou seus redatores criam o texto real. Isso garante que o conteúdo permaneça original, de alta qualidade e alinhado com a voz da sua marca. O Clearscope foi projetado para aprimorar a escrita humana, não substituí-la.",
+    "review.clearscope.faq.q3": "Posso usar o Clearscope com WordPress?",
+    "review.clearscope.faq.a3": "Sim, embora o Clearscope não tenha um plugin nativo do WordPress, ele se integra perfeitamente com o Google Docs. A maioria dos usuários escreve no Google Docs com a barra lateral do Clearscope ativa e depois copia o conteúdo otimizado para o WordPress. Você também pode usar o editor web e copiar o conteúdo para qualquer CMS. A integração com Google Docs é o fluxo de trabalho mais popular.",
+    "review.clearscope.faq.q4": "Quantos relatórios de conteúdo posso criar por mês?",
+    "review.clearscope.faq.a4": "O plano Essentials inclui créditos para aproximadamente 10 novos relatórios de conteúdo por mês. No entanto, você pode otimizar e re-otimizar relatórios existentes ilimitadamente. Se precisar de mais relatórios, pode comprar créditos adicionais ou fazer upgrade para planos Business/Enterprise com limites mais altos. A maioria das equipes considera 10-20 relatórios por mês suficientes.",
+    "review.clearscope.faq.q5": "Existe um teste gratuito disponível?",
+    "review.clearscope.faq.a5": "O Clearscope não oferece um teste gratuito tradicional. No entanto, eles fornecem demos personalizadas onde você pode ver a plataforma em ação com suas próprias palavras-chave e conteúdo. Isso oferece uma compreensão completa das capacidades da ferramenta antes de se comprometer. Entre em contato com a equipe de vendas para agendar uma demo e discutir suas necessidades específicas.",
+    "review.clearscope.faq.q6": "Como o Clearscope se compara a ferramentas SEO gratuitas?",
+    "review.clearscope.faq.a6": "Ferramentas gratuitas como Yoast ou Rank Math fornecem verificações básicas de SEO on-page (meta tags, legibilidade), enquanto o Clearscope oferece otimização avançada de conteúdo baseada em análise competitiva de páginas mais bem classificadas. A profundidade, precisão e acionabilidade das recomendações do Clearscope superam em muito o que as ferramentas gratuitas oferecem. Para marketing de conteúdo profissional onde os rankings importam, o investimento vale a pena."
+  },
+  "zh": {
+    "review.clearscope.faq.q1": "Clearscope的内容评分是如何运作的？",
+    "review.clearscope.faq.a1": "Clearscope分析目标关键词排名前30的页面，识别常见术语、主题和模式。然后将您的内容与这些数据进行比较，生成0-100的评分。评分越高表示相关术语和主题的覆盖越好。评分会在您写作时实时更新，提供即时的优化反馈。",
+    "review.clearscope.faq.q2": "Clearscope会为我写内容吗？",
+    "review.clearscope.faq.a2": "不会，Clearscope是优化工具，而不是内容生成器。它提供关于在内容中包含什么的建议，但实际文本由您或您的写作者创建。这确保内容保持原创、高质量并与您的品牌声音保持一致。Clearscope旨在增强人类写作，而不是取代它。",
+    "review.clearscope.faq.q3": "我可以在WordPress中使用Clearscope吗？",
+    "review.clearscope.faq.a3": "可以，虽然Clearscope没有原生WordPress插件，但它与Google Docs无缝集成。大多数用户在Google Docs中写作，启用Clearscope侧边栏，然后将优化的内容复制到WordPress。您也可以使用网页编辑器并将内容复制到任何CMS。Google Docs集成是最受欢迎的工作流程。",
+    "review.clearscope.faq.q4": "每月可以创建多少份内容报告？",
+    "review.clearscope.faq.a4": "Essentials计划包含大约10份新内容报告的积分。但是，您可以无限次优化和重新优化现有报告。如果需要更多报告，可以购买额外积分或升级到具有更高限额的Business/Enterprise计划。大多数团队发现每月10-20份报告就足够了。",
+    "review.clearscope.faq.q5": "有免费试用吗？",
+    "review.clearscope.faq.a5": "Clearscope不提供传统的免费试用。但是，他们提供个性化演示，您可以使用自己的关键词和内容查看平台的实际效果。这让您在承诺之前全面了解工具的功能。联系他们的销售团队安排演示并讨论您的具体需求。",
+    "review.clearscope.faq.q6": "Clearscope与免费SEO工具相比如何？",
+    "review.clearscope.faq.a6": "像Yoast或Rank Math这样的免费工具提供基本的页面SEO检查（元标签、可读性），而Clearscope基于排名靠前页面的竞争分析提供高级内容优化。Clearscope建议的深度、准确性和可操作性远远超过免费工具提供的内容。对于排名很重要的专业内容营销，这项投资是值得的。"
+  },
+  "ja": {
+    "review.clearscope.faq.q1": "Clearscopeのコンテンツグレーディングはどのように機能しますか？",
+    "review.clearscope.faq.a1": "Clearscopeはターゲットキーワードの上位30ページを分析し、一般的な用語、トピック、パターンを特定します。次に、コンテンツをこれらのデータと比較して、0〜100のグレードを生成します。グレードが高いほど、関連する用語やトピックのカバレッジが良好であることを示します。グレードは書きながらリアルタイムで更新され、最適化に関する即座のフィードバックを提供します。",
+    "review.clearscope.faq.q2": "Clearscopeは私のためにコンテンツを書いてくれますか？",
+    "review.clearscope.faq.a2": "いいえ、Clearscopeは最適化ツールであり、コンテンツジェネレーターではありません。コンテンツに何を含めるべきかについての推奨事項を提供しますが、実際のテキストはあなたまたはライターが作成します。これにより、コンテンツがオリジナルで高品質であり、ブランドボイスと一致することが保証されます。Clearscopeは人間の執筆を強化するために設計されており、置き換えるものではありません。",
+    "review.clearscope.faq.q3": "WordPressでClearscopeを使用できますか？",
+    "review.clearscope.faq.a3": "はい、ClearscopeにはネイティブのWordPressプラグインはありませんが、Google Docsとシームレスに統合されます。ほとんどのユーザーは、ClearscopeのサイドバーをアクティブにしてGoogle Docsで執筆し、最適化されたコンテンツをWordPressにコピーします。Webエディターを使用して、任意のCMSにコンテンツをコピーすることもできます。Google Docs統合が最も人気のあるワークフローです。",
+    "review.clearscope.faq.q4": "1か月に何件のコンテンツレポートを作成できますか？",
+    "review.clearscope.faq.a4": "Essentialsプランには、月に約10件の新しいコンテンツレポートのクレジットが含まれています。ただし、既存のレポートは無制限に最適化および再最適化できます。より多くのレポートが必要な場合は、追加のクレジットを購入するか、より高い制限を持つBusiness/Enterpriseプランにアップグレードできます。ほとんどのチームは月に10〜20件のレポートで十分であると考えています。",
+    "review.clearscope.faq.q5": "無料トライアルはありますか？",
+    "review.clearscope.faq.a5": "Clearscopeは従来の無料トライアルを提供していません。ただし、独自のキーワードとコンテンツを使用してプラットフォームの動作を確認できるパーソナライズされたデモを提供しています。これにより、コミットする前にツールの機能を徹底的に理解できます。営業チームに連絡してデモをスケジュールし、特定のニーズについて話し合ってください。",
+    "review.clearscope.faq.q6": "Clearscopeは無料のSEOツールと比べてどうですか？",
+    "review.clearscope.faq.a6": "YoastやRank Mathなどの無料ツールは基本的なオンページSEOチェック（メタタグ、可読性）を提供しますが、Clearscopeは上位ランキングページの競合分析に基づいた高度なコンテンツ最適化を提供します。Clearscopeの推奨事項の深さ、正確性、実行可能性は、無料ツールが提供するものをはるかに超えています。ランキングが重要なプロフェッショナルなコンテンツマーケティングでは、投資する価値があります。"
+  }
+}

@@ -119,6 +119,18 @@
                 align-items: stretch;
             }
         }
+    
+        /* FAQ sticky positioning - keeps question visible when expanded */
+        .faq-question {
+            position: sticky;
+            top: 80px;
+            background: var(--bg-card);
+            z-index: 10;
+            padding: var(--space-md);
+            margin: calc(var(--space-md) * -1);
+            margin-bottom: var(--space-md);
+        }
+        
     </style>
 </head>
 <body>
@@ -177,99 +189,99 @@
 <main class="container"><div class="review-content"><article class="review-main">
 <!-- Try It Section -->
 <div class="test-section-top">
-<h2><span data-i18n="review.common.try.it.now">Try It Now</span></h2>
+<h2><span data-i18n="review.common.try.it.now"><span data-i18n="review.tableau.content.1">Try It Now</span></span></h2>
 <div class="cta-buttons-top">
-<a class="btn btn-primary" href="https://www.tableau.com" rel="nofollow sponsored" target="_blank"><span data-i18n="review.tableau.request.demo">Request Demo →</span></a>
-<a class="btn btn-outline" href="#" target="_blank"><span data-i18n="review.tableau.view.pricing">View Pricing</span></a>
+<a class="btn btn-primary" href="https://www.tableau.com" rel="nofollow sponsored" target="_blank"><span data-i18n="review.tableau.content.2">Request Demo →</span></a>
+<a class="btn btn-outline" href="#" target="_blank"><span data-i18n="review.tableau.content.3">View Pricing</span></a>
 </div>
 </div>
-<h2><span data-i18n="review.common.overview">Overview</span></h2>
-<p><span data-i18n="review.tableau.tableau.is.the.worlds.leading">Tableau is the world's leading visual analytics platform that enables anyone to see and understand their data. Known for its intuitive drag-and-drop interface and stunning visualizations, Tableau makes it easy for users to explore data, discover insights, and share findings with interactive dashboards—no coding or technical expertise required.</span></p>
-<p><span data-i18n="review.tableau.what.distinguishes.tableau.is.its">What distinguishes Tableau is its combination of power and ease of use. While many BI tools force users to choose between sophisticated analysis or simple interfaces, Tableau delivers both. The platform leverages AI and machine learning through features like Ask Data (natural language queries), Explain Data (automatic insight discovery), and data preparation recommendations—making advanced analytics accessible to business users.</span></p>
-<h2><span data-i18n="review.common.key.features">Key Features</span></h2>
+<h2><span data-i18n="review.common.overview"><span data-i18n="review.tableau.content.4">Overview</span></span></h2>
+<p><span data-i18n="review.tableau.content.5">Tableau is the world's leading visual analytics platform that enables anyone to see and understand their data. Known for its intuitive drag-and-drop interface and stunning visualizations, Tableau makes it easy for users to explore data, discover insights, and share findings with interactive dashboards—no coding or technical expertise required.</span></p>
+<p><span data-i18n="review.tableau.content.6">What distinguishes Tableau is its combination of power and ease of use. While many BI tools force users to choose between sophisticated analysis or simple interfaces, Tableau delivers both. The platform leverages AI and machine learning through features like Ask Data (natural language queries), Explain Data (automatic insight discovery), and data preparation recommendations—making advanced analytics accessible to business users.</span></p>
+<h2><span data-i18n="review.common.key.features"><span data-i18n="review.tableau.content.7">Key Features</span></span></h2>
 <div class="features-grid">
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg></div><h4>Data Visualization</h4><p><span data-i18n="review.tableau.interactive.dashboards.and.reports.with">Interactive dashboards and reports with drag-and-drop interface for powerful visual analytics.</span></p></div>
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg></div><h4>Data Exploration</h4><p><span data-i18n="review.tableau.intuitive.tools.for.discovering.insights">Intuitive tools for discovering insights and patterns in your data without SQL knowledge.</span></p></div>
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="10" rx="2" width="18" x="3" y="11"></rect><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle><path d="M9 7L9 9M15 7L15 9M12 2v5"></path></svg></div><h4>AI-Powered Insights</h4><p><span data-i18n="review.tableau.automated.anomaly.detection.trend.analysis">Automated anomaly detection, trend analysis, and predictive analytics using machine learning.</span></p></div>
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg></div><h4>Advanced Analytics</h4><p><span data-i18n="review.tableau.statistical.modeling.forecasting.and.what-if">Statistical modeling, forecasting, and what-if scenario planning for data-driven decisions.</span></p></div>
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></div><h4>Data Connectors</h4><p><span data-i18n="review.tableau.connect.to.100.data.sources">Connect to 100+ data sources including databases, cloud platforms, and enterprise applications.</span></p></div>
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div><h4>Collaboration Tools</h4><p><span data-i18n="review.tableau.share.dashboards.create.data.stories">Share dashboards, create data stories, and enable organization-wide data democratization.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg></div><h4><span data-i18n="review.tableau.content.8">Data Visualization</span></h4><p><span data-i18n="review.tableau.content.9">Interactive dashboards and reports with drag-and-drop interface for powerful visual analytics.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg></div><h4><span data-i18n="review.tableau.content.10">Data Exploration</span></h4><p><span data-i18n="review.tableau.content.11">Intuitive tools for discovering insights and patterns in your data without SQL knowledge.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="10" rx="2" width="18" x="3" y="11"></rect><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle><path d="M9 7L9 9M15 7L15 9M12 2v5"></path></svg></div><h4><span data-i18n="review.tableau.content.12">AI-Powered Insights</span></h4><p><span data-i18n="review.tableau.content.13">Automated anomaly detection, trend analysis, and predictive analytics using machine learning.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg></div><h4><span data-i18n="review.tableau.content.14">Advanced Analytics</span></h4><p><span data-i18n="review.tableau.content.15">Statistical modeling, forecasting, and what-if scenario planning for data-driven decisions.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></div><h4><span data-i18n="review.tableau.content.16">Data Connectors</span></h4><p><span data-i18n="review.tableau.content.17">Connect to 100+ data sources including databases, cloud platforms, and enterprise applications.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div><h4><span data-i18n="review.tableau.content.18">Collaboration Tools</span></h4><p><span data-i18n="review.tableau.content.19">Share dashboards, create data stories, and enable organization-wide data democratization.</span></p></div>
 </div>
 <h2 id="pros-cons"><span data-i18n="review.tableau.pros.cons">Pros &amp; Cons</span></h2>
 <div class="pros-cons-grid">
-<div class="pros-box"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg> Advantages</h4><ul><li><span data-i18n="review.tableau.powerful.visualization.capabilities">Powerful visualization capabilities</span></li><li><span data-i18n="review.tableau.intuitive.user.interface">Intuitive user interface</span></li><li><span data-i18n="review.tableau.extensive.data.source.connectors">Extensive data source connectors</span></li><li><span data-i18n="review.tableau.strong.community.and.resources">Strong community and resources</span></li><li><span data-i18n="review.tableau.scalable.for.enterprise.deployments">Scalable for enterprise deployments</span></li><li><span data-i18n="review.tableau.ai-powered.insights.and.automation">AI-powered insights and automation</span></li><li><span data-i18n="review.tableau.mobile.analytics.support">Mobile analytics support</span></li><li><span data-i18n="review.tableau.regular.product.updates">Regular product updates</span></li></ul></div>
-<div class="cons-box"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg> Disadvantages</h4><ul><li><span data-i18n="review.tableau.can.be.expensive.for.full">Can be expensive for full features</span></li><li><span data-i18n="review.tableau.learning.curve.for.advanced.features">Learning curve for advanced features</span></li><li><span data-i18n="review.tableau.performance.issues.with.very.large">Performance issues with very large datasets</span></li><li><span data-i18n="review.tableau.requires.planning.for.optimal.architecture">Requires planning for optimal architecture</span></li><li><span data-i18n="review.tableau.some.features.locked.to.enterprise">Some features locked to enterprise tier</span></li><li><span data-i18n="review.tableau.complex.pricing.structure">Complex pricing structure</span></li></ul></div>
+<div class="pros-box"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg> Advantages</h4><ul><li><span data-i18n="review.tableau.content.22">Powerful visualization capabilities</span></li><li><span data-i18n="review.tableau.content.23">Intuitive user interface</span></li><li><span data-i18n="review.tableau.content.24">Extensive data source connectors</span></li><li><span data-i18n="review.tableau.content.25">Strong community and resources</span></li><li><span data-i18n="review.tableau.content.26">Scalable for enterprise deployments</span></li><li><span data-i18n="review.tableau.content.27">AI-powered insights and automation</span></li><li><span data-i18n="review.tableau.content.28">Mobile analytics support</span></li><li><span data-i18n="review.tableau.content.29">Regular product updates</span></li></ul></div>
+<div class="cons-box"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg> Disadvantages</h4><ul><li><span data-i18n="review.tableau.content.31">Can be expensive for full features</span></li><li><span data-i18n="review.tableau.content.32">Learning curve for advanced features</span></li><li><span data-i18n="review.tableau.content.33">Performance issues with very large datasets</span></li><li><span data-i18n="review.tableau.content.34">Requires planning for optimal architecture</span></li><li><span data-i18n="review.tableau.content.35">Some features locked to enterprise tier</span></li><li><span data-i18n="review.tableau.content.36">Complex pricing structure</span></li></ul></div>
 </div>
-<h2><span data-i18n="review.common.pricing.plans">Pricing Plans</span></h2>
+<h2><span data-i18n="review.common.pricing.plans"><span data-i18n="review.tableau.content.37">Pricing Plans</span></span></h2>
 <table class="pricing-table">
 <thead>
 <tr>
 <th><span data-i18n="review.tableau.plan">Plan</span></th>
-<th><span data-i18n="review.tableau.price">Price</span></th>
-<th><span data-i18n="review.tableau.features">Features</span></th>
+<th><span data-i18n="review.tableau.content.38">Price</span></th>
+<th><span data-i18n="review.tableau.content.39">Features</span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="plan-name"><span data-i18n="review.tableau.professional">Professional</span></td>
-<td class="price"><span data-i18n="review.tableau.contact.sales">Contact Sales</span></td>
-<td><span data-i18n="review.tableau.core.analytics.features.standard.support">Core analytics features, standard support</span></td>
+<td class="plan-name"><span data-i18n="review.tableau.content.40">Professional</span></td>
+<td class="price"><span data-i18n="review.tableau.content.44">Contact Sales</span></td>
+<td><span data-i18n="review.tableau.content.42">Core analytics features, standard support</span></td>
 </tr>
 <tr>
-<td class="plan-name"><span data-i18n="review.tableau.enterprise">Enterprise</span></td>
-<td class="price"><span data-i18n="review.tableau.contact.sales">Contact Sales</span></td>
-<td><span data-i18n="review.tableau.advanced.features.premium.support.sla">Advanced features, premium support, SLA</span></td>
+<td class="plan-name"><span data-i18n="review.tableau.content.43">Enterprise</span></td>
+<td class="price"><span data-i18n="review.tableau.content.44">Contact Sales</span></td>
+<td><span data-i18n="review.tableau.content.45">Advanced features, premium support, SLA</span></td>
 </tr>
 <tr>
-<td class="plan-name"><span data-i18n="review.tableau.custom">Custom</span></td>
-<td class="price"><span data-i18n="review.tableau.custom.pricing">Custom Pricing</span></td>
-<td><span data-i18n="review.tableau.tailored.solutions.for.large.organizations">Tailored solutions for large organizations</span></td>
+<td class="plan-name"><span data-i18n="review.tableau.content.46">Custom</span></td>
+<td class="price"><span data-i18n="review.tableau.content.47">Custom Pricing</span></td>
+<td><span data-i18n="review.tableau.content.48">Tailored solutions for large organizations</span></td>
 </tr>
 </tbody>
 </table>
-<p><span data-i18n="review.tableau.contact.tableau.sales.team.for">Contact Tableau sales team for detailed pricing based on your organization's needs.</span></p>
-<h2><span data-i18n="review.common.best.use.cases">Best Use Cases</span></h2>
-<h3><span data-i18n="review.tableau.tableau.excels.at">Tableau Excels At:</span></h3>
+<p><span data-i18n="review.tableau.content.49">Contact Tableau sales team for detailed pricing based on your organization's needs.</span></p>
+<h2><span data-i18n="review.common.best.use.cases"><span data-i18n="review.tableau.content.50">Best Use Cases</span></span></h2>
+<h3><span data-i18n="review.tableau.content.51">Tableau Excels At:</span></h3>
 <ul>
-<li><span data-i18n="review.tableau.business.intelligence.comprehensive.data.analysis">Business Intelligence: Comprehensive data analysis and reporting</span></li>
-<li><span data-i18n="review.tableau.data.visualization.interactive.dashboards.and">Data Visualization: Interactive dashboards and visual analytics</span></li>
-<li><span data-i18n="review.tableau.enterprise.analytics.large-scale.data.processing">Enterprise Analytics: Large-scale data processing and insights</span></li>
-<li><span data-i18n="review.tableau.team.collaboration.shared.analytics.and">Team Collaboration: Shared analytics and decision-making</span></li>
-<li><span data-i18n="review.tableau.data.exploration.self-service.analytics.for">Data Exploration: Self-service analytics for business users</span></li>
+<li><span data-i18n="review.tableau.content.52">Business Intelligence: Comprehensive data analysis and reporting</span></li>
+<li><span data-i18n="review.tableau.content.53">Data Visualization: Interactive dashboards and visual analytics</span></li>
+<li><span data-i18n="review.tableau.content.54">Enterprise Analytics: Large-scale data processing and insights</span></li>
+<li><span data-i18n="review.tableau.content.55">Team Collaboration: Shared analytics and decision-making</span></li>
+<li><span data-i18n="review.tableau.content.56">Data Exploration: Self-service analytics for business users</span></li>
 </ul>
-<h3><span data-i18n="review.tableau.may.not.be.ideal.for">May Not Be Ideal For:</span></h3>
+<h3><span data-i18n="review.tableau.content.57">May Not Be Ideal For:</span></h3>
 <ul>
-<li><span data-i18n="review.tableau.small.businesses.with.limited.budgets">Small businesses with limited budgets</span></li>
-<li><span data-i18n="review.tableau.simple.reporting.needs">Simple reporting needs</span></li>
-<li><span data-i18n="review.tableau.organizations.without.dedicated.data.teams">Organizations without dedicated data teams</span></li>
+<li><span data-i18n="review.tableau.content.58">Small businesses with limited budgets</span></li>
+<li><span data-i18n="review.tableau.content.59">Simple reporting needs</span></li>
+<li><span data-i18n="review.tableau.content.60">Organizations without dedicated data teams</span></li>
 </ul>
-<h2 id="comparison"><span data-i18n="review.tableau.how.it.compares">How It Compares</span></h2>
-<p><span data-i18n="review.tableau.tableau.is.a.leading.business">Tableau is a leading business intelligence and analytics platform that competes with tools like Power BI, Tableau, and Qlik. It offers powerful data exploration capabilities, robust integrations, and enterprise-grade features. The platform is particularly strong in cloud-based analytics and collaboration features.</span></p>
-<p><span data-i18n="review.tableau.compared.to.competitors.tableau.provides">Compared to competitors, Tableau provides excellent scalability and is well-suited for organizations already using Google Cloud or similar ecosystems. The pricing is typically enterprise-focused with custom quotes based on organization size and requirements.</span></p>
-<h2><span data-i18n="review.common.final.verdict">Final Verdict</span></h2>
+<h2 id="comparison"><span data-i18n="review.tableau.content.61">How It Compares</span></h2>
+<p><span data-i18n="review.tableau.content.62">Tableau is a leading business intelligence and analytics platform that competes with tools like Power BI, Tableau, and Qlik. It offers powerful data exploration capabilities, robust integrations, and enterprise-grade features. The platform is particularly strong in cloud-based analytics and collaboration features.</span></p>
+<p><span data-i18n="review.tableau.content.63">Compared to competitors, Tableau provides excellent scalability and is well-suited for organizations already using Google Cloud or similar ecosystems. The pricing is typically enterprise-focused with custom quotes based on organization size and requirements.</span></p>
+<h2><span data-i18n="review.common.final.verdict"><span data-i18n="review.tableau.content.64">Final Verdict</span></span></h2>
 <div class="verdict-box">
-<h3><span data-i18n="review.tableau.our.recommendation">Our Recommendation</span></h3>
-<p><span data-i18n="review.tableau.tableau.is.an.excellent.choice">Tableau is an excellent choice for organizations seeking powerful data visualization capabilities. Its combination of ease of use, advanced features, and enterprise scalability make it suitable for businesses of all sizes. The platform excels at making complex data accessible to business users while providing the depth needed for data professionals. Consider Tableau if you prioritize user adoption, visual analytics, and AI-powered insights for data-driven decision making.</span></p>
+<h3><span data-i18n="review.tableau.content.65">Our Recommendation</span></h3>
+<p><span data-i18n="review.tableau.content.66">Tableau is an excellent choice for organizations seeking powerful data visualization capabilities. Its combination of ease of use, advanced features, and enterprise scalability make it suitable for businesses of all sizes. The platform excels at making complex data accessible to business users while providing the depth needed for data professionals. Consider Tableau if you prioritize user adoption, visual analytics, and AI-powered insights for data-driven decision making.</span></p>
 </div>
 <h2><span data-i18n="review.common.screenshots.interface">Screenshots &amp; Interface</span></h2>
-<p><span data-i18n="review.tableau.explore.tableaus.interface">Explore Tableau's interface:</span></p>
+<p><span data-i18n="review.tableau.content.68">Explore Tableau's interface:</span></p>
 <div class="screenshots-gallery" style="display: grid; gap: var(--space-lg); margin: var(--space-xl) 0;">
 <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-md); overflow: hidden;">
 <img alt="Tableau Interface" src="../../../assets/screenshots/business/tableau.png" style="width: 100%; height: auto; border-radius: var(--radius-md);"/>
-<p style="text-align: center; margin-top: var(--space-md); color: var(--text-secondary); font-size: var(--text-sm);"><span data-i18n="review.tableau.main.interface.-.overview.of">Main Interface - Overview of the platform</span></p>
+<p style="text-align: center; margin-top: var(--space-md); color: var(--text-secondary); font-size: var(--text-sm);"><span data-i18n="review.tableau.content.69">Main Interface - Overview of the platform</span></p>
 </div>
 </div>
-<h2><span data-i18n="review.common.frequently.asked.questions">Frequently Asked Questions</span></h2>
-<div class="faq-item"><div class="faq-question">How much does Tableau cost?<span>+</span></div><div class="faq-answer">Pricing varies based on deployment model, users, and features. Contact Salesforce for specific quotes tailored to your organization's needs.</div></div>
-<div class="faq-item"><div class="faq-question">What data sources does Tableau support?<span>+</span></div><div class="faq-answer">Tableau supports 100+ native connectors including major databases, cloud platforms, SaaS applications, and file formats.</div></div>
-<div class="faq-item"><div class="faq-question">Does Tableau require coding?<span>+</span></div><div class="faq-answer">No, Tableau features an intuitive visual interface that doesn't require coding for most analyses. Advanced users can leverage scripting for complex scenarios.</div></div>
+<h2><span data-i18n="review.common.frequently.asked.questions"><span data-i18n="review.tableau.content.70">Frequently Asked Questions</span></span></h2>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.tableau.faq.q1">How much does Tableau cost?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.tableau.faq.a1">Pricing varies based on deployment model, users, and features. Contact Salesforce for specific quotes tailored to your organization's needs.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.tableau.faq.q2">What data sources does Tableau support?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.tableau.faq.a2">Tableau supports 100+ native connectors including major databases, cloud platforms, SaaS applications, and file formats.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.tableau.faq.q3">Does Tableau require coding?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.tableau.faq.a3">No, Tableau features an intuitive visual interface that doesn't require coding for most analyses. Advanced users can leverage scripting for complex scenarios.</span></div></div>
 </article>
 <aside class="review-sidebar">
 <div class="sidebar-card">
 <h3>Get Tableau</h3>
 <div class="cta-buttons">
-<a class="btn btn-primary" href="https://www.tableau.com" rel="nofollow sponsored" target="_blank">Request Demo →</a>
-<a class="btn btn-outline" href="#" target="_blank">View Pricing</a>
+<a class="btn btn-primary" href="https://www.tableau.com" rel="nofollow sponsored" target="_blank"><span data-i18n="review.tableau.content.2">Request Demo →</span></a>
+<a class="btn btn-outline" href="#" target="_blank"><span data-i18n="review.tableau.content.3">View Pricing</span></a>
 </div>
 <div class="rating-breakdown">
 <div class="rating-item"><span class="rating-item-label">Features</span><div class="rating-item-bar"><div class="rating-item-fill" style="width:90%"></div></div><span class="rating-item-score">9.0</span></div>
@@ -311,5 +323,6 @@
 <script src="../../../js/i18n.js"></script>
 <script src="../../../js/auto-translate.js"></script><script src="../../../js/animations.js"></script><script src="../../../js/main.js"></script>
 <script>document.querySelectorAll('.faq-question').forEach(question=>{question.addEventListener('click',()=>{const answer=question.nextElementSibling;const isOpen=answer.style.display==='block';document.querySelectorAll('.faq-answer').forEach(a=>a.style.display='none');document.querySelectorAll('.faq-question span').forEach(s=>s.textContent='+');if(!isOpen){answer.style.display='block';question.querySelector('span').textContent='−'}})})</script>
+    <script src="../../../js/tableau-i18n.js"></script>
 </body>
 </html>

@@ -52,7 +52,17 @@ const dalle3Translations = {
     "review.common.comparison.with.competitors": "Comparison with Competitors",
     "review.common.screenshots.interface": "Screenshots & Interface",
     "review.common.final.verdict": "Final Verdict",
-    "review.common.frequently.asked.questions": "Frequently Asked Questions"
+    "review.common.frequently.asked.questions": "Frequently Asked Questions",
+    "review.dall-e-3.faq1.question": "Is DALL-E 3 free to use?",
+    "review.dall-e-3.faq1.answer": "No. DALL-E 3 requires ChatGPT Plus ($20/month). There's no free tier. Alternatively, developers can access it via the OpenAI API (pay-per-image pricing).",
+    "review.dall-e-3.faq2.question": "Can I use DALL-E 3 images commercially?",
+    "review.dall-e-3.faq2.answer": "Yes! You own the images you create and can use them commercially—sell products, use in ads, publish in books, etc. No attribution required.",
+    "review.dall-e-3.faq3.question": "How does image quality compare to competitors?",
+    "review.dall-e-3.faq3.answer": "DALL-E 3 excels at photorealism and matches Midjourney for realistic images. However, Midjourney produces more artistic and cinematic results. For perfect text rendering in images, Ideogram is superior.",
+    "review.dall-e-3.faq4.question": "How does DALL-E 3 compare to Midjourney?",
+    "review.dall-e-3.faq4.answer": "DALL-E 3 is easier to use (ChatGPT interface vs Discord) and excellent for photorealism. Midjourney produces more artistic, cinematic images with better aesthetic quality. Choose DALL-E 3 for convenience and realism, Midjourney for artistic work.",
+    "review.dall-e-3.faq5.question": "How is DALL-E 3 integrated with ChatGPT?",
+    "review.dall-e-3.faq5.answer": "DALL-E 3 is built directly into ChatGPT Plus. You can generate images conversationally—just describe what you want, and ChatGPT will optimize your prompt and create images. You can then refine results by asking for adjustments in natural language."
   },
   "es": {
     "review.dall-e-3.quick.answer.is.dall-e.3": "Quick Answer: Is DALL-E 3 Worth It in 2026?",
@@ -407,7 +417,17 @@ const dalle3Translations = {
     "review.common.comparison.with.competitors": "Comparación con Competidores",
     "review.common.screenshots.interface": "Capturas de Pantalla e Interfaz",
     "review.common.final.verdict": "Veredicto Final",
-    "review.common.frequently.asked.questions": "Preguntas Frecuentes"
+    "review.common.frequently.asked.questions": "Preguntas Frecuentes",
+    "review.dall-e-3.faq1.question": "¿DALL-E 3 es gratis?",
+    "review.dall-e-3.faq1.answer": "No. DALL-E 3 requiere ChatGPT Plus ($20/mes). No hay versión gratuita. Alternativamente, los desarrolladores pueden acceder a través de la API de OpenAI (precio por imagen).",
+    "review.dall-e-3.faq2.question": "¿Puedo usar las imágenes de DALL-E 3 comercialmente?",
+    "review.dall-e-3.faq2.answer": "¡Sí! Eres dueño de las imágenes que creas y puedes usarlas comercialmente: vender productos, usar en anuncios, publicar en libros, etc. No se requiere atribución.",
+    "review.dall-e-3.faq3.question": "¿Cómo se compara la calidad de imagen con la competencia?",
+    "review.dall-e-3.faq3.answer": "DALL-E 3 sobresale en fotorrealismo y se iguala a Midjourney para imágenes realistas. Sin embargo, Midjourney produce resultados más artísticos y cinematográficos. Para renderizado perfecto de texto en imágenes, Ideogram es superior.",
+    "review.dall-e-3.faq4.question": "¿Cómo se compara DALL-E 3 con Midjourney?",
+    "review.dall-e-3.faq4.answer": "DALL-E 3 es más fácil de usar (interfaz ChatGPT vs Discord) y excelente para fotorrealismo. Midjourney produce imágenes más artísticas y cinematográficas con mejor calidad estética. Elige DALL-E 3 para conveniencia y realismo, Midjourney para trabajo artístico.",
+    "review.dall-e-3.faq5.question": "¿Cómo se integra DALL-E 3 con ChatGPT?",
+    "review.dall-e-3.faq5.answer": "DALL-E 3 está integrado directamente en ChatGPT Plus. Puedes generar imágenes de forma conversacional: simplemente describe lo que quieres, y ChatGPT optimizará tu mensaje y creará imágenes. Luego puedes refinar los resultados pidiendo ajustes en lenguaje natural."
   },
   "fr": {
     "review.dall-e-3.quick.answer.is.dall-e.3": "Quick Answer: Is DALL-E 3 Worth It in 2026?",
@@ -762,7 +782,17 @@ const dalle3Translations = {
     "review.common.comparison.with.competitors": "Comparaison avec Concurrents",
     "review.common.screenshots.interface": "Captures d'Écran et Interface",
     "review.common.final.verdict": "Verdict Final",
-    "review.common.frequently.asked.questions": "Questions Fréquemment Posées"
+    "review.common.frequently.asked.questions": "Questions Fréquemment Posées",
+    "review.dall-e-3.faq1.question": "DALL-E 3 est-il gratuit ?",
+    "review.dall-e-3.faq1.answer": "Non. DALL-E 3 nécessite ChatGPT Plus (20$/mois). Il n'y a pas de version gratuite. Alternativement, les développeurs peuvent y accéder via l'API OpenAI (tarification par image).",
+    "review.dall-e-3.faq2.question": "Puis-je utiliser les images DALL-E 3 commercialement ?",
+    "review.dall-e-3.faq2.answer": "Oui ! Vous êtes propriétaire des images que vous créez et pouvez les utiliser commercialement : vendre des produits, utiliser dans des publicités, publier dans des livres, etc. Aucune attribution requise.",
+    "review.dall-e-3.faq3.question": "Comment la qualité d'image se compare-t-elle à la concurrence ?",
+    "review.dall-e-3.faq3.answer": "DALL-E 3 excelle en photoréalisme et égale Midjourney pour les images réalistes. Cependant, Midjourney produit des résultats plus artistiques et cinématographiques. Pour un rendu de texte parfait dans les images, Ideogram est supérieur.",
+    "review.dall-e-3.faq4.question": "Comment DALL-E 3 se compare-t-il à Midjourney ?",
+    "review.dall-e-3.faq4.answer": "DALL-E 3 est plus facile à utiliser (interface ChatGPT vs Discord) et excellent pour le photoréalisme. Midjourney produit des images plus artistiques et cinématographiques avec une meilleure qualité esthétique. Choisissez DALL-E 3 pour la commodité et le réalisme, Midjourney pour le travail artistique.",
+    "review.dall-e-3.faq5.question": "Comment DALL-E 3 est-il intégré à ChatGPT ?",
+    "review.dall-e-3.faq5.answer": "DALL-E 3 est intégré directement dans ChatGPT Plus. Vous pouvez générer des images de manière conversationnelle : décrivez simplement ce que vous voulez, et ChatGPT optimisera votre demande et créera des images. Vous pouvez ensuite affiner les résultats en demandant des ajustements en langage naturel."
   },
   "de": {
     "review.dall-e-3.quick.answer.is.dall-e.3": "Quick Answer: Is DALL-E 3 Worth It in 2026?",
@@ -1117,7 +1147,17 @@ const dalle3Translations = {
     "review.common.comparison.with.competitors": "Vergleich mit Konkurrenten",
     "review.common.screenshots.interface": "Screenshots und Benutzeroberfläche",
     "review.common.final.verdict": "Endgültiges Urteil",
-    "review.common.frequently.asked.questions": "Häufig Gestellte Fragen"
+    "review.common.frequently.asked.questions": "Häufig Gestellte Fragen",
+    "review.dall-e-3.faq1.question": "Ist DALL-E 3 kostenlos?",
+    "review.dall-e-3.faq1.answer": "Nein. DALL-E 3 erfordert ChatGPT Plus (20$/Monat). Es gibt keine kostenlose Version. Alternativ können Entwickler über die OpenAI-API darauf zugreifen (Preis pro Bild).",
+    "review.dall-e-3.faq2.question": "Kann ich DALL-E 3-Bilder kommerziell nutzen?",
+    "review.dall-e-3.faq2.answer": "Ja! Sie besitzen die Bilder, die Sie erstellen, und können sie kommerziell nutzen: Produkte verkaufen, in Anzeigen verwenden, in Büchern veröffentlichen usw. Keine Namensnennung erforderlich.",
+    "review.dall-e-3.faq3.question": "Wie vergleicht sich die Bildqualität mit der Konkurrenz?",
+    "review.dall-e-3.faq3.answer": "DALL-E 3 zeichnet sich durch Fotorealismus aus und ist bei realistischen Bildern mit Midjourney vergleichbar. Midjourney produziert jedoch künstlerischere und filmischere Ergebnisse. Für perfektes Textrendering in Bildern ist Ideogram überlegen.",
+    "review.dall-e-3.faq4.question": "Wie vergleicht sich DALL-E 3 mit Midjourney?",
+    "review.dall-e-3.faq4.answer": "DALL-E 3 ist einfacher zu bedienen (ChatGPT-Schnittstelle vs. Discord) und hervorragend für Fotorealismus. Midjourney produziert künstlerischere, filmischere Bilder mit besserer ästhetischer Qualität. Wählen Sie DALL-E 3 für Bequemlichkeit und Realismus, Midjourney für künstlerische Arbeit.",
+    "review.dall-e-3.faq5.question": "Wie ist DALL-E 3 in ChatGPT integriert?",
+    "review.dall-e-3.faq5.answer": "DALL-E 3 ist direkt in ChatGPT Plus integriert. Sie können Bilder im Gespräch generieren: Beschreiben Sie einfach, was Sie möchten, und ChatGPT optimiert Ihre Anfrage und erstellt Bilder. Anschließend können Sie die Ergebnisse verfeinern, indem Sie Anpassungen in natürlicher Sprache anfordern."
   },
   "pt": {
     "review.dall-e-3.quick.answer.is.dall-e.3": "Quick Answer: Is DALL-E 3 Worth It in 2026?",
@@ -1472,7 +1512,17 @@ const dalle3Translations = {
     "review.common.comparison.with.competitors": "Comparação com Concorrentes",
     "review.common.screenshots.interface": "Capturas de Tela e Interface",
     "review.common.final.verdict": "Veredicto Final",
-    "review.common.frequently.asked.questions": "Perguntas Frequentes"
+    "review.common.frequently.asked.questions": "Perguntas Frequentes",
+    "review.dall-e-3.faq1.question": "DALL-E 3 é gratuito?",
+    "review.dall-e-3.faq1.answer": "Não. DALL-E 3 requer ChatGPT Plus ($20/mês). Não há versão gratuita. Alternativamente, desenvolvedores podem acessar via API OpenAI (preço por imagem).",
+    "review.dall-e-3.faq2.question": "Posso usar imagens DALL-E 3 comercialmente?",
+    "review.dall-e-3.faq2.answer": "Sim! Você é proprietário das imagens que cria e pode usá-las comercialmente: vender produtos, usar em anúncios, publicar em livros, etc. Não é necessária atribuição.",
+    "review.dall-e-3.faq3.question": "Como a qualidade da imagem se compara com a concorrência?",
+    "review.dall-e-3.faq3.answer": "DALL-E 3 se destaca em fotorrealismo e se iguala ao Midjourney para imagens realistas. No entanto, Midjourney produz resultados mais artísticos e cinematográficos. Para renderização perfeita de texto em imagens, Ideogram é superior.",
+    "review.dall-e-3.faq4.question": "Como DALL-E 3 se compara ao Midjourney?",
+    "review.dall-e-3.faq4.answer": "DALL-E 3 é mais fácil de usar (interface ChatGPT vs Discord) e excelente para fotorrealismo. Midjourney produz imagens mais artísticas e cinematográficas com melhor qualidade estética. Escolha DALL-E 3 para conveniência e realismo, Midjourney para trabalho artístico.",
+    "review.dall-e-3.faq5.question": "Como DALL-E 3 está integrado ao ChatGPT?",
+    "review.dall-e-3.faq5.answer": "DALL-E 3 está integrado diretamente no ChatGPT Plus. Você pode gerar imagens conversacionalmente: apenas descreva o que deseja, e o ChatGPT otimizará seu prompt e criará imagens. Você pode então refinar os resultados solicitando ajustes em linguagem natural."
   },
   "zh": {
     "review.dall-e-3.quick.answer.is.dall-e.3": "Quick Answer: Is DALL-E 3 Worth It in 2026?",
@@ -1827,7 +1877,17 @@ const dalle3Translations = {
     "review.common.comparison.with.competitors": "与竞争对手比较",
     "review.common.screenshots.interface": "截图和界面",
     "review.common.final.verdict": "最终评价",
-    "review.common.frequently.asked.questions": "常见问题"
+    "review.common.frequently.asked.questions": "常见问题",
+    "review.dall-e-3.faq1.question": "DALL-E 3 是免费的吗？",
+    "review.dall-e-3.faq1.answer": "不是。DALL-E 3 需要 ChatGPT Plus（20美元/月）。没有免费版本。或者，开发人员可以通过 OpenAI API 访问（按图像定价）。",
+    "review.dall-e-3.faq2.question": "我可以商业使用 DALL-E 3 图像吗？",
+    "review.dall-e-3.faq2.answer": "可以！您拥有创建的图像，可以商业使用：销售产品、用于广告、出版书籍等。无需署名。",
+    "review.dall-e-3.faq3.question": "图像质量与竞争对手相比如何？",
+    "review.dall-e-3.faq3.answer": "DALL-E 3 在照片写实方面表现出色，在逼真图像方面与 Midjourney 相当。然而，Midjourney 产生更具艺术性和电影感的结果。对于图像中完美的文本渲染，Ideogram 更胜一筹。",
+    "review.dall-e-3.faq4.question": "DALL-E 3 与 Midjourney 相比如何？",
+    "review.dall-e-3.faq4.answer": "DALL-E 3 更易于使用（ChatGPT 界面 vs Discord），在照片写实方面表现出色。Midjourney 产生更具艺术性、电影感的图像，具有更好的美学质量。选择 DALL-E 3 以获得便利和写实，选择 Midjourney 进行艺术创作。",
+    "review.dall-e-3.faq5.question": "DALL-E 3 如何与 ChatGPT 集成？",
+    "review.dall-e-3.faq5.answer": "DALL-E 3 直接集成到 ChatGPT Plus 中。您可以对话式生成图像：只需描述您想要的内容，ChatGPT 将优化您的提示并创建图像。然后，您可以通过自然语言请求调整来完善结果。"
   },
   "ja": {
     "review.dall-e-3.quick.answer.is.dall-e.3": "Quick Answer: Is DALL-E 3 Worth It in 2026?",
@@ -2182,7 +2242,17 @@ const dalle3Translations = {
     "review.common.comparison.with.competitors": "競合他社との比較",
     "review.common.screenshots.interface": "スクリーンショットとインターフェース",
     "review.common.final.verdict": "最終評価",
-    "review.common.frequently.asked.questions": "よくある質問"
+    "review.common.frequently.asked.questions": "よくある質問",
+    "review.dall-e-3.faq1.question": "DALL-E 3は無料ですか？",
+    "review.dall-e-3.faq1.answer": "いいえ。DALL-E 3にはChatGPT Plus（月額20ドル）が必要です。無料版はありません。または、開発者はOpenAI API経由でアクセスできます（画像ごとの料金）。",
+    "review.dall-e-3.faq2.question": "DALL-E 3の画像を商業利用できますか？",
+    "review.dall-e-3.faq2.answer": "はい！作成した画像はあなたのものであり、商業利用できます。製品の販売、広告での使用、書籍での出版など。帰属表示は不要です。",
+    "review.dall-e-3.faq3.question": "競合他社と比較して画像品質はどうですか？",
+    "review.dall-e-3.faq3.answer": "DALL-E 3はフォトリアリズムに優れており、リアルな画像ではMidjourneyと同等です。ただし、Midjourneyはより芸術的で映画的な結果を生み出します。画像内の完璧なテキストレンダリングには、Ideogramが優れています。",
+    "review.dall-e-3.faq4.question": "DALL-E 3とMidjourneyを比較するとどうですか？",
+    "review.dall-e-3.faq4.answer": "DALL-E 3は使いやすく（ChatGPTインターフェースvs Discord）、フォトリアリズムに優れています。Midjourneyはより芸術的で映画的な画像を生成し、美的品質が優れています。利便性とリアリズムにはDALL-E 3を、芸術的な作業にはMidjourneyを選択してください。",
+    "review.dall-e-3.faq5.question": "DALL-E 3はChatGPTとどのように統合されていますか？",
+    "review.dall-e-3.faq5.answer": "DALL-E 3はChatGPT Plusに直接統合されています。会話形式で画像を生成できます。欲しいものを説明するだけで、ChatGPTがプロンプトを最適化し、画像を作成します。その後、自然言語で調整を依頼して結果を洗練できます。"
   },
   "ko": {
     "review.dall-e-3.quick.answer.is.dall-e.3": "Quick Answer: Is DALL-E 3 Worth It in 2026?",
@@ -2537,7 +2607,17 @@ const dalle3Translations = {
     "review.common.comparison.with.competitors": "경쟁사와 비교",
     "review.common.screenshots.interface": "스크린샷 및 인터페이스",
     "review.common.final.verdict": "최종 평가",
-    "review.common.frequently.asked.questions": "자주 묻는 질문"
+    "review.common.frequently.asked.questions": "자주 묻는 질문",
+    "review.dall-e-3.faq1.question": "DALL-E 3은 무료인가요?",
+    "review.dall-e-3.faq1.answer": "아니요. DALL-E 3은 ChatGPT Plus(월 $20)가 필요합니다. 무료 버전은 없습니다. 또는 개발자는 OpenAI API를 통해 액세스할 수 있습니다(이미지당 요금).",
+    "review.dall-e-3.faq2.question": "DALL-E 3 이미지를 상업적으로 사용할 수 있나요?",
+    "review.dall-e-3.faq2.answer": "예! 생성한 이미지를 소유하며 상업적으로 사용할 수 있습니다. 제품 판매, 광고 사용, 책 출판 등. 저작자 표시가 필요하지 않습니다.",
+    "review.dall-e-3.faq3.question": "경쟁사와 비교하여 이미지 품질은 어떤가요?",
+    "review.dall-e-3.faq3.answer": "DALL-E 3은 사실주의에서 뛰어나며 사실적인 이미지에서 Midjourney와 동등합니다. 그러나 Midjourney는 더 예술적이고 영화 같은 결과를 생성합니다. 이미지의 완벽한 텍스트 렌더링에는 Ideogram이 우수합니다.",
+    "review.dall-e-3.faq4.question": "DALL-E 3은 Midjourney와 어떻게 비교되나요?",
+    "review.dall-e-3.faq4.answer": "DALL-E 3은 사용하기 쉽고(ChatGPT 인터페이스 vs Discord) 사실주의에 뛰어납니다. Midjourney는 더 예술적이고 영화 같은 이미지를 생성하며 미적 품질이 우수합니다. 편의성과 사실주의를 위해서는 DALL-E 3을, 예술 작업을 위해서는 Midjourney를 선택하세요.",
+    "review.dall-e-3.faq5.question": "DALL-E 3은 ChatGPT와 어떻게 통합되나요?",
+    "review.dall-e-3.faq5.answer": "DALL-E 3은 ChatGPT Plus에 직접 통합되어 있습니다. 대화식으로 이미지를 생성할 수 있습니다. 원하는 것을 설명하기만 하면 ChatGPT가 프롬프트를 최적화하고 이미지를 만듭니다. 그런 다음 자연어로 조정을 요청하여 결과를 개선할 수 있습니다."
   },
   "ar": {
     "review.dall-e-3.quick.answer.is.dall-e.3": "Quick Answer: Is DALL-E 3 Worth It in 2026?",
@@ -2892,7 +2972,17 @@ const dalle3Translations = {
     "review.common.comparison.with.competitors": "مقارنة مع المنافسين",
     "review.common.screenshots.interface": "لقطات الشاشة والواجهة",
     "review.common.final.verdict": "الحكم النهائي",
-    "review.common.frequently.asked.questions": "الأسئلة الشائعة"
+    "review.common.frequently.asked.questions": "الأسئلة الشائعة",
+    "review.dall-e-3.faq1.question": "هل DALL-E 3 مجاني؟",
+    "review.dall-e-3.faq1.answer": "لا. يتطلب DALL-E 3 اشتراك ChatGPT Plus (20 دولارًا في الشهر). لا توجد نسخة مجانية. بدلاً من ذلك، يمكن للمطورين الوصول عبر OpenAI API (تسعير لكل صورة).",
+    "review.dall-e-3.faq2.question": "هل يمكنني استخدام صور DALL-E 3 تجاريًا؟",
+    "review.dall-e-3.faq2.answer": "نعم! أنت تمتلك الصور التي تنشئها ويمكنك استخدامها تجاريًا: بيع المنتجات، استخدامها في الإعلانات، نشرها في الكتب، إلخ. لا يتطلب الإسناد.",
+    "review.dall-e-3.faq3.question": "كيف تقارن جودة الصورة مع المنافسين؟",
+    "review.dall-e-3.faq3.answer": "يتفوق DALL-E 3 في الواقعية الفوتوغرافية ويساوي Midjourney للصور الواقعية. ومع ذلك، ينتج Midjourney نتائج أكثر فنية وسينمائية. للعرض المثالي للنص في الصور، Ideogram متفوق.",
+    "review.dall-e-3.faq4.question": "كيف يقارن DALL-E 3 مع Midjourney؟",
+    "review.dall-e-3.faq4.answer": "DALL-E 3 أسهل في الاستخدام (واجهة ChatGPT مقابل Discord) وممتاز للواقعية الفوتوغرافية. ينتج Midjourney صورًا أكثر فنية وسينمائية بجودة جمالية أفضل. اختر DALL-E 3 للراحة والواقعية، Midjourney للعمل الفني.",
+    "review.dall-e-3.faq5.question": "كيف يتكامل DALL-E 3 مع ChatGPT؟",
+    "review.dall-e-3.faq5.answer": "DALL-E 3 مدمج مباشرة في ChatGPT Plus. يمكنك إنشاء صور بشكل محادثة: فقط صف ما تريد، وسيقوم ChatGPT بتحسين طلبك وإنشاء الصور. يمكنك بعد ذلك تحسين النتائج من خلال طلب التعديلات بلغة طبيعية."
   },
   "hi": {
     "review.dall-e-3.quick.answer.is.dall-e.3": "Quick Answer: Is DALL-E 3 Worth It in 2026?",
@@ -3247,7 +3337,17 @@ const dalle3Translations = {
     "review.common.comparison.with.competitors": "प्रतियोगियों के साथ तुलना",
     "review.common.screenshots.interface": "स्क्रीनशॉट और इंटरफ़ेस",
     "review.common.final.verdict": "अंतिम निर्णय",
-    "review.common.frequently.asked.questions": "अक्सर पूछे जाने वाले प्रश्न"
+    "review.common.frequently.asked.questions": "अक्सर पूछे जाने वाले प्रश्न",
+    "review.dall-e-3.faq1.question": "क्या DALL-E 3 मुफ़्त है?",
+    "review.dall-e-3.faq1.answer": "नहीं। DALL-E 3 के लिए ChatGPT Plus ($20/माह) की आवश्यकता है। कोई मुफ़्त संस्करण नहीं है। वैकल्पिक रूप से, डेवलपर्स OpenAI API के माध्यम से पहुंच सकते हैं (प्रति छवि मूल्य निर्धारण)।",
+    "review.dall-e-3.faq2.question": "क्या मैं DALL-E 3 छवियों का व्यावसायिक उपयोग कर सकता हूँ?",
+    "review.dall-e-3.faq2.answer": "हाँ! आप बनाई गई छवियों के स्वामी हैं और उन्हें व्यावसायिक रूप से उपयोग कर सकते हैं: उत्पाद बेचें, विज्ञापनों में उपयोग करें, पुस्तकों में प्रकाशित करें, आदि। श्रेय देने की आवश्यकता नहीं।",
+    "review.dall-e-3.faq3.question": "प्रतिस्पर्धियों की तुलना में छवि गुणवत्ता कैसी है?",
+    "review.dall-e-3.faq3.answer": "DALL-E 3 फ़ोटोरियलिज़्म में उत्कृष्ट है और यथार्थवादी छवियों के लिए Midjourney के बराबर है। हालाँकि, Midjourney अधिक कलात्मक और सिनेमाई परिणाम उत्पन्न करता है। छवियों में पूर्ण टेक्स्ट रेंडरिंग के लिए, Ideogram बेहतर है।",
+    "review.dall-e-3.faq4.question": "DALL-E 3 की Midjourney से तुलना कैसे होती है?",
+    "review.dall-e-3.faq4.answer": "DALL-E 3 उपयोग में आसान (ChatGPT इंटरफ़ेस बनाम Discord) और फ़ोटोरियलिज़्म के लिए उत्कृष्ट है। Midjourney अधिक कलात्मक, सिनेमाई छवियाँ बेहतर सौंदर्य गुणवत्ता के साथ उत्पन्न करता है। सुविधा और यथार्थवाद के लिए DALL-E 3 चुनें, कलात्मक कार्य के लिए Midjourney।",
+    "review.dall-e-3.faq5.question": "DALL-E 3 ChatGPT के साथ कैसे एकीकृत है?",
+    "review.dall-e-3.faq5.answer": "DALL-E 3 सीधे ChatGPT Plus में एकीकृत है। आप बातचीत के रूप में छवियाँ उत्पन्न कर सकते हैं: बस वर्णन करें कि आप क्या चाहते हैं, और ChatGPT आपके प्रॉम्प्ट को अनुकूलित करेगा और छवियाँ बनाएगा। फिर आप प्राकृतिक भाषा में समायोजन का अनुरोध करके परिणामों को परिष्कृत कर सकते हैं।"
   }
 };
 

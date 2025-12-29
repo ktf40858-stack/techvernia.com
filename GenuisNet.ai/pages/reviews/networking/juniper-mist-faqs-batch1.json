@@ -1,0 +1,32 @@
+{
+  "es": {
+    "review.juniper-mist.faq.q1": "¿Puede Mist funcionar sin conexión?",
+    "review.juniper-mist.faq.a1": "La red en sí continúa funcionando si se pierde la conectividad en la nube — los APs y switches operarán usando políticas en caché. Sin embargo, las características de IA, la gestión y Marvis requieren conectividad en la nube. No hay opción de despliegue en las instalaciones.",
+    "review.juniper-mist.faq.q2": "¿Cómo se compara Marvis con Cisco AI?",
+    "review.juniper-mist.faq.a2": "Marvis se considera generalmente más avanzado para la solución de problemas conversacional y consultas en lenguaje natural. El AI de Cisco DNA Center es más fuerte para la remediación automatizada en entornos complejos de Cisco. Marvis gana en experiencia del usuario; Cisco gana en profundidad de integración.",
+    "review.juniper-mist.faq.q3": "¿Necesito switches Juniper para Mist?",
+    "review.juniper-mist.faq.a3": "No, Mist wireless funciona con cualquier infraestructura de switch. Sin embargo, para obtener las características de \"garantía de cableado\" de IA completa y la visibilidad de Marvis en la red cableada, necesita switches Juniper EX gestionados a través de Mist.",
+    "review.juniper-mist.faq.q4": "¿Qué hay sobre la soberanía de datos?",
+    "review.juniper-mist.faq.a4": "Mist ofrece instancias de nube regional (US, EU, APAC) para abordar los requisitos de soberanía de datos. Sus datos de red permanecen dentro de la región seleccionada. Para industrias altamente reguladas, discuta necesidades de cumplimiento específicas con Juniper."
+  },
+  "fr": {
+    "review.juniper-mist.faq.q1": "Mist peut-il fonctionner hors ligne ?",
+    "review.juniper-mist.faq.a1": "Le réseau lui-même continue de fonctionner si la connectivité cloud est perdue — les APs et les commutateurs fonctionneront en utilisant des stratégies en cache. Cependant, les fonctionnalités d'IA, la gestion et Marvis nécessitent une connectivité cloud. Il n'y a pas d'option de déploiement sur site.",
+    "review.juniper-mist.faq.q2": "Comment Marvis se compare-t-il à Cisco AI ?",
+    "review.juniper-mist.faq.a2": "Marvis est généralement considéré comme plus avancé pour la résolution de problèmes conversationnelle et les requêtes en langage naturel. Cisco DNA Center AI est plus puissant pour la remédiation automatisée dans les environnements Cisco complexes. Marvis gagne en expérience utilisateur ; Cisco gagne en profondeur d'intégration.",
+    "review.juniper-mist.faq.q3": "Ai-je besoin de commutateurs Juniper pour Mist ?",
+    "review.juniper-mist.faq.a3": "Non, Mist sans fil fonctionne avec n'importe quelle infrastructure de commutateur. Cependant, pour obtenir les fonctionnalités d'IA \"assurance filaire\" complètes et la visibilité Marvis dans le réseau filaire, vous avez besoin de commutateurs Juniper EX gérés via Mist.",
+    "review.juniper-mist.faq.q4": "Qu'en est-il de la souveraineté des données ?",
+    "review.juniper-mist.faq.a4": "Mist propose des instances cloud régionales (US, EU, APAC) pour répondre aux exigences de souveraineté des données. Vos données réseau restent dans la région sélectionnée. Pour les secteurs hautement réglementés, discutez des besoins de conformité spécifiques avec Juniper."
+  },
+  "de": {
+    "review.juniper-mist.faq.q1": "Kann Mist offline arbeiten?",
+    "review.juniper-mist.faq.a1": "Das Netzwerk selbst funktioniert weiterhin, wenn die Cloud-Konnektivität verloren geht — APs und Switches arbeiten mit zwischengespeicherten Richtlinien. Allerdings erfordern KI-Funktionen, Verwaltung und Marvis Cloud-Konnektivität. Es gibt keine On-Premise-Bereitstellungsoption.",
+    "review.juniper-mist.faq.q2": "Wie schneidet Marvis im Vergleich zu Cisco AI ab?",
+    "review.juniper-mist.faq.a2": "Marvis gilt allgemein als fortschrittlicher für konversationale Fehlerbehebung und Abfragen in natürlicher Sprache. Cisco DNA Center AI ist stärker bei der automatisierten Behebung in komplexen Cisco-Umgebungen. Marvis gewinnt bei der Benutzerfreundlichkeit; Cisco gewinnt bei der Integrationstiefe.",
+    "review.juniper-mist.faq.q3": "Benötige ich Juniper-Switches für Mist?",
+    "review.juniper-mist.faq.a3": "Nein, Mist Wireless funktioniert mit jeder Switch-Infrastruktur. Um jedoch die vollständigen \"Wired Assurance\" KI-Funktionen und die Marvis-Sichtbarkeit in das verkabelte Netzwerk zu erhalten, benötigen Sie Juniper EX Switches, die über Mist verwaltet werden.",
+    "review.juniper-mist.faq.q4": "Was ist mit Datensouveränität?",
+    "review.juniper-mist.faq.a4": "Mist bietet regionale Cloud-Instanzen (US, EU, APAC) um Datensouveränitätsanforderungen zu erfüllen. Ihre Netzwerkdaten bleiben in der ausgewählten Region. Für stark regulierte Branchen sollten Sie spezifische Compliance-Anforderungen mit Juniper besprechen."
+  }
+}

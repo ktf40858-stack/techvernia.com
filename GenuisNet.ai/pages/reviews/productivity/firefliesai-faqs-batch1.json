@@ -1,0 +1,44 @@
+{
+  "es": {
+    "review.firefliesai.faq.q1": "¿Fireflies funciona con todas las plataformas de videoconferencia?",
+    "review.firefliesai.faq.a1": "¡Sí! Fireflies funciona con Zoom, Google Meet, Microsoft Teams, Webex, RingCentral y muchas otras. Incluso puede llamar a conferencias telefónicas. El asistente de IA se une automáticamente o bajo demanda según su configuración.",
+    "review.firefliesai.faq.q2": "¿Qué tan precisa es la transcripción?",
+    "review.firefliesai.faq.a2": "Fireflies alcanza una precisión del 90%+ para audio claro en inglés. La precisión varía según la calidad del audio, los acentos y el ruido de fondo. Puede editar las transcripciones manualmente y añadir vocabulario personalizado para mejorar la precisión de términos específicos de la industria.",
+    "review.firefliesai.faq.q3": "¿Fireflies cumple con GDPR y SOC 2?",
+    "review.firefliesai.faq.a3": "Sí, Fireflies tiene certificación SOC 2 Type II y cumple con GDPR. Los planes empresariales ofrecen características de seguridad adicionales, incluyendo políticas personalizadas de retención de datos y cifrado. Sin embargo, siempre informe a los participantes de la reunión sobre la grabación.",
+    "review.firefliesai.faq.q4": "¿Puedo usar Fireflies gratis?",
+    "review.firefliesai.faq.a4": "¡Sí! El plan gratuito incluye 800 minutos de transcripción por usuario al mes con almacenamiento ilimitado. Esto es suficiente para la mayoría de las personas. Puede actualizar a Pro para más minutos y funciones de IA avanzadas.",
+    "review.firefliesai.faq.q5": "¿Fireflies funciona en idiomas distintos al inglés?",
+    "review.firefliesai.faq.a5": "Sí, Fireflies admite transcripción en 69 idiomas, incluyendo español, francés, alemán, portugués, japonés, chino y muchos más. La selección de idioma es automática o puede especificarse manualmente.",
+    "review.firefliesai.faq.q6": "¿Puedo integrar Fireflies con mi CRM?",
+    "review.firefliesai.faq.a6": "¡Por supuesto! Fireflies se integra con Salesforce, HubSpot, Pipedrive y otros CRM principales. Puede registrar automáticamente notas de llamadas, actualizar contactos y sincronizar elementos de acción. Disponible en planes Pro y superiores."
+  },
+  "fr": {
+    "review.firefliesai.faq.q1": "Fireflies fonctionne-t-il avec toutes les plateformes de visioconférence ?",
+    "review.firefliesai.faq.a1": "Oui ! Fireflies fonctionne avec Zoom, Google Meet, Microsoft Teams, Webex, RingCentral et bien d'autres. Il peut même rejoindre des conférences téléphoniques. L'assistant IA se connecte automatiquement ou sur demande selon vos paramètres.",
+    "review.firefliesai.faq.q2": "Quelle est la précision de la transcription ?",
+    "review.firefliesai.faq.a2": "Fireflies atteint une précision de 90%+ pour un audio clair en anglais. La précision varie selon la qualité audio, les accents et le bruit de fond. Vous pouvez modifier les transcriptions manuellement et ajouter du vocabulaire personnalisé pour améliorer la précision des termes spécifiques à votre secteur.",
+    "review.firefliesai.faq.q3": "Fireflies est-il conforme au RGPD et SOC 2 ?",
+    "review.firefliesai.faq.a3": "Oui, Fireflies est certifié SOC 2 Type II et conforme au RGPD. Les plans entreprise offrent des fonctionnalités de sécurité supplémentaires, notamment des politiques de conservation des données personnalisées et un chiffrement. Toutefois, informez toujours les participants de la réunion de l'enregistrement.",
+    "review.firefliesai.faq.q4": "Puis-je utiliser Fireflies gratuitement ?",
+    "review.firefliesai.faq.a4": "Oui ! Le plan gratuit comprend 800 minutes de transcription par utilisateur par mois avec un stockage illimité. Cela suffit pour la plupart des particuliers. Vous pouvez passer à Pro pour plus de minutes et des fonctionnalités IA avancées.",
+    "review.firefliesai.faq.q5": "Fireflies fonctionne-t-il dans d'autres langues que l'anglais ?",
+    "review.firefliesai.faq.a5": "Oui, Fireflies prend en charge la transcription dans 69 langues, notamment l'espagnol, le français, l'allemand, le portugais, le japonais, le chinois et bien d'autres. La sélection de la langue est automatique ou peut être spécifiée manuellement.",
+    "review.firefliesai.faq.q6": "Puis-je intégrer Fireflies avec mon CRM ?",
+    "review.firefliesai.faq.a6": "Absolument ! Fireflies s'intègre avec Salesforce, HubSpot, Pipedrive et d'autres CRM majeurs. Il peut automatiquement enregistrer les notes d'appel, mettre à jour les contacts et synchroniser les éléments d'action. Disponible sur les plans Pro et supérieurs."
+  },
+  "de": {
+    "review.firefliesai.faq.q1": "Funktioniert Fireflies mit allen Videokonferenzplattformen?",
+    "review.firefliesai.faq.a1": "Ja! Fireflies funktioniert mit Zoom, Google Meet, Microsoft Teams, Webex, RingCentral und vielen anderen. Es kann sogar an Telefonkonferenzen teilnehmen. Der KI-Assistent nimmt automatisch oder auf Anfrage je nach Ihren Einstellungen teil.",
+    "review.firefliesai.faq.q2": "Wie genau ist die Transkription?",
+    "review.firefliesai.faq.a2": "Fireflies erreicht eine Genauigkeit von über 90% bei klarem Audio auf Englisch. Die Genauigkeit variiert je nach Audioqualität, Akzenten und Hintergrundgeräuschen. Sie können Transkripte manuell bearbeiten und benutzerdefiniertes Vokabular hinzufügen, um die Genauigkeit für branchenspezifische Begriffe zu verbessern.",
+    "review.firefliesai.faq.q3": "Ist Fireflies DSGVO- und SOC 2-konform?",
+    "review.firefliesai.faq.a3": "Ja, Fireflies ist SOC 2 Type II-zertifiziert und DSGVO-konform. Enterprise-Pläne bieten zusätzliche Sicherheitsfunktionen, einschließlich individueller Richtlinien zur Datenaufbewahrung und Verschlüsselung. Informieren Sie jedoch immer die Meeting-Teilnehmer über die Aufzeichnung.",
+    "review.firefliesai.faq.q4": "Kann ich Fireflies kostenlos nutzen?",
+    "review.firefliesai.faq.a4": "Ja! Der kostenlose Plan umfasst 800 Minuten Transkription pro Benutzer pro Monat mit unbegrenztem Speicher. Dies ist für die meisten Einzelpersonen ausreichend. Sie können auf Pro upgraden, um mehr Minuten und erweiterte KI-Funktionen zu erhalten.",
+    "review.firefliesai.faq.q5": "Funktioniert Fireflies in anderen Sprachen als Englisch?",
+    "review.firefliesai.faq.a5": "Ja, Fireflies unterstützt Transkription in 69 Sprachen, darunter Spanisch, Französisch, Deutsch, Portugiesisch, Japanisch, Chinesisch und viele mehr. Die Sprachauswahl erfolgt automatisch oder kann manuell festgelegt werden.",
+    "review.firefliesai.faq.q6": "Kann ich Fireflies mit meinem CRM integrieren?",
+    "review.firefliesai.faq.a6": "Auf jeden Fall! Fireflies integriert sich mit Salesforce, HubSpot, Pipedrive und anderen führenden CRMs. Es kann automatisch Gesprächsnotizen protokollieren, Kontakte aktualisieren und Aktionselemente synchronisieren. Verfügbar in Pro- und höheren Plänen."
+  }
+}

@@ -47,8 +47,28 @@ footer p{color:var(--text-tertiary);font-size:var(--text-sm)}
 </head>
 <body>
 <nav class="navbar">
-    <div class="container">
-        <a href="../reviews/networking/juniper-mist.html">← Back to Juniper Review</a>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;">
+        <a href="../../reviews/networking/juniper-mist.html" data-i18n="nav.back_to_review">← Back to Juniper Review</a>
+
+        <!-- Language Selector -->
+        <div class="language-selector" style="position:relative;">
+            <button id="languageToggle" style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:var(--radius-lg);padding:var(--space-sm) var(--space-md);color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);display:flex;align-items:center;gap:var(--space-sm);">
+                <span id="currentLang">EN</span>
+                <svg style="width:16px;height:16px;stroke:currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+            <div id="languageDropdown" style="display:none;position:absolute;top:calc(100% + 8px);right:0;background:var(--bg-card);border:1px solid var(--border-color);border-radius:var(--radius-lg);min-width:150px;box-shadow:var(--shadow-glow);z-index:1000;">
+                <button class="lang-option" data-lang="en" style="width:100%;text-align:left;padding:var(--space-sm) var(--space-md);background:none;border:none;color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);border-bottom:1px solid var(--border-color);">English (EN)</button>
+                <button class="lang-option" data-lang="fr" style="width:100%;text-align:left;padding:var(--space-sm) var(--space-md);background:none;border:none;color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);border-bottom:1px solid var(--border-color);">Français (FR)</button>
+                <button class="lang-option" data-lang="de" style="width:100%;text-align:left;padding:var(--space-sm) var(--space-md);background:none;border:none;color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);border-bottom:1px solid var(--border-color);">Deutsch (DE)</button>
+                <button class="lang-option" data-lang="es" style="width:100%;text-align:left;padding:var(--space-sm) var(--space-md);background:none;border:none;color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);border-bottom:1px solid var(--border-color);">Español (ES)</button>
+                <button class="lang-option" data-lang="pt" style="width:100%;text-align:left;padding:var(--space-sm) var(--space-md);background:none;border:none;color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);border-bottom:1px solid var(--border-color);">Português (PT)</button>
+                <button class="lang-option" data-lang="zh" style="width:100%;text-align:left;padding:var(--space-sm) var(--space-md);background:none;border:none;color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);border-bottom:1px solid var(--border-color);">中文 (ZH)</button>
+                <button class="lang-option" data-lang="ja" style="width:100%;text-align:left;padding:var(--space-sm) var(--space-md);background:none;border:none;color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);border-bottom:1px solid var(--border-color);">日本語 (JA)</button>
+                <button class="lang-option" data-lang="ko" style="width:100%;text-align:left;padding:var(--space-sm) var(--space-md);background:none;border:none;color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);border-bottom:1px solid var(--border-color);">한국어 (KO)</button>
+                <button class="lang-option" data-lang="ar" style="width:100%;text-align:left;padding:var(--space-sm) var(--space-md);background:none;border:none;color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);border-bottom:1px solid var(--border-color);">العربية (AR)</button>
+                <button class="lang-option" data-lang="hi" style="width:100%;text-align:left;padding:var(--space-sm) var(--space-md);background:none;border:none;color:var(--text-primary);cursor:pointer;font-size:var(--text-sm);">हिन्दी (HI)</button>
+            </div>
+        </div>
     </div>
 </nav>
 
@@ -57,33 +77,33 @@ footer p{color:var(--text-tertiary);font-size:var(--text-sm)}
         <div class="cert-badge">
             <img src="../../assets/images/certifications/jncia-mistai.png?v=credly" alt="Juniper Networks Certified Associate - Mist AI"/>
         </div>
-        <h1>Juniper Networks Certified Associate - Mist AI</h1>
-        <div class="cert-level">Associate Level</div>
-        <p style="max-width:800px;margin:0 auto;color:var(--text-secondary);font-size:var(--text-xl)">The JNCIA-MistAI certification validates foundational knowledge of wireless LAN (WLAN) technology and Juniper's Mist AI platform. This entry-level credential demonstrates your understanding of AI-driven wireless networking, cloud management, and network automation.</p>
+        <h1 data-i18n="cert.jncia.title">Juniper Networks Certified Associate - Mist AI</h1>
+        <div class="cert-level" data-i18n="cert.jncia.level">Associate Level</div>
+        <p style="max-width:800px;margin:0 auto;color:var(--text-secondary);font-size:var(--text-xl)" data-i18n="cert.jncia.description">The JNCIA-MistAI certification validates foundational knowledge of wireless LAN (WLAN) technology and Juniper's Mist AI platform. This entry-level credential demonstrates your understanding of AI-driven wireless networking, cloud management, and network automation.</p>
         <div class="cert-meta">
             <div class="meta-item">
                 <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
-                <span>Exam: JNCIA-MISTAI</span>
+                <span data-i18n="cert.jncia.exam_code_value">Exam: JNCIA-MISTAI</span>
             </div>
             <div class="meta-item">
                 <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
                 </svg>
-                <span>90 min</span>
+                <span data-i18n="cert.jncia.duration_value">90 min</span>
             </div>
             <div class="meta-item">
                 <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <line x1="12" x2="12" y1="1" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"></path>
                 </svg>
-                <span>$300</span>
+                <span data-i18n="cert.jncia.cost_value">$300</span>
             </div>
             <div class="meta-item">
                 <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
                 </svg>
-                <span>Valid: 3 years</span>
+                <span data-i18n="cert.jncia.validity_value">Valid: 3 years</span>
             </div>
         </div>
     </div>
@@ -96,10 +116,10 @@ footer p{color:var(--text-tertiary);font-size:var(--text-sm)}
                 <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
                 <rect height="4" rx="1" ry="1" width="8" x="8" y="2"></rect>
             </svg>
-            Overview
+            <span data-i18n="cert.overview">Overview</span>
         </h2>
-        <p>The JNCIA-MistAI certification validates foundational knowledge of wireless LAN (WLAN) technology and Juniper's Mist AI platform. This entry-level credential demonstrates your understanding of AI-driven wireless networking, cloud management, and network automation.</p>
-        <p>This certification validates expertise in Associate Level technologies and best practices.</p>
+        <p data-i18n="cert.jncia.overview_text">The JNCIA-MistAI certification validates foundational knowledge of wireless LAN (WLAN) technology and Juniper's Mist AI platform. This entry-level credential demonstrates your understanding of AI-driven wireless networking, cloud management, and network automation.</p>
+        <p data-i18n="cert.jncia.expertise">This certification validates expertise in Associate Level technologies and best practices.</p>
     </section>
 
     <section class="review-section">
@@ -107,9 +127,9 @@ footer p{color:var(--text-tertiary);font-size:var(--text-sm)}
             <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
             </svg>
-            Key Topics Covered
+            <span data-i18n="cert.key_topics">Key Topics Covered</span>
         </h2>
-        <p>The Juniper Networks Certified Associate - Mist AI certification covers essential skills and knowledge areas.</p>
+        <p data-i18n="cert.jncia.topics_intro">The Juniper Networks Certified Associate - Mist AI certification covers essential skills and knowledge areas.</p>
     </section>
 
     <section class="review-section">
@@ -117,24 +137,24 @@ footer p{color:var(--text-tertiary);font-size:var(--text-sm)}
             <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
-            Exam Information
+            <span data-i18n="cert.exam_info">Exam Information</span>
         </h2>
         <div class="info-grid">
             <div class="info-card">
-                <h4>Exam Code</h4>
-                <div class="value">JNCIA-MISTAI</div>
+                <h4 data-i18n="cert.exam_code">Exam Code</h4>
+                <div class="value" data-i18n="cert.jncia.exam_code_value">JNCIA-MISTAI</div>
             </div>
             <div class="info-card">
-                <h4>Duration</h4>
-                <div class="value">90 min</div>
+                <h4 data-i18n="cert.duration">Duration</h4>
+                <div class="value" data-i18n="cert.jncia.duration_value">90 min</div>
             </div>
             <div class="info-card">
-                <h4>Exam Cost</h4>
-                <div class="value">$300</div>
+                <h4 data-i18n="cert.cost">Cost</h4>
+                <div class="value" data-i18n="cert.jncia.cost_value">$300</div>
             </div>
             <div class="info-card">
-                <h4>Validity</h4>
-                <div class="value">3 years</div>
+                <h4 data-i18n="cert.validity">Validity</h4>
+                <div class="value" data-i18n="cert.jncia.validity_value">3 years</div>
             </div>
         </div>
     </section>
@@ -144,13 +164,13 @@ footer p{color:var(--text-tertiary);font-size:var(--text-sm)}
             <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
             </svg>
-            Study Resources
+            <span data-i18n="cert.study_resources">Study Resources</span>
         </h2>
-        <p>Recommended resources for preparing for this certification:</p>
+        <p data-i18n="cert.resources_intro">Recommended resources for preparing for this certification:</p>
         <ul>
-            <li>Official Associate Level Training Courses</li>
-            <li>Practice Exams and Labs</li>
-            <li>Study Guides and Documentation</li>
+            <li data-i18n="cert.official_training">Official Associate Level Training Courses</li>
+            <li data-i18n="cert.practice_exams">Practice Exams and Labs</li>
+            <li data-i18n="cert.study_guides">Study Guides and Documentation</li>
         </ul>
     </section>
 
@@ -159,21 +179,54 @@ footer p{color:var(--text-tertiary);font-size:var(--text-sm)}
             <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path d="M9 5l7 7-7 7"></path>
             </svg>
-            Next Steps
+            <span data-i18n="cert.next_steps">Next Steps</span>
         </h2>
         <div class="highlight-box">
-            <p>Ready to advance your career with Associate Level certification?</p>
+            <p data-i18n="cert.ready">Ready to advance your career with Associate Level certification?</p>
         </div>
-        <p style="margin-top:var(--space-xl)">Visit the official Associate Level training portal for more information and registration details.</p>
+        <p style="margin-top:var(--space-xl)" data-i18n="cert.visit_portal">Visit the official Associate Level training portal for more information and registration details.</p>
     </section>
 </main>
 
 <footer>
     <div class="container">
-        <p>&copy; 2025 GenuisNet.ai. All rights reserved.</p>
-        <p style="margin-top:var(--space-sm)">Associate Level and related trademarks are property of Associate Level.</p>
+        <p data-i18n="footer.copyright">&copy; 2025 GenuisNet.ai. All rights reserved.</p>
+        <p style="margin-top:var(--space-sm)" data-i18n="footer.trademark">Associate Level and related trademarks are property of Associate Level.</p>
     </div>
 </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggle = document.getElementById('languageToggle');
+        const dropdown = document.getElementById('languageDropdown');
+        const langOptions = document.querySelectorAll('.lang-option');
+
+        toggle?.addEventListener('click', () => {
+            dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
+        });
+
+        langOptions.forEach(option => {
+            option.addEventListener('click', () => {
+                const lang = option.getAttribute('data-lang');
+                document.getElementById('currentLang').textContent = lang.toUpperCase();
+                dropdown.style.display = 'none';
+                if (window.i18n?.setLanguage) {
+                    window.i18n.setLanguage(lang);
+                }
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.language-selector')) {
+                dropdown.style.display = 'none';
+            }
+        });
+    });
+</script>
+
+<script src="../../js/i18n.js?v=20251227i"></script>
+<script src="../../js/complete-translate.js"></script>
+<script src="../../js/jncia-mistai-i18n.js?v=20251227i"></script>
 
 </body>
 </html>

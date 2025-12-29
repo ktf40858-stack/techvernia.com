@@ -1,0 +1,17 @@
+-rw-r--r-- 1 Freddy 197121 106K Dec 25 17:35 GenuisNet.ai/js/6sense-i18n.js
+-rw-r--r-- 1 Freddy 197121 105K Dec 26 18:23 GenuisNet.ai/js/beamery-i18n.js
+-rw-r--r-- 1 Freddy 197121 111K Dec 26 18:23 GenuisNet.ai/js/eightfold-ai-i18n.js
+-rw-r--r-- 1 Freddy 197121 105K Dec 26 18:23 GenuisNet.ai/js/fetcher-i18n.js
+-rw-r--r-- 1 Freddy 197121 104K Dec 26 18:23 GenuisNet.ai/js/findem-i18n.js
+-rw-r--r-- 1 Freddy 197121 104K Dec 26 18:23 GenuisNet.ai/js/harver-i18n.js
+-rw-r--r-- 1 Freddy 197121 105K Dec 26 18:23 GenuisNet.ai/js/hirevue-i18n.js
+-rw-r--r-- 1 Freddy 197121 105K Dec 26 18:23 GenuisNet.ai/js/humanly-i18n.js
+-rw-r--r-- 1 Freddy 197121 113K Dec 26 18:23 GenuisNet.ai/js/paradox-olivia-i18n.js
+-rw-r--r-- 1 Freddy 197121 104K Dec 26 18:23 GenuisNet.ai/js/phenom-i18n.js
+-rw-r--r-- 1 Freddy 197121 108K Dec 26 18:23 GenuisNet.ai/js/pymetrics-i18n.js
+-rw-r--r-- 1 Freddy 197121 108K Dec 25 03:31 GenuisNet.ai/js/qlik-sense-ai-i18n.js
+-rw-r--r-- 1 Freddy 197121 105K Dec 26 18:23 GenuisNet.ai/js/seekout-i18n.js
+-rw-r--r-- 1 Freddy 197121 103K Dec 26 18:23 GenuisNet.ai/js/sense-i18n.js
+-rw-r--r-- 1 Freddy 197121  84K Dec 25 03:31 GenuisNet.ai/js/sisense-ai-i18n.js
+-rw-r--r-- 1 Freddy 197121 104K Dec 26 18:23 GenuisNet.ai/js/textio-i18n.js
+-rw-r--r-- 1 Freddy 197121 110K Dec 26 18:23 GenuisNet.ai/js/workable-ai-i18n.js

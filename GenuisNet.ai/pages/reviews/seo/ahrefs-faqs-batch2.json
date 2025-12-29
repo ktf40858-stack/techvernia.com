@@ -1,0 +1,44 @@
+{
+  "pt": {
+    "review.ahrefs.faq.q1": "Ahrefs vale a pena?",
+    "review.ahrefs.faq.a1": "Sim, para qualquer um que seja sério com SEO. Ahrefs fornece os dados SEO mais precisos e abrangentes disponíveis, com dados de backlinks atualizados, métricas de palavras-chave confiáveis e análise competitiva poderosa. Os insights que você obtém normalmente levam a melhorias significativas em rankings e tráfego que justificam o investimento. Para usuários ocasionais ou iniciantes, o Ahrefs Webmaster Tools gratuito oferece um bom ponto de partida.",
+    "review.ahrefs.faq.q2": "Como Ahrefs se compara a alternativas gratuitas?",
+    "review.ahrefs.faq.a2": "Embora ferramentas como Google Search Console e Ubersuggest ofereçam dados SEO básicos gratuitamente, Ahrefs fornece informações significativamente mais abrangentes e precisas. A base de dados de backlinks, análise competitiva, explorador de conteúdo e dados históricos são incomparáveis com ferramentas gratuitas. Para trabalho SEO profissional, a profundidade e confiabilidade dos dados Ahrefs é essencial e vale o investimento.",
+    "review.ahrefs.faq.q3": "O que está incluído no plano Lite?",
+    "review.ahrefs.faq.a3": "O plano Lite ($99/mês) inclui 1 usuário, 5 projetos, 500 créditos por mês e acesso a todas as ferramentas principais: Site Explorer, Keywords Explorer, Site Audit, Rank Tracker e Content Explorer. Você obtém 6 meses de dados históricos e pode rastrear até 750 palavras-chave. É perfeito para freelancers, consultores e pequenos proprietários de negócios gerenciando alguns sites.",
+    "review.ahrefs.faq.q4": "Quão preciso é o score de dificuldade de palavra-chave do Ahrefs?",
+    "review.ahrefs.faq.a4": "Ahrefs Keyword Difficulty (KD) é altamente preciso e baseado no número de domínios referenciadores nas páginas com melhor classificação. É medido em uma escala de 0-100, com pontuações mais altas indicando mais backlinks necessários para classificar. Embora nenhuma métrica seja perfeita, Ahrefs KD é considerado um dos scores de dificuldade mais confiáveis da indústria, baseado em dados de backlinks reais em vez de estimativas.",
+    "review.ahrefs.faq.q5": "Posso cancelar minha assinatura Ahrefs a qualquer momento?",
+    "review.ahrefs.faq.a5": "Sim, as assinaturas Ahrefs são flexíveis e podem ser canceladas a qualquer momento. Não há contratos de longo prazo ou taxas de cancelamento. Você também pode pausar sua assinatura por até 3 meses se precisar de um intervalo temporário. As assinaturas mensais renovam automaticamente, mas você mantém acesso até o final do seu período de faturamento se cancelar.",
+    "review.ahrefs.faq.q6": "Ahrefs oferece uma avaliação gratuita?",
+    "review.ahrefs.faq.a6": "Ahrefs não oferece mais um teste gratuito tradicional, mas fornece Ahrefs Webmaster Tools completamente gratuito. Isso lhe dá acesso a Site Audit, Site Explorer (para seus sites verificados) e SERP checker. É uma ótima maneira de experimentar o poder da plataforma antes de se comprometer com um plano pago. Eles ocasionalmente oferecem promoções de teste de 7 dias para novos usuários."
+  },
+  "zh": {
+    "review.ahrefs.faq.q1": "Ahrefs值得购买吗?",
+    "review.ahrefs.faq.a1": "是的,对于任何认真对待SEO的人来说都值得。Ahrefs提供最准确、最全面的SEO数据,具有新鲜的反向链接数据、可靠的关键词指标和强大的竞争分析。您获得的见解通常会带来排名和流量的显著改进,足以证明投资的合理性。对于临时用户或完全的初学者,免费的Ahrefs Webmaster Tools提供了一个很好的开始点。",
+    "review.ahrefs.faq.q2": "Ahrefs与免费替代方案相比如何?",
+    "review.ahrefs.faq.a2": "虽然Google Search Console和Ubersuggest等工具免费提供基本的SEO数据,但Ahrefs提供的信息在全面性和准确性上要领先得多。反向链接数据库、竞争对手分析、内容浏览器和历史数据等功能是免费工具无法匹敌的。对于专业SEO工作,Ahrefs数据的深度和可靠性是必不可少的,值得投资。",
+    "review.ahrefs.faq.q3": "Lite计划包含什么?",
+    "review.ahrefs.faq.a3": "Lite计划($99/月)包括1个用户、5个项目、每月500个额度,以及所有核心工具的访问权限:Site Explorer、Keywords Explorer、Site Audit、Rank Tracker和Content Explorer。您可以获得6个月的历史数据并最多跟踪750个关键词。非常适合管理少数网站的自由职业者、顾问和小企业主。",
+    "review.ahrefs.faq.q4": "Ahrefs关键词难度分数有多准确?",
+    "review.ahrefs.faq.a4": "Ahrefs关键词难度(KD)非常准确,基于排名靠前页面的引用域数量。它的评分范围是0-100,分数越高表示需要的反向链接越多才能排名。虽然没有完美的指标,但Ahrefs KD被认为是业界最可靠的难度评分之一,基于真实的反向链接数据而非估计。",
+    "review.ahrefs.faq.q5": "我可以随时取消Ahrefs订阅吗?",
+    "review.ahrefs.faq.a5": "是的,Ahrefs订阅灵活,可以随时取消。没有长期合同或取消费用。如果您需要暂时休息,也可以暂停订阅长达3个月。月度订阅会自动续期,但如果您取消,您仍可以访问直到计费周期结束。",
+    "review.ahrefs.faq.q6": "Ahrefs提供免费试用吗?",
+    "review.ahrefs.faq.a6": "Ahrefs不再提供传统的免费试用,但完全免费提供Ahrefs Webmaster Tools。这为您提供了对Site Audit、Site Explorer(您验证的站点)和SERP检查工具的访问。这是在提交付费计划之前体验平台功能的绝佳方式。他们偶尔会为新用户提供7天试用促销活动。"
+  },
+  "ja": {
+    "review.ahrefs.faq.q1": "Ahrefsは購入する価値がありますか?",
+    "review.ahrefs.faq.a1": "はい、SEOを真摯に取り組もうとしている誰もにとって価値があります。Ahrefsは利用可能な最も正確で包括的なSEOデータを提供し、新鮮なバックリンクデータ、信頼性の高いキーワードメトリックス、強力な競合分析を備えています。得られるインサイトは通常、投資を正当化するランキングとトラフィックの大幅な改善をもたらします。カジュアルユーザーや完全な初心者向けに、無料のAhrefs Webmaster Toolsは良い出発点を提供します。",
+    "review.ahrefs.faq.q2": "Ahrefsは無料の代替ツールと比べてどうですか?",
+    "review.ahrefs.faq.a2": "Google Search ConsoleやUbersuggestなどのツールは無料で基本的なSEOデータを提供していますが、Ahrefsはより包括的で正確な情報を提供します。バックリンクデータベース、競合分析、コンテンツエクスプローラー、履歴データは無料ツールでは比較できません。専門的なSEO業務では、Ahrefsデータの深さと信頼性は不可欠であり、投資する価値があります。",
+    "review.ahrefs.faq.q3": "Liteプランに含まれるものは何ですか?",
+    "review.ahrefs.faq.a3": "Liteプラン($99/月)には1ユーザー、5プロジェクト、月間500クレジット、およびすべてのコアツールへのアクセスが含まれます:Site Explorer、Keywords Explorer、Site Audit、Rank Tracker、Content Explorer。6ヶ月間の履歴データを取得でき、最大750個のキーワードをトラッキングできます。フリーランサー、コンサルタント、複数のウェブサイトを管理する小規模ビジネスオーナーに最適です。",
+    "review.ahrefs.faq.q4": "Ahrefsのキーワード難度スコアはどの程度正確ですか?",
+    "review.ahrefs.faq.a4": "Ahrefsキーワード難度(KD)は非常に正確であり、上位ランキングページへの参照ドメイン数に基づいています。スケールは0-100で測定され、スコアが高いほどランクするために必要なバックリンクが多いことを示します。完璧なメトリックはありませんが、Ahrefs KDは推定値ではなく実際のバックリンクデータに基づいており、業界で最も信頼できる難度スコアの1つと考えられています。",
+    "review.ahrefs.faq.q5": "Ahrefsのサブスクリプションをいつでもキャンセルできますか?",
+    "review.ahrefs.faq.a5": "はい、Ahrefsのサブスクリプションは柔軟で、いつでもキャンセルできます。長期契約やキャンセル料金はありません。一時的な休止が必要な場合は、サブスクリプションを最大3ヶ月一時停止することもできます。月次サブスクリプションは自動的に更新されますが、キャンセルした場合、請求期間の終了まではアクセスが維持されます。",
+    "review.ahrefs.faq.q6": "Ahrefsは無料トライアルを提供していますか?",
+    "review.ahrefs.faq.a6": "Ahrefsは従来の無料トライアルを提供していませんが、Ahrefs Webmaster Toolsを完全に無料で提供しています。これにより、Site Audit、Site Explorer(検証されたサイト用)、およびSERPチェッカーにアクセスできます。有料プランにコミットする前にプラットフォームのパワーを体験するのに最適な方法です。新規ユーザーに対して、時折7日間のトライアルプロモーションを実施しています。"
+  }
+}

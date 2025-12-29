@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.sophos-interceptx.faq.q1": "What makes Sophos Intercept X different?",
+    "review.sophos-interceptx.faq.a1": "The platform combines advanced AI/ML detection with comprehensive threat intelligence and proven enterprise capabilities. Its unique approach to threat prevention and response sets it apart in the market.",
+    "review.sophos-interceptx.faq.q2": "How does pricing work?",
+    "review.sophos-interceptx.faq.a2": "Pricing is based on number of protected endpoints with tiered features. Contact sales for custom quotes based on your organization size and requirements.",
+    "review.sophos-interceptx.faq.q3": "Is cloud or on-premise deployment available?",
+    "review.sophos-interceptx.faq.a3": "Both deployment options are available. Cloud-native management is standard, with on-premise options for organizations with specific data residency requirements.",
+    "review.sophos-interceptx.faq.q4": "What platforms are supported?",
+    "review.sophos-interceptx.faq.a4": "Protection is available for Windows, macOS, Linux, and mobile devices (iOS/Android), all managed from a single unified console.",
+    "review.sophos-interceptx.faq.q5": "How effective is the ransomware protection?",
+    "review.sophos-interceptx.faq.a5": "The solution uses behavioral detection and machine learning to identify ransomware encryption patterns, automatically isolating threats and providing rollback capabilities to recover encrypted files."
+  },
+  "es": {
+    "review.sophos-interceptx.faq.q1": "¿Qué hace que Sophos Intercept X sea diferente?",
+    "review.sophos-interceptx.faq.a1": "La plataforma combina detección avanzada de IA/ML con inteligencia de amenazas integral y capacidades empresariales probadas. Su enfoque único para la prevención y respuesta de amenazas lo destaca en el mercado.",
+    "review.sophos-interceptx.faq.q2": "¿Cómo funciona la fijación de precios?",
+    "review.sophos-interceptx.faq.a2": "Los precios se basan en la cantidad de puntos finales protegidos con características escalonadas. Comuníquese con ventas para obtener cotizaciones personalizadas según el tamaño y los requisitos de su organización.",
+    "review.sophos-interceptx.faq.q3": "¿Está disponible la implementación en la nube o local?",
+    "review.sophos-interceptx.faq.a3": "Ambas opciones de implementación están disponibles. La gestión nativa en la nube es estándar, con opciones locales para organizaciones con requisitos específicos de residencia de datos.",
+    "review.sophos-interceptx.faq.q4": "¿Qué plataformas son compatibles?",
+    "review.sophos-interceptx.faq.a4": "La protección está disponible para Windows, macOS, Linux y dispositivos móviles (iOS/Android), todo gestionado desde una única consola unificada.",
+    "review.sophos-interceptx.faq.q5": "¿Qué tan efectiva es la protección contra ransomware?",
+    "review.sophos-interceptx.faq.a5": "La solución utiliza detección de comportamiento y aprendizaje automático para identificar patrones de cifrado de ransomware, aislando amenazas automáticamente y proporcionando capacidades de reversión para recuperar archivos cifrados."
+  },
+  "fr": {
+    "review.sophos-interceptx.faq.q1": "Qu'est-ce qui rend Sophos Intercept X différent?",
+    "review.sophos-interceptx.faq.a1": "La plateforme combine la détection avancée par IA/ML avec le renseignement sur les menaces et les capacités d'entreprise éprouvées. Son approche unique de la prévention et de la réponse aux menaces la distingue sur le marché.",
+    "review.sophos-interceptx.faq.q2": "Comment fonctionne la tarification?",
+    "review.sophos-interceptx.faq.a2": "La tarification est basée sur le nombre de points de terminaison protégés avec des fonctionnalités en niveau. Contactez les ventes pour des devis personnalisés en fonction de la taille et des exigences de votre organisation.",
+    "review.sophos-interceptx.faq.q3": "Le déploiement dans le cloud ou sur site est-il disponible?",
+    "review.sophos-interceptx.faq.a3": "Les deux options de déploiement sont disponibles. La gestion native du cloud est standard, avec des options sur site pour les organisations ayant des exigences spécifiques en matière de résidence des données.",
+    "review.sophos-interceptx.faq.q4": "Quelles plates-formes sont prises en charge?",
+    "review.sophos-interceptx.faq.a4": "La protection est disponible pour Windows, macOS, Linux et les appareils mobiles (iOS/Android), tous gérés à partir d'une seule console unifiée.",
+    "review.sophos-interceptx.faq.q5": "Quelle est l'efficacité de la protection contre les rançongiciels?",
+    "review.sophos-interceptx.faq.a5": "La solution utilise la détection comportementale et l'apprentissage automatique pour identifier les modèles de chiffrement des rançongiciels, isolant automatiquement les menaces et fournissant des capacités de restauration pour récupérer les fichiers chiffrés."
+  },
+  "de": {
+    "review.sophos-interceptx.faq.q1": "Was macht Sophos Intercept X anders?",
+    "review.sophos-interceptx.faq.a1": "Die Plattform kombiniert fortschrittliche KI/ML-Erkennung mit umfassender Bedrohungsintelligenz und bewährten Unternehmenskapazitäten. Sein einzigartiger Ansatz zur Bedrohungsprävention und -reaktion zeichnet ihn auf dem Markt aus.",
+    "review.sophos-interceptx.faq.q2": "Wie funktioniert die Preisgestaltung?",
+    "review.sophos-interceptx.faq.a2": "Die Preise richten sich nach der Anzahl der geschützten Endpunkte mit gestaffelten Funktionen. Wenden Sie sich an den Vertrieb, um benutzerdefinierte Angebote basierend auf der Größe und den Anforderungen Ihrer Organisation zu erhalten.",
+    "review.sophos-interceptx.faq.q3": "Ist eine Cloud- oder lokale Bereitstellung verfügbar?",
+    "review.sophos-interceptx.faq.a3": "Beide Bereitstellungsoptionen sind verfügbar. Cloud-native Verwaltung ist Standard, mit lokalen Optionen für Organisationen mit spezifischen Anforderungen an die Datenresidenz.",
+    "review.sophos-interceptx.faq.q4": "Welche Plattformen werden unterstützt?",
+    "review.sophos-interceptx.faq.a4": "Der Schutz ist für Windows, macOS, Linux und mobile Geräte (iOS/Android) verfügbar, alle verwaltet von einer einzigen einheitlichen Konsole.",
+    "review.sophos-interceptx.faq.q5": "Wie wirksam ist der Ransomware-Schutz?",
+    "review.sophos-interceptx.faq.a5": "Die Lösung verwendet Verhaltensanalyse und maschinelles Lernen, um Ransomware-Verschlüsselungsmuster zu identifizieren, Bedrohungen automatisch zu isolieren und Rollback-Funktionen bereitzustellen, um verschlüsselte Dateien wiederherzustellen."
+  }
+}

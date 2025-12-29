@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.trend-micro-vision-one.faq.q1": "What makes Trend Micro Vision One different?",
+    "review.trend-micro-vision-one.faq.a1": "The platform combines advanced AI/ML detection with comprehensive threat intelligence and proven enterprise capabilities. Its unique approach to threat prevention and response sets it apart in the market.",
+    "review.trend-micro-vision-one.faq.q2": "How does pricing work?",
+    "review.trend-micro-vision-one.faq.a2": "Pricing is based on number of protected endpoints with tiered features. Contact sales for custom quotes based on your organization size and requirements.",
+    "review.trend-micro-vision-one.faq.q3": "Is cloud or on-premise deployment available?",
+    "review.trend-micro-vision-one.faq.a3": "Both deployment options are available. Cloud-native management is standard, with on-premise options for organizations with specific data residency requirements.",
+    "review.trend-micro-vision-one.faq.q4": "What platforms are supported?",
+    "review.trend-micro-vision-one.faq.a4": "Protection is available for Windows, macOS, Linux, and mobile devices (iOS/Android), all managed from a single unified console.",
+    "review.trend-micro-vision-one.faq.q5": "How effective is the ransomware protection?",
+    "review.trend-micro-vision-one.faq.a5": "The solution uses behavioral detection and machine learning to identify ransomware encryption patterns, automatically isolating threats and providing rollback capabilities to recover encrypted files."
+  },
+  "pt": {
+    "review.trend-micro-vision-one.faq.q1": "O que torna o Trend Micro Vision One diferente?",
+    "review.trend-micro-vision-one.faq.a1": "A plataforma combina detecção avançada de IA/ML com inteligência de ameaças abrangente e capacidades empresariais comprovadas. Sua abordagem única para prevenção e resposta a ameaças a diferencia no mercado.",
+    "review.trend-micro-vision-one.faq.q2": "Como funciona o preço?",
+    "review.trend-micro-vision-one.faq.a2": "O preço é baseado no número de endpoints protegidos com recursos em camadas. Entre em contato com vendas para obter orçamentos personalizados com base no tamanho da sua organização e requisitos.",
+    "review.trend-micro-vision-one.faq.q3": "A implantação na nuvem ou local está disponível?",
+    "review.trend-micro-vision-one.faq.a3": "Ambas as opções de implantação estão disponíveis. O gerenciamento nativo em nuvem é padrão, com opções locais para organizações com requisitos específicos de residência de dados.",
+    "review.trend-micro-vision-one.faq.q4": "Quais plataformas são suportadas?",
+    "review.trend-micro-vision-one.faq.a4": "A proteção está disponível para Windows, macOS, Linux e dispositivos móveis (iOS/Android), todos gerenciados a partir de um único console unificado.",
+    "review.trend-micro-vision-one.faq.q5": "Quão eficaz é a proteção contra ransomware?",
+    "review.trend-micro-vision-one.faq.a5": "A solução usa detecção comportamental e aprendizado de máquina para identificar padrões de criptografia de ransomware, isolando automaticamente ameaças e fornecendo capacidades de reversão para recuperar arquivos criptografados."
+  },
+  "zh": {
+    "review.trend-micro-vision-one.faq.q1": "趋势科技Vision One有什么不同之处？",
+    "review.trend-micro-vision-one.faq.a1": "该平台结合了先进的人工智能/机器学习检测、全面的威胁情报和成熟的企业功能。其独特的威胁预防和响应方法使其在市场中脱颖而出。",
+    "review.trend-micro-vision-one.faq.q2": "价格如何计算？",
+    "review.trend-micro-vision-one.faq.a2": "价格基于受保护端点的数量，具有分层功能。请根据您的组织规模和要求与销售部门联系以获取定制报价。",
+    "review.trend-micro-vision-one.faq.q3": "是否提供云部署或本地部署？",
+    "review.trend-micro-vision-one.faq.a3": "两种部署选项均可用。云原生管理是标准配置，对于有特定数据驻留要求的组织提供本地部署选项。",
+    "review.trend-micro-vision-one.faq.q4": "支持哪些平台？",
+    "review.trend-micro-vision-one.faq.a4": "保护适用于Windows、macOS、Linux和移动设备（iOS/Android），全部通过单个统一控制台进行管理。",
+    "review.trend-micro-vision-one.faq.q5": "勒索软件保护的效果如何？",
+    "review.trend-micro-vision-one.faq.a5": "该解决方案使用行为检测和机器学习来识别勒索软件加密模式，自动隔离威胁并提供回滚功能以恢复加密文件。"
+  },
+  "ja": {
+    "review.trend-micro-vision-one.faq.q1": "Trend Micro Vision Oneの何が違いますか？",
+    "review.trend-micro-vision-one.faq.a1": "このプラットフォームは、高度なAI/ML検出と包括的な脅威インテリジェンス、および実績のあるエンタープライズ機能を組み合わせています。脅威予防と対応へのユニークなアプローチが市場での差別化要因となっています。",
+    "review.trend-micro-vision-one.faq.q2": "価格はどのように機能しますか？",
+    "review.trend-micro-vision-one.faq.a2": "価格は保護されたエンドポイントの数に基づいており、階層化された機能があります。組織のサイズと要件に基づくカスタム見積もりについては、営業部門にお問い合わせください。",
+    "review.trend-micro-vision-one.faq.q3": "クラウドまたはオンプレミス展開は利用可能ですか？",
+    "review.trend-micro-vision-one.faq.a3": "両方の展開オプションが利用可能です。クラウドネイティブ管理が標準で、特定のデータレジデンシー要件を持つ組織向けのオンプレミスオプションがあります。",
+    "review.trend-micro-vision-one.faq.q4": "どのプラットフォームがサポートされていますか？",
+    "review.trend-micro-vision-one.faq.a4": "Windows、macOS、Linux、およびモバイルデバイス（iOS/Android）で保護が利用可能で、すべて単一の統合コンソールから管理されます。",
+    "review.trend-micro-vision-one.faq.q5": "ランサムウェア保護はどの程度効果的ですか？",
+    "review.trend-micro-vision-one.faq.a5": "このソリューションは、行動検出と機械学習を使用してランサムウェア暗号化パターンを特定し、脅威を自動的に隔離し、暗号化されたファイルを復旧するためのロールバック機能を提供します。"
+  }
+}

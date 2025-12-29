@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.cortex-xdr.faq.q1": "What is Cortex XDR?",
+    "review.cortex-xdr.faq.a1": "Cortex XDR is Palo Alto Networks' extended detection and response platform that unifies endpoint, network, and cloud data for threat detection. It uses behavioral analytics and machine learning to detect sophisticated attacks across your infrastructure.",
+    "review.cortex-xdr.faq.q2": "How does Cortex XDR integrate with XSOAR?",
+    "review.cortex-xdr.faq.a2": "Cortex XSOAR (formerly Demisto) is Palo Alto's security orchestration platform. It integrates with XDR to automate incident response, coordinate actions across security tools, and reduce response times through playbooks and workflows.",
+    "review.cortex-xdr.faq.q3": "Do I need Palo Alto firewalls to use Cortex XDR?",
+    "review.cortex-xdr.faq.a3": "No, Cortex XDR works independently and protects endpoints regardless of network infrastructure. However, maximum value comes from integrating with Palo Alto Next-Gen Firewalls and Prisma for unified visibility and policy enforcement.",
+    "review.cortex-xdr.faq.q4": "How does Cortex XDR compare to traditional EDR?",
+    "review.cortex-xdr.faq.a4": "Traditional EDR focuses only on endpoints. Cortex XDR extends detection across endpoints, network, and cloud—correlating data from multiple sources to detect attacks that span multiple vectors. This provides better detection of lateral movement and complex attacks.",
+    "review.cortex-xdr.faq.q5": "What's included in Cortex XDR Pro vs Enterprise?",
+    "review.cortex-xdr.faq.a5": "Pro includes full EDR/XDR capabilities, behavioral threat protection, and investigation tools. Enterprise adds advanced analytics, host firewall, device control, and deeper XSOAR integration for large-scale operations."
+  },
+  "ko": {
+    "review.cortex-xdr.faq.q1": "Cortex XDR이란 무엇입니까?",
+    "review.cortex-xdr.faq.a1": "Cortex XDR은 Palo Alto Networks의 확장된 탐지 및 대응 플랫폼으로, 엔드포인트, 네트워크 및 클라우드 데이터를 통합하여 위협을 탐지합니다. 행동 분석 및 기계 학습을 사용하여 인프라 전반에서 정교한 공격을 탐지합니다.",
+    "review.cortex-xdr.faq.q2": "Cortex XDR이 XSOAR과 어떻게 통합됩니까?",
+    "review.cortex-xdr.faq.a2": "Cortex XSOAR(이전 명칭 Demisto)은 Palo Alto의 보안 오케스트레이션 플랫폼입니다. XDR과 통합되어 인시던트 대응을 자동화하고, 보안 도구 전반에서 작업을 조정하며, 플레이북 및 워크플로우를 통해 대응 시간을 단축합니다.",
+    "review.cortex-xdr.faq.q3": "Cortex XDR을 사용하려면 Palo Alto 방화벽이 필요합니까?",
+    "review.cortex-xdr.faq.a3": "아니요, Cortex XDR은 독립적으로 작동하며 네트워크 인프라와 관계없이 엔드포인트를 보호합니다. 그러나 최대 가치는 Palo Alto Next-Gen 방화벽 및 Prisma와 통합하여 통합 가시성 및 정책 적용을 달성할 수 있습니다.",
+    "review.cortex-xdr.faq.q4": "Cortex XDR은 기존 EDR과 어떻게 비교됩니까?",
+    "review.cortex-xdr.faq.a4": "기존 EDR은 엔드포인트에만 중점을 둡니다. Cortex XDR은 엔드포인트, 네트워크 및 클라우드 전반에서 탐지를 확장하여 여러 소스의 데이터를 연관시켜 여러 벡터에 걸친 공격을 탐지합니다. 이는 측면 이동 및 복잡한 공격의 탐지를 개선합니다.",
+    "review.cortex-xdr.faq.q5": "Cortex XDR Pro와 Enterprise에는 무엇이 포함됩니까?",
+    "review.cortex-xdr.faq.a5": "Pro는 완전한 EDR/XDR 기능, 행동 위협 보호 및 조사 도구를 포함합니다. Enterprise는 고급 분석, 호스트 방화벽, 장치 제어 및 대규모 운영을 위한 더 깊은 XSOAR 통합을 추가합니다."
+  },
+  "ar": {
+    "review.cortex-xdr.faq.q1": "ما هو Cortex XDR؟",
+    "review.cortex-xdr.faq.a1": "Cortex XDR هي منصة الكشف والاستجابة الممتدة من Palo Alto Networks التي توحد بيانات نقطة النهاية والشبكة والسحابة لكشف التهديدات. تستخدم تحليلات السلوك والتعلم الآلي للكشف عن الهجمات المتطورة في جميع أنحاء البنية التحتية.",
+    "review.cortex-xdr.faq.q2": "كيف يتم دمج Cortex XDR مع XSOAR؟",
+    "review.cortex-xdr.faq.a2": "Cortex XSOAR (المعروف سابقاً باسم Demisto) هي منصة تنسيق الأمان من Palo Alto. وهي تتكامل مع XDR لأتمتة الاستجابة للحوادث وتنسيق الإجراءات عبر أدوات الأمان وتقليل أوقات الاستجابة من خلال الحروف والمسارات.",
+    "review.cortex-xdr.faq.q3": "هل أحتاج إلى جدران حماية Palo Alto لاستخدام Cortex XDR؟",
+    "review.cortex-xdr.faq.a3": "لا، يعمل Cortex XDR بشكل مستقل ويحمي نقاط النهاية بغض النظر عن البنية التحتية للشبكة. ومع ذلك، تأتي القيمة القصوى من التكامل مع جدران الحماية من الجيل التالي من Palo Alto و Prisma للحصول على رؤية موحدة وتطبيق السياسة.",
+    "review.cortex-xdr.faq.q4": "كيف يقارن Cortex XDR بـ EDR التقليدية؟",
+    "review.cortex-xdr.faq.a4": "تركز EDR التقليدية على نقاط النهاية فقط. يوسع Cortex XDR الكشف عبر نقاط النهاية والشبكة والسحابة، مما يربط البيانات من مصادر متعددة للكشف عن الهجمات التي تمتد عبر متجهات متعددة. يوفر هذا كشفاً أفضل للحركة الجانبية والهجمات المعقدة.",
+    "review.cortex-xdr.faq.q5": "ما الذي يتضمنه Cortex XDR Pro مقابل Enterprise؟",
+    "review.cortex-xdr.faq.a5": "يتضمن Pro إمكانيات EDR/XDR الكاملة وحماية التهديدات السلوكية وأدوات التحقيق. تضيف Enterprise تحليلات متقدمة وجدار حماية المضيف والتحكم في الأجهزة والتكامل الأعمق مع XSOAR للعمليات واسعة النطاق."
+  },
+  "hi": {
+    "review.cortex-xdr.faq.q1": "Cortex XDR क्या है?",
+    "review.cortex-xdr.faq.a1": "Cortex XDR Palo Alto Networks का एक विस्तारित पहचान और प्रतिक्रिया प्लेटफॉर्म है जो एंडपॉइंट, नेटवर्क और क्लाउड डेटा को एकीकृत करता है। यह व्यवहार विश्लेषण और मशीन लर्निंग का उपयोग करके आपके बुनियादी ढांचे में परिष्कृत हमलों का पता लगाता है।",
+    "review.cortex-xdr.faq.q2": "Cortex XDR XSOAR के साथ कैसे एकीकृत होता है?",
+    "review.cortex-xdr.faq.a2": "Cortex XSOAR (पूर्व में Demisto) Palo Alto का सुरक्षा ऑर्केस्ट्रेशन प्लेटफॉर्म है। यह घटना प्रतिक्रिया को स्वचालित करने, सुरक्षा उपकरणों के पार कार्यों का समन्वय करने और प्लेबुक तथा वर्कफ़्लो के माध्यम से प्रतिक्रिया समय को कम करने के लिए XDR के साथ एकीकृत होता है।",
+    "review.cortex-xdr.faq.q3": "क्या Cortex XDR का उपयोग करने के लिए मुझे Palo Alto फायरवॉल की आवश्यकता है?",
+    "review.cortex-xdr.faq.a3": "नहीं, Cortex XDR स्वतंत्र रूप से काम करता है और नेटवर्क बुनियादी ढांचे की परवाह किए बिना एंडपॉइंट की सुरक्षा करता है। हालांकि, अधिकतम मूल्य Palo Alto Next-Gen फायरवॉल और Prisma के साथ एकीकृत करने से आता है।",
+    "review.cortex-xdr.faq.q4": "Cortex XDR की तुलना पारंपरिक EDR से कैसे की जाती है?",
+    "review.cortex-xdr.faq.a4": "पारंपरिक EDR केवल एंडपॉइंट पर ध्यान केंद्रित करता है। Cortex XDR एंडपॉइंट, नेटवर्क और क्लाउड में पहचान का विस्तार करता है, कई स्रोतों के डेटा को संबंधित करके उन हमलों का पता लगाता है जो कई वैक्टर तक फैले होते हैं। यह पार्श्व आंदोलन और जटिल हमलों का बेहतर पता लगाना प्रदान करता है।",
+    "review.cortex-xdr.faq.q5": "Cortex XDR Pro बनाम Enterprise में क्या शामिल है?",
+    "review.cortex-xdr.faq.a5": "Pro में पूर्ण EDR/XDR क्षमताएं, व्यवहार संबंधी खतरे की सुरक्षा और जांच उपकरण शामिल हैं। Enterprise उन्नत विश्लेषण, होस्ट फायरवॉल, डिवाइस नियंत्रण और बड़े पैमाने के संचालन के लिए गहरे XSOAR एकीकरण को जोड़ता है।"
+  }
+}

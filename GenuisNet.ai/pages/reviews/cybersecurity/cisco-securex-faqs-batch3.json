@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.cisco-securex.faq.q1": "Is Cisco SecureX really free?",
+    "review.cisco-securex.faq.a1": "SecureX is included at no additional cost with eligible Cisco security product licenses (Firepower, Umbrella, AMP, etc.). However, you need to already own those products, so it's \"free\" in the sense that it doesn't cost extra beyond your existing Cisco investments.",
+    "review.cisco-securex.faq.q2": "What is Cisco Talos?",
+    "review.cisco-securex.faq.a2": "Cisco Talos is one of the world's largest commercial threat intelligence teams, providing research, detection, and protection against cyber threats. Talos intelligence powers SecureX threat detection and feeds IOCs across the Cisco security ecosystem.",
+    "review.cisco-securex.faq.q3": "Does SecureX work with non-Cisco products?",
+    "review.cisco-securex.faq.a3": "Yes, SecureX supports integrations with some third-party security products through APIs and connectors. However, the deepest integration and maximum value comes from using it within a Cisco-centric security stack.",
+    "review.cisco-securex.faq.q4": "What's included in Cisco SASE with SecureX?",
+    "review.cisco-securex.faq.a4": "Cisco's SASE approach combines Umbrella (secure web gateway), SD-WAN, Duo (access control), and SecureX (orchestration). This provides unified security from network to cloud with centralized management and policy enforcement.",
+    "review.cisco-securex.faq.q5": "Is SecureX suitable for small businesses?",
+    "review.cisco-securex.faq.a5": "Generally no. SecureX is designed for enterprise environments with complex security needs and existing Cisco infrastructure. Small businesses typically benefit more from simpler, cloud-native security platforms."
+  },
+  "ko": {
+    "review.cisco-securex.faq.q1": "Cisco SecureX가 정말 무료인가요?",
+    "review.cisco-securex.faq.a1": "SecureX는 적격 Cisco 보안 제품 라이선스(Firepower, Umbrella, AMP 등)에 추가 비용 없이 포함되어 있습니다. 그러나 이미 해당 제품을 소유하고 있어야 하므로 기존 Cisco 투자 이상으로 추가 비용이 들지 않는다는 의미에서 \"무료\"입니다.",
+    "review.cisco-securex.faq.q2": "Cisco Talos란 무엇인가요?",
+    "review.cisco-securex.faq.a2": "Cisco Talos는 세계 최대 규모의 상용 위협 인텔리전스 팀 중 하나로, 사이버 위협에 대한 연구, 탐지 및 보호를 제공합니다. Talos 인텔리전스는 SecureX 위협 탐지에 전력을 공급하고 Cisco 보안 생태계 전반에 IOC를 제공합니다.",
+    "review.cisco-securex.faq.q3": "SecureX가 Cisco가 아닌 제품과 작동하나요?",
+    "review.cisco-securex.faq.a3": "예, SecureX는 API 및 커넥터를 통해 일부 타사 보안 제품과의 통합을 지원합니다. 그러나 가장 깊은 통합과 최대 가치는 Cisco 중심 보안 스택 내에서 사용할 때 얻어집니다.",
+    "review.cisco-securex.faq.q4": "Cisco SASE with SecureX에는 무엇이 포함되어 있나요?",
+    "review.cisco-securex.faq.a4": "Cisco의 SASE 접근 방식은 Umbrella(보안 웹 게이트웨이), SD-WAN, Duo(액세스 제어) 및 SecureX(오케스트레이션)를 결합합니다. 이는 네트워크에서 클라우드까지의 통합 보안을 중앙 집중식 관리 및 정책 적용과 함께 제공합니다.",
+    "review.cisco-securex.faq.q5": "SecureX가 소규모 기업에 적합한가요?",
+    "review.cisco-securex.faq.a5": "일반적으로 아니오입니다. SecureX는 복잡한 보안 요구사항과 기존 Cisco 인프라를 갖춘 엔터프라이즈 환경을 위해 설계되었습니다. 소규모 기업은 일반적으로 더 간단한 클라우드 기반 보안 플랫폼에서 더 많은 이점을 얻습니다."
+  },
+  "ar": {
+    "review.cisco-securex.faq.q1": "هل Cisco SecureX مجاني فعلاً؟",
+    "review.cisco-securex.faq.a1": "يتم تضمين SecureX بدون تكلفة إضافية مع تراخيص منتجات أمان Cisco المؤهلة (Firepower و Umbrella و AMP وغيرها). ومع ذلك، تحتاج إلى امتلاك هذه المنتجات بالفعل، لذا فهو \"مجاني\" بمعنى أنه لا يكلف أي شيء إضافي تجاوز استثماراتك الحالية في Cisco.",
+    "review.cisco-securex.faq.q2": "ما هو Cisco Talos؟",
+    "review.cisco-securex.faq.a2": "Cisco Talos هو أحد أكبر فرق الاستخبارات التهديد التجارية في العالم، ويوفر البحث والكشف والحماية ضد التهديدات السيبرانية. تدعم ذكاء Talos كشف التهديدات في SecureX وتوفر IOC عبر نظام أمان Cisco البيئي.",
+    "review.cisco-securex.faq.q3": "هل يعمل SecureX مع منتجات غير Cisco؟",
+    "review.cisco-securex.faq.a3": "نعم، يدعم SecureX التكاملات مع بعض منتجات الأمان الجهات الخارجية من خلال APIs والموصلات. ومع ذلك، يأتي أعمق تكامل وأقصى قيمة من استخدامه ضمن مكدس أمان يركز على Cisco.",
+    "review.cisco-securex.faq.q4": "ما المضمن في Cisco SASE مع SecureX؟",
+    "review.cisco-securex.faq.a4": "يجمع نهج SASE من Cisco بين Umbrella (بوابة الويب الآمنة) و SD-WAN و Duo (التحكم في الوصول) و SecureX (التنسيق). يوفر هذا أماناً موحداً من الشبكة إلى السحابة مع إدارة مركزية وتطبيق السياسات.",
+    "review.cisco-securex.faq.q5": "هل SecureX مناسب للشركات الصغيرة؟",
+    "review.cisco-securex.faq.a5": "بشكل عام لا. تم تصميم SecureX لبيئات المؤسسات ذات احتياجات الأمان المعقدة والبنية الأساسية القائمة لـ Cisco. عادة ما تستفيد الشركات الصغيرة أكثر من منصات الأمان البسيطة والأصلية للسحابة."
+  },
+  "hi": {
+    "review.cisco-securex.faq.q1": "क्या Cisco SecureX वास्तव में मुफ़्त है?",
+    "review.cisco-securex.faq.a1": "SecureX योग्य Cisco सुरक्षा उत्पाद लाइसेंस (Firepower, Umbrella, AMP, आदि) के साथ कोई अतिरिक्त लागत के बिना शामिल है। हालाँकि, आपको पहले से ही इन उत्पादों का मालिक होना चाहिए, इसलिए यह इस अर्थ में \"मुफ़्त\" है कि यह आपके मौजूदा Cisco निवेश से परे कोई अतिरिक्त लागत नहीं लगती है।",
+    "review.cisco-securex.faq.q2": "Cisco Talos क्या है?",
+    "review.cisco-securex.faq.a2": "Cisco Talos दुनिया की सबसे बड़ी वाणिज्यिक खतरे की बुद्धिमत्ता टीमों में से एक है, जो साइबर खतरों के खिलाफ अनुसंधान, पहचान और सुरक्षा प्रदान करती है। Talos बुद्धिमत्ता SecureX खतरे की पहचान को शक्ति देती है और Cisco सुरक्षा पारिस्थितिकी तंत्र में IOC की आपूर्ति करती है।",
+    "review.cisco-securex.faq.q3": "क्या SecureX गैर-Cisco उत्पादों के साथ काम करता है?",
+    "review.cisco-securex.faq.a3": "हाँ, SecureX APIs और कनेक्टर के माध्यम से कुछ तृतीय-पक्ष सुरक्षा उत्पादों के साथ एकीकरण का समर्थन करता है। हालाँकि, सबसे गहरा एकीकरण और अधिकतम मूल्य Cisco-केंद्रित सुरक्षा स्टैक के भीतर इसका उपयोग करने से आता है।",
+    "review.cisco-securex.faq.q4": "Cisco SASE with SecureX में क्या शामिल है?",
+    "review.cisco-securex.faq.a4": "Cisco का SASE दृष्टिकोण Umbrella (सुरक्षित वेब गेटवे), SD-WAN, Duo (पहुंच नियंत्रण) और SecureX (ऑर्केस्ट्रेशन) को जोड़ता है। यह नेटवर्क से क्लाउड तक केंद्रीकृत प्रबंधन और नीति प्रवर्तन के साथ एकीकृत सुरक्षा प्रदान करता है।",
+    "review.cisco-securex.faq.q5": "क्या SecureX छोटे व्यवसायों के लिए उपयुक्त है?",
+    "review.cisco-securex.faq.a5": "आम तौर पर नहीं। SecureX जटिल सुरक्षा आवश्यकताओं और मौजूदा Cisco बुनियादी ढांचे वाले एंटरप्राइज वातावरण के लिए डिज़ाइन किया गया है। छोटे व्यवसाय आमतौर पर सरल, क्लाउड-नेटिव सुरक्षा प्लेटफ़ॉर्म से अधिक लाभान्वित होते हैं।"
+  }
+}

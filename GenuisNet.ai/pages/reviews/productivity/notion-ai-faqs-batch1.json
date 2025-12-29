@@ -1,0 +1,44 @@
+{
+  "es": {
+    "review.notion-ai.faq.q1": "¿Necesito pagar extra por las funciones de Notion AI?",
+    "review.notion-ai.faq.a1": "Sí, las funciones de IA como Notion Brain y el Asistente todo en uno están disponibles como complementos a partir del plan Business ($12/usuario/mes) o se pueden adquirir por separado. Las funciones principales de gestión de proyectos funcionan sin IA.",
+    "review.notion-ai.faq.q2": "¿Es Notion adecuado para equipos pequeños?",
+    "review.notion-ai.faq.a2": "¡Absolutamente! Notion ofrece un plan gratuito para siempre muy generoso para equipos pequeños. Aunque tiene funciones avanzadas para grandes empresas, los equipos pequeños pueden empezar de forma sencilla y añadir complejidad a medida que crecen. Las funciones de IA escalan bien para equipos de cualquier tamaño.",
+    "review.notion-ai.faq.q3": "¿Puede Notion AI escribir planes de proyecto completos?",
+    "review.notion-ai.faq.a3": "¡Sí! Proporcione a Notion AI una descripción del proyecto y puede generar planes de proyecto completos con tareas, subtareas, cronogramas y asignaciones. Puede refinar y personalizar el plan generado por IA para adaptarlo a sus necesidades específicas.",
+    "review.notion-ai.faq.q4": "¿Cómo funciona Notion Brain?",
+    "review.notion-ai.faq.a4": "Notion Brain indexa todo el contenido de su espacio de trabajo: tareas, documentos, comentarios y chat. Hágale preguntas en lenguaje natural y recupera información relevante al instante. Piense en él como un motor de búsqueda que entiende el contexto y puede sintetizar respuestas.",
+    "review.notion-ai.faq.q5": "¿Se integra Notion con otras herramientas?",
+    "review.notion-ai.faq.a5": "Sí, Notion se integra con más de 1000 herramientas, incluyendo Slack, Google Drive, GitHub, Figma, Zoom y más. Las funciones de IA funcionan en todas las integraciones, por lo que puede usar IA en contenido importado desde otras plataformas.",
+    "review.notion-ai.faq.q6": "¿Existe una aplicación móvil con funciones de IA?",
+    "review.notion-ai.faq.a6": "Sí, Notion tiene aplicaciones iOS y Android con funciones de IA que incluyen el asistente de escritura y Notion Brain. Sin embargo, algunas funciones avanzadas funcionan mejor en la versión web. Las aplicaciones móviles son excelentes para la gestión de tareas sobre la marcha."
+  },
+  "fr": {
+    "review.notion-ai.faq.q1": "Dois-je payer un supplément pour les fonctionnalités de Notion AI ?",
+    "review.notion-ai.faq.a1": "Oui, les fonctionnalités d'IA comme Notion Brain et l'Assistant tout-en-un sont disponibles en tant qu'extensions à partir du plan Business (12 $/utilisateur/mois) ou peuvent être achetées séparément. Les fonctionnalités principales de gestion de projet fonctionnent sans IA.",
+    "review.notion-ai.faq.q2": "Notion convient-il aux petites équipes ?",
+    "review.notion-ai.faq.a2": "Absolument ! Notion propose un plan gratuit à vie très généreux pour les petites équipes. Bien qu'il dispose de fonctionnalités avancées pour les grandes entreprises, les petites équipes peuvent commencer simplement et ajouter de la complexité au fur et à mesure de leur croissance. Les fonctionnalités d'IA s'adaptent bien aux équipes de toutes tailles.",
+    "review.notion-ai.faq.q3": "Notion AI peut-il rédiger des plans de projet complets ?",
+    "review.notion-ai.faq.a3": "Oui ! Donnez à Notion AI une description de projet et il peut générer des plans de projet complets avec des tâches, des sous-tâches, des échéanciers et des affectations. Vous pouvez affiner et personnaliser le plan généré par l'IA pour l'adapter à vos besoins spécifiques.",
+    "review.notion-ai.faq.q4": "Comment fonctionne Notion Brain ?",
+    "review.notion-ai.faq.a4": "Notion Brain indexe tout le contenu de votre espace de travail : tâches, documents, commentaires et chat. Posez-lui des questions en langage naturel et il récupère instantanément les informations pertinentes. Considérez-le comme un moteur de recherche qui comprend le contexte et peut synthétiser des réponses.",
+    "review.notion-ai.faq.q5": "Notion s'intègre-t-il avec d'autres outils ?",
+    "review.notion-ai.faq.a5": "Oui, Notion s'intègre avec plus de 1000 outils, notamment Slack, Google Drive, GitHub, Figma, Zoom et bien d'autres. Les fonctionnalités d'IA fonctionnent sur toutes les intégrations, vous pouvez donc utiliser l'IA sur du contenu importé depuis d'autres plateformes.",
+    "review.notion-ai.faq.q6": "Existe-t-il une application mobile avec des fonctionnalités d'IA ?",
+    "review.notion-ai.faq.a6": "Oui, Notion dispose d'applications iOS et Android avec des fonctionnalités d'IA, notamment l'assistant d'écriture et Notion Brain. Cependant, certaines fonctionnalités avancées fonctionnent mieux sur la version web. Les applications mobiles sont idéales pour la gestion des tâches en déplacement."
+  },
+  "de": {
+    "review.notion-ai.faq.q1": "Muss ich für Notion AI-Funktionen extra bezahlen?",
+    "review.notion-ai.faq.a1": "Ja, KI-Funktionen wie Notion Brain und der All-in-One-Assistent sind als Add-ons ab dem Business-Plan (12 $/Benutzer/Monat) verfügbar oder können separat erworben werden. Die grundlegenden Projektmanagement-Funktionen funktionieren ohne KI.",
+    "review.notion-ai.faq.q2": "Ist Notion für kleine Teams geeignet?",
+    "review.notion-ai.faq.a2": "Absolut! Notion bietet einen großzügigen kostenlosen Plan für immer für kleine Teams. Obwohl es erweiterte Funktionen für große Unternehmen hat, können kleine Teams einfach beginnen und die Komplexität mit dem Wachstum erhöhen. Die KI-Funktionen skalieren gut für Teams jeder Größe.",
+    "review.notion-ai.faq.q3": "Kann Notion AI vollständige Projektpläne schreiben?",
+    "review.notion-ai.faq.a3": "Ja! Geben Sie Notion AI eine Projektbeschreibung und es kann vollständige Projektpläne mit Aufgaben, Unteraufgaben, Zeitplänen und Zuweisungen generieren. Sie können den KI-generierten Plan verfeinern und anpassen, um ihn an Ihre spezifischen Anforderungen anzupassen.",
+    "review.notion-ai.faq.q4": "Wie funktioniert Notion Brain?",
+    "review.notion-ai.faq.a4": "Notion Brain indexiert alle Inhalte in Ihrem Workspace - Aufgaben, Dokumente, Kommentare und Chat. Stellen Sie Fragen in natürlicher Sprache und es ruft sofort relevante Informationen ab. Betrachten Sie es als eine Suchmaschine, die den Kontext versteht und Antworten synthetisieren kann.",
+    "review.notion-ai.faq.q5": "Lässt sich Notion mit anderen Tools integrieren?",
+    "review.notion-ai.faq.a5": "Ja, Notion integriert sich mit über 1000 Tools, darunter Slack, Google Drive, GitHub, Figma, Zoom und mehr. Die KI-Funktionen funktionieren über alle Integrationen hinweg, sodass Sie KI auf importierte Inhalte von anderen Plattformen anwenden können.",
+    "review.notion-ai.faq.q6": "Gibt es eine mobile App mit KI-Funktionen?",
+    "review.notion-ai.faq.a6": "Ja, Notion verfügt über iOS- und Android-Apps mit KI-Funktionen, einschließlich des Schreibassistenten und Notion Brain. Einige erweiterte Funktionen funktionieren jedoch besser in der Webversion. Die mobilen Apps sind ideal für die Aufgabenverwaltung unterwegs."
+  }
+}

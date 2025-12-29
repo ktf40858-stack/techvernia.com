@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.trend-micro-vision-one.faq.q1": "What makes Trend Micro Vision One different?",
+    "review.trend-micro-vision-one.faq.a1": "The platform combines advanced AI/ML detection with comprehensive threat intelligence and proven enterprise capabilities. Its unique approach to threat prevention and response sets it apart in the market.",
+    "review.trend-micro-vision-one.faq.q2": "How does pricing work?",
+    "review.trend-micro-vision-one.faq.a2": "Pricing is based on number of protected endpoints with tiered features. Contact sales for custom quotes based on your organization size and requirements.",
+    "review.trend-micro-vision-one.faq.q3": "Is cloud or on-premise deployment available?",
+    "review.trend-micro-vision-one.faq.a3": "Both deployment options are available. Cloud-native management is standard, with on-premise options for organizations with specific data residency requirements.",
+    "review.trend-micro-vision-one.faq.q4": "What platforms are supported?",
+    "review.trend-micro-vision-one.faq.a4": "Protection is available for Windows, macOS, Linux, and mobile devices (iOS/Android), all managed from a single unified console.",
+    "review.trend-micro-vision-one.faq.q5": "How effective is the ransomware protection?",
+    "review.trend-micro-vision-one.faq.a5": "The solution uses behavioral detection and machine learning to identify ransomware encryption patterns, automatically isolating threats and providing rollback capabilities to recover encrypted files."
+  },
+  "ko": {
+    "review.trend-micro-vision-one.faq.q1": "Trend Micro Vision One의 차별점은 무엇입니까?",
+    "review.trend-micro-vision-one.faq.a1": "이 플랫폼은 고급 AI/ML 탐지를 포괄적인 위협 인텔리전스 및 검증된 엔터프라이즈 기능과 결합합니다. 위협 방지 및 대응에 대한 독특한 접근 방식이 시장에서 차별화됩니다.",
+    "review.trend-micro-vision-one.faq.q2": "가격 책정은 어떻게 작동합니까?",
+    "review.trend-micro-vision-one.faq.a2": "가격 책정은 계층화된 기능이 있는 보호된 끝점 수를 기반으로 합니다. 조직의 규모 및 요구 사항에 따라 맞춤형 견적을 받으려면 영업팀에 문의하세요.",
+    "review.trend-micro-vision-one.faq.q3": "클라우드 또는 온프레미스 배포를 사용할 수 있습니까?",
+    "review.trend-micro-vision-one.faq.a3": "두 배포 옵션을 모두 사용할 수 있습니다. 클라우드 기본 관리가 표준이며, 특정 데이터 거주 요구 사항이 있는 조직을 위한 온프레미스 옵션이 있습니다.",
+    "review.trend-micro-vision-one.faq.q4": "어떤 플랫폼이 지원됩니까?",
+    "review.trend-micro-vision-one.faq.a4": "Windows, macOS, Linux 및 모바일 장치(iOS/Android)에 대한 보호를 사용할 수 있으며, 모두 단일 통합 콘솔에서 관리됩니다.",
+    "review.trend-micro-vision-one.faq.q5": "랜섬웨어 보호의 효과는 어느 정도입니까?",
+    "review.trend-micro-vision-one.faq.a5": "이 솔루션은 행동 탐지 및 기계 학습을 사용하여 랜섬웨어 암호화 패턴을 식별하고, 위협을 자동으로 격리하며, 암호화된 파일을 복구하기 위한 롤백 기능을 제공합니다."
+  },
+  "ar": {
+    "review.trend-micro-vision-one.faq.q1": "ما الذي يجعل Trend Micro Vision One مختلفاً؟",
+    "review.trend-micro-vision-one.faq.a1": "تجمع المنصة بين كشف الذكاء الاصطناعي/التعلم الآلي المتقدم والاستخبارات التهديد الشاملة والقدرات المؤسسية المثبتة. يميز نهجها الفريد لمنع التهديدات والاستجابة لها عن غيرها في السوق.",
+    "review.trend-micro-vision-one.faq.q2": "كيف يعمل التسعير؟",
+    "review.trend-micro-vision-one.faq.a2": "يعتمد التسعير على عدد نقاط النهاية المحمية مع ميزات متدرجة. اتصل بفريق المبيعات للحصول على عروض أسعار مخصصة بناءً على حجم مؤسستك ومتطلباتك.",
+    "review.trend-micro-vision-one.faq.q3": "هل يتوفر النشر السحابي أو المحلي؟",
+    "review.trend-micro-vision-one.faq.a3": "كلا خيار النشر متاح. الإدارة المحلية للسحابة هي المعيار، مع خيارات المحلية للمؤسسات التي لديها متطلبات إقامة بيانات محددة.",
+    "review.trend-micro-vision-one.faq.q4": "ما هي المنصات المدعومة؟",
+    "review.trend-micro-vision-one.faq.a4": "الحماية متاحة لـ Windows و macOS و Linux والأجهزة المحمولة (iOS/Android)، وكل ذلك يتم إدارته من وحدة تحكم موحدة واحدة.",
+    "review.trend-micro-vision-one.faq.q5": "ما مدى فعالية حماية برامج الفدية؟",
+    "review.trend-micro-vision-one.faq.a5": "يستخدم الحل الكشف السلوكي والتعلم الآلي لتحديد أنماط تشفير برامج الفدية، وعزل التهديدات تلقائياً وتوفير قدرات التراجع لاستعادة الملفات المشفرة."
+  },
+  "hi": {
+    "review.trend-micro-vision-one.faq.q1": "Trend Micro Vision One को अलग क्या बनाता है?",
+    "review.trend-micro-vision-one.faq.a1": "यह प्लेटफॉर्म उन्नत AI/ML पहचान को व्यापक खतरे की बुद्धिमत्ता और सिद्ध एंटरप्राइज क्षमताओं के साथ जोड़ता है। खतरे की रोकथाम और प्रतिक्रिया के लिए इसका अनूठा दृष्टिकोण इसे बाजार में अलग करता है।",
+    "review.trend-micro-vision-one.faq.q2": "मूल्य निर्धारण कैसे काम करता है?",
+    "review.trend-micro-vision-one.faq.a2": "मूल्य निर्धारण स्तरित विशेषताओं के साथ संरक्षित एंडपॉइंट की संख्या पर आधारित है। आपके संगठन के आकार और आवश्यकताओं के आधार पर कस्टम उद्धरण के लिए बिक्रय से संपर्क करें।",
+    "review.trend-micro-vision-one.faq.q3": "क्या क्लाउड या ऑन-प्रिमाइसेस परिनियोजन उपलब्ध है?",
+    "review.trend-micro-vision-one.faq.a3": "दोनों परिनियोजन विकल्प उपलब्ध हैं। क्लाउड-नेटिव प्रबंधन मानक है, विशिष्ट डेटा निवास आवश्यकताओं वाले संगठनों के लिए ऑन-प्रिमाइसेस विकल्प के साथ।",
+    "review.trend-micro-vision-one.faq.q4": "कौन से प्लेटफॉर्म समर्थित हैं?",
+    "review.trend-micro-vision-one.faq.a4": "Windows, macOS, Linux और मोबाइल डिवाइस (iOS/Android) के लिए सुरक्षा उपलब्ध है, सभी एक एकीकृत कंसोल से प्रबंधित हैं।",
+    "review.trend-micro-vision-one.faq.q5": "रैनसमवेयर सुरक्षा कितनी प्रभावी है?",
+    "review.trend-micro-vision-one.faq.a5": "यह समाधान व्यवहार संबंधी पहचान और मशीन लर्निंग का उपयोग करके रैनसमवेयर एन्क्रिप्शन पैटर्न की पहचान करता है, स्वचालित रूप से खतरों को अलग करता है और एन्क्रिप्ट की गई फाइलों को पुनः प्राप्त करने के लिए रोलबैक क्षमताओं को प्रदान करता है।"
+  }
+}

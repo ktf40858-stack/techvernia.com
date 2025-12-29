@@ -114,11 +114,11 @@
 <nav class="navbar" id="navbar">
 <div class="nav-container">
 <a class="logo" href="../../../index.html">
-<img alt="GenuisNet.ai" src="../../../assets/images/logo-neon.svg" style="height: 50px; width: auto;"/>
+<img alt="GenuisNet.ai Logo" src="../../../assets/images/logo-neon.svg" style="height: 40px; width: auto;"/>
 </a>
 <ul class="nav-menu" id="nav-menu">
 <li class="nav-item"><a class="nav-link active" data-i18n="nav.home" href="../../../index.html">Home</a></li>
-<li class="nav-item"><a class="nav-link active" href="../../categories/ai-networking.html">AI Networking</a></li>
+<li class="nav-item"><a class="nav-link active" href="../../categories/ai-networking.html">Categories</a></li>
 <li class="nav-item"><a class="nav-link" href="../../guides.html"><span data-i18n="nav.guides">Guides</span></a></li>
 <li class="nav-item"><a class="nav-link" href="../../comparisons.html"><span data-i18n="nav.compare">Compare</span></a></li>
 <li class="nav-item"><a class="nav-link" href="../../about.html"><span data-i18n="nav.about">About</span></a></li>
@@ -147,7 +147,7 @@
 <span class="flag">🇩🇪</span> Deutsch
                         </button>
 <button class="lang-option" data-lang="pt">
-<span class="flag">🇧🇷</span> Português
+<span class="flag">🇵🇹</span> Português
                         </button>
 <button class="lang-option" data-lang="zh">
 <span class="flag">🇨🇳</span> 中文
@@ -166,8 +166,11 @@
                         </button>
 </div>
 </div>
-<button aria-label="Toggle Theme" class="theme-toggle" id="theme-toggle"><svg class="sun-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg><svg class="moon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
-<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle"><span></span><span></span><span></span></button>
+<button class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
 </div>
 </div>
 </nav>
@@ -387,10 +390,10 @@
 </section>
 <section class="review-section" id="faq">
 <h2><span data-i18n="review.juniper-mist.frequently.asked.questions">Frequently Asked Questions</span></h2>
-<div class="faq-item"><div class="faq-question">Can Mist work offline?</div><div class="faq-answer">The network itself continues to function if cloud connectivity is lost — APs and switches will operate using cached policies. However, AI features, management, and Marvis require cloud connectivity. There's no on-premise deployment option.</div></div>
-<div class="faq-item"><div class="faq-question">How does Marvis compare to Cisco AI?</div><div class="faq-answer">Marvis is generally considered more advanced for conversational troubleshooting and natural language queries. Cisco's DNA Center AI is stronger for automated remediation in complex Cisco environments. Marvis wins on user experience; Cisco wins on integration depth.</div></div>
-<div class="faq-item"><div class="faq-question">Do I need Juniper switches for Mist?</div><div class="faq-answer">No, Mist wireless works with any switch infrastructure. However, to get the full "wired assurance" AI features and Marvis visibility into the wired network, you need Juniper EX switches managed through Mist.</div></div>
-<div class="faq-item"><div class="faq-question">What about data sovereignty?</div><div class="faq-answer">Mist offers regional cloud instances (US, EU, APAC) to address data sovereignty requirements. Your network data stays within the selected region. For highly regulated industries, discuss specific compliance needs with Juniper.</div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.juniper-mist.faq.q1">Can Mist work offline?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.juniper-mist.faq.a1">The network itself continues to function if cloud connectivity is lost — APs and switches will operate using cached policies. However, AI features, management, and Marvis require cloud connectivity. There's no on-premise deployment option.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.juniper-mist.faq.q2">How does Marvis compare to Cisco AI?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.juniper-mist.faq.a2">Marvis is generally considered more advanced for conversational troubleshooting and natural language queries. Cisco's DNA Center AI is stronger for automated remediation in complex Cisco environments. Marvis wins on user experience; Cisco wins on integration depth.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.juniper-mist.faq.q3">Do I need Juniper switches for Mist?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.juniper-mist.faq.a3">No, Mist wireless works with any switch infrastructure. However, to get the full "wired assurance" AI features and Marvis visibility into the wired network, you need Juniper EX switches managed through Mist.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.juniper-mist.faq.q4">What about data sovereignty?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.juniper-mist.faq.a4">Mist offers regional cloud instances (US, EU, APAC) to address data sovereignty requirements. Your network data stays within the selected region. For highly regulated industries, discuss specific compliance needs with Juniper.</span></div></div>
 </section>
 </main>
 <aside class="review-sidebar">
@@ -441,7 +444,9 @@
         document.querySelectorAll('.faq-question').forEach(q => { q.addEventListener('click', () => { const a = q.nextElementSibling; const isOpen = a.style.maxHeight; document.querySelectorAll('.faq-answer').forEach(x => { x.style.maxHeight = null; x.style.paddingTop = '0'; }); if (!isOpen) { a.style.maxHeight = a.scrollHeight + 'px'; a.style.paddingTop = 'var(--space-sm)'; } }); });
         document.querySelectorAll('.toc-list a').forEach(l => { l.addEventListener('click', (e) => { e.preventDefault(); document.querySelector(l.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' }); }); });
     </script>
+<script src="../../../js/juniper-mist-i18n.js"></script>
+    
 <script src="../../../js/i18n.js"></script>
-<script src="../../../js/auto-translate.js"></script>
+    <script src="../../../js/auto-translate.js"></script>
 </body>
 </html>

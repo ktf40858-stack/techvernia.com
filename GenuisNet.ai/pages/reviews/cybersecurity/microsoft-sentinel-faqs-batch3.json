@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.microsoft-sentinel.faq.q1": "What makes this solution unique?",
+    "review.microsoft-sentinel.faq.a1": "This platform combines advanced capabilities with enterprise-grade scalability, providing comprehensive protection for organizations of all sizes. Its proven track record and continuous innovation make it a trusted choice.",
+    "review.microsoft-sentinel.faq.q2": "How does pricing work?",
+    "review.microsoft-sentinel.faq.a2": "Pricing is customized based on organization size, features required, and deployment model. Contact sales for a detailed quote tailored to your specific needs and use case.",
+    "review.microsoft-sentinel.faq.q3": "What kind of support is available?",
+    "review.microsoft-sentinel.faq.a3": "Enterprise support includes dedicated account management, 24/7 technical support, regular training, and professional services for implementation and optimization.",
+    "review.microsoft-sentinel.faq.q4": "Is there a free trial?",
+    "review.microsoft-sentinel.faq.a4": "Demos and proof-of-concept deployments are available. Contact the sales team to arrange a personalized evaluation in your environment.",
+    "review.microsoft-sentinel.faq.q5": "What industries use this solution?",
+    "review.microsoft-sentinel.faq.a5": "Organizations across financial services, healthcare, government, retail, manufacturing, and technology sectors rely on this platform for their security needs."
+  },
+  "ko": {
+    "review.microsoft-sentinel.faq.q1": "이 솔루션의 고유한 점은 무엇입니까?",
+    "review.microsoft-sentinel.faq.a1": "이 플랫폼은 고급 기능을 엔터프라이즈급 확장성과 결합하여 모든 규모의 조직에 포괄적인 보호를 제공합니다. 입증된 실적과 지속적인 혁신이 이를 신뢰할 수 있는 선택으로 만듭니다.",
+    "review.microsoft-sentinel.faq.q2": "가격은 어떻게 결정되나요?",
+    "review.microsoft-sentinel.faq.a2": "가격은 조직 규모, 필요한 기능, 배포 모델을 기반으로 맞춤화됩니다. 영업팀에 연락하여 귀사의 구체적인 요구 사항과 사용 사례에 맞는 상세 견적을 받으세요.",
+    "review.microsoft-sentinel.faq.q3": "어떤 지원을 받을 수 있나요?",
+    "review.microsoft-sentinel.faq.a3": "엔터프라이즈 지원에는 전담 계정 관리, 24/7 기술 지원, 정기 교육, 구현 및 최적화를 위한 전문 서비스가 포함됩니다.",
+    "review.microsoft-sentinel.faq.q4": "무료 평가판이 있나요?",
+    "review.microsoft-sentinel.faq.a4": "데모 및 개념 증명 배포를 이용할 수 있습니다. 영업팀에 연락하여 귀사 환경에서 개인화된 평가를 받으세요.",
+    "review.microsoft-sentinel.faq.q5": "어떤 산업에서 이 솔루션을 사용합니까?",
+    "review.microsoft-sentinel.faq.a5": "금융 서비스, 의료, 정부, 소매, 제조, 기술 부문의 조직들이 보안 요구 사항을 위해 이 플랫폼에 의존합니다."
+  },
+  "ar": {
+    "review.microsoft-sentinel.faq.q1": "ما الذي يجعل هذا الحل فريداً؟",
+    "review.microsoft-sentinel.faq.a1": "تجمع هذه المنصة بين القدرات المتقدمة وقابلية التوسع على مستوى المؤسسات، مما توفر حماية شاملة للمنظمات من جميع الأحجام. تاريخها الموثوق والابتكار المستمر يجعلانها خياراً موثوقاً.",
+    "review.microsoft-sentinel.faq.q2": "كيف يعمل نموذج التسعير؟",
+    "review.microsoft-sentinel.faq.a2": "يتم تخصيص التسعير بناءً على حجم المنظمة والميزات المطلوبة ونموذج النشر. اتصل بفريق المبيعات للحصول على عرض أسعار مفصل يناسب احتياجاتك وحالتك.",
+    "review.microsoft-sentinel.faq.q3": "ما نوع الدعم المتاح؟",
+    "review.microsoft-sentinel.faq.a3": "يتضمن دعم المؤسسات إدارة حساب مخصصة، دعم تقني 24/7، تدريب منتظم، وخدمات احترافية للتنفيذ والتحسين.",
+    "review.microsoft-sentinel.faq.q4": "هل هناك نسخة تجريبية مجانية؟",
+    "review.microsoft-sentinel.faq.a4": "العروض التوضيحية ونشرات إثبات المفهوم متاحة. اتصل بفريق المبيعات لترتيب تقييم مخصص في بيئتك.",
+    "review.microsoft-sentinel.faq.q5": "ما الصناعات التي تستخدم هذا الحل؟",
+    "review.microsoft-sentinel.faq.a5": "تعتمد المنظمات عبر قطاعات الخدمات المالية والرعاية الصحية والحكومة والبيع بالتجزئة والتصنيع والتكنولوجيا على هذه المنصة لاحتياجاتها الأمنية."
+  },
+  "hi": {
+    "review.microsoft-sentinel.faq.q1": "इस समाधान को क्या अद्वितीय बनाता है?",
+    "review.microsoft-sentinel.faq.a1": "यह प्लेटफॉर्म उन्नत क्षमताओं को एंटरप्राइज-ग्रेड स्केलेबिलिटी के साथ जोड़ता है, जो सभी आकार के संगठनों के लिए व्यापक सुरक्षा प्रदान करता है। इसका साबित ट्रैक रिकॉर्ड और निरंतर नवाचार इसे एक विश्वसनीय विकल्प बनाते हैं।",
+    "review.microsoft-sentinel.faq.q2": "मूल्य निर्धारण कैसे काम करता है?",
+    "review.microsoft-sentinel.faq.a2": "मूल्य निर्धारण संगठन के आकार, आवश्यक सुविधाओं और तैनाती मॉडल के आधार पर अनुकूलित किया जाता है। अपनी विशिष्ट आवश्यकताओं और उपयोग केस के अनुसार एक विस्तृत उद्धरण के लिए बिक्री टीम से संपर्क करें।",
+    "review.microsoft-sentinel.faq.q3": "कौन सी सहायता उपलब्ध है?",
+    "review.microsoft-sentinel.faq.a3": "एंटरप्राइज समर्थन में समर्पित खाता प्रबंधन, 24/7 तकनीकी समर्थन, नियमित प्रशिक्षण, और कार्यान्वयन व अनुकूलन के लिए व्यावसायिक सेवाएं शामिल हैं।",
+    "review.microsoft-sentinel.faq.q4": "क्या कोई निःशुल्क परीक्षण है?",
+    "review.microsoft-sentinel.faq.a4": "डेमो और प्रमाण-अवधारणा तैनातियां उपलब्ध हैं। अपने वातावरण में एक व्यक्तिगत मूल्यांकन की व्यवस्था करने के लिए बिक्री टीम से संपर्क करें।",
+    "review.microsoft-sentinel.faq.q5": "कौन से उद्योग इस समाधान का उपयोग करते हैं?",
+    "review.microsoft-sentinel.faq.a5": "वित्तीय सेवाओं, स्वास्थ्य सेवा, सरकार, खुदरा, विनिर्माण और प्रौद्योगिकी क्षेत्रों के संगठन अपनी सुरक्षा आवश्यकताओं के लिए इस प्लेटफॉर्म पर भरोसा करते हैं।"
+  }
+}

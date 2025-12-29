@@ -116,11 +116,11 @@
 <nav class="navbar" id="navbar">
 <div class="nav-container">
 <a class="logo" href="../../../index.html">
-<img alt="GenuisNet.ai" src="../../../assets/images/logo-neon.svg" style="height: 50px; width: auto;"/>
+<img alt="GenuisNet.ai Logo" src="../../../assets/images/logo-neon.svg" style="height: 40px; width: auto;"/>
 </a>
 <ul class="nav-menu" id="nav-menu">
 <li class="nav-item"><a class="nav-link active" data-i18n="nav.home" href="../../../index.html">Home</a></li>
-<li class="nav-item"><a class="nav-link active" href="../../categories/ai-networking.html">AI Networking</a></li>
+<li class="nav-item"><a class="nav-link active" href="../../categories/ai-networking.html">Categories</a></li>
 <li class="nav-item"><a class="nav-link" href="../../guides.html"><span data-i18n="nav.guides">Guides</span></a></li>
 <li class="nav-item"><a class="nav-link" href="../../comparisons.html"><span data-i18n="nav.compare">Compare</span></a></li>
 <li class="nav-item"><a class="nav-link" href="../../about.html"><span data-i18n="nav.about">About</span></a></li>
@@ -149,7 +149,7 @@
 <span class="flag">🇩🇪</span> Deutsch
                         </button>
 <button class="lang-option" data-lang="pt">
-<span class="flag">🇧🇷</span> Português
+<span class="flag">🇵🇹</span> Português
                         </button>
 <button class="lang-option" data-lang="zh">
 <span class="flag">🇨🇳</span> 中文
@@ -168,8 +168,11 @@
                         </button>
 </div>
 </div>
-<button aria-label="Toggle Theme" class="theme-toggle" id="theme-toggle"><svg class="sun-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg><svg class="moon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
-<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle"><span></span><span></span><span></span></button>
+<button class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
 </div>
 </div>
 </nav>
@@ -315,9 +318,9 @@
 </section>
 <section class="review-section" id="faq">
 <h2><span data-i18n="review.datadog.frequently.asked.questions">Frequently Asked Questions</span></h2>
-<div class="faq-item"><div class="faq-question">How does Datadog pricing work?</div><div class="faq-answer">Datadog charges per host/month for infrastructure and APM, per GB for logs, and has various add-ons. Costs can add up quickly — always estimate carefully before committing. The free tier is good for evaluation.</div></div>
-<div class="faq-item"><div class="faq-question">Is Datadog good for traditional network monitoring?</div><div class="faq-answer">Datadog's NPM is excellent for modern cloud/container environments but less deep than traditional NMS tools like SolarWinds or PRTG for legacy infrastructure with SNMP polling, device configuration, etc.</div></div>
-<div class="faq-item"><div class="faq-question">Do I need the agent installed everywhere?</div><div class="faq-answer">For full functionality, yes. The Datadog Agent collects metrics, traces, and logs. Agentless monitoring is available for some cloud services via API integrations.</div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.datadog.faq.q1">How does Datadog pricing work?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.datadog.faq.a1">Datadog charges per host/month for infrastructure and APM, per GB for logs, and has various add-ons. Costs can add up quickly — always estimate carefully before committing. The free tier is good for evaluation.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.datadog.faq.q2">Is Datadog good for traditional network monitoring?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.datadog.faq.a2">Datadog's NPM is excellent for modern cloud/container environments but less deep than traditional NMS tools like SolarWinds or PRTG for legacy infrastructure with SNMP polling, device configuration, etc.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.datadog.faq.q3">Do I need the agent installed everywhere?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.datadog.faq.a3">For full functionality, yes. The Datadog Agent collects metrics, traces, and logs. Agentless monitoring is available for some cloud services via API integrations.</span></div></div>
 </section>
 </main>
 <aside class="review-sidebar">
@@ -368,7 +371,9 @@
         document.querySelectorAll('.faq-question').forEach(q => { q.addEventListener('click', () => { const a = q.nextElementSibling; const isOpen = a.style.maxHeight; document.querySelectorAll('.faq-answer').forEach(x => { x.style.maxHeight = null; x.style.paddingTop = '0'; }); if (!isOpen) { a.style.maxHeight = a.scrollHeight + 'px'; a.style.paddingTop = 'var(--space-sm)'; } }); });
         document.querySelectorAll('.toc-list a').forEach(l => { l.addEventListener('click', (e) => { e.preventDefault(); document.querySelector(l.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' }); }); });
     </script>
+<script src="../../../js/datadog-i18n.js"></script>
+    
 <script src="../../../js/i18n.js"></script>
-<script src="../../../js/auto-translate.js"></script>
+    <script src="../../../js/auto-translate.js"></script>
 </body>
 </html>

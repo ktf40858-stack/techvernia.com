@@ -26,3 +26,25 @@ node_modules/
 
 # Fichiers de test
 test_translations.html
+
+# Documentation et rapports (ne pas pusher)
+*.md
+!README.md
+!CONTRIBUTING.md
+!LICENSE.md
+
+# Claude Code artifacts
+.claude/
+
+# Backups supplémentaires
+*.backup
+*.bak
+
+# Scripts Python d'analyse
+analyze_content.py
+
+# Fichiers de communication/marketing
+Communication/
+
+# Fichiers avec noms réservés Windows
+nul

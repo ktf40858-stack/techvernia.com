@@ -521,7 +521,7 @@ const NEVER = [
     'Deepseek', 'GitHub', 'Amazon Q', 'Tabnine', 'Replit',
     'Tableau', 'Looker', 'Salesforce', 'HubSpot', 'CrowdStrike',
     'Darktrace', 'Splunk', 'Cortex', 'SentinelOne', 'Chatgpt',
-    'GenuisNet', 'GenuisNet.ai'
+    'GenuisNet', 'GenuisNet.ai', 'Cursor', 'cursor', 'VS Code', 'Codeium', 'CodeWhisperer', 'Windsurf'
 ];
 
 // Traduire tout

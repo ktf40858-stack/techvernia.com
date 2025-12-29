@@ -62,7 +62,11 @@ const leonardoaiTranslations = {
     "review.common.comparison.with.competitors": "Comparison with Competitors",
     "review.common.screenshots.interface": "Screenshots & Interface",
     "review.common.final.verdict": "Final Verdict",
-    "review.common.frequently.asked.questions": "Frequently Asked Questions"
+    "review.common.frequently.asked.questions": "Frequently Asked Questions",
+    "review.leonardoai.faq1.question": "Is Leonardo AI free to use?",
+    "review.leonardoai.faq1.answer": "Leonardo AI offers both free and paid tiers. Check the pricing section above for current plan details and feature access.",
+    "review.leonardoai.faq2.question": "Can I use Leonardo AI images commercially?",
+    "review.leonardoai.faq2.answer": "Commercial usage rights depend on your subscription tier. Review the commercial rights section and current terms of service for specific details."
   },
   "es": {
     "review.leonardo-ai.image.quality.style.control": "Image Quality & Style Control",
@@ -329,7 +333,11 @@ const leonardoaiTranslations = {
     "review.common.comparison.with.competitors": "Comparación con Competidores",
     "review.common.screenshots.interface": "Capturas de Pantalla e Interfaz",
     "review.common.final.verdict": "Veredicto Final",
-    "review.common.frequently.asked.questions": "Preguntas Frecuentes"
+    "review.common.frequently.asked.questions": "Preguntas Frecuentes",
+    "review.leonardoai.faq1.question": "¿Leonardo AI es gratuito?",
+    "review.leonardoai.faq1.answer": "Leonardo AI ofrece niveles gratuitos y de pago. Consulta la sección de precios arriba para conocer los detalles del plan actual y el acceso a funciones.",
+    "review.leonardoai.faq2.question": "¿Puedo usar imágenes de Leonardo AI comercialmente?",
+    "review.leonardoai.faq2.answer": "Los derechos de uso comercial dependen de tu nivel de suscripción. Revisa la sección de derechos comerciales y los términos de servicio actuales para obtener detalles específicos."
   },
   "fr": {
     "review.leonardo-ai.image.quality.style.control": "Image Quality & Style Control",
@@ -596,7 +604,11 @@ const leonardoaiTranslations = {
     "review.common.comparison.with.competitors": "Comparaison avec Concurrents",
     "review.common.screenshots.interface": "Captures d'Écran et Interface",
     "review.common.final.verdict": "Verdict Final",
-    "review.common.frequently.asked.questions": "Questions Fréquemment Posées"
+    "review.common.frequently.asked.questions": "Questions Fréquemment Posées",
+    "review.leonardoai.faq1.question": "Leonardo AI est-il gratuit ?",
+    "review.leonardoai.faq1.answer": "Leonardo AI propose des formules gratuites et payantes. Consultez la section tarification ci-dessus pour connaître les détails du plan actuel et l'accès aux fonctionnalités.",
+    "review.leonardoai.faq2.question": "Puis-je utiliser les images Leonardo AI commercialement ?",
+    "review.leonardoai.faq2.answer": "Les droits d'utilisation commerciale dépendent de votre niveau d'abonnement. Consultez la section des droits commerciaux et les conditions d'utilisation actuelles pour des détails spécifiques."
   },
   "de": {
     "review.leonardo-ai.image.quality.style.control": "Image Quality & Style Control",
@@ -863,7 +875,11 @@ const leonardoaiTranslations = {
     "review.common.comparison.with.competitors": "Vergleich mit Konkurrenten",
     "review.common.screenshots.interface": "Screenshots und Benutzeroberfläche",
     "review.common.final.verdict": "Endgültiges Urteil",
-    "review.common.frequently.asked.questions": "Häufig Gestellte Fragen"
+    "review.common.frequently.asked.questions": "Häufig Gestellte Fragen",
+    "review.leonardoai.faq1.question": "Ist Leonardo AI kostenlos?",
+    "review.leonardoai.faq1.answer": "Leonardo AI bietet sowohl kostenlose als auch kostenpflichtige Stufen. Überprüfen Sie den Preisbereich oben für aktuelle Plandetails und Funktionszugriff.",
+    "review.leonardoai.faq2.question": "Kann ich Leonardo AI-Bilder kommerziell verwenden?",
+    "review.leonardoai.faq2.answer": "Kommerzielle Nutzungsrechte hängen von Ihrer Abonnementstufe ab. Überprüfen Sie den Abschnitt über kommerzielle Rechte und die aktuellen Nutzungsbedingungen für spezifische Details."
   },
   "pt": {
     "review.leonardo-ai.image.quality.style.control": "Image Quality & Style Control",
@@ -1130,7 +1146,11 @@ const leonardoaiTranslations = {
     "review.common.comparison.with.competitors": "Comparação com Concorrentes",
     "review.common.screenshots.interface": "Capturas de Tela e Interface",
     "review.common.final.verdict": "Veredicto Final",
-    "review.common.frequently.asked.questions": "Perguntas Frequentes"
+    "review.common.frequently.asked.questions": "Perguntas Frequentes",
+    "review.leonardoai.faq1.question": "Leonardo AI é gratuito?",
+    "review.leonardoai.faq1.answer": "Leonardo AI oferece níveis gratuitos e pagos. Confira a seção de preços acima para detalhes do plano atual e acesso aos recursos.",
+    "review.leonardoai.faq2.question": "Posso usar imagens do Leonardo AI comercialmente?",
+    "review.leonardoai.faq2.answer": "Os direitos de uso comercial dependem do seu nível de assinatura. Revise a seção de direitos comerciais e os termos de serviço atuais para detalhes específicos."
   },
   "zh": {
     "review.leonardo-ai.image.quality.style.control": "Image Quality & Style Control",
@@ -1397,7 +1417,11 @@ const leonardoaiTranslations = {
     "review.common.comparison.with.competitors": "与竞争对手比较",
     "review.common.screenshots.interface": "截图和界面",
     "review.common.final.verdict": "最终评价",
-    "review.common.frequently.asked.questions": "常见问题"
+    "review.common.frequently.asked.questions": "常见问题",
+    "review.leonardoai.faq1.question": "Leonardo AI 是免费的吗？",
+    "review.leonardoai.faq1.answer": "Leonardo AI 提供免费和付费层级。请查看上面的定价部分以了解当前计划详情和功能访问权限。",
+    "review.leonardoai.faq2.question": "我可以商业使用 Leonardo AI 图像吗？",
+    "review.leonardoai.faq2.answer": "商业使用权取决于您的订阅级别。请查看商业权利部分和当前服务条款以获取具体详情。"
   },
   "ja": {
     "review.leonardo-ai.image.quality.style.control": "Image Quality & Style Control",
@@ -1664,7 +1688,11 @@ const leonardoaiTranslations = {
     "review.common.comparison.with.competitors": "競合他社との比較",
     "review.common.screenshots.interface": "スクリーンショットとインターフェース",
     "review.common.final.verdict": "最終評価",
-    "review.common.frequently.asked.questions": "よくある質問"
+    "review.common.frequently.asked.questions": "よくある質問",
+    "review.leonardoai.faq1.question": "Leonardo AIは無料で使えますか？",
+    "review.leonardoai.faq1.answer": "Leonardo AIは無料プランと有料プランの両方を提供しています。現在のプラン詳細と機能アクセスについては、上記の料金セクションを確認してください。",
+    "review.leonardoai.faq2.question": "Leonardo AIの画像を商業的に使用できますか？",
+    "review.leonardoai.faq2.answer": "商業利用権はサブスクリプションレベルによって異なります。具体的な詳細については、商業権利セクションと現在の利用規約を確認してください。"
   },
   "ko": {
     "review.leonardo-ai.image.quality.style.control": "Image Quality & Style Control",
@@ -1931,7 +1959,11 @@ const leonardoaiTranslations = {
     "review.common.comparison.with.competitors": "경쟁사와 비교",
     "review.common.screenshots.interface": "스크린샷 및 인터페이스",
     "review.common.final.verdict": "최종 평가",
-    "review.common.frequently.asked.questions": "자주 묻는 질문"
+    "review.common.frequently.asked.questions": "자주 묻는 질문",
+    "review.leonardoai.faq1.question": "Leonardo AI는 무료로 사용할 수 있나요?",
+    "review.leonardoai.faq1.answer": "Leonardo AI는 무료 및 유료 계층을 모두 제공합니다. 현재 플랜 세부 정보와 기능 액세스에 대해서는 위의 가격 섹션을 확인하세요.",
+    "review.leonardoai.faq2.question": "Leonardo AI 이미지를 상업적으로 사용할 수 있나요?",
+    "review.leonardoai.faq2.answer": "상업적 사용 권한은 구독 계층에 따라 다릅니다. 구체적인 내용은 상업적 권리 섹션과 현재 서비스 약관을 검토하세요."
   },
   "ar": {
     "review.leonardo-ai.image.quality.style.control": "Image Quality & Style Control",
@@ -2198,7 +2230,11 @@ const leonardoaiTranslations = {
     "review.common.comparison.with.competitors": "مقارنة مع المنافسين",
     "review.common.screenshots.interface": "لقطات الشاشة والواجهة",
     "review.common.final.verdict": "الحكم النهائي",
-    "review.common.frequently.asked.questions": "الأسئلة الشائعة"
+    "review.common.frequently.asked.questions": "الأسئلة الشائعة",
+    "review.leonardoai.faq1.question": "هل Leonardo AI مجاني للاستخدام؟",
+    "review.leonardoai.faq1.answer": "يقدم Leonardo AI مستويات مجانية ومدفوعة. راجع قسم التسعير أعلاه للحصول على تفاصيل الخطة الحالية والوصول إلى الميزات.",
+    "review.leonardoai.faq2.question": "هل يمكنني استخدام صور Leonardo AI تجارياً؟",
+    "review.leonardoai.faq2.answer": "تعتمد حقوق الاستخدام التجاري على مستوى اشتراكك. راجع قسم الحقوق التجارية وشروط الخدمة الحالية للحصول على تفاصيل محددة."
   },
   "hi": {
     "review.leonardo-ai.image.quality.style.control": "Image Quality & Style Control",
@@ -2465,7 +2501,11 @@ const leonardoaiTranslations = {
     "review.common.comparison.with.competitors": "प्रतियोगियों के साथ तुलना",
     "review.common.screenshots.interface": "स्क्रीनशॉट और इंटरफ़ेस",
     "review.common.final.verdict": "अंतिम निर्णय",
-    "review.common.frequently.asked.questions": "अक्सर पूछे जाने वाले प्रश्न"
+    "review.common.frequently.asked.questions": "अक्सर पूछे जाने वाले प्रश्न",
+    "review.leonardoai.faq1.question": "क्या Leonardo AI उपयोग करने के लिए मुफ़्त है?",
+    "review.leonardoai.faq1.answer": "Leonardo AI मुफ़्त और सशुल्क दोनों स्तर प्रदान करता है। वर्तमान योजना विवरण और सुविधा पहुंच के लिए ऊपर मूल्य निर्धारण अनुभाग देखें।",
+    "review.leonardoai.faq2.question": "क्या मैं Leonardo AI छवियों को व्यावसायिक रूप से उपयोग कर सकता हूं?",
+    "review.leonardoai.faq2.answer": "व्यावसायिक उपयोग अधिकार आपके सदस्यता स्तर पर निर्भर करते हैं। विशिष्ट विवरण के लिए व्यावसायिक अधिकार अनुभाग और वर्तमान सेवा की शर्तों की समीक्षा करें।"
   }
 };
 

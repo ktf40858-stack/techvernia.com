@@ -47,7 +47,17 @@ const adobefireflyTranslations = {
     "review.common.comparison.with.competitors": "Comparison with Competitors",
     "review.common.screenshots.interface": "Screenshots & Interface",
     "review.common.final.verdict": "Final Verdict",
-    "review.common.frequently.asked.questions": "Frequently Asked Questions"
+    "review.common.frequently.asked.questions": "Frequently Asked Questions",
+    "review.adobe-firefly.faq1.question": "Is Adobe Firefly really commercially safe?",
+    "review.adobe-firefly.faq1.answer": "Yes, Adobe Firefly is trained exclusively on licensed Adobe Stock content, public domain works, and expired copyright materials. All outputs can be used commercially without copyright concerns. Enterprise customers also receive indemnification protection.",
+    "review.adobe-firefly.faq2.question": "Do I need Creative Cloud to use Firefly?",
+    "review.adobe-firefly.faq2.answer": "No, you can use Firefly as a standalone web app with a free or premium Firefly subscription. However, the best features like Generative Fill in Photoshop and Generative Recolor in Illustrator require a Creative Cloud subscription.",
+    "review.adobe-firefly.faq3.question": "How does the credit system work?",
+    "review.adobe-firefly.faq3.answer": "Each generation consumes credits based on the action. Text to Image uses 1 credit per generation, while more complex operations may use more. Free users get 25 credits monthly, Premium gets 100, and Creative Cloud subscribers get credits based on their plan.",
+    "review.adobe-firefly.faq4.question": "Can I train custom Firefly models?",
+    "review.adobe-firefly.faq4.answer": "Custom model training is available exclusively for Enterprise customers. This allows you to train Firefly on your brand assets, logos, and style guidelines for consistent, on-brand outputs.",
+    "review.adobe-firefly.faq5.question": "How does Firefly compare to Midjourney?",
+    "review.adobe-firefly.faq5.answer": "Firefly prioritizes commercial safety and professional integration over artistic creativity. Midjourney produces more artistic, stylized images but lacks commercial guarantees and Creative Cloud integration. Choose Firefly for business use, Midjourney for artistic projects."
   },
   "es": {
     "review.adobe-firefly.image.quality.style.control": "Calidad de imagen y control de estilo",
@@ -279,7 +289,17 @@ const adobefireflyTranslations = {
     "review.common.comparison.with.competitors": "Comparación con Competidores",
     "review.common.screenshots.interface": "Capturas de Pantalla e Interfaz",
     "review.common.final.verdict": "Veredicto Final",
-    "review.common.frequently.asked.questions": "Preguntas Frecuentes"
+    "review.common.frequently.asked.questions": "Preguntas Frecuentes",
+    "review.adobe-firefly.faq1.question": "¿Es Adobe Firefly realmente seguro comercialmente?",
+    "review.adobe-firefly.faq1.answer": "Sí, Adobe Firefly está entrenado exclusivamente con contenido licenciado de Adobe Stock, obras de dominio público y materiales con derechos de autor vencidos. Todos los resultados pueden usarse comercialmente sin preocupaciones de derechos de autor. Los clientes empresariales también reciben protección de indemnización.",
+    "review.adobe-firefly.faq2.question": "¿Necesito Creative Cloud para usar Firefly?",
+    "review.adobe-firefly.faq2.answer": "No, puedes usar Firefly como una aplicación web independiente con una suscripción gratuita o premium de Firefly. Sin embargo, las mejores funciones como Relleno Generativo en Photoshop y Recolor Generativo en Illustrator requieren una suscripción a Creative Cloud.",
+    "review.adobe-firefly.faq3.question": "¿Cómo funciona el sistema de créditos?",
+    "review.adobe-firefly.faq3.answer": "Cada generación consume créditos según la acción. Texto a Imagen usa 1 crédito por generación, mientras que operaciones más complejas pueden usar más. Los usuarios gratuitos obtienen 25 créditos mensuales, Premium obtiene 100, y los suscriptores de Creative Cloud obtienen créditos según su plan.",
+    "review.adobe-firefly.faq4.question": "¿Puedo entrenar modelos personalizados de Firefly?",
+    "review.adobe-firefly.faq4.answer": "El entrenamiento de modelos personalizados está disponible exclusivamente para clientes empresariales. Esto te permite entrenar Firefly con los activos de tu marca, logotipos y directrices de estilo para resultados consistentes y acordes con tu marca.",
+    "review.adobe-firefly.faq5.question": "¿Cómo se compara Firefly con Midjourney?",
+    "review.adobe-firefly.faq5.answer": "Firefly prioriza la seguridad comercial y la integración profesional sobre la creatividad artística. Midjourney produce imágenes más artísticas y estilizadas pero carece de garantías comerciales e integración con Creative Cloud. Elige Firefly para uso empresarial, Midjourney para proyectos artísticos."
   },
   "fr": {
     "review.adobe-firefly.image.quality.style.control": "Qualité d'image &amp; Contrôle de style",
@@ -511,7 +531,17 @@ const adobefireflyTranslations = {
     "review.common.comparison.with.competitors": "Comparaison avec Concurrents",
     "review.common.screenshots.interface": "Captures d'Écran et Interface",
     "review.common.final.verdict": "Verdict Final",
-    "review.common.frequently.asked.questions": "Questions Fréquemment Posées"
+    "review.common.frequently.asked.questions": "Questions Fréquemment Posées",
+    "review.adobe-firefly.faq1.question": "Adobe Firefly est-il vraiment sûr commercialement ?",
+    "review.adobe-firefly.faq1.answer": "Oui, Adobe Firefly est entraîné exclusivement sur du contenu sous licence Adobe Stock, des œuvres du domaine public et des matériaux dont les droits d'auteur ont expiré. Tous les résultats peuvent être utilisés commercialement sans souci de droits d'auteur. Les clients entreprise bénéficient également d'une protection d'indemnisation.",
+    "review.adobe-firefly.faq2.question": "Ai-je besoin de Creative Cloud pour utiliser Firefly ?",
+    "review.adobe-firefly.faq2.answer": "Non, vous pouvez utiliser Firefly comme une application web autonome avec un abonnement Firefly gratuit ou premium. Cependant, les meilleures fonctionnalités comme le Remplissage Génératif dans Photoshop et la Recoloration Générative dans Illustrator nécessitent un abonnement Creative Cloud.",
+    "review.adobe-firefly.faq3.question": "Comment fonctionne le système de crédits ?",
+    "review.adobe-firefly.faq3.answer": "Chaque génération consomme des crédits selon l'action. Texte vers Image utilise 1 crédit par génération, tandis que les opérations plus complexes peuvent en utiliser davantage. Les utilisateurs gratuits obtiennent 25 crédits mensuels, Premium en obtient 100, et les abonnés Creative Cloud obtiennent des crédits selon leur forfait.",
+    "review.adobe-firefly.faq4.question": "Puis-je entraîner des modèles Firefly personnalisés ?",
+    "review.adobe-firefly.faq4.answer": "L'entraînement de modèles personnalisés est disponible exclusivement pour les clients entreprise. Cela vous permet d'entraîner Firefly sur les actifs de votre marque, logos et directives de style pour des résultats cohérents et conformes à votre marque.",
+    "review.adobe-firefly.faq5.question": "Comment Firefly se compare-t-il à Midjourney ?",
+    "review.adobe-firefly.faq5.answer": "Firefly privilégie la sécurité commerciale et l'intégration professionnelle à la créativité artistique. Midjourney produit des images plus artistiques et stylisées mais manque de garanties commerciales et d'intégration Creative Cloud. Choisissez Firefly pour un usage professionnel, Midjourney pour des projets artistiques."
   },
   "de": {
     "review.adobe-firefly.image.quality.style.control": "Bildqualität &amp; Style Control",
@@ -743,7 +773,17 @@ const adobefireflyTranslations = {
     "review.common.comparison.with.competitors": "Vergleich mit Konkurrenten",
     "review.common.screenshots.interface": "Screenshots und Benutzeroberfläche",
     "review.common.final.verdict": "Endgültiges Urteil",
-    "review.common.frequently.asked.questions": "Häufig Gestellte Fragen"
+    "review.common.frequently.asked.questions": "Häufig Gestellte Fragen",
+    "review.adobe-firefly.faq1.question": "Ist Adobe Firefly wirklich kommerziell sicher?",
+    "review.adobe-firefly.faq1.answer": "Ja, Adobe Firefly wird ausschließlich mit lizenzierten Adobe Stock-Inhalten, gemeinfreien Werken und Materialien mit abgelaufenem Urheberrecht trainiert. Alle Ausgaben können kommerziell ohne Urheberrechtsbedenken verwendet werden. Unternehmenskunden erhalten außerdem Entschädigungsschutz.",
+    "review.adobe-firefly.faq2.question": "Brauche ich Creative Cloud, um Firefly zu nutzen?",
+    "review.adobe-firefly.faq2.answer": "Nein, Sie können Firefly als eigenständige Web-App mit einem kostenlosen oder Premium-Firefly-Abonnement nutzen. Die besten Funktionen wie Generatives Füllen in Photoshop und Generatives Umfärben in Illustrator erfordern jedoch ein Creative Cloud-Abonnement.",
+    "review.adobe-firefly.faq3.question": "Wie funktioniert das Credit-System?",
+    "review.adobe-firefly.faq3.answer": "Jede Generierung verbraucht Credits basierend auf der Aktion. Text zu Bild verwendet 1 Credit pro Generierung, während komplexere Operationen mehr verbrauchen können. Kostenlose Nutzer erhalten 25 Credits monatlich, Premium erhält 100, und Creative Cloud-Abonnenten erhalten Credits entsprechend ihrem Plan.",
+    "review.adobe-firefly.faq4.question": "Kann ich benutzerdefinierte Firefly-Modelle trainieren?",
+    "review.adobe-firefly.faq4.answer": "Das Training benutzerdefinierter Modelle ist ausschließlich für Unternehmenskunden verfügbar. Dies ermöglicht es Ihnen, Firefly mit Ihren Marken-Assets, Logos und Stilrichtlinien zu trainieren, um konsistente, markengerechte Ergebnisse zu erzielen.",
+    "review.adobe-firefly.faq5.question": "Wie schneidet Firefly im Vergleich zu Midjourney ab?",
+    "review.adobe-firefly.faq5.answer": "Firefly priorisiert kommerzielle Sicherheit und professionelle Integration gegenüber künstlerischer Kreativität. Midjourney produziert künstlerischere, stilisiertere Bilder, bietet aber keine kommerziellen Garantien und keine Creative Cloud-Integration. Wählen Sie Firefly für geschäftliche Nutzung, Midjourney für künstlerische Projekte."
   },
   "pt": {
     "review.adobe-firefly.image.quality.style.control": "Controle de Qualidade de Imagem & amp; Style Control",
@@ -975,7 +1015,17 @@ const adobefireflyTranslations = {
     "review.common.comparison.with.competitors": "Comparação com Concorrentes",
     "review.common.screenshots.interface": "Capturas de Tela e Interface",
     "review.common.final.verdict": "Veredicto Final",
-    "review.common.frequently.asked.questions": "Perguntas Frequentes"
+    "review.common.frequently.asked.questions": "Perguntas Frequentes",
+    "review.adobe-firefly.faq1.question": "O Adobe Firefly é realmente seguro comercialmente?",
+    "review.adobe-firefly.faq1.answer": "Sim, o Adobe Firefly é treinado exclusivamente com conteúdo licenciado do Adobe Stock, obras de domínio público e materiais com direitos autorais expirados. Todos os resultados podem ser usados comercialmente sem preocupações com direitos autorais. Clientes empresariais também recebem proteção de indenização.",
+    "review.adobe-firefly.faq2.question": "Preciso do Creative Cloud para usar o Firefly?",
+    "review.adobe-firefly.faq2.answer": "Não, você pode usar o Firefly como um aplicativo web independente com uma assinatura gratuita ou premium do Firefly. No entanto, os melhores recursos como Preenchimento Generativo no Photoshop e Recoloração Generativa no Illustrator requerem uma assinatura do Creative Cloud.",
+    "review.adobe-firefly.faq3.question": "Como funciona o sistema de créditos?",
+    "review.adobe-firefly.faq3.answer": "Cada geração consome créditos com base na ação. Texto para Imagem usa 1 crédito por geração, enquanto operações mais complexas podem usar mais. Usuários gratuitos recebem 25 créditos mensais, Premium recebe 100, e assinantes do Creative Cloud recebem créditos de acordo com seu plano.",
+    "review.adobe-firefly.faq4.question": "Posso treinar modelos personalizados do Firefly?",
+    "review.adobe-firefly.faq4.answer": "O treinamento de modelos personalizados está disponível exclusivamente para clientes empresariais. Isso permite que você treine o Firefly nos ativos da sua marca, logotipos e diretrizes de estilo para resultados consistentes e alinhados à marca.",
+    "review.adobe-firefly.faq5.question": "Como o Firefly se compara ao Midjourney?",
+    "review.adobe-firefly.faq5.answer": "O Firefly prioriza a segurança comercial e a integração profissional em vez da criatividade artística. O Midjourney produz imagens mais artísticas e estilizadas, mas carece de garantias comerciais e integração com o Creative Cloud. Escolha o Firefly para uso comercial, Midjourney para projetos artísticos."
   },
   "zh": {
     "review.adobe-firefly.image.quality.style.control": "图像质量 & amp; 样式控制",
@@ -1207,7 +1257,17 @@ const adobefireflyTranslations = {
     "review.common.comparison.with.competitors": "与竞争对手比较",
     "review.common.screenshots.interface": "截图和界面",
     "review.common.final.verdict": "最终评价",
-    "review.common.frequently.asked.questions": "常见问题"
+    "review.common.frequently.asked.questions": "常见问题",
+    "review.adobe-firefly.faq1.question": "Adobe Firefly 真的商业安全吗？",
+    "review.adobe-firefly.faq1.answer": "是的，Adobe Firefly 仅使用获得许可的 Adobe Stock 内容、公共领域作品和已过期版权的材料进行训练。所有输出都可以商业使用，无需担心版权问题。企业客户还可获得赔偿保护。",
+    "review.adobe-firefly.faq2.question": "使用 Firefly 需要 Creative Cloud 吗？",
+    "review.adobe-firefly.faq2.answer": "不需要，您可以通过免费或高级 Firefly 订阅将 Firefly 作为独立的网络应用程序使用。但是，Photoshop 中的生成填充和 Illustrator 中的生成重新着色等最佳功能需要 Creative Cloud 订阅。",
+    "review.adobe-firefly.faq3.question": "积分系统如何运作？",
+    "review.adobe-firefly.faq3.answer": "每次生成根据操作消耗积分。文本转图像每次生成使用 1 个积分，而更复杂的操作可能使用更多。免费用户每月获得 25 个积分，高级版获得 100 个，Creative Cloud 订阅者根据其计划获得积分。",
+    "review.adobe-firefly.faq4.question": "我可以训练自定义 Firefly 模型吗？",
+    "review.adobe-firefly.faq4.answer": "自定义模型训练仅适用于企业客户。这允许您使用品牌资产、徽标和风格指南训练 Firefly，以获得一致的、符合品牌的输出。",
+    "review.adobe-firefly.faq5.question": "Firefly 与 Midjourney 相比如何？",
+    "review.adobe-firefly.faq5.answer": "Firefly 优先考虑商业安全和专业集成，而不是艺术创意。Midjourney 生成更具艺术性、风格化的图像，但缺乏商业保证和 Creative Cloud 集成。商业用途选择 Firefly，艺术项目选择 Midjourney。"
   },
   "ja": {
     "review.adobe-firefly.image.quality.style.control": "イメージの質及び様式制御",
@@ -1439,7 +1499,17 @@ const adobefireflyTranslations = {
     "review.common.comparison.with.competitors": "競合他社との比較",
     "review.common.screenshots.interface": "スクリーンショットとインターフェース",
     "review.common.final.verdict": "最終評価",
-    "review.common.frequently.asked.questions": "よくある質問"
+    "review.common.frequently.asked.questions": "よくある質問",
+    "review.adobe-firefly.faq1.question": "Adobe Firefly は本当に商用利用に安全ですか？",
+    "review.adobe-firefly.faq1.answer": "はい、Adobe Firefly はライセンスされた Adobe Stock コンテンツ、パブリックドメインの作品、著作権が切れた素材のみでトレーニングされています。すべての出力は著作権の心配なく商用利用できます。エンタープライズ顧客は補償保護も受けられます。",
+    "review.adobe-firefly.faq2.question": "Firefly を使用するには Creative Cloud が必要ですか？",
+    "review.adobe-firefly.faq2.answer": "いいえ、無料または有料の Firefly サブスクリプションでスタンドアロンの Web アプリとして Firefly を使用できます。ただし、Photoshop の生成塗りつぶしや Illustrator の生成リカラーなどの最高の機能には Creative Cloud サブスクリプションが必要です。",
+    "review.adobe-firefly.faq3.question": "クレジットシステムはどのように機能しますか？",
+    "review.adobe-firefly.faq3.answer": "各生成はアクションに基づいてクレジットを消費します。テキストから画像は生成ごとに1クレジットを使用し、より複雑な操作はより多く使用する場合があります。無料ユーザーは月25クレジット、プレミアムは100クレジットを取得し、Creative Cloud サブスクライバーはプランに応じてクレジットを取得します。",
+    "review.adobe-firefly.faq4.question": "カスタム Firefly モデルをトレーニングできますか？",
+    "review.adobe-firefly.faq4.answer": "カスタムモデルのトレーニングはエンタープライズ顧客のみが利用できます。これにより、ブランドアセット、ロゴ、スタイルガイドラインで Firefly をトレーニングし、一貫したブランドに沿った出力を得ることができます。",
+    "review.adobe-firefly.faq5.question": "Firefly と Midjourney の比較はどうですか？",
+    "review.adobe-firefly.faq5.answer": "Firefly は芸術的な創造性よりも商用安全性とプロフェッショナルな統合を優先します。Midjourney はより芸術的でスタイリッシュな画像を生成しますが、商用保証や Creative Cloud 統合がありません。ビジネス用途には Firefly を、芸術的なプロジェクトには Midjourney を選択してください。"
   },
   "ko": {
     "review.adobe-firefly.image.quality.style.control": "이미지 질 &amp; 작풍 통제",
@@ -1671,7 +1741,17 @@ const adobefireflyTranslations = {
     "review.common.comparison.with.competitors": "경쟁사와 비교",
     "review.common.screenshots.interface": "스크린샷 및 인터페이스",
     "review.common.final.verdict": "최종 평가",
-    "review.common.frequently.asked.questions": "자주 묻는 질문"
+    "review.common.frequently.asked.questions": "자주 묻는 질문",
+    "review.adobe-firefly.faq1.question": "Adobe Firefly는 정말 상업적으로 안전한가요?",
+    "review.adobe-firefly.faq1.answer": "네, Adobe Firefly는 라이선스된 Adobe Stock 콘텐츠, 공공 도메인 작품 및 저작권이 만료된 자료로만 학습됩니다. 모든 출력물은 저작권 걱정 없이 상업적으로 사용할 수 있습니다. 엔터프라이즈 고객은 배상 보호도 받습니다.",
+    "review.adobe-firefly.faq2.question": "Firefly를 사용하려면 Creative Cloud가 필요한가요?",
+    "review.adobe-firefly.faq2.answer": "아니요, 무료 또는 프리미엄 Firefly 구독으로 독립형 웹 앱으로 Firefly를 사용할 수 있습니다. 그러나 Photoshop의 생성 채우기 및 Illustrator의 생성 리컬러와 같은 최고의 기능을 사용하려면 Creative Cloud 구독이 필요합니다.",
+    "review.adobe-firefly.faq3.question": "크레딧 시스템은 어떻게 작동하나요?",
+    "review.adobe-firefly.faq3.answer": "각 생성은 작업에 따라 크레딧을 소비합니다. 텍스트에서 이미지는 생성당 1크레딧을 사용하며, 더 복잡한 작업은 더 많이 사용할 수 있습니다. 무료 사용자는 월 25크레딧, 프리미엄은 100크레딧을 받으며, Creative Cloud 구독자는 플랜에 따라 크레딧을 받습니다.",
+    "review.adobe-firefly.faq4.question": "커스텀 Firefly 모델을 학습시킬 수 있나요?",
+    "review.adobe-firefly.faq4.answer": "커스텀 모델 학습은 엔터프라이즈 고객에게만 제공됩니다. 이를 통해 브랜드 자산, 로고 및 스타일 가이드라인으로 Firefly를 학습시켜 일관되고 브랜드에 맞는 출력물을 얻을 수 있습니다.",
+    "review.adobe-firefly.faq5.question": "Firefly와 Midjourney는 어떻게 비교되나요?",
+    "review.adobe-firefly.faq5.answer": "Firefly는 예술적 창의성보다 상업적 안전성과 전문적 통합을 우선시합니다. Midjourney는 더 예술적이고 스타일리시한 이미지를 생성하지만 상업적 보증과 Creative Cloud 통합이 없습니다. 비즈니스 용도로는 Firefly를, 예술 프로젝트로는 Midjourney를 선택하세요."
   },
   "ar": {
     "review.adobe-firefly.image.quality.style.control": "Image Quality &amp; Style Control",
@@ -1903,7 +1983,17 @@ const adobefireflyTranslations = {
     "review.common.comparison.with.competitors": "مقارنة مع المنافسين",
     "review.common.screenshots.interface": "لقطات الشاشة والواجهة",
     "review.common.final.verdict": "الحكم النهائي",
-    "review.common.frequently.asked.questions": "الأسئلة الشائعة"
+    "review.common.frequently.asked.questions": "الأسئلة الشائعة",
+    "review.adobe-firefly.faq1.question": "هل Adobe Firefly آمن تجاريًا حقًا؟",
+    "review.adobe-firefly.faq1.answer": "نعم، يتم تدريب Adobe Firefly حصريًا على محتوى Adobe Stock المرخص والأعمال ذات الملكية العامة والمواد منتهية حقوق النشر. يمكن استخدام جميع المخرجات تجاريًا دون مخاوف تتعلق بحقوق النشر. يحصل عملاء المؤسسات أيضًا على حماية التعويض.",
+    "review.adobe-firefly.faq2.question": "هل أحتاج إلى Creative Cloud لاستخدام Firefly؟",
+    "review.adobe-firefly.faq2.answer": "لا، يمكنك استخدام Firefly كتطبيق ويب مستقل مع اشتراك Firefly مجاني أو مميز. ومع ذلك، تتطلب أفضل الميزات مثل التعبئة التوليدية في Photoshop وإعادة التلوين التوليدية في Illustrator اشتراك Creative Cloud.",
+    "review.adobe-firefly.faq3.question": "كيف يعمل نظام الاعتمادات؟",
+    "review.adobe-firefly.faq3.answer": "كل عملية توليد تستهلك اعتمادات بناءً على الإجراء. النص إلى صورة يستخدم اعتماد واحد لكل توليد، بينما العمليات الأكثر تعقيدًا قد تستخدم المزيد. يحصل المستخدمون المجانيون على 25 اعتمادًا شهريًا، والمميز يحصل على 100، ومشتركو Creative Cloud يحصلون على اعتمادات وفقًا لخطتهم.",
+    "review.adobe-firefly.faq4.question": "هل يمكنني تدريب نماذج Firefly مخصصة؟",
+    "review.adobe-firefly.faq4.answer": "تدريب النماذج المخصصة متاح حصريًا لعملاء المؤسسات. يتيح لك ذلك تدريب Firefly على أصول علامتك التجارية والشعارات وإرشادات الأسلوب للحصول على مخرجات متسقة ومتوافقة مع العلامة التجارية.",
+    "review.adobe-firefly.faq5.question": "كيف يقارن Firefly بـ Midjourney؟",
+    "review.adobe-firefly.faq5.answer": "يعطي Firefly الأولوية للسلامة التجارية والتكامل المهني على الإبداع الفني. ينتج Midjourney صورًا أكثر فنية وأناقة لكنه يفتقر إلى الضمانات التجارية وتكامل Creative Cloud. اختر Firefly للاستخدام التجاري، وMidjourney للمشاريع الفنية."
   },
   "hi": {
     "review.adobe-firefly.image.quality.style.control": "छवि गुणवत्ता & amp; शैली नियंत्रण",
@@ -2135,7 +2225,17 @@ const adobefireflyTranslations = {
     "review.common.comparison.with.competitors": "प्रतियोगियों के साथ तुलना",
     "review.common.screenshots.interface": "स्क्रीनशॉट और इंटरफ़ेस",
     "review.common.final.verdict": "अंतिम निर्णय",
-    "review.common.frequently.asked.questions": "अक्सर पूछे जाने वाले प्रश्न"
+    "review.common.frequently.asked.questions": "अक्सर पूछे जाने वाले प्रश्न",
+    "review.adobe-firefly.faq1.question": "क्या Adobe Firefly वास्तव में व्यावसायिक रूप से सुरक्षित है?",
+    "review.adobe-firefly.faq1.answer": "हाँ, Adobe Firefly को विशेष रूप से लाइसेंस प्राप्त Adobe Stock सामग्री, सार्वजनिक डोमेन कार्यों और समाप्त कॉपीराइट सामग्री पर प्रशिक्षित किया गया है। सभी आउटपुट कॉपीराइट चिंताओं के बिना व्यावसायिक रूप से उपयोग किए जा सकते हैं। एंटरप्राइज ग्राहकों को क्षतिपूर्ति सुरक्षा भी मिलती है।",
+    "review.adobe-firefly.faq2.question": "क्या Firefly का उपयोग करने के लिए मुझे Creative Cloud की आवश्यकता है?",
+    "review.adobe-firefly.faq2.answer": "नहीं, आप मुफ्त या प्रीमियम Firefly सदस्यता के साथ Firefly को एक स्टैंडअलोन वेब ऐप के रूप में उपयोग कर सकते हैं। हालांकि, Photoshop में Generative Fill और Illustrator में Generative Recolor जैसी सर्वोत्तम सुविधाओं के लिए Creative Cloud सदस्यता की आवश्यकता होती है।",
+    "review.adobe-firefly.faq3.question": "क्रेडिट सिस्टम कैसे काम करता है?",
+    "review.adobe-firefly.faq3.answer": "प्रत्येक जनरेशन क्रिया के आधार पर क्रेडिट का उपभोग करता है। टेक्स्ट टू इमेज प्रति जनरेशन 1 क्रेडिट का उपयोग करता है, जबकि अधिक जटिल ऑपरेशन अधिक उपयोग कर सकते हैं। मुफ्त उपयोगकर्ताओं को मासिक 25 क्रेडिट मिलते हैं, प्रीमियम को 100 मिलते हैं, और Creative Cloud सब्सक्राइबर्स को उनकी योजना के अनुसार क्रेडिट मिलते हैं।",
+    "review.adobe-firefly.faq4.question": "क्या मैं कस्टम Firefly मॉडल प्रशिक्षित कर सकता हूं?",
+    "review.adobe-firefly.faq4.answer": "कस्टम मॉडल प्रशिक्षण विशेष रूप से एंटरप्राइज ग्राहकों के लिए उपलब्ध है। यह आपको अपने ब्रांड एसेट्स, लोगो और स्टाइल दिशानिर्देशों पर Firefly को प्रशिक्षित करने की अनुमति देता है ताकि सुसंगत, ब्रांड-अनुरूप आउटपुट प्राप्त हो।",
+    "review.adobe-firefly.faq5.question": "Firefly की तुलना Midjourney से कैसे होती है?",
+    "review.adobe-firefly.faq5.answer": "Firefly कलात्मक रचनात्मकता पर व्यावसायिक सुरक्षा और पेशेवर एकीकरण को प्राथमिकता देता है। Midjourney अधिक कलात्मक, स्टाइलिश छवियां बनाता है लेकिन इसमें व्यावसायिक गारंटी और Creative Cloud एकीकरण का अभाव है। व्यावसायिक उपयोग के लिए Firefly चुनें, कलात्मक परियोजनाओं के लिए Midjourney।"
   }
 };
 

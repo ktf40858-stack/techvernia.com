@@ -1,0 +1,26 @@
+{
+  "pt": {
+    "review.salesforce-einstein.faq.q1": "Quanto custa o Salesforce Einstein?",
+    "review.salesforce-einstein.faq.a1": "O preço varia de acordo com o modelo de implementação, usuários e recursos. Contacte a Salesforce para obter orçamentos específicos adaptados às necessidades da sua organização.",
+    "review.salesforce-einstein.faq.q2": "Quais fontes de dados o Salesforce Einstein suporta?",
+    "review.salesforce-einstein.faq.a2": "O Salesforce Einstein suporta mais de 100 conectores nativos, incluindo principais bases de dados, plataformas em nuvem, aplicações SaaS e formatos de ficheiros.",
+    "review.salesforce-einstein.faq.q3": "O Salesforce Einstein requer programação?",
+    "review.salesforce-einstein.faq.a3": "Não, o Salesforce Einstein possui uma interface visual intuitiva que não requer programação para a maioria das análises. Utilizadores avançados podem aproveitar scripts para cenários complexos."
+  },
+  "zh": {
+    "review.salesforce-einstein.faq.q1": "Salesforce Einstein的费用是多少？",
+    "review.salesforce-einstein.faq.a1": "定价根据部署模型、用户和功能而异。请联系Salesforce获取针对您组织需求的具体报价。",
+    "review.salesforce-einstein.faq.q2": "Salesforce Einstein支持哪些数据源？",
+    "review.salesforce-einstein.faq.a2": "Salesforce Einstein支持100多个原生连接器，包括主要数据库、云平台、SaaS应用程序和文件格式。",
+    "review.salesforce-einstein.faq.q3": "Salesforce Einstein需要编码吗？",
+    "review.salesforce-einstein.faq.a3": "不需要，Salesforce Einstein具有直观的可视化界面，对于大多数分析不需要编码。高级用户可以利用脚本处理复杂场景。"
+  },
+  "ja": {
+    "review.salesforce-einstein.faq.q1": "Salesforce Einsteinの費用はいくらですか？",
+    "review.salesforce-einstein.faq.a1": "価格は導入モデル、ユーザー数、機能によって異なります。組織のニーズに合わせたカスタマイズされた見積もりはSalesforceにお問い合わせください。",
+    "review.salesforce-einstein.faq.q2": "Salesforce Einsteinはどのようなデータソースをサポートしていますか？",
+    "review.salesforce-einstein.faq.a2": "Salesforce Einsteinは、主要なデータベース、クラウドプラットフォーム、SaaSアプリケーション、ファイル形式など100以上のネイティブコネクタをサポートしています。",
+    "review.salesforce-einstein.faq.q3": "Salesforce Einsteinはコーディングが必要ですか？",
+    "review.salesforce-einstein.faq.a3": "いいえ。Salesforce Einsteinは直感的なビジュアルインターフェースを備えており、ほとんどの分析でコーディングは必要ありません。高度なユーザーは複雑なシナリオのためにスクリプティングを活用できます。"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "ko": {
+    "review.common.best.use.cases": "최고의 사용 사례",
+    "review.common.best.for": "최적 대상:",
+    "review.common.may.not.be.ideal.for": "적합하지 않을 수 있는 대상:",
+    "review.common.comparison": "비교",
+    "review.common.platform.comparison": "플랫폼 비교",
+    "review.common.key.advantages": "주요 장점",
+    "review.common.considerations": "고려사항",
+    "review.common.final.verdict": "최종 평가",
+    "review.common.quick.stats": "빠른 통계",
+    "review.common.frequently.asked.questions": "자주 묻는 질문",
+    "review.common.screenshots.interface": "스크린샷 및 인터페이스"
+  },
+  "ar": {
+    "review.common.best.use.cases": "أفضل حالات الاستخدام",
+    "review.common.best.for": "الأفضل لـ:",
+    "review.common.may.not.be.ideal.for": "قد لا يكون مثاليًا لـ:",
+    "review.common.comparison": "المقارنة",
+    "review.common.platform.comparison": "مقارنة المنصات",
+    "review.common.key.advantages": "المزايا الرئيسية",
+    "review.common.considerations": "الاعتبارات",
+    "review.common.final.verdict": "الحكم النهائي",
+    "review.common.quick.stats": "إحصائيات سريعة",
+    "review.common.frequently.asked.questions": "الأسئلة الشائعة",
+    "review.common.screenshots.interface": "لقطات الشاشة والواجهة"
+  },
+  "hi": {
+    "review.common.best.use.cases": "सर्वश्रेष्ठ उपयोग के मामले",
+    "review.common.best.for": "के लिए सर्वश्रेष्ठ:",
+    "review.common.may.not.be.ideal.for": "के लिए आदर्श नहीं हो सकता:",
+    "review.common.comparison": "तुलना",
+    "review.common.platform.comparison": "प्लेटफ़ॉर्म तुलना",
+    "review.common.key.advantages": "प्रमुख लाभ",
+    "review.common.considerations": "विचार",
+    "review.common.final.verdict": "अंतिम फैसला",
+    "review.common.quick.stats": "त्वरित आँकड़े",
+    "review.common.frequently.asked.questions": "अक्सर पूछे जाने वाले प्रश्न",
+    "review.common.screenshots.interface": "स्क्रीनशॉट और इंटरफ़ेस"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.fortinet.faq.q1": "What makes this solution unique?",
+    "review.fortinet.faq.a1": "This platform combines advanced capabilities with enterprise-grade scalability, providing comprehensive protection for organizations of all sizes. Its proven track record and continuous innovation make it a trusted choice.",
+    "review.fortinet.faq.q2": "How does pricing work?",
+    "review.fortinet.faq.a2": "Pricing is customized based on organization size, features required, and deployment model. Contact sales for a detailed quote tailored to your specific needs and use case.",
+    "review.fortinet.faq.q3": "What kind of support is available?",
+    "review.fortinet.faq.a3": "Enterprise support includes dedicated account management, 24/7 technical support, regular training, and professional services for implementation and optimization.",
+    "review.fortinet.faq.q4": "Is there a free trial?",
+    "review.fortinet.faq.a4": "Demos and proof-of-concept deployments are available. Contact the sales team to arrange a personalized evaluation in your environment.",
+    "review.fortinet.faq.q5": "What industries use this solution?",
+    "review.fortinet.faq.a5": "Organizations across financial services, healthcare, government, retail, manufacturing, and technology sectors rely on this platform for their security needs."
+  },
+  "es": {
+    "review.fortinet.faq.q1": "¿Qué hace que esta solución sea única?",
+    "review.fortinet.faq.a1": "Esta plataforma combina capacidades avanzadas con escalabilidad de nivel empresarial, proporcionando protección integral para organizaciones de todos los tamaños. Su trayectoria comprobada e innovación continua la convierten en una opción de confianza.",
+    "review.fortinet.faq.q2": "¿Cómo funciona el precio?",
+    "review.fortinet.faq.a2": "El precio se personaliza según el tamaño de la organización, las características requeridas y el modelo de implementación. Contacte con ventas para obtener una cotización detallada adaptada a sus necesidades específicas y caso de uso.",
+    "review.fortinet.faq.q3": "¿Qué tipo de soporte está disponible?",
+    "review.fortinet.faq.a3": "El soporte empresarial incluye gestión dedicada de cuentas, soporte técnico 24/7, capacitación regular y servicios profesionales para implementación y optimización.",
+    "review.fortinet.faq.q4": "¿Hay una prueba gratuita?",
+    "review.fortinet.faq.a4": "Hay demostraciones y implementaciones de prueba de concepto disponibles. Contacte al equipo de ventas para organizar una evaluación personalizada en su entorno.",
+    "review.fortinet.faq.q5": "¿Qué industrias utilizan esta solución?",
+    "review.fortinet.faq.a5": "Las organizaciones de los sectores de servicios financieros, atención médica, gobierno, venta minorista, manufactura y tecnología dependen de esta plataforma para sus necesidades de seguridad."
+  },
+  "fr": {
+    "review.fortinet.faq.q1": "Qu'est-ce qui rend cette solution unique?",
+    "review.fortinet.faq.a1": "Cette plateforme combine des capacités avancées avec une scalabilité de niveau entreprise, offrant une protection complète pour les organisations de toutes tailles. Son historique éprouvé et son innovation continue en font un choix de confiance.",
+    "review.fortinet.faq.q2": "Comment fonctionne la tarification?",
+    "review.fortinet.faq.a2": "La tarification est personnalisée en fonction de la taille de l'organisation, des fonctionnalités requises et du modèle de déploiement. Contactez l'équipe commerciale pour un devis détaillé adapté à vos besoins spécifiques et à votre cas d'usage.",
+    "review.fortinet.faq.q3": "Quel type de support est disponible?",
+    "review.fortinet.faq.a3": "Le support entreprise comprend une gestion de compte dédiée, un support technique 24/7, une formation régulière et des services professionnels pour l'implémentation et l'optimisation.",
+    "review.fortinet.faq.q4": "Y a-t-il un essai gratuit?",
+    "review.fortinet.faq.a4": "Des démonstrations et des déploiements de preuve de concept sont disponibles. Contactez l'équipe commerciale pour organiser une évaluation personnalisée dans votre environnement.",
+    "review.fortinet.faq.q5": "Quels secteurs utilisent cette solution?",
+    "review.fortinet.faq.a5": "Les organisations des secteurs des services financiers, de la santé, du gouvernement, de la vente au détail, de la fabrication et de la technologie s'appuient sur cette plateforme pour leurs besoins en matière de sécurité."
+  },
+  "de": {
+    "review.fortinet.faq.q1": "Was macht diese Lösung einzigartig?",
+    "review.fortinet.faq.a1": "Diese Plattform verbindet fortschrittliche Funktionen mit Skalierbarkeit auf Unternehmensebene und bietet umfassenden Schutz für Organisationen aller Größen. Der bewährte Erfolgsbericht und die kontinuierliche Innovation machen sie zu einer vertrauenswürdigen Wahl.",
+    "review.fortinet.faq.q2": "Wie funktioniert die Preisgestaltung?",
+    "review.fortinet.faq.a2": "Die Preisgestaltung wird basierend auf der Organisationsgröße, den erforderlichen Funktionen und dem Bereitstellungsmodell angepasst. Kontaktieren Sie den Vertrieb für ein maßgeschneidertes Angebot, das Ihren spezifischen Anforderungen und Anwendungsfall entspricht.",
+    "review.fortinet.faq.q3": "Welche Art von Support ist verfügbar?",
+    "review.fortinet.faq.a3": "Der Enterprise-Support umfasst dedizierte Kontoverwaltung, 24/7-technischen Support, regelmäßige Schulungen und professionelle Dienste für Implementierung und Optimierung.",
+    "review.fortinet.faq.q4": "Gibt es eine kostenlose Testversion?",
+    "review.fortinet.faq.a4": "Demonstrationen und Proof-of-Concept-Bereitstellungen sind verfügbar. Wenden Sie sich an das Vertriebsteam, um eine maßgeschneiderte Evaluierung in Ihrer Umgebung zu arrangieren.",
+    "review.fortinet.faq.q5": "Welche Branchen nutzen diese Lösung?",
+    "review.fortinet.faq.a5": "Organisationen in den Bereichen Finanzdienstleistungen, Gesundheitswesen, Regierung, Einzelhandel, Fertigung und Technologie verlassen sich auf diese Plattform für ihre Sicherheitsanforderungen."
+  }
+}

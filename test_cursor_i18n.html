@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cursor i18n Diagnostic</title>
+</head>
+<body>
+    <h1>Cursor i18n Diagnostic Test</h1>
+    <div id="results"></div>
+
+    <script src="GenuisNet.ai/js/cursor-i18n.js"></script>
+    <script>
+        const results = document.getElementById('results');
+        let html = '<h2>Test Results:</h2>';
+
+        // Test 1: Check if cursorTranslations is defined
+        html += '<h3>1. cursorTranslations defined:</h3>';
+        html += '<p>' + (typeof cursorTranslations !== 'undefined' ? '✅ YES' : '❌ NO') + '</p>';
+
+        // Test 2: Check if window.cursorTranslations is defined
+        html += '<h3>2. window.cursorTranslations defined:</h3>';
+        html += '<p>' + (typeof window.cursorTranslations !== 'undefined' ? '✅ YES' : '❌ NO') + '</p>';
+
+        // Test 3: Check Korean section exists
+        if (typeof cursorTranslations !== 'undefined') {
+            html += '<h3>3. Korean (ko) section exists:</h3>';
+            html += '<p>' + (cursorTranslations.ko ? '✅ YES' : '❌ NO') + '</p>';
+
+            // Test 4: Check specific key
+            html += '<h3>4. Korean overview paragraph key exists:</h3>';
+            const key = 'review.cursor.cursor.is.revolutionizing.how.developers';
+            const exists = cursorTranslations.ko && cursorTranslations.ko[key];
+            html += '<p>' + (exists ? '✅ YES' : '❌ NO') + '</p>';
+
+            if (exists) {
+                html += '<h3>5. Korean translation value:</h3>';
+                html += '<p style="background:#f0f0f0;padding:10px;">' + cursorTranslations.ko[key].substring(0, 100) + '...</p>';
+            }
+
+            // Test 6: Count keys per language
+            html += '<h3>6. Key counts per language:</h3>';
+            for (const lang of ['en', 'es', 'fr', 'de', 'pt', 'zh', 'ja', 'ko', 'ar', 'hi']) {
+                const count = cursorTranslations[lang] ? Object.keys(cursorTranslations[lang]).length : 0;
+                html += '<p>' + lang.toUpperCase() + ': ' + count + ' keys</p>';
+            }
+        }
+
+        results.innerHTML = html;
+    </script>
+</body>
+</html>

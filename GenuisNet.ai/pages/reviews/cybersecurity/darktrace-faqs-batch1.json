@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.darktrace.faq.q1": "What makes this solution unique?",
+    "review.darktrace.faq.a1": "This platform combines advanced capabilities with enterprise-grade scalability, providing comprehensive protection for organizations of all sizes. Its proven track record and continuous innovation make it a trusted choice.",
+    "review.darktrace.faq.q2": "How does pricing work?",
+    "review.darktrace.faq.a2": "Pricing is customized based on organization size, features required, and deployment model. Contact sales for a detailed quote tailored to your specific needs and use case.",
+    "review.darktrace.faq.q3": "What kind of support is available?",
+    "review.darktrace.faq.a3": "Enterprise support includes dedicated account management, 24/7 technical support, regular training, and professional services for implementation and optimization.",
+    "review.darktrace.faq.q4": "Is there a free trial?",
+    "review.darktrace.faq.a4": "Demos and proof-of-concept deployments are available. Contact the sales team to arrange a personalized evaluation in your environment.",
+    "review.darktrace.faq.q5": "What industries use this solution?",
+    "review.darktrace.faq.a5": "Organizations across financial services, healthcare, government, retail, manufacturing, and technology sectors rely on this platform for their security needs."
+  },
+  "es": {
+    "review.darktrace.faq.q1": "¿Qué hace que esta solución sea única?",
+    "review.darktrace.faq.a1": "Esta plataforma combina capacidades avanzadas con escalabilidad de nivel empresarial, proporcionando protección integral para organizaciones de todos los tamaños. Su historial comprobado e innovación continua la convierten en una opción de confianza.",
+    "review.darktrace.faq.q2": "¿Cómo funciona el precio?",
+    "review.darktrace.faq.a2": "El precio se personaliza según el tamaño de la organización, las características requeridas y el modelo de implementación. Póngase en contacto con ventas para obtener una cotización detallada adaptada a sus necesidades específicas y caso de uso.",
+    "review.darktrace.faq.q3": "¿Qué tipo de soporte está disponible?",
+    "review.darktrace.faq.a3": "El soporte empresarial incluye gestión dedicada de cuentas, soporte técnico 24/7, capacitación regular y servicios profesionales para implementación y optimización.",
+    "review.darktrace.faq.q4": "¿Hay una prueba gratuita?",
+    "review.darktrace.faq.a4": "Hay demostraciones y despliegues de prueba de concepto disponibles. Póngase en contacto con el equipo de ventas para organizar una evaluación personalizada en su entorno.",
+    "review.darktrace.faq.q5": "¿Qué industrias utilizan esta solución?",
+    "review.darktrace.faq.a5": "Las organizaciones en los sectores de servicios financieros, sanidad, gobierno, retail, manufactura y tecnología confían en esta plataforma para sus necesidades de seguridad."
+  },
+  "fr": {
+    "review.darktrace.faq.q1": "Qu'est-ce qui rend cette solution unique ?",
+    "review.darktrace.faq.a1": "Cette plateforme combine des capacités avancées avec une scalabilité de niveau entreprise, fournissant une protection complète pour les organisations de toutes tailles. Son historique éprouvé et son innovation continue en font un choix fiable.",
+    "review.darktrace.faq.q2": "Comment fonctionne la tarification ?",
+    "review.darktrace.faq.a2": "La tarification est personnalisée en fonction de la taille de l'organisation, des fonctionnalités requises et du modèle de déploiement. Contactez l'équipe commerciale pour un devis détaillé adapté à vos besoins spécifiques et à votre cas d'usage.",
+    "review.darktrace.faq.q3": "Quel type de support est disponible ?",
+    "review.darktrace.faq.a3": "Le support entreprise comprend la gestion de compte dédiée, le support technique 24/7, la formation régulière et les services professionnels pour l'implémentation et l'optimisation.",
+    "review.darktrace.faq.q4": "Y a-t-il un essai gratuit ?",
+    "review.darktrace.faq.a4": "Des démonstrations et des déploiements de preuve de concept sont disponibles. Contactez l'équipe commerciale pour organiser une évaluation personnalisée dans votre environnement.",
+    "review.darktrace.faq.q5": "Quels secteurs utilisent cette solution ?",
+    "review.darktrace.faq.a5": "Les organisations des secteurs des services financiers, de la santé, du gouvernement, de la vente au détail, de la fabrication et de la technologie font confiance à cette plateforme pour leurs besoins en matière de sécurité."
+  },
+  "de": {
+    "review.darktrace.faq.q1": "Was macht diese Lösung einzigartig?",
+    "review.darktrace.faq.a1": "Diese Plattform kombiniert fortschrittliche Funktionen mit Enterprise-Grade-Skalierbarkeit und bietet umfassenden Schutz für Organisationen jeder Größe. Ihre bewährte Erfolgsbilanz und kontinuierliche Innovation machen sie zu einer vertrauenswürdigen Wahl.",
+    "review.darktrace.faq.q2": "Wie funktioniert die Preisgestaltung?",
+    "review.darktrace.faq.a2": "Die Preisgestaltung ist basierend auf Organisationsgröße, erforderliche Funktionen und Bereitstellungsmodell angepasst. Kontaktieren Sie den Vertrieb für ein detailliertes Angebot, das auf Ihre spezifischen Anforderungen und Ihren Anwendungsfall zugeschnitten ist.",
+    "review.darktrace.faq.q3": "Welche Art von Support ist verfügbar?",
+    "review.darktrace.faq.a3": "Der Enterprise-Support umfasst dedizierte Kontoverwaltung, 24/7-technischen Support, regelmäßige Schulungen und professionelle Dienste für Implementierung und Optimierung.",
+    "review.darktrace.faq.q4": "Gibt es einen kostenlosen Test?",
+    "review.darktrace.faq.a4": "Demos und Proof-of-Concept-Bereitstellungen sind verfügbar. Kontaktieren Sie das Verkaufsteam, um eine maßgeschneiderte Bewertung in Ihrer Umgebung zu vereinbaren.",
+    "review.darktrace.faq.q5": "Welche Industrien nutzen diese Lösung?",
+    "review.darktrace.faq.a5": "Organisationen in den Bereichen Finanzdienstleistungen, Gesundheitswesen, Regierung, Einzelhandel, Fertigung und Technologie setzen auf diese Plattform für ihre Sicherheitsanforderungen."
+  }
+}

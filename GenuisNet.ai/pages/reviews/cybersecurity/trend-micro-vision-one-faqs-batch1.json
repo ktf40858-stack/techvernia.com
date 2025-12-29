@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.trend-micro-vision-one.faq.q1": "What makes Trend Micro Vision One different?",
+    "review.trend-micro-vision-one.faq.a1": "The platform combines advanced AI/ML detection with comprehensive threat intelligence and proven enterprise capabilities. Its unique approach to threat prevention and response sets it apart in the market.",
+    "review.trend-micro-vision-one.faq.q2": "How does pricing work?",
+    "review.trend-micro-vision-one.faq.a2": "Pricing is based on number of protected endpoints with tiered features. Contact sales for custom quotes based on your organization size and requirements.",
+    "review.trend-micro-vision-one.faq.q3": "Is cloud or on-premise deployment available?",
+    "review.trend-micro-vision-one.faq.a3": "Both deployment options are available. Cloud-native management is standard, with on-premise options for organizations with specific data residency requirements.",
+    "review.trend-micro-vision-one.faq.q4": "What platforms are supported?",
+    "review.trend-micro-vision-one.faq.a4": "Protection is available for Windows, macOS, Linux, and mobile devices (iOS/Android), all managed from a single unified console.",
+    "review.trend-micro-vision-one.faq.q5": "How effective is the ransomware protection?",
+    "review.trend-micro-vision-one.faq.a5": "The solution uses behavioral detection and machine learning to identify ransomware encryption patterns, automatically isolating threats and providing rollback capabilities to recover encrypted files."
+  },
+  "es": {
+    "review.trend-micro-vision-one.faq.q1": "¿Qué hace que Trend Micro Vision One sea diferente?",
+    "review.trend-micro-vision-one.faq.a1": "La plataforma combina detección avanzada de IA/ML con inteligencia de amenazas integral y capacidades empresariales comprobadas. Su enfoque único para la prevención y respuesta de amenazas la destaca en el mercado.",
+    "review.trend-micro-vision-one.faq.q2": "¿Cómo funciona el precio?",
+    "review.trend-micro-vision-one.faq.a2": "El precio se basa en el número de puntos finales protegidos con características escalonadas. Contacte con ventas para obtener presupuestos personalizados según el tamaño y los requisitos de su organización.",
+    "review.trend-micro-vision-one.faq.q3": "¿Está disponible la implementación en la nube o local?",
+    "review.trend-micro-vision-one.faq.a3": "Ambas opciones de implementación están disponibles. La gestión nativa en la nube es estándar, con opciones locales para organizaciones con requisitos específicos de residencia de datos.",
+    "review.trend-micro-vision-one.faq.q4": "¿Qué plataformas se admiten?",
+    "review.trend-micro-vision-one.faq.a4": "La protección está disponible para Windows, macOS, Linux y dispositivos móviles (iOS/Android), todo gestionado desde una única consola unificada.",
+    "review.trend-micro-vision-one.faq.q5": "¿Qué tan efectiva es la protección contra ransomware?",
+    "review.trend-micro-vision-one.faq.a5": "La solución utiliza detección del comportamiento y aprendizaje automático para identificar patrones de cifrado de ransomware, aislando automáticamente las amenazas y proporcionando capacidades de reversión para recuperar archivos cifrados."
+  },
+  "fr": {
+    "review.trend-micro-vision-one.faq.q1": "Qu'est-ce qui rend Trend Micro Vision One différent ?",
+    "review.trend-micro-vision-one.faq.a1": "La plateforme combine la détection avancée par IA/ML avec une intelligence de menace complète et des capacités d'entreprise éprouvées. Son approche unique de la prévention et de la réponse aux menaces la distingue sur le marché.",
+    "review.trend-micro-vision-one.faq.q2": "Comment fonctionne la tarification ?",
+    "review.trend-micro-vision-one.faq.a2": "La tarification est basée sur le nombre de points de terminaison protégés avec des fonctionnalités à niveaux. Contactez le service commercial pour des devis personnalisés en fonction de la taille de votre organisation et de vos besoins.",
+    "review.trend-micro-vision-one.faq.q3": "Le déploiement cloud ou sur site est-il disponible ?",
+    "review.trend-micro-vision-one.faq.a3": "Les deux options de déploiement sont disponibles. La gestion native du cloud est standard, avec des options sur site pour les organisations ayant des exigences spécifiques en matière de résidence des données.",
+    "review.trend-micro-vision-one.faq.q4": "Quelles plates-formes sont prises en charge ?",
+    "review.trend-micro-vision-one.faq.a4": "La protection est disponible pour Windows, macOS, Linux et les appareils mobiles (iOS/Android), tous gérés depuis une seule console unifiée.",
+    "review.trend-micro-vision-one.faq.q5": "L'efficacité de la protection contre les ransomwares ?",
+    "review.trend-micro-vision-one.faq.a5": "La solution utilise la détection comportementale et l'apprentissage automatique pour identifier les modèles de chiffrement des ransomwares, isolant automatiquement les menaces et fournissant des capacités de restauration pour récupérer les fichiers chiffrés."
+  },
+  "de": {
+    "review.trend-micro-vision-one.faq.q1": "Was macht Trend Micro Vision One anders?",
+    "review.trend-micro-vision-one.faq.a1": "Die Plattform kombiniert fortschrittliche KI-/ML-Erkennung mit umfassender Bedrohungsintelligenz und bewährten Unternehmensfähigkeiten. Sein einzigartiger Ansatz zur Bedrohungsprävention und -reaktion hebt sich auf dem Markt ab.",
+    "review.trend-micro-vision-one.faq.q2": "Wie funktioniert die Preisgestaltung?",
+    "review.trend-micro-vision-one.faq.a2": "Die Preisgestaltung basiert auf der Anzahl der geschützten Endpunkte mit gestaffelten Funktionen. Kontaktieren Sie den Vertrieb für Maßangebote basierend auf Ihrer Organisationsgröße und Ihren Anforderungen.",
+    "review.trend-micro-vision-one.faq.q3": "Ist Cloud- oder lokale Bereitstellung verfügbar?",
+    "review.trend-micro-vision-one.faq.a3": "Beide Bereitstellungsoptionen sind verfügbar. Cloud-native Verwaltung ist Standard, mit lokalen Optionen für Organisationen mit spezifischen Anforderungen an die Datenspeicherung.",
+    "review.trend-micro-vision-one.faq.q4": "Welche Plattformen werden unterstützt?",
+    "review.trend-micro-vision-one.faq.a4": "Der Schutz ist für Windows, macOS, Linux und Mobilgeräte (iOS/Android) verfügbar, alles verwaltet über eine einzige einheitliche Konsole.",
+    "review.trend-micro-vision-one.faq.q5": "Wie effektiv ist der Ransomware-Schutz?",
+    "review.trend-micro-vision-one.faq.a5": "Die Lösung nutzt Verhaltensekennung und maschinelles Lernen, um Ransomware-Verschlüsselungsmuster zu identifizieren, isoliert automatisch Bedrohungen und bietet Rollback-Funktionen zur Wiederherstellung verschlüsselter Dateien."
+  }
+}

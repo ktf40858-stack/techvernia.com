@@ -1,0 +1,44 @@
+{
+  "pt": {
+    "review.firefliesai.faq.q1": "O Fireflies funciona com todas as plataformas de videoconferência?",
+    "review.firefliesai.faq.a1": "Sim! O Fireflies funciona com Zoom, Google Meet, Microsoft Teams, Webex, RingCentral e muitas outras. Pode até discar para conferências telefônicas. O assistente de IA entra automaticamente ou sob demanda com base nas suas configurações.",
+    "review.firefliesai.faq.q2": "Qual é a precisão da transcrição?",
+    "review.firefliesai.faq.a2": "O Fireflies alcança mais de 90% de precisão para áudio claro em inglês. A precisão varia com a qualidade do áudio, sotaques e ruído de fundo. Você pode editar transcrições manualmente e adicionar vocabulário personalizado para melhorar a precisão de termos específicos do setor.",
+    "review.firefliesai.faq.q3": "O Fireflies está em conformidade com GDPR e SOC 2?",
+    "review.firefliesai.faq.a3": "Sim, o Fireflies possui certificação SOC 2 Type II e está em conformidade com GDPR. Os planos Enterprise oferecem recursos de segurança adicionais, incluindo políticas personalizadas de retenção de dados e criptografia. No entanto, sempre informe os participantes da reunião sobre a gravação.",
+    "review.firefliesai.faq.q4": "Posso usar o Fireflies gratuitamente?",
+    "review.firefliesai.faq.a4": "Sim! O plano gratuito inclui 800 minutos de transcrição por usuário por mês com armazenamento ilimitado. Isso é suficiente para a maioria dos indivíduos. Você pode fazer upgrade para o plano Pro para mais minutos e recursos avançados de IA.",
+    "review.firefliesai.faq.q5": "O Fireflies funciona em idiomas além do inglês?",
+    "review.firefliesai.faq.a5": "Sim, o Fireflies oferece suporte à transcrição em 69 idiomas, incluindo espanhol, francês, alemão, português, japonês, chinês e muitos outros. A seleção de idioma é automática ou pode ser especificada manualmente.",
+    "review.firefliesai.faq.q6": "Posso integrar o Fireflies com meu CRM?",
+    "review.firefliesai.faq.a6": "Com certeza! O Fireflies se integra com Salesforce, HubSpot, Pipedrive e outros CRMs importantes. Ele pode registrar automaticamente notas de chamadas, atualizar contatos e sincronizar itens de ação. Disponível nos planos Pro e superiores."
+  },
+  "zh": {
+    "review.firefliesai.faq.q1": "Fireflies 是否适用于所有视频会议平台？",
+    "review.firefliesai.faq.a1": "是的！Fireflies 适用于 Zoom、Google Meet、Microsoft Teams、Webex、RingCentral 等多个平台。它甚至可以拨入电话会议。AI 助手可根据您的设置自动或按需加入。",
+    "review.firefliesai.faq.q2": "转录的准确度如何？",
+    "review.firefliesai.faq.a2": "对于清晰的英语音频，Fireflies 的准确率可达 90% 以上。准确度会因音频质量、口音和背景噪音而有所不同。您可以手动编辑转录内容，并添加自定义词汇以提高行业专业术语的准确度。",
+    "review.firefliesai.faq.q3": "Fireflies 是否符合 GDPR 和 SOC 2 标准？",
+    "review.firefliesai.faq.a3": "是的，Fireflies 已获得 SOC 2 Type II 认证并符合 GDPR 标准。企业版计划提供额外的安全功能，包括自定义数据保留策略和加密。但是，请务必告知会议参与者正在进行录制。",
+    "review.firefliesai.faq.q4": "我可以免费使用 Fireflies 吗？",
+    "review.firefliesai.faq.a4": "可以！免费计划包括每个用户每月 800 分钟的转录时长和无限存储空间。这对大多数个人用户来说已经足够。您可以升级到 Pro 计划以获得更多分钟数和高级 AI 功能。",
+    "review.firefliesai.faq.q5": "Fireflies 是否支持英语以外的语言？",
+    "review.firefliesai.faq.a5": "是的，Fireflies 支持 69 种语言的转录，包括西班牙语、法语、德语、葡萄牙语、日语、中文等。语言选择可以自动进行或手动指定。",
+    "review.firefliesai.faq.q6": "我可以将 Fireflies 与我的 CRM 集成吗？",
+    "review.firefliesai.faq.a6": "当然可以！Fireflies 可与 Salesforce、HubSpot、Pipedrive 和其他主要 CRM 集成。它可以自动记录通话笔记、更新联系人并同步待办事项。Pro 及更高版本计划中提供。"
+  },
+  "ja": {
+    "review.firefliesai.faq.q1": "Fireflies はすべてのビデオ会議プラットフォームで動作しますか？",
+    "review.firefliesai.faq.a1": "はい！Fireflies は Zoom、Google Meet、Microsoft Teams、Webex、RingCentral などで動作します。電話会議にダイヤルインすることもできます。AI アシスタントは、設定に基づいて自動的または必要に応じて参加します。",
+    "review.firefliesai.faq.q2": "文字起こしの精度はどのくらいですか？",
+    "review.firefliesai.faq.a2": "Fireflies は、クリアな英語音声で 90% 以上の精度を実現します。精度は音質、アクセント、背景ノイズによって異なります。文字起こしを手動で編集したり、カスタム語彙を追加して業界固有の用語の精度を向上させることができます。",
+    "review.firefliesai.faq.q3": "Fireflies は GDPR および SOC 2 に準拠していますか？",
+    "review.firefliesai.faq.a3": "はい、Fireflies は SOC 2 Type II 認証を取得しており、GDPR に準拠しています。エンタープライズプランでは、カスタムデータ保持ポリシーや暗号化などの追加のセキュリティ機能を提供しています。ただし、録音については必ず会議参加者に通知してください。",
+    "review.firefliesai.faq.q4": "Fireflies を無料で使用できますか？",
+    "review.firefliesai.faq.a4": "はい！無料プランには、1ユーザーあたり月間 800 分の文字起こしと無制限のストレージが含まれています。これはほとんどの個人ユーザーにとって十分です。より多くの分数と高度な AI 機能が必要な場合は、Pro にアップグレードできます。",
+    "review.firefliesai.faq.q5": "Fireflies は英語以外の言語でも動作しますか？",
+    "review.firefliesai.faq.a5": "はい、Fireflies はスペイン語、フランス語、ドイツ語、ポルトガル語、日本語、中国語など、69 言語での文字起こしをサポートしています。言語選択は自動で行われるか、手動で指定できます。",
+    "review.firefliesai.faq.q6": "Fireflies を CRM と統合できますか？",
+    "review.firefliesai.faq.a6": "もちろんです！Fireflies は Salesforce、HubSpot、Pipedrive、その他の主要な CRM と統合できます。通話メモの自動記録、連絡先の更新、アクションアイテムの同期が可能です。Pro 以上のプランで利用できます。"
+  }
+}

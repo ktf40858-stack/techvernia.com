@@ -3,6 +3,8 @@
    Core functionality and interactions
    ============================================ */
 
+console.log('⚙️ main.js loaded');
+
 // ============================================
 // DOM Elements
 // ============================================
@@ -464,6 +466,143 @@ class LazyLoader {
 }
 
 // ============================================
+// Language Selector
+// ============================================
+class LanguageSelector {
+    constructor() {
+        console.log('🌐 LanguageSelector constructor called');
+        this.selector = document.querySelector('.language-selector');
+        this.langBtn = document.getElementById('lang-btn');
+        this.langDropdown = document.getElementById('lang-dropdown');
+        this.langOptions = document.querySelectorAll('.lang-option');
+        this.langCurrent = document.querySelector('.lang-current');
+        this.isOpen = false;
+        this.currentLang = localStorage.getItem('selectedLanguage') || 'en';
+
+        console.log('🔍 Elements found:', {
+            selector: !!this.selector,
+            langBtn: !!this.langBtn,
+            langDropdown: !!this.langDropdown,
+            langOptions: this.langOptions.length,
+            langCurrent: !!this.langCurrent
+        });
+
+        this.init();
+    }
+
+    init() {
+        if (!this.selector || !this.langBtn || !this.langDropdown) {
+            console.warn('⚠️ LanguageSelector elements not found - skipping initialization');
+            return;
+        }
+
+        console.log('⚙️ Setting up LanguageSelector event listeners');
+        this.setupEventListeners();
+        this.updateCurrentLanguage();
+        console.log('✅ LanguageSelector initialized successfully');
+    }
+
+    setupEventListeners() {
+        // Toggle dropdown
+        this.langBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.toggle();
+        });
+
+        // Select language
+        this.langOptions.forEach(option => {
+            option.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const lang = option.getAttribute('data-lang');
+                this.selectLanguage(lang);
+            });
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!this.selector.contains(e.target)) {
+                this.close();
+            }
+        });
+
+        // Close on escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && this.isOpen) {
+                this.close();
+            }
+        });
+    }
+
+    toggle() {
+        if (this.isOpen) {
+            this.close();
+        } else {
+            this.open();
+        }
+    }
+
+    open() {
+        this.isOpen = true;
+        this.selector.classList.add('active');
+        console.log('🔓 Dropdown opened');
+    }
+
+    close() {
+        this.isOpen = false;
+        this.selector.classList.remove('active');
+        console.log('🔒 Dropdown closed');
+    }
+
+    selectLanguage(lang) {
+        console.log('🎯 Language selected:', lang);
+        this.currentLang = lang;
+        localStorage.setItem('selectedLanguage', lang);
+
+        // Update active state
+        this.langOptions.forEach(option => {
+            option.classList.toggle('active', option.getAttribute('data-lang') === lang);
+        });
+
+        // Update current language display
+        this.updateCurrentLanguage();
+
+        // Dispatch event for i18n files to listen to
+        const event = new CustomEvent('languageChanged', {
+            detail: { language: lang }
+        });
+        console.log('📢 Dispatching languageChanged event:', lang);
+        document.dispatchEvent(event);
+
+        // Close dropdown
+        this.close();
+    }
+
+    updateCurrentLanguage() {
+        const langMap = {
+            'en': 'EN',
+            'es': 'ES',
+            'fr': 'FR',
+            'de': 'DE',
+            'pt': 'PT',
+            'zh': 'ZH',
+            'ja': 'JA',
+            'ko': 'KO',
+            'ar': 'AR',
+            'hi': 'HI'
+        };
+
+        if (this.langCurrent) {
+            this.langCurrent.textContent = langMap[this.currentLang] || 'EN';
+        }
+
+        // Update active option
+        this.langOptions.forEach(option => {
+            option.classList.toggle('active', option.getAttribute('data-lang') === this.currentLang);
+        });
+    }
+}
+
+// ============================================
 // Cookie Consent (GDPR)
 // ============================================
 class CookieConsent {
@@ -608,6 +747,7 @@ class PerformanceMonitor {
 function initApp() {
     // Core functionality
     new Navigation();
+    new LanguageSelector();
     // new ThemeManager(); // Disabled - 100% dark mode
     new SearchModal();
     new NewsletterForm();
@@ -625,7 +765,8 @@ function initApp() {
         new PerformanceMonitor();
     }
 
-    console.log('GenuisNet.ai initialized');
+    console.log('✅ GenuisNet.ai initialized');
+    console.log('📊 All modules loaded successfully');
 }
 
 // Initialize when DOM is ready

@@ -1,0 +1,26 @@
+{
+  "es": {
+    "review.tableau.faq.q1": "¿Cuánto cuesta Tableau?",
+    "review.tableau.faq.a1": "Los precios varían según el modelo de implementación, los usuarios y las características. Póngase en contacto con Salesforce para obtener presupuestos específicos adaptados a las necesidades de su organización.",
+    "review.tableau.faq.q2": "¿Qué fuentes de datos admite Tableau?",
+    "review.tableau.faq.a2": "Tableau admite más de 100 conectores nativos, incluyendo bases de datos principales, plataformas en la nube, aplicaciones SaaS y formatos de archivo.",
+    "review.tableau.faq.q3": "¿Requiere Tableau codificación?",
+    "review.tableau.faq.a3": "No, Tableau cuenta con una interfaz visual intuitiva que no requiere codificación para la mayoría de los análisis. Los usuarios avanzados pueden aprovechar la escritura de secuencias de comandos para escenarios complejos."
+  },
+  "fr": {
+    "review.tableau.faq.q1": "Combien coûte Tableau?",
+    "review.tableau.faq.a1": "Les tarifs varient en fonction du modèle de déploiement, des utilisateurs et des fonctionnalités. Contactez Salesforce pour obtenir des devis spécifiques adaptés aux besoins de votre organisation.",
+    "review.tableau.faq.q2": "Quelles sources de données Tableau prend-il en charge?",
+    "review.tableau.faq.a2": "Tableau prend en charge plus de 100 connecteurs natifs, y compris les principales bases de données, les plateformes cloud, les applications SaaS et les formats de fichiers.",
+    "review.tableau.faq.q3": "Tableau nécessite-t-il du codage?",
+    "review.tableau.faq.a3": "Non, Tableau dispose d'une interface visuelle intuitive qui ne nécessite pas de codage pour la plupart des analyses. Les utilisateurs avancés peuvent utiliser les scripts pour les scénarios complexes."
+  },
+  "de": {
+    "review.tableau.faq.q1": "Wie viel kostet Tableau?",
+    "review.tableau.faq.a1": "Die Preise variieren je nach Bereitstellungsmodell, Benutzern und Funktionen. Kontaktieren Sie Salesforce für spezifische Angebote, die auf die Anforderungen Ihrer Organisation zugeschnitten sind.",
+    "review.tableau.faq.q2": "Welche Datenquellen unterstützt Tableau?",
+    "review.tableau.faq.a2": "Tableau unterstützt über 100 native Konnektoren, einschließlich wichtiger Datenbanken, Cloud-Plattformen, SaaS-Anwendungen und Dateiformate.",
+    "review.tableau.faq.q3": "Erfordert Tableau Codierung?",
+    "review.tableau.faq.a3": "Nein, Tableau verfügt über eine intuitive visuelle Schnittstelle, die für die meisten Analysen keine Codierung erforderlich ist. Fortgeschrittene Benutzer können Scripting für komplexe Szenarien nutzen."
+  }
+}

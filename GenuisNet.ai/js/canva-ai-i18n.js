@@ -40,7 +40,17 @@ const canvaaiTranslations = {
     "review.common.comparison.with.competitors": "Comparison with Competitors",
     "review.common.screenshots.interface": "Screenshots & Interface",
     "review.common.final.verdict": "Final Verdict",
-    "review.common.frequently.asked.questions": "Frequently Asked Questions"
+    "review.common.frequently.asked.questions": "Frequently Asked Questions",
+    "review.canva-ai.faq1.question": "Can I use Canva AI for free?",
+    "review.canva-ai.faq1.answer": "Yes, Canva offers a free tier with limited AI features. However, for full access to Magic Studio, unlimited AI credits, and commercial usage rights, you'll need Canva Pro at $12.99/month.",
+    "review.canva-ai.faq2.question": "What's included in Magic Studio?",
+    "review.canva-ai.faq2.answer": "Magic Studio includes Text to Image, Magic Write, Magic Eraser, Background Remover, Magic Edit, Magic Expand, Magic Animate, Magic Switch, and more. It's Canva's comprehensive suite of AI-powered creative tools.",
+    "review.canva-ai.faq3.question": "Are AI-generated images commercially safe?",
+    "review.canva-ai.faq3.answer": "Canva Pro and Teams users have full commercial rights to AI-generated content. Free tier users have restrictions on commercial use. Always review Canva's current content license terms for your specific use case.",
+    "review.canva-ai.faq4.question": "How does Canva AI compare to Photoshop?",
+    "review.canva-ai.faq4.answer": "Canva is far easier to use and better for quick design tasks, templates, and social media content. Photoshop offers more advanced editing capabilities and professional-grade tools. Canva excels at speed and simplicity, Photoshop at power and precision.",
+    "review.canva-ai.faq5.question": "Can teams collaborate on Canva AI projects?",
+    "review.canva-ai.faq5.answer": "Yes, Canva Teams enables full collaboration with shared folders, brand kits, approval workflows, and team templates. Multiple team members can work on designs simultaneously with real-time updates."
   },
   "es": {
     "review.canva-ai.image.quality.style.control": "Calidad de imagen y control de estilo",
@@ -276,7 +286,17 @@ const canvaaiTranslations = {
     "review.common.comparison.with.competitors": "Comparación con Competidores",
     "review.common.screenshots.interface": "Capturas de Pantalla e Interfaz",
     "review.common.final.verdict": "Veredicto Final",
-    "review.common.frequently.asked.questions": "Preguntas Frecuentes"
+    "review.common.frequently.asked.questions": "Preguntas Frecuentes",
+    "review.canva-ai.faq1.question": "¿Puedo usar Canva AI gratis?",
+    "review.canva-ai.faq1.answer": "Sí, Canva ofrece un nivel gratuito con funciones de IA limitadas. Sin embargo, para acceso completo a Magic Studio, créditos de IA ilimitados y derechos de uso comercial, necesitarás Canva Pro a $12.99/mes.",
+    "review.canva-ai.faq2.question": "¿Qué incluye Magic Studio?",
+    "review.canva-ai.faq2.answer": "Magic Studio incluye Texto a Imagen, Magic Write, Magic Eraser, Eliminador de Fondos, Magic Edit, Magic Expand, Magic Animate, Magic Switch y más. Es la suite completa de herramientas creativas impulsadas por IA de Canva.",
+    "review.canva-ai.faq3.question": "¿Las imágenes generadas por IA son seguras comercialmente?",
+    "review.canva-ai.faq3.answer": "Los usuarios de Canva Pro y Teams tienen derechos comerciales completos sobre el contenido generado por IA. Los usuarios del nivel gratuito tienen restricciones de uso comercial. Siempre revisa los términos de licencia de contenido actuales de Canva para tu caso de uso específico.",
+    "review.canva-ai.faq4.question": "¿Cómo se compara Canva AI con Photoshop?",
+    "review.canva-ai.faq4.answer": "Canva es mucho más fácil de usar y mejor para tareas de diseño rápidas, plantillas y contenido de redes sociales. Photoshop ofrece capacidades de edición más avanzadas y herramientas de nivel profesional. Canva destaca en velocidad y simplicidad, Photoshop en potencia y precisión.",
+    "review.canva-ai.faq5.question": "¿Los equipos pueden colaborar en proyectos de Canva AI?",
+    "review.canva-ai.faq5.answer": "Sí, Canva Teams permite colaboración completa con carpetas compartidas, kits de marca, flujos de trabajo de aprobación y plantillas de equipo. Varios miembros del equipo pueden trabajar en diseños simultáneamente con actualizaciones en tiempo real."
   },
   "fr": {
     "review.canva-ai.image.quality.style.control": "Qualité d'image & contrôle de style",
@@ -512,7 +532,17 @@ const canvaaiTranslations = {
     "review.common.comparison.with.competitors": "Comparaison avec Concurrents",
     "review.common.screenshots.interface": "Captures d'Écran et Interface",
     "review.common.final.verdict": "Verdict Final",
-    "review.common.frequently.asked.questions": "Questions Fréquemment Posées"
+    "review.common.frequently.asked.questions": "Questions Fréquemment Posées",
+    "review.canva-ai.faq1.question": "Puis-je utiliser Canva AI gratuitement ?",
+    "review.canva-ai.faq1.answer": "Oui, Canva propose un niveau gratuit avec des fonctionnalités IA limitées. Cependant, pour un accès complet à Magic Studio, des crédits IA illimités et des droits d'utilisation commerciale, vous aurez besoin de Canva Pro à 12,99$/mois.",
+    "review.canva-ai.faq2.question": "Qu'est-ce qui est inclus dans Magic Studio ?",
+    "review.canva-ai.faq2.answer": "Magic Studio comprend Texte vers Image, Magic Write, Magic Eraser, Suppression d'arrière-plan, Magic Edit, Magic Expand, Magic Animate, Magic Switch et plus encore. C'est la suite complète d'outils créatifs alimentés par l'IA de Canva.",
+    "review.canva-ai.faq3.question": "Les images générées par IA sont-elles sûres commercialement ?",
+    "review.canva-ai.faq3.answer": "Les utilisateurs Canva Pro et Teams ont tous les droits commerciaux sur le contenu généré par IA. Les utilisateurs du niveau gratuit ont des restrictions d'utilisation commerciale. Consultez toujours les conditions de licence de contenu actuelles de Canva pour votre cas d'utilisation spécifique.",
+    "review.canva-ai.faq4.question": "Comment Canva AI se compare-t-il à Photoshop ?",
+    "review.canva-ai.faq4.answer": "Canva est beaucoup plus facile à utiliser et meilleur pour les tâches de conception rapides, les modèles et le contenu des réseaux sociaux. Photoshop offre des capacités d'édition plus avancées et des outils de niveau professionnel. Canva excelle dans la vitesse et la simplicité, Photoshop dans la puissance et la précision.",
+    "review.canva-ai.faq5.question": "Les équipes peuvent-elles collaborer sur des projets Canva AI ?",
+    "review.canva-ai.faq5.answer": "Oui, Canva Teams permet une collaboration complète avec des dossiers partagés, des kits de marque, des workflows d'approbation et des modèles d'équipe. Plusieurs membres de l'équipe peuvent travailler sur des designs simultanément avec des mises à jour en temps réel."
   },
   "de": {
     "review.canva-ai.image.quality.style.control": "Bildqualität und Stilsteuerung",
@@ -748,7 +778,17 @@ const canvaaiTranslations = {
     "review.common.comparison.with.competitors": "Vergleich mit Konkurrenten",
     "review.common.screenshots.interface": "Screenshots und Benutzeroberfläche",
     "review.common.final.verdict": "Endgültiges Urteil",
-    "review.common.frequently.asked.questions": "Häufig Gestellte Fragen"
+    "review.common.frequently.asked.questions": "Häufig Gestellte Fragen",
+    "review.canva-ai.faq1.question": "Kann ich Canva AI kostenlos nutzen?",
+    "review.canva-ai.faq1.answer": "Ja, Canva bietet eine kostenlose Stufe mit eingeschränkten KI-Funktionen. Für vollen Zugang zu Magic Studio, unbegrenzte KI-Credits und kommerzielle Nutzungsrechte benötigen Sie jedoch Canva Pro für 12,99$/Monat.",
+    "review.canva-ai.faq2.question": "Was ist in Magic Studio enthalten?",
+    "review.canva-ai.faq2.answer": "Magic Studio umfasst Text zu Bild, Magic Write, Magic Eraser, Hintergrundentferner, Magic Edit, Magic Expand, Magic Animate, Magic Switch und mehr. Es ist Canvas umfassende Suite von KI-gestützten Kreativwerkzeugen.",
+    "review.canva-ai.faq3.question": "Sind KI-generierte Bilder kommerziell sicher?",
+    "review.canva-ai.faq3.answer": "Canva Pro- und Teams-Benutzer haben volle kommerzielle Rechte an KI-generierten Inhalten. Benutzer der kostenlosen Stufe haben Einschränkungen bei der kommerziellen Nutzung. Überprüfen Sie immer die aktuellen Inhaltslizenzbestimmungen von Canva für Ihren spezifischen Anwendungsfall.",
+    "review.canva-ai.faq4.question": "Wie vergleicht sich Canva AI mit Photoshop?",
+    "review.canva-ai.faq4.answer": "Canva ist viel einfacher zu bedienen und besser für schnelle Designaufgaben, Vorlagen und Social-Media-Inhalte. Photoshop bietet fortgeschrittenere Bearbeitungsmöglichkeiten und professionelle Werkzeuge. Canva glänzt bei Geschwindigkeit und Einfachheit, Photoshop bei Leistung und Präzision.",
+    "review.canva-ai.faq5.question": "Können Teams an Canva AI-Projekten zusammenarbeiten?",
+    "review.canva-ai.faq5.answer": "Ja, Canva Teams ermöglicht volle Zusammenarbeit mit gemeinsamen Ordnern, Marken-Kits, Genehmigungsworkflows und Team-Vorlagen. Mehrere Teammitglieder können gleichzeitig an Designs arbeiten mit Echtzeit-Updates."
   },
   "pt": {
     "review.canva-ai.image.quality.style.control": "Controle de Qualidade e Estilo de Imagem",
@@ -984,7 +1024,17 @@ const canvaaiTranslations = {
     "review.common.comparison.with.competitors": "Comparação com Concorrentes",
     "review.common.screenshots.interface": "Capturas de Tela e Interface",
     "review.common.final.verdict": "Veredicto Final",
-    "review.common.frequently.asked.questions": "Perguntas Frequentes"
+    "review.common.frequently.asked.questions": "Perguntas Frequentes",
+    "review.canva-ai.faq1.question": "Posso usar o Canva AI gratuitamente?",
+    "review.canva-ai.faq1.answer": "Sim, o Canva oferece um nível gratuito com recursos de IA limitados. No entanto, para acesso completo ao Magic Studio, créditos de IA ilimitados e direitos de uso comercial, você precisará do Canva Pro por $12,99/mês.",
+    "review.canva-ai.faq2.question": "O que está incluído no Magic Studio?",
+    "review.canva-ai.faq2.answer": "O Magic Studio inclui Texto para Imagem, Magic Write, Magic Eraser, Removedor de Fundo, Magic Edit, Magic Expand, Magic Animate, Magic Switch e muito mais. É a suíte completa de ferramentas criativas alimentadas por IA do Canva.",
+    "review.canva-ai.faq3.question": "As imagens geradas por IA são comercialmente seguras?",
+    "review.canva-ai.faq3.answer": "Usuários do Canva Pro e Teams têm direitos comerciais completos sobre o conteúdo gerado por IA. Usuários do nível gratuito têm restrições de uso comercial. Sempre revise os termos de licença de conteúdo atuais do Canva para seu caso de uso específico.",
+    "review.canva-ai.faq4.question": "Como o Canva AI se compara ao Photoshop?",
+    "review.canva-ai.faq4.answer": "O Canva é muito mais fácil de usar e melhor para tarefas de design rápidas, modelos e conteúdo de mídia social. O Photoshop oferece recursos de edição mais avançados e ferramentas de nível profissional. O Canva se destaca em velocidade e simplicidade, o Photoshop em potência e precisão.",
+    "review.canva-ai.faq5.question": "As equipes podem colaborar em projetos do Canva AI?",
+    "review.canva-ai.faq5.answer": "Sim, o Canva Teams permite colaboração completa com pastas compartilhadas, kits de marca, fluxos de trabalho de aprovação e modelos de equipe. Vários membros da equipe podem trabalhar em designs simultaneamente com atualizações em tempo real."
   },
   "zh": {
     "review.canva-ai.image.quality.style.control": "图像质量和样式控制",
@@ -1220,7 +1270,17 @@ const canvaaiTranslations = {
     "review.common.comparison.with.competitors": "与竞争对手比较",
     "review.common.screenshots.interface": "截图和界面",
     "review.common.final.verdict": "最终评价",
-    "review.common.frequently.asked.questions": "常见问题"
+    "review.common.frequently.asked.questions": "常见问题",
+    "review.canva-ai.faq1.question": "我可以免费使用 Canva AI 吗？",
+    "review.canva-ai.faq1.answer": "是的，Canva 提供免费版本，但 AI 功能有限。如需完全访问 Magic Studio、无限 AI 积分和商业使用权，您需要 Canva Pro，每月 $12.99。",
+    "review.canva-ai.faq2.question": "Magic Studio 包含什么？",
+    "review.canva-ai.faq2.answer": "Magic Studio 包括文字转图像、Magic Write、Magic Eraser、背景移除、Magic Edit、Magic Expand、Magic Animate、Magic Switch 等。这是 Canva 全面的 AI 驱动创意工具套件。",
+    "review.canva-ai.faq3.question": "AI 生成的图像商业使用安全吗？",
+    "review.canva-ai.faq3.answer": "Canva Pro 和 Teams 用户对 AI 生成的内容拥有完整的商业权利。免费版用户有商业使用限制。请始终查看 Canva 当前的内容许可条款以了解您的具体使用情况。",
+    "review.canva-ai.faq4.question": "Canva AI 与 Photoshop 相比如何？",
+    "review.canva-ai.faq4.answer": "Canva 更易于使用，更适合快速设计任务、模板和社交媒体内容。Photoshop 提供更高级的编辑功能和专业级工具。Canva 在速度和简洁性方面表现出色，Photoshop 在功能和精度方面更胜一筹。",
+    "review.canva-ai.faq5.question": "团队可以在 Canva AI 项目上协作吗？",
+    "review.canva-ai.faq5.answer": "是的，Canva Teams 支持完整协作，包括共享文件夹、品牌套件、审批工作流程和团队模板。多个团队成员可以同时处理设计，实时更新。"
   },
   "ja": {
     "review.canva-ai.image.quality.style.control": "イメージの質及び様式制御",
@@ -1456,7 +1516,17 @@ const canvaaiTranslations = {
     "review.common.comparison.with.competitors": "競合他社との比較",
     "review.common.screenshots.interface": "スクリーンショットとインターフェース",
     "review.common.final.verdict": "最終評価",
-    "review.common.frequently.asked.questions": "よくある質問"
+    "review.common.frequently.asked.questions": "よくある質問",
+    "review.canva-ai.faq1.question": "Canva AI は無料で使えますか？",
+    "review.canva-ai.faq1.answer": "はい、Canva は AI 機能が制限された無料プランを提供しています。ただし、Magic Studio への完全アクセス、無制限の AI クレジット、商用利用権には、月額 $12.99 の Canva Pro が必要です。",
+    "review.canva-ai.faq2.question": "Magic Studio には何が含まれていますか？",
+    "review.canva-ai.faq2.answer": "Magic Studio には、テキストから画像、Magic Write、Magic Eraser、背景除去、Magic Edit、Magic Expand、Magic Animate、Magic Switch などが含まれています。Canva の包括的な AI 搭載クリエイティブツールスイートです。",
+    "review.canva-ai.faq3.question": "AI 生成画像は商用利用に安全ですか？",
+    "review.canva-ai.faq3.answer": "Canva Pro と Teams のユーザーは、AI 生成コンテンツに対する完全な商用権を持っています。無料プランのユーザーには商用利用の制限があります。特定のユースケースについては、Canva の現在のコンテンツライセンス条件を常に確認してください。",
+    "review.canva-ai.faq4.question": "Canva AI は Photoshop と比べてどうですか？",
+    "review.canva-ai.faq4.answer": "Canva ははるかに使いやすく、クイックデザインタスク、テンプレート、ソーシャルメディアコンテンツに適しています。Photoshop はより高度な編集機能とプロフェッショナルグレードのツールを提供します。Canva はスピードとシンプルさに優れ、Photoshop はパワーと精度に優れています。",
+    "review.canva-ai.faq5.question": "チームは Canva AI プロジェクトで協力できますか？",
+    "review.canva-ai.faq5.answer": "はい、Canva Teams は共有フォルダ、ブランドキット、承認ワークフロー、チームテンプレートによる完全なコラボレーションを可能にします。複数のチームメンバーがリアルタイムで更新しながら同時にデザインに取り組むことができます。"
   },
   "ko": {
     "review.canva-ai.image.quality.style.control": "이미지 품질 & 작풍 통제",
@@ -1692,7 +1762,17 @@ const canvaaiTranslations = {
     "review.common.comparison.with.competitors": "경쟁사와 비교",
     "review.common.screenshots.interface": "스크린샷 및 인터페이스",
     "review.common.final.verdict": "최종 평가",
-    "review.common.frequently.asked.questions": "자주 묻는 질문"
+    "review.common.frequently.asked.questions": "자주 묻는 질문",
+    "review.canva-ai.faq1.question": "Canva AI를 무료로 사용할 수 있나요?",
+    "review.canva-ai.faq1.answer": "네, Canva는 제한된 AI 기능이 포함된 무료 버전을 제공합니다. 하지만 Magic Studio에 대한 전체 액세스, 무제한 AI 크레딧, 상업적 사용권을 위해서는 월 $12.99의 Canva Pro가 필요합니다.",
+    "review.canva-ai.faq2.question": "Magic Studio에는 무엇이 포함되어 있나요?",
+    "review.canva-ai.faq2.answer": "Magic Studio에는 텍스트에서 이미지, Magic Write, Magic Eraser, 배경 제거, Magic Edit, Magic Expand, Magic Animate, Magic Switch 등이 포함됩니다. Canva의 포괄적인 AI 기반 크리에이티브 도구 모음입니다.",
+    "review.canva-ai.faq3.question": "AI로 생성된 이미지는 상업적으로 안전한가요?",
+    "review.canva-ai.faq3.answer": "Canva Pro 및 Teams 사용자는 AI 생성 콘텐츠에 대한 전체 상업적 권리를 갖습니다. 무료 버전 사용자는 상업적 사용에 제한이 있습니다. 특정 사용 사례에 대해서는 항상 Canva의 현재 콘텐츠 라이선스 조건을 확인하세요.",
+    "review.canva-ai.faq4.question": "Canva AI는 Photoshop과 비교하면 어떤가요?",
+    "review.canva-ai.faq4.answer": "Canva는 훨씬 사용하기 쉽고 빠른 디자인 작업, 템플릿, 소셜 미디어 콘텐츠에 더 적합합니다. Photoshop은 더 고급 편집 기능과 전문가급 도구를 제공합니다. Canva는 속도와 단순함에서 뛰어나고, Photoshop은 파워와 정밀함에서 뛰어납니다.",
+    "review.canva-ai.faq5.question": "팀이 Canva AI 프로젝트에서 협업할 수 있나요?",
+    "review.canva-ai.faq5.answer": "네, Canva Teams는 공유 폴더, 브랜드 키트, 승인 워크플로우, 팀 템플릿으로 완전한 협업을 가능하게 합니다. 여러 팀원이 실시간 업데이트로 동시에 디자인 작업을 할 수 있습니다."
   },
   "ar": {
     "review.canva-ai.image.quality.style.control": "مراقبة نوعية الصور",
@@ -1928,7 +2008,17 @@ const canvaaiTranslations = {
     "review.common.comparison.with.competitors": "مقارنة مع المنافسين",
     "review.common.screenshots.interface": "لقطات الشاشة والواجهة",
     "review.common.final.verdict": "الحكم النهائي",
-    "review.common.frequently.asked.questions": "الأسئلة الشائعة"
+    "review.common.frequently.asked.questions": "الأسئلة الشائعة",
+    "review.canva-ai.faq1.question": "هل يمكنني استخدام Canva AI مجانًا؟",
+    "review.canva-ai.faq1.answer": "نعم، تقدم Canva مستوى مجاني مع ميزات AI محدودة. ومع ذلك، للحصول على وصول كامل إلى Magic Studio وأرصدة AI غير محدودة وحقوق الاستخدام التجاري، ستحتاج إلى Canva Pro بسعر 12.99 دولارًا شهريًا.",
+    "review.canva-ai.faq2.question": "ما الذي يتضمنه Magic Studio؟",
+    "review.canva-ai.faq2.answer": "يتضمن Magic Studio تحويل النص إلى صورة، Magic Write، Magic Eraser، إزالة الخلفية، Magic Edit، Magic Expand، Magic Animate، Magic Switch والمزيد. إنها مجموعة أدوات Canva الإبداعية الشاملة المدعومة بالذكاء الاصطناعي.",
+    "review.canva-ai.faq3.question": "هل الصور المولدة بالذكاء الاصطناعي آمنة تجاريًا؟",
+    "review.canva-ai.faq3.answer": "يتمتع مستخدمو Canva Pro و Teams بحقوق تجارية كاملة على المحتوى المولد بالذكاء الاصطناعي. مستخدمو المستوى المجاني لديهم قيود على الاستخدام التجاري. راجع دائمًا شروط ترخيص المحتوى الحالية من Canva لحالة الاستخدام الخاصة بك.",
+    "review.canva-ai.faq4.question": "كيف يقارن Canva AI بـ Photoshop؟",
+    "review.canva-ai.faq4.answer": "Canva أسهل بكثير في الاستخدام وأفضل لمهام التصميم السريعة والقوالب ومحتوى وسائل التواصل الاجتماعي. يقدم Photoshop قدرات تحرير أكثر تقدمًا وأدوات احترافية. يتفوق Canva في السرعة والبساطة، بينما يتفوق Photoshop في القوة والدقة.",
+    "review.canva-ai.faq5.question": "هل يمكن للفرق التعاون في مشاريع Canva AI؟",
+    "review.canva-ai.faq5.answer": "نعم، يتيح Canva Teams التعاون الكامل مع المجلدات المشتركة ومجموعات العلامات التجارية وسير عمل الموافقات وقوالب الفريق. يمكن لعدة أعضاء في الفريق العمل على التصاميم في وقت واحد مع تحديثات في الوقت الفعلي."
   },
   "hi": {
     "review.canva-ai.image.quality.style.control": "छवि गुणवत्ता और शैली नियंत्रण",
@@ -2164,7 +2254,17 @@ const canvaaiTranslations = {
     "review.common.comparison.with.competitors": "प्रतियोगियों के साथ तुलना",
     "review.common.screenshots.interface": "स्क्रीनशॉट और इंटरफ़ेस",
     "review.common.final.verdict": "अंतिम निर्णय",
-    "review.common.frequently.asked.questions": "अक्सर पूछे जाने वाले प्रश्न"
+    "review.common.frequently.asked.questions": "अक्सर पूछे जाने वाले प्रश्न",
+    "review.canva-ai.faq1.question": "क्या मैं Canva AI मुफ्त में उपयोग कर सकता हूं?",
+    "review.canva-ai.faq1.answer": "हां, Canva सीमित AI सुविधाओं के साथ एक मुफ्त स्तर प्रदान करता है। हालांकि, Magic Studio तक पूर्ण पहुंच, असीमित AI क्रेडिट और व्यावसायिक उपयोग अधिकारों के लिए, आपको $12.99/महीने पर Canva Pro की आवश्यकता होगी।",
+    "review.canva-ai.faq2.question": "Magic Studio में क्या शामिल है?",
+    "review.canva-ai.faq2.answer": "Magic Studio में टेक्स्ट टू इमेज, Magic Write, Magic Eraser, बैकग्राउंड रिमूवर, Magic Edit, Magic Expand, Magic Animate, Magic Switch और बहुत कुछ शामिल है। यह Canva का व्यापक AI-संचालित क्रिएटिव टूल्स सूट है।",
+    "review.canva-ai.faq3.question": "क्या AI-जनित छवियां व्यावसायिक रूप से सुरक्षित हैं?",
+    "review.canva-ai.faq3.answer": "Canva Pro और Teams उपयोगकर्ताओं के पास AI-जनित सामग्री पर पूर्ण व्यावसायिक अधिकार हैं। मुफ्त स्तर के उपयोगकर्ताओं पर व्यावसायिक उपयोग प्रतिबंध हैं। अपने विशिष्ट उपयोग मामले के लिए हमेशा Canva की वर्तमान सामग्री लाइसेंस शर्तों की समीक्षा करें।",
+    "review.canva-ai.faq4.question": "Canva AI की तुलना Photoshop से कैसे होती है?",
+    "review.canva-ai.faq4.answer": "Canva उपयोग करने में बहुत आसान है और त्वरित डिज़ाइन कार्यों, टेम्पलेट्स और सोशल मीडिया सामग्री के लिए बेहतर है। Photoshop अधिक उन्नत संपादन क्षमताएं और पेशेवर-स्तर के उपकरण प्रदान करता है। Canva गति और सरलता में उत्कृष्ट है, Photoshop शक्ति और सटीकता में।",
+    "review.canva-ai.faq5.question": "क्या टीमें Canva AI प्रोजेक्ट्स पर सहयोग कर सकती हैं?",
+    "review.canva-ai.faq5.answer": "हां, Canva Teams साझा फ़ोल्डर, ब्रांड किट, अनुमोदन वर्कफ़्लो और टीम टेम्पलेट्स के साथ पूर्ण सहयोग सक्षम करता है। कई टीम सदस्य वास्तविक समय अपडेट के साथ एक साथ डिज़ाइन पर काम कर सकते हैं।"
   }
 };
 

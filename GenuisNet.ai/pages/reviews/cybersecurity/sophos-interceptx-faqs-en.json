@@ -1,0 +1,12 @@
+{
+  "review.sophos-interceptx.faq.q1": "What makes Sophos Intercept X different?",
+  "review.sophos-interceptx.faq.a1": "The platform combines advanced AI/ML detection with comprehensive threat intelligence and proven enterprise capabilities. Its unique approach to threat prevention and response sets it apart in the market.",
+  "review.sophos-interceptx.faq.q2": "How does pricing work?",
+  "review.sophos-interceptx.faq.a2": "Pricing is based on number of protected endpoints with tiered features. Contact sales for custom quotes based on your organization size and requirements.",
+  "review.sophos-interceptx.faq.q3": "Is cloud or on-premise deployment available?",
+  "review.sophos-interceptx.faq.a3": "Both deployment options are available. Cloud-native management is standard, with on-premise options for organizations with specific data residency requirements.",
+  "review.sophos-interceptx.faq.q4": "What platforms are supported?",
+  "review.sophos-interceptx.faq.a4": "Protection is available for Windows, macOS, Linux, and mobile devices (iOS/Android), all managed from a single unified console.",
+  "review.sophos-interceptx.faq.q5": "How effective is the ransomware protection?",
+  "review.sophos-interceptx.faq.a5": "The solution uses behavioral detection and machine learning to identify ransomware encryption patterns, automatically isolating threats and providing rollback capabilities to recover encrypted files."
+}

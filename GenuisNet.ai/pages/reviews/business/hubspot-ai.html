@@ -81,6 +81,18 @@
                 align-items: stretch;
             }
         }
+    
+        /* FAQ sticky positioning - keeps question visible when expanded */
+        .faq-question {
+            position: sticky;
+            top: 80px;
+            background: var(--bg-card);
+            z-index: 10;
+            padding: var(--space-md);
+            margin: calc(var(--space-md) * -1);
+            margin-bottom: var(--space-md);
+        }
+        
     </style>
 </head>
 <body>
@@ -139,23 +151,23 @@
 <main class="container"><div class="review-content"><article class="review-main">
 <!-- Try It Section -->
 <div class="test-section-top">
-<h2><span data-i18n="review.common.try.it.now">Try It Now</span></h2>
+<h2><span data-i18n="review.common.try.it.now"><span data-i18n="review.hubspot-ai.content.1">Try It Now</span></span></h2>
 <div class="cta-buttons-top">
-<a class="btn btn-primary" href="https://www.hubspot.com" rel="nofollow sponsored" target="_blank">Start Free →</a>
-<a class="btn btn-outline" href="https://www.hubspot.com/pricing" target="_blank">View Pricing</a>
+<a class="btn btn-primary" href="https://www.hubspot.com" rel="nofollow sponsored" target="_blank"><span data-i18n="review.hubspot-ai.content.2">Start Free →</span></a>
+<a class="btn btn-outline" href="https://www.hubspot.com/pricing" target="_blank"><span data-i18n="review.hubspot-ai.content.3">View Pricing</span></a>
 </div>
 </div>
-<h2><span data-i18n="review.common.overview">Overview</span></h2>
-<p>HubSpot is a comprehensive AI-powered CRM platform that unifies marketing, sales, customer service, CMS, and operations in one integrated system. Known for pioneering inbound marketing, HubSpot has evolved into a full-scale revenue platform with AI capabilities that help businesses attract, engage, and delight customers throughout their lifecycle.</p>
-<p>What makes HubSpot unique is its all-in-one approach combined with a generous free tier. The platform offers AI-powered content creation, predictive lead scoring, conversational intelligence, and workflow automation—all designed to scale with your business from startup to enterprise. For companies seeking a unified solution that eliminates tool sprawl while leveraging AI for growth, HubSpot delivers exceptional value.</p>
-<h2><span data-i18n="review.common.key.features">Key Features</span></h2>
+<h2><span data-i18n="review.common.overview"><span data-i18n="review.hubspot-ai.content.4">Overview</span></span></h2>
+<p><span data-i18n="review.hubspot-ai.content.5">HubSpot is a comprehensive AI-powered CRM platform that unifies marketing, sales, customer service, CMS, and operations in one integrated system. Known for pioneering inbound marketing, HubSpot has evolved into a full-scale revenue platform with AI capabilities that help businesses attract, engage, and delight customers throughout their lifecycle.</span></p>
+<p><span data-i18n="review.hubspot-ai.content.6">What makes HubSpot unique is its all-in-one approach combined with a generous free tier. The platform offers AI-powered content creation, predictive lead scoring, conversational intelligence, and workflow automation—all designed to scale with your business from startup to enterprise. For companies seeking a unified solution that eliminates tool sprawl while leveraging AI for growth, HubSpot delivers exceptional value.</span></p>
+<h2><span data-i18n="review.common.key.features"><span data-i18n="review.hubspot-ai.content.7">Key Features</span></span></h2>
 <div class="features-grid">
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="10" rx="2" width="18" x="3" y="11"></rect><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle><path d="M9 7L9 9M15 7L15 9M12 2v5"></path></svg></div><h4>AI Content Assistant</h4><p>Generate blog posts, emails, landing pages, and social content using AI. Built into every hub with brand voice customization.</p></div>
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg></div><h4>Free CRM</h4><p>Forever-free CRM with unlimited users, contact management, deal tracking, and email integration. Foundation for all hubs.</p></div>
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg></div><h4>Marketing Automation</h4><p>Email marketing, workflows, lead nurturing, landing pages, forms, and campaign analytics in Marketing Hub.</p></div>
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="14" rx="2" ry="2" width="20" x="2" y="7"></rect><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"></path></svg></div><h4>Sales Tools</h4><p>Email tracking, sequences, meeting scheduler, quotes, sales automation, and pipeline management in Sales Hub.</p></div>
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div><h4>Conversational Tools</h4><p>Live chat, chatbots, inbox management, and conversational marketing to engage visitors in real-time.</p></div>
-<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg></div><h4>Analytics &amp; Reporting</h4><p>Custom dashboards, attribution reporting, revenue analytics, and AI-powered insights across all activities.</p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="10" rx="2" width="18" x="3" y="11"></rect><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle><path d="M9 7L9 9M15 7L15 9M12 2v5"></path></svg></div><h4><span data-i18n="review.hubspot-ai.content.8">AI Content Assistant</span></h4><p><span data-i18n="review.hubspot-ai.content.9">Generate blog posts, emails, landing pages, and social content using AI. Built into every hub with brand voice customization.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg></div><h4><span data-i18n="review.hubspot-ai.content.10">Free CRM</span></h4><p><span data-i18n="review.hubspot-ai.content.11">Forever-free CRM with unlimited users, contact management, deal tracking, and email integration. Foundation for all hubs.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg></div><h4><span data-i18n="review.hubspot-ai.content.12">Marketing Automation</span></h4><p><span data-i18n="review.hubspot-ai.content.13">Email marketing, workflows, lead nurturing, landing pages, forms, and campaign analytics in Marketing Hub.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="14" rx="2" ry="2" width="20" x="2" y="7"></rect><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"></path></svg></div><h4><span data-i18n="review.hubspot-ai.content.14">Sales Tools</span></h4><p><span data-i18n="review.hubspot-ai.content.15">Email tracking, sequences, meeting scheduler, quotes, sales automation, and pipeline management in Sales Hub.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div><h4><span data-i18n="review.hubspot-ai.content.16">Conversational Tools</span></h4><p><span data-i18n="review.hubspot-ai.content.17">Live chat, chatbots, inbox management, and conversational marketing to engage visitors in real-time.</span></p></div>
+<div class="feature-card"><div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg></div><h4>Analytics &amp; Reporting</h4><p><span data-i18n="review.hubspot-ai.content.19">Custom dashboards, attribution reporting, revenue analytics, and AI-powered insights across all activities.</span></p></div>
 </div>
 <h3>Additional AI Capabilities</h3>
 <ul>
@@ -168,10 +180,10 @@
 </ul>
 <h2 id="pros-cons">Pros &amp; Cons</h2>
 <div class="pros-cons-grid">
-<div class="pros-box"><h4><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Advantages</h4><ul><li>Forever-free CRM tier with unlimited users</li><li>All-in-one platform eliminates tool sprawl</li><li>Excellent AI content generation capabilities</li><li>Intuitive interface and user experience</li><li>Strong integration ecosystem (1,500+ apps)</li><li>Comprehensive Academy for learning</li><li>Scales from SMB to enterprise</li><li>Regular product updates and AI enhancements</li><li>Outstanding support and community</li><li>Unified data model across all hubs</li></ul></div>
-<div class="cons-box"><h4><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Disadvantages</h4><ul><li>Can become expensive as you add hubs and contacts</li><li>Some advanced features locked to higher tiers</li><li>Reporting customization limited on lower plans</li><li>Not as specialized as point solutions</li><li>Learning curve for full platform utilization</li><li>Professional tier often needed for meaningful use</li><li>Email sending limits on lower tiers</li><li>Some integrations require upgrades</li></ul></div>
+<div class="pros-box"><h4><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Advantages</h4><ul><li><span data-i18n="review.hubspot-ai.content.35">Forever-free CRM tier with unlimited users</span></li><li><span data-i18n="review.hubspot-ai.content.36">All-in-one platform eliminates tool sprawl</span></li><li><span data-i18n="review.hubspot-ai.content.37">Excellent AI content generation capabilities</span></li><li><span data-i18n="review.hubspot-ai.content.38">Intuitive interface and user experience</span></li><li><span data-i18n="review.hubspot-ai.content.39">Strong integration ecosystem (1,500+ apps)</span></li><li><span data-i18n="review.hubspot-ai.content.40">Comprehensive Academy for learning</span></li><li><span data-i18n="review.hubspot-ai.content.41">Scales from SMB to enterprise</span></li><li><span data-i18n="review.hubspot-ai.content.42">Regular product updates and AI enhancements</span></li><li><span data-i18n="review.hubspot-ai.content.43">Outstanding support and community</span></li><li><span data-i18n="review.hubspot-ai.content.44">Unified data model across all hubs</span></li></ul></div>
+<div class="cons-box"><h4><svg class="neon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Disadvantages</h4><ul><li><span data-i18n="review.hubspot-ai.content.46">Can become expensive as you add hubs and contacts</span></li><li><span data-i18n="review.hubspot-ai.content.47">Some advanced features locked to higher tiers</span></li><li><span data-i18n="review.hubspot-ai.content.48">Reporting customization limited on lower plans</span></li><li><span data-i18n="review.hubspot-ai.content.49">Not as specialized as point solutions</span></li><li><span data-i18n="review.hubspot-ai.content.50">Learning curve for full platform utilization</span></li><li><span data-i18n="review.hubspot-ai.content.51">Professional tier often needed for meaningful use</span></li><li><span data-i18n="review.hubspot-ai.content.52">Email sending limits on lower tiers</span></li><li><span data-i18n="review.hubspot-ai.content.53">Some integrations require upgrades</span></li></ul></div>
 </div>
-<h2><span data-i18n="review.common.pricing.plans">Pricing Plans</span></h2>
+<h2><span data-i18n="review.common.pricing.plans"><span data-i18n="review.hubspot-ai.content.54">Pricing Plans</span></span></h2>
 <table class="pricing-table">
 <thead><tr><th>Hub/Tier</th><th>Price</th><th>Key Features</th></tr></thead>
 <tbody>
@@ -192,7 +204,7 @@
 <li><strong>Analytics:</strong> Google Analytics, Google Search Console, Data Studio</li>
 <li><strong>App Marketplace:</strong> 1,500+ pre-built integrations across all categories</li>
 </ul>
-<h2><span data-i18n="review.common.best.use.cases">Best Use Cases</span></h2>
+<h2><span data-i18n="review.common.best.use.cases"><span data-i18n="review.hubspot-ai.content.85">Best Use Cases</span></span></h2>
 <h3>HubSpot Excels For:</h3>
 <ul>
 <li><strong>Growing SMBs:</strong> Companies seeking an all-in-one platform that scales with business growth</li>
@@ -204,30 +216,30 @@
 </ul>
 <h3>May Not Be Ideal For:</h3>
 <ul>
-<li>Large enterprises with complex custom requirements (consider Salesforce)</li>
-<li>Organizations needing deep specialization in one area vs breadth</li>
-<li>Companies with very high contact volumes (pricing scales with contacts)</li>
-<li>Teams requiring advanced conversation intelligence (Gong/Chorus better fit)</li>
+<li><span data-i18n="review.hubspot-ai.content.100">Large enterprises with complex custom requirements (consider Salesforce)</span></li>
+<li><span data-i18n="review.hubspot-ai.content.101">Organizations needing deep specialization in one area vs breadth</span></li>
+<li><span data-i18n="review.hubspot-ai.content.102">Companies with very high contact volumes (pricing scales with contacts)</span></li>
+<li><span data-i18n="review.hubspot-ai.content.103">Teams requiring advanced conversation intelligence (Gong/Chorus better fit)</span></li>
 </ul>
-<h2><span data-i18n="review.common.final.verdict">Final Verdict</span></h2>
+<h2><span data-i18n="review.common.final.verdict"><span data-i18n="review.hubspot-ai.content.104">Final Verdict</span></span></h2>
 <div class="verdict-box">
 <h3>Our Recommendation</h3>
-<p>HubSpot is the best all-in-one AI-powered CRM platform for growing businesses seeking to eliminate tool sprawl while leveraging intelligent automation. Its generous free tier makes it accessible to startups, while Professional and Enterprise tiers provide sophisticated AI capabilities that rival specialized tools. The platform excels in marketing automation, sales enablement, and customer service—all unified in one intuitive interface. While costs can escalate as you add hubs and contacts, the value of having a single source of truth for customer data and AI-powered insights typically justifies the investment. HubSpot is ideal for SMBs and mid-market companies prioritizing ease of use, integration, and scalability. Enterprises with highly complex needs may require Salesforce, but HubSpot serves most businesses exceptionally well.</p>
+<p><span data-i18n="review.hubspot-ai.content.106">HubSpot is the best all-in-one AI-powered CRM platform for growing businesses seeking to eliminate tool sprawl while leveraging intelligent automation. Its generous free tier makes it accessible to startups, while Professional and Enterprise tiers provide sophisticated AI capabilities that rival specialized tools. The platform excels in marketing automation, sales enablement, and customer service—all unified in one intuitive interface. While costs can escalate as you add hubs and contacts, the value of having a single source of truth for customer data and AI-powered insights typically justifies the investment. HubSpot is ideal for SMBs and mid-market companies prioritizing ease of use, integration, and scalability. Enterprises with highly complex needs may require Salesforce, but HubSpot serves most businesses exceptionally well.</span></p>
 </div>
-<h2><span data-i18n="review.common.screenshots.interface">Screenshots & Interface</span></h2>
-<p>Explore HubSpot AI's interface:</p>
+<h2><span data-i18n="review.common.screenshots.interface"><span data-i18n="review.hubspot-ai.content.107">Screenshots & Interface</span></span></h2>
+<p><span data-i18n="review.hubspot-ai.content.108">Explore HubSpot AI's interface:</span></p>
 <div class="screenshots-gallery" style="display: grid; gap: var(--space-lg); margin: var(--space-xl) 0;">
 <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-md); overflow: hidden;">
 <img src="../../../assets/screenshots/business/hubspot-ai.webp" alt="HubSpot AI Interface" style="width: 100%; height: auto; border-radius: var(--radius-md);">
 <p style="text-align: center; margin-top: var(--space-md); color: var(--text-secondary); font-size: var(--text-sm);">Main Interface - Overview of the platform</p>
 </div>
 </div>
-<h2><span data-i18n="review.common.frequently.asked.questions">Frequently Asked Questions</span></h2>
-<div class="faq-item"><div class="faq-question">Is HubSpot really free?<span>+</span></div><div class="faq-answer">Yes, HubSpot offers a forever-free CRM tier with unlimited users, basic contact management, deal tracking, email integration, forms, live chat, and reporting. This free tier has no time limits and no credit card required. It's a genuine free offering designed to provide value while showcasing the platform's capabilities.</div></div>
-<div class="faq-item"><div class="faq-question">How much does HubSpot cost for small businesses?<span>+</span></div><div class="faq-answer">Small businesses can start with HubSpot's free CRM and add Starter tier hubs ($15-20/month each) for basic marketing or sales automation. A typical small business using Marketing Hub Starter and Sales Hub Starter might pay $30-40/month initially. As needs grow, Professional tier ($800-1,600/month per hub) provides advanced features and AI capabilities.</div></div>
-<div class="faq-item"><div class="faq-question">What AI features does HubSpot include?<span>+</span></div><div class="faq-answer">HubSpot includes AI Content Assistant (generate blog posts, emails, social content), predictive lead scoring, ChatSpot conversational CRM assistant, conversation intelligence with call transcription, content remix for repurposing, smart CRM data enrichment, and AI-powered forecasting. Many AI features are available on Professional and Enterprise tiers.</div></div>
-<div class="faq-item"><div class="faq-question">Can HubSpot replace Salesforce?<span>+</span></div><div class="faq-answer">For many businesses, yes. HubSpot provides comprehensive CRM, sales, and marketing capabilities that meet or exceed Salesforce for SMBs and mid-market companies. However, Salesforce offers deeper customization, more complex automation, and better fit for large enterprises with specialized requirements. HubSpot excels in ease of use, integration, and value for growing businesses.</div></div>
-<div class="faq-item"><div class="faq-question">Does HubSpot integrate with my existing tools?<span>+</span></div><div class="faq-answer">HubSpot offers 1,500+ pre-built integrations in its App Marketplace, including Gmail, Outlook, Salesforce, Shopify, WordPress, Slack, Zoom, QuickBooks, and more. Most common business tools have native integrations. Custom integrations are possible via HubSpot's API for Professional and Enterprise customers.</div></div>
+<h2><span data-i18n="review.common.frequently.asked.questions"><span data-i18n="review.hubspot-ai.content.110">Frequently Asked Questions</span></span></h2>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.hubspot-ai.faq.q1">Is HubSpot really free?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.hubspot-ai.faq.a1">Yes, HubSpot offers a forever-free CRM tier with unlimited users, basic contact management, deal tracking, email integration, forms, live chat, and reporting. This free tier has no time limits and no credit card required. It's a genuine free offering designed to provide value while showcasing the platform's capabilities.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.hubspot-ai.faq.q2">How much does HubSpot cost for small businesses?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.hubspot-ai.faq.a2">Small businesses can start with HubSpot's free CRM and add Starter tier hubs ($15-20/month each) for basic marketing or sales automation. A typical small business using Marketing Hub Starter and Sales Hub Starter might pay $30-40/month initially. As needs grow, Professional tier ($800-1,600/month per hub) provides advanced features and AI capabilities.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.hubspot-ai.faq.q3">What AI features does HubSpot include?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.hubspot-ai.faq.a3">HubSpot includes AI Content Assistant (generate blog posts, emails, social content), predictive lead scoring, ChatSpot conversational CRM assistant, conversation intelligence with call transcription, content remix for repurposing, smart CRM data enrichment, and AI-powered forecasting. Many AI features are available on Professional and Enterprise tiers.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.hubspot-ai.faq.q4">Can HubSpot replace Salesforce?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.hubspot-ai.faq.a4">For many businesses, yes. HubSpot provides comprehensive CRM, sales, and marketing capabilities that meet or exceed Salesforce for SMBs and mid-market companies. However, Salesforce offers deeper customization, more complex automation, and better fit for large enterprises with specialized requirements. HubSpot excels in ease of use, integration, and value for growing businesses.</span></div></div>
+<div class="faq-item"><div class="faq-question"><span data-i18n="review.hubspot-ai.faq.q5">Does HubSpot integrate with my existing tools?</span> <span>+</span></div><div class="faq-answer"><span data-i18n="review.hubspot-ai.faq.a5">HubSpot offers 1,500+ pre-built integrations in its App Marketplace, including Gmail, Outlook, Salesforce, Shopify, WordPress, Slack, Zoom, QuickBooks, and more. Most common business tools have native integrations. Custom integrations are possible via HubSpot's API for Professional and Enterprise customers.</span></div></div>
 </article>
 <aside class="review-sidebar">
 <div class="sidebar-card">
@@ -278,5 +290,6 @@
 <script src="../../../js/animations.js"></script>
 <script src="../../../js/main.js"></script>
 <script>document.querySelectorAll('.faq-question').forEach(question=>{question.addEventListener('click',()=>{const answer=question.nextElementSibling;const isOpen=answer.style.display==='block';document.querySelectorAll('.faq-answer').forEach(a=>a.style.display='none');document.querySelectorAll('.faq-question span').forEach(s=>s.textContent='+');if(!isOpen){answer.style.display='block';question.querySelector('span').textContent='−'}})});</script>
+    <script src="../../../js/hubspot-ai-i18n.js"></script>
 </body>
 </html>

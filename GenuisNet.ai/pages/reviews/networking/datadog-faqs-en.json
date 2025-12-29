@@ -1,0 +1,8 @@
+{
+  "review.datadog.faq.q1": "How does Datadog pricing work?",
+  "review.datadog.faq.a1": "Datadog charges per host/month for infrastructure and APM, per GB for logs, and has various add-ons. Costs can add up quickly — always estimate carefully before committing. The free tier is good for evaluation.",
+  "review.datadog.faq.q2": "Is Datadog good for traditional network monitoring?",
+  "review.datadog.faq.a2": "Datadog's NPM is excellent for modern cloud/container environments but less deep than traditional NMS tools like SolarWinds or PRTG for legacy infrastructure with SNMP polling, device configuration, etc.",
+  "review.datadog.faq.q3": "Do I need the agent installed everywhere?",
+  "review.datadog.faq.a3": "For full functionality, yes. The Datadog Agent collects metrics, traces, and logs. Agentless monitoring is available for some cloud services via API integrations."
+}

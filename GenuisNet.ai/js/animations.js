@@ -3,6 +3,8 @@
    Neural network backgrounds, particles, and effects
    ============================================ */
 
+console.log('🎨 animations.js loaded');
+
 // ============================================
 // Neural Network Background
 // ============================================
@@ -435,10 +437,15 @@ class SmoothReveal {
 // Initialize All Animations
 // ============================================
 function initAnimations() {
+    console.log('🎬 Initializing animations...');
+
     // Neural Network Background
     const neuralCanvas = document.getElementById('neural-bg');
     if (neuralCanvas) {
+        console.log('✅ Neural canvas found, creating NeuralNetwork');
         window.neuralNetwork = new NeuralNetwork(neuralCanvas);
+    } else {
+        console.log('⚠️ Neural canvas not found');
     }
 
     // Particles
