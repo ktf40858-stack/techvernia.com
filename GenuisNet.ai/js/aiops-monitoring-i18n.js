@@ -423,14 +423,79 @@ const articleTranslations = {
     // Simplified languages (basic translations only)
     zh: {
         pageTitle: "AI驱动的网络监控：Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        metaDescription: "企业级AIOps工具对比，满足您的基础设施监控需求。为您的网络运营找到最佳解决方案。",
         heroTitle: "AI驱动的网络监控：Datadog vs Splunk vs New Relic",
         heroExcerpt: "企业级AIOps工具对比，满足您的基础设施监控需求。为您的网络运营找到最佳解决方案。",
+
         heading1: "AIOps：网络监控的未来",
         heading2: "快速对比",
         heading3: "Datadog - 最适合云基础设施",
         heading4: "Splunk - 最适合安全与合规",
         heading5: "New Relic - 最适合应用性能",
         heading6: "最终建议",
+
+        para1_1: "AI驱动的运营（AIOps）平台使用机器学习来检测异常、预测故障并自动化事件响应。对于管理复杂基础设施的网络工程师来说，这些工具改变了游戏规则。",
+
+        tableHeader1: "功能",
+        tableHeader2: "Datadog",
+        tableHeader3: "Splunk",
+        tableHeader4: "New Relic",
+
+        tableRow1_col1: "起始价格",
+        tableRow1_col2: "$15/主机/月",
+        tableRow1_col3: "$150/月（1GB）",
+        tableRow1_col4: "$99/月（100GB）",
+        tableRow2_col1: "设置难易度",
+        tableRow2_col2: "优秀",
+        tableRow2_col3: "中等",
+        tableRow2_col4: "良好",
+        tableRow3_col1: "AI能力",
+        tableRow3_col2: "Watchdog AI",
+        tableRow3_col3: "ITSI + ML",
+        tableRow3_col4: "AI Monitoring",
+        tableRow4_col1: "网络监控",
+        tableRow4_col2: "强",
+        tableRow4_col3: "非常强",
+        tableRow4_col4: "中等",
+        tableRow5_col1: "最适合",
+        tableRow5_col2: "云原生",
+        tableRow5_col3: "企业/安全",
+        tableRow5_col4: "APM重点",
+
+        subheading3_1: "优势",
+        list3_1_1: "Watchdog AI自动检测异常",
+        list3_1_2: "500多个集成（AWS、Azure、GCP、Kubernetes）",
+        list3_1_3: "统一平台（指标、日志、追踪、合成）",
+        list3_1_4: "精美的仪表板和可视化",
+        list3_1_5: "网络性能监控（NPM）",
+
+        subheading3_2: "最适合",
+        para3_1: "运行云原生基础设施、微服务和容器化应用程序的现代DevOps团队。",
+
+        subheading4_1: "优势",
+        list4_1_1: "行业领先的日志聚合和分析",
+        list4_1_2: "具有ML驱动洞察的ITSI（IT服务智能）",
+        list4_1_3: "卓越的安全分析（SIEM功能）",
+        list4_1_4: "大规模可扩展性（处理PB级数据）",
+        list4_1_5: "深度网络流量分析",
+
+        subheading4_2: "最适合",
+        para4_1: "具有合规要求的大型企业、注重安全的团队和传统本地基础设施。",
+
+        subheading5_1: "优势",
+        list5_1_1: "一流的APM（应用性能监控）",
+        list5_1_2: "AI驱动的异常检测和警报",
+        list5_1_3: "全栈可观察性（基础设施+应用）",
+        list5_1_4: "用户友好的界面",
+        list5_1_5: "慷慨的免费套餐（100GB/月）",
+
+        subheading5_2: "最适合",
+        para5_1: "专注于应用性能、用户体验监控和全栈可见性的开发团队。",
+
+        para6_1: "选择Datadog如果：您运行现代云基础设施（AWS、Kubernetes）并需要全面的可观察性。",
+        para6_2: "选择Splunk如果：您需要企业级安全监控、合规性并能承担高级定价。",
+        para6_3: "选择New Relic如果：应用性能是您的优先事项，并且您需要具有慷慨免费套餐的优秀价值。",
+
         footerDesc: "您值得信赖的 AI 工具评论、比较和指南来源。",
         footerCategories: "类别",
         footerResources: "资源",
@@ -438,14 +503,79 @@ const articleTranslations = {
     },
     ja: {
         pageTitle: "AI搭載ネットワーク監視：Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        metaDescription: "インフラストラクチャ監視ニーズに対応するエンタープライズグレードのAIOpsツール比較。ネットワーク運用に最適なソリューションを見つけましょう。",
         heroTitle: "AI搭載ネットワーク監視：Datadog vs Splunk vs New Relic",
         heroExcerpt: "インフラストラクチャ監視ニーズに対応するエンタープライズグレードのAIOpsツール比較。ネットワーク運用に最適なソリューションを見つけましょう。",
+
         heading1: "AIOps：ネットワーク監視の未来",
         heading2: "クイック比較",
         heading3: "Datadog - クラウドインフラストラクチャに最適",
         heading4: "Splunk - セキュリティ＆コンプライアンスに最適",
         heading5: "New Relic - アプリケーションパフォーマンスに最適",
         heading6: "最終推奨事項",
+
+        para1_1: "AI駆動型オペレーション（AIOps）プラットフォームは、機械学習を使用して異常を検出し、障害を予測し、インシデント対応を自動化します。複雑なインフラストラクチャを管理するネットワークエンジニアにとって、これらのツールは革新的です。",
+
+        tableHeader1: "機能",
+        tableHeader2: "Datadog",
+        tableHeader3: "Splunk",
+        tableHeader4: "New Relic",
+
+        tableRow1_col1: "開始価格",
+        tableRow1_col2: "$15/ホスト/月",
+        tableRow1_col3: "$150/月（1GB）",
+        tableRow1_col4: "$99/月（100GB）",
+        tableRow2_col1: "セットアップの容易さ",
+        tableRow2_col2: "優秀",
+        tableRow2_col3: "普通",
+        tableRow2_col4: "良好",
+        tableRow3_col1: "AI機能",
+        tableRow3_col2: "Watchdog AI",
+        tableRow3_col3: "ITSI + ML",
+        tableRow3_col4: "AI Monitoring",
+        tableRow4_col1: "ネットワーク監視",
+        tableRow4_col2: "強力",
+        tableRow4_col3: "非常に強力",
+        tableRow4_col4: "普通",
+        tableRow5_col1: "最適な用途",
+        tableRow5_col2: "クラウドネイティブ",
+        tableRow5_col3: "エンタープライズ/セキュリティ",
+        tableRow5_col4: "APM重視",
+
+        subheading3_1: "強み",
+        list3_1_1: "Watchdog AIが異常を自動検出",
+        list3_1_2: "500以上の統合（AWS、Azure、GCP、Kubernetes）",
+        list3_1_3: "統合プラットフォーム（メトリクス、ログ、トレース、合成）",
+        list3_1_4: "美しいダッシュボードと可視化",
+        list3_1_5: "ネットワークパフォーマンス監視（NPM）",
+
+        subheading3_2: "最適な用途",
+        para3_1: "クラウドネイティブインフラストラクチャ、マイクロサービス、コンテナ化されたアプリケーションを実行する最新のDevOpsチーム。",
+
+        subheading4_1: "強み",
+        list4_1_1: "業界をリードするログ集約と分析",
+        list4_1_2: "ML駆動型インサイトを備えたITSI（ITサービスインテリジェンス）",
+        list4_1_3: "優れたセキュリティ分析（SIEM機能）",
+        list4_1_4: "大規模なスケーラビリティ（ペタバイト級のデータを処理）",
+        list4_1_5: "深いネットワークトラフィック分析",
+
+        subheading4_2: "最適な用途",
+        para4_1: "コンプライアンス要件を持つ大企業、セキュリティ重視のチーム、従来のオンプレミスインフラストラクチャ。",
+
+        subheading5_1: "強み",
+        list5_1_1: "最高級のAPM（アプリケーションパフォーマンス監視）",
+        list5_1_2: "AI駆動型異常検出とアラート",
+        list5_1_3: "フルスタックオブザーバビリティ（インフラ＋アプリ）",
+        list5_1_4: "使いやすいインターフェース",
+        list5_1_5: "寛大な無料プラン（100GB/月）",
+
+        subheading5_2: "最適な用途",
+        para5_1: "アプリケーションパフォーマンス、ユーザーエクスペリエンス監視、フルスタック可視性に重点を置く開発チーム。",
+
+        para6_1: "Datadogを選ぶ場合：最新のクラウドインフラストラクチャ（AWS、Kubernetes）を実行し、包括的なオブザーバビリティが必要な場合。",
+        para6_2: "Splunkを選ぶ場合：エンタープライズグレードのセキュリティ監視、コンプライアンスが必要で、プレミアム価格を支払える場合。",
+        para6_3: "New Relicを選ぶ場合：アプリケーションパフォーマンスが優先事項で、寛大な無料プランで優れた価値が必要な場合。",
+
         footerDesc: "AIツールのレビュー、比較、ガイドの信頼できる情報源。",
         footerCategories: "カテゴリー",
         footerResources: "リソース",
@@ -453,14 +583,79 @@ const articleTranslations = {
     },
     ko: {
         pageTitle: "AI 기반 네트워크 모니터링: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        metaDescription: "인프라 모니터링 요구 사항에 맞는 엔터프라이즈급 AIOps 도구 비교. 네트워크 운영에 가장 적합한 솔루션을 찾으세요.",
         heroTitle: "AI 기반 네트워크 모니터링: Datadog vs Splunk vs New Relic",
         heroExcerpt: "인프라 모니터링 요구 사항에 맞는 엔터프라이즈급 AIOps 도구 비교. 네트워크 운영에 가장 적합한 솔루션을 찾으세요.",
+
         heading1: "AIOps: 네트워크 모니터링의 미래",
         heading2: "빠른 비교",
         heading3: "Datadog - 클라우드 인프라에 최적",
         heading4: "Splunk - 보안 및 규정 준수에 최적",
         heading5: "New Relic - 애플리케이션 성능에 최적",
         heading6: "최종 권장 사항",
+
+        para1_1: "AI 기반 운영(AIOps) 플랫폼은 머신 러닝을 사용하여 이상 징후를 감지하고, 장애를 예측하며, 인시던트 대응을 자동화합니다. 복잡한 인프라를 관리하는 네트워크 엔지니어에게 이러한 도구는 판도를 바꾸는 것입니다.",
+
+        tableHeader1: "기능",
+        tableHeader2: "Datadog",
+        tableHeader3: "Splunk",
+        tableHeader4: "New Relic",
+
+        tableRow1_col1: "시작 가격",
+        tableRow1_col2: "$15/호스트/월",
+        tableRow1_col3: "$150/월 (1GB)",
+        tableRow1_col4: "$99/월 (100GB)",
+        tableRow2_col1: "설정 용이성",
+        tableRow2_col2: "우수",
+        tableRow2_col3: "보통",
+        tableRow2_col4: "양호",
+        tableRow3_col1: "AI 기능",
+        tableRow3_col2: "Watchdog AI",
+        tableRow3_col3: "ITSI + ML",
+        tableRow3_col4: "AI Monitoring",
+        tableRow4_col1: "네트워크 모니터링",
+        tableRow4_col2: "강력함",
+        tableRow4_col3: "매우 강력함",
+        tableRow4_col4: "보통",
+        tableRow5_col1: "최적 용도",
+        tableRow5_col2: "클라우드 네이티브",
+        tableRow5_col3: "엔터프라이즈/보안",
+        tableRow5_col4: "APM 중심",
+
+        subheading3_1: "강점",
+        list3_1_1: "Watchdog AI가 이상 징후를 자동으로 감지",
+        list3_1_2: "500개 이상의 통합 (AWS, Azure, GCP, Kubernetes)",
+        list3_1_3: "통합 플랫폼 (메트릭, 로그, 추적, 합성)",
+        list3_1_4: "아름다운 대시보드 및 시각화",
+        list3_1_5: "네트워크 성능 모니터링 (NPM)",
+
+        subheading3_2: "최적 용도",
+        para3_1: "클라우드 네이티브 인프라, 마이크로서비스, 컨테이너화된 애플리케이션을 실행하는 현대적인 DevOps 팀.",
+
+        subheading4_1: "강점",
+        list4_1_1: "업계 최고의 로그 집계 및 분석",
+        list4_1_2: "ML 기반 인사이트를 갖춘 ITSI (IT 서비스 인텔리전스)",
+        list4_1_3: "뛰어난 보안 분석 (SIEM 기능)",
+        list4_1_4: "대규모 확장성 (페타바이트급 데이터 처리)",
+        list4_1_5: "심층 네트워크 트래픽 분석",
+
+        subheading4_2: "최적 용도",
+        para4_1: "규정 준수 요구 사항이 있는 대기업, 보안 중심 팀, 기존 온프레미스 인프라.",
+
+        subheading5_1: "강점",
+        list5_1_1: "최고 수준의 APM (애플리케이션 성능 모니터링)",
+        list5_1_2: "AI 기반 이상 징후 감지 및 알림",
+        list5_1_3: "풀스택 관찰 가능성 (인프라 + 앱)",
+        list5_1_4: "사용자 친화적인 인터페이스",
+        list5_1_5: "넉넉한 무료 티어 (100GB/월)",
+
+        subheading5_2: "최적 용도",
+        para5_1: "애플리케이션 성능, 사용자 경험 모니터링, 풀스택 가시성에 중점을 둔 개발 팀.",
+
+        para6_1: "Datadog 선택 시: 최신 클라우드 인프라 (AWS, Kubernetes)를 실행하고 포괄적인 관찰 가능성을 원하는 경우.",
+        para6_2: "Splunk 선택 시: 엔터프라이즈급 보안 모니터링, 규정 준수가 필요하고 프리미엄 가격을 감당할 수 있는 경우.",
+        para6_3: "New Relic 선택 시: 애플리케이션 성능이 최우선이고 넉넉한 무료 티어로 뛰어난 가치를 원하는 경우.",
+
         footerDesc: "AI 도구 리뷰, 비교 및 가이드의 신뢰할 수 있는 출처.",
         footerCategories: "카테고리",
         footerResources: "리소스",
@@ -468,14 +663,79 @@ const articleTranslations = {
     },
     ar: {
         pageTitle: "مراقبة الشبكة المدعومة بالذكاء الاصطناعي: Datadog مقابل Splunk مقابل New Relic | GenuisNet.ai",
+        metaDescription: "مقارنة أدوات AIOps على مستوى المؤسسات لاحتياجات مراقبة البنية التحتية الخاصة بك. ابحث عن أفضل حل لعمليات شبكتك.",
         heroTitle: "مراقبة الشبكة المدعومة بالذكاء الاصطناعي: Datadog مقابل Splunk مقابل New Relic",
         heroExcerpt: "مقارنة أدوات AIOps على مستوى المؤسسات لاحتياجات مراقبة البنية التحتية الخاصة بك. ابحث عن أفضل حل لعمليات شبكتك.",
+
         heading1: "AIOps: مستقبل مراقبة الشبكات",
         heading2: "مقارنة سريعة",
         heading3: "Datadog - الأفضل للبنية التحتية السحابية",
         heading4: "Splunk - الأفضل للأمان والامتثال",
         heading5: "New Relic - الأفضل لأداء التطبيقات",
         heading6: "التوصية النهائية",
+
+        para1_1: "تستخدم منصات العمليات المدعومة بالذكاء الاصطناعي (AIOps) التعلم الآلي للكشف عن الحالات الشاذة والتنبؤ بالأعطال وأتمتة الاستجابة للحوادث. بالنسبة لمهندسي الشبكات الذين يديرون بنى تحتية معقدة، فإن هذه الأدوات تغير قواعد اللعبة.",
+
+        tableHeader1: "الميزة",
+        tableHeader2: "Datadog",
+        tableHeader3: "Splunk",
+        tableHeader4: "New Relic",
+
+        tableRow1_col1: "السعر الابتدائي",
+        tableRow1_col2: "$15/مضيف/شهر",
+        tableRow1_col3: "$150/شهر (1 جيجابايت)",
+        tableRow1_col4: "$99/شهر (100 جيجابايت)",
+        tableRow2_col1: "سهولة الإعداد",
+        tableRow2_col2: "ممتاز",
+        tableRow2_col3: "متوسط",
+        tableRow2_col4: "جيد",
+        tableRow3_col1: "قدرات الذكاء الاصطناعي",
+        tableRow3_col2: "Watchdog AI",
+        tableRow3_col3: "ITSI + ML",
+        tableRow3_col4: "AI Monitoring",
+        tableRow4_col1: "مراقبة الشبكة",
+        tableRow4_col2: "قوي",
+        tableRow4_col3: "قوي جداً",
+        tableRow4_col4: "متوسط",
+        tableRow5_col1: "الأفضل لـ",
+        tableRow5_col2: "السحابة الأصلية",
+        tableRow5_col3: "المؤسسات/الأمان",
+        tableRow5_col4: "تركيز APM",
+
+        subheading3_1: "نقاط القوة",
+        list3_1_1: "Watchdog AI يكتشف الحالات الشاذة تلقائياً",
+        list3_1_2: "أكثر من 500 تكامل (AWS، Azure، GCP، Kubernetes)",
+        list3_1_3: "منصة موحدة (المقاييس، السجلات، التتبعات، الاصطناعية)",
+        list3_1_4: "لوحات معلومات وتصورات جميلة",
+        list3_1_5: "مراقبة أداء الشبكة (NPM)",
+
+        subheading3_2: "الأفضل لـ",
+        para3_1: "فرق DevOps الحديثة التي تشغل البنية التحتية السحابية الأصلية والخدمات الدقيقة والتطبيقات المحفوظة في حاويات.",
+
+        subheading4_1: "نقاط القوة",
+        list4_1_1: "تجميع وتحليل السجلات الرائد في الصناعة",
+        list4_1_2: "ITSI (ذكاء خدمات تكنولوجيا المعلومات) مع رؤى مدعومة بـ ML",
+        list4_1_3: "تحليلات أمنية استثنائية (قدرات SIEM)",
+        list4_1_4: "قابلية توسع هائلة (يتعامل مع بيتابايتات من البيانات)",
+        list4_1_5: "تحليل عميق لحركة مرور الشبكة",
+
+        subheading4_2: "الأفضل لـ",
+        para4_1: "المؤسسات الكبيرة ذات متطلبات الامتثال، والفرق التي تركز على الأمان، والبنية التحتية التقليدية في الموقع.",
+
+        subheading5_1: "نقاط القوة",
+        list5_1_1: "أفضل APM (مراقبة أداء التطبيقات) في فئته",
+        list5_1_2: "كشف الحالات الشاذة والتنبيهات المدعومة بالذكاء الاصطناعي",
+        list5_1_3: "قابلية المراقبة الكاملة (البنية التحتية + التطبيقات)",
+        list5_1_4: "واجهة سهلة الاستخدام",
+        list5_1_5: "طبقة مجانية سخية (100 جيجابايت/شهر)",
+
+        subheading5_2: "الأفضل لـ",
+        para5_1: "فرق التطوير التي تركز على أداء التطبيقات ومراقبة تجربة المستخدم والرؤية الكاملة.",
+
+        para6_1: "اختر Datadog إذا: كنت تشغل بنية تحتية سحابية حديثة (AWS، Kubernetes) وتريد قابلية مراقبة شاملة.",
+        para6_2: "اختر Splunk إذا: كنت بحاجة إلى مراقبة أمنية على مستوى المؤسسات والامتثال ويمكنك تحمل تكلفة التسعير المميز.",
+        para6_3: "اختر New Relic إذا: كان أداء التطبيقات أولويتك وتريد قيمة ممتازة مع طبقة مجانية سخية.",
+
         footerDesc: "مصدرك الموثوق لمراجعات ومقارنات وأدلة أدوات الذكاء الاصطناعي.",
         footerCategories: "الفئات",
         footerResources: "الموارد",
@@ -483,14 +743,79 @@ const articleTranslations = {
     },
     hi: {
         pageTitle: "AI-संचालित नेटवर्क मॉनिटरिंग: Datadog बनाम Splunk बनाम New Relic | GenuisNet.ai",
+        metaDescription: "आपकी इंफ्रास्ट्रक्चर मॉनिटरिंग आवश्यकताओं के लिए एंटरप्राइज़-ग्रेड AIOps उपकरणों की तुलना। अपने नेटवर्क संचालन के लिए सर्वोत्तम समाधान खोजें।",
         heroTitle: "AI-संचालित नेटवर्क मॉनिटरिंग: Datadog बनाम Splunk बनाम New Relic",
         heroExcerpt: "आपकी इंफ्रास्ट्रक्चर मॉनिटरिंग आवश्यकताओं के लिए एंटरप्राइज़-ग्रेड AIOps उपकरणों की तुलना। अपने नेटवर्क संचालन के लिए सर्वोत्तम समाधान खोजें।",
+
         heading1: "AIOps: नेटवर्क मॉनिटरिंग का भविष्य",
         heading2: "त्वरित तुलना",
         heading3: "Datadog - क्लाउड इंफ्रास्ट्रक्चर के लिए सर्वश्रेष्ठ",
         heading4: "Splunk - सुरक्षा और अनुपालन के लिए सर्वश्रेष्ठ",
         heading5: "New Relic - एप्लिकेशन प्रदर्शन के लिए सर्वश्रेष्ठ",
         heading6: "अंतिम सिफ़ारिश",
+
+        para1_1: "AI-संचालित संचालन (AIOps) प्लेटफ़ॉर्म असामान्यताओं का पता लगाने, विफलताओं की भविष्यवाणी करने और घटना प्रतिक्रिया को स्वचालित करने के लिए मशीन लर्निंग का उपयोग करते हैं। जटिल इंफ्रास्ट्रक्चर का प्रबंधन करने वाले नेटवर्क इंजीनियरों के लिए, ये उपकरण गेम-चेंजर हैं।",
+
+        tableHeader1: "विशेषता",
+        tableHeader2: "Datadog",
+        tableHeader3: "Splunk",
+        tableHeader4: "New Relic",
+
+        tableRow1_col1: "प्रारंभिक मूल्य",
+        tableRow1_col2: "$15/होस्ट/माह",
+        tableRow1_col3: "$150/माह (1GB)",
+        tableRow1_col4: "$99/माह (100GB)",
+        tableRow2_col1: "सेटअप में आसानी",
+        tableRow2_col2: "उत्कृष्ट",
+        tableRow2_col3: "मध्यम",
+        tableRow2_col4: "अच्छा",
+        tableRow3_col1: "AI क्षमताएं",
+        tableRow3_col2: "Watchdog AI",
+        tableRow3_col3: "ITSI + ML",
+        tableRow3_col4: "AI Monitoring",
+        tableRow4_col1: "नेटवर्क मॉनिटरिंग",
+        tableRow4_col2: "मजबूत",
+        tableRow4_col3: "बहुत मजबूत",
+        tableRow4_col4: "मध्यम",
+        tableRow5_col1: "सर्वश्रेष्ठ के लिए",
+        tableRow5_col2: "क्लाउड-नेटिव",
+        tableRow5_col3: "एंटरप्राइज़/सुरक्षा",
+        tableRow5_col4: "APM फोकस",
+
+        subheading3_1: "ताकत",
+        list3_1_1: "Watchdog AI स्वचालित रूप से असामान्यताओं का पता लगाता है",
+        list3_1_2: "500+ एकीकरण (AWS, Azure, GCP, Kubernetes)",
+        list3_1_3: "एकीकृत प्लेटफ़ॉर्म (मेट्रिक्स, लॉग, ट्रेस, सिंथेटिक्स)",
+        list3_1_4: "सुंदर डैशबोर्ड और विज़ुअलाइज़ेशन",
+        list3_1_5: "नेटवर्क प्रदर्शन मॉनिटरिंग (NPM)",
+
+        subheading3_2: "सर्वश्रेष्ठ के लिए",
+        para3_1: "क्लाउड-नेटिव इंफ्रास्ट्रक्चर, माइक्रोसर्विसेज़ और कंटेनरीकृत एप्लिकेशन चलाने वाली आधुनिक DevOps टीमें।",
+
+        subheading4_1: "ताकत",
+        list4_1_1: "उद्योग-अग्रणी लॉग एकत्रीकरण और विश्लेषण",
+        list4_1_2: "ML-संचालित अंतर्दृष्टि के साथ ITSI (IT सेवा इंटेलिजेंस)",
+        list4_1_3: "असाधारण सुरक्षा विश्लेषण (SIEM क्षमताएं)",
+        list4_1_4: "बड़े पैमाने पर स्केलेबिलिटी (पेटाबाइट डेटा को संभालता है)",
+        list4_1_5: "गहन नेटवर्क ट्रैफ़िक विश्लेषण",
+
+        subheading4_2: "सर्वश्रेष्ठ के लिए",
+        para4_1: "अनुपालन आवश्यकताओं वाले बड़े उद्यम, सुरक्षा-केंद्रित टीमें और पारंपरिक ऑन-प्रिमाइसेस इंफ्रास्ट्रक्चर।",
+
+        subheading5_1: "ताकत",
+        list5_1_1: "सर्वश्रेष्ठ-इन-क्लास APM (एप्लिकेशन प्रदर्शन मॉनिटरिंग)",
+        list5_1_2: "AI-संचालित असामान्यता पहचान और अलर्ट",
+        list5_1_3: "फुल-स्टैक ऑब्जर्वेबिलिटी (इंफ्रास्ट्रक्चर + ऐप्स)",
+        list5_1_4: "उपयोगकर्ता-अनुकूल इंटरफ़ेस",
+        list5_1_5: "उदार मुफ्त टियर (100GB/माह)",
+
+        subheading5_2: "सर्वश्रेष्ठ के लिए",
+        para5_1: "एप्लिकेशन प्रदर्शन, उपयोगकर्ता अनुभव मॉनिटरिंग और फुल-स्टैक दृश्यता पर केंद्रित विकास टीमें।",
+
+        para6_1: "Datadog चुनें यदि: आप आधुनिक क्लाउड इंफ्रास्ट्रक्चर (AWS, Kubernetes) चलाते हैं और व्यापक ऑब्जर्वेबिलिटी चाहते हैं।",
+        para6_2: "Splunk चुनें यदि: आपको एंटरप्राइज़-ग्रेड सुरक्षा मॉनिटरिंग, अनुपालन की आवश्यकता है और आप प्रीमियम मूल्य निर्धारण वहन कर सकते हैं।",
+        para6_3: "New Relic चुनें यदि: एप्लिकेशन प्रदर्शन आपकी प्राथमिकता है और आप उदार मुफ्त टियर के साथ उत्कृष्ट मूल्य चाहते हैं।",
+
         footerDesc: "AI टूल समीक्षाओं, तुलनाओं और गाइड के लिए आपका विश्वसनीय स्रोत।",
         footerCategories: "श्रेणियाँ",
         footerResources: "संसाधन",
@@ -498,41 +823,26 @@ const articleTranslations = {
     }
 };
 
-function initArticleI18n() {
-    const currentLang = localStorage.getItem('selectedLanguage') || 'en';
-    applyArticleTranslations(currentLang);
-    document.addEventListener('languageChanged', (e) => applyArticleTranslations(e.detail.language));
-}
-
-function applyArticleTranslations(lang) {
-    console.log('🔧 Applying article translations for language:', lang);
-    const t = articleTranslations[lang] || articleTranslations.en;
-
-    // Update page title and meta
-    document.title = t.pageTitle || articleTranslations.en.pageTitle;
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc && t.metaDescription) metaDesc.content = t.metaDescription;
-
-    // Get all elements with data-i18n attributes
-    const i18nElements = document.querySelectorAll('[data-i18n]');
-    console.log(`📍 Found ${i18nElements.length} elements with data-i18n attributes`);
-
-    let translatedCount = 0;
-    i18nElements.forEach(element => {
-        const key = element.getAttribute('data-i18n');
-        const translation = t[key];
-
-        if (translation) {
-            element.textContent = translation;
-            translatedCount++;
+// Merge with global translations object
+if (typeof translations !== 'undefined') {
+    console.log('[i18n] Merging aiops-monitoring translations with global translations');
+    Object.keys(articleTranslations).forEach(lang => {
+        if (!translations[lang]) {
+            translations[lang] = {};
         }
+        Object.assign(translations[lang], articleTranslations[lang]);
     });
+    console.log('[i18n] ✅ Merged successfully - translations object now has article-specific keys');
 
-    console.log(`✅ Article translations applied: ${translatedCount} elements translated for language "${lang}"`);
-}
-
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initArticleI18n);
+    // Force re-translate the page with the new translations
+    if (typeof translatePage === 'function' && typeof setLanguage === 'function') {
+        const currentLang = localStorage.getItem('language') || 'en';
+        console.log('[i18n] 🔄 Re-translating page with merged translations for:', currentLang);
+        setTimeout(() => {
+            setLanguage(currentLang);  // Set the language first
+            translatePage();           // Then translate
+        }, 100);
+    }
 } else {
-    initArticleI18n();
+    console.warn('[i18n] ⚠️ Global translations object not found - creating standalone');
 }
