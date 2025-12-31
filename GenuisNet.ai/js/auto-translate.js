@@ -547,6 +547,10 @@ function translateAll(lang) {
         // Ignorer si a data-i18n
         if (el.hasAttribute('data-i18n')) return;
 
+        // Ignorer les cellules de tableau (sauf si elles ont data-i18n)
+        // Les tableaux contiennent souvent des données techniques qui ne doivent pas être traduites
+        if (['td', 'th'].includes(tag) && !el.hasAttribute('data-i18n')) return;
+
         // Traduire les nœuds de texte directs
         Array.from(el.childNodes).forEach(node => {
             if (node.nodeType !== 3) return; // Seulement text nodes
