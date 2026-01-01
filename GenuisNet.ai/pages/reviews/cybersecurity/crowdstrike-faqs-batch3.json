@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.crowdstrike.faq.q1": "Is CrowdStrike worth the cost?",
+    "review.crowdstrike.faq.a1": "For most enterprises, yes. The prevention of a single ransomware attack typically justifies years of licensing costs. CrowdStrike's detection rates and Charlotte AI capabilities deliver strong ROI for security-conscious organizations.",
+    "review.crowdstrike.faq.q2": "What is Charlotte AI?",
+    "review.crowdstrike.faq.a2": "Charlotte AI is CrowdStrike's generative AI security analyst introduced in 2023. It helps security teams investigate threats, write custom queries, and automate responses using natural language, dramatically accelerating SOC operations.",
+    "review.crowdstrike.faq.q3": "Does CrowdStrike require on-premise infrastructure?",
+    "review.crowdstrike.faq.a3": "No. Falcon is cloud-native and requires no on-premise infrastructure. The lightweight agent communicates directly with CrowdStrike's cloud, providing real-time protection and updates without maintenance overhead.",
+    "review.crowdstrike.faq.q4": "Can CrowdStrike protect Linux and Mac?",
+    "review.crowdstrike.faq.a4": "Yes. Falcon supports Windows, macOS, Linux, and mobile devices (iOS/Android) with a single unified agent and management console.",
+    "review.crowdstrike.faq.q5": "How does CrowdStrike compare to traditional antivirus?",
+    "review.crowdstrike.faq.a5": "CrowdStrike uses machine learning and behavioral analysis instead of signature-based detection. This provides superior protection against zero-day threats and ransomware that traditional AV misses."
+  },
+  "ko": {
+    "review.crowdstrike.faq.q1": "CrowdStrike는 비용을 들을 가치가 있나요?",
+    "review.crowdstrike.faq.a1": "대부분의 기업에서는 그렇습니다. 단 한 번의 랜섬웨어 공격을 방지하는 것이 일반적으로 수년간의 라이선스 비용을 정당화합니다. CrowdStrike의 탐지 율과 Charlotte AI 기능은 보안에 관심이 있는 조직에 강력한 ROI를 제공합니다.",
+    "review.crowdstrike.faq.q2": "Charlotte AI란 무엇인가요?",
+    "review.crowdstrike.faq.a2": "Charlotte AI는 2023년에 출시된 CrowdStrike의 생성형 AI 보안 분석가입니다. 보안 팀이 위협을 조사하고 커스텀 쿼리를 작성하며 자연어를 사용하여 응답을 자동화하는 데 도움이 되어 SOC 운영을 획기적으로 가속화합니다.",
+    "review.crowdstrike.faq.q3": "CrowdStrike는 온프레미스 인프라가 필요한가요?",
+    "review.crowdstrike.faq.a3": "아니요. Falcon은 클라우드 기반이며 온프레미스 인프라가 필요하지 않습니다. 가벼운 에이전트는 CrowdStrike의 클라우드와 직접 통신하여 유지 보수 오버헤드 없이 실시간 보호 및 업데이트를 제공합니다.",
+    "review.crowdstrike.faq.q4": "CrowdStrike가 Linux 및 Mac을 보호할 수 있나요?",
+    "review.crowdstrike.faq.a4": "그렇습니다. Falcon은 단일 통합 에이전트 및 관리 콘솔을 사용하여 Windows, macOS, Linux 및 모바일 기기(iOS/Android)를 지원합니다.",
+    "review.crowdstrike.faq.q5": "CrowdStrike는 기존 안티바이러스와 어떻게 비교되나요?",
+    "review.crowdstrike.faq.a5": "CrowdStrike는 서명 기반 탐지 대신 머신러닝 및 행동 분석을 사용합니다. 이는 기존 AV가 놓치는 제로데이 위협 및 랜섬웨어로부터 우수한 보호를 제공합니다."
+  },
+  "ar": {
+    "review.crowdstrike.faq.q1": "هل CrowdStrike يستحق التكلفة؟",
+    "review.crowdstrike.faq.a1": "بالنسبة لمعظم المؤسسات، نعم. منع هجوم برامج الفدية الواحد عادة ما يبرر سنوات من تكاليف الترخيص. توفر معدلات الكشف والقدرات الذكاء الاصطناعي Charlotte AI عائد استثمار قوياً للمؤسسات التي تهتم بالأمان.",
+    "review.crowdstrike.faq.q2": "ما هو Charlotte AI؟",
+    "review.crowdstrike.faq.a2": "Charlotte AI هو محلل أمان ذكي اصطناعي توليدي من CrowdStrike تم تقديمه في عام 2023. يساعد فرق الأمان على التحقيق في التهديدات وكتابة استعلامات مخصصة وأتمتة الاستجابات باستخدام اللغة الطبيعية، مما يسرع عمليات مركز العمليات الأمنية بشكل كبير.",
+    "review.crowdstrike.faq.q3": "هل يتطلب CrowdStrike البنية التحتية المحلية؟",
+    "review.crowdstrike.faq.a3": "لا. Falcon قائم على السحابة ولا يتطلب أي بنية تحتية محلية. يتواصل الوكيل الخفيف مباشرة مع السحابة في CrowdStrike، مما يوفر الحماية والتحديثات في الوقت الفعلي دون عبء الصيانة.",
+    "review.crowdstrike.faq.q4": "هل يمكن لـ CrowdStrike حماية Linux و Mac؟",
+    "review.crowdstrike.faq.a4": "نعم. يدعم Falcon Windows و macOS و Linux والأجهزة المحمولة (iOS/Android) باستخدام وكيل موحد واحد وكونسول إدارة.",
+    "review.crowdstrike.faq.q5": "كيف يقارن CrowdStrike بمكافح الفيروسات التقليدي؟",
+    "review.crowdstrike.faq.a5": "يستخدم CrowdStrike التعلم الآلي والتحليل السلوكي بدلاً من الكشف القائم على التوقيع. يوفر هذا حماية متفوقة ضد تهديدات اليوم الصفري وبرامج الفدية التي يفتقدها مكافح الفيروسات التقليدي."
+  },
+  "hi": {
+    "review.crowdstrike.faq.q1": "क्या CrowdStrike लागत के लायक है?",
+    "review.crowdstrike.faq.a1": "अधिकांश एंटरप्राइज़ के लिए, हाँ। एक ही रैनसमवेयर हमले की रोकथाम आमतौर पर वर्षों की लाइसेंसिंग लागत को न्यायसंगत बनाती है। CrowdStrike की पहचान दरें और Charlotte AI क्षमताएं सुरक्षा-सचेत संगठनों के लिए मजबूत ROI प्रदान करती हैं।",
+    "review.crowdstrike.faq.q2": "Charlotte AI क्या है?",
+    "review.crowdstrike.faq.a2": "Charlotte AI CrowdStrike का जनरेटिव AI सुरक्षा विश्लेषक है जिसे 2023 में पेश किया गया था। यह सुरक्षा टीमों को खतरों की जांच करने, कस्टम क्वेरी लिखने और प्राकृतिक भाषा का उपयोग करके प्रतिक्रियाओं को स्वचालित करने में मदद करता है, जिससे SOC संचालन में नाटकीय रूप से तेजी आती है।",
+    "review.crowdstrike.faq.q3": "क्या CrowdStrike को ऑन-प्रिमाइस इनफ्रास्ट्रक्चर की आवश्यकता है?",
+    "review.crowdstrike.faq.a3": "नहीं। Falcon क्लाउड-मूल है और किसी ऑन-प्रिमाइस इनफ्रास्ट्रक्चर की आवश्यकता नहीं है। हल्का एजेंट सीधे CrowdStrike के क्लाउड के साथ संचार करता है, रखरखाव ओवरहेड के बिना रीयल-टाइम सुरक्षा और अपडेट प्रदान करता है।",
+    "review.crowdstrike.faq.q4": "क्या CrowdStrike Linux और Mac की सुरक्षा कर सकता है?",
+    "review.crowdstrike.faq.a4": "हाँ। Falcon एक एकल एकीकृत एजेंट और प्रबंधन कंसोल के साथ Windows, macOS, Linux और मोबाइल डिवाइस (iOS/Android) का समर्थन करता है।",
+    "review.crowdstrike.faq.q5": "CrowdStrike पारंपरिक एंटीवायरस की तुलना में कैसे करता है?",
+    "review.crowdstrike.faq.a5": "CrowdStrike हस्ताक्षर-आधारित पहचान के बजाय मशीन लर्निंग और व्यावहारिक विश्लेषण का उपयोग करता है। यह शून्य-दिन के खतरों और रैनसमवेयर के खिलाफ श्रेष्ठ सुरक्षा प्रदान करता है जिसे पारंपरिक AV मिस करता है।"
+  }
+}

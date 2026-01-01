@@ -1,0 +1,26 @@
+BLOG IMPROVEMENT PLAN
+=====================
+
+Reference: chatgpt-vs-claude-subscription.html
+
+Articles to improve (9 total):
+1. ai-agents-2024.html - Featured article (HIGH PRIORITY)
+2. midjourney-vs-dalle-comparison.html - Already has good content, needs CSS
+3. free-ai-coding-tools.html - Good content, needs CSS + pros/cons
+4. elevenlabs-review.html - Needs expansion
+5. claude-35-sonnet-update.html - Needs expansion 
+6. chatgpt-code-interpreter-guide.html - Good content, needs CSS
+7. aiops-monitoring-comparison.html - Has comparison table, needs CSS
+8. zero-trust-ai-guide.html - Good content, needs CSS
+9. jasper-vs-copyai.html - Has comparison table, needs CSS
+
+Improvements needed:
+- Complete CSS from reference (pros/cons boxes, verdict boxes, CTA boxes, etc.)
+- Add pros/cons sections where appropriate
+- Add CTA/affiliate boxes
+- Add verdict boxes for key recommendations
+- Add related articles section
+- Improve navigation and footer
+- Icon sizing CSS
+
+Status: Ready to implement

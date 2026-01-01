@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.palo-alto-ngfw.faq.q1": "What makes this solution unique?",
+    "review.palo-alto-ngfw.faq.a1": "This platform combines advanced capabilities with enterprise-grade scalability, providing comprehensive protection for organizations of all sizes. Its proven track record and continuous innovation make it a trusted choice.",
+    "review.palo-alto-ngfw.faq.q2": "How does pricing work?",
+    "review.palo-alto-ngfw.faq.a2": "Pricing is customized based on organization size, features required, and deployment model. Contact sales for a detailed quote tailored to your specific needs and use case.",
+    "review.palo-alto-ngfw.faq.q3": "What kind of support is available?",
+    "review.palo-alto-ngfw.faq.a3": "Enterprise support includes dedicated account management, 24/7 technical support, regular training, and professional services for implementation and optimization.",
+    "review.palo-alto-ngfw.faq.q4": "Is there a free trial?",
+    "review.palo-alto-ngfw.faq.a4": "Demos and proof-of-concept deployments are available. Contact the sales team to arrange a personalized evaluation in your environment.",
+    "review.palo-alto-ngfw.faq.q5": "What industries use this solution?",
+    "review.palo-alto-ngfw.faq.a5": "Organizations across financial services, healthcare, government, retail, manufacturing, and technology sectors rely on this platform for their security needs."
+  },
+  "es": {
+    "review.palo-alto-ngfw.faq.q1": "¿Qué hace que esta solución sea única?",
+    "review.palo-alto-ngfw.faq.a1": "Esta plataforma combina capacidades avanzadas con escalabilidad de nivel empresarial, proporcionando protección integral para organizaciones de todos los tamaños. Su historial comprobado e innovación continua la convierten en una opción de confianza.",
+    "review.palo-alto-ngfw.faq.q2": "¿Cómo funciona el precio?",
+    "review.palo-alto-ngfw.faq.a2": "El precio se personaliza según el tamaño de la organización, las características requeridas y el modelo de implementación. Contacta con ventas para obtener una cotización detallada adaptada a tus necesidades específicas y caso de uso.",
+    "review.palo-alto-ngfw.faq.q3": "¿Qué tipo de soporte está disponible?",
+    "review.palo-alto-ngfw.faq.a3": "El soporte empresarial incluye gestión de cuenta dedicada, soporte técnico 24/7, capacitación regular y servicios profesionales para implementación y optimización.",
+    "review.palo-alto-ngfw.faq.q4": "¿Hay una prueba gratuita?",
+    "review.palo-alto-ngfw.faq.a4": "Hay demostraciones y despliegues de prueba de concepto disponibles. Contacta con el equipo de ventas para programar una evaluación personalizada en tu entorno.",
+    "review.palo-alto-ngfw.faq.q5": "¿Qué industrias utilizan esta solución?",
+    "review.palo-alto-ngfw.faq.a5": "Las organizaciones en los sectores de servicios financieros, salud, gobierno, comercio minorista, manufactura y tecnología confían en esta plataforma para sus necesidades de seguridad."
+  },
+  "fr": {
+    "review.palo-alto-ngfw.faq.q1": "Qu'est-ce qui rend cette solution unique ?",
+    "review.palo-alto-ngfw.faq.a1": "Cette plateforme combine des capacités avancées avec une scalabilité de niveau entreprise, offrant une protection complète aux organisations de toutes tailles. Son historique éprouvé et son innovation continue en font un choix de confiance.",
+    "review.palo-alto-ngfw.faq.q2": "Comment fonctionnent les prix ?",
+    "review.palo-alto-ngfw.faq.a2": "Les tarifs sont personnalisés en fonction de la taille de l'organisation, des fonctionnalités requises et du modèle de déploiement. Contactez l'équipe commerciale pour un devis détaillé adapté à vos besoins spécifiques et à votre cas d'usage.",
+    "review.palo-alto-ngfw.faq.q3": "Quel type de support est disponible ?",
+    "review.palo-alto-ngfw.faq.a3": "Le support entreprise comprend une gestion de compte dédiée, un support technique 24/7, une formation régulière et des services professionnels pour la mise en œuvre et l'optimisation.",
+    "review.palo-alto-ngfw.faq.q4": "Y a-t-il un essai gratuit ?",
+    "review.palo-alto-ngfw.faq.a4": "Des démonstrations et des déploiements de preuve de concept sont disponibles. Contactez l'équipe de vente pour organiser une évaluation personnalisée dans votre environnement.",
+    "review.palo-alto-ngfw.faq.q5": "Quelles industries utilisent cette solution ?",
+    "review.palo-alto-ngfw.faq.a5": "Les organisations des secteurs des services financiers, de la santé, du gouvernement, du commerce de détail, de la fabrication et de la technologie dépendent de cette plateforme pour leurs besoins de sécurité."
+  },
+  "de": {
+    "review.palo-alto-ngfw.faq.q1": "Was macht diese Lösung einzigartig?",
+    "review.palo-alto-ngfw.faq.a1": "Diese Plattform kombiniert fortschrittliche Funktionen mit Skalierbarkeit auf Unternehmensebene und bietet umfassenden Schutz für Organisationen aller Größen. Ihre bewährte Erfolgsbilanz und kontinuierliche Innovation machen sie zur vertrauenswürdigen Wahl.",
+    "review.palo-alto-ngfw.faq.q2": "Wie funktioniert die Preisgestaltung?",
+    "review.palo-alto-ngfw.faq.a2": "Die Preisgestaltung wird basierend auf Organisationsgröße, erforderlichen Funktionen und Bereitstellungsmodell angepasst. Kontaktieren Sie den Vertrieb für ein detailliertes Angebot, das auf Ihre spezifischen Anforderungen und Ihren Anwendungsfall zugeschnitten ist.",
+    "review.palo-alto-ngfw.faq.q3": "Welche Art von Support ist verfügbar?",
+    "review.palo-alto-ngfw.faq.a3": "Der Enterprise-Support umfasst dedizierte Kontoverwaltung, technischen 24/7-Support, regelmäßige Schulungen und professionelle Dienste für Implementierung und Optimierung.",
+    "review.palo-alto-ngfw.faq.q4": "Gibt es eine kostenlose Testversion?",
+    "review.palo-alto-ngfw.faq.a4": "Demos und Proof-of-Concept-Bereitstellungen sind verfügbar. Kontaktieren Sie das Vertriebsteam, um eine personalisierte Bewertung in Ihrer Umgebung zu vereinbaren.",
+    "review.palo-alto-ngfw.faq.q5": "Welche Branchen nutzen diese Lösung?",
+    "review.palo-alto-ngfw.faq.a5": "Organisationen in den Bereichen Finanzdienstleistungen, Gesundheitswesen, Behörden, Einzelhandel, Fertigung und Technologie verlassen sich auf diese Plattform für ihre Sicherheitsanforderungen."
+  }
+}

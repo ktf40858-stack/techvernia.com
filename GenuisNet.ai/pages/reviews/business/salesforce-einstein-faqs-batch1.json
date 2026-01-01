@@ -1,0 +1,26 @@
+{
+  "es": {
+    "review.salesforce-einstein.faq.q1": "¿Cuánto cuesta Salesforce Einstein?",
+    "review.salesforce-einstein.faq.a1": "El precio varía según el modelo de implementación, usuarios y características. Contacta con Salesforce para obtener presupuestos específicos adaptados a las necesidades de tu organización.",
+    "review.salesforce-einstein.faq.q2": "¿Qué fuentes de datos admite Salesforce Einstein?",
+    "review.salesforce-einstein.faq.a2": "Salesforce Einstein admite más de 100 conectores nativos que incluyen bases de datos principales, plataformas en la nube, aplicaciones SaaS y formatos de archivo.",
+    "review.salesforce-einstein.faq.q3": "¿Salesforce Einstein requiere codificación?",
+    "review.salesforce-einstein.faq.a3": "No, Salesforce Einstein cuenta con una interfaz visual intuitiva que no requiere codificación para la mayoría de los análisis. Los usuarios avanzados pueden aprovechar scripts para escenarios complejos."
+  },
+  "fr": {
+    "review.salesforce-einstein.faq.q1": "Combien coûte Salesforce Einstein ?",
+    "review.salesforce-einstein.faq.a1": "La tarification varie selon le modèle de déploiement, les utilisateurs et les fonctionnalités. Contactez Salesforce pour obtenir des devis spécifiques adaptés aux besoins de votre organisation.",
+    "review.salesforce-einstein.faq.q2": "Quelles sources de données Salesforce Einstein supporte-t-il ?",
+    "review.salesforce-einstein.faq.a2": "Salesforce Einstein supporte plus de 100 connecteurs natifs, y compris les principales bases de données, les plateformes cloud, les applications SaaS et les formats de fichiers.",
+    "review.salesforce-einstein.faq.q3": "Salesforce Einstein nécessite-t-il du codage ?",
+    "review.salesforce-einstein.faq.a3": "Non, Salesforce Einstein dispose d'une interface visuelle intuitive qui ne nécessite pas de codage pour la plupart des analyses. Les utilisateurs avancés peuvent exploiter les scripts pour les scénarios complexes."
+  },
+  "de": {
+    "review.salesforce-einstein.faq.q1": "Was kostet Salesforce Einstein?",
+    "review.salesforce-einstein.faq.a1": "Die Preisgestaltung variiert je nach Bereitstellungsmodell, Benutzern und Funktionen. Wenden Sie sich an Salesforce, um spezifische Angebote zu erhalten, die auf die Anforderungen Ihrer Organisation zugeschnitten sind.",
+    "review.salesforce-einstein.faq.q2": "Welche Datenquellen unterstützt Salesforce Einstein?",
+    "review.salesforce-einstein.faq.a2": "Salesforce Einstein unterstützt über 100 native Konnektoren, einschließlich großer Datenbanken, Cloud-Plattformen, SaaS-Anwendungen und Dateiformate.",
+    "review.salesforce-einstein.faq.q3": "Erfordert Salesforce Einstein Codierung?",
+    "review.salesforce-einstein.faq.a3": "Nein, Salesforce Einstein verfügt über eine intuitive visuelle Benutzeroberfläche, die für die meisten Analysen keine Codierung erfordert. Fortgeschrittene Benutzer können Scripting für komplexe Szenarien nutzen."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pt": {
+    "review.neuronwriter.faq.q1": "O que é otimização NLP no Neuron Writer?",
+    "review.neuronwriter.faq.a1": "A otimização NLP (Processamento de Linguagem Natural) analisa o conteúdo com base em relações semânticas, contexto e como os mecanismos de busca entendem a linguagem, não apenas correspondência de palavras-chave. O Neuron Writer identifica termos relacionados, entidades e conceitos que devem ser incluídos para criar conteúdo abrangente e contextualmente relevante que se alinhe com os algoritmos dos mecanismos de busca.",
+    "review.neuronwriter.faq.q2": "O Neuron Writer inclui redação de conteúdo com IA?",
+    "review.neuronwriter.faq.a2": "Não, o Neuron Writer se concentra especificamente em otimização e planejamento de conteúdo em vez de geração de conteúdo com IA. Fornece recomendações detalhadas sobre o que escrever e como otimizá-lo, mas você escreve o conteúdo. Esse foco permite que ele se destaque em otimização mantendo custos mais baixos do que plataformas all-in-one.",
+    "review.neuronwriter.faq.q3": "Qual é a precisão da pontuação do conteúdo?",
+    "review.neuronwriter.faq.a3": "A pontuação de conteúdo do Neuron Writer é altamente precisa e baseada em análise NLP avançada do conteúdo melhor classificado. Considera relações semânticas, cobertura de entidades e estrutura de conteúdo em vez de apenas densidade de palavras-chave. As pontuações se correlacionam de forma confiável com o potencial de classificação quando combinadas com outras práticas recomendadas de SEO.",
+    "review.neuronwriter.faq.q4": "Posso usar Neuron Writer para vários idiomas?",
+    "review.neuronwriter.faq.a4": "Sim, o Neuron Writer suporta mais de 80 idiomas com análise SERP específica de localização. Você pode otimizar o conteúdo para diferentes países e idiomas usando seus respectivos resultados de busca. Isso o torna excelente para SEO internacional e estratégias de conteúdo multi-mercado.",
+    "review.neuronwriter.faq.q5": "O que está incluído no plano Bronze?",
+    "review.neuronwriter.faq.a5": "O plano Bronze (US$ 23/mês) inclui 25 análises de conteúdo por mês, otimização NLP básica, análise SERP, ferramentas de planejamento de conteúdo e pesquisa de palavras-chave. É perfeito para criadores de conteúdo independentes ou pequenos blogs que precisam de otimização profissional com orçamento limitado. Você sempre pode fazer upgrade conforme suas necessidades crescem.",
+    "review.neuronwriter.faq.q6": "Existe um teste gratuito disponível?",
+    "review.neuronwriter.faq.a6": "Sim, o Neuron Writer oferece um teste gratuito de 3 dias que oferece acesso completo a todos os recursos, incluindo otimização NLP, análise SERP e planejamento de conteúdo. Embora 3 dias seja mais curto do que alguns concorrentes, é suficiente para testar a funcionalidade principal e determinar se funciona com seu fluxo de trabalho."
+  },
+  "zh": {
+    "review.neuronwriter.faq.q1": "Neuron Writer中的NLP优化是什么?",
+    "review.neuronwriter.faq.a1": "NLP（自然语言处理）优化基于语义关系、上下文和搜索引擎理解语言的方式来分析内容，而不仅仅是关键词匹配。Neuron Writer识别应包含的相关术语、实体和概念，以创建与搜索引擎算法一致的全面、背景相关的内容。",
+    "review.neuronwriter.faq.q2": "Neuron Writer包含AI内容写作吗?",
+    "review.neuronwriter.faq.a2": "不，Neuron Writer专注于内容优化和规划，而不是AI内容生成。它提供关于写什么和如何优化的详细建议，但您自己编写内容。这种专注使其在优化方面表现出色，同时保持成本低于一体化平台。",
+    "review.neuronwriter.faq.q3": "内容评分的准确性如何?",
+    "review.neuronwriter.faq.a3": "Neuron Writer的内容评分高度准确，基于对排名靠前内容的高级NLP分析。它考虑语义关系、实体覆盖范围和内容结构，而不仅仅是关键词密度。当与其他SEO最佳实践结合时，评分与排名潜力可靠相关。",
+    "review.neuronwriter.faq.q4": "我可以将Neuron Writer用于多种语言吗?",
+    "review.neuronwriter.faq.a4": "是的，Neuron Writer支持80多种语言，具有特定位置的SERP分析。您可以使用各自的搜索结果优化不同国家和语言的内容。这使其对国际SEO和多市场内容策略非常有利。",
+    "review.neuronwriter.faq.q5": "青铜计划包含什么?",
+    "review.neuronwriter.faq.a5": "青铜计划（23美元/月）包括每月25次内容分析、基本NLP优化、SERP分析、内容规划工具和关键词研究。非常适合需要在预算内进行专业优化的独立内容创建者或小型博客。随着需求增长，您始终可以升级。",
+    "review.neuronwriter.faq.q6": "有免费试用吗?",
+    "review.neuronwriter.faq.a6": "是的，Neuron Writer提供3天免费试用，让您完全访问所有功能，包括NLP优化、SERP分析和内容规划。虽然3天比某些竞争对手更短，但足以测试核心功能并确定是否适合您的工作流程。"
+  },
+  "ja": {
+    "review.neuronwriter.faq.q1": "Neuron WriterのNLP最適化とは何ですか？",
+    "review.neuronwriter.faq.a1": "NLP（自然言語処理）最適化は、キーワードマッチングだけでなく、セマンティック関係、コンテキスト、検索エンジンが言語をどのように理解するかに基づいてコンテンツを分析します。Neuron Writerは、検索エンジンアルゴリズムに合致した包括的でコンテキストに関連するコンテンツを作成するために含める必要のある関連用語、エンティティ、コンセプトを識別します。",
+    "review.neuronwriter.faq.q2": "Neuron WriterはAIコンテンツ作成を含みますか？",
+    "review.neuronwriter.faq.a2": "いいえ、Neuron WriterはAIコンテンツ生成ではなく、コンテンツの最適化と計画に特に焦点を当てています。何を書くか、どのように最適化するかについての詳細な推奨事項を提供しますが、コンテンツは自分で作成します。このフォーカスにより、最適化に優れながらもオールインワンプラットフォームよりもコストを低く保つことができます。",
+    "review.neuronwriter.faq.q3": "コンテンツスコアリングの精度はどのくらいですか？",
+    "review.neuronwriter.faq.a3": "Neuron WriterのコンテンツスコアリングはAIで高度に正確であり、上位にランクされているコンテンツの高度なNLP分析に基づいています。キーワード密度だけでなく、セマンティック関係、エンティティカバレッジ、コンテンツ構造を考慮します。スコアは他のSEOのベストプラクティスと組み合わせるとランキング潜在力と確実に相関します。",
+    "review.neuronwriter.faq.q4": "Neuron Writerを複数の言語で使用できますか？",
+    "review.neuronwriter.faq.a4": "はい、Neuron Writerは80以上の言語をサポートしており、場所固有のSERP分析があります。異なる国と言語のコンテンツをそれぞれの検索結果を使用して最適化できます。これは国際SEOとマルチマーケットコンテンツ戦略に最適です。",
+    "review.neuronwriter.faq.q5": "ブロンズプランに含まれるものは？",
+    "review.neuronwriter.faq.a5": "ブロンズプラン（月額23ドル）には、月25回のコンテンツ分析、基本的なNLP最適化、SERP分析、コンテンツ計画ツール、キーワード調査が含まれます。予算内でプロフェッショナルな最適化が必要な独立したコンテンツ作成者や小規模ブログに最適です。ニーズの拡大に応じていつでもアップグレードできます。",
+    "review.neuronwriter.faq.q6": "無料トライアルはありますか？",
+    "review.neuronwriter.faq.a6": "はい、Neuron WriterはNLP最適化、SERP分析、コンテンツ計画を含むすべての機能へのフルアクセスを提供する3日間の無料トライアルを提供しています。3日間は一部の競合他社より短いですが、コア機能をテストし、ワークフローに適しているかどうかを判断するのに十分です。"
+  }
+}

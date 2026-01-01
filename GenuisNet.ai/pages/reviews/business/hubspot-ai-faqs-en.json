@@ -1,0 +1,12 @@
+{
+  "review.hubspot-ai.faq.q1": "Is HubSpot really free?",
+  "review.hubspot-ai.faq.a1": "Yes, HubSpot offers a forever-free CRM tier with unlimited users, basic contact management, deal tracking, email integration, forms, live chat, and reporting. This free tier has no time limits and no credit card required. It's a genuine free offering designed to provide value while showcasing the platform's capabilities.",
+  "review.hubspot-ai.faq.q2": "How much does HubSpot cost for small businesses?",
+  "review.hubspot-ai.faq.a2": "Small businesses can start with HubSpot's free CRM and add Starter tier hubs ($15-20/month each) for basic marketing or sales automation. A typical small business using Marketing Hub Starter and Sales Hub Starter might pay $30-40/month initially. As needs grow, Professional tier ($800-1,600/month per hub) provides advanced features and AI capabilities.",
+  "review.hubspot-ai.faq.q3": "What AI features does HubSpot include?",
+  "review.hubspot-ai.faq.a3": "HubSpot includes AI Content Assistant (generate blog posts, emails, social content), predictive lead scoring, ChatSpot conversational CRM assistant, conversation intelligence with call transcription, content remix for repurposing, smart CRM data enrichment, and AI-powered forecasting. Many AI features are available on Professional and Enterprise tiers.",
+  "review.hubspot-ai.faq.q4": "Can HubSpot replace Salesforce?",
+  "review.hubspot-ai.faq.a4": "For many businesses, yes. HubSpot provides comprehensive CRM, sales, and marketing capabilities that meet or exceed Salesforce for SMBs and mid-market companies. However, Salesforce offers deeper customization, more complex automation, and better fit for large enterprises with specialized requirements. HubSpot excels in ease of use, integration, and value for growing businesses.",
+  "review.hubspot-ai.faq.q5": "Does HubSpot integrate with my existing tools?",
+  "review.hubspot-ai.faq.a5": "HubSpot offers 1,500+ pre-built integrations in its App Marketplace, including Gmail, Outlook, Salesforce, Shopify, WordPress, Slack, Zoom, QuickBooks, and more. Most common business tools have native integrations. Custom integrations are possible via HubSpot's API for Professional and Enterprise customers."
+}

@@ -1,0 +1,44 @@
+{
+  "pt": {
+    "review.zapier.faq.q1": "Preciso pagar extra pelas funcionalidades do Zapier?",
+    "review.zapier.faq.a1": "Sim, recursos de IA como Zapier Brain e o Assistente de 6000+ aplicativos estão disponíveis como complementos a partir do plano Business ($12/usuário/mês) ou podem ser adquiridos separadamente. Os recursos principais de gerenciamento de projetos funcionam sem IA.",
+    "review.zapier.faq.q2": "O Zapier é adequado para pequenas equipes?",
+    "review.zapier.faq.a2": "Absolutamente! Zapier oferece um plano gratuito permanente e generoso para pequenas equipes. Embora tenha recursos avançados para grandes empresas, pequenas equipes podem começar simples e adicionar complexidade conforme crescem. Os recursos de IA se dimensionam bem para equipes de qualquer tamanho.",
+    "review.zapier.faq.q3": "O Zapier pode escrever planos de projeto completos?",
+    "review.zapier.faq.a3": "Sim! Forneça uma descrição do projeto ao Zapier e ele pode gerar planos de projeto completos com tarefas, subtarefas, cronogramas e atribuições. Você pode refinar e personalizar o plano gerado por IA para atender às suas necessidades específicas.",
+    "review.zapier.faq.q4": "Como funciona o Zapier Brain?",
+    "review.zapier.faq.a4": "Zapier Brain indexa todo o conteúdo em seu workspace - tarefas, documentos, comentários e chat. Faça perguntas em linguagem natural e ele recupera informações relevantes instantaneamente. Pense nele como um mecanismo de busca que compreende contexto e pode sintetizar respostas.",
+    "review.zapier.faq.q5": "O Zapier se integra com outras ferramentas?",
+    "review.zapier.faq.a5": "Sim, Zapier se integra com mais de 1000 ferramentas, incluindo Slack, Google Drive, GitHub, Figma, Zoom e muito mais. Os recursos de IA funcionam em todas as integrações, para que você possa usar IA em conteúdo importado de outras plataformas.",
+    "review.zapier.faq.q6": "Existe um aplicativo móvel com recursos de IA?",
+    "review.zapier.faq.a6": "Sim, Zapier possui aplicativos iOS e Android com recursos de IA, incluindo o assistente de escrita e Zapier Brain. No entanto, alguns recursos avançados funcionam melhor na versão web. Os aplicativos móveis são ótimos para gerenciamento de tarefas em movimento."
+  },
+  "zh": {
+    "review.zapier.faq.q1": "我需要为Zapier功能额外付费吗?",
+    "review.zapier.faq.a1": "是的，Zapier Brain和6000+应用助手等AI功能可作为附加功能使用，从Business计划（$12/用户/月）开始，或可单独购买。核心项目管理功能无需AI即可运行。",
+    "review.zapier.faq.q2": "Zapier适合小团队吗?",
+    "review.zapier.faq.a2": "当然！Zapier为小团队提供慷慨的永久免费计划。虽然它为大型企业提供高级功能，但小团队可以从简单开始，随着增长而增加复杂性。AI功能可很好地扩展到任何规模的团队。",
+    "review.zapier.faq.q3": "Zapier能编写完整的项目计划吗?",
+    "review.zapier.faq.a3": "可以！向Zapier提供项目描述，它可以生成包含任务、子任务、时间表和分配的完整项目计划。您可以完善和自定义AI生成的计划以满足您的特定需求。",
+    "review.zapier.faq.q4": "Zapier Brain如何工作?",
+    "review.zapier.faq.a4": "Zapier Brain对工作区中的所有内容进行索引 - 任务、文档、评论和聊天。用自然语言提问，它可以立即检索相关信息。把它看作是一个理解上下文并能综合答案的搜索引擎。",
+    "review.zapier.faq.q5": "Zapier是否与其他工具集成?",
+    "review.zapier.faq.a5": "是的，Zapier与1000多个工具集成，包括Slack、Google Drive、GitHub、Figma、Zoom等。AI功能可在所有集成中运行，因此您可以对从其他平台导入的内容使用AI。",
+    "review.zapier.faq.q6": "是否有具有AI功能的移动应用程序?",
+    "review.zapier.faq.a6": "是的，Zapier拥有iOS和Android应用程序，具有AI功能，包括写作助手和Zapier Brain。但是，某些高级功能在网络版本中效果更好。移动应用非常适合随时随地进行任务管理。"
+  },
+  "ja": {
+    "review.zapier.faq.q1": "Zapierの機能に追加料金を支払う必要がありますか?",
+    "review.zapier.faq.a1": "はい、Zapier Brainおよび6000以上のアプリアシスタントなどのAI機能は、Businessプラン（$12/ユーザー/月）からアドオンとして利用できるか、個別に購入できます。コアプロジェクト管理機能はAIなしで機能します。",
+    "review.zapier.faq.q2": "Zapierは小規模チームに適していますか?",
+    "review.zapier.faq.a2": "もちろんです！Zapierは小規模チーム向けの手厚い永久無料プランを提供します。大企業向けの高度な機能がありますが、小規模チームはシンプルに開始し、成長に応じて複雑さを追加できます。AI機能はあらゆるサイズのチームで十分にスケーリングします。",
+    "review.zapier.faq.q3": "Zapierは完全なプロジェクト計画を作成できますか?",
+    "review.zapier.faq.a3": "はい！Zapierにプロジェクトの説明を与えると、タスク、サブタスク、タイムライン、および割り当てを含む完全なプロジェクト計画を生成できます。AIが生成したプランを改善およびカスタマイズして、特定のニーズに合わせることができます。",
+    "review.zapier.faq.q4": "Zapier Brainはどのように機能しますか?",
+    "review.zapier.faq.a4": "Zapier Brainはワークスペース内のすべてのコンテンツ（タスク、ドキュメント、コメント、チャット）をインデックスします。自然言語で質問すると、関連情報を瞬時に取得します。コンテキストを理解し、回答を合成できる検索エンジンのように考えてください。",
+    "review.zapier.faq.q5": "Zapierは他のツールと統合されていますか?",
+    "review.zapier.faq.a5": "はい、Zapierはslack、Google Drive、GitHub、Figma、Zoomなど1000以上のツールと統合されています。AI機能はすべての統合で機能するため、他のプラットフォームからインポートされたコンテンツでAIを使用できます。",
+    "review.zapier.faq.q6": "AI機能を備えたモバイルアプリはありますか?",
+    "review.zapier.faq.a6": "はい、Zapierはライティングアシスタントおよびzapier Brainを含むAI機能を備えたiOSおよびAndroidアプリを備えています。ただし、一部の高度な機能はWebバージョンではより良く機能します。モバイルアプリはオンザゴーでのタスク管理に最適です。"
+  }
+}

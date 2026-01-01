@@ -1,0 +1,10 @@
+{
+  "review.juniper-mist.faq.q1": "Can Mist work offline?",
+  "review.juniper-mist.faq.a1": "The network itself continues to function if cloud connectivity is lost — APs and switches will operate using cached policies. However, AI features, management, and Marvis require cloud connectivity. There's no on-premise deployment option.",
+  "review.juniper-mist.faq.q2": "How does Marvis compare to Cisco AI?",
+  "review.juniper-mist.faq.a2": "Marvis is generally considered more advanced for conversational troubleshooting and natural language queries. Cisco's DNA Center AI is stronger for automated remediation in complex Cisco environments. Marvis wins on user experience; Cisco wins on integration depth.",
+  "review.juniper-mist.faq.q3": "Do I need Juniper switches for Mist?",
+  "review.juniper-mist.faq.a3": "No, Mist wireless works with any switch infrastructure. However, to get the full \"wired assurance\" AI features and Marvis visibility into the wired network, you need Juniper EX switches managed through Mist.",
+  "review.juniper-mist.faq.q4": "What about data sovereignty?",
+  "review.juniper-mist.faq.a4": "Mist offers regional cloud instances (US, EU, APAC) to address data sovereignty requirements. Your network data stays within the selected region. For highly regulated industries, discuss specific compliance needs with Juniper."
+}

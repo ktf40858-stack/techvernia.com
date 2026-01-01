@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.common.best.use.cases": "Best Use Cases",
+    "review.common.best.for": "Best For:",
+    "review.common.may.not.be.ideal.for": "May Not Be Ideal For:",
+    "review.common.comparison": "Comparison",
+    "review.common.platform.comparison": "Platform Comparison",
+    "review.common.key.advantages": "Key Advantages",
+    "review.common.considerations": "Considerations",
+    "review.common.final.verdict": "Final Verdict",
+    "review.common.quick.stats": "Quick Stats",
+    "review.common.frequently.asked.questions": "Frequently Asked Questions"
+  },
+  "es": {
+    "review.common.best.use.cases": "Mejores Casos de Uso",
+    "review.common.best.for": "Mejor Para:",
+    "review.common.may.not.be.ideal.for": "Puede No Ser Ideal Para:",
+    "review.common.comparison": "Comparación",
+    "review.common.platform.comparison": "Comparación de Plataformas",
+    "review.common.key.advantages": "Ventajas Clave",
+    "review.common.considerations": "Consideraciones",
+    "review.common.final.verdict": "Veredicto Final",
+    "review.common.quick.stats": "Estadísticas Rápidas",
+    "review.common.frequently.asked.questions": "Preguntas Frecuentes"
+  },
+  "fr": {
+    "review.common.best.use.cases": "Meilleurs Cas d'Usage",
+    "review.common.best.for": "Idéal Pour:",
+    "review.common.may.not.be.ideal.for": "Peut Ne Pas Convenir Pour:",
+    "review.common.comparison": "Comparaison",
+    "review.common.platform.comparison": "Comparaison des Plateformes",
+    "review.common.key.advantages": "Avantages Clés",
+    "review.common.considerations": "Considérations",
+    "review.common.final.verdict": "Verdict Final",
+    "review.common.quick.stats": "Statistiques Rapides",
+    "review.common.frequently.asked.questions": "Questions Fréquemment Posées"
+  },
+  "de": {
+    "review.common.best.use.cases": "Beste Anwendungsfälle",
+    "review.common.best.for": "Am Besten Für:",
+    "review.common.may.not.be.ideal.for": "Möglicherweise Nicht Ideal Für:",
+    "review.common.comparison": "Vergleich",
+    "review.common.platform.comparison": "Plattformvergleich",
+    "review.common.key.advantages": "Hauptvorteile",
+    "review.common.considerations": "Überlegungen",
+    "review.common.final.verdict": "Endgültiges Urteil",
+    "review.common.quick.stats": "Schnelle Statistiken",
+    "review.common.frequently.asked.questions": "Häufig Gestellte Fragen"
+  }
+}

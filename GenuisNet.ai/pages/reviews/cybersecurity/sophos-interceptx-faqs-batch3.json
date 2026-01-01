@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.sophos-interceptx.faq.q1": "What makes Sophos Intercept X different?",
+    "review.sophos-interceptx.faq.a1": "The platform combines advanced AI/ML detection with comprehensive threat intelligence and proven enterprise capabilities. Its unique approach to threat prevention and response sets it apart in the market.",
+    "review.sophos-interceptx.faq.q2": "How does pricing work?",
+    "review.sophos-interceptx.faq.a2": "Pricing is based on number of protected endpoints with tiered features. Contact sales for custom quotes based on your organization size and requirements.",
+    "review.sophos-interceptx.faq.q3": "Is cloud or on-premise deployment available?",
+    "review.sophos-interceptx.faq.a3": "Both deployment options are available. Cloud-native management is standard, with on-premise options for organizations with specific data residency requirements.",
+    "review.sophos-interceptx.faq.q4": "What platforms are supported?",
+    "review.sophos-interceptx.faq.a4": "Protection is available for Windows, macOS, Linux, and mobile devices (iOS/Android), all managed from a single unified console.",
+    "review.sophos-interceptx.faq.q5": "How effective is the ransomware protection?",
+    "review.sophos-interceptx.faq.a5": "The solution uses behavioral detection and machine learning to identify ransomware encryption patterns, automatically isolating threats and providing rollback capabilities to recover encrypted files."
+  },
+  "ko": {
+    "review.sophos-interceptx.faq.q1": "Sophos Intercept X의 차별점은 무엇입니까?",
+    "review.sophos-interceptx.faq.a1": "이 플랫폼은 고급 AI/ML 감지를 포괄적인 위협 인텔리전스 및 입증된 엔터프라이즈 기능과 결합합니다. 위협 예방 및 대응에 대한 고유한 접근 방식은 시장에서 다른 제품과 차별화됩니다.",
+    "review.sophos-interceptx.faq.q2": "가격은 어떻게 책정됩니까?",
+    "review.sophos-interceptx.faq.a2": "가격은 보호된 엔드포인트의 수에 따라 계층화된 기능으로 책정됩니다. 조직의 규모와 요구사항에 따른 맞춤형 견적은 영업팀에 문의하십시오.",
+    "review.sophos-interceptx.faq.q3": "클라우드 또는 온프레미스 배포가 가능합니까?",
+    "review.sophos-interceptx.faq.a3": "두 배포 옵션 모두 사용 가능합니다. 클라우드 네이티브 관리가 표준이며, 특정 데이터 상주 요구사항이 있는 조직을 위한 온프레미스 옵션도 제공됩니다.",
+    "review.sophos-interceptx.faq.q4": "지원되는 플랫폼은 무엇입니까?",
+    "review.sophos-interceptx.faq.a4": "Windows, macOS, Linux 및 모바일 기기(iOS/Android)에 대한 보호가 제공되며, 모두 단일 통합 콘솔에서 관리됩니다.",
+    "review.sophos-interceptx.faq.q5": "랜섬웨어 보호는 얼마나 효과적입니까?",
+    "review.sophos-interceptx.faq.a5": "이 솔루션은 행동 감지 및 머신러닝을 사용하여 랜섬웨어 암호화 패턴을 식별하고, 위협을 자동으로 격리하며, 암호화된 파일을 복구하기 위한 롤백 기능을 제공합니다."
+  },
+  "ar": {
+    "review.sophos-interceptx.faq.q1": "ما الذي يميز Sophos Intercept X؟",
+    "review.sophos-interceptx.faq.a1": "تجمع المنصة بين كشف AI/ML متقدم وذكاء التهديدات الشامل والقدرات الموثوقة للمؤسسات. يميز منهجها الفريد لمنع التهديدات والاستجابة لها عن المنافسين في السوق.",
+    "review.sophos-interceptx.faq.q2": "كيف يعمل التسعير؟",
+    "review.sophos-interceptx.faq.a2": "يتم تسعير الخدمة بناءً على عدد نقاط النهاية المحمية مع ميزات متدرجة. تواصل مع فريق المبيعات للحصول على عروض أسعار مخصصة بناءً على حجم المؤسسة الخاصة بك واحتياجاتك.",
+    "review.sophos-interceptx.faq.q3": "هل النشر السحابي أو الموجود في المقر متاح؟",
+    "review.sophos-interceptx.faq.a3": "كلا خيار النشر متاح. الإدارة السحابية الأصلية هي المعيار، مع خيارات موجودة في المقر للمؤسسات التي تتطلب متطلبات إقامة بيانات محددة.",
+    "review.sophos-interceptx.faq.q4": "ما هي المنصات المدعومة؟",
+    "review.sophos-interceptx.faq.a4": "الحماية متاحة لـ Windows و macOS و Linux والأجهزة المحمولة (iOS/Android)، وكلها يتم إدارتها من خلال وحدة تحكم موحدة واحدة.",
+    "review.sophos-interceptx.faq.q5": "ما مدى فعالية حماية برامج الفدية؟",
+    "review.sophos-interceptx.faq.a5": "يستخدم الحل الكشف السلوكي والتعلم الآلي لتحديد أنماط تشفير برامج الفدية، وعزل التهديدات تلقائياً وتوفير قدرات الاسترجاع لاستعادة الملفات المشفرة."
+  },
+  "hi": {
+    "review.sophos-interceptx.faq.q1": "Sophos Intercept X को क्या अलग करता है?",
+    "review.sophos-interceptx.faq.a1": "यह प्लेटफ़ॉर्म उन्नत AI/ML पहचान को व्यापक खतरे की बुद्धिमत्ता और सिद्ध एंटरप्राइज क्षमताओं के साथ जोड़ता है। खतरे की रोकथाम और प्रतिक्रिया के लिए इसका अनूठा दृष्टिकोण इसे बाजार में अलग करता है।",
+    "review.sophos-interceptx.faq.q2": "मूल्य निर्धारण कैसे काम करता है?",
+    "review.sophos-interceptx.faq.a2": "मूल्य निर्धारण संरक्षित एंडपॉइंट की संख्या के आधार पर स्तरीय सुविधाओं के साथ किया जाता है। आपके संगठन के आकार और आवश्यकताओं के आधार पर कस्टम कोटेशन के लिए बिक्रय से संपर्क करें।",
+    "review.sophos-interceptx.faq.q3": "क्या क्लाउड या ऑन-प्रिमाइसेस तैनाती उपलब्ध है?",
+    "review.sophos-interceptx.faq.a3": "दोनों तैनाती विकल्प उपलब्ध हैं। क्लाउड-नेटिव प्रबंधन मानक है, विशिष्ट डेटा निवास आवश्यकताओं वाले संगठनों के लिए ऑन-प्रिमाइसेस विकल्प के साथ।",
+    "review.sophos-interceptx.faq.q4": "कौन से प्लेटफ़ॉर्म समर्थित हैं?",
+    "review.sophos-interceptx.faq.a4": "सुरक्षा Windows, macOS, Linux और मोबाइल डिवाइस (iOS/Android) के लिए उपलब्ध है, सभी एक एकीकृत कंसोल से प्रबंधित हैं।",
+    "review.sophos-interceptx.faq.q5": "रैनसमवेयर सुरक्षा कितनी प्रभावी है?",
+    "review.sophos-interceptx.faq.a5": "समाधान व्यवहारिक पहचान और मशीन लर्निंग का उपयोग करके रैनसमवेयर एन्क्रिप्शन पैटर्न को पहचानता है, स्वचालित रूप से खतरों को अलग करता है और एन्क्रिप्ट की गई फ़ाइलों को पुनर्प्राप्त करने के लिए रोलबैक क्षमताएं प्रदान करता है।"
+  }
+}

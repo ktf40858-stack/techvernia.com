@@ -1,0 +1,14 @@
+{
+  "review.zapier.faq.q1": "Do I need to pay extra for Zapier features?",
+  "review.zapier.faq.a1": "Yes, AI features like Zapier Brain and the 6000+ apps Assistant are available as add-ons starting from the Business plan ($12/user/month) or can be purchased separately. The core project management features work without AI.",
+  "review.zapier.faq.q2": "Is Zapier suitable for small teams?",
+  "review.zapier.faq.a2": "Absolutely! Zapier offers a generous free forever plan for small teams. While it has advanced features for large enterprises, small teams can start simple and add complexity as they grow. The AI features scale well for teams of any size.",
+  "review.zapier.faq.q3": "Can Zapier write entire project plans?",
+  "review.zapier.faq.a3": "Yes! Give Zapier a project description and it can generate complete project plans with tasks, subtasks, timelines, and assignments. You can refine and customize the AI-generated plan to fit your specific needs.",
+  "review.zapier.faq.q4": "How does Zapier Brain work?",
+  "review.zapier.faq.a4": "Zapier Brain indexes all content in your workspace - tasks, docs, comments, and chat. Ask it questions in natural language and it retrieves relevant information instantly. Think of it as a search engine that understands context and can synthesize answers.",
+  "review.zapier.faq.q5": "Does Zapier integrate with other tools?",
+  "review.zapier.faq.a5": "Yes, Zapier integrates with 1000+ tools including Slack, Google Drive, GitHub, Figma, Zoom, and more. The AI features work across integrations, so you can use AI on imported content from other platforms.",
+  "review.zapier.faq.q6": "Is there a mobile app with AI features?",
+  "review.zapier.faq.a6": "Yes, Zapier has iOS and Android apps with AI features including the writing assistant and Zapier Brain. However, some advanced features work better on the web version. Mobile apps are great for task management on the go."
+}

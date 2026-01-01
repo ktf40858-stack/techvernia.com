@@ -1,0 +1,44 @@
+{
+  "es": {
+    "review.otterai.faq.q1": "¿Tengo que pagar extra por las funciones de Otter.ai?",
+    "review.otterai.faq.a1": "Sí, las funciones de IA como Otter Brain y el Real-time Assistant están disponibles como complementos a partir del plan Business ($12/usuario/mes) o se pueden comprar por separado. Las funciones principales de gestión de proyectos funcionan sin IA.",
+    "review.otterai.faq.q2": "¿Es Otter adecuado para equipos pequeños?",
+    "review.otterai.faq.a2": "¡Por supuesto! Otter ofrece un generoso plan gratuito permanente para equipos pequeños. Si bien tiene funciones avanzadas para grandes empresas, los equipos pequeños pueden empezar de manera simple y agregar complejidad a medida que crecen. Las funciones de IA se escalan bien para equipos de cualquier tamaño.",
+    "review.otterai.faq.q3": "¿Puede Otter.ai redactar planes de proyecto completos?",
+    "review.otterai.faq.a3": "¡Sí! Dale a Otter.ai una descripción del proyecto y puede generar planes de proyecto completos con tareas, subtareas, cronogramas y asignaciones. Puedes refinar y personalizar el plan generado por IA para que se ajuste a tus necesidades específicas.",
+    "review.otterai.faq.q4": "¿Cómo funciona Otter Brain?",
+    "review.otterai.faq.a4": "Otter Brain indexa todo el contenido en tu área de trabajo: tareas, documentos, comentarios y chat. Hazle preguntas en lenguaje natural y recuperará información relevante al instante. Piénsalo como un motor de búsqueda que entiende el contexto y puede sintetizar respuestas.",
+    "review.otterai.faq.q5": "¿Se integra Otter con otras herramientas?",
+    "review.otterai.faq.a5": "Sí, Otter se integra con más de 1000 herramientas incluyendo Slack, Google Drive, GitHub, Figma, Zoom y más. Las funciones de IA funcionan en todas las integraciones, por lo que puedes usar IA en contenido importado de otras plataformas.",
+    "review.otterai.faq.q6": "¿Hay una aplicación móvil con funciones de IA?",
+    "review.otterai.faq.a6": "Sí, Otter tiene aplicaciones para iOS y Android con funciones de IA incluyendo el asistente de escritura y Otter Brain. Sin embargo, algunas funciones avanzadas funcionan mejor en la versión web. Las aplicaciones móviles son excelentes para la gestión de tareas sobre la marcha."
+  },
+  "fr": {
+    "review.otterai.faq.q1": "Dois-je payer un supplément pour les fonctionnalités d'Otter.ai ?",
+    "review.otterai.faq.a1": "Oui, les fonctionnalités d'IA comme Otter Brain et l'Real-time Assistant sont disponibles en tant que modules complémentaires à partir du plan Business ($12/utilisateur/mois) ou peuvent être achetées séparément. Les fonctionnalités principales de gestion de projet fonctionnent sans IA.",
+    "review.otterai.faq.q2": "Otter.ai est-il adapté aux petites équipes ?",
+    "review.otterai.faq.a2": "Absolument ! Otter offre un généreux plan gratuit à vie pour les petites équipes. Bien qu'il dispose de fonctionnalités avancées pour les grandes entreprises, les petites équipes peuvent commencer simplement et ajouter de la complexité à mesure qu'elles se développent. Les fonctionnalités d'IA s'adaptent bien aux équipes de toute taille.",
+    "review.otterai.faq.q3": "Otter.ai peut-il rédiger des plans de projet complets ?",
+    "review.otterai.faq.a3": "Oui ! Donnez à Otter.ai une description de projet et il peut générer des plans de projet complets avec des tâches, des sous-tâches, des chronologies et des affectations. Vous pouvez affiner et personnaliser le plan généré par IA pour répondre à vos besoins spécifiques.",
+    "review.otterai.faq.q4": "Comment fonctionne Otter Brain ?",
+    "review.otterai.faq.a4": "Otter Brain indexe tout le contenu de votre espace de travail - tâches, documents, commentaires et chat. Posez-lui des questions en langage naturel et il récupère les informations pertinentes instantanément. Pensez-y comme un moteur de recherche qui comprend le contexte et peut synthétiser les réponses.",
+    "review.otterai.faq.q5": "Otter s'intègre-t-il avec d'autres outils ?",
+    "review.otterai.faq.a5": "Oui, Otter s'intègre avec plus de 1000 outils, notamment Slack, Google Drive, GitHub, Figma, Zoom et bien d'autres. Les fonctionnalités d'IA fonctionnent sur toutes les intégrations, vous pouvez donc utiliser l'IA sur le contenu importé à partir d'autres plates-formes.",
+    "review.otterai.faq.q6": "Y a-t-il une application mobile avec des fonctionnalités d'IA ?",
+    "review.otterai.faq.a6": "Oui, Otter dispose d'applications iOS et Android avec des fonctionnalités d'IA, notamment l'assistant d'écriture et Otter Brain. Cependant, certaines fonctionnalités avancées fonctionnent mieux sur la version web. Les applications mobiles sont excellentes pour la gestion des tâches en déplacement."
+  },
+  "de": {
+    "review.otterai.faq.q1": "Muss ich extra für Otter.ai-Funktionen bezahlen?",
+    "review.otterai.faq.a1": "Ja, KI-Funktionen wie Otter Brain und der Real-time Assistant sind als Add-ons ab dem Business-Plan ($12/Benutzer/Monat) oder als separate Käufe verfügbar. Die Kernfunktionen für Projektmanagement funktionieren ohne KI.",
+    "review.otterai.faq.q2": "Ist Otter für kleine Teams geeignet?",
+    "review.otterai.faq.a2": "Absolut! Otter bietet einen großzügigen kostenlosen Plan für kleine Teams. Während es erweiterte Funktionen für große Unternehmen hat, können kleine Teams einfach beginnen und die Komplexität hinzufügen, während sie wachsen. Die KI-Funktionen skalieren gut für Teams jeder Größe.",
+    "review.otterai.faq.q3": "Kann Otter.ai komplette Projektpläne schreiben?",
+    "review.otterai.faq.a3": "Ja! Geben Sie Otter.ai eine Projektbeschreibung und es kann komplette Projektpläne mit Aufgaben, Unteraufgaben, Zeitplänen und Zuweisungen generieren. Sie können den von KI generierten Plan verfeinern und anpassen, um ihn an Ihre spezifischen Anforderungen anzupassen.",
+    "review.otterai.faq.q4": "Wie funktioniert Otter Brain?",
+    "review.otterai.faq.a4": "Otter Brain indexiert den gesamten Inhalt in Ihrem Arbeitsbereich - Aufgaben, Dokumente, Kommentare und Chat. Stellen Sie ihm Fragen in natürlicher Sprache und es ruft sofort relevante Informationen ab. Denken Sie daran als eine Suchmaschine, die den Kontext versteht und Antworten synthetisieren kann.",
+    "review.otterai.faq.q5": "Integriert sich Otter mit anderen Tools?",
+    "review.otterai.faq.a5": "Ja, Otter integriert sich mit über 1000 Tools, einschließlich Slack, Google Drive, GitHub, Figma, Zoom und mehr. Die KI-Funktionen funktionieren über alle Integrationen hinweg, daher können Sie KI auf Inhalte verwenden, die von anderen Plattformen importiert wurden.",
+    "review.otterai.faq.q6": "Gibt es eine mobile App mit KI-Funktionen?",
+    "review.otterai.faq.a6": "Ja, Otter hat iOS- und Android-Apps mit KI-Funktionen, einschließlich des Schreibassistenten und Otter Brain. Einige erweiterte Funktionen funktionieren jedoch besser in der Webversion. Mobile Apps sind großartig für die Aufgabenverwaltung unterwegs."
+  }
+}

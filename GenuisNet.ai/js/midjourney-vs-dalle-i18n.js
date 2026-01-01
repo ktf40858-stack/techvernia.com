@@ -3,6 +3,8 @@
 
 console.log('📦 midjourney-vs-dalle-i18n.js loaded');
 
+console.log("[1/2] midjourney-vs-dalle-i18n.js loading...");
+
 const articleTranslations = {
     en: {
         // Meta & Page Title
@@ -977,6 +979,12 @@ if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initArticleI18n);
 } else {
     initArticleI18n();
+}
+
+// Export to window for standalone i18n system
+if (typeof window !== 'undefined') {
+    window.midjourneyVsDalleTranslations = articleTranslations;
+    console.log("[1/2] midjourney-vs-dalle-i18n.js loaded - " + Object.keys(articleTranslations).length + " languages available");
 }
 
 // Export for use in other scripts

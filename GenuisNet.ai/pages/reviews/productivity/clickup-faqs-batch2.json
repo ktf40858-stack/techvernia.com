@@ -1,0 +1,44 @@
+{
+  "pt": {
+    "review.clickup-ai.faq.q1": "Preciso pagar extra pelos recursos de ClickUp AI?",
+    "review.clickup-ai.faq.a1": "Sim, os recursos de IA como ClickUp Brain e o Assistente de Escrita com IA estão disponíveis como complementos a partir do plano Business ($12/usuário/mês) ou podem ser adquiridos separadamente. Os recursos principais de gestão de projetos funcionam sem IA.",
+    "review.clickup-ai.faq.q2": "O ClickUp é adequado para equipes pequenas?",
+    "review.clickup-ai.faq.a2": "Absolutamente! O ClickUp oferece um plano gratuito permanente generoso para equipes pequenas. Embora tenha recursos avançados para grandes empresas, as equipes pequenas podem começar de forma simples e adicionar complexidade à medida que crescem. Os recursos de IA escalam bem para equipes de qualquer tamanho.",
+    "review.clickup-ai.faq.q3": "O ClickUp AI pode escrever planos de projeto completos?",
+    "review.clickup-ai.faq.a3": "Sim! Forneça ao ClickUp AI uma descrição do projeto e ele pode gerar planos de projeto completos com tarefas, subtarefas, cronogramas e atribuições. Você pode refinar e personalizar o plano gerado pela IA para atender às suas necessidades específicas.",
+    "review.clickup-ai.faq.q4": "Como funciona o ClickUp Brain?",
+    "review.clickup-ai.faq.a4": "O ClickUp Brain indexa todo o conteúdo do seu espaço de trabalho - tarefas, documentos, comentários e chat. Faça perguntas em linguagem natural e ele recupera informações relevantes instantaneamente. Pense nele como um mecanismo de busca que compreende o contexto e pode sintetizar respostas.",
+    "review.clickup-ai.faq.q5": "O ClickUp integra com outras ferramentas?",
+    "review.clickup-ai.faq.a5": "Sim, o ClickUp integra com mais de 1000 ferramentas, incluindo Slack, Google Drive, GitHub, Figma, Zoom e muito mais. Os recursos de IA funcionam em todas as integrações, permitindo que você use IA em conteúdo importado de outras plataformas.",
+    "review.clickup-ai.faq.q6": "Existe um aplicativo móvel com recursos de IA?",
+    "review.clickup-ai.faq.a6": "Sim, o ClickUp possui aplicativos iOS e Android com recursos de IA, incluindo o assistente de escrita e o ClickUp Brain. No entanto, alguns recursos avançados funcionam melhor na versão web. Os aplicativos móveis são ótimos para gerenciamento de tarefas em movimento."
+  },
+  "zh": {
+    "review.clickup-ai.faq.q1": "我需要为 ClickUp AI 功能额外付费吗?",
+    "review.clickup-ai.faq.a1": "是的,ClickUp Brain 和 AI 写作助手等 AI 功能作为附加组件提供,从 Business plan($12/用户/月)开始,或可单独购买。核心项目管理功能无需 AI 即可使用。",
+    "review.clickup-ai.faq.q2": "ClickUp 适合小型团队吗?",
+    "review.clickup-ai.faq.a2": "当然!ClickUp 为小型团队提供慷慨的永久免费计划。虽然它具有适合大型企业的高级功能,但小型团队可以从简单开始,随着发展逐步增加复杂性。AI 功能可以很好地适应任何规模的团队。",
+    "review.clickup-ai.faq.q3": "ClickUp AI 能编写完整的项目计划吗?",
+    "review.clickup-ai.faq.a3": "可以!向 ClickUp AI 提供项目描述,它就能生成包含任务、子任务、时间线和分配的完整项目计划。您可以优化和自定义 AI 生成的计划以满足您的特定需求。",
+    "review.clickup-ai.faq.q4": "ClickUp Brain 如何工作?",
+    "review.clickup-ai.faq.a4": "ClickUp Brain 会索引您工作区中的所有内容 - 任务、文档、评论和聊天。用自然语言向它提问,它会立即检索相关信息。可以将其视为能够理解上下文并综合答案的搜索引擎。",
+    "review.clickup-ai.faq.q5": "ClickUp 能与其他工具集成吗?",
+    "review.clickup-ai.faq.a5": "可以,ClickUp 可与 1000 多种工具集成,包括 Slack、Google Drive、GitHub、Figma、Zoom 等。AI 功能可跨集成使用,因此您可以对从其他平台导入的内容使用 AI。",
+    "review.clickup-ai.faq.q6": "有具备 AI 功能的移动应用吗?",
+    "review.clickup-ai.faq.a6": "有的,ClickUp 有 iOS 和 Android 应用,具备包括写作助手和 ClickUp Brain 在内的 AI 功能。但是,某些高级功能在网页版上效果更好。移动应用非常适合随时随地进行任务管理。"
+  },
+  "ja": {
+    "review.clickup-ai.faq.q1": "ClickUp AI の機能には追加料金が必要ですか?",
+    "review.clickup-ai.faq.a1": "はい、ClickUp Brain や AI ライティングアシスタントなどの AI 機能は、Business plan($12/ユーザー/月)から利用できるアドオンとして提供されているか、個別に購入できます。コアのプロジェクト管理機能は AI なしで動作します。",
+    "review.clickup-ai.faq.q2": "ClickUp は小規模チームに適していますか?",
+    "review.clickup-ai.faq.a2": "もちろんです!ClickUp は小規模チーム向けに充実した永久無料プランを提供しています。大企業向けの高度な機能を備えていますが、小規模チームはシンプルに始めて、成長に応じて複雑さを追加できます。AI 機能はあらゆる規模のチームに適しています。",
+    "review.clickup-ai.faq.q3": "ClickUp AI はプロジェクト計画全体を作成できますか?",
+    "review.clickup-ai.faq.a3": "できます!ClickUp AI にプロジェクトの説明を提供すると、タスク、サブタスク、タイムライン、割り当てを含む完全なプロジェクト計画を生成できます。AI が生成した計画を洗練させ、カスタマイズして特定のニーズに合わせることができます。",
+    "review.clickup-ai.faq.q4": "ClickUp Brain はどのように機能しますか?",
+    "review.clickup-ai.faq.a4": "ClickUp Brain は、ワークスペース内のすべてのコンテンツ(タスク、ドキュメント、コメント、チャット)をインデックス化します。自然言語で質問すると、関連情報を即座に取得します。コンテキストを理解し、回答を統合できる検索エンジンと考えてください。",
+    "review.clickup-ai.faq.q5": "ClickUp は他のツールと統合できますか?",
+    "review.clickup-ai.faq.a5": "はい、ClickUp は Slack、Google Drive、GitHub、Figma、Zoom など 1000 以上のツールと統合できます。AI 機能は統合全体で機能するため、他のプラットフォームからインポートしたコンテンツで AI を使用できます。",
+    "review.clickup-ai.faq.q6": "AI 機能を備えたモバイルアプリはありますか?",
+    "review.clickup-ai.faq.a6": "はい、ClickUp には、ライティングアシスタントや ClickUp Brain を含む AI 機能を備えた iOS および Android アプリがあります。ただし、一部の高度な機能は Web バージョンの方が優れています。モバイルアプリは外出先でのタスク管理に最適です。"
+  }
+}

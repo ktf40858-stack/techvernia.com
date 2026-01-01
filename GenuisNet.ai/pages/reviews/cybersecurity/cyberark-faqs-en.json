@@ -1,0 +1,12 @@
+{
+  "review.cyberark.faq.q1": "What is Privileged Access Management (PAM)?",
+  "review.cyberark.faq.a1": "PAM secures and manages accounts with elevated permissions (admin, root, service accounts). CyberArk vaults credentials, controls access, monitors sessions, and enforces least privilege to prevent credential theft and insider threats.",
+  "review.cyberark.faq.q2": "How does CyberArk prevent credential theft?",
+  "review.cyberark.faq.a2": "CyberArk stores credentials in an encrypted vault, rotates passwords automatically, requires just-in-time access approval, records privileged sessions, and detects anomalous behavior using AI—preventing attackers from stealing and reusing credentials.",
+  "review.cyberark.faq.q3": "What's the difference between PAM and EPM?",
+  "review.cyberark.faq.a3": "PAM (Privileged Access Management) secures admin accounts. EPM (Endpoint Privilege Management) removes admin rights from endpoints and elevates only when needed. CyberArk offers both to implement comprehensive least privilege.",
+  "review.cyberark.faq.q4": "Is CyberArk cloud-based or on-premise?",
+  "review.cyberark.faq.a4": "Both. CyberArk Privilege Cloud is SaaS. Self-Hosted allows on-premise or private cloud deployment. Many enterprises use hybrid—cloud management with on-premise vaults for sensitive credentials.",
+  "review.cyberark.faq.q5": "How long does CyberArk implementation take?",
+  "review.cyberark.faq.a5": "Typical enterprise deployments take 3-9 months depending on scope, number of systems, and organizational complexity. Phased rollouts starting with critical systems are recommended to demonstrate value early."
+}

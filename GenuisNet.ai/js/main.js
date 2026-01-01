@@ -566,12 +566,19 @@ class LanguageSelector {
         // Update current language display
         this.updateCurrentLanguage();
 
-        // Dispatch event for i18n files to listen to
-        const event = new CustomEvent('languageChanged', {
-            detail: { language: lang }
-        });
-        console.log('📢 Dispatching languageChanged event:', lang);
-        document.dispatchEvent(event);
+        // Call i18n.setLanguage to actually translate the page
+        if (window.i18n && window.i18n.setLanguage) {
+            console.log('🌍 Calling window.i18n.setLanguage(' + lang + ')');
+            window.i18n.setLanguage(lang);
+        } else {
+            console.warn('⚠️ window.i18n.setLanguage not available');
+            // Fallback: Dispatch event for i18n files to listen to
+            const event = new CustomEvent('languageChanged', {
+                detail: { language: lang }
+            });
+            console.log('📢 Dispatching languageChanged event:', lang);
+            document.dispatchEvent(event);
+        }
 
         // Close dropdown
         this.close();

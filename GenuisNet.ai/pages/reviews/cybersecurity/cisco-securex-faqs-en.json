@@ -1,0 +1,12 @@
+{
+  "review.cisco-securex.faq.q1": "Is Cisco SecureX really free?",
+  "review.cisco-securex.faq.a1": "SecureX is included at no additional cost with eligible Cisco security product licenses (Firepower, Umbrella, AMP, etc.). However, you need to already own those products, so it's \"free\" in the sense that it doesn't cost extra beyond your existing Cisco investments.",
+  "review.cisco-securex.faq.q2": "What is Cisco Talos?",
+  "review.cisco-securex.faq.a2": "Cisco Talos is one of the world's largest commercial threat intelligence teams, providing research, detection, and protection against cyber threats. Talos intelligence powers SecureX threat detection and feeds IOCs across the Cisco security ecosystem.",
+  "review.cisco-securex.faq.q3": "Does SecureX work with non-Cisco products?",
+  "review.cisco-securex.faq.a3": "Yes, SecureX supports integrations with some third-party security products through APIs and connectors. However, the deepest integration and maximum value comes from using it within a Cisco-centric security stack.",
+  "review.cisco-securex.faq.q4": "What's included in Cisco SASE with SecureX?",
+  "review.cisco-securex.faq.a4": "Cisco's SASE approach combines Umbrella (secure web gateway), SD-WAN, Duo (access control), and SecureX (orchestration). This provides unified security from network to cloud with centralized management and policy enforcement.",
+  "review.cisco-securex.faq.q5": "Is SecureX suitable for small businesses?",
+  "review.cisco-securex.faq.a5": "Generally no. SecureX is designed for enterprise environments with complex security needs and existing Cisco infrastructure. Small businesses typically benefit more from simpler, cloud-native security platforms."
+}

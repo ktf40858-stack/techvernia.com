@@ -1,0 +1,38 @@
+{
+  "es": {
+    "review.drift.faq.q1": "¿Cuánto cuesta Drift?",
+    "review.drift.faq.a1": "Drift Premium comienza en $2,500/mes e incluye chat en vivo, chatbots, correo electrónico, programador de reuniones y 10 asientos. Los planes Advanced y Enterprise utilizan precios personalizados basados en características, número de usuarios y necesidades de integración con Salesloft. La mayoría de las implementaciones oscilan entre $30,000-100,000+ anuales.",
+    "review.drift.faq.q2": "¿Se integra Drift con Salesforce?",
+    "review.drift.faq.a2": "Sí, Drift ofrece una sólida integración nativa con Salesforce que sincroniza conversaciones, crea leads/contactos, registra actividades y actualiza registros bidireccionales. La integración permite enrutamiento sofisticado basado en datos de Salesforce y garantiza que los equipos de ventas tengan contexto completo de la conversación en su CRM.",
+    "review.drift.faq.q3": "¿Cuál es la diferencia entre Drift e Intercom?",
+    "review.drift.faq.a3": "Drift se enfoca específicamente en conversaciones de ventas y marketing B2B, enfatizando la calificación de leads y la reserva de reuniones. Intercom sirve casos de uso más amplios incluyendo soporte al cliente, tours de productos e interacción B2C. Drift es típicamente más caro pero ofrece características más fuertes en ABM y enfoque en ventas. Intercom proporciona mejores capacidades de soporte y herramientas de mensajería de productos.",
+    "review.drift.faq.q4": "¿Es Drift propiedad de Salesloft?",
+    "review.drift.faq.a4": "Sí, Salesloft adquirió Drift en 2023. La integración crea una plataforma integral de orquestación de ingresos que combina el marketing conversacional de Drift con las capacidades de engagement de ventas de Salesloft. Los clientes actuales de Drift se benefician de una integración más estrecha con el ecosistema de Salesloft mientras mantienen la funcionalidad independiente de Drift.",
+    "review.drift.faq.q5": "¿Puede Drift funcionar para pequeñas empresas?",
+    "review.drift.faq.a5": "Si bien Drift funciona para pequeñas empresas, sus precios premium ($2,500+/mes mínimo) y enfoque empresarial B2B hacen que sea más adecuado para empresas de nivel medio y más grandes. Las pequeñas empresas con presupuestos limitados deben considerar alternativas como HubSpot Chat (capa gratuita), Intercom, Tidio o Chatbot.com que ofrecen puntos de entrada más asequibles."
+  },
+  "fr": {
+    "review.drift.faq.q1": "Combien coûte Drift?",
+    "review.drift.faq.a1": "Drift Premium commence à $2,500/mois et comprend le chat en direct, les chatbots, l'email, l'organiseur de réunions et 10 places. Les plans Advanced et Enterprise utilisent des tarifs personnalisés en fonction des fonctionnalités, du nombre d'utilisateurs et des besoins d'intégration Salesloft. La plupart des implémentations coûtent entre $30,000-100,000+ annuels.",
+    "review.drift.faq.q2": "Drift s'intègre-t-il à Salesforce?",
+    "review.drift.faq.a2": "Oui, Drift offre une intégration native robuste de Salesforce qui synchronise les conversations, crée des leads/contacts, enregistre les activités et met à jour les enregistrements de manière bidirectionnelle. L'intégration permet un routage sophistiqué basé sur les données Salesforce et garantit que les équipes de vente ont le contexte complet de la conversation dans leur CRM.",
+    "review.drift.faq.q3": "Quelle est la différence entre Drift et Intercom?",
+    "review.drift.faq.a3": "Drift se concentre spécifiquement sur les conversations de vente et de marketing B2B, en mettant l'accent sur la qualification des leads et la prise de rendez-vous. Intercom sert des cas d'usage plus larges incluant le support client, les visites guidées de produits et l'engagement B2C. Drift est généralement plus cher mais offre des fonctionnalités ABM et axées sur les ventes plus fortes. Intercom offre de meilleures capacités de support et des outils de messagerie produit.",
+    "review.drift.faq.q4": "Drift est-il détenu par Salesloft?",
+    "review.drift.faq.a4": "Oui, Salesloft a acquis Drift en 2023. L'intégration crée une plateforme complète d'orchestration des revenus combinant le marketing conversationnel de Drift avec les capacités d'engagement commercial de Salesloft. Les clients Drift existants bénéficient d'une intégration plus étroite avec l'écosystème Salesloft tout en maintenant la fonctionnalité autonome de Drift.",
+    "review.drift.faq.q5": "Drift peut-il fonctionner pour les petites entreprises?",
+    "review.drift.faq.a5": "Bien que Drift fonctionne pour les petites entreprises, ses tarifs premium ($2,500+/mois minimum) et son orientation entreprise B2B le rendent mieux adapté aux entreprises de taille intermédiaire et plus grandes. Les petites entreprises avec des budgets limités devraient considérer des alternatives comme HubSpot Chat (niveau gratuit), Intercom, Tidio ou Chatbot.com qui offrent des points d'entrée plus abordables."
+  },
+  "de": {
+    "review.drift.faq.q1": "Wie viel kostet Drift?",
+    "review.drift.faq.a1": "Drift Premium beginnt bei $2.500/Monat und beinhaltet Live-Chat, Chatbots, E-Mail, Meeting-Planer und 10 Plätze. Die Advanced- und Enterprise-Pläne nutzen benutzerdefinierte Preise basierend auf Funktionen, Benutzeranzahl und Salesloft-Integrationsbedarf. Die meisten Implementierungen kosten zwischen $30.000-100.000+ pro Jahr.",
+    "review.drift.faq.q2": "Integriert sich Drift mit Salesforce?",
+    "review.drift.faq.a2": "Ja, Drift bietet eine robuste native Salesforce-Integration, die Gespräche synchronisiert, Leads/Kontakte erstellt, Aktivitäten protokolliert und Datensätze bidirektional aktualisiert. Die Integration ermöglicht ausgefeiltes Routing basierend auf Salesforce-Daten und stellt sicher, dass Vertriebsteams den vollständigen Gesprächskontext in ihrem CRM haben.",
+    "review.drift.faq.q3": "Was ist der Unterschied zwischen Drift und Intercom?",
+    "review.drift.faq.a3": "Drift konzentriert sich speziell auf B2B-Verkaufs- und Marketingkonversationen und betont Lead-Qualifizierung und Meeting-Buchung. Intercom bedient umfassendere Anwendungsfälle einschließlich Kundenunterstützung, Produktrundgängen und B2C-Engagement. Drift ist typischerweise teurer, bietet aber stärkere ABM- und verkaufsorientierte Funktionen. Intercom bietet bessere Support-Funktionen und Product-Messaging-Tools.",
+    "review.drift.faq.q4": "Ist Drift Eigentum von Salesloft?",
+    "review.drift.faq.a4": "Ja, Salesloft erwarb Drift 2023. Die Integration schafft eine umfassende Revenue-Orchestrierungs-Plattform, die Drifts Conversational Marketing mit Saleslofts Sales-Engagement-Funktionen kombiniert. Bestehende Drift-Kunden profitieren von einer engeren Integration mit dem Salesloft-Ökosystem und behalten gleichzeitig die eigenständige Funktionalität von Drift.",
+    "review.drift.faq.q5": "Kann Drift für kleine Unternehmen funktionieren?",
+    "review.drift.faq.a5": "Obwohl Drift für kleine Unternehmen funktioniert, machen seine Premium-Preise ($2.500+/Monat Mindestgebühr) und sein B2B-Enterprise-Fokus es besser für mittelständische und größere Unternehmen geeignet. Kleine Unternehmen mit begrenzten Budgets sollten Alternativen wie HubSpot Chat (kostenlos), Intercom, Tidio oder Chatbot.com in Betracht ziehen, die günstigere Einstiegspunkte bieten."
+  }
+}

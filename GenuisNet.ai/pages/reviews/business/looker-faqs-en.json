@@ -1,0 +1,8 @@
+{
+  "review.looker.faq.q1": "How much does Looker cost?",
+  "review.looker.faq.a1": "Pricing varies based on deployment model, users, and features. Contact Google Cloud for specific quotes tailored to your organization's needs.",
+  "review.looker.faq.q2": "What data sources does Looker support?",
+  "review.looker.faq.a2": "Looker supports 100+ native connectors including major databases, cloud platforms, SaaS applications, and file formats.",
+  "review.looker.faq.q3": "Does Looker require coding?",
+  "review.looker.faq.a3": "No, Looker features an intuitive visual interface that doesn't require coding for most analyses. Advanced users can leverage scripting for complex scenarios."
+}

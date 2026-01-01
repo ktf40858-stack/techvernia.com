@@ -1,0 +1,37 @@
+{
+  "pt": {
+    "review.hubspot-ai.faq.q1": "O HubSpot é realmente gratuito?",
+    "review.hubspot-ai.faq.a1": "Sim, o HubSpot oferece um nível de CRM perpetuamente gratuito com usuários ilimitados, gerenciamento básico de contatos, rastreamento de negócios, integração de email, formulários, chat ao vivo e relatórios. Este nível gratuito não tem limites de tempo e não requer cartão de crédito. É uma oferta genuinamente gratuita projetada para fornecer valor enquanto mostra os recursos da plataforma.",
+    "review.hubspot-ai.faq.q2": "Quanto custa o HubSpot para pequenas empresas?",
+    "review.hubspot-ai.faq.a2": "Pequenas empresas podem começar com o CRM gratuito do HubSpot e adicionar hubs do nível Starter ($15-20/mês cada) para automação básica de marketing ou vendas. Uma pequena empresa típica usando Marketing Hub Starter e Sales Hub Starter pode pagar $30-40/mês inicialmente. À medida que as necessidades crescem, o nível Professional ($800-1.600/mês por hub) oferece recursos avançados e capacidades de IA.",
+    "review.hubspot-ai.faq.q3": "Que recursos de IA o HubSpot inclui?",
+    "review.hubspot-ai.faq.a3": "O HubSpot inclui Assistente de Conteúdo de IA (gerar postagens de blog, emails, conteúdo social), pontuação preditiva de leads, assistente CRM conversacional ChatSpot, inteligência de conversação com transcrição de chamadas, remix de conteúdo para reutilização, enriquecimento inteligente de dados CRM e previsão baseada em IA. Muitos recursos de IA estão disponíveis nos níveis Professional e Enterprise.",
+    "review.hubspot-ai.faq.q4": "O HubSpot pode substituir o Salesforce?",
+    "review.hubspot-ai.faq.a4": "Para muitas empresas, sim. O HubSpot oferece capacidades abrangentes de CRM, vendas e marketing que atendem ou excedem o Salesforce para PMEs e empresas de médio porte. No entanto, o Salesforce oferece customização mais profunda, automação mais complexa e melhor adequação para grandes empresas com requisitos especializados. O HubSpot se destaca em facilidade de uso, integração e valor para empresas em crescimento.",
+    "review.hubspot-ai.faq.q5": "O HubSpot se integra com minhas ferramentas existentes?",
+    "review.hubspot-ai.faq.a5": "O HubSpot oferece mais de 1.500 integrações pré-construídas em seu App Marketplace, incluindo Gmail, Outlook, Salesforce, Shopify, WordPress, Slack, Zoom, QuickBooks e muito mais. A maioria das ferramentas comerciais comuns possui integrações nativas. Integrações personalizadas são possíveis via API do HubSpot para clientes Professional e Enterprise."
+  },
+  "zh": {
+    "review.hubspot-ai.faq.q1": "HubSpot真的是免费的吗？",
+    "review.hubspot-ai.faq.a1": "是的，HubSpot提供永久免费的CRM层级，拥有无限用户数、基本的联系人管理、交易跟踪、电子邮件集成、表单、实时聊天和报告。此免费层级没有时间限制，不需要信用卡。这是一个真正的免费产品，旨在提供价值，同时展示该平台的功能。",
+    "review.hubspot-ai.faq.q2": "HubSpot对小企业的成本是多少？",
+    "review.hubspot-ai.faq.a2": "小企业可以从HubSpot的免费CRM开始，然后添加Starter层级的hub（每个$15-20/月）用于基本的营销或销售自动化。使用Marketing Hub Starter和Sales Hub Starter的典型小企业最初可能支付$30-40/月。随着需求的增长，Professional层级（每个hub $800-1,600/月）提供高级功能和AI能力。",
+    "review.hubspot-ai.faq.q3": "HubSpot包含哪些AI功能？",
+    "review.hubspot-ai.faq.a3": "HubSpot包括AI内容助手（生成博客文章、电子邮件、社交内容）、预测性潜在客户评分、ChatSpot会话CRM助手、带有通话转录的对话智能、内容混音以进行重新利用、智能CRM数据丰富和AI驱动的预测。许多AI功能在Professional和Enterprise层级上可用。",
+    "review.hubspot-ai.faq.q4": "HubSpot可以取代Salesforce吗？",
+    "review.hubspot-ai.faq.a4": "对许多企业来说，是的。HubSpot提供全面的CRM、销售和营销功能，这些功能达到或超过中小企业和中市场公司的Salesforce。然而，Salesforce提供更深层的定制、更复杂的自动化，更适合具有特殊要求的大型企业。HubSpot在易用性、集成和增长业务的价值方面表现出色。",
+    "review.hubspot-ai.faq.q5": "HubSpot与我现有的工具集成吗？",
+    "review.hubspot-ai.faq.a5": "HubSpot在其App Marketplace中提供1,500多个预构建集成，包括Gmail、Outlook、Salesforce、Shopify、WordPress、Slack、Zoom、QuickBooks等。大多数常见的业务工具都具有本机集成。Professional和Enterprise客户可以通过HubSpot的API进行自定义集成。"
+  },
+  "ja": {
+    "review.hubspot-ai.faq.q1": "HubSpotは本当に無料ですか？",
+    "review.hubspot-ai.faq.a1": "はい、HubSpotは無制限のユーザー数、基本的な連絡先管理、取引追跡、メール統合、フォーム、ライブチャット、レポート機能を備えた永遠の無料CRMティアを提供しています。この無料ティアには時間制限がなく、クレジットカードは不要です。プラットフォームの機能を紹介しながら価値を提供するために設計された本当の無料オファーです。",
+    "review.hubspot-ai.faq.a2": "中小企業は、HubSpotの無料CRMから始めて、基本的なマーケティング自動化またはセールス自動化用のStarterティアハブ（各$15-20/月）を追加できます。Marketing Hub StarterとSales Hub Starterを使用する一般的な中小企業は、最初は$30-40/月を支払う可能性があります。ニーズが成長するにつれて、Professionalティア（ハブあたり$800-1,600/月）は高度な機能とAI機能を提供します。",
+    "review.hubspot-ai.faq.q3": "HubSpotはどのようなAI機能を含んでいますか？",
+    "review.hubspot-ai.faq.a3": "HubSpotには、AIコンテンツアシスタント（ブログ投稿、メール、ソーシャルコンテンツの生成）、予測的なリードスコアリング、ChatSpot会話型CRMアシスタント、通話トランスクリプション付きの会話インテリジェンス、コンテンツの再利用用のコンテンツリミックス、スマートCRMデータエンリッチメント、およびAI搭載の予測が含まれています。多くのAI機能は、ProfessionalおよびEnterpriseティアで利用できます。",
+    "review.hubspot-ai.faq.q4": "HubSpotはSalesforceに代わることができますか？",
+    "review.hubspot-ai.faq.a4": "多くの企業にとって、はい。HubSpotは、中小企業と中堅企業向けのSalesforceと同等またはそれ以上のCRM、販売、マーケティング機能を提供しています。ただし、Salesforceは、より深いカスタマイズ、より複雑な自動化、および特別な要件を持つ大企業への適合性を提供しています。HubSpotは、使いやすさ、統合、および成長中のビジネスの価値で卓越しています。",
+    "review.hubspot-ai.faq.q5": "HubSpotは既存のツールと統合されていますか？",
+    "review.hubspot-ai.faq.a5": "HubSpotは、Gmail、Outlook、Salesforce、Shopify、WordPress、Slack、Zoom、QuickBooksなどを含む、App Marketplaceに1,500以上の事前構築統合を提供しています。ほとんどの一般的なビジネスツールにはネイティブ統合があります。カスタム統合は、ProfessionalおよびEnterpriseのお客様向けのHubSpot APIを介して可能です。"
+  }
+}

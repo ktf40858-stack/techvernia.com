@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.sentinelone.faq.q1": "What is SentinelOne's rollback capability?",
+    "review.sentinelone.faq.a1": "SentinelOne's unique Rollback feature can automatically reverse ransomware encryption by restoring affected files to their pre-attack state. This happens automatically when ransomware is detected, minimizing data loss and downtime.",
+    "review.sentinelone.faq.q2": "What is Purple AI?",
+    "review.sentinelone.faq.a2": "Purple AI is SentinelOne's generative AI security analyst that helps teams investigate threats, hunt for IOCs, and analyze incidents using natural language. It combines offensive and defensive security knowledge (red team + blue team = purple).",
+    "review.sentinelone.faq.q3": "How does SentinelOne compare to CrowdStrike?",
+    "review.sentinelone.faq.a3": "Both are top-tier EDR solutions. SentinelOne typically costs 20-30% less and offers better automation/rollback. CrowdStrike has deeper threat intelligence and more mature ecosystem. Choice depends on priorities and budget.",
+    "review.sentinelone.faq.q4": "Does SentinelOne support Linux and Mac?",
+    "review.sentinelone.faq.a4": "Yes. SentinelOne provides full protection for Windows, macOS, Linux, and supports containers and cloud workloads. All platforms managed from a single console with consistent capabilities.",
+    "review.sentinelone.faq.q5": "Is SentinelOne suitable for small businesses?",
+    "review.sentinelone.faq.a5": "Yes, especially those with limited security staff. The autonomous capabilities and automation reduce the need for dedicated security analysts. Pricing becomes cost-effective around 50-100 endpoints."
+  },
+  "pt": {
+    "review.sentinelone.faq.q1": "O que é a capacidade de rollback do SentinelOne?",
+    "review.sentinelone.faq.a1": "O recurso Rollback exclusivo do SentinelOne pode reverter automaticamente a criptografia de ransomware restaurando os arquivos afetados para seu estado anterior ao ataque. Isso acontece automaticamente quando o ransomware é detectado, minimizando perda de dados e tempo de inatividade.",
+    "review.sentinelone.faq.q2": "O que é Purple AI?",
+    "review.sentinelone.faq.a2": "Purple AI é o analista de segurança com IA generativa do SentinelOne que ajuda as equipes a investigar ameaças, procurar por IOCs e analisar incidentes usando linguagem natural. Ele combina conhecimento de segurança ofensiva e defensiva (red team + blue team = purple).",
+    "review.sentinelone.faq.q3": "Como o SentinelOne se compara ao CrowdStrike?",
+    "review.sentinelone.faq.a3": "Ambos são soluções EDR de primeira linha. O SentinelOne normalmente custa 20-30% menos e oferece melhor automação/rollback. O CrowdStrike tem inteligência de ameaças mais profunda e um ecossistema mais maduro. A escolha depende de prioridades e orçamento.",
+    "review.sentinelone.faq.q4": "O SentinelOne oferece suporte a Linux e Mac?",
+    "review.sentinelone.faq.a4": "Sim. O SentinelOne fornece proteção completa para Windows, macOS, Linux e oferece suporte a contêineres e cargas de trabalho em nuvem. Todas as plataformas gerenciadas a partir de um único console com recursos consistentes.",
+    "review.sentinelone.faq.q5": "O SentinelOne é adequado para pequenos negócios?",
+    "review.sentinelone.faq.a5": "Sim, especialmente aqueles com equipe de segurança limitada. As capacidades autônomas e automação reduzem a necessidade de analistas de segurança dedicados. O preço se torna econômico em torno de 50-100 endpoints."
+  },
+  "zh": {
+    "review.sentinelone.faq.q1": "SentinelOne的回滚功能是什么?",
+    "review.sentinelone.faq.a1": "SentinelOne独特的回滚功能可以通过将受影响的文件恢复到攻击前的状态来自动逆转勒索软件加密。当检测到勒索软件时会自动发生,最大限度地减少数据丢失和停机时间。",
+    "review.sentinelone.faq.q2": "Purple AI是什么?",
+    "review.sentinelone.faq.a2": "Purple AI是SentinelOne的生成式AI安全分析师,帮助团队调查威胁、搜索IOC并使用自然语言分析事件。它结合了攻防安全知识(红队+蓝队=紫队)。",
+    "review.sentinelone.faq.q3": "SentinelOne与CrowdStrike相比如何?",
+    "review.sentinelone.faq.a3": "两者都是一流的EDR解决方案。SentinelOne通常成本低20-30%,并提供更好的自动化/回滚功能。CrowdStrike拥有更深入的威胁情报和更成熟的生态系统。选择取决于优先级和预算。",
+    "review.sentinelone.faq.q4": "SentinelOne支持Linux和Mac吗?",
+    "review.sentinelone.faq.a4": "是的。SentinelOne为Windows、macOS、Linux提供完整保护,并支持容器和云工作负载。所有平台从单个控制台管理,具有一致的功能。",
+    "review.sentinelone.faq.q5": "SentinelOne适合小企业吗?",
+    "review.sentinelone.faq.a5": "是的,特别是对于安全人员有限的企业。自主功能和自动化减少了对专业安全分析师的需求。价格在50-100个端点左右变得经济高效。"
+  },
+  "ja": {
+    "review.sentinelone.faq.q1": "SentinelOneのロールバック機能とは何ですか?",
+    "review.sentinelone.faq.a1": "SentinelOneの独自のロールバック機能は、影響を受けたファイルを攻撃前の状態に復元することで、ランサムウェア暗号化を自動的に逆転させることができます。ランサムウェアが検出されると自動的に発生し、データ損失とダウンタイムを最小限に抑えます。",
+    "review.sentinelone.faq.q2": "Purple AIとは何ですか?",
+    "review.sentinelone.faq.a2": "Purple AIはSentinelOneの生成型AI セキュリティアナリストで、チームが脅威を調査し、IOCを検索し、自然言語を使用してインシデントを分析するのに役立ちます。攻撃的防御的なセキュリティ知識(レッドチーム+ブルーチーム=パープルチーム)を組み合わせています。",
+    "review.sentinelone.faq.q3": "SentinelOneはCrowdStrikeとどのように比較されますか?",
+    "review.sentinelone.faq.a3": "どちらもトップティアのEDRソリューションです。SentinelOneは通常20-30%低い費用であり、より優れた自動化/ロールバックを提供します。CrowdStrikeはより深い脅威インテリジェンスと、より成熟したエコシステムを備えています。選択は優先順位と予算に基づきます。",
+    "review.sentinelone.faq.q4": "SentinelOneはLinuxとMacに対応していますか?",
+    "review.sentinelone.faq.a4": "はい。SentinelOneはWindows、macOS、Linuxに完全な保護を提供し、コンテナとクラウドワークロードをサポートしています。すべてのプラットフォームは単一のコンソールから管理でき、一貫した機能を備えています。",
+    "review.sentinelone.faq.q5": "SentinelOneは小規模企業に適していますか?",
+    "review.sentinelone.faq.a5": "はい、特にセキュリティスタッフが限られている企業向けです。自律的な機能と自動化により、専任のセキュリティアナリストの必要性が減少します。価格は約50-100のエンドポイント周辺で費用対効果が高くなります。"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.cyberark.faq.q1": "What is Privileged Access Management (PAM)?",
+    "review.cyberark.faq.a1": "PAM secures and manages accounts with elevated permissions (admin, root, service accounts). CyberArk vaults credentials, controls access, monitors sessions, and enforces least privilege to prevent credential theft and insider threats.",
+    "review.cyberark.faq.q2": "How does CyberArk prevent credential theft?",
+    "review.cyberark.faq.a2": "CyberArk stores credentials in an encrypted vault, rotates passwords automatically, requires just-in-time access approval, records privileged sessions, and detects anomalous behavior using AI—preventing attackers from stealing and reusing credentials.",
+    "review.cyberark.faq.q3": "What's the difference between PAM and EPM?",
+    "review.cyberark.faq.a3": "PAM (Privileged Access Management) secures admin accounts. EPM (Endpoint Privilege Management) removes admin rights from endpoints and elevates only when needed. CyberArk offers both to implement comprehensive least privilege.",
+    "review.cyberark.faq.q4": "Is CyberArk cloud-based or on-premise?",
+    "review.cyberark.faq.a4": "Both. CyberArk Privilege Cloud is SaaS. Self-Hosted allows on-premise or private cloud deployment. Many enterprises use hybrid—cloud management with on-premise vaults for sensitive credentials.",
+    "review.cyberark.faq.q5": "How long does CyberArk implementation take?",
+    "review.cyberark.faq.a5": "Typical enterprise deployments take 3-9 months depending on scope, number of systems, and organizational complexity. Phased rollouts starting with critical systems are recommended to demonstrate value early."
+  },
+  "es": {
+    "review.cyberark.faq.q1": "¿Qué es la Gestión de Acceso Privilegiado (PAM)?",
+    "review.cyberark.faq.a1": "PAM asegura y gestiona cuentas con permisos elevados (admin, root, cuentas de servicio). CyberArk almacena credenciales en un cofre, controla el acceso, monitorea sesiones e implementa el principio de menor privilegio para prevenir robo de credenciales y amenazas internas.",
+    "review.cyberark.faq.q2": "¿Cómo previene CyberArk el robo de credenciales?",
+    "review.cyberark.faq.a2": "CyberArk almacena credenciales en un cofre encriptado, rota contraseñas automáticamente, requiere aprobación de acceso justo a tiempo, registra sesiones privilegiadas y detecta comportamiento anómalo usando IA, previniendo que los atacantes roben y reutilicen credenciales.",
+    "review.cyberark.faq.q3": "¿Cuál es la diferencia entre PAM y EPM?",
+    "review.cyberark.faq.a3": "PAM (Gestión de Acceso Privilegiado) asegura cuentas de administrador. EPM (Gestión de Privilegios de Endpoint) elimina derechos de administrador en puntos finales y eleva solo cuando es necesario. CyberArk ofrece ambos para implementar un menor privilegio integral.",
+    "review.cyberark.faq.q4": "¿Es CyberArk basado en la nube o local?",
+    "review.cyberark.faq.a4": "Ambos. CyberArk Privilege Cloud es SaaS. Self-Hosted permite implementación local o en nube privada. Muchas empresas utilizan híbrido: gestión en la nube con cofres locales para credenciales sensibles.",
+    "review.cyberark.faq.q5": "¿Cuánto tiempo toma la implementación de CyberArk?",
+    "review.cyberark.faq.a5": "Las implementaciones empresariales típicas toman 3-9 meses dependiendo del alcance, número de sistemas y complejidad organizacional. Se recomiendan implementaciones por fases comenzando con sistemas críticos para demostrar valor temprano."
+  },
+  "fr": {
+    "review.cyberark.faq.q1": "Qu'est-ce que la Gestion de l'Accès Privilégié (PAM)?",
+    "review.cyberark.faq.a1": "La PAM sécurise et gère les comptes avec des permissions élevées (admin, root, comptes de service). CyberArk stocke les identifiants dans un coffre, contrôle l'accès, surveille les sessions et applique le principe du moindre privilège pour prévenir le vol d'identifiants et les menaces internes.",
+    "review.cyberark.faq.q2": "Comment CyberArk prévient-il le vol d'identifiants?",
+    "review.cyberark.faq.a2": "CyberArk stocke les identifiants dans un coffre chiffré, effectue une rotation automatique des mots de passe, requiert une approbation d'accès juste-à-temps, enregistre les sessions privilégiées et détecte les comportements anormaux avec l'IA—empêchant les attaquants de voler et de réutiliser les identifiants.",
+    "review.cyberark.faq.q3": "Quelle est la différence entre PAM et EPM?",
+    "review.cyberark.faq.a3": "La PAM (Gestion de l'Accès Privilégié) sécurise les comptes administrateur. L'EPM (Gestion des Privilèges de Point de Terminaison) supprime les droits administrateur des points de terminaison et les élève uniquement si nécessaire. CyberArk offre les deux pour implémenter un moindre privilège complet.",
+    "review.cyberark.faq.q4": "CyberArk est-il basé sur le cloud ou sur site?",
+    "review.cyberark.faq.a4": "Les deux. CyberArk Privilege Cloud est un SaaS. Auto-hébergé permet le déploiement sur site ou sur cloud privé. De nombreuses entreprises utilisent l'hybride: gestion dans le cloud avec des coffres sur site pour les identifiants sensibles.",
+    "review.cyberark.faq.q5": "Combien de temps prend la mise en œuvre de CyberArk?",
+    "review.cyberark.faq.a5": "Les déploiements d'entreprise typiques prennent 3-9 mois selon l'étendue, le nombre de systèmes et la complexité organisationnelle. Les déploiements par phases à partir des systèmes critiques sont recommandés pour démontrer la valeur rapidement."
+  },
+  "de": {
+    "review.cyberark.faq.q1": "Was ist Privileged Access Management (PAM)?",
+    "review.cyberark.faq.a1": "PAM sichert und verwaltet Konten mit erhöhten Berechtigungen (Admin, Root, Service-Konten). CyberArk speichert Anmeldedaten in einem Tresor, steuert den Zugriff, überwacht Sitzungen und setzt das Prinzip der minimalen Berechtigung durch, um Anmeldedatendiebstahl und Insider-Bedrohungen zu verhindern.",
+    "review.cyberark.faq.q2": "Wie verhindert CyberArk den Diebstahl von Anmeldedaten?",
+    "review.cyberark.faq.a2": "CyberArk speichert Anmeldedaten in einem verschlüsselten Tresor, rotiert Passwörter automatisch, erfordert Just-in-Time-Zugriffsgenehmigung, zeichnet privilegierte Sitzungen auf und erkennt anomales Verhalten mit KI - wodurch verhindert wird, dass Angreifer Anmeldedaten stehlen und wiederverwenden.",
+    "review.cyberark.faq.q3": "Welcher Unterschied besteht zwischen PAM und EPM?",
+    "review.cyberark.faq.a3": "PAM (Privileged Access Management) sichert Admin-Konten. EPM (Endpoint Privilege Management) entfernt Admin-Rechte von Endpunkten und erhöht sie nur bei Bedarf. CyberArk bietet beides, um umfassende minimale Berechtigung zu implementieren.",
+    "review.cyberark.faq.q4": "Ist CyberArk cloudbasiert oder lokal?",
+    "review.cyberark.faq.a4": "Beides. CyberArk Privilege Cloud ist SaaS. Self-Hosted ermöglicht lokale oder Private-Cloud-Bereitstellung. Viele Unternehmen nutzen Hybrid: Cloud-Management mit lokalen Tresoren für sensible Anmeldedaten.",
+    "review.cyberark.faq.q5": "Wie lange dauert die CyberArk-Implementierung?",
+    "review.cyberark.faq.a5": "Typische Enterprise-Bereitstellungen dauern 3-9 Monate, je nach Umfang, Anzahl der Systeme und organisatorischer Komplexität. Schrittweise Einführungen, beginnend mit kritischen Systemen, werden empfohlen, um den Wert frühzeitig zu demonstrieren."
+  }
+}

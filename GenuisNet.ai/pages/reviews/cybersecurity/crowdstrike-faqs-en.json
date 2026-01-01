@@ -1,0 +1,12 @@
+{
+  "review.crowdstrike.faq.q1": "Is CrowdStrike worth the cost?",
+  "review.crowdstrike.faq.a1": "For most enterprises, yes. The prevention of a single ransomware attack typically justifies years of licensing costs. CrowdStrike's detection rates and Charlotte AI capabilities deliver strong ROI for security-conscious organizations.",
+  "review.crowdstrike.faq.q2": "What is Charlotte AI?",
+  "review.crowdstrike.faq.a2": "Charlotte AI is CrowdStrike's generative AI security analyst introduced in 2023. It helps security teams investigate threats, write custom queries, and automate responses using natural language, dramatically accelerating SOC operations.",
+  "review.crowdstrike.faq.q3": "Does CrowdStrike require on-premise infrastructure?",
+  "review.crowdstrike.faq.a3": "No. Falcon is cloud-native and requires no on-premise infrastructure. The lightweight agent communicates directly with CrowdStrike's cloud, providing real-time protection and updates without maintenance overhead.",
+  "review.crowdstrike.faq.q4": "Can CrowdStrike protect Linux and Mac?",
+  "review.crowdstrike.faq.a4": "Yes. Falcon supports Windows, macOS, Linux, and mobile devices (iOS/Android) with a single unified agent and management console.",
+  "review.crowdstrike.faq.q5": "How does CrowdStrike compare to traditional antivirus?",
+  "review.crowdstrike.faq.a5": "CrowdStrike uses machine learning and behavioral analysis instead of signature-based detection. This provides superior protection against zero-day threats and ransomware that traditional AV misses."
+}

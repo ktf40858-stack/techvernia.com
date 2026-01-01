@@ -1,0 +1,14 @@
+{
+  "review.mem-ai.faq.q1": "Does Mem work offline?",
+  "review.mem-ai.faq.a1": "No, Mem currently requires an internet connection to function. All notes are stored in the cloud and AI features require connectivity. This is a limitation compared to local-first apps like Obsidian.",
+  "review.mem-ai.faq.q2": "How does Mem's AI organization work?",
+  "review.mem-ai.faq.a2": "Mem uses natural language processing to understand note content, automatically extract key concepts, identify entities (people, places, topics), and create connections between related notes. The more you use it, the better it gets at understanding your knowledge base.",
+  "review.mem-ai.faq.q3": "Can I import notes from other apps?",
+  "review.mem-ai.faq.a3": "Yes, Mem supports importing from various sources including plain text, Markdown, and can sync with email, Slack, and other platforms. However, migration from complex apps like Notion may require some manual work.",
+  "review.mem-ai.faq.q4": "Is there a free version of Mem?",
+  "review.mem-ai.faq.a4": "No permanent free tier, but Mem offers a 14-day free trial with full access to all features. After the trial, you need to subscribe at $14.99/month or $10/month annually.",
+  "review.mem-ai.faq.q5": "Can teams collaborate in Mem?",
+  "review.mem-ai.faq.a5": "Mem is primarily designed for personal knowledge management. While you can share individual notes, it lacks robust team collaboration features like real-time editing found in Notion or Google Docs.",
+  "review.mem-ai.faq.q6": "How does Mem compare to Notion AI?",
+  "review.mem-ai.faq.a6": "Mem's AI is more integrated into the core experience (auto-organization, smart search) while Notion AI is an add-on writing assistant. Mem is simpler and better for personal knowledge; Notion excels at team collaboration and databases."
+}

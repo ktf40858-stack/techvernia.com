@@ -1,0 +1,14 @@
+{
+  "review.marketmuse.faq.q1": "What is topic modeling in MarketMuse?",
+  "review.marketmuse.faq.a1": "Topic modeling is MarketMuse's proprietary AI technology that analyzes how comprehensively your content covers specific topics compared to competitors and top-ranking pages. It identifies related subtopics, concepts, and entities that should be covered to establish topical authority. This helps you understand not just keywords, but the full scope of knowledge needed to become an authority on a subject.",
+  "review.marketmuse.faq.q2": "Is MarketMuse worth the cost?",
+  "review.marketmuse.faq.a2": "MarketMuse is worth the investment for enterprise content teams, agencies, and businesses with large content libraries where strategic planning is critical. The insights it provides on content gaps, topical authority, and strategic opportunities can significantly improve content ROI. However, for small blogs or solo creators with limited budgets, more affordable alternatives like Frase or Surfer SEO may provide better value.",
+  "review.marketmuse.faq.q3": "Can I try MarketMuse for free?",
+  "review.marketmuse.faq.a3": "Yes, MarketMuse offers a free tier that includes 10 queries per month with access to content briefs and basic optimization features. This is enough to test the platform and understand its capabilities, though serious use requires upgrading to a paid plan. The free tier is one of the more generous among premium SEO tools.",
+  "review.marketmuse.faq.q4": "How does MarketMuse's content scoring work?",
+  "review.marketmuse.faq.a4": "MarketMuse analyzes top-ranking content for your target topic and creates a content model showing what comprehensive coverage looks like. Your content is then scored based on how well it covers the necessary topics, subtopics, and related concepts compared to that model. Higher scores indicate more comprehensive, authoritative coverage that's likely to rank well.",
+  "review.marketmuse.faq.q5": "Does MarketMuse include keyword research?",
+  "review.marketmuse.faq.a5": "MarketMuse focuses on topics rather than traditional keyword research. While it identifies relevant terms and concepts to cover, it doesn't provide search volume data or keyword difficulty scores. You'll still need traditional keyword research tools like Ahrefs or Semrush to find target keywords, then use MarketMuse to ensure comprehensive coverage of those topics.",
+  "review.marketmuse.faq.q6": "Can MarketMuse write content for me?",
+  "review.marketmuse.faq.a6": "MarketMuse includes an AI writing assistant that can generate first drafts and content sections. However, it's primarily a content intelligence and strategy platform rather than a content generator. The AI writing is meant to assist your process, not replace human writers. The platform's strength lies in strategic planning and optimization guidance rather than content creation."
+}

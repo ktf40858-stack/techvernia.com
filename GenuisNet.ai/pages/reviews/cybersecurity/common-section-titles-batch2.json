@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.common.best.use.cases": "Best Use Cases",
+    "review.common.best.for": "Best For:",
+    "review.common.may.not.be.ideal.for": "May Not Be Ideal For:",
+    "review.common.comparison": "Comparison",
+    "review.common.platform.comparison": "Platform Comparison",
+    "review.common.key.advantages": "Key Advantages",
+    "review.common.considerations": "Considerations",
+    "review.common.final.verdict": "Final Verdict",
+    "review.common.quick.stats": "Quick Stats",
+    "review.common.frequently.asked.questions": "Frequently Asked Questions"
+  },
+  "pt": {
+    "review.common.best.use.cases": "Melhores Casos de Uso",
+    "review.common.best.for": "Ideal Para:",
+    "review.common.may.not.be.ideal.for": "Pode Não Ser Ideal Para:",
+    "review.common.comparison": "Comparação",
+    "review.common.platform.comparison": "Comparação de Plataformas",
+    "review.common.key.advantages": "Principais Vantagens",
+    "review.common.considerations": "Considerações",
+    "review.common.final.verdict": "Veredicto Final",
+    "review.common.quick.stats": "Estatísticas Rápidas",
+    "review.common.frequently.asked.questions": "Perguntas Frequentes"
+  },
+  "zh": {
+    "review.common.best.use.cases": "最佳用例",
+    "review.common.best.for": "最适合：",
+    "review.common.may.not.be.ideal.for": "可能不适合：",
+    "review.common.comparison": "对比",
+    "review.common.platform.comparison": "平台对比",
+    "review.common.key.advantages": "主要优势",
+    "review.common.considerations": "注意事项",
+    "review.common.final.verdict": "最终评价",
+    "review.common.quick.stats": "快速统计",
+    "review.common.frequently.asked.questions": "常见问题"
+  },
+  "ja": {
+    "review.common.best.use.cases": "最適なユースケース",
+    "review.common.best.for": "最適な用途：",
+    "review.common.may.not.be.ideal.for": "適さない場合：",
+    "review.common.comparison": "比較",
+    "review.common.platform.comparison": "プラットフォーム比較",
+    "review.common.key.advantages": "主な利点",
+    "review.common.considerations": "検討事項",
+    "review.common.final.verdict": "最終判定",
+    "review.common.quick.stats": "クイック統計",
+    "review.common.frequently.asked.questions": "よくある質問"
+  }
+}

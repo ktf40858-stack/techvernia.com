@@ -1,0 +1,44 @@
+{
+  "pt": {
+    "review.mem-ai.faq.q1": "O Mem funciona offline?",
+    "review.mem-ai.faq.a1": "Não, Mem atualmente requer uma conexão à Internet para funcionar. Todas as notas são armazenadas na nuvem e os recursos de IA requerem conectividade. Esta é uma limitação comparada com aplicativos offline como Obsidian.",
+    "review.mem-ai.faq.q2": "Como funciona a organização de IA do Mem?",
+    "review.mem-ai.faq.a2": "Mem usa processamento de linguagem natural para entender o conteúdo das notas, extrair automaticamente conceitos-chave, identificar entidades (pessoas, lugares, tópicos) e criar conexões entre notas relacionadas. Quanto mais você o usa, melhor ele fica em entender sua base de conhecimento.",
+    "review.mem-ai.faq.q3": "Posso importar notas de outros aplicativos?",
+    "review.mem-ai.faq.a3": "Sim, Mem suporta importação de várias fontes, incluindo texto simples, Markdown, e pode sincronizar com email, Slack e outras plataformas. No entanto, a migração de aplicativos complexos como Notion pode exigir algum trabalho manual.",
+    "review.mem-ai.faq.q4": "Existe uma versão gratuita do Mem?",
+    "review.mem-ai.faq.a4": "Sem plano gratuito permanente, mas Mem oferece uma avaliação gratuita de 14 dias com acesso completo a todos os recursos. Após o teste, você precisa se inscrever por $14,99/mês ou $10/mês anualmente.",
+    "review.mem-ai.faq.q5": "As equipes podem colaborar no Mem?",
+    "review.mem-ai.faq.a5": "Mem é projetado principalmente para gestão de conhecimento pessoal. Embora você possa compartilhar notas individuais, ele carece de recursos robustos de colaboração em equipe como edição em tempo real encontrados em Notion ou Google Docs.",
+    "review.mem-ai.faq.q6": "Como Mem se compara ao Notion AI?",
+    "review.mem-ai.faq.a6": "A IA do Mem é mais integrada na experiência principal (auto-organização, busca inteligente) enquanto o Notion AI é um assistente de escrita complementar. Mem é mais simples e melhor para conhecimento pessoal; Notion se destaca em colaboração em equipe e bancos de dados."
+  },
+  "zh": {
+    "review.mem-ai.faq.q1": "Mem 可以离线使用吗?",
+    "review.mem-ai.faq.a1": "不可以，Mem 目前需要互联网连接才能正常运作。所有笔记都存储在云端，AI 功能需要网络连接。相比 Obsidian 等本地应用，这是一个限制。",
+    "review.mem-ai.faq.q2": "Mem 的 AI 组织功能如何运作?",
+    "review.mem-ai.faq.a2": "Mem 使用自然语言处理技术来理解笔记内容，自动提取关键概念，识别实体（人物、地点、主题），并在相关笔记之间建立连接。您使用得越多，它对您的知识库的理解就越好。",
+    "review.mem-ai.faq.q3": "我可以从其他应用导入笔记吗?",
+    "review.mem-ai.faq.a3": "可以，Mem 支持从多种来源导入，包括纯文本、Markdown，并可与电子邮件、Slack 和其他平台同步。但是，从 Notion 等复杂应用迁移可能需要一些手动工作。",
+    "review.mem-ai.faq.q4": "Mem 有免费版本吗?",
+    "review.mem-ai.faq.a4": "没有永久免费版，但 Mem 提供 14 天免费试用，可完整访问所有功能。试用期后，您需要以 $14.99/月 或每年 $10/月 的价格订阅。",
+    "review.mem-ai.faq.q5": "团队可以在 Mem 中协作吗?",
+    "review.mem-ai.faq.a5": "Mem 主要为个人知识管理而设计。虽然您可以共享单个笔记，但它缺少 Notion 或 Google Docs 中的强大团队协作功能，如实时编辑。",
+    "review.mem-ai.faq.q6": "Mem 与 Notion AI 相比如何?",
+    "review.mem-ai.faq.a6": "Mem 的 AI 更集成到核心体验中（自动组织、智能搜索），而 Notion AI 是附加的写作助手。Mem 更简单，更适合个人知识；Notion 擅长团队协作和数据库管理。"
+  },
+  "ja": {
+    "review.mem-ai.faq.q1": "Memはオフラインで動作しますか?",
+    "review.mem-ai.faq.a1": "いいえ、Memは現在、機能するためにインターネット接続が必要です。すべてのノートはクラウドに保存され、AI機能は接続が必須です。これはObsidianなどのローカルファーストアプリと比較して制限があります。",
+    "review.mem-ai.faq.q2": "Memの AI組織化はどのように機能しますか?",
+    "review.mem-ai.faq.a2": "Memは自然言語処理を使用してノートのコンテンツを理解し、重要な概念を自動抽出し、エンティティ（人物、場所、トピック）を識別し、関連するノート間の接続を作成します。使用するほど、ナレッジベースを理解するのに優れるようになります。",
+    "review.mem-ai.faq.q3": "他のアプリからノートをインポートできますか?",
+    "review.mem-ai.faq.a3": "はい、Memはプレーンテキスト、Markdown、メール、Slack、その他のプラットフォームとの同期など、さまざまなソースからのインポートをサポートしています。ただし、Notionなどの複雑なアプリからの移行には手動作業が必要な場合があります。",
+    "review.mem-ai.faq.q4": "Memに無料版はありますか?",
+    "review.mem-ai.faq.a4": "永続的な無料プランはありませんが、Memは14日間の無料トライアルを提供し、すべての機能に完全にアクセスできます。トライアル後は、月$14.99または年$10で購読する必要があります。",
+    "review.mem-ai.faq.q5": "チームはMemで協力できますか?",
+    "review.mem-ai.faq.a5": "Memは個人用知識管理用に設計されています。個別のノートを共有できますが、NotionやGoogle Docsで見られるようなリアルタイム編集などの堅牢なチーム協業機能が不足しています。",
+    "review.mem-ai.faq.q6": "MemはNotion AIと比較してどうですか?",
+    "review.mem-ai.faq.a6": "MemのAIはコア体験（自動組織化、スマート検索）により統合されており、Notion AIはアドオンの執筆アシスタントです。Memはより単純で個人用知識に適しており、Notionはチーム協業とデータベース管理で優れています。"
+  }
+}

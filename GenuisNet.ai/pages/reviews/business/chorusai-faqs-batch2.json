@@ -1,0 +1,38 @@
+{
+  "pt": {
+    "review.chorusai.faq.q1": "Quanto custa o Chorus.ai?",
+    "review.chorusai.faq.a1": "O Chorus.ai usa preços personalizados para empresas e não publica taxas padrão. Os preços variam tipicamente de US$100-150/usuário/mês para equipes menores até US$80-120/usuário/mês para implantações maiores, com descontos por volume e opções de pacote com ZoomInfo disponíveis. Entre em contato com a equipe de vendas da ZoomInfo para cotações específicas.",
+    "review.chorusai.faq.q2": "O Chorus.ai requer ZoomInfo?",
+    "review.chorusai.faq.a2": "Embora o Chorus.ai possa funcionar independentemente, agora faz parte do Revenue Operating System da ZoomInfo e oferece máximo valor quando integrado à plataforma de inteligência go-to-market da ZoomInfo. A integração profunda fornece insights unificados em prospecting, inteligência de conversas e operações de receita.",
+    "review.chorusai.faq.q3": "Com quais CRMs o Chorus.ai se integra?",
+    "review.chorusai.faq.a3": "O Chorus.ai oferece integrações nativas com Salesforce, Microsoft Dynamics 365 e HubSpot. A plataforma sincroniza automaticamente insights de conversas, gravações de chamadas e próximas etapas com seu CRM, eliminando entrada manual de dados e garantindo que seus dados de pipeline reflitam conversas reais com clientes.",
+    "review.chorusai.faq.q4": "Qual é a precisão da transcrição do Chorus.ai?",
+    "review.chorusai.faq.a4": "O Chorus.ai alcança 95%+ de precisão de transcrição em 30+ idiomas com identificação de falante. A IA melhora continuamente através de aprendizado de máquina e pode lidar com diversos sotaques, terminologia da indústria e níveis de qualidade de áudio. As transcrições são pesquisáveis e incluem marcas de tempo para fácil navegação.",
+    "review.chorusai.faq.q5": "O Chorus.ai é adequado para pequenos negócios?",
+    "review.chorusai.faq.a5": "O Chorus.ai foi projetado principalmente para organizações de vendas B2B empresariais com processos de vendas complexos. Pequenos negócios podem achar o preço e o conjunto de recursos excessivos para suas necessidades. Alternativas mais acessíveis como Fireflies.ai, Avoma ou recursos básicos em CRMs como HubSpot podem ser mais adequadas para equipes menores."
+  },
+  "zh": {
+    "review.chorusai.faq.q1": "Chorus.ai 的费用是多少?",
+    "review.chorusai.faq.a1": "Chorus.ai 采用自定义企业定价，不公布标准费率。小型团队的定价通常从 $100-150/用户/月到大型部署的 $80-120/用户/月，提供批量折扣和 ZoomInfo 捆绑选项。请联系 ZoomInfo 销售团队获取具体报价。",
+    "review.chorusai.faq.q2": "Chorus.ai 是否需要 ZoomInfo?",
+    "review.chorusai.faq.a2": "虽然 Chorus.ai 可以独立运行，但现在是 ZoomInfo 的 Revenue Operating System 的一部分，与 ZoomInfo 的 go-to-market 情报平台集成时价值最大。深度集成可在探客、对话情报和收入运营中提供统一的见解。",
+    "review.chorusai.faq.q3": "Chorus.ai 与哪些 CRM 集成?",
+    "review.chorusai.faq.a3": "Chorus.ai 提供与 Salesforce、Microsoft Dynamics 365 和 HubSpot 的原生集成。该平台会自动将对话见解、通话录音和后续步骤同步到您的 CRM，消除手动数据输入，并确保您的管道数据反映实际的客户对话。",
+    "review.chorusai.faq.q4": "Chorus.ai 的转录准确度如何?",
+    "review.chorusai.faq.a4": "Chorus.ai 在 30 多种语言中实现 95%+ 的转录精准度，具有说话人识别功能。AI 通过机器学习不断改进，可以处理各种口音、行业术语和音频质量水平。转录内容可搜索，并包含时间戳，便于导航。",
+    "review.chorusai.faq.q5": "Chorus.ai 适合小型企业吗?",
+    "review.chorusai.faq.a5": "Chorus.ai 主要为具有复杂销售流程的企业 B2B 销售组织设计。小型企业可能会发现定价和功能集对其需求过度。Fireflies.ai、Avoma 或 HubSpot 等 CRM 中的基本功能等更经济的替代方案可能更适合小型团队。"
+  },
+  "ja": {
+    "review.chorusai.faq.q1": "Chorus.ai の料金はいくらですか?",
+    "review.chorusai.faq.a1": "Chorus.ai はカスタム企業向け価格を採用しており、標準料金は公開していません。小規模チームの場合は通常 $100-150/ユーザー/月、大規模導入の場合は $80-120/ユーザー/月の価格帯で、ボリュームディスカウントおよび ZoomInfo バンドル オプションが利用できます。具体的な見積もりについては ZoomInfo 営業チームにお問い合わせください。",
+    "review.chorusai.faq.q2": "Chorus.ai には ZoomInfo が必要ですか?",
+    "review.chorusai.faq.a2": "Chorus.ai は独立して機能することができますが、現在は ZoomInfo の Revenue Operating System の一部であり、ZoomInfo の go-to-market インテリジェンス プラットフォームと統合した場合に最大の価値を提供します。深い統合により、見込み客開拓、会話インテリジェンス、および収益オペレーション全体にわたる統一されたインサイトが得られます。",
+    "review.chorusai.faq.q3": "Chorus.ai はどの CRM と統合されていますか?",
+    "review.chorusai.faq.a3": "Chorus.ai は Salesforce、Microsoft Dynamics 365、および HubSpot とのネイティブ統合を提供しています。プラットフォームは会話インサイト、通話録音、次のステップを自動的に CRM に同期し、手動データ入力を排除し、パイプラインデータが実際の顧客会話を反映していることを確保します。",
+    "review.chorusai.faq.q4": "Chorus.ai の文字起こし精度はどの程度ですか?",
+    "review.chorusai.faq.a4": "Chorus.ai は 30 以上の言語で 95%以上の文字起こし精度を実現し、話者識別機能を備えています。AI は機械学習を通じて継続的に改善され、様々なアクセント、業界用語、音声品質レベルに対応できます。トランスクリプトは検索可能であり、簡単なナビゲーションのためのタイムスタンプが含まれています。",
+    "review.chorusai.faq.q5": "Chorus.ai は小規模企業に適していますか?",
+    "review.chorusai.faq.a5": "Chorus.ai は、複雑な営業プロセスを持つエンタープライズ B2B 営業組織向けに設計されています。小規模企業は、その需要に対して価格と機能セットが過度であると感じるかもしれません。Fireflies.ai、Avoma、または HubSpot などの CRM の基本機能など、より手頃な代替案が小規模チームに適していることがあります。"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "en": {
+    "review.fortinet.faq.q1": "What makes this solution unique?",
+    "review.fortinet.faq.a1": "This platform combines advanced capabilities with enterprise-grade scalability, providing comprehensive protection for organizations of all sizes. Its proven track record and continuous innovation make it a trusted choice.",
+    "review.fortinet.faq.q2": "How does pricing work?",
+    "review.fortinet.faq.a2": "Pricing is customized based on organization size, features required, and deployment model. Contact sales for a detailed quote tailored to your specific needs and use case.",
+    "review.fortinet.faq.q3": "What kind of support is available?",
+    "review.fortinet.faq.a3": "Enterprise support includes dedicated account management, 24/7 technical support, regular training, and professional services for implementation and optimization.",
+    "review.fortinet.faq.q4": "Is there a free trial?",
+    "review.fortinet.faq.a4": "Demos and proof-of-concept deployments are available. Contact the sales team to arrange a personalized evaluation in your environment.",
+    "review.fortinet.faq.q5": "What industries use this solution?",
+    "review.fortinet.faq.a5": "Organizations across financial services, healthcare, government, retail, manufacturing, and technology sectors rely on this platform for their security needs."
+  },
+  "pt": {
+    "review.fortinet.faq.q1": "O que torna esta solução única?",
+    "review.fortinet.faq.a1": "Esta plataforma combina recursos avançados com escalabilidade de nível empresarial, proporcionando proteção abrangente para organizações de todos os tamanhos. Seu histórico comprovado e inovação contínua a tornam uma escolha confiável.",
+    "review.fortinet.faq.q2": "Como funciona o preço?",
+    "review.fortinet.faq.a2": "Os preços são personalizados com base no tamanho da organização, recursos necessários e modelo de implantação. Entre em contato com o departamento de vendas para uma cotação detalhada adaptada às suas necessidades e caso de uso específicos.",
+    "review.fortinet.faq.q3": "Que tipo de suporte está disponível?",
+    "review.fortinet.faq.a3": "O suporte corporativo inclui gerenciamento dedicado de conta, suporte técnico 24/7, treinamento regular e serviços profissionais para implementação e otimização.",
+    "review.fortinet.faq.q4": "Existe uma avaliação gratuita?",
+    "review.fortinet.faq.a4": "Demonstrações e implantações de prova de conceito estão disponíveis. Entre em contato com a equipe de vendas para agendar uma avaliação personalizada em seu ambiente.",
+    "review.fortinet.faq.q5": "Quais indústrias usam esta solução?",
+    "review.fortinet.faq.a5": "Organizações dos setores de serviços financeiros, saúde, governo, varejo, manufatura e tecnologia contam com esta plataforma para suas necessidades de segurança."
+  },
+  "zh": {
+    "review.fortinet.faq.q1": "是什么使这个解决方案独特?",
+    "review.fortinet.faq.a1": "该平台将先进功能与企业级可扩展性相结合,为各种规模的组织提供全面保护。其经过验证的跟踪记录和持续创新使其成为一个可信选择。",
+    "review.fortinet.faq.q2": "定价如何运作?",
+    "review.fortinet.faq.a2": "定价根据组织规模、所需功能和部署模式进行定制。联系销售部门获取针对您特定需求和使用场景的详细报价。",
+    "review.fortinet.faq.q3": "提供什么类型的支持?",
+    "review.fortinet.faq.a3": "企业支持包括专门的账户管理、24/7技术支持、定期培训和实施和优化的专业服务。",
+    "review.fortinet.faq.q4": "有免费试用吗?",
+    "review.fortinet.faq.a4": "演示和概念验证部署均可获得。请联系销售团队在您的环境中安排个性化评估。",
+    "review.fortinet.faq.q5": "哪些行业使用此解决方案?",
+    "review.fortinet.faq.a5": "来自金融服务、医疗保健、政府、零售、制造和技术等行业的组织依赖该平台来满足其安全需求。"
+  },
+  "ja": {
+    "review.fortinet.faq.q1": "このソリューションを独特にするものは何ですか?",
+    "review.fortinet.faq.a1": "このプラットフォームは、高度な機能と企業グレードのスケーラビリティを組み合わせ、あらゆる規模の組織に包括的な保護を提供します。その実績のある実績と継続的なイノベーションにより、信頼できる選択肢となっています。",
+    "review.fortinet.faq.q2": "価格はどのように機能しますか?",
+    "review.fortinet.faq.a2": "価格は組織のサイズ、必要な機能、デプロイメントモデルに基づいてカスタマイズされます。具体的なニーズと使用事例に合わせてカスタマイズされた詳細な見積もりについては、営業チームにお問い合わせください。",
+    "review.fortinet.faq.q3": "どのような種類のサポートが利用可能ですか?",
+    "review.fortinet.faq.a3": "エンタープライズサポートには、専用アカウント管理、24/7テクニカルサポート、定期的なトレーニング、実装と最適化のための専門サービスが含まれます。",
+    "review.fortinet.faq.q4": "無料トライアルはありますか?",
+    "review.fortinet.faq.a4": "デモとプルーフオブコンセプトデプロイメントが利用可能です。営業チームに連絡して、お客様の環境でのカスタマイズされた評価を手配してください。",
+    "review.fortinet.faq.q5": "このソリューションはどの業界で使用されていますか?",
+    "review.fortinet.faq.a5": "金融サービス、医療、政府、小売、製造、テクノロジーなど、様々な業界の組織がこのプラットフォームをセキュリティニーズに利用しています。"
+  }
+}

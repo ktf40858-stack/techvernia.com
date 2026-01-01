@@ -1,0 +1,12 @@
+{
+  "review.chorusai.faq.q1": "How much does Chorus.ai cost?",
+  "review.chorusai.faq.a1": "Chorus.ai uses custom enterprise pricing and doesn't publish standard rates. Pricing typically ranges from $100-150/user/month for smaller teams to $80-120/user/month for larger deployments, with volume discounts and ZoomInfo bundle options available. Contact ZoomInfo sales for specific quotes.",
+  "review.chorusai.faq.q2": "Does Chorus.ai require ZoomInfo?",
+  "review.chorusai.faq.a2": "While Chorus.ai can function independently, it's now part of ZoomInfo's Revenue Operating System and delivers maximum value when integrated with ZoomInfo's go-to-market intelligence platform. The deep integration provides unified insights across prospecting, conversation intelligence, and revenue operations.",
+  "review.chorusai.faq.q3": "What CRMs does Chorus.ai integrate with?",
+  "review.chorusai.faq.a3": "Chorus.ai offers native integrations with Salesforce, Microsoft Dynamics 365, and HubSpot. The platform automatically syncs conversation insights, call recordings, and next steps to your CRM, eliminating manual data entry and ensuring your pipeline data reflects actual customer conversations.",
+  "review.chorusai.faq.q4": "How accurate is Chorus.ai transcription?",
+  "review.chorusai.faq.a4": "Chorus.ai achieves 95%+ transcription accuracy across 30+ languages with speaker identification. The AI continuously improves through machine learning and can handle various accents, industry terminology, and audio quality levels. Transcripts are searchable and include timestamps for easy navigation.",
+  "review.chorusai.faq.q5": "Is Chorus.ai suitable for small businesses?",
+  "review.chorusai.faq.a5": "Chorus.ai is primarily designed for enterprise B2B sales organizations with complex sales processes. Small businesses may find the pricing and feature set excessive for their needs. More affordable alternatives like Fireflies.ai, Avoma, or basic features in CRMs like HubSpot may be better fits for smaller teams."
+}

@@ -1,0 +1,12 @@
+{
+  "review.drift.faq.q1": "How much does Drift cost?",
+  "review.drift.faq.a1": "Drift Premium starts at $2,500/month and includes live chat, chatbots, email, meeting scheduler, and 10 seats. Advanced and Enterprise plans use custom pricing based on features, user count, and Salesloft integration needs. Most implementations range from $30,000-100,000+ annually.",
+  "review.drift.faq.q2": "Does Drift integrate with Salesforce?",
+  "review.drift.faq.a2": "Yes, Drift offers robust native Salesforce integration that syncs conversations, creates leads/contacts, logs activities, and updates records bidirectionally. The integration enables sophisticated routing based on Salesforce data and ensures sales teams have complete conversation context in their CRM.",
+  "review.drift.faq.q3": "What's the difference between Drift and Intercom?",
+  "review.drift.faq.a3": "Drift focuses specifically on B2B sales and marketing conversations, emphasizing lead qualification and meeting booking. Intercom serves broader use cases including customer support, product tours, and B2C engagement. Drift is typically more expensive but offers stronger ABM and sales-focused features. Intercom provides better support capabilities and product messaging tools.",
+  "review.drift.faq.q4": "Is Drift owned by Salesloft?",
+  "review.drift.faq.a4": "Yes, Salesloft acquired Drift in 2023. The integration creates a comprehensive revenue orchestration platform combining Drift's conversational marketing with Salesloft's sales engagement capabilities. Existing Drift customers benefit from tighter integration with Salesloft's ecosystem while maintaining Drift's standalone functionality.",
+  "review.drift.faq.q5": "Can Drift work for small businesses?",
+  "review.drift.faq.a5": "While Drift works for small businesses, its premium pricing ($2,500+/month minimum) and B2B enterprise focus make it better suited for mid-market and larger companies. Small businesses with limited budgets should consider alternatives like HubSpot Chat (free tier), Intercom, Tidio, or Chatbot.com which offer more affordable entry points."
+}

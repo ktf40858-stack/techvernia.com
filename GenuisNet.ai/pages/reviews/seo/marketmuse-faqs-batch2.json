@@ -1,0 +1,44 @@
+{
+  "pt": {
+    "review.marketmuse.faq.q1": "O que é modelagem de tópicos no MarketMuse?",
+    "review.marketmuse.faq.a1": "A modelagem de tópicos é a tecnologia de IA proprietária da MarketMuse que analisa quão abrangentemente seu conteúdo cobre tópicos específicos em comparação com concorrentes e páginas mais bem classificadas. Ela identifica subtópicos, conceitos e entidades relacionados que devem ser cobertos para estabelecer autoridade temática. Isso ajuda você a entender não apenas palavras-chave, mas todo o escopo de conhecimento necessário para se tornar uma autoridade em um assunto.",
+    "review.marketmuse.faq.q2": "O MarketMuse vale o custo?",
+    "review.marketmuse.faq.a2": "O MarketMuse vale o investimento para equipes de conteúdo empresarial, agências e empresas com grandes bibliotecas de conteúdo onde o planejamento estratégico é crítico. Os insights que fornece sobre lacunas de conteúdo, autoridade temática e oportunidades estratégicas podem melhorar significativamente o ROI do conteúdo. No entanto, para pequenos blogs ou criadores solo com orçamentos limitados, alternativas mais acessíveis como Frase ou Surfer SEO podem oferecer melhor valor.",
+    "review.marketmuse.faq.q3": "Posso experimentar o MarketMuse gratuitamente?",
+    "review.marketmuse.faq.a3": "Sim, o MarketMuse oferece um nível gratuito que inclui 10 consultas por mês com acesso a resumos de conteúdo e recursos básicos de otimização. Isso é suficiente para testar a plataforma e entender seus recursos, embora o uso sério exija atualização para um plano pago. O nível gratuito é um dos mais generosos entre as ferramentas SEO premium.",
+    "review.marketmuse.faq.q4": "Como funciona a pontuação de conteúdo do MarketMuse?",
+    "review.marketmuse.faq.a4": "O MarketMuse analisa o conteúdo mais bem classificado para seu tópico-alvo e cria um modelo de conteúdo mostrando como é uma cobertura abrangente. Seu conteúdo é então pontuado com base em quão bem ele cobre os tópicos necessários, subtópicos e conceitos relacionados em comparação com esse modelo. Pontuações mais altas indicam cobertura mais abrangente e autoritativa que provavelmente será bem classificada.",
+    "review.marketmuse.faq.q5": "O MarketMuse inclui pesquisa de palavras-chave?",
+    "review.marketmuse.faq.a5": "O MarketMuse se concentra em tópicos em vez de pesquisa de palavras-chave tradicional. Embora identifique termos e conceitos relevantes para cobrir, não fornece dados de volume de pesquisa ou pontuações de dificuldade de palavras-chave. Você ainda precisará de ferramentas tradicionais de pesquisa de palavras-chave como Ahrefs ou Semrush para encontrar palavras-chave alvo, e então usar o MarketMuse para garantir cobertura abrangente desses tópicos.",
+    "review.marketmuse.faq.q6": "O MarketMuse pode escrever conteúdo para mim?",
+    "review.marketmuse.faq.a6": "O MarketMuse inclui um assistente de escrita de IA que pode gerar primeiros rascunhos e seções de conteúdo. No entanto, é principalmente uma plataforma de inteligência e estratégia de conteúdo em vez de um gerador de conteúdo. A escrita de IA é destinada a auxiliar seu processo, não substituir escritores humanos. A força da plataforma reside no planejamento estratégico e orientação de otimização em vez da criação de conteúdo."
+  },
+  "zh": {
+    "review.marketmuse.faq.q1": "MarketMuse中的主题建模是什么?",
+    "review.marketmuse.faq.a1": "主题建模是MarketMuse专有的AI技术,用于分析您的内容相比竞争对手和排名靠前的页面如何全面覆盖特定主题。它识别应涵盖的相关子主题、概念和实体,以建立主题权威。这有助于您理解的不仅是关键词,还包括成为某一主题权威所需的全部知识范围。",
+    "review.marketmuse.faq.q2": "MarketMuse值得投资吗?",
+    "review.marketmuse.faq.a2": "对于企业内容团队、代理机构和拥有大型内容库且战略规划至关重要的企业来说,MarketMuse值得投资。它提供的关于内容差距、主题权威和战略机会的洞察可以显著提高内容ROI。然而,对于预算有限的小型博客或个人创作者,Frase或Surfer SEO等更实惠的替代方案可能提供更好的价值。",
+    "review.marketmuse.faq.q3": "我可以免费试用MarketMuse吗?",
+    "review.marketmuse.faq.a3": "是的,MarketMuse提供免费套餐,每月包含10次查询,可访问内容简报和基本优化功能。这足以测试平台并了解其功能,尽管认真使用需要升级到付费计划。免费套餐是高级SEO工具中最慷慨的之一。",
+    "review.marketmuse.faq.q4": "MarketMuse的内容评分如何工作?",
+    "review.marketmuse.faq.a4": "MarketMuse分析您目标主题的最高排名内容,并创建一个内容模型,显示全面覆盖的样子。然后根据您的内容与该模型相比如何涵盖必要的主题、子主题和相关概念来评分。更高的分数表明更全面、更权威的覆盖,可能排名更好。",
+    "review.marketmuse.faq.q5": "MarketMuse包含关键词研究吗?",
+    "review.marketmuse.faq.a5": "MarketMuse专注于主题而不是传统的关键词研究。虽然它识别要涵盖的相关术语和概念,但不提供搜索量数据或关键词难度分数。您仍然需要Ahrefs或Semrush等传统关键词研究工具来查找目标关键词,然后使用MarketMuse确保这些主题的全面覆盖。",
+    "review.marketmuse.faq.q6": "MarketMuse可以为我写内容吗?",
+    "review.marketmuse.faq.a6": "MarketMuse包含可以生成初稿和内容部分的AI写作助手。然而,它主要是一个内容智能和策略平台,而不是内容生成器。AI写作旨在辅助您的流程,而不是取代人类作者。该平台的优势在于战略规划和优化指导,而不是内容创建。"
+  },
+  "ja": {
+    "review.marketmuse.faq.q1": "MarketMuseのトピックモデリングとは何ですか?",
+    "review.marketmuse.faq.a1": "トピックモデリングは、競合他社や上位ランキングページと比較して、あなたのコンテンツが特定のトピックをどれだけ包括的にカバーしているかを分析するMarketMuse独自のAI技術です。トピックの権威を確立するためにカバーすべき関連サブトピック、概念、エンティティを識別します。これにより、キーワードだけでなく、ある主題の権威になるために必要な知識の全範囲を理解できます。",
+    "review.marketmuse.faq.q2": "MarketMuseは費用に見合う価値がありますか?",
+    "review.marketmuse.faq.a2": "MarketMuseは、戦略的計画が重要な大規模なコンテンツライブラリを持つ企業コンテンツチーム、エージェンシー、企業にとって投資する価値があります。コンテンツギャップ、トピックの権威性、戦略的機会に関する洞察は、コンテンツROIを大幅に向上させることができます。ただし、予算が限られている小規模ブログや個人クリエイターには、FraseやSurfer SEOなどの手頃な代替案の方が良い価値を提供する可能性があります。",
+    "review.marketmuse.faq.q3": "MarketMuseを無料で試すことはできますか?",
+    "review.marketmuse.faq.a3": "はい、MarketMuseは月間10クエリを含む無料ティアを提供しており、コンテンツブリーフと基本的な最適化機能にアクセスできます。これはプラットフォームをテストし、その機能を理解するのに十分ですが、本格的な使用には有料プランへのアップグレードが必要です。無料ティアはプレミアムSEOツールの中で最も寛大なものの一つです。",
+    "review.marketmuse.faq.q4": "MarketMuseのコンテンツスコアリングはどのように機能しますか?",
+    "review.marketmuse.faq.a4": "MarketMuseはターゲットトピックの上位ランキングコンテンツを分析し、包括的なカバレッジがどのようなものかを示すコンテンツモデルを作成します。次に、そのモデルと比較して、必要なトピック、サブトピック、関連概念をどれだけうまくカバーしているかに基づいてコンテンツがスコアリングされます。高いスコアは、ランク付けされる可能性が高い、より包括的で権威のあるカバレッジを示します。",
+    "review.marketmuse.faq.q5": "MarketMuseにはキーワード調査が含まれていますか?",
+    "review.marketmuse.faq.a5": "MarketMuseは従来のキーワード調査ではなく、トピックに焦点を当てています。カバーすべき関連用語と概念を識別しますが、検索ボリュームデータやキーワード難易度スコアは提供しません。ターゲットキーワードを見つけるには、AhrefsやSemrushなどの従来のキーワード調査ツールが必要で、その後MarketMuseを使用してこれらのトピックの包括的なカバレッジを確保します。",
+    "review.marketmuse.faq.q6": "MarketMuseは私のためにコンテンツを書くことができますか?",
+    "review.marketmuse.faq.a6": "MarketMuseには、初稿とコンテンツセクションを生成できるAIライティングアシスタントが含まれています。ただし、主にコンテンツインテリジェンスと戦略プラットフォームであり、コンテンツジェネレーターではありません。AIライティングはプロセスを支援することを目的としており、人間のライターを置き換えるものではありません。プラットフォームの強みは、コンテンツ作成ではなく、戦略的計画と最適化のガイダンスにあります。"
+  }
+}
