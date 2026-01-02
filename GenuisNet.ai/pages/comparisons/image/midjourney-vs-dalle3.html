@@ -297,6 +297,15 @@
             width: 16px;
             height: 16px;
         }
+
+        /* Fix: Hide dropdown menu background text */
+        .dropdown-menu {
+            display: none !important;
+        }
+        .dropdown:hover .dropdown-menu,
+        .dropdown.active .dropdown-menu {
+            display: block !important;
+        }
   </style>
 </head>
 <body>
