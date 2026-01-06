@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+<title>Debug Test</title>
+<style>
+        body { padding: 50px; background: #222; color: white; font-family: Arial; }
+        .test-box { background: #444; padding: 30px; margin: 20px 0; border-radius: 10px; }
+        button, a {
+            display: block;
+            margin: 10px 0;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            background: #049FD9;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover, a:hover { background: #0284c7; }
+        #log {
+            background: black;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            min-height: 100px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+<h1><span data-i18n="review.test-debug.test.de.navigation.-.certifications">Test de Navigation - Certifications</span></h1>
+<div class="test-box">
+<h2><span data-i18n="review.test-debug.test.1.lien.direct.simple">Test 1: Lien Direct Simple</span></h2>
+<a href="../../certifications/ccna.html">Cliquez ici pour CCNA</a>
+</div>
+<div class="test-box">
+<h2><span data-i18n="review.test-debug.test.2.bouton.avec.javascript">Test 2: Bouton avec JavaScript</span></h2>
+<button onclick="navigateToCCNA()">Aller vers CCNA (JavaScript)</button>
+</div>
+<div class="test-box">
+<h2><span data-i18n="review.test-debug.test.3.vrifier.si.le">Test 3: Vérifier si le fichier existe</span></h2>
+<button onclick="checkFile()">Vérifier fichier CCNA</button>
+</div>
+<div class="test-box">
+<h2><span data-i18n="review.test-debug.test.4.chemin.absolu">Test 4: Chemin absolu</span></h2>
+<button onclick="openAbsolute()">Ouvrir chemin absolu</button>
+</div>
+<h2><span data-i18n="review.test-debug.console.log">Console Log:</span></h2>
+<div id="log"></div>
+<script>
+        function log(message) {
+            const logDiv = document.getElementById('log');
+            const time = new Date().toLocaleTimeString();
+            logDiv.innerHTML += `[${time}] ${message}<br>`;
+            console.log(message);
+        }
+
+        log('Page chargée');
+        log('Chemin actuel: ' + window.location.href);
+
+        function navigateToCCNA() {
+            log('Tentative de navigation vers CCNA...');
+            const url = '../../certifications/ccna.html';
+            log('URL cible: ' + url);
+            window.location.href = url;
+        }
+
+        function checkFile() {
+            log('Vérification du fichier...');
+            fetch('../../certifications/ccna.html')
+                .then(response => {
+                    log('Response status: ' + response.status);
+                    if (response.ok) {
+                        log('<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Fichier trouvé!');
+                    } else {
+                        log('<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Fichier non trouvé (status: ' + response.status + ')');
+                    }
+                })
+                .catch(error => {
+                    log('<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Erreur: ' + error.message);
+                });
+        }
+
+        function openAbsolute() {
+            const absolutePath = '/home/komet/Desktop/Projekt/AI Tools/TechVernia/pages/certifications/ccna.html';
+            log('Tentative avec chemin absolu: ' + absolutePath);
+            window.location.href = 'file://' + absolutePath;
+        }
+
+        // Test au chargement
+        window.addEventListener('load', () => {
+            log('Window loaded');
+            log('Base URL: ' + document.baseURI);
+        });
+    </script>
+</body>
+</html>
