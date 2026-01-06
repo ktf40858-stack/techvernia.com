@@ -55,7 +55,7 @@ const devnetAssociateTranslations = {
         "cert.visit_portal": "Visit the official Cisco DevNet portal for more information and registration details.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+        "footer.copyright": "© 2025 TechVernia. All rights reserved.",
         "footer.trademark": "Cisco and DevNet are registered trademarks of Cisco Systems, Inc."
     },
     fr: {
@@ -114,7 +114,7 @@ const devnetAssociateTranslations = {
         "cert.visit_portal": "Visitez le portail officiel Cisco DevNet pour plus d'informations et détails d'inscription.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. Tous droits réservés.",
+        "footer.copyright": "© 2025 TechVernia. Tous droits réservés.",
         "footer.trademark": "Cisco et DevNet sont des marques déposées de Cisco Systems, Inc."
     },
     de: {
@@ -173,7 +173,7 @@ const devnetAssociateTranslations = {
         "cert.visit_portal": "Besuchen Sie das offizielle Cisco DevNet-Portal für weitere Informationen und Anmeldedetails.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. Alle Rechte vorbehalten.",
+        "footer.copyright": "© 2025 TechVernia. Alle Rechte vorbehalten.",
         "footer.trademark": "Cisco und DevNet sind eingetragene Marken von Cisco Systems, Inc."
     },
     es: {
@@ -232,7 +232,7 @@ const devnetAssociateTranslations = {
         "cert.visit_portal": "Visite el portal oficial de Cisco DevNet para más información y detalles de registro.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. Todos los derechos reservados.",
+        "footer.copyright": "© 2025 TechVernia. Todos los derechos reservados.",
         "footer.trademark": "Cisco y DevNet son marcas registradas de Cisco Systems, Inc."
     },
     pt: {
@@ -291,7 +291,7 @@ const devnetAssociateTranslations = {
         "cert.visit_portal": "Visite o portal oficial Cisco DevNet para mais informações e detalhes de registro.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. Todos os direitos reservados.",
+        "footer.copyright": "© 2025 TechVernia. Todos os direitos reservados.",
         "footer.trademark": "Cisco e DevNet são marcas registradas da Cisco Systems, Inc."
     },
     zh: {
@@ -350,7 +350,7 @@ const devnetAssociateTranslations = {
         "cert.visit_portal": "访问官方思科 DevNet 门户网站,了解更多信息和注册详情。",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. 保留所有权利。",
+        "footer.copyright": "© 2025 TechVernia. 保留所有权利。",
         "footer.trademark": "Cisco 和 DevNet 是 Cisco Systems, Inc. 的注册商标。"
     },
     ja: {
@@ -409,7 +409,7 @@ const devnetAssociateTranslations = {
         "cert.visit_portal": "詳細情報と登録の詳細については、公式 Cisco DevNet ポータルをご覧ください。",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. 無断複写・転載を禁じます。",
+        "footer.copyright": "© 2025 TechVernia. 無断複写・転載を禁じます。",
         "footer.trademark": "Cisco および DevNet は、Cisco Systems, Inc. の登録商標です。"
     },
     ko: {
@@ -468,7 +468,7 @@ const devnetAssociateTranslations = {
         "cert.visit_portal": "자세한 정보 및 등록 세부 정보는 공식 Cisco DevNet 포털을 방문하십시오.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. 모든 권리 보유.",
+        "footer.copyright": "© 2025 TechVernia. 모든 권리 보유.",
         "footer.trademark": "Cisco 및 DevNet은 Cisco Systems, Inc.의 등록 상표입니다."
     },
     ar: {
@@ -527,7 +527,7 @@ const devnetAssociateTranslations = {
         "cert.visit_portal": "قم بزيارة بوابة Cisco DevNet الرسمية للحصول على مزيد من المعلومات وتفاصيل التسجيل.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. جميع الحقوق محفوظة.",
+        "footer.copyright": "© 2025 TechVernia. جميع الحقوق محفوظة.",
         "footer.trademark": "Cisco و DevNet هي علامات تجارية مسجلة لشركة Cisco Systems, Inc."
     },
     hi: {
@@ -586,7 +586,7 @@ const devnetAssociateTranslations = {
         "cert.visit_portal": "अधिक जानकारी और पंजीकरण विवरण के लिए आधिकारिक Cisco DevNet पोर्टल पर जाएं।",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. सर्वाधिकार सुरक्षित।",
+        "footer.copyright": "© 2025 TechVernia. सर्वाधिकार सुरक्षित।",
         "footer.trademark": "Cisco और DevNet, Cisco Systems, Inc. के पंजीकृत ट्रेडमार्क हैं।"
     }
 };

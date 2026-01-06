@@ -6,7 +6,7 @@ console.log('📦 ai-agents-2026-i18n.js loaded');
 const articleTranslations = {
     en: {
         // Meta & Page Title
-        pageTitle: "The Rise of AI Agents: How Autonomous AI is Changing Everything in 2026 | GenuisNet.ai",
+        pageTitle: "The Rise of AI Agents: How Autonomous AI is Changing Everything in 2026 | TechVernia",
         metaDescription: "The Rise of AI Agents in 2026. How autonomous AI is changing everything from coding to customer service. Complete guide to AI agents.",
         metaKeywords: "AI agents, autonomous AI, AI automation, Claude computer use, GPT-4, AI productivity",
 
@@ -201,11 +201,11 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
 
     es: {
-        pageTitle: "El Auge de los Agentes IA: Cómo la IA Autónoma Está Cambiando Todo en 2026 | GenuisNet.ai",
+        pageTitle: "El Auge de los Agentes IA: Cómo la IA Autónoma Está Cambiando Todo en 2026 | TechVernia",
         metaDescription: "El Auge de los Agentes IA en 2026. Cómo la IA autónoma está cambiando todo, desde la codificación hasta el servicio al cliente. Guía completa sobre agentes IA.",
         metaKeywords: "agentes IA, IA autónoma, automatización IA, uso de computadora Claude, GPT-4, productividad IA",
 
@@ -368,11 +368,11 @@ const articleTranslations = {
         footerDesc: "Tu fuente confiable de reseñas, comparaciones y guías de herramientas IA.",
         footerCategories: "Categorías",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados."
     },
 
     fr: {
-        pageTitle: "L'Essor des Agents IA : Comment l'IA Autonome Change Tout en 2026 | GenuisNet.ai",
+        pageTitle: "L'Essor des Agents IA : Comment l'IA Autonome Change Tout en 2026 | TechVernia",
         metaDescription: "L'Essor des Agents IA en 2026. Comment l'IA autonome change tout, du codage au service client. Guide complet sur les agents IA.",
         metaKeywords: "agents IA, IA autonome, automatisation IA, utilisation ordinateur Claude, GPT-4, productivité IA",
 
@@ -535,11 +535,11 @@ const articleTranslations = {
         footerDesc: "Votre source de confiance pour les avis, comparaisons et guides d'outils IA.",
         footerCategories: "Catégories",
         footerResources: "Ressources",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés."
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés."
     },
 
     de: {
-        pageTitle: "Der Aufstieg der KI-Agenten: Wie Autonome KI 2026 Alles Verändert | GenuisNet.ai",
+        pageTitle: "Der Aufstieg der KI-Agenten: Wie Autonome KI 2026 Alles Verändert | TechVernia",
         metaDescription: "Der Aufstieg der KI-Agenten in 2026. Wie autonome KI alles verändert, vom Codieren bis zum Kundenservice. Vollständiger Leitfaden zu KI-Agenten.",
         metaKeywords: "KI-Agenten, autonome KI, KI-Automatisierung, Claude Computernutzung, GPT-4, KI-Produktivität",
 
@@ -702,11 +702,11 @@ const articleTranslations = {
         footerDesc: "Ihre vertrauenswürdige Quelle für KI-Tool-Bewertungen, Vergleiche und Leitfäden.",
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten."
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
 
     pt: {
-        pageTitle: "A Ascensão dos Agentes IA: Como a IA Autônoma Está Mudando Tudo em 2026 | GenuisNet.ai",
+        pageTitle: "A Ascensão dos Agentes IA: Como a IA Autônoma Está Mudando Tudo em 2026 | TechVernia",
         metaDescription: "A Ascensão dos Agentes IA em 2026. Como a IA autônoma está mudando tudo, desde codificação até atendimento ao cliente. Guia completo sobre agentes IA.",
         metaKeywords: "agentes IA, IA autônoma, automação IA, uso de computador Claude, GPT-4, produtividade IA",
 
@@ -869,14 +869,14 @@ const articleTranslations = {
         footerDesc: "Sua fonte confiável para avaliações, comparações e guias de ferramentas IA.",
         footerCategories: "Categorias",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados."
     },
 
     // Chinese, Japanese, Korean, Arabic, and Hindi translations would follow the same pattern
     // For brevity in this response, I'm including placeholder objects for these languages
 
     zh: {
-        pageTitle: "AI 代理的崛起：自主 AI 如何在 2026 年改变一切 | GenuisNet.ai",
+        pageTitle: "AI 代理的崛起：自主 AI 如何在 2026 年改变一切 | TechVernia",
         metaDescription: "2026 年 AI 代理的崛起。自主 AI 如何改变从编码到客户服务的一切。AI 代理完整指南。",
         metaKeywords: "AI代理, 自主AI, AI自动化, Claude计算机使用, GPT-4, AI生产力",
         heroTitle: "AI 代理的崛起：自主 AI 如何在 2026 年改变一切",
@@ -890,12 +890,12 @@ const articleTranslations = {
         footerDesc: "您值得信赖的 AI 工具评论、比较和指南来源。",
         footerCategories: "类别",
         footerResources: "资源",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。"
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。"
         // ... (would include all other keys with Chinese translations)
     },
 
     ja: {
-        pageTitle: "AIエージェントの台頭：自律型AIが2026年にすべてを変える方法 | GenuisNet.ai",
+        pageTitle: "AIエージェントの台頭：自律型AIが2026年にすべてを変える方法 | TechVernia",
         metaDescription: "2026年におけるAIエージェントの台頭。自律型AIがコーディングからカスタマーサービスまですべてを変える方法。AIエージェントの完全ガイド。",
         metaKeywords: "AIエージェント, 自律型AI, AI自動化, Claudeコンピューター使用, GPT-4, AI生産性",
         heroTitle: "AIエージェントの台頭：自律型AIが2026年にすべてを変える方法",
@@ -909,12 +909,12 @@ const articleTranslations = {
         footerDesc: "AIツールのレビュー、比較、ガイドの信頼できる情報源。",
         footerCategories: "カテゴリー",
         footerResources: "リソース",
-        footerCopyright: "© 2026 GenuisNet.ai. 全著作権所有。"
+        footerCopyright: "© 2026 TechVernia. 全著作権所有。"
         // ... (would include all other keys with Japanese translations)
     },
 
     ko: {
-        pageTitle: "AI 에이전트의 부상: 자율 AI가 2026년에 모든 것을 바꾸는 방법 | GenuisNet.ai",
+        pageTitle: "AI 에이전트의 부상: 자율 AI가 2026년에 모든 것을 바꾸는 방법 | TechVernia",
         metaDescription: "2026년 AI 에이전트의 부상. 자율 AI가 코딩에서 고객 서비스까지 모든 것을 어떻게 바꾸는지. AI 에이전트 완전 가이드.",
         metaKeywords: "AI 에이전트, 자율 AI, AI 자동화, Claude 컴퓨터 사용, GPT-4, AI 생산성",
         heroTitle: "AI 에이전트의 부상: 자율 AI가 2026년에 모든 것을 바꾸는 방법",
@@ -928,12 +928,12 @@ const articleTranslations = {
         footerDesc: "AI 도구 리뷰, 비교 및 가이드의 신뢰할 수 있는 출처.",
         footerCategories: "카테고리",
         footerResources: "리소스",
-        footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유."
+        footerCopyright: "© 2026 TechVernia. 모든 권리 보유."
         // ... (would include all other keys with Korean translations)
     },
 
     ar: {
-        pageTitle: "صعود وكلاء الذكاء الاصطناعي: كيف يغير الذكاء الاصطناعي المستقل كل شيء في 2026 | GenuisNet.ai",
+        pageTitle: "صعود وكلاء الذكاء الاصطناعي: كيف يغير الذكاء الاصطناعي المستقل كل شيء في 2026 | TechVernia",
         metaDescription: "صعود وكلاء الذكاء الاصطناعي في 2026. كيف يغير الذكاء الاصطناعي المستقل كل شيء من البرمجة إلى خدمة العملاء. دليل كامل لوكلاء الذكاء الاصطناعي.",
         metaKeywords: "وكلاء الذكاء الاصطناعي, ذكاء اصطناعي مستقل, أتمتة الذكاء الاصطناعي, استخدام الكمبيوتر كلود, GPT-4, إنتاجية الذكاء الاصطناعي",
         heroTitle: "صعود وكلاء الذكاء الاصطناعي: كيف يغير الذكاء الاصطناعي المستقل كل شيء في 2026",
@@ -947,12 +947,12 @@ const articleTranslations = {
         footerDesc: "مصدرك الموثوق لمراجعات ومقارنات وأدلة أدوات الذكاء الاصطناعي.",
         footerCategories: "الفئات",
         footerResources: "الموارد",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة."
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة."
         // ... (would include all other keys with Arabic translations)
     },
 
     hi: {
-        pageTitle: "AI एजेंटों का उदय: स्वायत्त AI 2026 में सब कुछ कैसे बदल रहा है | GenuisNet.ai",
+        pageTitle: "AI एजेंटों का उदय: स्वायत्त AI 2026 में सब कुछ कैसे बदल रहा है | TechVernia",
         metaDescription: "2026 में AI एजेंटों का उदय। स्वायत्त AI कोडिंग से लेकर ग्राहक सेवा तक सब कुछ कैसे बदल रहा है। AI एजेंटों की पूर्ण गाइड।",
         metaKeywords: "AI एजेंट, स्वायत्त AI, AI स्वचालन, Claude कंप्यूटर उपयोग, GPT-4, AI उत्पादकता",
         heroTitle: "AI एजेंटों का उदय: स्वायत्त AI 2026 में सब कुछ कैसे बदल रहा है",
@@ -966,7 +966,7 @@ const articleTranslations = {
         footerDesc: "AI टूल समीक्षाओं, तुलनाओं और गाइड के लिए आपका विश्वसनीय स्रोत।",
         footerCategories: "श्रेणियाँ",
         footerResources: "संसाधन",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।"
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।"
         // ... (would include all other keys with Hindi translations)
     }
 };

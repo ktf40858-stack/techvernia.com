@@ -6,7 +6,7 @@ console.log('[i18n] jasper-vs-copyai-i18n.js loaded');
 const articleTranslations = {
     en: {
         // Meta & Page
-        pageTitle: "Jasper AI vs Copy.ai: Which AI Writing Tool is Best for Marketing? | GenuisNet.ai",
+        pageTitle: "Jasper AI vs Copy.ai: Which AI Writing Tool is Best for Marketing? | TechVernia",
         metaDescription: "",
         heroTitle: "Jasper AI vs Copy.ai: Which is Best for Marketing?",
         heroExcerpt: "Head-to-head comparison for content creators and marketing teams.",
@@ -123,7 +123,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved.",
+        footerCopyright: "© 2026 TechVernia. All rights reserved.",
 
         // CTAs
         cta1_title: "Try Both Risk-Free",
@@ -226,7 +226,7 @@ const articleTranslations = {
     },
     es: {
         // Meta & Page
-        pageTitle: "Jasper AI vs Copy.ai: ¿Cuál es la Mejor Herramienta de IA para Marketing? | GenuisNet.ai",
+        pageTitle: "Jasper AI vs Copy.ai: ¿Cuál es la Mejor Herramienta de IA para Marketing? | TechVernia",
         metaDescription: "",
         heroTitle: "Jasper AI vs Copy.ai: ¿Cuál es Mejor para Marketing?",
         heroExcerpt: "Comparación directa para creadores de contenido y equipos de marketing.",
@@ -343,7 +343,7 @@ const articleTranslations = {
         footerDesc: "Su fuente confiable de reseñas, comparaciones y guías de herramientas de IA.",
         footerCategories: "Categorías",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados.",
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados.",
 
         // CTAs
         cta1_title: "Prueba Ambos Sin Riesgo",
@@ -446,7 +446,7 @@ const articleTranslations = {
     },
     fr: {
         // Meta & Page
-        pageTitle: "Jasper AI vs Copy.ai : Quel Outil d'IA d'Écriture est le Meilleur pour le Marketing ? | GenuisNet.ai",
+        pageTitle: "Jasper AI vs Copy.ai : Quel Outil d'IA d'Écriture est le Meilleur pour le Marketing ? | TechVernia",
         metaDescription: "",
         heroTitle: "Jasper AI vs Copy.ai : Lequel est le Meilleur pour le Marketing ?",
         heroExcerpt: "Comparaison directe pour créateurs de contenu et équipes marketing.",
@@ -563,7 +563,7 @@ const articleTranslations = {
         footerDesc: "Votre source de confiance pour les avis, comparaisons et guides d'outils IA.",
         footerCategories: "Catégories",
         footerResources: "Ressources",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés.",
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés.",
 
         // CTAs
         cta1_title: "Essayez les Deux Sans Risque",
@@ -666,7 +666,7 @@ const articleTranslations = {
     },
     de: {
         // Meta & Page
-        pageTitle: "Jasper AI vs Copy.ai: Welches KI-Schreibtool ist am Besten für Marketing? | GenuisNet.ai",
+        pageTitle: "Jasper AI vs Copy.ai: Welches KI-Schreibtool ist am Besten für Marketing? | TechVernia",
         metaDescription: "",
         heroTitle: "Jasper AI vs Copy.ai: Welches ist am Besten für Marketing?",
         heroExcerpt: "Direkter Vergleich für Content-Ersteller und Marketing-Teams.",
@@ -783,7 +783,7 @@ const articleTranslations = {
         footerDesc: "Ihre vertrauenswürdige Quelle für KI-Tool-Bewertungen, Vergleiche und Leitfäden.",
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten.",
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten.",
 
         // CTAs
         cta1_title: "Probieren Sie Beide Risikofrei",
@@ -886,7 +886,7 @@ const articleTranslations = {
     },
     pt: {
         // Meta & Page
-        pageTitle: "Jasper AI vs Copy.ai: Qual Ferramenta de IA de Escrita é Melhor para Marketing? | GenuisNet.ai",
+        pageTitle: "Jasper AI vs Copy.ai: Qual Ferramenta de IA de Escrita é Melhor para Marketing? | TechVernia",
         metaDescription: "",
         heroTitle: "Jasper AI vs Copy.ai: Qual é Melhor para Marketing?",
         heroExcerpt: "Comparação direta para criadores de conteúdo e equipes de marketing.",
@@ -1003,7 +1003,7 @@ const articleTranslations = {
         footerDesc: "Sua fonte confiável de avaliações, comparações e guias de ferramentas de IA.",
         footerCategories: "Categorias",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados.",
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados.",
 
         // CTAs
         cta1_title: "Experimente Ambos Sem Risco",
@@ -1106,7 +1106,7 @@ const articleTranslations = {
     },
     zh: {
         // Meta & Page
-        pageTitle: "Jasper AI vs Copy.ai：哪个AI写作工具最适合营销？| GenuisNet.ai",
+        pageTitle: "Jasper AI vs Copy.ai：哪个AI写作工具最适合营销？| TechVernia",
         metaDescription: "",
         heroTitle: "Jasper AI vs Copy.ai：哪个最适合营销？",
         heroExcerpt: "为内容创作者和营销团队提供的正面对比。",
@@ -1223,7 +1223,7 @@ const articleTranslations = {
         footerDesc: "您值得信赖的AI工具评测、对比和指南来源。",
         footerCategories: "分类",
         footerResources: "资源",
-        footerCopyright: "© 2026 GenuisNet.ai. 版权所有。",
+        footerCopyright: "© 2026 TechVernia. 版权所有。",
 
         // CTAs
         cta1_title: "免费试用两个平台",
@@ -1326,7 +1326,7 @@ const articleTranslations = {
     },
     ja: {
         // Meta & Page
-        pageTitle: "Jasper AI vs Copy.ai：マーケティングに最適なAIライティングツールはどれ？| GenuisNet.ai",
+        pageTitle: "Jasper AI vs Copy.ai：マーケティングに最適なAIライティングツールはどれ？| TechVernia",
         metaDescription: "",
         heroTitle: "Jasper AI vs Copy.ai：マーケティングに最適なのは？",
         heroExcerpt: "コンテンツクリエイターとマーケティングチーム向けの徹底比較。",
@@ -1443,7 +1443,7 @@ const articleTranslations = {
         footerDesc: "AIツールのレビュー、比較、ガイドの信頼できる情報源。",
         footerCategories: "カテゴリー",
         footerResources: "リソース",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved.",
+        footerCopyright: "© 2026 TechVernia. All rights reserved.",
 
         // CTAs
         cta1_title: "リスクフリーで両方を試す",
@@ -1546,7 +1546,7 @@ const articleTranslations = {
     },
     ko: {
         // Meta & Page
-        pageTitle: "Jasper AI vs Copy.ai: 마케팅에 가장 적합한 AI 작성 도구는? | GenuisNet.ai",
+        pageTitle: "Jasper AI vs Copy.ai: 마케팅에 가장 적합한 AI 작성 도구는? | TechVernia",
         metaDescription: "",
         heroTitle: "Jasper AI vs Copy.ai: 마케팅에 가장 적합한 것은?",
         heroExcerpt: "콘텐츠 제작자 및 마케팅 팀을 위한 직접 비교.",
@@ -1663,7 +1663,7 @@ const articleTranslations = {
         footerDesc: "AI 도구 리뷰, 비교 및 가이드의 신뢰할 수 있는 소스입니다.",
         footerCategories: "카테고리",
         footerResources: "리소스",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved.",
+        footerCopyright: "© 2026 TechVernia. All rights reserved.",
 
         // CTAs
         cta1_title: "두 플랫폼 모두 무료로 체험하세요",
@@ -1766,7 +1766,7 @@ const articleTranslations = {
     },
     ar: {
         // Meta & Page
-        pageTitle: "Jasper AI vs Copy.ai: ما هي أفضل أداة كتابة بالذكاء الاصطناعي للتسويق؟ | GenuisNet.ai",
+        pageTitle: "Jasper AI vs Copy.ai: ما هي أفضل أداة كتابة بالذكاء الاصطناعي للتسويق؟ | TechVernia",
         metaDescription: "",
         heroTitle: "Jasper AI vs Copy.ai: أيهما الأفضل للتسويق؟",
         heroExcerpt: "مقارنة مباشرة لمنشئي المحتوى وفرق التسويق.",
@@ -1883,7 +1883,7 @@ const articleTranslations = {
         footerDesc: "مصدرك الموثوق لمراجعات أدوات الذكاء الاصطناعي والمقارنات والأدلة.",
         footerCategories: "الفئات",
         footerResources: "الموارد",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة.",
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة.",
 
         // CTAs
         cta1_title: "جرب كليهما بدون مخاطر",
@@ -1986,7 +1986,7 @@ const articleTranslations = {
     },
     hi: {
         // Meta & Page
-        pageTitle: "Jasper AI vs Copy.ai: मार्केटिंग के लिए सर्वश्रेष्ठ AI लेखन उपकरण कौन सा है? | GenuisNet.ai",
+        pageTitle: "Jasper AI vs Copy.ai: मार्केटिंग के लिए सर्वश्रेष्ठ AI लेखन उपकरण कौन सा है? | TechVernia",
         metaDescription: "",
         heroTitle: "Jasper AI vs Copy.ai: मार्केटिंग के लिए सबसे अच्छा कौन सा है?",
         heroExcerpt: "सामग्री निर्माताओं और मार्केटिंग टीमों के लिए सीधी तुलना।",
@@ -2103,7 +2103,7 @@ const articleTranslations = {
         footerDesc: "AI उपकरण समीक्षाओं, तुलनाओं और गाइडों के लिए आपका विश्वसनीय स्रोत।",
         footerCategories: "श्रेणियां",
         footerResources: "संसाधन",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।",
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।",
 
         // CTAs
         cta1_title: "दोनों को जोखिम-मुक्त आज़माएं",

@@ -62,7 +62,7 @@ const articleTranslations = {
         list6_4: "Review all AI-generated code carefully",
         list6_5: "Combine multiple tools (e.g., Codeium + Continue.dev)",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         para1_1: "GitHub Copilot ($10/month) and Cursor ($20/month) are powerful, but not every developer can or wants to pay monthly fees. Fortunately, several excellentfree AI coding assistantshave emerged that rival premium tools.",
         para2_1: "FREE for individuals (unlimited)",
         para2_10: "FREE for individuals",
@@ -110,7 +110,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     es: {
         heading1: "Why Free AI Coding Tools Matter",
@@ -170,7 +170,7 @@ const articleTranslations = {
         list6_4: "Review all AI-generated code carefully",
         list6_5: "Combine multiple tools (e.g., Codeium + Continue.dev)",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         para1_1: "GitHub Copilot ($10/month) and Cursor ($20/month) are powerful, but not every developer can or wants to pay monthly fees. Fortunately, several excellentfree AI coding assistantshave emerged that rival premium tools.",
         para2_1: "FREE for individuals (unlimited)",
         para2_10: "FREE for individuals",
@@ -218,7 +218,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     fr: {
         heading1: "Why Free AI Coding Tools Matter",
@@ -278,7 +278,7 @@ const articleTranslations = {
         list6_4: "Review all AI-generated code carefully",
         list6_5: "Combine multiple tools (e.g., Codeium + Continue.dev)",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         para1_1: "GitHub Copilot ($10/month) and Cursor ($20/month) are powerful, but not every developer can or wants to pay monthly fees. Fortunately, several excellentfree AI coding assistantshave emerged that rival premium tools.",
         para2_1: "FREE for individuals (unlimited)",
         para2_10: "FREE for individuals",
@@ -326,7 +326,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     de: {
         heading1: "Why Free AI Coding Tools Matter",
@@ -386,7 +386,7 @@ const articleTranslations = {
         list6_4: "Review all AI-generated code carefully",
         list6_5: "Combine multiple tools (e.g., Codeium + Continue.dev)",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         para1_1: "GitHub Copilot ($10/month) and Cursor ($20/month) are powerful, but not every developer can or wants to pay monthly fees. Fortunately, several excellentfree AI coding assistantshave emerged that rival premium tools.",
         para2_1: "FREE for individuals (unlimited)",
         para2_10: "FREE for individuals",
@@ -434,7 +434,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     pt: {
         heading1: "Why Free AI Coding Tools Matter",
@@ -494,7 +494,7 @@ const articleTranslations = {
         list6_4: "Review all AI-generated code carefully",
         list6_5: "Combine multiple tools (e.g., Codeium + Continue.dev)",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         para1_1: "GitHub Copilot ($10/month) and Cursor ($20/month) are powerful, but not every developer can or wants to pay monthly fees. Fortunately, several excellentfree AI coding assistantshave emerged that rival premium tools.",
         para2_1: "FREE for individuals (unlimited)",
         para2_10: "FREE for individuals",
@@ -542,7 +542,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     zh: {
         heading1: "Why Free AI Coding Tools Matter",
@@ -602,7 +602,7 @@ const articleTranslations = {
         list6_4: "Review all AI-generated code carefully",
         list6_5: "Combine multiple tools (e.g., Codeium + Continue.dev)",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         para1_1: "GitHub Copilot ($10/month) and Cursor ($20/month) are powerful, but not every developer can or wants to pay monthly fees. Fortunately, several excellentfree AI coding assistantshave emerged that rival premium tools.",
         para2_1: "FREE for individuals (unlimited)",
         para2_10: "FREE for individuals",
@@ -650,7 +650,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     ja: {
         heading1: "Why Free AI Coding Tools Matter",
@@ -710,7 +710,7 @@ const articleTranslations = {
         list6_4: "Review all AI-generated code carefully",
         list6_5: "Combine multiple tools (e.g., Codeium + Continue.dev)",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         para1_1: "GitHub Copilot ($10/month) and Cursor ($20/month) are powerful, but not every developer can or wants to pay monthly fees. Fortunately, several excellentfree AI coding assistantshave emerged that rival premium tools.",
         para2_1: "FREE for individuals (unlimited)",
         para2_10: "FREE for individuals",
@@ -758,7 +758,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     ko: {
         heading1: "Why Free AI Coding Tools Matter",
@@ -818,7 +818,7 @@ const articleTranslations = {
         list6_4: "Review all AI-generated code carefully",
         list6_5: "Combine multiple tools (e.g., Codeium + Continue.dev)",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         para1_1: "GitHub Copilot ($10/month) and Cursor ($20/month) are powerful, but not every developer can or wants to pay monthly fees. Fortunately, several excellentfree AI coding assistantshave emerged that rival premium tools.",
         para2_1: "FREE for individuals (unlimited)",
         para2_10: "FREE for individuals",
@@ -866,7 +866,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     ar: {
         heading1: "Why Free AI Coding Tools Matter",
@@ -926,7 +926,7 @@ const articleTranslations = {
         list6_4: "Review all AI-generated code carefully",
         list6_5: "Combine multiple tools (e.g., Codeium + Continue.dev)",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         para1_1: "GitHub Copilot ($10/month) and Cursor ($20/month) are powerful, but not every developer can or wants to pay monthly fees. Fortunately, several excellentfree AI coding assistantshave emerged that rival premium tools.",
         para2_1: "FREE for individuals (unlimited)",
         para2_10: "FREE for individuals",
@@ -974,7 +974,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     hi: {
         heading1: "Why Free AI Coding Tools Matter",
@@ -1034,7 +1034,7 @@ const articleTranslations = {
         list6_4: "Review all AI-generated code carefully",
         list6_5: "Combine multiple tools (e.g., Codeium + Continue.dev)",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         para1_1: "GitHub Copilot ($10/month) and Cursor ($20/month) are powerful, but not every developer can or wants to pay monthly fees. Fortunately, several excellentfree AI coding assistantshave emerged that rival premium tools.",
         para2_1: "FREE for individuals (unlimited)",
         para2_10: "FREE for individuals",
@@ -1082,7 +1082,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
 };
 

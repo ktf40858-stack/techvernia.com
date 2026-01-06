@@ -26,7 +26,7 @@ window.jncisMistaiWirelessTranslations = {
     "cert.study_resources": "Study Resources",
     "cert.validity": "Validity",
     "cert.visit_portal": "Visit the official Specialist Level training portal for more information and registration details.",
-    "footer.copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+    "footer.copyright": "© 2025 TechVernia. All rights reserved.",
     "footer.trademark": "Specialist Level and related trademarks are property of Juniper Networks, Inc.",
     "nav.back_to_review": "← Back to Juniper Review"
   },
@@ -56,16 +56,16 @@ window.jncisMistaiWirelessTranslations = {
     "cert.study_resources": "Ressources d'Étude",
     "cert.validity": "Validité",
     "cert.visit_portal": "Visitez le portail de formation officiel de niveau spécialiste pour plus d'informations et de détails d'inscription.",
-    "footer.copyright": "© 2025 GenuisNet.ai. Tous droits réservés.",
+    "footer.copyright": "© 2025 TechVernia. Tous droits réservés.",
     "footer.trademark": "Specialist Level et les marques associées sont la propriété de Juniper Networks, Inc.",
     "nav.back_to_review": "← Retour à l'évaluation Juniper"
   },
   de: {
-    "copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+    "copyright": "© 2025 TechVernia. All rights reserved.",
     "trademark": "Specialist Level and related trademarks are property of Juniper Networks, Inc."
   },
   es: {
-    "copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+    "copyright": "© 2025 TechVernia. All rights reserved.",
     "trademark": "Specialist Level and related trademarks are property of Juniper Networks, Inc."
   },
   pt: {
@@ -94,7 +94,7 @@ window.jncisMistaiWirelessTranslations = {
     "cert.study_resources": "Recursos de Estudo",
     "cert.validity": "Validade",
     "cert.visit_portal": "Visite o portal oficial de treinamento de nível especialista para mais informações e detalhes de registro.",
-    "footer.copyright": "© 2025 GenuisNet.ai. Todos os direitos reservados.",
+    "footer.copyright": "© 2025 TechVernia. Todos os direitos reservados.",
     "footer.trademark": "Specialist Level e marcas relacionadas são propriedade da Juniper Networks, Inc.",
     "nav.back_to_review": "← Voltar à avaliação da Juniper"
   },
@@ -124,7 +124,7 @@ window.jncisMistaiWirelessTranslations = {
     "cert.study_resources": "学习资源",
     "cert.validity": "有效期",
     "cert.visit_portal": "访问官方专家级别培训门户以获取更多信息和注册详细信息。",
-    "footer.copyright": "© 2025 GenuisNet.ai。保留所有权利。",
+    "footer.copyright": "© 2025 TechVernia。保留所有权利。",
     "footer.trademark": "Specialist Level及相关商标是Juniper Networks, Inc.的财产。",
     "nav.back_to_review": "← 返回Juniper评估"
   },
@@ -154,7 +154,7 @@ window.jncisMistaiWirelessTranslations = {
     "cert.study_resources": "学習リソース",
     "cert.validity": "有効期限",
     "cert.visit_portal": "詳細情報と登録の詳細については、公式のスペシャリストレベルトレーニングポータルをご覧ください。",
-    "footer.copyright": "© 2025 GenuisNet.ai。All rights reserved。",
+    "footer.copyright": "© 2025 TechVernia。All rights reserved。",
     "footer.trademark": "Specialist Levelおよび関連する商標は、Juniper Networks, Inc.の財産です。",
     "nav.back_to_review": "← Juniperレビューに戻る"
   },
@@ -184,7 +184,7 @@ window.jncisMistaiWirelessTranslations = {
     "cert.study_resources": "학습 자료",
     "cert.validity": "유효기간",
     "cert.visit_portal": "자세한 정보 및 등록 세부 정보는 공식 전문가 레벨 교육 포털을 방문하십시오.",
-    "footer.copyright": "© 2025 GenuisNet.ai. 모든 권리 보유.",
+    "footer.copyright": "© 2025 TechVernia. 모든 권리 보유.",
     "footer.trademark": "Specialist Level 및 관련 상표는 Juniper Networks, Inc.의 재산입니다.",
     "nav.back_to_review": "← Juniper 리뷰로 돌아가기"
   },
@@ -214,7 +214,7 @@ window.jncisMistaiWirelessTranslations = {
     "cert.study_resources": "موارد الدراسة",
     "cert.validity": "الصلاحية",
     "cert.visit_portal": "قم بزيارة بوابة التدريب الرسمية لمستوى المتخصص لمزيد من المعلومات وتفاصيل التسجيل.",
-    "footer.copyright": "© 2025 GenuisNet.ai. جميع الحقوق محفوظة.",
+    "footer.copyright": "© 2025 TechVernia. جميع الحقوق محفوظة.",
     "footer.trademark": "Specialist Level والعلامات التجارية ذات الصلة هي ملك لـ Juniper Networks, Inc.",
     "nav.back_to_review": "← العودة إلى مراجعة Juniper"
   },
@@ -244,7 +244,7 @@ window.jncisMistaiWirelessTranslations = {
     "cert.study_resources": "अध्ययन संसाधन",
     "cert.validity": "वैधता",
     "cert.visit_portal": "अधिक जानकारी और पंजीकरण विवरण के लिए आधिकारिक विशेषज्ञ स्तर प्रशिक्षण पोर्टल पर जाएं।",
-    "footer.copyright": "© 2025 GenuisNet.ai। सर्वाधिकार सुरक्षित।",
+    "footer.copyright": "© 2025 TechVernia। सर्वाधिकार सुरक्षित।",
     "footer.trademark": "Specialist Level और संबंधित ट्रेडमार्क Juniper Networks, Inc. की संपत्ति हैं।",
     "nav.back_to_review": "← Juniper समीक्षा पर वापस जाएं"
   }

@@ -8,7 +8,7 @@ console.log("[1/2] midjourney-vs-dalle-i18n.js loading...");
 const articleTranslations = {
     en: {
         // Meta & Page Title
-        pageTitle: "Midjourney V6 vs DALL-E 3: The Ultimate Image Generation Showdown | GenuisNet.ai",
+        pageTitle: "Midjourney V6 vs DALL-E 3: The Ultimate Image Generation Showdown | TechVernia",
         metaDescription: "Midjourney V6 vs DALL-E 3 comparison 2026. Detailed analysis with sample images, pricing breakdown, and recommendations for choosing the best AI image generator.",
         metaKeywords: "Midjourney vs DALL-E 3, AI image generation, Midjourney V6, DALL-E 3, AI art",
 
@@ -183,11 +183,11 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
 
     es: {
-        pageTitle: "Midjourney V6 vs DALL-E 3: El Enfrentamiento Definitivo de Generación de Imágenes | GenuisNet.ai",
+        pageTitle: "Midjourney V6 vs DALL-E 3: El Enfrentamiento Definitivo de Generación de Imágenes | TechVernia",
         metaDescription: "Comparación Midjourney V6 vs DALL-E 3 2026. Análisis detallado con imágenes de muestra, desglose de precios y recomendaciones para elegir el mejor generador de imágenes IA.",
         metaKeywords: "Midjourney vs DALL-E 3, generación de imágenes IA, Midjourney V6, DALL-E 3, arte IA",
 
@@ -349,11 +349,11 @@ const articleTranslations = {
         footerDesc: "Tu fuente confiable de reseñas, comparaciones y guías de herramientas IA.",
         footerCategories: "Categorías",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados."
     },
 
     fr: {
-        pageTitle: "Midjourney V6 vs DALL-E 3 : L'Affrontement Ultime de Génération d'Images | GenuisNet.ai",
+        pageTitle: "Midjourney V6 vs DALL-E 3 : L'Affrontement Ultime de Génération d'Images | TechVernia",
         metaDescription: "Comparaison Midjourney V6 vs DALL-E 3 2026. Analyse détaillée avec exemples d'images, répartition des prix et recommandations pour choisir le meilleur générateur d'images IA.",
         metaKeywords: "Midjourney vs DALL-E 3, génération d'images IA, Midjourney V6, DALL-E 3, art IA",
 
@@ -515,11 +515,11 @@ const articleTranslations = {
         footerDesc: "Votre source de confiance pour les avis, comparaisons et guides d'outils IA.",
         footerCategories: "Catégories",
         footerResources: "Ressources",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés."
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés."
     },
 
     de: {
-        pageTitle: "Midjourney V6 vs DALL-E 3: Der Ultimative Bildgenerierungs-Vergleich | GenuisNet.ai",
+        pageTitle: "Midjourney V6 vs DALL-E 3: Der Ultimative Bildgenerierungs-Vergleich | TechVernia",
         metaDescription: "Midjourney V6 vs DALL-E 3 Vergleich 2026. Detaillierte Analyse mit Beispielbildern, Preisaufschlüsselung und Empfehlungen zur Auswahl des besten KI-Bildgenerators.",
         metaKeywords: "Midjourney vs DALL-E 3, KI-Bildgenerierung, Midjourney V6, DALL-E 3, KI-Kunst",
 
@@ -681,11 +681,11 @@ const articleTranslations = {
         footerDesc: "Ihre vertrauenswürdige Quelle für KI-Tool-Bewertungen, Vergleiche und Leitfäden.",
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten."
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
 
     pt: {
-        pageTitle: "Midjourney V6 vs DALL-E 3: O Confronto Definitivo de Geração de Imagens | GenuisNet.ai",
+        pageTitle: "Midjourney V6 vs DALL-E 3: O Confronto Definitivo de Geração de Imagens | TechVernia",
         metaDescription: "Comparação Midjourney V6 vs DALL-E 3 2026. Análise detalhada com imagens de amostra, detalhamento de preços e recomendações para escolher o melhor gerador de imagens IA.",
         metaKeywords: "Midjourney vs DALL-E 3, geração de imagens IA, Midjourney V6, DALL-E 3, arte IA",
 
@@ -847,15 +847,15 @@ const articleTranslations = {
         footerDesc: "Sua fonte confiável para avaliações, comparações e guias de ferramentas IA.",
         footerCategories: "Categorias",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados."
     },
 
     // Simplified versions for ZH, JA, KO, AR, HI (key elements only for brevity)
-    zh: { pageTitle: "Midjourney V6 vs DALL-E 3：终极图像生成对决 | GenuisNet.ai", footerDesc: "您值得信赖的 AI 工具评论、比较和指南来源。", footerCategories: "类别", footerResources: "资源", footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。" },
-    ja: { pageTitle: "Midjourney V6 vs DALL-E 3：究極の画像生成対決 | GenuisNet.ai", footerDesc: "AIツールのレビュー、比較、ガイドの信頼できる情報源。", footerCategories: "カテゴリー", footerResources: "リソース", footerCopyright: "© 2026 GenuisNet.ai. 全著作権所有。" },
-    ko: { pageTitle: "Midjourney V6 vs DALL-E 3：궁극의 이미지 생성 대결 | GenuisNet.ai", footerDesc: "AI 도구 리뷰, 비교 및 가이드의 신뢰할 수 있는 출처.", footerCategories: "카테고리", footerResources: "리소스", footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유." },
-    ar: { pageTitle: "Midjourney V6 مقابل DALL-E 3: المواجهة النهائية لتوليد الصور | GenuisNet.ai", footerDesc: "مصدرك الموثوق لمراجعات ومقارنات وأدلة أدوات الذكاء الاصطناعي.", footerCategories: "الفئات", footerResources: "الموارد", footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة." },
-    hi: { pageTitle: "Midjourney V6 vs DALL-E 3: अंतिम छवि निर्माण टकराव | GenuisNet.ai", footerDesc: "AI टूल समीक्षाओं, तुलनाओं और गाइड के लिए आपका विश्वसनीय स्रोत।", footerCategories: "श्रेणियाँ", footerResources: "संसाधन", footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।" }
+    zh: { pageTitle: "Midjourney V6 vs DALL-E 3：终极图像生成对决 | TechVernia", footerDesc: "您值得信赖的 AI 工具评论、比较和指南来源。", footerCategories: "类别", footerResources: "资源", footerCopyright: "© 2026 TechVernia. 保留所有权利。" },
+    ja: { pageTitle: "Midjourney V6 vs DALL-E 3：究極の画像生成対決 | TechVernia", footerDesc: "AIツールのレビュー、比較、ガイドの信頼できる情報源。", footerCategories: "カテゴリー", footerResources: "リソース", footerCopyright: "© 2026 TechVernia. 全著作権所有。" },
+    ko: { pageTitle: "Midjourney V6 vs DALL-E 3：궁극의 이미지 생성 대결 | TechVernia", footerDesc: "AI 도구 리뷰, 비교 및 가이드의 신뢰할 수 있는 출처.", footerCategories: "카테고리", footerResources: "리소스", footerCopyright: "© 2026 TechVernia. 모든 권리 보유." },
+    ar: { pageTitle: "Midjourney V6 مقابل DALL-E 3: المواجهة النهائية لتوليد الصور | TechVernia", footerDesc: "مصدرك الموثوق لمراجعات ومقارنات وأدلة أدوات الذكاء الاصطناعي.", footerCategories: "الفئات", footerResources: "الموارد", footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة." },
+    hi: { pageTitle: "Midjourney V6 vs DALL-E 3: अंतिम छवि निर्माण टकराव | TechVernia", footerDesc: "AI टूल समीक्षाओं, तुलनाओं और गाइड के लिए आपका विश्वसनीय स्रोत।", footerCategories: "श्रेणियाँ", footerResources: "संसाधन", footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।" }
 };
 
 // Initialize i18n for this article

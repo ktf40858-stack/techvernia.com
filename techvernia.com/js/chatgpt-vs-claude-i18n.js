@@ -6,7 +6,7 @@ console.log('📦 chatgpt-vs-claude-i18n.js loaded');
 const articleTranslations = {
     en: {
         // Meta & Page
-        pageTitle: "ChatGPT Plus vs Claude Pro: Which $20/Month Subscription is Worth It? | GenuisNet.ai",
+        pageTitle: "ChatGPT Plus vs Claude Pro: Which $20/Month Subscription is Worth It? | TechVernia",
         metaDescription: "ChatGPT Plus vs Claude Pro comparison. Which $20/month AI subscription offers the best value? Detailed features, limitations, and recommendations.",
 
         // Hero Section
@@ -182,7 +182,7 @@ const articleTranslations = {
 
     es: {
         // Meta & Page
-        pageTitle: "ChatGPT Plus vs Claude Pro: ¿Qué Suscripción de $20/Mes Vale la Pena? | GenuisNet.ai",
+        pageTitle: "ChatGPT Plus vs Claude Pro: ¿Qué Suscripción de $20/Mes Vale la Pena? | TechVernia",
         metaDescription: "Comparación ChatGPT Plus vs Claude Pro. ¿Qué suscripción de IA de $20/mes ofrece el mejor valor? Características detalladas, limitaciones y recomendaciones.",
 
         // Hero Section
@@ -357,7 +357,7 @@ const articleTranslations = {
     },
 
     fr: {
-        pageTitle: "ChatGPT Plus vs Claude Pro : Quel abonnement à $20/mois vaut-il le coup ? | GenuisNet.ai",
+        pageTitle: "ChatGPT Plus vs Claude Pro : Quel abonnement à $20/mois vaut-il le coup ? | TechVernia",
         metaDescription: "Comparaison ChatGPT Plus vs Claude Pro. Quel abonnement IA à $20/mois offre le meilleur rapport qualité-prix ? Fonctionnalités détaillées, limitations et recommandations.",
         heroTitle: "ChatGPT Plus vs Claude Pro : Quel abonnement à $20/mois vaut-il le coup ?",
         heroExcerpt: "OpenAI et Anthropic proposent tous deux des abonnements IA premium au même prix. Nous les avons testés en profondeur pour vous aider à décider lequel offre le meilleur rapport qualité-prix pour vos besoins.",
@@ -478,7 +478,7 @@ const articleTranslations = {
     },
 
     de: {
-    pageTitle: "ChatGPT Plus vs Claude Pro: Welches $20/Monat-Abonnement lohnt sich? | GenuisNet.ai",
+    pageTitle: "ChatGPT Plus vs Claude Pro: Welches $20/Monat-Abonnement lohnt sich? | TechVernia",
     metaDescription: "ChatGPT Plus vs Claude Pro Vergleich. Welches $20/Monat-KI-Abonnement bietet das beste Preis-Leistungs-Verhältnis? Detaillierte Funktionen, Einschränkungen und Empfehlungen.",
     heroTitle: "ChatGPT Plus vs Claude Pro: Welches $20/Monat-Abonnement lohnt sich?",
     heroExcerpt: "Sowohl OpenAI als auch Anthropic bieten Premium-KI-Abonnements zum gleichen Preis an. Wir haben beide ausführlich getestet, um Ihnen bei der Entscheidung zu helfen, welches das beste Preis-Leistungs-Verhältnis für Ihre Bedürfnisse bietet.",
@@ -599,7 +599,7 @@ const articleTranslations = {
 },
 
 pt: {
-    pageTitle: "ChatGPT Plus vs Claude Pro: Qual assinatura de $20/mês vale a pena? | GenuisNet.ai",
+    pageTitle: "ChatGPT Plus vs Claude Pro: Qual assinatura de $20/mês vale a pena? | TechVernia",
     metaDescription: "Comparação ChatGPT Plus vs Claude Pro. Qual assinatura de IA de $20/mês oferece o melhor valor? Recursos detalhados, limitações e recomendações.",
     heroTitle: "ChatGPT Plus vs Claude Pro: Qual assinatura de $20/mês vale a pena?",
     heroExcerpt: "Tanto a OpenAI quanto a Anthropic oferecem assinaturas premium de IA pelo mesmo preço. Testamos ambos extensivamente para ajudá-lo a decidir qual oferece o melhor valor para suas necessidades.",
@@ -720,7 +720,7 @@ pt: {
 },
 
 zh: {
-    pageTitle: "ChatGPT Plus vs Claude Pro：哪个每月20美元的订阅值得购买？| GenuisNet.ai",
+    pageTitle: "ChatGPT Plus vs Claude Pro：哪个每月20美元的订阅值得购买？| TechVernia",
     metaDescription: "ChatGPT Plus vs Claude Pro 对比。哪个每月20美元的AI订阅提供最佳价值？详细功能、限制和建议。",
     heroTitle: "ChatGPT Plus vs Claude Pro：哪个每月20美元的订阅值得购买？",
     heroExcerpt: "OpenAI和Anthropic都以相同的价格提供高级AI订阅。我们对两者进行了广泛测试，帮助您决定哪一个能为您的需求提供最佳价值。",
@@ -841,7 +841,7 @@ zh: {
 },
 
 ja: {
-    pageTitle: "ChatGPT Plus vs Claude Pro：月額20ドルのサブスクリプション、どちらが価値あり？| GenuisNet.ai",
+    pageTitle: "ChatGPT Plus vs Claude Pro：月額20ドルのサブスクリプション、どちらが価値あり？| TechVernia",
     metaDescription: "ChatGPT Plus vs Claude Proの比較。月額20ドルのAIサブスクリプション、どちらが最高の価値を提供？詳細な機能、制限、推奨事項。",
     heroTitle: "ChatGPT Plus vs Claude Pro：月額20ドルのサブスクリプション、どちらが価値あり？",
     heroExcerpt: "OpenAIとAnthropicの両社が同じ価格でプレミアムAIサブスクリプションを提供しています。両方を徹底的にテストし、どちらがあなたのニーズに最適な価値を提供するかを決定するお手伝いをします。",
@@ -962,7 +962,7 @@ ja: {
 },
 
 ko: {
-    pageTitle: "ChatGPT Plus vs Claude Pro: 월 $20 구독 중 어느 것이 가치가 있을까? | GenuisNet.ai",
+    pageTitle: "ChatGPT Plus vs Claude Pro: 월 $20 구독 중 어느 것이 가치가 있을까? | TechVernia",
     metaDescription: "ChatGPT Plus vs Claude Pro 비교. 월 $20 AI 구독 중 어느 것이 최고의 가치를 제공할까? 상세한 기능, 제한 사항 및 권장 사항.",
     heroTitle: "ChatGPT Plus vs Claude Pro: 월 $20 구독 중 어느 것이 가치가 있을까?",
     heroExcerpt: "OpenAI와 Anthropic 모두 동일한 가격대로 프리미엄 AI 구독을 제공합니다. 어느 것이 귀하의 필요에 가장 적합한 가치를 제공하는지 결정하는 데 도움이 되도록 두 가지를 광범위하게 테스트했습니다.",
@@ -1083,7 +1083,7 @@ ko: {
 },
 
 ar: {
-    pageTitle: "ChatGPT Plus مقابل Claude Pro: أي اشتراك بقيمة 20 دولار شهريًا يستحق؟ | GenuisNet.ai",
+    pageTitle: "ChatGPT Plus مقابل Claude Pro: أي اشتراك بقيمة 20 دولار شهريًا يستحق؟ | TechVernia",
     metaDescription: "مقارنة ChatGPT Plus مقابل Claude Pro. أي اشتراك ذكاء اصطناعي بقيمة 20 دولار شهريًا يقدم أفضل قيمة؟ ميزات مفصلة وقيود وتوصيات.",
     heroTitle: "ChatGPT Plus مقابل Claude Pro: أي اشتراك بقيمة 20 دولار شهريًا يستحق؟",
     heroExcerpt: "تقدم كل من OpenAI و Anthropic اشتراكات ذكاء اصطناعي متميزة بنفس نقطة السعر. لقد اختبرنا كليهما على نطاق واسع لمساعدتك في تحديد أيهما يقدم أفضل قيمة لاحتياجاتك.",
@@ -1204,7 +1204,7 @@ ar: {
 },
 
 hi: {
-    pageTitle: "ChatGPT Plus बनाम Claude Pro: कौन सी $20/माह सब्सक्रिप्शन लायक है? | GenuisNet.ai",
+    pageTitle: "ChatGPT Plus बनाम Claude Pro: कौन सी $20/माह सब्सक्रिप्शन लायक है? | TechVernia",
     metaDescription: "ChatGPT Plus बनाम Claude Pro तुलना। कौन सी $20/माह AI सब्सक्रिप्शन सबसे अच्छा मूल्य प्रदान करती है? विस्तृत सुविधाएं, सीमाएं और सिफारिशें।",
     heroTitle: "ChatGPT Plus बनाम Claude Pro: कौन सी $20/माह सब्सक्रिप्शन लायक है?",
     heroExcerpt: "OpenAI और Anthropic दोनों समान मूल्य बिंदु पर प्रीमियम AI सब्सक्रिप्शन प्रदान करते हैं। हमने दोनों का व्यापक परीक्षण किया है ताकि आपको यह तय करने में मदद मिल सके कि आपकी आवश्यकताओं के लिए कौन सा सबसे अच्छा मूल्य प्रदान करता है।",

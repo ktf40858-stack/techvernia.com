@@ -6,11 +6,11 @@ console.log('📦 about-i18n.js loaded');
 const aboutTranslations = {
     en: {
         // Meta & Page Title
-        pageTitle: "About Us | GenuisNet.ai",
-        metaDescription: "About GenuisNet.ai - Your trusted source for AI tool reviews, comparisons, and guides. Helping everyone from beginners to network engineers navigate the AI landscape.",
+        pageTitle: "About Us | TechVernia",
+        metaDescription: "About TechVernia - Your trusted source for AI tool reviews, comparisons, and guides. Helping everyone from beginners to network engineers navigate the AI landscape.",
 
         // Hero Section
-        heroBadge: "About GenuisNet.ai",
+        heroBadge: "About TechVernia",
         heroTitle: "Navigating AI, ",
         heroTitleGradient: "Together",
         heroSubtitle: "We're on a mission to help everyone — from curious beginners to seasoned network engineers — discover, understand, and leverage the best AI tools available.",
@@ -18,7 +18,7 @@ const aboutTranslations = {
         // Mission Section
         missionTitle: "Our Mission",
         missionParagraph1: "The AI landscape is evolving at an unprecedented pace. New tools launch every day, each promising to revolutionize how we work. But which ones actually deliver? Which are worth your time and money?",
-        missionParagraph2: "That's where we come in. GenuisNet.ai was created to cut through the noise and provide honest, expert reviews of AI tools. We test every tool ourselves, compare features objectively, and explain everything in plain language.",
+        missionParagraph2: "That's where we come in. TechVernia was created to cut through the noise and provide honest, expert reviews of AI tools. We test every tool ourselves, compare features objectively, and explain everything in plain language.",
         missionParagraph3: "Whether you're a content creator exploring AI writing tools, a developer evaluating coding assistants, or a network engineer looking into AIOps solutions — we've got you covered.",
         missionCardTitle: "Honest Reviews",
         missionCardDescription: "We test every tool ourselves and provide unbiased assessments. No paid reviews — ever. When we recommend something, it's because we genuinely believe it delivers value.",
@@ -73,7 +73,7 @@ const aboutTranslations = {
 
         // Stats Section
         statsBadge: "By The Numbers",
-        statsTitle: "GenuisNet.ai at a Glance",
+        statsTitle: "TechVernia at a Glance",
         stat1Number: "150+",
         stat1Label: "AI Tools Reviewed",
         stat2Number: "10",
@@ -100,16 +100,16 @@ const aboutTranslations = {
         footerContact: "Contact",
         footerPrivacy: "Privacy Policy",
         footerTerms: "Terms of Service",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
 
     es: {
         // Meta & Page Title
-        pageTitle: "Acerca de Nosotros | GenuisNet.ai",
-        metaDescription: "Acerca de GenuisNet.ai - Tu fuente confiable de reseñas, comparaciones y guías de herramientas de IA. Ayudando a todos, desde principiantes hasta ingenieros de redes, a navegar por el panorama de la IA.",
+        pageTitle: "Acerca de Nosotros | TechVernia",
+        metaDescription: "Acerca de TechVernia - Tu fuente confiable de reseñas, comparaciones y guías de herramientas de IA. Ayudando a todos, desde principiantes hasta ingenieros de redes, a navegar por el panorama de la IA.",
 
         // Hero Section
-        heroBadge: "Acerca de GenuisNet.ai",
+        heroBadge: "Acerca de TechVernia",
         heroTitle: "Navegando la IA, ",
         heroTitleGradient: "Juntos",
         heroSubtitle: "Estamos en una misión para ayudar a todos — desde principiantes curiosos hasta ingenieros de redes experimentados — a descubrir, comprender y aprovechar las mejores herramientas de IA disponibles.",
@@ -117,7 +117,7 @@ const aboutTranslations = {
         // Mission Section
         missionTitle: "Nuestra Misión",
         missionParagraph1: "El panorama de la IA está evolucionando a un ritmo sin precedentes. Se lanzan nuevas herramientas cada día, cada una prometiendo revolucionar cómo trabajamos. ¿Pero cuáles realmente cumplen? ¿Cuáles valen tu tiempo y dinero?",
-        missionParagraph2: "Ahí es donde entramos nosotros. GenuisNet.ai fue creado para eliminar el ruido y proporcionar reseñas honestas y expertas de herramientas de IA. Probamos cada herramienta nosotros mismos, comparamos características objetivamente y explicamos todo en lenguaje sencillo.",
+        missionParagraph2: "Ahí es donde entramos nosotros. TechVernia fue creado para eliminar el ruido y proporcionar reseñas honestas y expertas de herramientas de IA. Probamos cada herramienta nosotros mismos, comparamos características objetivamente y explicamos todo en lenguaje sencillo.",
         missionParagraph3: "Ya seas un creador de contenido explorando herramientas de escritura con IA, un desarrollador evaluando asistentes de codificación, o un ingeniero de redes investigando soluciones AIOps — te tenemos cubierto.",
         missionCardTitle: "Reseñas Honestas",
         missionCardDescription: "Probamos cada herramienta nosotros mismos y proporcionamos evaluaciones imparciales. Sin reseñas pagadas — nunca. Cuando recomendamos algo, es porque genuinamente creemos que aporta valor.",
@@ -172,7 +172,7 @@ const aboutTranslations = {
 
         // Stats Section
         statsBadge: "En Números",
-        statsTitle: "GenuisNet.ai de un Vistazo",
+        statsTitle: "TechVernia de un Vistazo",
         stat1Number: "150+",
         stat1Label: "Herramientas IA Reseñadas",
         stat2Number: "10",
@@ -199,16 +199,16 @@ const aboutTranslations = {
         footerContact: "Contacto",
         footerPrivacy: "Política de Privacidad",
         footerTerms: "Términos de Servicio",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados."
     },
 
     fr: {
         // Meta & Page Title
-        pageTitle: "À Propos | GenuisNet.ai",
-        metaDescription: "À propos de GenuisNet.ai - Votre source fiable d'avis, de comparaisons et de guides sur les outils d'IA. Aidant tout le monde, des débutants aux ingénieurs réseau, à naviguer dans le paysage de l'IA.",
+        pageTitle: "À Propos | TechVernia",
+        metaDescription: "À propos de TechVernia - Votre source fiable d'avis, de comparaisons et de guides sur les outils d'IA. Aidant tout le monde, des débutants aux ingénieurs réseau, à naviguer dans le paysage de l'IA.",
 
         // Hero Section
-        heroBadge: "À Propos de GenuisNet.ai",
+        heroBadge: "À Propos de TechVernia",
         heroTitle: "Naviguer dans l'IA, ",
         heroTitleGradient: "Ensemble",
         heroSubtitle: "Notre mission est d'aider tout le monde — des débutants curieux aux ingénieurs réseau chevronnés — à découvrir, comprendre et exploiter les meilleurs outils d'IA disponibles.",
@@ -216,7 +216,7 @@ const aboutTranslations = {
         // Mission Section
         missionTitle: "Notre Mission",
         missionParagraph1: "Le paysage de l'IA évolue à un rythme sans précédent. De nouveaux outils sont lancés chaque jour, chacun promettant de révolutionner notre façon de travailler. Mais lesquels tiennent vraiment leurs promesses ? Lesquels valent votre temps et votre argent ?",
-        missionParagraph2: "C'est là que nous intervenons. GenuisNet.ai a été créé pour éliminer le bruit et fournir des avis honnêtes et experts sur les outils d'IA. Nous testons chaque outil nous-mêmes, comparons les fonctionnalités objectivement et expliquons tout en langage clair.",
+        missionParagraph2: "C'est là que nous intervenons. TechVernia a été créé pour éliminer le bruit et fournir des avis honnêtes et experts sur les outils d'IA. Nous testons chaque outil nous-mêmes, comparons les fonctionnalités objectivement et expliquons tout en langage clair.",
         missionParagraph3: "Que vous soyez un créateur de contenu explorant les outils d'écriture IA, un développeur évaluant des assistants de codage, ou un ingénieur réseau examinant des solutions AIOps — nous avons ce qu'il vous faut.",
         missionCardTitle: "Avis Honnêtes",
         missionCardDescription: "Nous testons chaque outil nous-mêmes et fournissons des évaluations impartiales. Pas d'avis payants — jamais. Quand nous recommandons quelque chose, c'est parce que nous croyons sincèrement qu'il apporte de la valeur.",
@@ -271,7 +271,7 @@ const aboutTranslations = {
 
         // Stats Section
         statsBadge: "En Chiffres",
-        statsTitle: "GenuisNet.ai en Un Coup d'Œil",
+        statsTitle: "TechVernia en Un Coup d'Œil",
         stat1Number: "150+",
         stat1Label: "Outils IA Examinés",
         stat2Number: "10",
@@ -298,16 +298,16 @@ const aboutTranslations = {
         footerContact: "Contact",
         footerPrivacy: "Politique de Confidentialité",
         footerTerms: "Conditions d'Utilisation",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés."
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés."
     },
 
     de: {
         // Meta & Page Title
-        pageTitle: "Über Uns | GenuisNet.ai",
-        metaDescription: "Über GenuisNet.ai - Ihre vertrauenswürdige Quelle für KI-Tool-Bewertungen, Vergleiche und Leitfäden. Wir helfen jedem, von Anfängern bis zu Netzwerkingenieuren, sich in der KI-Landschaft zurechtzufinden.",
+        pageTitle: "Über Uns | TechVernia",
+        metaDescription: "Über TechVernia - Ihre vertrauenswürdige Quelle für KI-Tool-Bewertungen, Vergleiche und Leitfäden. Wir helfen jedem, von Anfängern bis zu Netzwerkingenieuren, sich in der KI-Landschaft zurechtzufinden.",
 
         // Hero Section
-        heroBadge: "Über GenuisNet.ai",
+        heroBadge: "Über TechVernia",
         heroTitle: "KI Navigieren, ",
         heroTitleGradient: "Gemeinsam",
         heroSubtitle: "Unsere Mission ist es, jedem zu helfen — von neugierigen Anfängern bis zu erfahrenen Netzwerkingenieuren — die besten verfügbaren KI-Tools zu entdecken, zu verstehen und zu nutzen.",
@@ -315,7 +315,7 @@ const aboutTranslations = {
         // Mission Section
         missionTitle: "Unsere Mission",
         missionParagraph1: "Die KI-Landschaft entwickelt sich in beispiellosem Tempo. Jeden Tag werden neue Tools eingeführt, die alle versprechen, unsere Arbeitsweise zu revolutionieren. Aber welche halten wirklich, was sie versprechen? Welche sind Ihre Zeit und Ihr Geld wert?",
-        missionParagraph2: "Hier kommen wir ins Spiel. GenuisNet.ai wurde geschaffen, um den Lärm zu durchbrechen und ehrliche, fachkundige Bewertungen von KI-Tools zu liefern. Wir testen jedes Tool selbst, vergleichen Funktionen objektiv und erklären alles in einfacher Sprache.",
+        missionParagraph2: "Hier kommen wir ins Spiel. TechVernia wurde geschaffen, um den Lärm zu durchbrechen und ehrliche, fachkundige Bewertungen von KI-Tools zu liefern. Wir testen jedes Tool selbst, vergleichen Funktionen objektiv und erklären alles in einfacher Sprache.",
         missionParagraph3: "Ob Sie ein Content-Creator sind, der KI-Schreibtools erkundet, ein Entwickler, der Coding-Assistenten bewertet, oder ein Netzwerkingenieur, der AIOps-Lösungen untersucht — wir haben Sie abgedeckt.",
         missionCardTitle: "Ehrliche Bewertungen",
         missionCardDescription: "Wir testen jedes Tool selbst und liefern unvoreingenommene Bewertungen. Keine bezahlten Bewertungen — niemals. Wenn wir etwas empfehlen, dann weil wir wirklich glauben, dass es Wert liefert.",
@@ -370,7 +370,7 @@ const aboutTranslations = {
 
         // Stats Section
         statsBadge: "In Zahlen",
-        statsTitle: "GenuisNet.ai Auf Einen Blick",
+        statsTitle: "TechVernia Auf Einen Blick",
         stat1Number: "150+",
         stat1Label: "KI-Tools Bewertet",
         stat2Number: "10",
@@ -397,16 +397,16 @@ const aboutTranslations = {
         footerContact: "Kontakt",
         footerPrivacy: "Datenschutz",
         footerTerms: "Nutzungsbedingungen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten."
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
 
     pt: {
         // Meta & Page Title
-        pageTitle: "Sobre Nós | GenuisNet.ai",
-        metaDescription: "Sobre GenuisNet.ai - Sua fonte confiável de avaliações, comparações e guias de ferramentas de IA. Ajudando a todos, de iniciantes a engenheiros de rede, a navegar no cenário da IA.",
+        pageTitle: "Sobre Nós | TechVernia",
+        metaDescription: "Sobre TechVernia - Sua fonte confiável de avaliações, comparações e guias de ferramentas de IA. Ajudando a todos, de iniciantes a engenheiros de rede, a navegar no cenário da IA.",
 
         // Hero Section
-        heroBadge: "Sobre GenuisNet.ai",
+        heroBadge: "Sobre TechVernia",
         heroTitle: "Navegando na IA, ",
         heroTitleGradient: "Juntos",
         heroSubtitle: "Estamos em uma missão para ajudar a todos — de iniciantes curiosos a engenheiros de rede experientes — a descobrir, entender e aproveitar as melhores ferramentas de IA disponíveis.",
@@ -414,7 +414,7 @@ const aboutTranslations = {
         // Mission Section
         missionTitle: "Nossa Missão",
         missionParagraph1: "O cenário da IA está evoluindo em um ritmo sem precedentes. Novas ferramentas são lançadas todos os dias, cada uma prometendo revolucionar como trabalhamos. Mas quais realmente entregam? Quais valem seu tempo e dinheiro?",
-        missionParagraph2: "É aí que entramos. GenuisNet.ai foi criado para eliminar o ruído e fornecer avaliações honestas e especializadas de ferramentas de IA. Testamos cada ferramenta nós mesmos, comparamos recursos objetivamente e explicamos tudo em linguagem simples.",
+        missionParagraph2: "É aí que entramos. TechVernia foi criado para eliminar o ruído e fornecer avaliações honestas e especializadas de ferramentas de IA. Testamos cada ferramenta nós mesmos, comparamos recursos objetivamente e explicamos tudo em linguagem simples.",
         missionParagraph3: "Seja você um criador de conteúdo explorando ferramentas de escrita com IA, um desenvolvedor avaliando assistentes de codificação, ou um engenheiro de rede investigando soluções AIOps — nós temos você coberto.",
         missionCardTitle: "Avaliações Honestas",
         missionCardDescription: "Testamos cada ferramenta nós mesmos e fornecemos avaliações imparciais. Sem avaliações pagas — nunca. Quando recomendamos algo, é porque realmente acreditamos que entrega valor.",
@@ -469,7 +469,7 @@ const aboutTranslations = {
 
         // Stats Section
         statsBadge: "Em Números",
-        statsTitle: "GenuisNet.ai em Resumo",
+        statsTitle: "TechVernia em Resumo",
         stat1Number: "150+",
         stat1Label: "Ferramentas IA Avaliadas",
         stat2Number: "10",
@@ -496,22 +496,22 @@ const aboutTranslations = {
         footerContact: "Contato",
         footerPrivacy: "Política de Privacidade",
         footerTerms: "Termos de Serviço",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados."
     },
 
     // Chinese, Japanese, Korean, Arabic, Hindi translations continue...
     // For brevity, I'll add abbreviated versions. In production, these would be complete.
 
     zh: {
-        pageTitle: "关于我们 | GenuisNet.ai",
-        metaDescription: "关于GenuisNet.ai - 您值得信赖的AI工具评论、比较和指南来源。帮助从初学者到网络工程师的每个人导航AI领域。",
-        heroBadge: "关于 GenuisNet.ai",
+        pageTitle: "关于我们 | TechVernia",
+        metaDescription: "关于TechVernia - 您值得信赖的AI工具评论、比较和指南来源。帮助从初学者到网络工程师的每个人导航AI领域。",
+        heroBadge: "关于 TechVernia",
         heroTitle: "一起探索AI，",
         heroTitleGradient: "共同前行",
         heroSubtitle: "我们的使命是帮助每个人——从好奇的初学者到经验丰富的网络工程师——发现、理解和利用最好的AI工具。",
         missionTitle: "我们的使命",
         missionParagraph1: "AI领域正以前所未有的速度发展。每天都有新工具推出，每个都承诺革新我们的工作方式。但哪些真正兑现了承诺？哪些值得您的时间和金钱？",
-        missionParagraph2: "这就是我们的用武之地。GenuisNet.ai创建的目的是消除噪音，提供诚实、专业的AI工具评论。我们亲自测试每个工具，客观比较功能，用简单的语言解释一切。",
+        missionParagraph2: "这就是我们的用武之地。TechVernia创建的目的是消除噪音，提供诚实、专业的AI工具评论。我们亲自测试每个工具，客观比较功能，用简单的语言解释一切。",
         missionParagraph3: "无论您是探索AI写作工具的内容创作者、评估编码助手的开发人员，还是研究AIOps解决方案的网络工程师——我们都能满足您的需求。",
         missionCardTitle: "诚实评论",
         missionCardDescription: "我们亲自测试每个工具并提供公正的评估。没有付费评论——永远不会。当我们推荐某物时，是因为我们真心相信它能带来价值。",
@@ -551,7 +551,7 @@ const aboutTranslations = {
         audience3Item3: "Ansible + AI教程",
         audience3Item4: "认证资源",
         statsBadge: "数据说话",
-        statsTitle: "GenuisNet.ai 一览",
+        statsTitle: "TechVernia 一览",
         stat1Number: "150+",
         stat1Label: "已评论AI工具",
         stat2Number: "10",
@@ -572,19 +572,19 @@ const aboutTranslations = {
         footerContact: "联系",
         footerPrivacy: "隐私政策",
         footerTerms: "服务条款",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。"
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。"
     },
 
     ja: {
-        pageTitle: "私たちについて | GenuisNet.ai",
-        metaDescription: "GenuisNet.aiについて - AIツールのレビュー、比較、ガイドの信頼できる情報源。初心者からネットワークエンジニアまで、すべての人がAI環境をナビゲートするのを支援します。",
-        heroBadge: "GenuisNet.aiについて",
+        pageTitle: "私たちについて | TechVernia",
+        metaDescription: "TechVerniaについて - AIツールのレビュー、比較、ガイドの信頼できる情報源。初心者からネットワークエンジニアまで、すべての人がAI環境をナビゲートするのを支援します。",
+        heroBadge: "TechVerniaについて",
         heroTitle: "AIをナビゲート、",
         heroTitleGradient: "一緒に",
         heroSubtitle: "好奇心旺盛な初心者から熟練したネットワークエンジニアまで、誰もが最高のAIツールを発見、理解、活用できるよう支援することが私たちの使命です。",
         missionTitle: "私たちの使命",
         missionParagraph1: "AIの状況は前例のないペースで進化しています。毎日新しいツールがリリースされ、それぞれが私たちの働き方を革命化すると約束しています。しかし、実際に約束を果たすのはどれでしょうか？あなたの時間とお金の価値があるのはどれでしょうか？",
-        missionParagraph2: "そこで私たちの出番です。GenuisNet.aiは、ノイズを排除し、AIツールの正直で専門的なレビューを提供するために作成されました。私たちは各ツールを自分でテストし、機能を客観的に比較し、すべてを平易な言葉で説明します。",
+        missionParagraph2: "そこで私たちの出番です。TechVerniaは、ノイズを排除し、AIツールの正直で専門的なレビューを提供するために作成されました。私たちは各ツールを自分でテストし、機能を客観的に比較し、すべてを平易な言葉で説明します。",
         missionParagraph3: "AIライティングツールを探索しているコンテンツクリエイター、コーディングアシスタントを評価している開発者、AIOpsソリューションを調査しているネットワークエンジニアなど、誰でも対応します。",
         missionCardTitle: "正直なレビュー",
         missionCardDescription: "私たちは各ツールを自分でテストし、偏りのない評価を提供します。有料レビューはありません——決してありません。何かを推薦するときは、本当に価値を提供すると信じているからです。",
@@ -624,7 +624,7 @@ const aboutTranslations = {
         audience3Item3: "Ansible + AIチュートリアル",
         audience3Item4: "認定リソース",
         statsBadge: "数字で見る",
-        statsTitle: "GenuisNet.ai 一目で",
+        statsTitle: "TechVernia 一目で",
         stat1Number: "150+",
         stat1Label: "レビューしたAIツール",
         stat2Number: "10",
@@ -645,19 +645,19 @@ const aboutTranslations = {
         footerContact: "お問い合わせ",
         footerPrivacy: "プライバシーポリシー",
         footerTerms: "利用規約",
-        footerCopyright: "© 2026 GenuisNet.ai. 全著作権所有。"
+        footerCopyright: "© 2026 TechVernia. 全著作権所有。"
     },
 
     ko: {
-        pageTitle: "회사 소개 | GenuisNet.ai",
-        metaDescription: "GenuisNet.ai 소개 - AI 도구 리뷰, 비교 및 가이드의 신뢰할 수 있는 소스입니다. 초보자부터 네트워크 엔지니어까지 모든 사람이 AI 환경을 탐색할 수 있도록 돕습니다.",
-        heroBadge: "GenuisNet.ai 소개",
+        pageTitle: "회사 소개 | TechVernia",
+        metaDescription: "TechVernia 소개 - AI 도구 리뷰, 비교 및 가이드의 신뢰할 수 있는 소스입니다. 초보자부터 네트워크 엔지니어까지 모든 사람이 AI 환경을 탐색할 수 있도록 돕습니다.",
+        heroBadge: "TechVernia 소개",
         heroTitle: "AI 탐색, ",
         heroTitleGradient: "함께",
         heroSubtitle: "호기심 많은 초보자부터 노련한 네트워크 엔지니어까지 모든 사람이 사용 가능한 최고의 AI 도구를 발견하고 이해하며 활용할 수 있도록 돕는 것이 우리의 사명입니다.",
         missionTitle: "우리의 사명",
         missionParagraph1: "AI 환경은 전례 없는 속도로 발전하고 있습니다. 매일 새로운 도구가 출시되며, 각각이 우리의 작업 방식을 혁신할 것이라고 약속합니다. 하지만 실제로 약속을 지키는 것은 어떤 것일까요? 시간과 돈을 들일 가치가 있는 것은 무엇일까요?",
-        missionParagraph2: "바로 여기서 우리가 등장합니다. GenuisNet.ai는 소음을 제거하고 AI 도구에 대한 정직하고 전문적인 리뷰를 제공하기 위해 만들어졌습니다. 우리는 각 도구를 직접 테스트하고, 기능을 객관적으로 비교하며, 모든 것을 평이한 언어로 설명합니다.",
+        missionParagraph2: "바로 여기서 우리가 등장합니다. TechVernia는 소음을 제거하고 AI 도구에 대한 정직하고 전문적인 리뷰를 제공하기 위해 만들어졌습니다. 우리는 각 도구를 직접 테스트하고, 기능을 객관적으로 비교하며, 모든 것을 평이한 언어로 설명합니다.",
         missionParagraph3: "AI 작문 도구를 탐색하는 콘텐츠 크리에이터, 코딩 어시스턴트를 평가하는 개발자, AIOps 솔루션을 조사하는 네트워크 엔지니어 등 누구든 우리가 도와드립니다.",
         missionCardTitle: "정직한 리뷰",
         missionCardDescription: "우리는 각 도구를 직접 테스트하고 편견 없는 평가를 제공합니다. 유료 리뷰는 절대 없습니다. 무언가를 추천할 때는 진심으로 가치를 제공한다고 믿기 때문입니다.",
@@ -697,7 +697,7 @@ const aboutTranslations = {
         audience3Item3: "Ansible + AI 튜토리얼",
         audience3Item4: "인증 리소스",
         statsBadge: "숫자로 보기",
-        statsTitle: "GenuisNet.ai 한눈에",
+        statsTitle: "TechVernia 한눈에",
         stat1Number: "150+",
         stat1Label: "리뷰된 AI 도구",
         stat2Number: "10",
@@ -718,19 +718,19 @@ const aboutTranslations = {
         footerContact: "문의",
         footerPrivacy: "개인정보 보호정책",
         footerTerms: "서비스 약관",
-        footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유."
+        footerCopyright: "© 2026 TechVernia. 모든 권리 보유."
     },
 
     ar: {
-        pageTitle: "معلومات عنا | GenuisNet.ai",
-        metaDescription: "حول GenuisNet.ai - مصدرك الموثوق لمراجعات أدوات الذكاء الاصطناعي والمقارنات والأدلة. مساعدة الجميع من المبتدئين إلى مهندسي الشبكات للتنقل في مشهد الذكاء الاصطناعي.",
-        heroBadge: "حول GenuisNet.ai",
+        pageTitle: "معلومات عنا | TechVernia",
+        metaDescription: "حول TechVernia - مصدرك الموثوق لمراجعات أدوات الذكاء الاصطناعي والمقارنات والأدلة. مساعدة الجميع من المبتدئين إلى مهندسي الشبكات للتنقل في مشهد الذكاء الاصطناعي.",
+        heroBadge: "حول TechVernia",
         heroTitle: "التنقل في الذكاء الاصطناعي، ",
         heroTitleGradient: "معاً",
         heroSubtitle: "مهمتنا هي مساعدة الجميع — من المبتدئين الفضوليين إلى مهندسي الشبكات المخضرمين — في اكتشاف وفهم والاستفادة من أفضل أدوات الذكاء الاصطناعي المتاحة.",
         missionTitle: "مهمتنا",
         missionParagraph1: "يتطور مشهد الذكاء الاصطناعي بوتيرة غير مسبوقة. يتم إطلاق أدوات جديدة كل يوم، تعد كل منها بإحداث ثورة في طريقة عملنا. لكن أيها تفي بوعودها حقاً؟ أيها يستحق وقتك وأموالك؟",
-        missionParagraph2: "هنا يأتي دورنا. تم إنشاء GenuisNet.ai للتخلص من الضوضاء وتقديم مراجعات صادقة وخبيرة لأدوات الذكاء الاصطناعي. نختبر كل أداة بأنفسنا، ونقارن الميزات بموضوعية، ونشرح كل شيء بلغة بسيطة.",
+        missionParagraph2: "هنا يأتي دورنا. تم إنشاء TechVernia للتخلص من الضوضاء وتقديم مراجعات صادقة وخبيرة لأدوات الذكاء الاصطناعي. نختبر كل أداة بأنفسنا، ونقارن الميزات بموضوعية، ونشرح كل شيء بلغة بسيطة.",
         missionParagraph3: "سواء كنت منشئ محتوى يستكشف أدوات الكتابة بالذكاء الاصطناعي، أو مطوراً يقيّم مساعدي البرمجة، أو مهندس شبكات يبحث في حلول AIOps — نحن نغطيك.",
         missionCardTitle: "مراجعات صادقة",
         missionCardDescription: "نختبر كل أداة بأنفسنا ونقدم تقييمات غير متحيزة. لا مراجعات مدفوعة — أبداً. عندما نوصي بشيء ما، فذلك لأننا نؤمن حقاً أنه يقدم قيمة.",
@@ -770,7 +770,7 @@ const aboutTranslations = {
         audience3Item3: "دروس Ansible + AI",
         audience3Item4: "موارد الشهادات",
         statsBadge: "بالأرقام",
-        statsTitle: "GenuisNet.ai في لمحة",
+        statsTitle: "TechVernia في لمحة",
         stat1Number: "150+",
         stat1Label: "أدوات ذكاء اصطناعي تمت مراجعتها",
         stat2Number: "10",
@@ -791,19 +791,19 @@ const aboutTranslations = {
         footerContact: "اتصل",
         footerPrivacy: "سياسة الخصوصية",
         footerTerms: "شروط الخدمة",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة."
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة."
     },
 
     hi: {
-        pageTitle: "हमारे बारे में | GenuisNet.ai",
-        metaDescription: "GenuisNet.ai के बारे में - AI टूल समीक्षाओं, तुलनाओं और गाइड का आपका विश्वसनीय स्रोत। शुरुआती से लेकर नेटवर्क इंजीनियरों तक सभी को AI परिदृश्य को नेविगेट करने में मदद करना।",
-        heroBadge: "GenuisNet.ai के बारे में",
+        pageTitle: "हमारे बारे में | TechVernia",
+        metaDescription: "TechVernia के बारे में - AI टूल समीक्षाओं, तुलनाओं और गाइड का आपका विश्वसनीय स्रोत। शुरुआती से लेकर नेटवर्क इंजीनियरों तक सभी को AI परिदृश्य को नेविगेट करने में मदद करना।",
+        heroBadge: "TechVernia के बारे में",
         heroTitle: "AI नेविगेट करना, ",
         heroTitleGradient: "साथ में",
         heroSubtitle: "हमारा मिशन सभी की मदद करना है — जिज्ञासु शुरुआती से लेकर अनुभवी नेटवर्क इंजीनियरों तक — उपलब्ध सर्वश्रेष्ठ AI टूल की खोज, समझ और उपयोग करना।",
         missionTitle: "हमारा मिशन",
         missionParagraph1: "AI परिदृश्य अभूतपूर्व गति से विकसित हो रहा है। हर दिन नए टूल लॉन्च होते हैं, प्रत्येक हमारे काम करने के तरीके में क्रांति लाने का वादा करता है। लेकिन वास्तव में कौन से वितरित करते हैं? कौन से आपके समय और पैसे के लायक हैं?",
-        missionParagraph2: "यहीं हम आते हैं। GenuisNet.ai को शोर को काटने और AI टूल की ईमानदार, विशेषज्ञ समीक्षा प्रदान करने के लिए बनाया गया था। हम हर टूल को स्वयं परीक्षण करते हैं, सुविधाओं की वस्तुनिष्ठ तुलना करते हैं, और सब कुछ सरल भाषा में समझाते हैं।",
+        missionParagraph2: "यहीं हम आते हैं। TechVernia को शोर को काटने और AI टूल की ईमानदार, विशेषज्ञ समीक्षा प्रदान करने के लिए बनाया गया था। हम हर टूल को स्वयं परीक्षण करते हैं, सुविधाओं की वस्तुनिष्ठ तुलना करते हैं, और सब कुछ सरल भाषा में समझाते हैं।",
         missionParagraph3: "चाहे आप AI लेखन टूल की खोज कर रहे कंटेंट क्रिएटर हों, कोडिंग सहायकों का मूल्यांकन कर रहे डेवलपर हों, या AIOps समाधानों की जांच कर रहे नेटवर्क इंजीनियर हों — हमने आपको कवर किया है।",
         missionCardTitle: "ईमानदार समीक्षाएं",
         missionCardDescription: "हम हर टूल को स्वयं परीक्षण करते हैं और निष्पक्ष मूल्यांकन प्रदान करते हैं। कोई भुगतान समीक्षा नहीं — कभी नहीं। जब हम कुछ सुझाते हैं, तो यह इसलिए है क्योंकि हम वास्तव में विश्वास करते हैं कि यह मूल्य प्रदान करता है।",
@@ -843,7 +843,7 @@ const aboutTranslations = {
         audience3Item3: "Ansible + AI ट्यूटोरियल",
         audience3Item4: "प्रमाणन संसाधन",
         statsBadge: "संख्याओं में",
-        statsTitle: "GenuisNet.ai एक नज़र में",
+        statsTitle: "TechVernia एक नज़र में",
         stat1Number: "150+",
         stat1Label: "समीक्षित AI टूल",
         stat2Number: "10",
@@ -864,7 +864,7 @@ const aboutTranslations = {
         footerContact: "संपर्क",
         footerPrivacy: "गोपनीयता नीति",
         footerTerms: "सेवा की शर्तें",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।"
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।"
     }
 };
 

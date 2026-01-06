@@ -7,7 +7,7 @@ console.log('📦 aiops-monitoring-i18n.js loaded');
 const articleTranslations = {
     en: {
         // Meta & Hero
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         metaDescription: "Enterprise-grade AIOps tools compared for your infrastructure monitoring needs. Find the best solution for your network operations.",
         heroTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic",
         heroExcerpt: "Enterprise-grade AIOps tools compared for your infrastructure monitoring needs. Find the best solution for your network operations.",
@@ -93,11 +93,11 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
 
     es: {
-        pageTitle: "Monitoreo de Red con IA: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "Monitoreo de Red con IA: Datadog vs Splunk vs New Relic | TechVernia",
         metaDescription: "Herramientas AIOps de nivel empresarial comparadas para tus necesidades de monitoreo de infraestructura. Encuentra la mejor solución para tus operaciones de red.",
         heroTitle: "Monitoreo de Red con IA: Datadog vs Splunk vs New Relic",
         heroExcerpt: "Herramientas AIOps de nivel empresarial comparadas para tus necesidades de monitoreo de infraestructura. Encuentra la mejor solución para tus operaciones de red.",
@@ -174,11 +174,11 @@ const articleTranslations = {
         footerDesc: "Tu fuente confiable de reseñas, comparaciones y guías de herramientas IA.",
         footerCategories: "Categorías",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados."
     },
 
     fr: {
-        pageTitle: "Surveillance Réseau Alimentée par IA : Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "Surveillance Réseau Alimentée par IA : Datadog vs Splunk vs New Relic | TechVernia",
         metaDescription: "Outils AIOps de niveau entreprise comparés pour vos besoins de surveillance d'infrastructure. Trouvez la meilleure solution pour vos opérations réseau.",
         heroTitle: "Surveillance Réseau Alimentée par IA : Datadog vs Splunk vs New Relic",
         heroExcerpt: "Outils AIOps de niveau entreprise comparés pour vos besoins de surveillance d'infrastructure. Trouvez la meilleure solution pour vos opérations réseau.",
@@ -255,11 +255,11 @@ const articleTranslations = {
         footerDesc: "Votre source de confiance pour les avis, comparaisons et guides d'outils IA.",
         footerCategories: "Catégories",
         footerResources: "Ressources",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés."
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés."
     },
 
     de: {
-        pageTitle: "KI-Gestütztes Netzwerk-Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "KI-Gestütztes Netzwerk-Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         metaDescription: "Enterprise-AIOps-Tools im Vergleich für Ihre Infrastruktur-Monitoring-Anforderungen. Finden Sie die beste Lösung für Ihren Netzwerkbetrieb.",
         heroTitle: "KI-Gestütztes Netzwerk-Monitoring: Datadog vs Splunk vs New Relic",
         heroExcerpt: "Enterprise-AIOps-Tools im Vergleich für Ihre Infrastruktur-Monitoring-Anforderungen. Finden Sie die beste Lösung für Ihren Netzwerkbetrieb.",
@@ -336,11 +336,11 @@ const articleTranslations = {
         footerDesc: "Ihre vertrauenswürdige Quelle für KI-Tool-Bewertungen, Vergleiche und Leitfäden.",
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten."
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
 
     pt: {
-        pageTitle: "Monitoramento de Rede com IA: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "Monitoramento de Rede com IA: Datadog vs Splunk vs New Relic | TechVernia",
         metaDescription: "Ferramentas AIOps de nível empresarial comparadas para suas necessidades de monitoramento de infraestrutura. Encontre a melhor solução para suas operações de rede.",
         heroTitle: "Monitoramento de Rede com IA: Datadog vs Splunk vs New Relic",
         heroExcerpt: "Ferramentas AIOps de nível empresarial comparadas para suas necessidades de monitoramento de infraestrutura. Encontre a melhor solução para suas operações de rede.",
@@ -417,12 +417,12 @@ const articleTranslations = {
         footerDesc: "Sua fonte confiável para avaliações, comparações e guias de ferramentas IA.",
         footerCategories: "Categorias",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados."
     },
 
     // Simplified languages (basic translations only)
     zh: {
-        pageTitle: "AI驱动的网络监控：Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI驱动的网络监控：Datadog vs Splunk vs New Relic | TechVernia",
         metaDescription: "企业级AIOps工具对比，满足您的基础设施监控需求。为您的网络运营找到最佳解决方案。",
         heroTitle: "AI驱动的网络监控：Datadog vs Splunk vs New Relic",
         heroExcerpt: "企业级AIOps工具对比，满足您的基础设施监控需求。为您的网络运营找到最佳解决方案。",
@@ -499,10 +499,10 @@ const articleTranslations = {
         footerDesc: "您值得信赖的 AI 工具评论、比较和指南来源。",
         footerCategories: "类别",
         footerResources: "资源",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。"
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。"
     },
     ja: {
-        pageTitle: "AI搭載ネットワーク監視：Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI搭載ネットワーク監視：Datadog vs Splunk vs New Relic | TechVernia",
         metaDescription: "インフラストラクチャ監視ニーズに対応するエンタープライズグレードのAIOpsツール比較。ネットワーク運用に最適なソリューションを見つけましょう。",
         heroTitle: "AI搭載ネットワーク監視：Datadog vs Splunk vs New Relic",
         heroExcerpt: "インフラストラクチャ監視ニーズに対応するエンタープライズグレードのAIOpsツール比較。ネットワーク運用に最適なソリューションを見つけましょう。",
@@ -579,10 +579,10 @@ const articleTranslations = {
         footerDesc: "AIツールのレビュー、比較、ガイドの信頼できる情報源。",
         footerCategories: "カテゴリー",
         footerResources: "リソース",
-        footerCopyright: "© 2026 GenuisNet.ai. 全著作権所有。"
+        footerCopyright: "© 2026 TechVernia. 全著作権所有。"
     },
     ko: {
-        pageTitle: "AI 기반 네트워크 모니터링: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI 기반 네트워크 모니터링: Datadog vs Splunk vs New Relic | TechVernia",
         metaDescription: "인프라 모니터링 요구 사항에 맞는 엔터프라이즈급 AIOps 도구 비교. 네트워크 운영에 가장 적합한 솔루션을 찾으세요.",
         heroTitle: "AI 기반 네트워크 모니터링: Datadog vs Splunk vs New Relic",
         heroExcerpt: "인프라 모니터링 요구 사항에 맞는 엔터프라이즈급 AIOps 도구 비교. 네트워크 운영에 가장 적합한 솔루션을 찾으세요.",
@@ -659,10 +659,10 @@ const articleTranslations = {
         footerDesc: "AI 도구 리뷰, 비교 및 가이드의 신뢰할 수 있는 출처.",
         footerCategories: "카테고리",
         footerResources: "리소스",
-        footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유."
+        footerCopyright: "© 2026 TechVernia. 모든 권리 보유."
     },
     ar: {
-        pageTitle: "مراقبة الشبكة المدعومة بالذكاء الاصطناعي: Datadog مقابل Splunk مقابل New Relic | GenuisNet.ai",
+        pageTitle: "مراقبة الشبكة المدعومة بالذكاء الاصطناعي: Datadog مقابل Splunk مقابل New Relic | TechVernia",
         metaDescription: "مقارنة أدوات AIOps على مستوى المؤسسات لاحتياجات مراقبة البنية التحتية الخاصة بك. ابحث عن أفضل حل لعمليات شبكتك.",
         heroTitle: "مراقبة الشبكة المدعومة بالذكاء الاصطناعي: Datadog مقابل Splunk مقابل New Relic",
         heroExcerpt: "مقارنة أدوات AIOps على مستوى المؤسسات لاحتياجات مراقبة البنية التحتية الخاصة بك. ابحث عن أفضل حل لعمليات شبكتك.",
@@ -739,10 +739,10 @@ const articleTranslations = {
         footerDesc: "مصدرك الموثوق لمراجعات ومقارنات وأدلة أدوات الذكاء الاصطناعي.",
         footerCategories: "الفئات",
         footerResources: "الموارد",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة."
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة."
     },
     hi: {
-        pageTitle: "AI-संचालित नेटवर्क मॉनिटरिंग: Datadog बनाम Splunk बनाम New Relic | GenuisNet.ai",
+        pageTitle: "AI-संचालित नेटवर्क मॉनिटरिंग: Datadog बनाम Splunk बनाम New Relic | TechVernia",
         metaDescription: "आपकी इंफ्रास्ट्रक्चर मॉनिटरिंग आवश्यकताओं के लिए एंटरप्राइज़-ग्रेड AIOps उपकरणों की तुलना। अपने नेटवर्क संचालन के लिए सर्वोत्तम समाधान खोजें।",
         heroTitle: "AI-संचालित नेटवर्क मॉनिटरिंग: Datadog बनाम Splunk बनाम New Relic",
         heroExcerpt: "आपकी इंफ्रास्ट्रक्चर मॉनिटरिंग आवश्यकताओं के लिए एंटरप्राइज़-ग्रेड AIOps उपकरणों की तुलना। अपने नेटवर्क संचालन के लिए सर्वोत्तम समाधान खोजें।",
@@ -819,7 +819,7 @@ const articleTranslations = {
         footerDesc: "AI टूल समीक्षाओं, तुलनाओं और गाइड के लिए आपका विश्वसनीय स्रोत।",
         footerCategories: "श्रेणियाँ",
         footerResources: "संसाधन",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।"
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।"
     }
 };
 

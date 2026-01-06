@@ -55,7 +55,7 @@ const ciscoWirelessSpecialistTranslations = {
         "cert.visit_portal": "Visit the official Cisco training portal for more information and registration details.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+        "footer.copyright": "© 2025 TechVernia. All rights reserved.",
         "footer.trademark": "Cisco and related trademarks are property of Cisco Systems, Inc."
     },
     fr: {
@@ -114,7 +114,7 @@ const ciscoWirelessSpecialistTranslations = {
         "cert.visit_portal": "Visitez le portail de formation officiel Cisco pour plus d'informations et détails d'inscription.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. Tous droits réservés.",
+        "footer.copyright": "© 2025 TechVernia. Tous droits réservés.",
         "footer.trademark": "Cisco et les marques associées sont la propriété de Cisco Systems, Inc."
     },
     de: {
@@ -173,7 +173,7 @@ const ciscoWirelessSpecialistTranslations = {
         "cert.visit_portal": "Besuchen Sie das offizielle Cisco-Schulungsportal für weitere Informationen und Anmeldedetails.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. Alle Rechte vorbehalten.",
+        "footer.copyright": "© 2025 TechVernia. Alle Rechte vorbehalten.",
         "footer.trademark": "Cisco und verwandte Marken sind Eigentum von Cisco Systems, Inc."
     },
     es: {
@@ -232,7 +232,7 @@ const ciscoWirelessSpecialistTranslations = {
         "cert.visit_portal": "Visite el portal de capacitación oficial de Cisco para más información y detalles de registro.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. Todos los derechos reservados.",
+        "footer.copyright": "© 2025 TechVernia. Todos los derechos reservados.",
         "footer.trademark": "Cisco y las marcas relacionadas son propiedad de Cisco Systems, Inc."
     },
     pt: {
@@ -291,7 +291,7 @@ const ciscoWirelessSpecialistTranslations = {
         "cert.visit_portal": "Visite o portal de treinamento oficial da Cisco para mais informações e detalhes de registro.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. Todos os direitos reservados.",
+        "footer.copyright": "© 2025 TechVernia. Todos os direitos reservados.",
         "footer.trademark": "Cisco e marcas relacionadas são propriedade da Cisco Systems, Inc."
     },
     zh: {
@@ -350,7 +350,7 @@ const ciscoWirelessSpecialistTranslations = {
         "cert.visit_portal": "访问官方思科培训门户网站,了解更多信息和注册详情。",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. 保留所有权利。",
+        "footer.copyright": "© 2025 TechVernia. 保留所有权利。",
         "footer.trademark": "Cisco及相关商标是Cisco Systems, Inc.的财产。"
     },
     ja: {
@@ -409,7 +409,7 @@ const ciscoWirelessSpecialistTranslations = {
         "cert.visit_portal": "詳細情報と登録の詳細については、公式Ciscoトレーニングポータルをご覧ください。",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. 無断複写・転載を禁じます。",
+        "footer.copyright": "© 2025 TechVernia. 無断複写・転載を禁じます。",
         "footer.trademark": "Ciscoおよび関連商標は、Cisco Systems, Inc.の財産です。"
     },
     ko: {
@@ -468,7 +468,7 @@ const ciscoWirelessSpecialistTranslations = {
         "cert.visit_portal": "자세한 정보 및 등록 세부 정보는 공식 Cisco 교육 포털을 방문하십시오.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. 모든 권리 보유.",
+        "footer.copyright": "© 2025 TechVernia. 모든 권리 보유.",
         "footer.trademark": "Cisco 및 관련 상표는 Cisco Systems, Inc.의 재산입니다."
     },
     ar: {
@@ -527,7 +527,7 @@ const ciscoWirelessSpecialistTranslations = {
         "cert.visit_portal": "قم بزيارة بوابة التدريب الرسمية من سيسكو للحصول على مزيد من المعلومات وتفاصيل التسجيل.",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. جميع الحقوق محفوظة.",
+        "footer.copyright": "© 2025 TechVernia. جميع الحقوق محفوظة.",
         "footer.trademark": "Cisco والعلامات التجارية المرتبطة هي ملكية لشركة Cisco Systems, Inc."
     },
     hi: {
@@ -586,7 +586,7 @@ const ciscoWirelessSpecialistTranslations = {
         "cert.visit_portal": "अधिक जानकारी और पंजीकरण विवरण के लिए आधिकारिक Cisco प्रशिक्षण पोर्टल पर जाएं।",
 
         // Footer
-        "footer.copyright": "© 2025 GenuisNet.ai. सर्वाधिकार सुरक्षित।",
+        "footer.copyright": "© 2025 TechVernia. सर्वाधिकार सुरक्षित।",
         "footer.trademark": "Cisco और संबंधित ट्रेडमार्क Cisco Systems, Inc. की संपत्ति हैं।"
     }
 };

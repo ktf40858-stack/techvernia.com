@@ -1,5 +1,5 @@
 /* ============================================
-   GenuisNet.ai - Animation Engine
+   TechVernia - Animation Engine
    Neural network backgrounds, particles, and effects
    ============================================ */
 

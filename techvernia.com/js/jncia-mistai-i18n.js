@@ -27,7 +27,7 @@ window.jnciaMistaiTranslations = {
     "cert.next_steps": "Next Steps",
     "cert.ready": "Ready to advance your career with Associate Level certification?",
     "cert.visit_portal": "Visit the official Associate Level training portal for more information and registration details.",
-    "footer.copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+    "footer.copyright": "© 2025 TechVernia. All rights reserved.",
     "footer.trademark": "Associate Level and related trademarks are property of Juniper Networks, Inc."
   },
   fr: {
@@ -57,7 +57,7 @@ window.jnciaMistaiTranslations = {
     "cert.next_steps": "Prochaines Étapes",
     "cert.ready": "Prêt à faire progresser votre carrière avec une certification de niveau associé?",
     "cert.visit_portal": "Visitez le portail de formation officiel de niveau associé pour plus d'informations et de détails d'inscription.",
-    "footer.copyright": "© 2025 GenuisNet.ai. Tous droits réservés.",
+    "footer.copyright": "© 2025 TechVernia. Tous droits réservés.",
     "footer.trademark": "Associate Level et les marques associées sont la propriété de Juniper Networks, Inc."
   },
   de: {
@@ -87,7 +87,7 @@ window.jnciaMistaiTranslations = {
     "cert.next_steps": "Nächste Schritte",
     "cert.ready": "Bereit, Ihre Karriere mit einer Associate-Level-Zertifizierung voranzubringen?",
     "cert.visit_portal": "Besuchen Sie das offizielle Associate-Level-Schulungsportal für weitere Informationen und Registrierungsdetails.",
-    "footer.copyright": "© 2025 GenuisNet.ai. Alle Rechte vorbehalten.",
+    "footer.copyright": "© 2025 TechVernia. Alle Rechte vorbehalten.",
     "footer.trademark": "Associate Level und verwandte Marken sind Eigentum von Juniper Networks, Inc."
   },
   es: {
@@ -117,7 +117,7 @@ window.jnciaMistaiTranslations = {
     "cert.next_steps": "Próximos Pasos",
     "cert.ready": "¿Listo para avanzar en su carrera con una certificación de nivel asociado?",
     "cert.visit_portal": "Visite el portal oficial de capacitación de nivel asociado para obtener más información y detalles de registro.",
-    "footer.copyright": "© 2025 GenuisNet.ai. Todos los derechos reservados.",
+    "footer.copyright": "© 2025 TechVernia. Todos los derechos reservados.",
     "footer.trademark": "Associate Level y las marcas relacionadas son propiedad de Juniper Networks, Inc."
   },
   pt: {
@@ -147,7 +147,7 @@ window.jnciaMistaiTranslations = {
     "cert.next_steps": "Próximos Passos",
     "cert.ready": "Pronto para avançar sua carreira com uma certificação de nível associado?",
     "cert.visit_portal": "Visite o portal oficial de treinamento de nível associado para mais informações e detalhes de registro.",
-    "footer.copyright": "© 2025 GenuisNet.ai. Todos os direitos reservados.",
+    "footer.copyright": "© 2025 TechVernia. Todos os direitos reservados.",
     "footer.trademark": "Associate Level e marcas relacionadas são propriedade da Juniper Networks, Inc."
   },
   zh: {
@@ -177,7 +177,7 @@ window.jnciaMistaiTranslations = {
     "cert.next_steps": "下一步",
     "cert.ready": "准备好通过助理级别认证来推进您的职业生涯了吗?",
     "cert.visit_portal": "访问官方助理级别培训门户以获取更多信息和注册详细信息。",
-    "footer.copyright": "© 2025 GenuisNet.ai。保留所有权利。",
+    "footer.copyright": "© 2025 TechVernia。保留所有权利。",
     "footer.trademark": "Associate Level及相关商标是Juniper Networks, Inc.的财产。"
   },
   ja: {
@@ -207,7 +207,7 @@ window.jnciaMistaiTranslations = {
     "cert.next_steps": "次のステップ",
     "cert.ready": "アソシエイトレベル認定でキャリアを向上させる準備はできていますか?",
     "cert.visit_portal": "詳細情報と登録の詳細については、公式のアソシエイトレベルトレーニングポータルをご覧ください。",
-    "footer.copyright": "© 2025 GenuisNet.ai。All rights reserved。",
+    "footer.copyright": "© 2025 TechVernia。All rights reserved。",
     "footer.trademark": "Associate Levelおよび関連する商標は、Juniper Networks, Inc.の財産です。"
   },
   ko: {
@@ -237,7 +237,7 @@ window.jnciaMistaiTranslations = {
     "cert.next_steps": "다음 단계",
     "cert.ready": "어소시에이트 레벨 인증으로 경력을 발전시킬 준비가 되셨습니까?",
     "cert.visit_portal": "자세한 정보 및 등록 세부 정보는 공식 어소시에이트 레벨 교육 포털을 방문하십시오.",
-    "footer.copyright": "© 2025 GenuisNet.ai. 모든 권리 보유.",
+    "footer.copyright": "© 2025 TechVernia. 모든 권리 보유.",
     "footer.trademark": "Associate Level 및 관련 상표는 Juniper Networks, Inc.의 재산입니다."
   },
   ar: {
@@ -267,7 +267,7 @@ window.jnciaMistaiTranslations = {
     "cert.next_steps": "الخطوات التالية",
     "cert.ready": "هل أنت مستعد لتطوير حياتك المهنية بشهادة المستوى المساعد؟",
     "cert.visit_portal": "قم بزيارة بوابة التدريب الرسمية للمستوى المساعد لمزيد من المعلومات وتفاصيل التسجيل.",
-    "footer.copyright": "© 2025 GenuisNet.ai. جميع الحقوق محفوظة.",
+    "footer.copyright": "© 2025 TechVernia. جميع الحقوق محفوظة.",
     "footer.trademark": "Associate Level والعلامات التجارية ذات الصلة هي ملك لـ Juniper Networks, Inc."
   },
   hi: {
@@ -297,7 +297,7 @@ window.jnciaMistaiTranslations = {
     "cert.next_steps": "अगले कदम",
     "cert.ready": "एसोसिएट स्तर प्रमाणन के साथ अपने करियर को आगे बढ़ाने के लिए तैयार हैं?",
     "cert.visit_portal": "अधिक जानकारी और पंजीकरण विवरण के लिए आधिकारिक एसोसिएट स्तर प्रशिक्षण पोर्टल पर जाएं।",
-    "footer.copyright": "© 2025 GenuisNet.ai। सर्वाधिकार सुरक्षित।",
+    "footer.copyright": "© 2025 TechVernia। सर्वाधिकार सुरक्षित।",
     "footer.trademark": "Associate Level और संबंधित ट्रेडमार्क Juniper Networks, Inc. की संपत्ति हैं।"
   }
 };

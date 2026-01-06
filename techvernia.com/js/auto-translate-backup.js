@@ -1,5 +1,5 @@
 /* ============================================
-   GenuisNet.ai - Automatic Content Translation (VERSION CORRIGÉE)
+   TechVernia - Automatic Content Translation (VERSION CORRIGÉE)
    Traduit TOUT le contenu automatiquement avec une vraie API
    ============================================ */
 

@@ -1,6 +1,6 @@
 /**
  * Theme Toggle - Dark/Light Mode
- * GenuisNet.ai
+ * TechVernia
  */
 
 (function() {

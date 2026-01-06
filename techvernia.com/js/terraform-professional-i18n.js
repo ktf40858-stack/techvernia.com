@@ -26,7 +26,7 @@ window.terraformProfessionalTranslations = {
     "cert.terraformPro.validity": "Valid: 2 years",
     "cert.validity": "Validity",
     "cert.visit_portal": "Visit the official Professional Level training portal for more information and registration details.",
-    "footer.copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+    "footer.copyright": "© 2025 TechVernia. All rights reserved.",
     "footer.trademark": "HashiCorp Certified: Terraform Professional and related trademarks are property of HashiCorp.",
     "nav.back_to_review": "← Back to Terraform Review"
   },
@@ -56,16 +56,16 @@ window.terraformProfessionalTranslations = {
     "cert.terraformPro.validity": "Validité: 2 ans",
     "cert.validity": "Validité",
     "cert.visit_portal": "Visitez le portail de formation officiel de niveau professionnel pour plus d'informations et de détails d'inscription.",
-    "footer.copyright": "© 2025 GenuisNet.ai. Tous droits réservés.",
+    "footer.copyright": "© 2025 TechVernia. Tous droits réservés.",
     "footer.trademark": "HashiCorp Certified: Terraform Professional et les marques associées sont la propriété de HashiCorp.",
     "nav.back_to_review": "← Retour à l'évaluation Terraform"
   },
   de: {
-    "copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+    "copyright": "© 2025 TechVernia. All rights reserved.",
     "trademark": "HashiCorp Certified: Terraform Professional and related trademarks are property of HashiCorp."
   },
   es: {
-    "copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+    "copyright": "© 2025 TechVernia. All rights reserved.",
     "trademark": "HashiCorp Certified: Terraform Professional and related trademarks are property of HashiCorp."
   },
   pt: {
@@ -94,7 +94,7 @@ window.terraformProfessionalTranslations = {
     "cert.terraformPro.validity": "Validade: 2 anos",
     "cert.validity": "Validade",
     "cert.visit_portal": "Visite o portal oficial de treinamento de nível profissional para mais informações e detalhes de registro.",
-    "footer.copyright": "© 2025 GenuisNet.ai. Todos os direitos reservados.",
+    "footer.copyright": "© 2025 TechVernia. Todos os direitos reservados.",
     "footer.trademark": "HashiCorp Certified: Terraform Professional e marcas relacionadas são propriedade da HashiCorp.",
     "nav.back_to_review": "← Voltar à avaliação do Terraform"
   },
@@ -124,7 +124,7 @@ window.terraformProfessionalTranslations = {
     "cert.terraformPro.validity": "有效期:2年",
     "cert.validity": "有效期",
     "cert.visit_portal": "访问官方专业级别培训门户以获取更多信息和注册详细信息。",
-    "footer.copyright": "© 2025 GenuisNet.ai。保留所有权利。",
+    "footer.copyright": "© 2025 TechVernia。保留所有权利。",
     "footer.trademark": "HashiCorp Certified: Terraform Professional及相关商标是HashiCorp的财产。",
     "nav.back_to_review": "← 返回Terraform评估"
   },
@@ -154,7 +154,7 @@ window.terraformProfessionalTranslations = {
     "cert.terraformPro.validity": "有効期限:2年",
     "cert.validity": "有効期限",
     "cert.visit_portal": "詳細情報と登録の詳細については、公式のプロフェッショナルレベルトレーニングポータルをご覧ください。",
-    "footer.copyright": "© 2025 GenuisNet.ai。All rights reserved。",
+    "footer.copyright": "© 2025 TechVernia。All rights reserved。",
     "footer.trademark": "HashiCorp Certified: Terraform Professionalおよび関連する商標は、HashiCorpの財産です。",
     "nav.back_to_review": "← Terraformレビューに戻る"
   },
@@ -184,7 +184,7 @@ window.terraformProfessionalTranslations = {
     "cert.terraformPro.validity": "유효기간: 2년",
     "cert.validity": "유효기간",
     "cert.visit_portal": "자세한 정보 및 등록 세부 정보는 공식 프로페셔널 레벨 교육 포털을 방문하십시오.",
-    "footer.copyright": "© 2025 GenuisNet.ai. 모든 권리 보유.",
+    "footer.copyright": "© 2025 TechVernia. 모든 권리 보유.",
     "footer.trademark": "HashiCorp Certified: Terraform Professional 및 관련 상표는 HashiCorp의 재산입니다.",
     "nav.back_to_review": "← Terraform 리뷰로 돌아가기"
   },
@@ -214,7 +214,7 @@ window.terraformProfessionalTranslations = {
     "cert.terraformPro.validity": "صالح: سنتان",
     "cert.validity": "الصلاحية",
     "cert.visit_portal": "قم بزيارة بوابة التدريب الرسمية للمستوى المهني لمزيد من المعلومات وتفاصيل التسجيل.",
-    "footer.copyright": "© 2025 GenuisNet.ai. جميع الحقوق محفوظة.",
+    "footer.copyright": "© 2025 TechVernia. جميع الحقوق محفوظة.",
     "footer.trademark": "HashiCorp Certified: Terraform Professional والعلامات التجارية ذات الصلة هي ملك لـ HashiCorp.",
     "nav.back_to_review": "← العودة إلى مراجعة Terraform"
   },
@@ -244,7 +244,7 @@ window.terraformProfessionalTranslations = {
     "cert.terraformPro.validity": "वैध: 2 वर्ष",
     "cert.validity": "वैधता",
     "cert.visit_portal": "अधिक जानकारी और पंजीकरण विवरण के लिए आधिकारिक पेशेवर स्तर प्रशिक्षण पोर्टल पर जाएं।",
-    "footer.copyright": "© 2025 GenuisNet.ai। सर्वाधिकार सुरक्षित।",
+    "footer.copyright": "© 2025 TechVernia। सर्वाधिकार सुरक्षित।",
     "footer.trademark": "HashiCorp Certified: Terraform Professional और संबंधित ट्रेडमार्क HashiCorp की संपत्ति हैं।",
     "nav.back_to_review": "← Terraform समीक्षा पर वापस जाएं"
   }

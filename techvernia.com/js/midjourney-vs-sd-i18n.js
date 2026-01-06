@@ -103,7 +103,7 @@ const translations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved.",
+        footerCopyright: "© 2026 TechVernia. All rights reserved.",
         affiliateNotice: "Some links may be affiliate links. We may earn a commission at no extra cost to you.",
 
         // Additional sections
@@ -261,7 +261,7 @@ const translations = {
         footerDesc: "Tu fuente confiable para reseñas, comparaciones y guías de herramientas de IA.",
         footerCategories: "Categorías",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados.",
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados.",
         affiliateNotice: "Algunos enlaces pueden ser enlaces de afiliados. Podemos ganar una comisión sin costo adicional para ti.",
 
         heading101: "2. Facilidad de Uso y Configuración",
@@ -418,7 +418,7 @@ const translations = {
         footerDesc: "Votre source de confiance pour les critiques, comparaisons et guides d'outils IA.",
         footerCategories: "Catégories",
         footerResources: "Ressources",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés.",
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés.",
         affiliateNotice: "Certains liens peuvent être des liens d'affiliation. Nous pouvons percevoir une commission sans frais supplémentaires pour vous.",
 
         heading101: "2. Facilité d'Utilisation et Configuration",
@@ -574,7 +574,7 @@ const translations = {
         footerDesc: "Ihre vertrauenswürdige Quelle für KI-Tool-Bewertungen, Vergleiche und Anleitungen.",
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten.",
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten.",
         affiliateNotice: "Einige Links können Affiliate-Links sein. Wir können eine Provision ohne zusätzliche Kosten für Sie verdienen.",
 
         heading101: '2. Benutzerfreundlichkeit und Einrichtung',
@@ -731,7 +731,7 @@ const translations = {
         footerDesc: "Sua fonte confiável para avaliações, comparações e guias de ferramentas de IA.",
         footerCategories: "Categorias",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados.",
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados.",
         affiliateNotice: "Alguns links podem ser links de afiliados. Podemos ganhar uma comissão sem custo extra para você.",
 
         heading101: '2. Facilidade de Uso e Configuração',
@@ -888,7 +888,7 @@ const translations = {
         footerDesc: "您值得信赖的AI工具评论、比较和指南来源。",
         footerCategories: "分类",
         footerResources: "资源",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。",
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。",
         affiliateNotice: "某些链接可能是联盟链接。我们可能会赚取佣金，但不会向您收取额外费用。",
 
         heading101: '2. 易用性和设置',
@@ -1045,7 +1045,7 @@ const translations = {
         footerDesc: "AIツールのレビュー、比較、ガイドの信頼できる情報源。",
         footerCategories: "カテゴリ",
         footerResources: "リソース",
-        footerCopyright: "© 2026 GenuisNet.ai. 全著作権所有。",
+        footerCopyright: "© 2026 TechVernia. 全著作権所有。",
         affiliateNotice: "一部のリンクはアフィリエイトリンクの場合があります。追加費用なしで手数料を得る場合があります。",
 
         heading101: '2. 使いやすさと設定',
@@ -1202,7 +1202,7 @@ const translations = {
         footerDesc: "AI 도구 리뷰, 비교 및 가이드의 신뢰할 수 있는 출처.",
         footerCategories: "카테고리",
         footerResources: "리소스",
-        footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유.",
+        footerCopyright: "© 2026 TechVernia. 모든 권리 보유.",
         affiliateNotice: "일부 링크는 제휴 링크일 수 있습니다. 추가 비용 없이 수수료를 받을 수 있습니다.",
 
         heading101: '2. 사용 편의성 및 설정',
@@ -1359,7 +1359,7 @@ const translations = {
         footerDesc: "مصدرك الموثوق لمراجعات أدوات الذكاء الاصطناعي والمقارنات والأدلة.",
         footerCategories: "الفئات",
         footerResources: "الموارد",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة.",
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة.",
         affiliateNotice: "قد تكون بعض الروابط روابط تابعة. قد نحصل على عمولة دون أي تكلفة إضافية عليك.",
 
         heading101: '2. سهولة الاستخدام والإعداد',
@@ -1471,7 +1471,7 @@ function applyTranslations(lang) {
 
     // Update page title
     if (translations[lang].pageTitle) {
-        document.title = translations[lang].pageTitle + " | GenuisNet.ai";
+        document.title = translations[lang].pageTitle + " | TechVernia";
     }
 
     console.log('✅ Translations applied successfully');

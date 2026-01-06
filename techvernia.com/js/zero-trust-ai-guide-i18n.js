@@ -44,7 +44,7 @@ const articleTranslations = {
         list7: "Faster incident response (minutes vs hours)",
         list8: "Dynamic risk-based authentication",
         list9: "Contextual access decisions",
-        pageTitle: "Zero Trust Security with AI: A Network Engineer's Guide | GenuisNet.ai",
+        pageTitle: "Zero Trust Security with AI: A Network Engineer's Guide | TechVernia",
         para1: "Zero Trust is a security model based on the principle: \"Never trust, always verify.\" Every access request must be authenticated, authorized, and encrypted—regardless of source location.",
         para10: "AI-powered Zero Trust is no longer optional—it's essential for modern enterprise security. Start with identity management, leverage AI for threat detection, and continuously refine your policies based on behavioral analytics.",
         para2: "AI analyzes user behavior patterns to detect anomalies:",
@@ -75,7 +75,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     es: {
         heading1: "¿Qué es Zero Trust?",
@@ -117,7 +117,7 @@ const articleTranslations = {
         list7: "Respuesta más rápida a incidentes (minutos vs. horas)",
         list8: "Autenticación dinámica basada en riesgos",
         list9: "Decisiones de acceso contextuales",
-        pageTitle: "Seguridad Zero Trust con IA: Guía para Ingenieros de Redes | GenuisNet.ai",
+        pageTitle: "Seguridad Zero Trust con IA: Guía para Ingenieros de Redes | TechVernia",
         para1: "Zero Trust es un modelo de seguridad basado en el principio: \"Nunca confíe, siempre verifique.\" Cada solicitud de acceso debe autenticarse, autorizarse y cifrarse, independientemente de la ubicación de origen.",
         para10: "Zero Trust impulsado por IA ya no es opcional, es esencial para la seguridad empresarial moderna. Comience con la gestión de identidades, aproveche la IA para la detección de amenazas y perfeccione continuamente sus políticas basándose en análisis de comportamiento.",
         para2: "La IA analiza patrones de comportamiento del usuario para detectar anomalías:",
@@ -148,7 +148,7 @@ const articleTranslations = {
         footerDesc: "Su fuente confiable de reseñas, comparaciones y guías de herramientas de IA.",
         footerCategories: "Categorías",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados."
     },
     fr: {
         heading1: "Qu'est-ce que Zero Trust ?",
@@ -190,7 +190,7 @@ const articleTranslations = {
         list7: "Réponse plus rapide aux incidents (minutes vs heures)",
         list8: "Authentification dynamique basée sur les risques",
         list9: "Décisions d'accès contextuelles",
-        pageTitle: "Sécurité Zero Trust avec l'IA : Guide pour Ingénieurs Réseau | GenuisNet.ai",
+        pageTitle: "Sécurité Zero Trust avec l'IA : Guide pour Ingénieurs Réseau | TechVernia",
         para1: "Zero Trust est un modèle de sécurité basé sur le principe : \"Ne jamais faire confiance, toujours vérifier.\" Chaque demande d'accès doit être authentifiée, autorisée et chiffrée, quelle que soit la localisation source.",
         para10: "Zero Trust alimenté par l'IA n'est plus facultatif, c'est essentiel pour la sécurité d'entreprise moderne. Commencez par la gestion des identités, exploitez l'IA pour la détection des menaces et affinez continuellement vos politiques en fonction de l'analyse comportementale.",
         para2: "L'IA analyse les modèles de comportement des utilisateurs pour détecter les anomalies :",
@@ -221,7 +221,7 @@ const articleTranslations = {
         footerDesc: "Votre source fiable d'avis, comparaisons et guides d'outils IA.",
         footerCategories: "Catégories",
         footerResources: "Ressources",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés."
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés."
     },
     de: {
         heading1: "Was ist Zero Trust?",
@@ -263,7 +263,7 @@ const articleTranslations = {
         list7: "Schnellere Vorfallreaktion (Minuten statt Stunden)",
         list8: "Dynamische risikobasierte Authentifizierung",
         list9: "Kontextbezogene Zugriffsentscheidungen",
-        pageTitle: "Zero Trust Sicherheit mit KI: Leitfaden für Netzwerkingenieure | GenuisNet.ai",
+        pageTitle: "Zero Trust Sicherheit mit KI: Leitfaden für Netzwerkingenieure | TechVernia",
         para1: "Zero Trust ist ein Sicherheitsmodell, das auf dem Prinzip basiert: \"Niemals vertrauen, immer verifizieren.\" Jede Zugriffsanfrage muss authentifiziert, autorisiert und verschlüsselt werden – unabhängig vom Quellstandort.",
         para10: "KI-gestütztes Zero Trust ist nicht mehr optional – es ist essenziell für moderne Unternehmenssicherheit. Beginnen Sie mit Identitätsverwaltung, nutzen Sie KI zur Bedrohungserkennung und verfeinern Sie kontinuierlich Ihre Richtlinien basierend auf Verhaltensanalysen.",
         para2: "KI analysiert Benutzerverhaltensmuster zur Erkennung von Anomalien:",
@@ -294,7 +294,7 @@ const articleTranslations = {
         footerDesc: "Ihre vertrauenswürdige Quelle für KI-Tool-Bewertungen, Vergleiche und Leitfäden.",
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten."
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
     pt: {
         heading1: "O que é Zero Trust?",
@@ -336,7 +336,7 @@ const articleTranslations = {
         list7: "Resposta mais rápida a incidentes (minutos vs. horas)",
         list8: "Autenticação dinâmica baseada em risco",
         list9: "Decisões de acesso contextuais",
-        pageTitle: "Segurança Zero Trust com IA: Guia para Engenheiros de Rede | GenuisNet.ai",
+        pageTitle: "Segurança Zero Trust com IA: Guia para Engenheiros de Rede | TechVernia",
         para1: "Zero Trust é um modelo de segurança baseado no princípio: \"Nunca confie, sempre verifique.\" Cada solicitação de acesso deve ser autenticada, autorizada e criptografada – independentemente da localização de origem.",
         para10: "Zero Trust baseado em IA não é mais opcional – é essencial para a segurança empresarial moderna. Comece com gerenciamento de identidade, aproveite a IA para detecção de ameaças e refine continuamente suas políticas com base em análises comportamentais.",
         para2: "A IA analisa padrões de comportamento do usuário para detectar anomalias:",
@@ -367,7 +367,7 @@ const articleTranslations = {
         footerDesc: "Sua fonte confiável de análises, comparações e guias de ferramentas de IA.",
         footerCategories: "Categorias",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados."
     },
     zh: {
         heading1: "什么是零信任？",
@@ -409,7 +409,7 @@ const articleTranslations = {
         list7: "更快的事件响应（分钟而不是小时）",
         list8: "动态基于风险的认证",
         list9: "上下文访问决策",
-        pageTitle: "AI零信任安全：网络工程师指南 | GenuisNet.ai",
+        pageTitle: "AI零信任安全：网络工程师指南 | TechVernia",
         para1: "零信任是基于原则的安全模型：\"永不信任，始终验证。\"每个访问请求都必须经过身份验证、授权和加密——无论来源位置如何。",
         para10: "AI驱动的零信任不再是可选的——它对现代企业安全至关重要。从身份管理开始，利用AI进行威胁检测，并根据行为分析持续完善您的策略。",
         para2: "AI分析用户行为模式以检测异常：",
@@ -440,7 +440,7 @@ const articleTranslations = {
         footerDesc: "您值得信赖的AI工具评论、比较和指南来源。",
         footerCategories: "类别",
         footerResources: "资源",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。"
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。"
     },
     ja: {
         heading1: "ゼロトラストとは？",
@@ -482,7 +482,7 @@ const articleTranslations = {
         list7: "より速いインシデント対応（時間ではなく分）",
         list8: "動的リスクベース認証",
         list9: "コンテキストアクセス決定",
-        pageTitle: "AIを使用したゼロトラストセキュリティ：ネットワークエンジニアのガイド | GenuisNet.ai",
+        pageTitle: "AIを使用したゼロトラストセキュリティ：ネットワークエンジニアのガイド | TechVernia",
         para1: "ゼロトラストは、原則に基づくセキュリティモデルです：「決して信頼せず、常に検証する。」すべてのアクセス要求は、ソースの場所に関係なく、認証、承認、暗号化される必要があります。",
         para10: "AI駆動型ゼロトラストはもはや任意ではありません—現代の企業セキュリティには不可欠です。ID管理から始め、脅威検出にAIを活用し、行動分析に基づいてポリシーを継続的に改善します。",
         para2: "AIはユーザーの行動パターンを分析して異常を検出します：",
@@ -513,7 +513,7 @@ const articleTranslations = {
         footerDesc: "信頼できるAIツールレビュー、比較、ガイドの情報源。",
         footerCategories: "カテゴリ",
         footerResources: "リソース",
-        footerCopyright: "© 2026 GenuisNet.ai. 全著作権所有。"
+        footerCopyright: "© 2026 TechVernia. 全著作権所有。"
     },
     ko: {
         heading1: "제로 트러스트란 무엇인가요?",
@@ -555,7 +555,7 @@ const articleTranslations = {
         list7: "더 빠른 인시던트 대응 (시간이 아닌 분)",
         list8: "동적 위험 기반 인증",
         list9: "컨텍스트 액세스 결정",
-        pageTitle: "AI를 활용한 제로 트러스트 보안: 네트워크 엔지니어 가이드 | GenuisNet.ai",
+        pageTitle: "AI를 활용한 제로 트러스트 보안: 네트워크 엔지니어 가이드 | TechVernia",
         para1: "제로 트러스트는 원칙에 기반한 보안 모델입니다: \"절대 신뢰하지 말고 항상 검증하라.\" 모든 액세스 요청은 소스 위치에 관계없이 인증, 권한 부여 및 암호화되어야 합니다.",
         para10: "AI 기반 제로 트러스트는 더 이상 선택 사항이 아닙니다—현대 기업 보안에 필수적입니다. ID 관리로 시작하고, 위협 탐지에 AI를 활용하며, 행동 분석을 기반으로 정책을 지속적으로 개선하세요.",
         para2: "AI는 사용자 행동 패턴을 분석하여 이상 징후를 탐지합니다:",
@@ -586,7 +586,7 @@ const articleTranslations = {
         footerDesc: "신뢰할 수 있는 AI 도구 리뷰, 비교 및 가이드 소스.",
         footerCategories: "카테고리",
         footerResources: "리소스",
-        footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유."
+        footerCopyright: "© 2026 TechVernia. 모든 권리 보유."
     },
     ar: {
         heading1: "ما هو انعدام الثقة؟",
@@ -628,7 +628,7 @@ const articleTranslations = {
         list7: "استجابة أسرع للحوادث (دقائق مقابل ساعات)",
         list8: "المصادقة الديناميكية المستندة إلى المخاطر",
         list9: "قرارات الوصول السياقية",
-        pageTitle: "أمان انعدام الثقة مع الذكاء الاصطناعي: دليل مهندس الشبكات | GenuisNet.ai",
+        pageTitle: "أمان انعدام الثقة مع الذكاء الاصطناعي: دليل مهندس الشبكات | TechVernia",
         para1: "انعدام الثقة هو نموذج أمني قائم على المبدأ: \"لا تثق أبدًا، تحقق دائمًا.\" يجب مصادقة كل طلب وصول وتفويضه وتشفيره—بغض النظر عن موقع المصدر.",
         para10: "انعدام الثقة المدعوم بالذكاء الاصطناعي لم يعد اختياريًا—إنه ضروري لأمن المؤسسات الحديثة. ابدأ بإدارة الهوية، واستفد من الذكاء الاصطناعي لاكتشاف التهديدات، وحسّن سياساتك باستمرار بناءً على التحليلات السلوكية.",
         para2: "يحلل الذكاء الاصطناعي أنماط سلوك المستخدم لاكتشاف الحالات الشاذة:",
@@ -659,7 +659,7 @@ const articleTranslations = {
         footerDesc: "مصدرك الموثوق لمراجعات أدوات الذكاء الاصطناعي والمقارنات والأدلة.",
         footerCategories: "الفئات",
         footerResources: "الموارد",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة."
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة."
     },
     hi: {
         heading1: "ज़ीरो ट्रस्ट क्या है?",
@@ -701,7 +701,7 @@ const articleTranslations = {
         list7: "तेज़ घटना प्रतिक्रिया (घंटों के बजाय मिनट)",
         list8: "गतिशील जोखिम-आधारित प्रमाणीकरण",
         list9: "प्रासंगिक एक्सेस निर्णय",
-        pageTitle: "AI के साथ ज़ीरो ट्रस्ट सुरक्षा: नेटवर्क इंजीनियर की गाइड | GenuisNet.ai",
+        pageTitle: "AI के साथ ज़ीरो ट्रस्ट सुरक्षा: नेटवर्क इंजीनियर की गाइड | TechVernia",
         para1: "ज़ीरो ट्रस्ट एक सुरक्षा मॉडल है जो सिद्धांत पर आधारित है: \"कभी विश्वास न करें, हमेशा सत्यापित करें।\" प्रत्येक एक्सेस अनुरोध को प्रमाणित, अधिकृत और एन्क्रिप्ट किया जाना चाहिए—स्रोत स्थान की परवाह किए बिना।",
         para10: "AI-संचालित ज़ीरो ट्रस्ट अब वैकल्पिक नहीं है—यह आधुनिक एंटरप्राइज़ सुरक्षा के लिए आवश्यक है। पहचान प्रबंधन से शुरू करें, खतरे का पता लगाने के लिए AI का लाभ उठाएं, और व्यवहार विश्लेषण के आधार पर अपनी नीतियों को लगातार परिष्कृत करें।",
         para2: "AI विसंगतियों का पता लगाने के लिए उपयोगकर्ता व्यवहार पैटर्न का विश्लेषण करता है:",
@@ -732,7 +732,7 @@ const articleTranslations = {
         footerDesc: "AI टूल समीक्षाओं, तुलनाओं और गाइड के लिए आपका विश्वसनीय स्रोत।",
         footerCategories: "श्रेणियाँ",
         footerResources: "संसाधन",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।"
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।"
     },
 };
 

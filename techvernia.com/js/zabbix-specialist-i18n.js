@@ -26,7 +26,7 @@ window.zabbixSpecialistTranslations = {
     "cert.zabbixSpec.title": "Zabbix 7.0 Certified Specialist (ZCS)",
     "cert.zabbixSpec.topics_intro": "The Zabbix 7.0 Certified Specialist (ZCS) certification covers essential skills and knowledge areas.",
     "cert.zabbixSpec.validity": "Valid: 3 years",
-    "footer.copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+    "footer.copyright": "© 2025 TechVernia. All rights reserved.",
     "footer.trademark": "Zabbix 7.0 Certified Specialist and related trademarks are property of Zabbix LLC.",
     "nav.back_to_review": "← Back to Zabbix Review"
   },
@@ -56,16 +56,16 @@ window.zabbixSpecialistTranslations = {
     "cert.zabbixSpec.title": "Zabbix 7.0 Certified Specialist (ZCS)",
     "cert.zabbixSpec.topics_intro": "La certification Zabbix 7.0 Certified Specialist (ZCS) couvre les compétences et les domaines de connaissances essentiels.",
     "cert.zabbixSpec.validity": "Validité: 3 ans",
-    "footer.copyright": "© 2025 GenuisNet.ai. Tous droits réservés.",
+    "footer.copyright": "© 2025 TechVernia. Tous droits réservés.",
     "footer.trademark": "Zabbix 7.0 Certified Specialist et les marques associées sont la propriété de Zabbix LLC.",
     "nav.back_to_review": "← Retour à l'évaluation Zabbix"
   },
   de: {
-    "copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+    "copyright": "© 2025 TechVernia. All rights reserved.",
     "trademark": "Zabbix 7.0 Certified Specialist and related trademarks are property of Zabbix LLC."
   },
   es: {
-    "copyright": "© 2025 GenuisNet.ai. All rights reserved.",
+    "copyright": "© 2025 TechVernia. All rights reserved.",
     "trademark": "Zabbix 7.0 Certified Specialist and related trademarks are property of Zabbix LLC."
   },
   pt: {
@@ -94,7 +94,7 @@ window.zabbixSpecialistTranslations = {
     "cert.zabbixSpec.title": "Zabbix 7.0 Certified Specialist (ZCS)",
     "cert.zabbixSpec.topics_intro": "A certificação Zabbix 7.0 Certified Specialist (ZCS) cobre habilidades e áreas de conhecimento essenciais.",
     "cert.zabbixSpec.validity": "Validade: 3 anos",
-    "footer.copyright": "© 2025 GenuisNet.ai. Todos os direitos reservados.",
+    "footer.copyright": "© 2025 TechVernia. Todos os direitos reservados.",
     "footer.trademark": "Zabbix 7.0 Certified Specialist e marcas relacionadas são propriedade da Zabbix LLC.",
     "nav.back_to_review": "← Voltar à avaliação do Zabbix"
   },
@@ -124,7 +124,7 @@ window.zabbixSpecialistTranslations = {
     "cert.zabbixSpec.title": "Zabbix 7.0 Certified Specialist (ZCS)",
     "cert.zabbixSpec.topics_intro": "Zabbix 7.0 Certified Specialist (ZCS) 认证涵盖了基本技能和知识领域。",
     "cert.zabbixSpec.validity": "有效期:3年",
-    "footer.copyright": "© 2025 GenuisNet.ai。保留所有权利。",
+    "footer.copyright": "© 2025 TechVernia。保留所有权利。",
     "footer.trademark": "Zabbix 7.0 Certified Specialist及相关商标是Zabbix LLC的财产。",
     "nav.back_to_review": "← 返回Zabbix评估"
   },
@@ -154,7 +154,7 @@ window.zabbixSpecialistTranslations = {
     "cert.zabbixSpec.title": "Zabbix 7.0 Certified Specialist (ZCS)",
     "cert.zabbixSpec.topics_intro": "Zabbix 7.0 Certified Specialist (ZCS) 認定は、必須のスキルと知識領域をカバーしています。",
     "cert.zabbixSpec.validity": "有効期限:3年",
-    "footer.copyright": "© 2025 GenuisNet.ai。All rights reserved。",
+    "footer.copyright": "© 2025 TechVernia。All rights reserved。",
     "footer.trademark": "Zabbix 7.0 Certified Specialistおよび関連する商標は、Zabbix LLCの財産です。",
     "nav.back_to_review": "← Zabbixレビューに戻る"
   },
@@ -184,7 +184,7 @@ window.zabbixSpecialistTranslations = {
     "cert.zabbixSpec.title": "Zabbix 7.0 Certified Specialist (ZCS)",
     "cert.zabbixSpec.topics_intro": "Zabbix 7.0 Certified Specialist (ZCS) 인증은 필수 기술 및 지식 영역을 다룹니다.",
     "cert.zabbixSpec.validity": "유효기간: 3년",
-    "footer.copyright": "© 2025 GenuisNet.ai. 모든 권리 보유.",
+    "footer.copyright": "© 2025 TechVernia. 모든 권리 보유.",
     "footer.trademark": "Zabbix 7.0 Certified Specialist 및 관련 상표는 Zabbix LLC의 재산입니다.",
     "nav.back_to_review": "← Zabbix 리뷰로 돌아가기"
   },
@@ -214,7 +214,7 @@ window.zabbixSpecialistTranslations = {
     "cert.zabbixSpec.title": "Zabbix 7.0 Certified Specialist (ZCS)",
     "cert.zabbixSpec.topics_intro": "تغطي شهادة Zabbix 7.0 Certified Specialist (ZCS) المهارات ومجالات المعرفة الأساسية.",
     "cert.zabbixSpec.validity": "صالح: 3 سنوات",
-    "footer.copyright": "© 2025 GenuisNet.ai. جميع الحقوق محفوظة.",
+    "footer.copyright": "© 2025 TechVernia. جميع الحقوق محفوظة.",
     "footer.trademark": "Zabbix 7.0 Certified Specialist والعلامات التجارية ذات الصلة هي ملك لـ Zabbix LLC.",
     "nav.back_to_review": "← العودة إلى مراجعة Zabbix"
   },
@@ -244,7 +244,7 @@ window.zabbixSpecialistTranslations = {
     "cert.zabbixSpec.title": "Zabbix 7.0 Certified Specialist (ZCS)",
     "cert.zabbixSpec.topics_intro": "Zabbix 7.0 Certified Specialist (ZCS) प्रमाणन आवश्यक कौशल और ज्ञान क्षेत्रों को कवर करता है।",
     "cert.zabbixSpec.validity": "वैध: 3 वर्ष",
-    "footer.copyright": "© 2025 GenuisNet.ai। सर्वाधिकार सुरक्षित।",
+    "footer.copyright": "© 2025 TechVernia। सर्वाधिकार सुरक्षित।",
     "footer.trademark": "Zabbix 7.0 Certified Specialist और संबंधित ट्रेडमार्क Zabbix LLC की संपत्ति हैं।",
     "nav.back_to_review": "← Zabbix समीक्षा पर वापस जाएं"
   }

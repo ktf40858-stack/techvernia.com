@@ -29,7 +29,7 @@ const articleTranslations = {
         list8: "Exceptional security analytics (SIEM capabilities)",
         list9: "Massive scalability (handles petabytes of data)",
         metaDescription: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic. Enterprise-grade AIOps tools compared for your infrastructure needs.",
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         para1: "AI-powered operations (AIOps) platforms use machine learning to detect anomalies, predict failures, and automate incident response. For network engineers managing complex infrastructures, these tools are game-changers.",
         para2: "Modern DevOps teams running cloud-native infrastructure, microservices, and containerized applications.",
         para3: "Large enterprises with compliance requirements, security-focused teams, and traditional on-premise infrastructure.",
@@ -49,7 +49,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     es: {
         heading1: "AIOps: The Future of Network Monitoring",
@@ -76,7 +76,7 @@ const articleTranslations = {
         list8: "Exceptional security analytics (SIEM capabilities)",
         list9: "Massive scalability (handles petabytes of data)",
         metaDescription: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic. Enterprise-grade AIOps tools compared for your infrastructure needs.",
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         para1: "AI-powered operations (AIOps) platforms use machine learning to detect anomalies, predict failures, and automate incident response. For network engineers managing complex infrastructures, these tools are game-changers.",
         para2: "Modern DevOps teams running cloud-native infrastructure, microservices, and containerized applications.",
         para3: "Large enterprises with compliance requirements, security-focused teams, and traditional on-premise infrastructure.",
@@ -96,7 +96,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     fr: {
         heading1: "AIOps: The Future of Network Monitoring",
@@ -123,7 +123,7 @@ const articleTranslations = {
         list8: "Exceptional security analytics (SIEM capabilities)",
         list9: "Massive scalability (handles petabytes of data)",
         metaDescription: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic. Enterprise-grade AIOps tools compared for your infrastructure needs.",
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         para1: "AI-powered operations (AIOps) platforms use machine learning to detect anomalies, predict failures, and automate incident response. For network engineers managing complex infrastructures, these tools are game-changers.",
         para2: "Modern DevOps teams running cloud-native infrastructure, microservices, and containerized applications.",
         para3: "Large enterprises with compliance requirements, security-focused teams, and traditional on-premise infrastructure.",
@@ -143,7 +143,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     de: {
         heading1: "AIOps: The Future of Network Monitoring",
@@ -170,7 +170,7 @@ const articleTranslations = {
         list8: "Exceptional security analytics (SIEM capabilities)",
         list9: "Massive scalability (handles petabytes of data)",
         metaDescription: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic. Enterprise-grade AIOps tools compared for your infrastructure needs.",
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         para1: "AI-powered operations (AIOps) platforms use machine learning to detect anomalies, predict failures, and automate incident response. For network engineers managing complex infrastructures, these tools are game-changers.",
         para2: "Modern DevOps teams running cloud-native infrastructure, microservices, and containerized applications.",
         para3: "Large enterprises with compliance requirements, security-focused teams, and traditional on-premise infrastructure.",
@@ -190,7 +190,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     pt: {
         heading1: "AIOps: The Future of Network Monitoring",
@@ -217,7 +217,7 @@ const articleTranslations = {
         list8: "Exceptional security analytics (SIEM capabilities)",
         list9: "Massive scalability (handles petabytes of data)",
         metaDescription: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic. Enterprise-grade AIOps tools compared for your infrastructure needs.",
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         para1: "AI-powered operations (AIOps) platforms use machine learning to detect anomalies, predict failures, and automate incident response. For network engineers managing complex infrastructures, these tools are game-changers.",
         para2: "Modern DevOps teams running cloud-native infrastructure, microservices, and containerized applications.",
         para3: "Large enterprises with compliance requirements, security-focused teams, and traditional on-premise infrastructure.",
@@ -237,7 +237,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     zh: {
         heading1: "AIOps: The Future of Network Monitoring",
@@ -264,7 +264,7 @@ const articleTranslations = {
         list8: "Exceptional security analytics (SIEM capabilities)",
         list9: "Massive scalability (handles petabytes of data)",
         metaDescription: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic. Enterprise-grade AIOps tools compared for your infrastructure needs.",
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         para1: "AI-powered operations (AIOps) platforms use machine learning to detect anomalies, predict failures, and automate incident response. For network engineers managing complex infrastructures, these tools are game-changers.",
         para2: "Modern DevOps teams running cloud-native infrastructure, microservices, and containerized applications.",
         para3: "Large enterprises with compliance requirements, security-focused teams, and traditional on-premise infrastructure.",
@@ -284,7 +284,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     ja: {
         heading1: "AIOps: The Future of Network Monitoring",
@@ -311,7 +311,7 @@ const articleTranslations = {
         list8: "Exceptional security analytics (SIEM capabilities)",
         list9: "Massive scalability (handles petabytes of data)",
         metaDescription: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic. Enterprise-grade AIOps tools compared for your infrastructure needs.",
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         para1: "AI-powered operations (AIOps) platforms use machine learning to detect anomalies, predict failures, and automate incident response. For network engineers managing complex infrastructures, these tools are game-changers.",
         para2: "Modern DevOps teams running cloud-native infrastructure, microservices, and containerized applications.",
         para3: "Large enterprises with compliance requirements, security-focused teams, and traditional on-premise infrastructure.",
@@ -331,7 +331,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     ko: {
         heading1: "AIOps: The Future of Network Monitoring",
@@ -358,7 +358,7 @@ const articleTranslations = {
         list8: "Exceptional security analytics (SIEM capabilities)",
         list9: "Massive scalability (handles petabytes of data)",
         metaDescription: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic. Enterprise-grade AIOps tools compared for your infrastructure needs.",
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         para1: "AI-powered operations (AIOps) platforms use machine learning to detect anomalies, predict failures, and automate incident response. For network engineers managing complex infrastructures, these tools are game-changers.",
         para2: "Modern DevOps teams running cloud-native infrastructure, microservices, and containerized applications.",
         para3: "Large enterprises with compliance requirements, security-focused teams, and traditional on-premise infrastructure.",
@@ -378,7 +378,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     ar: {
         heading1: "AIOps: The Future of Network Monitoring",
@@ -405,7 +405,7 @@ const articleTranslations = {
         list8: "Exceptional security analytics (SIEM capabilities)",
         list9: "Massive scalability (handles petabytes of data)",
         metaDescription: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic. Enterprise-grade AIOps tools compared for your infrastructure needs.",
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         para1: "AI-powered operations (AIOps) platforms use machine learning to detect anomalies, predict failures, and automate incident response. For network engineers managing complex infrastructures, these tools are game-changers.",
         para2: "Modern DevOps teams running cloud-native infrastructure, microservices, and containerized applications.",
         para3: "Large enterprises with compliance requirements, security-focused teams, and traditional on-premise infrastructure.",
@@ -425,7 +425,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     hi: {
         heading1: "AIOps: The Future of Network Monitoring",
@@ -452,7 +452,7 @@ const articleTranslations = {
         list8: "Exceptional security analytics (SIEM capabilities)",
         list9: "Massive scalability (handles petabytes of data)",
         metaDescription: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic. Enterprise-grade AIOps tools compared for your infrastructure needs.",
-        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | GenuisNet.ai",
+        pageTitle: "AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic | TechVernia",
         para1: "AI-powered operations (AIOps) platforms use machine learning to detect anomalies, predict failures, and automate incident response. For network engineers managing complex infrastructures, these tools are game-changers.",
         para2: "Modern DevOps teams running cloud-native infrastructure, microservices, and containerized applications.",
         para3: "Large enterprises with compliance requirements, security-focused teams, and traditional on-premise infrastructure.",
@@ -472,7 +472,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
 };
 

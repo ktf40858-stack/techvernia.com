@@ -1,5 +1,5 @@
 /* ============================================
-   GenuisNet.ai - Main JavaScript
+   TechVernia - Main JavaScript
    Core functionality and interactions
    ============================================ */
 
@@ -772,7 +772,7 @@ function initApp() {
         new PerformanceMonitor();
     }
 
-    console.log('✅ GenuisNet.ai initialized');
+    console.log('✅ TechVernia initialized');
     console.log('📊 All modules loaded successfully');
 }
 

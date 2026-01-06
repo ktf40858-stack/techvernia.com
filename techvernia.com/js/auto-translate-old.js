@@ -1,5 +1,5 @@
 /* ============================================
-   GenuisNet.ai - Automatic Content Translation
+   TechVernia - Automatic Content Translation
    Translates ALL remaining content automatically
    ============================================ */
 

@@ -6,8 +6,8 @@ console.log('📦 blog-i18n.js loaded');
 const blogTranslations = {
     en: {
         // Meta & Page Title
-        pageTitle: "AI Blog & News | GenuisNet.ai",
-        metaDescription: "GenuisNet.ai Blog - Latest AI news, tool reviews, tutorials, and insights. Stay updated with the AI revolution.",
+        pageTitle: "AI Blog & News | TechVernia",
+        metaDescription: "TechVernia Blog - Latest AI news, tool reviews, tutorials, and insights. Stay updated with the AI revolution.",
         metaKeywords: "AI blog, artificial intelligence news, AI tools, AI reviews, AI tutorials, machine learning",
 
         // Hero Section
@@ -28,7 +28,7 @@ const blogTranslations = {
         featuredReadTime: "8 min read",
         featuredTitle: "The Rise of AI Agents: How Autonomous AI is Changing Everything in 2026",
         featuredExcerpt: "From Claude's computer use to OpenAI's GPT-4 Turbo, AI agents are revolutionizing how we work. Discover what this means for you and how to leverage these powerful tools for maximum productivity.",
-        featuredAuthor: "GenuisNet Team",
+        featuredAuthor: "TechVernia Team",
         featuredButton: "Read Article",
 
         // Blog Meta
@@ -77,14 +77,14 @@ const blogTranslations = {
         footerAbout: "About Us",
         footerContact: "Contact",
         footerAffiliate: "Affiliate Disclosure",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved.",
+        footerCopyright: "© 2026 TechVernia. All rights reserved.",
         footerAffiliateNotice: "Some links may be affiliate links. We may earn a commission at no extra cost to you."
     },
 
     es: {
         // Meta & Page Title
-        pageTitle: "Blog y Noticias de IA | GenuisNet.ai",
-        metaDescription: "Blog de GenuisNet.ai - Últimas noticias de IA, reseñas de herramientas, tutoriales e información. Mantente actualizado con la revolución de la IA.",
+        pageTitle: "Blog y Noticias de IA | TechVernia",
+        metaDescription: "Blog de TechVernia - Últimas noticias de IA, reseñas de herramientas, tutoriales e información. Mantente actualizado con la revolución de la IA.",
         metaKeywords: "blog IA, noticias inteligencia artificial, herramientas IA, reseñas IA, tutoriales IA, aprendizaje automático",
 
         // Hero Section
@@ -105,7 +105,7 @@ const blogTranslations = {
         featuredReadTime: "8 min de lectura",
         featuredTitle: "El Auge de los Agentes IA: Cómo la IA Autónoma Está Cambiando Todo en 2026",
         featuredExcerpt: "Desde el uso de computadora de Claude hasta GPT-4 Turbo de OpenAI, los agentes de IA están revolucionando cómo trabajamos. Descubre qué significa esto para ti y cómo aprovechar estas poderosas herramientas para máxima productividad.",
-        featuredAuthor: "Equipo GenuisNet",
+        featuredAuthor: "Equipo TechVernia",
         featuredButton: "Leer Artículo",
 
         // Blog Meta
@@ -154,14 +154,14 @@ const blogTranslations = {
         footerAbout: "Acerca de Nosotros",
         footerContact: "Contacto",
         footerAffiliate: "Divulgación de Afiliados",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados.",
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados.",
         footerAffiliateNotice: "Algunos enlaces pueden ser enlaces de afiliados. Podemos ganar una comisión sin costo adicional para ti."
     },
 
     fr: {
         // Meta & Page Title
-        pageTitle: "Blog et Actualités IA | GenuisNet.ai",
-        metaDescription: "Blog GenuisNet.ai - Dernières actualités IA, avis d'outils, tutoriels et informations. Restez à jour avec la révolution de l'IA.",
+        pageTitle: "Blog et Actualités IA | TechVernia",
+        metaDescription: "Blog TechVernia - Dernières actualités IA, avis d'outils, tutoriels et informations. Restez à jour avec la révolution de l'IA.",
         metaKeywords: "blog IA, actualités intelligence artificielle, outils IA, avis IA, tutoriels IA, apprentissage automatique",
 
         // Hero Section
@@ -182,7 +182,7 @@ const blogTranslations = {
         featuredReadTime: "8 min de lecture",
         featuredTitle: "L'Essor des Agents IA : Comment l'IA Autonome Change Tout en 2026",
         featuredExcerpt: "De l'utilisation informatique de Claude au GPT-4 Turbo d'OpenAI, les agents IA révolutionnent notre façon de travailler. Découvrez ce que cela signifie pour vous et comment exploiter ces outils puissants pour une productivité maximale.",
-        featuredAuthor: "Équipe GenuisNet",
+        featuredAuthor: "Équipe TechVernia",
         featuredButton: "Lire l'Article",
 
         // Blog Meta
@@ -231,14 +231,14 @@ const blogTranslations = {
         footerAbout: "À Propos",
         footerContact: "Contact",
         footerAffiliate: "Divulgation d'Affiliation",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés.",
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés.",
         footerAffiliateNotice: "Certains liens peuvent être des liens d'affiliation. Nous pouvons gagner une commission sans frais supplémentaires pour vous."
     },
 
     de: {
         // Meta & Page Title
-        pageTitle: "KI-Blog & Nachrichten | GenuisNet.ai",
-        metaDescription: "GenuisNet.ai Blog - Neueste KI-Nachrichten, Tool-Bewertungen, Tutorials und Einblicke. Bleiben Sie auf dem Laufenden mit der KI-Revolution.",
+        pageTitle: "KI-Blog & Nachrichten | TechVernia",
+        metaDescription: "TechVernia Blog - Neueste KI-Nachrichten, Tool-Bewertungen, Tutorials und Einblicke. Bleiben Sie auf dem Laufenden mit der KI-Revolution.",
         metaKeywords: "KI-Blog, künstliche Intelligenz Nachrichten, KI-Tools, KI-Bewertungen, KI-Tutorials, maschinelles Lernen",
 
         // Hero Section
@@ -259,7 +259,7 @@ const blogTranslations = {
         featuredReadTime: "8 Min. Lesezeit",
         featuredTitle: "Der Aufstieg der KI-Agenten: Wie Autonome KI 2026 Alles Verändert",
         featuredExcerpt: "Von Claudes Computernutzung bis zu OpenAIs GPT-4 Turbo revolutionieren KI-Agenten unsere Arbeitsweise. Entdecken Sie, was dies für Sie bedeutet und wie Sie diese leistungsstarken Tools für maximale Produktivität nutzen können.",
-        featuredAuthor: "GenuisNet Team",
+        featuredAuthor: "TechVernia Team",
         featuredButton: "Artikel Lesen",
 
         // Blog Meta
@@ -308,14 +308,14 @@ const blogTranslations = {
         footerAbout: "Über Uns",
         footerContact: "Kontakt",
         footerAffiliate: "Partner-Offenlegung",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten.",
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten.",
         footerAffiliateNotice: "Einige Links können Partnerlinks sein. Wir können eine Provision ohne zusätzliche Kosten für Sie verdienen."
     },
 
     pt: {
         // Meta & Page Title
-        pageTitle: "Blog e Notícias de IA | GenuisNet.ai",
-        metaDescription: "Blog GenuisNet.ai - Últimas notícias de IA, avaliações de ferramentas, tutoriais e insights. Fique atualizado com a revolução da IA.",
+        pageTitle: "Blog e Notícias de IA | TechVernia",
+        metaDescription: "Blog TechVernia - Últimas notícias de IA, avaliações de ferramentas, tutoriais e insights. Fique atualizado com a revolução da IA.",
         metaKeywords: "blog IA, notícias inteligência artificial, ferramentas IA, avaliações IA, tutoriais IA, aprendizado de máquina",
 
         // Hero Section
@@ -336,7 +336,7 @@ const blogTranslations = {
         featuredReadTime: "8 min de leitura",
         featuredTitle: "A Ascensão dos Agentes IA: Como a IA Autônoma Está Mudando Tudo em 2026",
         featuredExcerpt: "Do uso de computador do Claude ao GPT-4 Turbo da OpenAI, os agentes de IA estão revolucionando como trabalhamos. Descubra o que isso significa para você e como aproveitar essas ferramentas poderosas para máxima produtividade.",
-        featuredAuthor: "Equipe GenuisNet",
+        featuredAuthor: "Equipe TechVernia",
         featuredButton: "Ler Artigo",
 
         // Blog Meta
@@ -385,13 +385,13 @@ const blogTranslations = {
         footerAbout: "Sobre Nós",
         footerContact: "Contato",
         footerAffiliate: "Divulgação de Afiliados",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados.",
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados.",
         footerAffiliateNotice: "Alguns links podem ser links de afiliados. Podemos ganhar uma comissão sem custo adicional para você."
     },
 
     zh: {
-        pageTitle: "AI 博客与新闻 | GenuisNet.ai",
-        metaDescription: "GenuisNet.ai 博客 - 最新 AI 新闻、工具评论、教程和见解。了解 AI 革命的最新动态。",
+        pageTitle: "AI 博客与新闻 | TechVernia",
+        metaDescription: "TechVernia 博客 - 最新 AI 新闻、工具评论、教程和见解。了解 AI 革命的最新动态。",
         metaKeywords: "AI博客, 人工智能新闻, AI工具, AI评论, AI教程, 机器学习",
         heroTitle: "AI 博客与新闻",
         heroSubtitle: "了解最新的 AI 趋势、工具更新和专家见解",
@@ -406,7 +406,7 @@ const blogTranslations = {
         featuredReadTime: "8分钟阅读",
         featuredTitle: "AI 代理的崛起：自主 AI 如何在 2026 年改变一切",
         featuredExcerpt: "从 Claude 的计算机使用到 OpenAI 的 GPT-4 Turbo，AI 代理正在革新我们的工作方式。了解这对您意味着什么以及如何利用这些强大工具实现最大生产力。",
-        featuredAuthor: "GenuisNet 团队",
+        featuredAuthor: "TechVernia 团队",
         featuredButton: "阅读文章",
         minRead: "分钟阅读",
         readMore: "阅读更多",
@@ -450,13 +450,13 @@ const blogTranslations = {
         footerAbout: "关于我们",
         footerContact: "联系",
         footerAffiliate: "联盟披露",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。",
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。",
         footerAffiliateNotice: "某些链接可能是联盟链接。我们可能会赚取佣金，您无需支付额外费用。"
     },
 
     ja: {
-        pageTitle: "AI ブログ＆ニュース | GenuisNet.ai",
-        metaDescription: "GenuisNet.ai ブログ - 最新のAIニュース、ツールレビュー、チュートリアル、インサイト。AI革命の最新情報を入手。",
+        pageTitle: "AI ブログ＆ニュース | TechVernia",
+        metaDescription: "TechVernia ブログ - 最新のAIニュース、ツールレビュー、チュートリアル、インサイト。AI革命の最新情報を入手。",
         metaKeywords: "AIブログ, 人工知能ニュース, AIツール, AIレビュー, AIチュートリアル, 機械学習",
         heroTitle: "AI ブログ＆ニュース",
         heroSubtitle: "最新のAIトレンド、ツールアップデート、専門家のインサイトをキャッチアップ",
@@ -471,7 +471,7 @@ const blogTranslations = {
         featuredReadTime: "8分で読む",
         featuredTitle: "AIエージェントの台頭：自律型AIが2026年にすべてを変える方法",
         featuredExcerpt: "Claudeのコンピューター使用からOpenAIのGPT-4 Turboまで、AIエージェントは私たちの働き方を革新しています。これがあなたにとって何を意味するのか、そしてこれらの強力なツールを最大限の生産性のために活用する方法を発見してください。",
-        featuredAuthor: "GenuisNet チーム",
+        featuredAuthor: "TechVernia チーム",
         featuredButton: "記事を読む",
         minRead: "分で読む",
         readMore: "もっと読む",
@@ -515,13 +515,13 @@ const blogTranslations = {
         footerAbout: "私たちについて",
         footerContact: "お問い合わせ",
         footerAffiliate: "アフィリエイト開示",
-        footerCopyright: "© 2026 GenuisNet.ai. 全著作権所有。",
+        footerCopyright: "© 2026 TechVernia. 全著作権所有。",
         footerAffiliateNotice: "一部のリンクはアフィリエイトリンクである可能性があります。私たちはあなたに追加費用なしで手数料を得る場合があります。"
     },
 
     ko: {
-        pageTitle: "AI 블로그 & 뉴스 | GenuisNet.ai",
-        metaDescription: "GenuisNet.ai 블로그 - 최신 AI 뉴스, 도구 리뷰, 튜토리얼 및 인사이트. AI 혁명의 최신 정보를 받아보세요.",
+        pageTitle: "AI 블로그 & 뉴스 | TechVernia",
+        metaDescription: "TechVernia 블로그 - 최신 AI 뉴스, 도구 리뷰, 튜토리얼 및 인사이트. AI 혁명의 최신 정보를 받아보세요.",
         metaKeywords: "AI블로그, 인공지능 뉴스, AI도구, AI리뷰, AI튜토리얼, 머신러닝",
         heroTitle: "AI 블로그 & 뉴스",
         heroSubtitle: "최신 AI 트렌드, 도구 업데이트 및 전문가 인사이트로 업데이트 유지",
@@ -536,7 +536,7 @@ const blogTranslations = {
         featuredReadTime: "8분 읽기",
         featuredTitle: "AI 에이전트의 부상: 자율 AI가 2026년에 모든 것을 바꾸는 방법",
         featuredExcerpt: "Claude의 컴퓨터 사용부터 OpenAI의 GPT-4 Turbo까지, AI 에이전트는 우리가 일하는 방식을 혁신하고 있습니다. 이것이 당신에게 무엇을 의미하는지, 그리고 최대 생산성을 위해 이러한 강력한 도구를 활용하는 방법을 발견하세요.",
-        featuredAuthor: "GenuisNet 팀",
+        featuredAuthor: "TechVernia 팀",
         featuredButton: "기사 읽기",
         minRead: "분 읽기",
         readMore: "더 읽기",
@@ -580,13 +580,13 @@ const blogTranslations = {
         footerAbout: "회사 소개",
         footerContact: "문의",
         footerAffiliate: "제휴 공개",
-        footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유.",
+        footerCopyright: "© 2026 TechVernia. 모든 권리 보유.",
         footerAffiliateNotice: "일부 링크는 제휴 링크일 수 있습니다. 우리는 귀하에게 추가 비용 없이 수수료를 받을 수 있습니다."
     },
 
     ar: {
-        pageTitle: "مدونة وأخبار الذكاء الاصطناعي | GenuisNet.ai",
-        metaDescription: "مدونة GenuisNet.ai - أحدث أخبار الذكاء الاصطناعي ومراجعات الأدوات والدروس والرؤى. ابق على اطلاع بثورة الذكاء الاصطناعي.",
+        pageTitle: "مدونة وأخبار الذكاء الاصطناعي | TechVernia",
+        metaDescription: "مدونة TechVernia - أحدث أخبار الذكاء الاصطناعي ومراجعات الأدوات والدروس والرؤى. ابق على اطلاع بثورة الذكاء الاصطناعي.",
         metaKeywords: "مدونة الذكاء الاصطناعي, أخبار الذكاء الاصطناعي, أدوات الذكاء الاصطناعي, مراجعات الذكاء الاصطناعي, دروس الذكاء الاصطناعي, التعلم الآلي",
         heroTitle: "مدونة وأخبار الذكاء الاصطناعي",
         heroSubtitle: "ابق على اطلاع بأحدث اتجاهات الذكاء الاصطناعي وتحديثات الأدوات ورؤى الخبراء",
@@ -601,7 +601,7 @@ const blogTranslations = {
         featuredReadTime: "8 دقائق قراءة",
         featuredTitle: "صعود وكلاء الذكاء الاصطناعي: كيف يغير الذكاء الاصطناعي المستقل كل شيء في 2026",
         featuredExcerpt: "من استخدام الكمبيوتر من Claude إلى GPT-4 Turbo من OpenAI، يُحدث وكلاء الذكاء الاصطناعي ثورة في طريقة عملنا. اكتشف ما يعنيه هذا لك وكيفية الاستفادة من هذه الأدوات القوية لتحقيق أقصى قدر من الإنتاجية.",
-        featuredAuthor: "فريق GenuisNet",
+        featuredAuthor: "فريق TechVernia",
         featuredButton: "قراءة المقالة",
         minRead: "دقيقة قراءة",
         readMore: "اقرأ المزيد",
@@ -645,13 +645,13 @@ const blogTranslations = {
         footerAbout: "معلومات عنا",
         footerContact: "اتصل",
         footerAffiliate: "الإفصاح عن الشركاء التابعين",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة.",
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة.",
         footerAffiliateNotice: "قد تكون بعض الروابط روابط تابعة. قد نكسب عمولة دون أي تكلفة إضافية عليك."
     },
 
     hi: {
-        pageTitle: "AI ब्लॉग और समाचार | GenuisNet.ai",
-        metaDescription: "GenuisNet.ai ब्लॉग - नवीनतम AI समाचार, टूल समीक्षाएं, ट्यूटोरियल और अंतर्दृष्टि। AI क्रांति के साथ अपडेट रहें।",
+        pageTitle: "AI ब्लॉग और समाचार | TechVernia",
+        metaDescription: "TechVernia ब्लॉग - नवीनतम AI समाचार, टूल समीक्षाएं, ट्यूटोरियल और अंतर्दृष्टि। AI क्रांति के साथ अपडेट रहें।",
         metaKeywords: "AI ब्लॉग, कृत्रिम बुद्धिमत्ता समाचार, AI टूल, AI समीक्षाएं, AI ट्यूटोरियल, मशीन लर्निंग",
         heroTitle: "AI ब्लॉग और समाचार",
         heroSubtitle: "नवीनतम AI रुझानों, टूल अपडेट और विशेषज्ञ अंतर्दृष्टि के साथ अपडेट रहें",
@@ -666,7 +666,7 @@ const blogTranslations = {
         featuredReadTime: "8 मिनट पढ़ें",
         featuredTitle: "AI एजेंटों का उदय: स्वायत्त AI 2026 में सब कुछ कैसे बदल रहा है",
         featuredExcerpt: "Claude के कंप्यूटर उपयोग से लेकर OpenAI के GPT-4 Turbo तक, AI एजेंट हमारे काम करने के तरीके में क्रांति ला रहे हैं। जानें कि यह आपके लिए क्या मायने रखता है और अधिकतम उत्पादकता के लिए इन शक्तिशाली उपकरणों का लाभ कैसे उठाएं।",
-        featuredAuthor: "GenuisNet टीम",
+        featuredAuthor: "TechVernia टीम",
         featuredButton: "लेख पढ़ें",
         minRead: "मिनट पढ़ें",
         readMore: "और पढ़ें",
@@ -710,7 +710,7 @@ const blogTranslations = {
         footerAbout: "हमारे बारे में",
         footerContact: "संपर्क",
         footerAffiliate: "सहयोगी प्रकटीकरण",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।",
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।",
         footerAffiliateNotice: "कुछ लिंक सहयोगी लिंक हो सकते हैं। हम आपके लिए बिना किसी अतिरिक्त लागत के कमीशन कमा सकते हैं।"
     }
 };

@@ -6,7 +6,7 @@ console.log('[i18n] free-ai-coding-tools-i18n.js loaded');
 const articleTranslations = {
     en: {
         // Meta & Page
-        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | GenuisNet.ai",
+        pageTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide | TechVernia",
         metaDescription: "Best Free AI Coding Tools in 2026. Complete guide to free alternatives to GitHub Copilot including Codeium, TabNine Free, and more.",
         heroTitle: "Best Free AI Coding Tools in 2026: Complete Developer's Guide",
         heroExcerpt: "Discover free alternatives to GitHub Copilot including Codeium, TabNine Free, and more powerful AI coding assistants that won't cost you a dime.",
@@ -150,10 +150,10 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     es: {
-        pageTitle: "Mejores Herramientas de Codificación IA Gratuitas en 2026: Guía Completa del Desarrollador | GenuisNet.ai",
+        pageTitle: "Mejores Herramientas de Codificación IA Gratuitas en 2026: Guía Completa del Desarrollador | TechVernia",
         metaDescription: "Mejores Herramientas de Codificación IA Gratuitas en 2026. Guía completa de alternativas gratuitas a GitHub Copilot incluyendo Codeium, TabNine Free y más.",
         heroTitle: "Mejores Herramientas de Codificación IA Gratuitas en 2026: Guía Completa del Desarrollador",
         heroExcerpt: "Descubre alternativas gratuitas a GitHub Copilot incluyendo Codeium, TabNine Free y más asistentes de codificación IA poderosos que no te costarán ni un centavo.",
@@ -284,10 +284,10 @@ const articleTranslations = {
         footerDesc: "Tu fuente confiable de reseñas, comparaciones y guías de herramientas IA.",
         footerCategories: "Categorías",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados."
     },
     fr: {
-        pageTitle: "Meilleurs Outils de Codage IA Gratuits en 2026 : Guide Complet du Développeur | GenuisNet.ai",
+        pageTitle: "Meilleurs Outils de Codage IA Gratuits en 2026 : Guide Complet du Développeur | TechVernia",
         metaDescription: "Meilleurs Outils de Codage IA Gratuits en 2026. Guide complet des alternatives gratuites à GitHub Copilot incluant Codeium, TabNine Free et plus.",
         heroTitle: "Meilleurs Outils de Codage IA Gratuits en 2026 : Guide Complet du Développeur",
         heroExcerpt: "Découvrez des alternatives gratuites à GitHub Copilot incluant Codeium, TabNine Free et d'autres assistants de codage IA puissants qui ne vous coûteront pas un centime.",
@@ -418,10 +418,10 @@ const articleTranslations = {
         footerDesc: "Votre source de confiance pour les avis, comparaisons et guides d'outils IA.",
         footerCategories: "Catégories",
         footerResources: "Ressources",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés."
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés."
     },
     de: {
-        pageTitle: "Beste Kostenlose KI-Coding-Tools 2026: Vollständiger Entwickler-Leitfaden | GenuisNet.ai",
+        pageTitle: "Beste Kostenlose KI-Coding-Tools 2026: Vollständiger Entwickler-Leitfaden | TechVernia",
         metaDescription: "Beste Kostenlose KI-Coding-Tools 2026. Vollständiger Leitfaden zu kostenlosen Alternativen zu GitHub Copilot einschließlich Codeium, TabNine Free und mehr.",
         heroTitle: "Beste Kostenlose KI-Coding-Tools 2026: Vollständiger Entwickler-Leitfaden",
         heroExcerpt: "Entdecken Sie kostenlose Alternativen zu GitHub Copilot einschließlich Codeium, TabNine Free und weitere leistungsstarke KI-Coding-Assistenten, die Sie keinen Cent kosten.",
@@ -552,10 +552,10 @@ const articleTranslations = {
         footerDesc: "Ihre vertrauenswürdige Quelle für KI-Tool-Bewertungen, Vergleiche und Leitfäden.",
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten."
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
     pt: {
-        pageTitle: "Melhores Ferramentas de Codificação IA Gratuitas em 2026: Guia Completo do Desenvolvedor | GenuisNet.ai",
+        pageTitle: "Melhores Ferramentas de Codificação IA Gratuitas em 2026: Guia Completo do Desenvolvedor | TechVernia",
         metaDescription: "Melhores Ferramentas de Codificação IA Gratuitas em 2026. Guia completo de alternativas gratuitas ao GitHub Copilot incluindo Codeium, TabNine Free e mais.",
         heroTitle: "Melhores Ferramentas de Codificação IA Gratuitas em 2026: Guia Completo do Desenvolvedor",
         heroExcerpt: "Descubra alternativas gratuitas ao GitHub Copilot incluindo Codeium, TabNine Free e mais assistentes de codificação IA poderosos que não custarão um centavo.",
@@ -686,10 +686,10 @@ const articleTranslations = {
         footerDesc: "Sua fonte confiável para avaliações, comparações e guias de ferramentas IA.",
         footerCategories: "Categorias",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados."
     },
     zh: {
-        pageTitle: "2026年最佳免费AI编码工具：开发者完整指南 | GenuisNet.ai",
+        pageTitle: "2026年最佳免费AI编码工具：开发者完整指南 | TechVernia",
         metaDescription: "2026年最佳免费AI编码工具。包括Codeium、TabNine Free等GitHub Copilot免费替代品的完整指南。",
         heroTitle: "2026年最佳免费AI编码工具：开发者完整指南",
         heroExcerpt: "发现GitHub Copilot的免费替代品，包括Codeium、TabNine Free和更多强大的AI编码助手，完全免费。",
@@ -820,10 +820,10 @@ const articleTranslations = {
         footerDesc: "您值得信赖的AI工具评论、比较和指南来源。",
         footerCategories: "类别",
         footerResources: "资源",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。"
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。"
     },
     ja: {
-        pageTitle: "2026年最高の無料AIコーディングツール：開発者完全ガイド | GenuisNet.ai",
+        pageTitle: "2026年最高の無料AIコーディングツール：開発者完全ガイド | TechVernia",
         metaDescription: "2026年最高の無料AIコーディングツール。Codeium、TabNine Freeなど、GitHub Copilotの無料代替品の完全ガイド。",
         heroTitle: "2026年最高の無料AIコーディングツール：開発者完全ガイド",
         heroExcerpt: "Codeium、TabNine Free、その他の強力なAIコーディングアシスタントなど、GitHub Copilotの無料代替品を発見してください。",
@@ -954,10 +954,10 @@ const articleTranslations = {
         footerDesc: "AIツールのレビュー、比較、ガイドの信頼できる情報源。",
         footerCategories: "カテゴリー",
         footerResources: "リソース",
-        footerCopyright: "© 2026 GenuisNet.ai. 全著作権所有。"
+        footerCopyright: "© 2026 TechVernia. 全著作権所有。"
     },
     ko: {
-        pageTitle: "2026년 최고의 무료 AI 코딩 도구: 개발자 완벽 가이드 | GenuisNet.ai",
+        pageTitle: "2026년 최고의 무료 AI 코딩 도구: 개발자 완벽 가이드 | TechVernia",
         metaDescription: "2026년 최고의 무료 AI 코딩 도구. Codeium, TabNine Free 등 GitHub Copilot 무료 대안의 완벽한 가이드.",
         heroTitle: "2026년 최고의 무료 AI 코딩 도구: 개발자 완벽 가이드",
         heroExcerpt: "Codeium, TabNine Free 및 기타 강력한 AI 코딩 어시스턴트를 포함한 GitHub Copilot의 무료 대안을 발견하세요.",
@@ -1088,10 +1088,10 @@ const articleTranslations = {
         footerDesc: "AI 도구 리뷰, 비교 및 가이드의 신뢰할 수 있는 출처.",
         footerCategories: "카테고리",
         footerResources: "리소스",
-        footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유."
+        footerCopyright: "© 2026 TechVernia. 모든 권리 보유."
     },
     ar: {
-        pageTitle: "أفضل أدوات البرمجة بالذكاء الاصطناعي المجانية في 2026: دليل المطور الكامل | GenuisNet.ai",
+        pageTitle: "أفضل أدوات البرمجة بالذكاء الاصطناعي المجانية في 2026: دليل المطور الكامل | TechVernia",
         metaDescription: "أفضل أدوات البرمجة بالذكاء الاصطناعي المجانية في 2026. دليل كامل للبدائل المجانية لـ GitHub Copilot بما في ذلك Codeium و TabNine Free والمزيد.",
         heroTitle: "أفضل أدوات البرمجة بالذكاء الاصطناعي المجانية في 2026: دليل المطور الكامل",
         heroExcerpt: "اكتشف بدائل GitHub Copilot المجانية بما في ذلك Codeium و TabNine Free ومساعدي البرمجة بالذكاء الاصطناعي الأقوياء الآخرين التي لن تكلفك فلساً واحداً.",
@@ -1222,10 +1222,10 @@ const articleTranslations = {
         footerDesc: "مصدرك الموثوق لمراجعات ومقارنات وأدلة أدوات الذكاء الاصطناعي.",
         footerCategories: "الفئات",
         footerResources: "الموارد",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة."
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة."
     },
     hi: {
-        pageTitle: "2026 में सर्वश्रेष्ठ निःशुल्क AI कोडिंग टूल्स: डेवलपर की पूर्ण गाइड | GenuisNet.ai",
+        pageTitle: "2026 में सर्वश्रेष्ठ निःशुल्क AI कोडिंग टूल्स: डेवलपर की पूर्ण गाइड | TechVernia",
         metaDescription: "2026 में सर्वश्रेष्ठ निःशुल्क AI कोडिंग टूल्स। Codeium, TabNine Free और अधिक सहित GitHub Copilot के निःशुल्क विकल्पों की पूर्ण गाइड।",
         heroTitle: "2026 में सर्वश्रेष्ठ निःशुल्क AI कोडिंग टूल्स: डेवलपर की पूर्ण गाइड",
         heroExcerpt: "Codeium, TabNine Free और अन्य शक्तिशाली AI कोडिंग सहायकों सहित GitHub Copilot के निःशुल्क विकल्पों की खोज करें जो आपको एक पैसा भी खर्च नहीं करवाएंगे।",
@@ -1356,7 +1356,7 @@ const articleTranslations = {
         footerDesc: "AI टूल समीक्षाओं, तुलनाओं और गाइड के लिए आपका विश्वसनीय स्रोत।",
         footerCategories: "श्रेणियाँ",
         footerResources: "संसाधन",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।"
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।"
     }
 };
 

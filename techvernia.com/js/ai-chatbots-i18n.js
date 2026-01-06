@@ -6,7 +6,7 @@ console.log('📦 ai-chatbots-i18n.js loaded');
 const chatbotsCategoryTranslations = {
     en: {
         // Meta & Page Title
-        pageTitle: "AI Chatbots & Assistants | GenuisNet.ai",
+        pageTitle: "AI Chatbots & Assistants | TechVernia",
         metaDescription: "Discover the most powerful AI chatbots and virtual assistants. From general-purpose tools like ChatGPT and Claude to specialized assistants - find the perfect AI companion for your needs.",
         metaKeywords: "AI chatbots, ChatGPT, Claude, Gemini, AI assistants, conversational AI",
 
@@ -32,11 +32,11 @@ const chatbotsCategoryTranslations = {
         footerCategories: "Categories",
         footerResources: "Resources",
         footerCompany: "Company",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
 
     es: {
-        pageTitle: "Chatbots y Asistentes IA | GenuisNet.ai",
+        pageTitle: "Chatbots y Asistentes IA | TechVernia",
         metaDescription: "Descubre los chatbots de IA y asistentes virtuales más poderosos. Desde herramientas de propósito general como ChatGPT y Claude hasta asistentes especializados - encuentra el compañero de IA perfecto para tus necesidades.",
         metaKeywords: "chatbots IA, ChatGPT, Claude, Gemini, asistentes IA, IA conversacional",
         heroTitle: "Chatbots y Asistentes IA",
@@ -52,11 +52,11 @@ const chatbotsCategoryTranslations = {
         footerCategories: "Categorías",
         footerResources: "Recursos",
         footerCompany: "Empresa",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados."
     },
 
     fr: {
-        pageTitle: "Chatbots et Assistants IA | GenuisNet.ai",
+        pageTitle: "Chatbots et Assistants IA | TechVernia",
         metaDescription: "Découvrez les chatbots IA et assistants virtuels les plus puissants. Des outils polyvalents comme ChatGPT et Claude aux assistants spécialisés - trouvez le compagnon IA parfait pour vos besoins.",
         metaKeywords: "chatbots IA, ChatGPT, Claude, Gemini, assistants IA, IA conversationnelle",
         heroTitle: "Chatbots et Assistants IA",
@@ -72,11 +72,11 @@ const chatbotsCategoryTranslations = {
         footerCategories: "Catégories",
         footerResources: "Ressources",
         footerCompany: "Entreprise",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés."
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés."
     },
 
     de: {
-        pageTitle: "KI-Chatbots & Assistenten | GenuisNet.ai",
+        pageTitle: "KI-Chatbots & Assistenten | TechVernia",
         metaDescription: "Entdecken Sie die leistungsstärksten KI-Chatbots und virtuellen Assistenten. Von Allzweck-Tools wie ChatGPT und Claude bis zu spezialisierten Assistenten - finden Sie den perfekten KI-Begleiter für Ihre Bedürfnisse.",
         metaKeywords: "KI-Chatbots, ChatGPT, Claude, Gemini, KI-Assistenten, konversationelle KI",
         heroTitle: "KI-Chatbots & Assistenten",
@@ -92,11 +92,11 @@ const chatbotsCategoryTranslations = {
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
         footerCompany: "Unternehmen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten."
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
 
     pt: {
-        pageTitle: "Chatbots e Assistentes IA | GenuisNet.ai",
+        pageTitle: "Chatbots e Assistentes IA | TechVernia",
         metaDescription: "Descubra os chatbots de IA e assistentes virtuais mais poderosos. De ferramentas de uso geral como ChatGPT e Claude a assistentes especializados - encontre o companheiro de IA perfeito para suas necessidades.",
         metaKeywords: "chatbots IA, ChatGPT, Claude, Gemini, assistentes IA, IA conversacional",
         heroTitle: "Chatbots e Assistentes IA",
@@ -112,11 +112,11 @@ const chatbotsCategoryTranslations = {
         footerCategories: "Categorias",
         footerResources: "Recursos",
         footerCompany: "Empresa",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados."
     },
 
     zh: {
-        pageTitle: "AI 聊天机器人和助手 | GenuisNet.ai",
+        pageTitle: "AI 聊天机器人和助手 | TechVernia",
         metaDescription: "发现最强大的AI聊天机器人和虚拟助手。从ChatGPT和Claude等通用工具到专业助手 - 找到满足您需求的完美AI伴侣。",
         metaKeywords: "AI聊天机器人, ChatGPT, Claude, Gemini, AI助手, 对话式AI",
         heroTitle: "AI 聊天机器人和助手",
@@ -132,11 +132,11 @@ const chatbotsCategoryTranslations = {
         footerCategories: "类别",
         footerResources: "资源",
         footerCompany: "公司",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。"
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。"
     },
 
     ja: {
-        pageTitle: "AI チャットボット＆アシスタント | GenuisNet.ai",
+        pageTitle: "AI チャットボット＆アシスタント | TechVernia",
         metaDescription: "最も強力なAIチャットボットと仮想アシスタントを発見。ChatGPTやClaudeのような汎用ツールから専門アシスタントまで - あなたのニーズに最適なAIコンパニオンを見つけましょう。",
         metaKeywords: "AIチャットボット, ChatGPT, Claude, Gemini, AIアシスタント, 会話型AI",
         heroTitle: "AI チャットボット＆アシスタント",
@@ -152,11 +152,11 @@ const chatbotsCategoryTranslations = {
         footerCategories: "カテゴリー",
         footerResources: "リソース",
         footerCompany: "会社",
-        footerCopyright: "© 2026 GenuisNet.ai. 全著作権所有。"
+        footerCopyright: "© 2026 TechVernia. 全著作権所有。"
     },
 
     ko: {
-        pageTitle: "AI 챗봇 및 어시스턴트 | GenuisNet.ai",
+        pageTitle: "AI 챗봇 및 어시스턴트 | TechVernia",
         metaDescription: "가장 강력한 AI 챗봇과 가상 비서를 발견하세요. ChatGPT 및 Claude와 같은 범용 도구부터 전문 어시스턴트까지 - 귀하의 요구에 맞는 완벽한 AI 동반자를 찾으세요.",
         metaKeywords: "AI 챗봇, ChatGPT, Claude, Gemini, AI 어시스턴트, 대화형 AI",
         heroTitle: "AI 챗봇 및 어시스턴트",
@@ -172,11 +172,11 @@ const chatbotsCategoryTranslations = {
         footerCategories: "카테고리",
         footerResources: "리소스",
         footerCompany: "회사",
-        footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유."
+        footerCopyright: "© 2026 TechVernia. 모든 권리 보유."
     },
 
     ar: {
-        pageTitle: "روبوتات الدردشة والمساعدين الذكيين | GenuisNet.ai",
+        pageTitle: "روبوتات الدردشة والمساعدين الذكيين | TechVernia",
         metaDescription: "اكتشف أقوى روبوتات الدردشة والمساعدين الافتراضيين المدعومين بالذكاء الاصطناعي. من الأدوات متعددة الأغراض مثل ChatGPT و Claude إلى المساعدين المتخصصين - اعثر على رفيق الذكاء الاصطناعي المثالي لاحتياجاتك.",
         metaKeywords: "روبوتات دردشة ذكية, ChatGPT, Claude, Gemini, مساعدين ذكيين, ذكاء اصطناعي محادثي",
         heroTitle: "روبوتات الدردشة والمساعدين الذكيين",
@@ -192,11 +192,11 @@ const chatbotsCategoryTranslations = {
         footerCategories: "الفئات",
         footerResources: "الموارد",
         footerCompany: "الشركة",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة."
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة."
     },
 
     hi: {
-        pageTitle: "AI चैटबॉट्स और सहायक | GenuisNet.ai",
+        pageTitle: "AI चैटबॉट्स और सहायक | TechVernia",
         metaDescription: "सबसे शक्तिशाली AI चैटबॉट और वर्चुअल सहायकों की खोज करें। ChatGPT और Claude जैसे सामान्य-उद्देश्य उपकरणों से लेकर विशेष सहायकों तक - अपनी आवश्यकताओं के लिए सही AI साथी खोजें।",
         metaKeywords: "AI चैटबॉट, ChatGPT, Claude, Gemini, AI सहायक, संवादात्मक AI",
         heroTitle: "AI चैटबॉट्स और सहायक",
@@ -212,7 +212,7 @@ const chatbotsCategoryTranslations = {
         footerCategories: "श्रेणियाँ",
         footerResources: "संसाधन",
         footerCompany: "कंपनी",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।"
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।"
     }
 };
 

@@ -6,7 +6,7 @@ console.log('[i18n] elevenlabs-review-i18n.js loaded');
 const articleTranslations = {
     en: {
         // Meta & Page
-        pageTitle: "ElevenLabs Review: Is It Worth the Hype? Honest Analysis & Pricing | GenuisNet.ai",
+        pageTitle: "ElevenLabs Review: Is It Worth the Hype? Honest Analysis & Pricing | TechVernia",
         metaDescription: "",
         heroTitle: "ElevenLabs Review: Is It Worth the Hype?",
         heroExcerpt: "In-depth review of the most realistic AI voice generator on the market. Honest analysis of quality, pricing, and use cases.",
@@ -112,11 +112,11 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     es: {
         // Meta & Page
-        pageTitle: "Análisis de ElevenLabs: ¿Vale la pena? Análisis honesto y precios | GenuisNet.ai",
+        pageTitle: "Análisis de ElevenLabs: ¿Vale la pena? Análisis honesto y precios | TechVernia",
         metaDescription: "",
         heroTitle: "Análisis de ElevenLabs: ¿Vale la pena el bombo publicitario?",
         heroExcerpt: "Análisis en profundidad del generador de voz IA más realista del mercado. Evaluación honesta de calidad, precios y casos de uso.",
@@ -222,11 +222,11 @@ const articleTranslations = {
         footerDesc: "Tu fuente confiable para reseñas, comparaciones y guías de herramientas IA.",
         footerCategories: "Categorías",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados."
     },
     fr: {
         // Meta & Page
-        pageTitle: "Test d'ElevenLabs : Est-ce que ça vaut le coup ? Analyse honnête et tarifs | GenuisNet.ai",
+        pageTitle: "Test d'ElevenLabs : Est-ce que ça vaut le coup ? Analyse honnête et tarifs | TechVernia",
         metaDescription: "",
         heroTitle: "Test d'ElevenLabs : Est-ce que ça vaut le battage médiatique ?",
         heroExcerpt: "Analyse approfondie du générateur de voix IA le plus réaliste du marché. Évaluation honnête de la qualité, des tarifs et des cas d'usage.",
@@ -332,11 +332,11 @@ const articleTranslations = {
         footerDesc: "Votre source fiable pour les tests, comparatifs et guides d'outils IA.",
         footerCategories: "Catégories",
         footerResources: "Ressources",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés."
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés."
     },
     de: {
         // Meta & Page
-        pageTitle: "ElevenLabs Test: Lohnt sich der Hype? Ehrliche Analyse & Preise | GenuisNet.ai",
+        pageTitle: "ElevenLabs Test: Lohnt sich der Hype? Ehrliche Analyse & Preise | TechVernia",
         metaDescription: "",
         heroTitle: "ElevenLabs Test: Lohnt sich der Hype?",
         heroExcerpt: "Ausführlicher Test des realistischsten KI-Sprachgenerators auf dem Markt. Ehrliche Analyse von Qualität, Preisen und Anwendungsfällen.",
@@ -442,11 +442,11 @@ const articleTranslations = {
         footerDesc: "Ihre vertrauenswürdige Quelle für KI-Tool-Tests, Vergleiche und Anleitungen.",
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten."
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
     pt: {
         // Meta & Page
-        pageTitle: "Análise do ElevenLabs: Vale a pena? Análise honesta e preços | GenuisNet.ai",
+        pageTitle: "Análise do ElevenLabs: Vale a pena? Análise honesta e preços | TechVernia",
         metaDescription: "",
         heroTitle: "Análise do ElevenLabs: Vale a pena o hype?",
         heroExcerpt: "Análise aprofundada do gerador de voz IA mais realista do mercado. Avaliação honesta de qualidade, preços e casos de uso.",
@@ -552,11 +552,11 @@ const articleTranslations = {
         footerDesc: "A sua fonte de confiança para análises, comparações e guias de ferramentas IA.",
         footerCategories: "Categorias",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados."
     },
     zh: {
         // Meta & Page
-        pageTitle: "ElevenLabs评测：值得炒作吗？诚实分析与定价 | GenuisNet.ai",
+        pageTitle: "ElevenLabs评测：值得炒作吗？诚实分析与定价 | TechVernia",
         metaDescription: "",
         heroTitle: "ElevenLabs评测：是否值得大肆宣传？",
         heroExcerpt: "市场上最逼真AI语音生成器的深度评测。诚实分析质量、定价和使用场景。",
@@ -662,11 +662,11 @@ const articleTranslations = {
         footerDesc: "您值得信赖的AI工具评测、比较和指南来源。",
         footerCategories: "类别",
         footerResources: "资源",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。"
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。"
     },
     ja: {
         // Meta & Page
-        pageTitle: "ElevenLabsレビュー：誇大広告に値するのか？正直な分析と料金 | GenuisNet.ai",
+        pageTitle: "ElevenLabsレビュー：誇大広告に値するのか？正直な分析と料金 | TechVernia",
         metaDescription: "",
         heroTitle: "ElevenLabsレビュー：誇大広告に値するのか？",
         heroExcerpt: "市場で最も現実的なAI音声生成ツールの詳細レビュー。品質、料金、使用例の正直な分析。",
@@ -772,11 +772,11 @@ const articleTranslations = {
         footerDesc: "AIツールのレビュー、比較、ガイドの信頼できる情報源。",
         footerCategories: "カテゴリー",
         footerResources: "リソース",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     ko: {
         // Meta & Page
-        pageTitle: "ElevenLabs 리뷰: 과대 광고에 가치가 있을까? 정직한 분석 및 가격 | GenuisNet.ai",
+        pageTitle: "ElevenLabs 리뷰: 과대 광고에 가치가 있을까? 정직한 분석 및 가격 | TechVernia",
         metaDescription: "",
         heroTitle: "ElevenLabs 리뷰: 과대 광고에 가치가 있을까?",
         heroExcerpt: "시장에서 가장 현실적인 AI 음성 생성기에 대한 심층 리뷰. 품질, 가격, 사용 사례에 대한 정직한 분석.",
@@ -882,11 +882,11 @@ const articleTranslations = {
         footerDesc: "AI 도구 리뷰, 비교 및 가이드를 위한 신뢰할 수 있는 소스입니다.",
         footerCategories: "카테고리",
         footerResources: "리소스",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     ar: {
         // Meta & Page
-        pageTitle: "مراجعة ElevenLabs: هل تستحق الضجة؟ تحليل صادق والأسعار | GenuisNet.ai",
+        pageTitle: "مراجعة ElevenLabs: هل تستحق الضجة؟ تحليل صادق والأسعار | TechVernia",
         metaDescription: "",
         heroTitle: "مراجعة ElevenLabs: هل تستحق الضجة؟",
         heroExcerpt: "مراجعة متعمقة لأكثر مولد صوت ذكاء اصطناعي واقعية في السوق. تحليل صادق للجودة والأسعار وحالات الاستخدام.",
@@ -992,11 +992,11 @@ const articleTranslations = {
         footerDesc: "مصدرك الموثوق لمراجعات أدوات الذكاء الاصطناعي والمقارنات والأدلة.",
         footerCategories: "الفئات",
         footerResources: "الموارد",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة."
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة."
     },
     hi: {
         // Meta & Page
-        pageTitle: "ElevenLabs समीक्षा: क्या यह प्रचार के लायक है? ईमानदार विश्लेषण और मूल्य निर्धारण | GenuisNet.ai",
+        pageTitle: "ElevenLabs समीक्षा: क्या यह प्रचार के लायक है? ईमानदार विश्लेषण और मूल्य निर्धारण | TechVernia",
         metaDescription: "",
         heroTitle: "ElevenLabs समीक्षा: क्या यह प्रचार के लायक है?",
         heroExcerpt: "बाजार में सबसे यथार्थवादी AI आवाज जनरेटर की गहन समीक्षा। गुणवत्ता, मूल्य निर्धारण और उपयोग के मामलों का ईमानदार विश्लेषण।",
@@ -1102,7 +1102,7 @@ const articleTranslations = {
         footerDesc: "AI उपकरण समीक्षाओं, तुलनाओं और गाइड के लिए आपका विश्वसनीय स्रोत।",
         footerCategories: "श्रेणियाँ",
         footerResources: "संसाधन",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।"
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।"
     },
 };
 

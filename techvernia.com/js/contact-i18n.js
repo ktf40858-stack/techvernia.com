@@ -6,8 +6,8 @@ console.log('📦 contact-i18n.js loaded');
 const contactTranslations = {
     en: {
         // Meta & Page Title
-        pageTitle: "Contact Us | GenuisNet.ai",
-        metaDescription: "Contact GenuisNet.ai - Get in touch with our team for questions, suggestions, or partnership opportunities.",
+        pageTitle: "Contact Us | TechVernia",
+        metaDescription: "Contact TechVernia - Get in touch with our team for questions, suggestions, or partnership opportunities.",
 
         // Hero Section
         heroTitle: "Get in Touch",
@@ -17,17 +17,17 @@ const contactTranslations = {
         emailCard: {
             title: "Email Us",
             description: "For general inquiries and support",
-            email: "contact@genuisnet.ai"
+            email: "contact@techvernia.com"
         },
         businessCard: {
             title: "Business Inquiries",
             description: "For partnerships and collaborations",
-            email: "business@genuisnet.ai"
+            email: "business@techvernia.com"
         },
         supportCard: {
             title: "Technical Support",
             description: "For technical issues and bugs",
-            email: "support@genuisnet.ai"
+            email: "support@techvernia.com"
         },
         socialCard: {
             title: "Social Media",
@@ -55,13 +55,13 @@ const contactTranslations = {
         footerPrivacy: "Privacy Policy",
         footerTerms: "Terms of Service",
         footerContact: "Contact",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
 
     es: {
         // Meta & Page Title
-        pageTitle: "Contáctanos | GenuisNet.ai",
-        metaDescription: "Contacta con GenuisNet.ai - Ponte en contacto con nuestro equipo para preguntas, sugerencias u oportunidades de colaboración.",
+        pageTitle: "Contáctanos | TechVernia",
+        metaDescription: "Contacta con TechVernia - Ponte en contacto con nuestro equipo para preguntas, sugerencias u oportunidades de colaboración.",
 
         // Hero Section
         heroTitle: "Ponte en Contacto",
@@ -71,17 +71,17 @@ const contactTranslations = {
         emailCard: {
             title: "Envíanos un Email",
             description: "Para consultas generales y soporte",
-            email: "contact@genuisnet.ai"
+            email: "contact@techvernia.com"
         },
         businessCard: {
             title: "Consultas Comerciales",
             description: "Para asociaciones y colaboraciones",
-            email: "business@genuisnet.ai"
+            email: "business@techvernia.com"
         },
         supportCard: {
             title: "Soporte Técnico",
             description: "Para problemas técnicos y errores",
-            email: "support@genuisnet.ai"
+            email: "support@techvernia.com"
         },
         socialCard: {
             title: "Redes Sociales",
@@ -109,13 +109,13 @@ const contactTranslations = {
         footerPrivacy: "Política de Privacidad",
         footerTerms: "Términos de Servicio",
         footerContact: "Contacto",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados."
     },
 
     fr: {
         // Meta & Page Title
-        pageTitle: "Nous Contacter | GenuisNet.ai",
-        metaDescription: "Contactez GenuisNet.ai - Entrez en contact avec notre équipe pour des questions, suggestions ou opportunités de partenariat.",
+        pageTitle: "Nous Contacter | TechVernia",
+        metaDescription: "Contactez TechVernia - Entrez en contact avec notre équipe pour des questions, suggestions ou opportunités de partenariat.",
 
         // Hero Section
         heroTitle: "Entrer en Contact",
@@ -125,17 +125,17 @@ const contactTranslations = {
         emailCard: {
             title: "Envoyez-nous un Email",
             description: "Pour les demandes générales et le support",
-            email: "contact@genuisnet.ai"
+            email: "contact@techvernia.com"
         },
         businessCard: {
             title: "Demandes Commerciales",
             description: "Pour les partenariats et collaborations",
-            email: "business@genuisnet.ai"
+            email: "business@techvernia.com"
         },
         supportCard: {
             title: "Support Technique",
             description: "Pour les problèmes techniques et bugs",
-            email: "support@genuisnet.ai"
+            email: "support@techvernia.com"
         },
         socialCard: {
             title: "Réseaux Sociaux",
@@ -163,13 +163,13 @@ const contactTranslations = {
         footerPrivacy: "Politique de Confidentialité",
         footerTerms: "Conditions d'Utilisation",
         footerContact: "Contact",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés."
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés."
     },
 
     de: {
         // Meta & Page Title
-        pageTitle: "Kontakt | GenuisNet.ai",
-        metaDescription: "Kontaktieren Sie GenuisNet.ai - Nehmen Sie Kontakt mit unserem Team für Fragen, Vorschläge oder Partnerschaftsmöglichkeiten auf.",
+        pageTitle: "Kontakt | TechVernia",
+        metaDescription: "Kontaktieren Sie TechVernia - Nehmen Sie Kontakt mit unserem Team für Fragen, Vorschläge oder Partnerschaftsmöglichkeiten auf.",
 
         // Hero Section
         heroTitle: "Kontakt Aufnehmen",
@@ -179,17 +179,17 @@ const contactTranslations = {
         emailCard: {
             title: "E-Mail an uns",
             description: "Für allgemeine Anfragen und Support",
-            email: "contact@genuisnet.ai"
+            email: "contact@techvernia.com"
         },
         businessCard: {
             title: "Geschäftsanfragen",
             description: "Für Partnerschaften und Zusammenarbeit",
-            email: "business@genuisnet.ai"
+            email: "business@techvernia.com"
         },
         supportCard: {
             title: "Technischer Support",
             description: "Für technische Probleme und Fehler",
-            email: "support@genuisnet.ai"
+            email: "support@techvernia.com"
         },
         socialCard: {
             title: "Soziale Medien",
@@ -217,13 +217,13 @@ const contactTranslations = {
         footerPrivacy: "Datenschutzrichtlinie",
         footerTerms: "Nutzungsbedingungen",
         footerContact: "Kontakt",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten."
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
 
     pt: {
         // Meta & Page Title
-        pageTitle: "Contate-nos | GenuisNet.ai",
-        metaDescription: "Contacte a GenuisNet.ai - Entre em contacto com a nossa equipa para perguntas, sugestões ou oportunidades de parceria.",
+        pageTitle: "Contate-nos | TechVernia",
+        metaDescription: "Contacte a TechVernia - Entre em contacto com a nossa equipa para perguntas, sugestões ou oportunidades de parceria.",
 
         // Hero Section
         heroTitle: "Entre em Contato",
@@ -233,17 +233,17 @@ const contactTranslations = {
         emailCard: {
             title: "Envie-nos um Email",
             description: "Para consultas gerais e suporte",
-            email: "contact@genuisnet.ai"
+            email: "contact@techvernia.com"
         },
         businessCard: {
             title: "Consultas Comerciais",
             description: "Para parcerias e colaborações",
-            email: "business@genuisnet.ai"
+            email: "business@techvernia.com"
         },
         supportCard: {
             title: "Suporte Técnico",
             description: "Para problemas técnicos e bugs",
-            email: "support@genuisnet.ai"
+            email: "support@techvernia.com"
         },
         socialCard: {
             title: "Redes Sociais",
@@ -271,13 +271,13 @@ const contactTranslations = {
         footerPrivacy: "Política de Privacidade",
         footerTerms: "Termos de Serviço",
         footerContact: "Contato",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados."
     },
 
     zh: {
         // Meta & Page Title
-        pageTitle: "联系我们 | GenuisNet.ai",
-        metaDescription: "联系 GenuisNet.ai - 如有问题、建议或合作机会，请与我们的团队联系。",
+        pageTitle: "联系我们 | TechVernia",
+        metaDescription: "联系 TechVernia - 如有问题、建议或合作机会，请与我们的团队联系。",
 
         // Hero Section
         heroTitle: "联系我们",
@@ -287,17 +287,17 @@ const contactTranslations = {
         emailCard: {
             title: "发送电子邮件",
             description: "一般咨询和支持",
-            email: "contact@genuisnet.ai"
+            email: "contact@techvernia.com"
         },
         businessCard: {
             title: "商务咨询",
             description: "合作伙伴关系和协作",
-            email: "business@genuisnet.ai"
+            email: "business@techvernia.com"
         },
         supportCard: {
             title: "技术支持",
             description: "技术问题和错误报告",
-            email: "support@genuisnet.ai"
+            email: "support@techvernia.com"
         },
         socialCard: {
             title: "社交媒体",
@@ -325,13 +325,13 @@ const contactTranslations = {
         footerPrivacy: "隐私政策",
         footerTerms: "服务条款",
         footerContact: "联系",
-        footerCopyright: "© 2026 GenuisNet.ai. 版权所有。"
+        footerCopyright: "© 2026 TechVernia. 版权所有。"
     },
 
     ja: {
         // Meta & Page Title
-        pageTitle: "お問い合わせ | GenuisNet.ai",
-        metaDescription: "GenuisNet.aiへのお問い合わせ - ご質問、ご提案、またはパートナーシップの機会について、チームにご連絡ください。",
+        pageTitle: "お問い合わせ | TechVernia",
+        metaDescription: "TechVerniaへのお問い合わせ - ご質問、ご提案、またはパートナーシップの機会について、チームにご連絡ください。",
 
         // Hero Section
         heroTitle: "お問い合わせ",
@@ -341,17 +341,17 @@ const contactTranslations = {
         emailCard: {
             title: "メールでお問い合わせ",
             description: "一般的なお問い合わせとサポート",
-            email: "contact@genuisnet.ai"
+            email: "contact@techvernia.com"
         },
         businessCard: {
             title: "ビジネスお問い合わせ",
             description: "パートナーシップとコラボレーション",
-            email: "business@genuisnet.ai"
+            email: "business@techvernia.com"
         },
         supportCard: {
             title: "技術サポート",
             description: "技術的な問題とバグについて",
-            email: "support@genuisnet.ai"
+            email: "support@techvernia.com"
         },
         socialCard: {
             title: "ソーシャルメディア",
@@ -379,13 +379,13 @@ const contactTranslations = {
         footerPrivacy: "プライバシーポリシー",
         footerTerms: "利用規約",
         footerContact: "お問い合わせ",
-        footerCopyright: "© 2026 GenuisNet.ai. 無断転載を禁じます。"
+        footerCopyright: "© 2026 TechVernia. 無断転載を禁じます。"
     },
 
     ko: {
         // Meta & Page Title
-        pageTitle: "문의하기 | GenuisNet.ai",
-        metaDescription: "GenuisNet.ai에 문의하세요 - 질문, 제안 또는 파트너십 기회에 대해 팀에 연락하세요.",
+        pageTitle: "문의하기 | TechVernia",
+        metaDescription: "TechVernia에 문의하세요 - 질문, 제안 또는 파트너십 기회에 대해 팀에 연락하세요.",
 
         // Hero Section
         heroTitle: "문의하기",
@@ -395,17 +395,17 @@ const contactTranslations = {
         emailCard: {
             title: "이메일 문의",
             description: "일반 문의 및 지원",
-            email: "contact@genuisnet.ai"
+            email: "contact@techvernia.com"
         },
         businessCard: {
             title: "비즈니스 문의",
             description: "파트너십 및 협업",
-            email: "business@genuisnet.ai"
+            email: "business@techvernia.com"
         },
         supportCard: {
             title: "기술 지원",
             description: "기술적 문제 및 버그",
-            email: "support@genuisnet.ai"
+            email: "support@techvernia.com"
         },
         socialCard: {
             title: "소셜 미디어",
@@ -433,13 +433,13 @@ const contactTranslations = {
         footerPrivacy: "개인정보 보호정책",
         footerTerms: "서비스 약관",
         footerContact: "문의",
-        footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유."
+        footerCopyright: "© 2026 TechVernia. 모든 권리 보유."
     },
 
     ar: {
         // Meta & Page Title
-        pageTitle: "اتصل بنا | GenuisNet.ai",
-        metaDescription: "اتصل بـ GenuisNet.ai - تواصل مع فريقنا للأسئلة أو الاقتراحات أو فرص الشراكة.",
+        pageTitle: "اتصل بنا | TechVernia",
+        metaDescription: "اتصل بـ TechVernia - تواصل مع فريقنا للأسئلة أو الاقتراحات أو فرص الشراكة.",
 
         // Hero Section
         heroTitle: "تواصل معنا",
@@ -449,17 +449,17 @@ const contactTranslations = {
         emailCard: {
             title: "راسلنا عبر البريد الإلكتروني",
             description: "للاستفسارات العامة والدعم",
-            email: "contact@genuisnet.ai"
+            email: "contact@techvernia.com"
         },
         businessCard: {
             title: "الاستفسارات التجارية",
             description: "للشراكات والتعاون",
-            email: "business@genuisnet.ai"
+            email: "business@techvernia.com"
         },
         supportCard: {
             title: "الدعم الفني",
             description: "للمشاكل التقنية والأخطاء",
-            email: "support@genuisnet.ai"
+            email: "support@techvernia.com"
         },
         socialCard: {
             title: "وسائل التواصل الاجتماعي",
@@ -487,13 +487,13 @@ const contactTranslations = {
         footerPrivacy: "سياسة الخصوصية",
         footerTerms: "شروط الخدمة",
         footerContact: "اتصل",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة."
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة."
     },
 
     hi: {
         // Meta & Page Title
-        pageTitle: "संपर्क करें | GenuisNet.ai",
-        metaDescription: "GenuisNet.ai से संपर्क करें - प्रश्न, सुझाव या साझेदारी के अवसरों के लिए हमारी टीम से संपर्क करें।",
+        pageTitle: "संपर्क करें | TechVernia",
+        metaDescription: "TechVernia से संपर्क करें - प्रश्न, सुझाव या साझेदारी के अवसरों के लिए हमारी टीम से संपर्क करें।",
 
         // Hero Section
         heroTitle: "संपर्क में रहें",
@@ -503,17 +503,17 @@ const contactTranslations = {
         emailCard: {
             title: "हमें ईमेल करें",
             description: "सामान्य पूछताछ और समर्थन के लिए",
-            email: "contact@genuisnet.ai"
+            email: "contact@techvernia.com"
         },
         businessCard: {
             title: "व्यावसायिक पूछताछ",
             description: "साझेदारी और सहयोग के लिए",
-            email: "business@genuisnet.ai"
+            email: "business@techvernia.com"
         },
         supportCard: {
             title: "तकनीकी सहायता",
             description: "तकनीकी समस्याओं और बग के लिए",
-            email: "support@genuisnet.ai"
+            email: "support@techvernia.com"
         },
         socialCard: {
             title: "सोशल मीडिया",
@@ -541,7 +541,7 @@ const contactTranslations = {
         footerPrivacy: "गोपनीयता नीति",
         footerTerms: "सेवा की शर्तें",
         footerContact: "संपर्क",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।"
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।"
     }
 };
 

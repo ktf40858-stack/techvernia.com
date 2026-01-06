@@ -70,7 +70,7 @@ const articleTranslations = {
         list7: "Can struggle with very niche libraries",
         list8: "May need clarification on ambiguous requirements",
         list9: "Mouse and Keyboard Control:Claude can click, type, scroll, and navigate like a human",
-        pageTitle: "Claude 4.5 Sonnet Update: What's New and Why It Matters | GenuisNet.ai",
+        pageTitle: "Claude 4.5 Sonnet Update: What's New and Why It Matters | TechVernia",
         para1: "On October 22, 2024, Anthropic released an updated version of Claude 3.5 Sonnet with significant improvements across multiple areas. This isn't just an incremental update—it represents a major leap in AI capabilities, particularly for coding and computer interaction.",
         para10: "Yes, if you:",
         para10_strong: "Yes, if you:",
@@ -112,7 +112,7 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     es: {
         heading1: "¿Qué ha cambiado en Claude 3.5 Sonnet?",
@@ -180,7 +180,7 @@ const articleTranslations = {
         list7: "Puede tener dificultades con librerías muy especializadas",
         list8: "Puede necesitar aclaraciones sobre requisitos ambiguos",
         list9: "Control de ratón y teclado: Claude puede hacer clic, escribir, desplazarse y navegar como un humano",
-        pageTitle: "Actualización Claude 4.5 Sonnet: Qué hay de nuevo y por qué importa | GenuisNet.ai",
+        pageTitle: "Actualización Claude 4.5 Sonnet: Qué hay de nuevo y por qué importa | TechVernia",
         para1: "El 22 de octubre de 2024, Anthropic lanzó una versión actualizada de Claude 3.5 Sonnet con mejoras significativas en múltiples áreas. No se trata solo de una actualización incremental: representa un gran salto en las capacidades de IA, particularmente para la codificación y la interacción con ordenadores.",
         para10: "Sí, si:",
         para10_strong: "Sí, si:",
@@ -222,7 +222,7 @@ const articleTranslations = {
         footerDesc: "Tu fuente de confianza para reseñas, comparaciones y guías de herramientas IA.",
         footerCategories: "Categorías",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados.",
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados.",
         metaDescription: "Descubre las mejoras revolucionarias de la actualización Claude 3.5 Sonnet de octubre 2024: mejor codificación, Computer Use y capacidades de análisis avanzadas."
     },
     fr: {
@@ -291,7 +291,7 @@ const articleTranslations = {
         list7: "Peut avoir des difficultés avec des bibliothèques très spécialisées",
         list8: "Peut nécessiter des clarifications sur des exigences ambiguës",
         list9: "Contrôle souris et clavier : Claude peut cliquer, taper, défiler et naviguer comme un humain",
-        pageTitle: "Mise à jour Claude 4.5 Sonnet : Quoi de neuf et pourquoi c'est important | GenuisNet.ai",
+        pageTitle: "Mise à jour Claude 4.5 Sonnet : Quoi de neuf et pourquoi c'est important | TechVernia",
         para1: "Le 22 octobre 2024, Anthropic a publié une version mise à jour de Claude 3.5 Sonnet avec des améliorations significatives dans plusieurs domaines. Il ne s'agit pas simplement d'une mise à jour incrémentale : cela représente un bond majeur dans les capacités d'IA, particulièrement pour le codage et l'interaction informatique.",
         para10: "Oui, si vous :",
         para10_strong: "Oui, si vous :",
@@ -333,7 +333,7 @@ const articleTranslations = {
         footerDesc: "Votre source de confiance pour les avis, comparaisons et guides d'outils IA.",
         footerCategories: "Catégories",
         footerResources: "Ressources",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés.",
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés.",
         metaDescription: "Découvrez les améliorations révolutionnaires de la mise à jour Claude 3.5 Sonnet d'octobre 2024 : meilleur codage, Computer Use et capacités d'analyse avancées."
     },
     de: {
@@ -402,7 +402,7 @@ const articleTranslations = {
         list7: "Kann bei sehr spezifischen Bibliotheken Schwierigkeiten haben",
         list8: "Benötigt möglicherweise Klärung bei mehrdeutigen Anforderungen",
         list9: "Maus- und Tastatursteuerung: Claude kann wie ein Mensch klicken, tippen, scrollen und navigieren",
-        pageTitle: "Claude 4.5 Sonnet Update: Was ist neu und warum es wichtig ist | GenuisNet.ai",
+        pageTitle: "Claude 4.5 Sonnet Update: Was ist neu und warum es wichtig ist | TechVernia",
         para1: "Am 22. Oktober 2024 veröffentlichte Anthropic eine aktualisierte Version von Claude 3.5 Sonnet mit erheblichen Verbesserungen in mehreren Bereichen. Dies ist nicht nur ein inkrementelles Update – es stellt einen großen Sprung bei den KI-Fähigkeiten dar, insbesondere für Programmierung und Computerinteraktion.",
         para10: "Ja, wenn Sie:",
         para10_strong: "Ja, wenn Sie:",
@@ -444,7 +444,7 @@ const articleTranslations = {
         footerDesc: "Ihre vertrauenswürdige Quelle für KI-Tool-Reviews, Vergleiche und Anleitungen.",
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten.",
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten.",
         metaDescription: "Entdecken Sie die revolutionären Verbesserungen des Claude 3.5 Sonnet Updates von Oktober 2024: bessere Programmierung, Computer Use und erweiterte Analysefähigkeiten."
     },
     pt: {
@@ -513,7 +513,7 @@ const articleTranslations = {
         list7: "Pode ter dificuldades com bibliotecas muito especializadas",
         list8: "Pode necessitar de esclarecimentos sobre requisitos ambíguos",
         list9: "Controlo de rato e teclado: Claude pode clicar, escrever, deslocar e navegar como um humano",
-        pageTitle: "Atualização Claude 4.5 Sonnet: O que há de novo e porque é importante | GenuisNet.ai",
+        pageTitle: "Atualização Claude 4.5 Sonnet: O que há de novo e porque é importante | TechVernia",
         para1: "A 22 de outubro de 2024, a Anthropic lançou uma versão atualizada do Claude 3.5 Sonnet com melhorias significativas em várias áreas. Não se trata apenas de uma atualização incremental – representa um grande salto nas capacidades de IA, particularmente para programação e interação com computadores.",
         para10: "Sim, se:",
         para10_strong: "Sim, se:",
@@ -555,7 +555,7 @@ const articleTranslations = {
         footerDesc: "A sua fonte de confiança para análises, comparações e guias de ferramentas IA.",
         footerCategories: "Categorias",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados.",
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados.",
         metaDescription: "Descubra as melhorias revolucionárias da atualização Claude 3.5 Sonnet de outubro 2024: melhor programação, Computer Use e capacidades de análise avançadas."
     },
     zh: {
@@ -624,7 +624,7 @@ const articleTranslations = {
         list7: "可能难以处理非常小众的库",
         list8: "可能需要对模糊要求进行澄清",
         list9: "鼠标和键盘控制:Claude可以像人类一样点击、输入、滚动和导航",
-        pageTitle: "Claude 4.5 Sonnet更新:有什么新功能及其重要性 | GenuisNet.ai",
+        pageTitle: "Claude 4.5 Sonnet更新:有什么新功能及其重要性 | TechVernia",
         para1: "2024年10月22日,Anthropic发布了Claude 3.5 Sonnet的更新版本,在多个领域带来显著改进。这不仅仅是一次增量更新——它代表着AI能力的重大飞跃,特别是在编码和计算机交互方面。",
         para10: "是的,如果您:",
         para10_strong: "是的,如果您:",
@@ -666,7 +666,7 @@ const articleTranslations = {
         footerDesc: "您值得信赖的AI工具评测、比较和指南来源。",
         footerCategories: "分类",
         footerResources: "资源",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。",
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。",
         metaDescription: "了解2024年10月Claude 3.5 Sonnet更新的革命性改进:更好的编码、Computer Use和高级分析能力。"
     },
     ja: {
@@ -735,7 +735,7 @@ const articleTranslations = {
         list7: "非常にニッチなライブラリで苦労することがある",
         list8: "曖昧な要件について明確化が必要な場合がある",
         list9: "マウスとキーボード制御:Claudeは人間のようにクリック、入力、スクロール、ナビゲート可能",
-        pageTitle: "Claude 4.5 Sonnetアップデート:新機能とその重要性 | GenuisNet.ai",
+        pageTitle: "Claude 4.5 Sonnetアップデート:新機能とその重要性 | TechVernia",
         para1: "2024年10月22日、Anthropicは複数の領域で大幅な改善を施したClaude 3.5 Sonnetの更新版をリリースしました。これは単なる増分更新ではなく、特にコーディングとコンピューター操作においてAI機能の大きな飛躍を表しています。",
         para10: "以下に該当する場合は「はい」:",
         para10_strong: "以下に該当する場合は「はい」:",
@@ -777,7 +777,7 @@ const articleTranslations = {
         footerDesc: "AIツールのレビュー、比較、ガイドの信頼できるソースです。",
         footerCategories: "カテゴリー",
         footerResources: "リソース",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved.",
+        footerCopyright: "© 2026 TechVernia. All rights reserved.",
         metaDescription: "2024年10月のClaude 3.5 Sonnetアップデートの革新的な改善について学びましょう:より優れたコーディング、Computer Use、高度な分析機能。"
     },
     ko: {
@@ -846,7 +846,7 @@ const articleTranslations = {
         list7: "매우 틈새 라이브러리에서 어려움을 겪을 수 있음",
         list8: "모호한 요구 사항에 대한 명확화가 필요할 수 있음",
         list9: "마우스 및 키보드 제어: Claude는 사람처럼 클릭, 입력, 스크롤, 탐색 가능",
-        pageTitle: "Claude 4.5 Sonnet 업데이트: 새로운 기능 및 중요한 이유 | GenuisNet.ai",
+        pageTitle: "Claude 4.5 Sonnet 업데이트: 새로운 기능 및 중요한 이유 | TechVernia",
         para1: "2024년 10월 22일, Anthropic은 여러 영역에서 상당한 개선이 이루어진 Claude 3.5 Sonnet의 업데이트 버전을 출시했습니다. 이것은 단순한 증분 업데이트가 아닙니다. 특히 코딩 및 컴퓨터 상호작용에서 AI 기능의 큰 도약을 나타냅니다.",
         para10: "다음에 해당하는 경우 \"예\":",
         para10_strong: "다음에 해당하는 경우 \"예\":",
@@ -888,7 +888,7 @@ const articleTranslations = {
         footerDesc: "AI 도구 리뷰, 비교 및 가이드에 대한 신뢰할 수 있는 소스입니다.",
         footerCategories: "카테고리",
         footerResources: "리소스",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved.",
+        footerCopyright: "© 2026 TechVernia. All rights reserved.",
         metaDescription: "2024년 10월 Claude 3.5 Sonnet 업데이트의 혁신적인 개선 사항 알아보기: 더 나은 코딩, Computer Use 및 고급 분석 기능."
     },
     ar: {
@@ -957,7 +957,7 @@ const articleTranslations = {
         list7: "قد يواجه صعوبة مع مكتبات متخصصة جداً",
         list8: "قد يحتاج إلى توضيح بشأن المتطلبات الغامضة",
         list9: "التحكم في الماوس ولوحة المفاتيح: يمكن لـ Claude النقر والكتابة والتمرير والتنقل مثل الإنسان",
-        pageTitle: "تحديث Claude 4.5 Sonnet: ما الجديد ولماذا هو مهم | GenuisNet.ai",
+        pageTitle: "تحديث Claude 4.5 Sonnet: ما الجديد ولماذا هو مهم | TechVernia",
         para1: "في 22 أكتوبر 2024، أصدرت Anthropic نسخة محدثة من Claude 3.5 Sonnet مع تحسينات كبيرة عبر مجالات متعددة. هذا ليس مجرد تحديث تدريجي - إنه يمثل قفزة كبيرة في قدرات الذكاء الاصطناعي، خاصة للبرمجة والتفاعل مع الكمبيوتر.",
         para10: "نعم، إذا كنت:",
         para10_strong: "نعم، إذا كنت:",
@@ -999,7 +999,7 @@ const articleTranslations = {
         footerDesc: "مصدرك الموثوق لمراجعات ومقارنات وأدلة أدوات الذكاء الاصطناعي.",
         footerCategories: "الفئات",
         footerResources: "الموارد",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved.",
+        footerCopyright: "© 2026 TechVernia. All rights reserved.",
         metaDescription: "اكتشف التحسينات الثورية في تحديث Claude 3.5 Sonnet أكتوبر 2024: برمجة أفضل، Computer Use، وقدرات تحليل متقدمة."
     },
     hi: {
@@ -1068,7 +1068,7 @@ const articleTranslations = {
         list7: "बहुत विशिष्ट लाइब्रेरी के साथ संघर्ष कर सकता है",
         list8: "अस्पष्ट आवश्यकताओं पर स्पष्टीकरण की आवश्यकता हो सकती है",
         list9: "माउस और कीबोर्ड नियंत्रण: Claude मानव की तरह क्लिक, टाइप, स्क्रॉल और नेविगेट कर सकता है",
-        pageTitle: "Claude 4.5 Sonnet अपडेट: नया क्या है और यह क्यों महत्वपूर्ण है | GenuisNet.ai",
+        pageTitle: "Claude 4.5 Sonnet अपडेट: नया क्या है और यह क्यों महत्वपूर्ण है | TechVernia",
         para1: "22 अक्टूबर 2024 को, Anthropic ने कई क्षेत्रों में महत्वपूर्ण सुधारों के साथ Claude 3.5 Sonnet का एक अद्यतन संस्करण जारी किया। यह केवल एक वृद्धिशील अपडेट नहीं है - यह विशेष रूप से कोडिंग और कंप्यूटर इंटरैक्शन के लिए AI क्षमताओं में एक बड़ी छलांग का प्रतिनिधित्व करता है।",
         para10: "हां, यदि आप:",
         para10_strong: "हां, यदि आप:",
@@ -1110,7 +1110,7 @@ const articleTranslations = {
         footerDesc: "AI टूल समीक्षा, तुलना और गाइड के लिए आपका विश्वसनीय स्रोत।",
         footerCategories: "श्रेणियाँ",
         footerResources: "संसाधन",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved.",
+        footerCopyright: "© 2026 TechVernia. All rights reserved.",
         metaDescription: "अक्टूबर 2024 Claude 3.5 Sonnet अपडेट में क्रांतिकारी सुधारों की खोज करें: बेहतर कोडिंग, Computer Use, और उन्नत विश्लेषण क्षमताएं।"
     },
 };

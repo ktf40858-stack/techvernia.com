@@ -5,7 +5,7 @@ console.log('[i18n] chatgpt-code-interpreter-guide-i18n.js loaded');
 
 const articleTranslations = {
     en: {
-        pageTitle: "How to Use ChatGPT Code Interpreter for Data Analysis | GenuisNet.ai",
+        pageTitle: "How to Use ChatGPT Code Interpreter for Data Analysis | TechVernia",
         metaDescription: "Turn natural language into working code, charts, and data analysis. Step-by-step guide to analyzing spreadsheets and creating visualizations with ChatGPT.",
         heroTitle: "How to Use ChatGPT Code Interpreter for Data Analysis",
         heroExcerpt: "Step-by-step guide to analyzing spreadsheets and creating visualizations with ChatGPT.",
@@ -57,10 +57,10 @@ const articleTranslations = {
         footerDesc: "Your trusted source for AI tool reviews, comparisons, and guides.",
         footerCategories: "Categories",
         footerResources: "Resources",
-        footerCopyright: "© 2026 GenuisNet.ai. All rights reserved."
+        footerCopyright: "© 2026 TechVernia. All rights reserved."
     },
     es: {
-        pageTitle: "Cómo Usar el Intérprete de Código de ChatGPT para Análisis de Datos | GenuisNet.ai",
+        pageTitle: "Cómo Usar el Intérprete de Código de ChatGPT para Análisis de Datos | TechVernia",
         metaDescription: "Convierta lenguaje natural en código funcional, gráficos y análisis de datos. Guía paso a paso para analizar hojas de cálculo con ChatGPT.",
         heroTitle: "Cómo Usar el Intérprete de Código de ChatGPT para Análisis de Datos",
         heroExcerpt: "Guía paso a paso para analizar hojas de cálculo y crear visualizaciones con ChatGPT.",
@@ -112,10 +112,10 @@ const articleTranslations = {
         footerDesc: "Su fuente confiable de reseñas, comparaciones y guías de herramientas IA.",
         footerCategories: "Categorías",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos los derechos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos los derechos reservados."
     },
     fr: {
-        pageTitle: "Comment Utiliser l'Interpréteur de Code ChatGPT pour l'Analyse de Données | GenuisNet.ai",
+        pageTitle: "Comment Utiliser l'Interpréteur de Code ChatGPT pour l'Analyse de Données | TechVernia",
         metaDescription: "Transformez le langage naturel en code fonctionnel, graphiques et analyse de données. Guide pas à pas pour analyser des feuilles de calcul avec ChatGPT.",
         heroTitle: "Comment Utiliser l'Interpréteur de Code ChatGPT pour l'Analyse de Données",
         heroExcerpt: "Guide étape par étape pour analyser des feuilles de calcul et créer des visualisations avec ChatGPT.",
@@ -167,10 +167,10 @@ const articleTranslations = {
         footerDesc: "Votre source de confiance pour les avis, comparaisons et guides d'outils IA.",
         footerCategories: "Catégories",
         footerResources: "Ressources",
-        footerCopyright: "© 2026 GenuisNet.ai. Tous droits réservés."
+        footerCopyright: "© 2026 TechVernia. Tous droits réservés."
     },
     de: {
-        pageTitle: "Wie Sie ChatGPT Code Interpreter für Datenanalyse Verwenden | GenuisNet.ai",
+        pageTitle: "Wie Sie ChatGPT Code Interpreter für Datenanalyse Verwenden | TechVernia",
         metaDescription: "Verwandeln Sie natürliche Sprache in funktionierenden Code, Diagramme und Datenanalyse. Schritt-für-Schritt-Anleitung zur Tabellenanalyse mit ChatGPT.",
         heroTitle: "Wie Sie ChatGPT Code Interpreter für Datenanalyse Verwenden",
         heroExcerpt: "Schritt-für-Schritt-Anleitung zur Analyse von Tabellenkalkulationen und Erstellung von Visualisierungen mit ChatGPT.",
@@ -222,10 +222,10 @@ const articleTranslations = {
         footerDesc: "Ihre vertrauenswürdige Quelle für KI-Tool-Bewertungen, Vergleiche und Leitfäden.",
         footerCategories: "Kategorien",
         footerResources: "Ressourcen",
-        footerCopyright: "© 2026 GenuisNet.ai. Alle Rechte vorbehalten."
+        footerCopyright: "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
     pt: {
-        pageTitle: "Como Usar o Interpretador de Código ChatGPT para Análise de Dados | GenuisNet.ai",
+        pageTitle: "Como Usar o Interpretador de Código ChatGPT para Análise de Dados | TechVernia",
         metaDescription: "Transforme linguagem natural em código funcional, gráficos e análise de dados. Guia passo a passo para analisar folhas de cálculo com ChatGPT.",
         heroTitle: "Como Usar o Interpretador de Código ChatGPT para Análise de Dados",
         heroExcerpt: "Guia passo a passo para analisar folhas de cálculo e criar visualizações com ChatGPT.",
@@ -277,10 +277,10 @@ const articleTranslations = {
         footerDesc: "A sua fonte confiável para avaliações, comparações e guias de ferramentas IA.",
         footerCategories: "Categorias",
         footerResources: "Recursos",
-        footerCopyright: "© 2026 GenuisNet.ai. Todos os direitos reservados."
+        footerCopyright: "© 2026 TechVernia. Todos os direitos reservados."
     },
     zh: {
-        pageTitle: "如何使用ChatGPT代码解释器进行数据分析 | GenuisNet.ai",
+        pageTitle: "如何使用ChatGPT代码解释器进行数据分析 | TechVernia",
         metaDescription: "将自然语言转换为工作代码、图表和数据分析。使用ChatGPT分析电子表格和创建可视化的分步指南。",
         heroTitle: "如何使用ChatGPT代码解释器进行数据分析",
         heroExcerpt: "使用ChatGPT分析电子表格和创建可视化的分步指南。",
@@ -332,10 +332,10 @@ const articleTranslations = {
         footerDesc: "您值得信赖的AI工具评论、比较和指南来源。",
         footerCategories: "类别",
         footerResources: "资源",
-        footerCopyright: "© 2026 GenuisNet.ai. 保留所有权利。"
+        footerCopyright: "© 2026 TechVernia. 保留所有权利。"
     },
     ja: {
-        pageTitle: "データ分析のためのChatGPTコードインタープリタの使い方 | GenuisNet.ai",
+        pageTitle: "データ分析のためのChatGPTコードインタープリタの使い方 | TechVernia",
         metaDescription: "自然言語を動作するコード、グラフ、データ分析に変換します。ChatGPTでスプレッドシートを分析し、ビジュアライゼーションを作成するステップバイステップガイド。",
         heroTitle: "データ分析のためのChatGPTコードインタープリタの使い方",
         heroExcerpt: "ChatGPTでスプレッドシートを分析し、ビジュアライゼーションを作成するためのステップバイステップガイド。",
@@ -387,10 +387,10 @@ const articleTranslations = {
         footerDesc: "信頼できるAIツールレビュー、比較、ガイドの情報源。",
         footerCategories: "カテゴリ",
         footerResources: "リソース",
-        footerCopyright: "© 2026 GenuisNet.ai. 全著作権所有。"
+        footerCopyright: "© 2026 TechVernia. 全著作権所有。"
     },
     ko: {
-        pageTitle: "데이터 분석을 위한 ChatGPT 코드 인터프리터 사용 방법 | GenuisNet.ai",
+        pageTitle: "데이터 분석을 위한 ChatGPT 코드 인터프리터 사용 방법 | TechVernia",
         metaDescription: "자연어를 작동하는 코드, 차트 및 데이터 분석으로 변환합니다. ChatGPT로 스프레드시트를 분석하고 시각화를 만드는 단계별 가이드.",
         heroTitle: "데이터 분석을 위한 ChatGPT 코드 인터프리터 사용 방법",
         heroExcerpt: "ChatGPT로 스프레드시트를 분석하고 시각화를 만드는 단계별 가이드.",
@@ -442,10 +442,10 @@ const articleTranslations = {
         footerDesc: "신뢰할 수 있는 AI 도구 리뷰, 비교 및 가이드 소스.",
         footerCategories: "카테고리",
         footerResources: "리소스",
-        footerCopyright: "© 2026 GenuisNet.ai. 모든 권리 보유."
+        footerCopyright: "© 2026 TechVernia. 모든 권리 보유."
     },
     ar: {
-        pageTitle: "كيفية استخدام مفسر كود ChatGPT لتحليل البيانات | GenuisNet.ai",
+        pageTitle: "كيفية استخدام مفسر كود ChatGPT لتحليل البيانات | TechVernia",
         metaDescription: "حوّل اللغة الطبيعية إلى كود عامل ورسوم بيانية وتحليل بيانات. دليل خطوة بخطوة لتحليل جداول البيانات وإنشاء التصورات باستخدام ChatGPT.",
         heroTitle: "كيفية استخدام مفسر كود ChatGPT لتحليل البيانات",
         heroExcerpt: "دليل خطوة بخطوة لتحليل جداول البيانات وإنشاء التصورات باستخدام ChatGPT.",
@@ -497,10 +497,10 @@ const articleTranslations = {
         footerDesc: "مصدرك الموثوق لمراجعات أدوات الذكاء الاصطناعي والمقارنات والأدلة.",
         footerCategories: "الفئات",
         footerResources: "الموارد",
-        footerCopyright: "© 2026 GenuisNet.ai. جميع الحقوق محفوظة."
+        footerCopyright: "© 2026 TechVernia. جميع الحقوق محفوظة."
     },
     hi: {
-        pageTitle: "डेटा विश्लेषण के लिए ChatGPT कोड इंटरप्रेटर का उपयोग कैसे करें | GenuisNet.ai",
+        pageTitle: "डेटा विश्लेषण के लिए ChatGPT कोड इंटरप्रेटर का उपयोग कैसे करें | TechVernia",
         metaDescription: "प्राकृतिक भाषा को कार्यशील कोड, चार्ट और डेटा विश्लेषण में बदलें। ChatGPT के साथ स्प्रेडशीट का विश्लेषण करने और विज़ुअलाइज़ेशन बनाने के लिए चरण-दर-चरण गाइड।",
         heroTitle: "डेटा विश्लेषण के लिए ChatGPT कोड इंटरप्रेटर का उपयोग कैसे करें",
         heroExcerpt: "ChatGPT के साथ स्प्रेडशीट का विश्लेषण करने और विज़ुअलाइज़ेशन बनाने के लिए चरण-दर-चरण गाइड।",
@@ -552,7 +552,7 @@ const articleTranslations = {
         footerDesc: "AI टूल समीक्षाओं, तुलनाओं और गाइड के लिए आपका विश्वसनीय स्रोत।",
         footerCategories: "श्रेणियाँ",
         footerResources: "संसाधन",
-        footerCopyright: "© 2026 GenuisNet.ai. सर्वाधिकार सुरक्षित।"
+        footerCopyright: "© 2026 TechVernia. सर्वाधिकार सुरक्षित।"
     }
 };
 
