@@ -879,7 +879,7 @@ function applyWordtuneTranslations(lang) {
   console.log(`✅ Applied ${count} wordtune translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyWordtuneTranslations(lang), 200);
 });

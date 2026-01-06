@@ -845,7 +845,7 @@ function applySalesforceEinsteinGPTTranslations(lang) {
   console.log(`Applied ${count} salesforce-einstein-gpt translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applySalesforceEinsteinGPTTranslations(lang), 200);
 });

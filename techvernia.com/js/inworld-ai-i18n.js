@@ -1139,7 +1139,7 @@ function applyInworldaiTranslations(lang) {
   console.log(`✅ Applied ${count} inworld-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyInworldaiTranslations(lang), 200);
 });

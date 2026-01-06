@@ -879,7 +879,7 @@ function applyRytrTranslations(lang) {
   console.log(`✅ Applied ${count} rytr translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyRytrTranslations(lang), 200);
 });

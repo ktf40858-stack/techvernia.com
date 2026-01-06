@@ -892,7 +892,7 @@ function applySocraticByGoogleTranslations(lang) {
   console.log(`Applied ${count} socratic-by-google translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applySocraticByGoogleTranslations(lang), 200);
 });

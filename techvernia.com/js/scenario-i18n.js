@@ -1139,7 +1139,7 @@ function applyScenarioTranslations(lang) {
   console.log(`✅ Applied ${count} scenario translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyScenarioTranslations(lang), 200);
 });

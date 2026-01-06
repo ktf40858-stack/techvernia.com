@@ -1270,7 +1270,7 @@ function applyFetcherTranslations(lang) {
   console.log(`✅ Applied ${count} fetcher translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyFetcherTranslations(lang), 200);
 });

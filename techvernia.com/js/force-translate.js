@@ -157,7 +157,7 @@
         console.log('🔧 Force Translate initialisé');
 
         // Écouter l'événement de changement de langue
-        window.addEventListener('languageChanged', (event) => {
+        document.addEventListener('languageChanged', (event) => {
             const newLang = event.detail.language;
             console.log(`📡 Changement de langue détecté: ${newLang}`);
 

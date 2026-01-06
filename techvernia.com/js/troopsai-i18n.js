@@ -855,7 +855,7 @@ function applyTroopsaiTranslations(lang) {
   console.log(`Applied ${count} troopsai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyTroopsaiTranslations(lang), 200);
 });

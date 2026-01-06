@@ -899,7 +899,7 @@ function applyConnectedpapersTranslations(lang) {
   console.log(`✅ Applied ${count} connected-papers translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyConnectedpapersTranslations(lang), 200);
 });

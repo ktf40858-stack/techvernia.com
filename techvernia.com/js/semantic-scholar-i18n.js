@@ -909,7 +909,7 @@ function applySemanticscholarTranslations(lang) {
   console.log(`✅ Applied ${count} semantic-scholar translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applySemanticscholarTranslations(lang), 200);
 });

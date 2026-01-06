@@ -899,7 +899,7 @@ function applyUndermindTranslations(lang) {
   console.log(`✅ Applied ${count} undermind translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyUndermindTranslations(lang), 200);
 });

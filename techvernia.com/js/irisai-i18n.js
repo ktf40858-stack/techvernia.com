@@ -899,7 +899,7 @@ function applyIrisaiTranslations(lang) {
   console.log(`✅ Applied ${count} irisai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyIrisaiTranslations(lang), 200);
 });

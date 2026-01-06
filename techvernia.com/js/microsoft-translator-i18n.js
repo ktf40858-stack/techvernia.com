@@ -989,7 +989,7 @@ function applyMicrosofttranslatorTranslations(lang) {
   console.log(`✅ Applied ${count} microsoft-translator translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyMicrosofttranslatorTranslations(lang), 200);
 });

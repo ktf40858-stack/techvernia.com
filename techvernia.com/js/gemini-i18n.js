@@ -889,7 +889,7 @@ function applyGeminiTranslations(lang) {
   console.log(`✅ Applied ${count} gemini translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyGeminiTranslations(lang), 200);
 });

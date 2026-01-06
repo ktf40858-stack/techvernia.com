@@ -809,7 +809,7 @@ function applyFirefliesaiTranslations(lang) {
   console.log(`✅ Applied ${count} firefliesai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyFirefliesaiTranslations(lang), 200);
 });

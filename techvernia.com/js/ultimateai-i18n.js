@@ -828,7 +828,7 @@ function applyUltimateaiTranslations(lang) {
   console.log(`✅ Applied ${count} ultimateai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyUltimateaiTranslations(lang), 200);
 });

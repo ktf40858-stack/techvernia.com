@@ -892,7 +892,7 @@ function applyThinksterMathTranslations(lang) {
   console.log(`Applied ${count} thinkster-math translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyThinksterMathTranslations(lang), 200);
 });

@@ -855,7 +855,7 @@ function applyClariTranslations(lang) {
   console.log(`Applied ${count} clari translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyClariTranslations(lang), 200);
 });

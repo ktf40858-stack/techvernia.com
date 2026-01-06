@@ -918,7 +918,7 @@ function applyDomoaiTranslations(lang) {
     console.log(`Applied ${count} domo-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyDomoaiTranslations(lang), 200);
 });

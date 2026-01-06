@@ -363,7 +363,7 @@ function applyFraseTranslations(lang) {
   console.log(`Applied ${count} frase translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyFraseTranslations(lang), 200);
 });

@@ -828,7 +828,7 @@ function applyPrimerTranslations(lang) {
     console.log(`Applied ${count} primer translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyPrimerTranslations(lang), 200);
 });

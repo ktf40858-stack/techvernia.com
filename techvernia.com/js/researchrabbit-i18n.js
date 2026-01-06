@@ -899,7 +899,7 @@ function applyResearchrabbitTranslations(lang) {
   console.log(`✅ Applied ${count} researchrabbit translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyResearchrabbitTranslations(lang), 200);
 });

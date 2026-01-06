@@ -828,7 +828,7 @@ function applyZendeskAiTranslations(lang) {
   console.log(`✅ Applied ${count} zendesk-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyZendeskAiTranslations(lang), 200);
 });

@@ -376,7 +376,7 @@ function applyUdioTranslations(lang) {
     console.log(`✅ Applied ${count} udio translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyUdioTranslations(lang), 200);
 });

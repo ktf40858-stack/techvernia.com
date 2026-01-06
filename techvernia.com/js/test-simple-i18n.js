@@ -99,7 +99,7 @@ function applyTestsimpleTranslations(lang) {
   console.log(`✅ Applied ${count} test-simple translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyTestsimpleTranslations(lang), 200);
 });

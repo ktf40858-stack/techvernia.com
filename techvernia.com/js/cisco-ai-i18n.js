@@ -36,7 +36,7 @@ function applyCiscoAiTranslations(lang) {
     console.log(`Applied ${count} cisco-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyCiscoAiTranslations(lang), 200);
 });

@@ -855,7 +855,7 @@ function applyApolloioTranslations(lang) {
   console.log(`Applied ${count} apolloio translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyApolloioTranslations(lang), 200);
 });

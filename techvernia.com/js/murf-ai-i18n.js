@@ -386,7 +386,7 @@ function applyMurfAiTranslations(lang) {
     console.log(`✅ Applied ${count} murf-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyMurfAiTranslations(lang), 200);
 });

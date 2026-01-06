@@ -1609,7 +1609,7 @@ function applyChatgptTranslations(lang) {
   console.log(`✅ Applied ${count} chatgpt translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyChatgptTranslations(lang), 200);
 });

@@ -361,7 +361,7 @@ function applyDescriptTranslations(lang) {
     console.log(`✅ Applied ${count} descript translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyDescriptTranslations(lang), 200);
 });

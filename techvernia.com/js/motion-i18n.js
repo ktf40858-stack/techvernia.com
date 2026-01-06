@@ -817,7 +817,7 @@ function applyMotionTranslations(lang) {
     console.log('Applied ' + count + ' motion translations');
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyMotionTranslations(lang), 200);
 });

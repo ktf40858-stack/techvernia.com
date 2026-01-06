@@ -638,7 +638,7 @@ function applySisenseaiTranslations(lang) {
     console.log(`Applied ${count} sisense-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applySisenseaiTranslations(lang), 200);
 });

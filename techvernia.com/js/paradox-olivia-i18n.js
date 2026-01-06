@@ -1270,7 +1270,7 @@ function applyParadoxoliviaTranslations(lang) {
   console.log(`✅ Applied ${count} paradox-olivia translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyParadoxoliviaTranslations(lang), 200);
 });

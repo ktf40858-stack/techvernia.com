@@ -917,7 +917,7 @@ function applyAhrefsTranslations(lang) {
     console.log();
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyAhrefsTranslations(lang), 200);
 });

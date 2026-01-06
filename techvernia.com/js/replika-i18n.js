@@ -1139,7 +1139,7 @@ function applyReplikaTranslations(lang) {
   console.log(`✅ Applied ${count} replika translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyReplikaTranslations(lang), 200);
 });

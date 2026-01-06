@@ -1270,7 +1270,7 @@ function applyHumanlyTranslations(lang) {
   console.log(`✅ Applied ${count} humanly translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyHumanlyTranslations(lang), 200);
 });

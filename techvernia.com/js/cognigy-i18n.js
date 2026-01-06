@@ -108,7 +108,7 @@ function applyCognigyTranslations(lang) {
   console.log(`✅ Applied ${count} cognigy translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyCognigyTranslations(lang), 200);
 });

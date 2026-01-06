@@ -1139,7 +1139,7 @@ function applyRosebudaiTranslations(lang) {
   console.log(`✅ Applied ${count} rosebud-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyRosebudaiTranslations(lang), 200);
 });

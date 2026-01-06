@@ -1139,7 +1139,7 @@ function applyAzurequantumTranslations(lang) {
   console.log(`✅ Applied ${count} azure-quantum translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyAzurequantumTranslations(lang), 200);
 });

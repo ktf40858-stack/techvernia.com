@@ -989,7 +989,7 @@ function applyUnbabelTranslations(lang) {
   console.log(`✅ Applied ${count} unbabel translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyUnbabelTranslations(lang), 200);
 });

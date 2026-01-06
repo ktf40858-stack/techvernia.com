@@ -918,7 +918,7 @@ function applyDatarobotTranslations(lang) {
     console.log(`Applied ${count} datarobot translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyDatarobotTranslations(lang), 200);
 });

@@ -879,7 +879,7 @@ function applyPerplexityTranslations(lang) {
   console.log(`✅ Applied ${count} perplexity translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyPerplexityTranslations(lang), 200);
 });

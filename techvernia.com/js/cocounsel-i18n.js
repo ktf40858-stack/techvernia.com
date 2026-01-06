@@ -828,7 +828,7 @@ function applyCocounselTranslations(lang) {
     console.log(`Applied ${count} cocounsel translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyCocounselTranslations(lang), 200);
 });

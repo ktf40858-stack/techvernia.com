@@ -1139,7 +1139,7 @@ function applyArtomatixTranslations(lang) {
   console.log(`✅ Applied ${count} artomatix translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyArtomatixTranslations(lang), 200);
 });

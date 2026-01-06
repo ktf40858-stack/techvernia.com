@@ -879,7 +879,7 @@ function applyCopyaiTranslations(lang) {
   console.log(`✅ Applied ${count} copyai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyCopyaiTranslations(lang), 200);
 });

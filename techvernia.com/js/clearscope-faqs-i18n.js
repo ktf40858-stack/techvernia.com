@@ -167,7 +167,7 @@ function applyClearscopeFaqTranslations(lang) {
   console.log(`Applied ${count} clearscope FAQ translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyClearscopeFaqTranslations(lang), 200);
 });

@@ -899,7 +899,7 @@ function applyConsensusTranslations(lang) {
   console.log(`✅ Applied ${count} consensus translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyConsensusTranslations(lang), 200);
 });

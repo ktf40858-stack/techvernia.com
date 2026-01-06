@@ -989,7 +989,7 @@ function applyDeeplproTranslations(lang) {
   console.log(`✅ Applied ${count} deepl-pro translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyDeeplproTranslations(lang), 200);
 });

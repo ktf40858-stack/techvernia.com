@@ -828,7 +828,7 @@ function applyLuminanceTranslations(lang) {
     console.log(`Applied ${count} luminance translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyLuminanceTranslations(lang), 200);
 });

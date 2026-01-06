@@ -1139,7 +1139,7 @@ function applyAmazonbraketTranslations(lang) {
   console.log(`✅ Applied ${count} amazon-braket translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyAmazonbraketTranslations(lang), 200);
 });

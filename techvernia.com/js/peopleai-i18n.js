@@ -855,7 +855,7 @@ function applyPeopleaiTranslations(lang) {
   console.log(`Applied ${count} peopleai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyPeopleaiTranslations(lang), 200);
 });

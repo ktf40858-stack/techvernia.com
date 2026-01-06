@@ -36,7 +36,7 @@ function applyTableauTranslations(lang) {
     console.log(`Applied ${count} tableau translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyTableauTranslations(lang), 200);
 });

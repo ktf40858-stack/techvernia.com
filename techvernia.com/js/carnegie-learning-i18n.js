@@ -892,7 +892,7 @@ function applyCarnegieLearningTranslations(lang) {
   console.log(`Applied ${count} carnegie-learning translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyCarnegieLearningTranslations(lang), 200);
 });

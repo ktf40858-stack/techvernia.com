@@ -859,7 +859,7 @@ function applyCopilotTranslations(lang) {
   console.log(`✅ Applied ${count} copilot translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyCopilotTranslations(lang), 200);
 });

@@ -36,7 +36,7 @@ function applyPrtgTranslations(lang) {
     console.log(`Applied ${count} prtg translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyPrtgTranslations(lang), 200);
 });

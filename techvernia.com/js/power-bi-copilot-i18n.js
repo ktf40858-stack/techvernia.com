@@ -908,7 +908,7 @@ function applyPowerbicopilotTranslations(lang) {
     console.log(`Applied ${count} power-bi-copilot translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyPowerbicopilotTranslations(lang), 200);
 });

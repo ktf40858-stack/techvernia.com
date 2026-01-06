@@ -989,7 +989,7 @@ function applyLiltTranslations(lang) {
   console.log(`✅ Applied ${count} lilt translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyLiltTranslations(lang), 200);
 });

@@ -3392,7 +3392,7 @@ function applyStableDiffusionTranslations(lang) {
 }
 
 // Auto-appliquer quand la langue change
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyStableDiffusionTranslations(lang), 200);
 });

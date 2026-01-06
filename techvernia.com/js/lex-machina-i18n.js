@@ -828,7 +828,7 @@ function applyLexmachinaTranslations(lang) {
     console.log(`Applied ${count} lex-machina translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyLexmachinaTranslations(lang), 200);
 });

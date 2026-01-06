@@ -1047,7 +1047,7 @@ function applyCodeiumTranslations(lang) {
     console.log(`✅ Applied ${count} codeium translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyCodeiumTranslations(lang), 200);
 });

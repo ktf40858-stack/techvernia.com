@@ -828,7 +828,7 @@ function applyRossintelligenceTranslations(lang) {
     console.log(`Applied ${count} ross-intelligence translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyRossintelligenceTranslations(lang), 200);
 });

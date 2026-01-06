@@ -36,7 +36,7 @@ function applyZabbixTranslations(lang) {
     console.log(`Applied ${count} zabbix translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyZabbixTranslations(lang), 200);
 });

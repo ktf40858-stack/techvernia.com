@@ -378,7 +378,7 @@ function init() {
 
     console.log('✅ COMPLETE TRANSLATE: Prêt');
 
-    window.addEventListener('languageChanged', (e) => {
+    document.addEventListener('languageChanged', (e) => {
         console.log('📡 Langue changée → ' + e.detail.language);
         setTimeout(() => translateAll(e.detail.language), 150);
     });

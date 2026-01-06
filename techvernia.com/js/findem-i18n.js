@@ -1270,7 +1270,7 @@ function applyFindemTranslations(lang) {
   console.log(`✅ Applied ${count} findem translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyFindemTranslations(lang), 200);
 });

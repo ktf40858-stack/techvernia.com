@@ -496,7 +496,7 @@ function applyH2oaiTranslations(lang) {
     console.log(`Applied ${count} h2oai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyH2oaiTranslations(lang), 200);
 });

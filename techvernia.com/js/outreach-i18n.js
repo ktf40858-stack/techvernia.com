@@ -855,7 +855,7 @@ function applyOutreachTranslations(lang) {
   console.log(`Applied ${count} outreach translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyOutreachTranslations(lang), 200);
 });

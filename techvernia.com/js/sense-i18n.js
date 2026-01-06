@@ -1270,7 +1270,7 @@ function applySenseTranslations(lang) {
   console.log(`✅ Applied ${count} sense translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applySenseTranslations(lang), 200);
 });

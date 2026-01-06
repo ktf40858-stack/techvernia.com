@@ -989,7 +989,7 @@ function applyLokaliseTranslations(lang) {
   console.log(`✅ Applied ${count} lokalise translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyLokaliseTranslations(lang), 200);
 });

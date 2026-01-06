@@ -36,7 +36,7 @@ function applyAnsibleTranslations(lang) {
     console.log(`Applied ${count} ansible translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyAnsibleTranslations(lang), 200);
 });

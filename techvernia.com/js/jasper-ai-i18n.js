@@ -749,7 +749,7 @@ function applyJasperaiTranslations(lang) {
   console.log(`✅ Applied ${count} jasper-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyJasperaiTranslations(lang), 200);
 });

@@ -977,7 +977,7 @@ function applyPictoryTranslations(lang) {
     console.log(`✅ Applied ${count} pictory translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     setTimeout(() => applyPictoryTranslations(e.detail.language), 200);
 });
 

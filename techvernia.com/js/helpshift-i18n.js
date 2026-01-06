@@ -108,7 +108,7 @@ function applyHelpshiftTranslations(lang) {
   console.log(`✅ Applied ${count} helpshift translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyHelpshiftTranslations(lang), 200);
 });

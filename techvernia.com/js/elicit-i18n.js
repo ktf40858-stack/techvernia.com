@@ -899,7 +899,7 @@ function applyElicitTranslations(lang) {
   console.log(`✅ Applied ${count} elicit translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyElicitTranslations(lang), 200);
 });

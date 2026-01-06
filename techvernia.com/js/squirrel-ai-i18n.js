@@ -892,7 +892,7 @@ function applySquirrelAiTranslations(lang) {
   console.log(`Applied ${count} squirrel-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applySquirrelAiTranslations(lang), 200);
 });

@@ -1270,7 +1270,7 @@ function applyHarverTranslations(lang) {
   console.log(`✅ Applied ${count} harver translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyHarverTranslations(lang), 200);
 });

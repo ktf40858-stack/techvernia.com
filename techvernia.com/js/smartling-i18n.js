@@ -989,7 +989,7 @@ function applySmartlingTranslations(lang) {
   console.log(`✅ Applied ${count} smartling translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applySmartlingTranslations(lang), 200);
 });

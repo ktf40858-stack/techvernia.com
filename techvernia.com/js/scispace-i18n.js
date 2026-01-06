@@ -899,7 +899,7 @@ function applyScispaceTranslations(lang) {
   console.log(`✅ Applied ${count} scispace translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyScispaceTranslations(lang), 200);
 });

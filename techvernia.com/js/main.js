@@ -477,7 +477,8 @@ class LanguageSelector {
         this.langOptions = document.querySelectorAll('.lang-option');
         this.langCurrent = document.querySelector('.lang-current');
         this.isOpen = false;
-        this.currentLang = localStorage.getItem('selectedLanguage') || 'en';
+        // Read from 'language' to match i18n.js
+        this.currentLang = localStorage.getItem('language') || sessionStorage.getItem('language') || 'en';
 
         console.log('🔍 Elements found:', {
             selector: !!this.selector,
@@ -499,6 +500,10 @@ class LanguageSelector {
         console.log('⚙️ Setting up LanguageSelector event listeners');
         this.setupEventListeners();
         this.updateCurrentLanguage();
+
+        // Apply saved language on page load
+        this.applyCurrentLanguage();
+
         console.log('✅ LanguageSelector initialized successfully');
     }
 
@@ -556,7 +561,12 @@ class LanguageSelector {
     selectLanguage(lang) {
         console.log('🎯 Language selected:', lang);
         this.currentLang = lang;
-        localStorage.setItem('selectedLanguage', lang);
+
+        // Save to localStorage using the same key as i18n.js
+        localStorage.setItem('language', lang);
+
+        // Also save to sessionStorage for compatibility
+        sessionStorage.setItem('language', lang);
 
         // Update active state
         this.langOptions.forEach(option => {
@@ -566,7 +576,7 @@ class LanguageSelector {
         // Update current language display
         this.updateCurrentLanguage();
 
-        // Call i18n.setLanguage to actually translate the page
+        // Call i18n.setLanguage to translate the page and update all links
         if (window.i18n && window.i18n.setLanguage) {
             console.log('🌍 Calling window.i18n.setLanguage(' + lang + ')');
             window.i18n.setLanguage(lang);
@@ -606,6 +616,26 @@ class LanguageSelector {
         this.langOptions.forEach(option => {
             option.classList.toggle('active', option.getAttribute('data-lang') === this.currentLang);
         });
+    }
+
+    applyCurrentLanguage() {
+        console.log('🌍 Applying saved language on page load:', this.currentLang);
+
+        // Wait a bit to ensure all i18n scripts are loaded
+        setTimeout(() => {
+            // Dispatch event for i18n files to listen to
+            const event = new CustomEvent('languageChanged', {
+                detail: { language: this.currentLang }
+            });
+            document.dispatchEvent(event);
+
+            // Also try window.i18n if available
+            if (window.i18n && window.i18n.setLanguage) {
+                window.i18n.setLanguage(this.currentLang);
+            }
+
+            console.log('✅ Language applied:', this.currentLang);
+        }, 100);
     }
 }
 

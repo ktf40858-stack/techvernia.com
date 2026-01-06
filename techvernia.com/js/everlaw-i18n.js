@@ -828,7 +828,7 @@ function applyEverlawTranslations(lang) {
     console.log(`Applied ${count} everlaw translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyEverlawTranslations(lang), 200);
 });

@@ -108,7 +108,7 @@ function applyCertainlyTranslations(lang) {
   console.log(`✅ Applied ${count} certainly translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyCertainlyTranslations(lang), 200);
 });

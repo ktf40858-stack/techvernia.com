@@ -1139,7 +1139,7 @@ function applyCharismaaiTranslations(lang) {
   console.log(`✅ Applied ${count} charismaai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyCharismaaiTranslations(lang), 200);
 });

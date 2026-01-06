@@ -1139,7 +1139,7 @@ function applyRigettiqcsTranslations(lang) {
   console.log(`✅ Applied ${count} rigetti-qcs translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyRigettiqcsTranslations(lang), 200);
 });

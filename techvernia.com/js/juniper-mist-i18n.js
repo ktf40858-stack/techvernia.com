@@ -36,7 +36,7 @@ function applyJuniperMistTranslations(lang) {
     console.log(`Applied ${count} juniper-mist translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyJuniperMistTranslations(lang), 200);
 });

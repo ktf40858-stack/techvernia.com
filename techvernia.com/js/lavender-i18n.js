@@ -855,7 +855,7 @@ function applyLavenderTranslations(lang) {
   console.log(`Applied ${count} lavender translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyLavenderTranslations(lang), 200);
 });

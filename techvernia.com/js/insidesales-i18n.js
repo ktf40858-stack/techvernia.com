@@ -855,7 +855,7 @@ function applyInsideSalesTranslations(lang) {
   console.log(`Applied ${count} insidesales translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyInsideSalesTranslations(lang), 200);
 });

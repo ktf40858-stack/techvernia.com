@@ -987,7 +987,7 @@ function applyLumen5Translations(lang) {
     console.log(`✅ Applied ${count} lumen5 translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     setTimeout(() => applyLumen5Translations(e.detail.language), 200);
 });
 

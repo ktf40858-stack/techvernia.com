@@ -1157,7 +1157,7 @@ function applyResembleAiTranslations(lang) {
     console.log(`✅ Applied ${count} resemble-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyResembleAiTranslations(lang), 200);
 });

@@ -1011,7 +1011,7 @@ function applyGithubCopilotTranslations(lang) {
     console.log(`✅ Applied ${count} github-copilot translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyGithubCopilotTranslations(lang), 200);
 });

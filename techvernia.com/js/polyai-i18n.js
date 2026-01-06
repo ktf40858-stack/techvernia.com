@@ -321,7 +321,7 @@ function applyPolyaiTranslations(lang) {
   console.log(`✅ Applied ${count} polyai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyPolyaiTranslations(lang), 200);
 });

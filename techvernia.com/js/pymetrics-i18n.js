@@ -1270,7 +1270,7 @@ function applyPymetricsTranslations(lang) {
   console.log(`✅ Applied ${count} pymetrics translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyPymetricsTranslations(lang), 200);
 });

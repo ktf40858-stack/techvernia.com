@@ -36,7 +36,7 @@ function applyDatadogTranslations(lang) {
     console.log(`Applied ${count} datadog translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyDatadogTranslations(lang), 200);
 });

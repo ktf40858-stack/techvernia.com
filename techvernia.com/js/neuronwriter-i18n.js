@@ -375,7 +375,7 @@ function applyNeuronwriterTranslations(lang) {
   console.log(`Applied ${count} neuronwriter translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyNeuronwriterTranslations(lang), 200);
 });

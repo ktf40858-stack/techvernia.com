@@ -887,7 +887,7 @@ function applyFirefliesAiTranslations(lang) {
     console.log('Applied ' + count + ' fireflies-ai translations');
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyFirefliesAiTranslations(lang), 200);
 });

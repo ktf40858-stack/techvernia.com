@@ -828,7 +828,7 @@ function applyCasetextTranslations(lang) {
     console.log(`Applied ${count} casetext translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyCasetextTranslations(lang), 200);
 });

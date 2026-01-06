@@ -33,7 +33,7 @@ function applyScalenutFaqTranslations(lang) {
     console.log(`Applied ${count} scalenut FAQ translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyScalenutFaqTranslations(lang), 200);
 });

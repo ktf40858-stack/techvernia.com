@@ -627,7 +627,7 @@ function init() {
     // Activer l'observer DOM
     observeDOM();
 
-    window.addEventListener('languageChanged', (e) => {
+    document.addEventListener('languageChanged', (e) => {
         currentLang = e.detail.language;
         console.log('📡 Langue changée → ' + currentLang);
         setTimeout(() => translateAll(currentLang), 100);

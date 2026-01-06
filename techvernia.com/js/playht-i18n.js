@@ -1167,7 +1167,7 @@ function applyPlayhtTranslations(lang) {
     console.log(`✅ Applied ${count} playht translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyPlayhtTranslations(lang), 200);
 });

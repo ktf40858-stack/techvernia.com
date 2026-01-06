@@ -1196,7 +1196,7 @@ function applyInvideoTranslations(lang) {
     console.log(`✅ Applied ${count} invideo translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     setTimeout(() => applyInvideoTranslations(e.detail.language), 200);
 });
 

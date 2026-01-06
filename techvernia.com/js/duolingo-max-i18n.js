@@ -892,7 +892,7 @@ function applyDuolingoMaxTranslations(lang) {
   console.log(`Applied ${count} duolingo-max translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyDuolingoMaxTranslations(lang), 200);
 });

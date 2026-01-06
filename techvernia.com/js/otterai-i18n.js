@@ -817,7 +817,7 @@ function applyOtteraiTranslations(lang) {
     console.log('Applied ' + count + ' otterai translations');
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyOtteraiTranslations(lang), 200);
 });

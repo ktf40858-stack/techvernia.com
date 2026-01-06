@@ -897,7 +897,7 @@ function applyNotionAiTranslations(lang) {
     console.log('Applied ' + count + ' notion-ai translations');
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyNotionAiTranslations(lang), 200);
 });

@@ -343,7 +343,7 @@ function initAutoTranslate() {
     console.log(`🔧 Auto-translate initialisé avec langue: ${currentLang}`);
 
     // Écouter les changements de langue
-    window.addEventListener('languageChanged', (event) => {
+    document.addEventListener('languageChanged', (event) => {
         const newLang = event.detail.language;
         setTimeout(() => {
             translatePage(newLang);

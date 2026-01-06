@@ -1270,7 +1270,7 @@ function applyHirevueTranslations(lang) {
   console.log(`✅ Applied ${count} hirevue translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyHirevueTranslations(lang), 200);
 });

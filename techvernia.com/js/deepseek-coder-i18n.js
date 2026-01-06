@@ -1377,7 +1377,7 @@ function applyDeepSeekCoderTranslations(lang) {
     console.log(`✅ Applied ${count} deepseek-coder translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyDeepSeekCoderTranslations(lang), 200);
 });

@@ -1139,7 +1139,7 @@ function applyLudoaiTranslations(lang) {
   console.log(`✅ Applied ${count} ludoai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyLudoaiTranslations(lang), 200);
 });

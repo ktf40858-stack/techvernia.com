@@ -33,7 +33,7 @@ function applySurferseoFaqTranslations(lang) {
     console.log(`Applied ${count} surfer-seo FAQ translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applySurferseoFaqTranslations(lang), 200);
 });

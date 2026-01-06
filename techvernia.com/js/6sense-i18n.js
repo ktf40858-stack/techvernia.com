@@ -855,7 +855,7 @@ function apply6senseTranslations(lang) {
   console.log(`Applied ${count} 6sense translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => apply6senseTranslations(lang), 200);
 });

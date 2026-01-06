@@ -892,7 +892,7 @@ function applyCogniiTranslations(lang) {
   console.log(`Applied ${count} cognii translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyCogniiTranslations(lang), 200);
 });

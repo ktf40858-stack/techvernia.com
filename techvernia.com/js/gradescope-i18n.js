@@ -892,7 +892,7 @@ function applyGradescopeTranslations(lang) {
   console.log(`Applied ${count} gradescope translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyGradescopeTranslations(lang), 200);
 });

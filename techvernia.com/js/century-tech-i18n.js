@@ -892,7 +892,7 @@ function applyCenturyTechTranslations(lang) {
   console.log(`Applied ${count} century-tech translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyCenturyTechTranslations(lang), 200);
 });

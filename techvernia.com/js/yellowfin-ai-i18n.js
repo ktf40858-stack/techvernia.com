@@ -702,7 +702,7 @@ function applyYellowfinaiTranslations(lang) {
     console.log(`Applied ${count} yellowfin-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyYellowfinaiTranslations(lang), 200);
 });

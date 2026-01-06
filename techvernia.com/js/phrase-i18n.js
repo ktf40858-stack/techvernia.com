@@ -989,7 +989,7 @@ function applyPhraseTranslations(lang) {
   console.log(`✅ Applied ${count} phrase translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyPhraseTranslations(lang), 200);
 });

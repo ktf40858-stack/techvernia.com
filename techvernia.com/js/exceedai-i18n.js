@@ -855,7 +855,7 @@ function applyExceedaiTranslations(lang) {
   console.log(`Applied ${count} exceedai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyExceedaiTranslations(lang), 200);
 });

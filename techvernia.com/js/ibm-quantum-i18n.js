@@ -1139,7 +1139,7 @@ function applyIbmquantumTranslations(lang) {
   console.log(`✅ Applied ${count} ibm-quantum translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyIbmquantumTranslations(lang), 200);
 });

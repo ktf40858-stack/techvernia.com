@@ -855,7 +855,7 @@ function applyRegieaiTranslations(lang) {
   console.log(`Applied ${count} regieai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyRegieaiTranslations(lang), 200);
 });

@@ -1539,7 +1539,7 @@ function applyDeepseekTranslations(lang) {
   console.log(`✅ Applied ${count} deepseek translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyDeepseekTranslations(lang), 200);
 });

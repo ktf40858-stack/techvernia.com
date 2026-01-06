@@ -879,7 +879,7 @@ function applyWritesonicTranslations(lang) {
   console.log(`✅ Applied ${count} writesonic translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyWritesonicTranslations(lang), 200);
 });

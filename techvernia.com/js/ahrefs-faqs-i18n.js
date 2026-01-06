@@ -151,7 +151,7 @@ function applyAhrefsFaqTranslations(lang) {
     console.log(`✅ Applied ${count} ahrefs FAQ translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyAhrefsFaqTranslations(lang), 200);
 });

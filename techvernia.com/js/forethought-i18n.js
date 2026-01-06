@@ -828,7 +828,7 @@ function applyForethoughtTranslations(lang) {
   console.log(`✅ Applied ${count} forethought translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyForethoughtTranslations(lang), 200);
 });

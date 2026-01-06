@@ -819,7 +819,7 @@ function applyQuillbotTranslations(lang) {
   console.log(`✅ Applied ${count} quillbot translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyQuillbotTranslations(lang), 200);
 });

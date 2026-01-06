@@ -1139,7 +1139,7 @@ function applyRctaiTranslations(lang) {
   console.log(`✅ Applied ${count} rct-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyRctaiTranslations(lang), 200);
 });

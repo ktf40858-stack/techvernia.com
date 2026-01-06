@@ -478,7 +478,7 @@ function applyMicrostrategyaiTranslations(lang) {
     console.log(`Applied ${count} microstrategy-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyMicrostrategyaiTranslations(lang), 200);
 });

@@ -1270,7 +1270,7 @@ function applyTextioTranslations(lang) {
   console.log(`✅ Applied ${count} textio translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyTextioTranslations(lang), 200);
 });

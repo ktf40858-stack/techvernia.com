@@ -855,7 +855,7 @@ function applyGongTranslations(lang) {
   console.log(`Applied ${count} gong translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyGongTranslations(lang), 200);
 });

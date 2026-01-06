@@ -899,7 +899,7 @@ function applySciteTranslations(lang) {
   console.log(`✅ Applied ${count} scite translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applySciteTranslations(lang), 200);
 });

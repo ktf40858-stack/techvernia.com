@@ -1157,7 +1157,7 @@ function applySunoAiTranslations(lang) {
     console.log(`✅ Applied ${count} suno-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applySunoAiTranslations(lang), 200);
 });

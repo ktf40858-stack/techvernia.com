@@ -544,7 +544,7 @@ function applyScalenuTranslations(lang) {
     console.log(`Applied ${count} scalenut translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyScalenuTranslations(lang), 200);
 });

@@ -957,7 +957,7 @@ function applyKlingAITranslations(lang) {
     console.log(`✅ Applied ${count} kling-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     setTimeout(() => applyKlingAITranslations(e.detail.language), 200);
 });
 

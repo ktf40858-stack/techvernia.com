@@ -133,7 +133,7 @@ function initSimpleTranslate() {
     console.log('✅ i18n détecté');
 
     // Écouter les changements de langue
-    window.addEventListener('languageChanged', function(event) {
+    document.addEventListener('languageChanged', function(event) {
         const newLang = event.detail.language;
         console.log('📡 SIMPLE TRANSLATE: Changement détecté vers ' + newLang);
         setTimeout(function() {

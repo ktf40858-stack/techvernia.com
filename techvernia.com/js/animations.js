@@ -489,7 +489,7 @@ function initAnimations() {
     }
 
     // Listen for language changes
-    window.addEventListener('languageChanged', (e) => {
+    document.addEventListener('languageChanged', (e) => {
         if (window.typingEffect) {
             const words = window.i18n?.typingWords[e.detail.language] || window.i18n?.typingWords.en;
             window.typingEffect.words = words;

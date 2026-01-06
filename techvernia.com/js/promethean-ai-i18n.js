@@ -1139,7 +1139,7 @@ function applyPrometheanaiTranslations(lang) {
   console.log(`✅ Applied ${count} promethean-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyPrometheanaiTranslations(lang), 200);
 });

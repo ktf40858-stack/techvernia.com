@@ -828,7 +828,7 @@ function applyFreshdeskAiTranslations(lang) {
   console.log(`✅ Applied ${count} freshdesk-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyFreshdeskAiTranslations(lang), 200);
 });

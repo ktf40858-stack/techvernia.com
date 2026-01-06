@@ -1270,7 +1270,7 @@ function applySeekoutTranslations(lang) {
   console.log(`✅ Applied ${count} seekout translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applySeekoutTranslations(lang), 200);
 });

@@ -1139,7 +1139,7 @@ function applyHiddendoorTranslations(lang) {
   console.log(`✅ Applied ${count} hidden-door translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyHiddendoorTranslations(lang), 200);
 });

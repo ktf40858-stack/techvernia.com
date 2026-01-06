@@ -1312,7 +1312,7 @@ function applyCursorTranslations(lang) {
     console.log(`✅ Applied ${count} cursor translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyCursorTranslations(lang), 200);
 });

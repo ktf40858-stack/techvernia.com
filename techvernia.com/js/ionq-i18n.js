@@ -1139,7 +1139,7 @@ function applyIonqTranslations(lang) {
   console.log(`✅ Applied ${count} ionq translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyIonqTranslations(lang), 200);
 });

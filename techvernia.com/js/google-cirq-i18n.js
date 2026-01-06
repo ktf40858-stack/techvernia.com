@@ -1139,7 +1139,7 @@ function applyGooglecirqTranslations(lang) {
   console.log(`✅ Applied ${count} google-cirq translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyGooglecirqTranslations(lang), 200);
 });

@@ -855,7 +855,7 @@ function applyAttentionTranslations(lang) {
   console.log(`Applied ${count} attention translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyAttentionTranslations(lang), 200);
 });

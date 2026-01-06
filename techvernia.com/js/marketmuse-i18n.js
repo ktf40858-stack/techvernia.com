@@ -379,7 +379,7 @@ function applyMarketMuseTranslations(lang) {
   console.log(`Applied ${count} marketmuse translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyMarketMuseTranslations(lang), 200);
 });

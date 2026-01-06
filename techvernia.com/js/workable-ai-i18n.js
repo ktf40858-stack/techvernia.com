@@ -1270,7 +1270,7 @@ function applyWorkableaiTranslations(lang) {
   console.log(`✅ Applied ${count} workable-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyWorkableaiTranslations(lang), 200);
 });

@@ -36,7 +36,7 @@ function applyLookerTranslations(lang) {
     console.log(`Applied ${count} looker translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyLookerTranslations(lang), 200);
 });

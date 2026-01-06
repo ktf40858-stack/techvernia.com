@@ -989,7 +989,7 @@ function applyGoogletranslateaiTranslations(lang) {
   console.log(`✅ Applied ${count} google-translate-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyGoogletranslateaiTranslations(lang), 200);
 });

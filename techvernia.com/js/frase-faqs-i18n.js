@@ -167,7 +167,7 @@ function applyFraseFaqTranslations(lang) {
   console.log(`Applied ${count} frase FAQ translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyFraseFaqTranslations(lang), 200);
 });

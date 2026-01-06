@@ -822,7 +822,7 @@ function applyQliksenseaiTranslations(lang) {
     console.log(`Applied ${count} qlik-sense-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyQliksenseaiTranslations(lang), 200);
 });

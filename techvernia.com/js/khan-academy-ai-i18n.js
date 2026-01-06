@@ -892,7 +892,7 @@ function applyKhanAcademyAiTranslations(lang) {
   console.log(`Applied ${count} khan-academy-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyKhanAcademyAiTranslations(lang), 200);
 });

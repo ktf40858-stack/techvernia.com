@@ -889,7 +889,7 @@ function applyPoeTranslations(lang) {
   console.log(`✅ Applied ${count} poe translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyPoeTranslations(lang), 200);
 });

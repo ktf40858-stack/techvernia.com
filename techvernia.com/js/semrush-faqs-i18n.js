@@ -151,7 +151,7 @@ function applySemrushFaqTranslations(lang) {
     console.log(`✅ Applied ${count} semrush FAQ translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applySemrushFaqTranslations(lang), 200);
 });

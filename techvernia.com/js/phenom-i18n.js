@@ -1270,7 +1270,7 @@ function applyPhenomTranslations(lang) {
   console.log(`✅ Applied ${count} phenom translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyPhenomTranslations(lang), 200);
 });

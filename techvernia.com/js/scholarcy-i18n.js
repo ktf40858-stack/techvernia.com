@@ -899,7 +899,7 @@ function applyScholarcyTranslations(lang) {
   console.log(`✅ Applied ${count} scholarcy translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyScholarcyTranslations(lang), 200);
 });

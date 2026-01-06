@@ -855,7 +855,7 @@ function applyConversicaTranslations(lang) {
   console.log(`Applied ${count} conversica translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyConversicaTranslations(lang), 200);
 });

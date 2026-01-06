@@ -828,7 +828,7 @@ function applyRavellawTranslations(lang) {
     console.log(`Applied ${count} ravel-law translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyRavellawTranslations(lang), 200);
 });

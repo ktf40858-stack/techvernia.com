@@ -869,7 +869,7 @@ function applyGrammarlyTranslations(lang) {
   console.log(`✅ Applied ${count} grammarly translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyGrammarlyTranslations(lang), 200);
 });

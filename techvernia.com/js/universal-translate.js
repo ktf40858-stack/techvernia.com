@@ -245,7 +245,7 @@
         console.log('🔧 Universal Translate: Initialisé');
 
         // Écouter les changements de langue
-        window.addEventListener('languageChanged', (e) => {
+        document.addEventListener('languageChanged', (e) => {
             const newLang = e.detail.language;
             console.log(`📡 Changement détecté: ${newLang}`);
 

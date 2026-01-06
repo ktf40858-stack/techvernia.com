@@ -957,7 +957,7 @@ function applyKapwingTranslations(lang) {
     console.log(`✅ Applied ${count} kapwing translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     setTimeout(() => applyKapwingTranslations(e.detail.language), 200);
 });
 

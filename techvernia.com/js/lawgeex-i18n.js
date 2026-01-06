@@ -828,7 +828,7 @@ function applyLawgeexTranslations(lang) {
     console.log(`Applied ${count} lawgeex translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyLawgeexTranslations(lang), 200);
 });

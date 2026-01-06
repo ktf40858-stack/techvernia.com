@@ -119,7 +119,7 @@ function applyTest_linksTranslations(lang) {
   console.log(`✅ Applied ${count} test_links translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyTest_linksTranslations(lang), 200);
 });

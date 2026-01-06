@@ -1199,7 +1199,7 @@ function applyClaudeTranslations(lang) {
   console.log(`✅ Applied ${count} claude translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyClaudeTranslations(lang), 200);
 });

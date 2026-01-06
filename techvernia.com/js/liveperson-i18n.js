@@ -838,7 +838,7 @@ function applyLivepersonTranslations(lang) {
   console.log(`✅ Applied ${count} liveperson translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyLivepersonTranslations(lang), 200);
 });

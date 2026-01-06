@@ -892,7 +892,7 @@ function applyQuizletAiTranslations(lang) {
   console.log(`Applied ${count} quizlet-ai translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyQuizletAiTranslations(lang), 200);
 });

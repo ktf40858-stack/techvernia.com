@@ -1609,7 +1609,7 @@ function applyReplitTranslations(lang) {
     console.log(`✅ Applied ${count} replit translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyReplitTranslations(lang), 200);
 });

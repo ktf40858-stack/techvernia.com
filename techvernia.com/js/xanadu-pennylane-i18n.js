@@ -1139,7 +1139,7 @@ function applyXanadupennylaneTranslations(lang) {
   console.log(`✅ Applied ${count} xanadu-pennylane translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyXanadupennylaneTranslations(lang), 200);
 });

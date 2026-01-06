@@ -1527,7 +1527,7 @@ function applyTabnineTranslations(lang) {
     console.log(`✅ Applied ${count} tabnine translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyTabnineTranslations(lang), 200);
 });

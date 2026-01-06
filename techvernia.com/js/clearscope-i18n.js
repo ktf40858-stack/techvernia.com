@@ -807,7 +807,7 @@ function applyClearscopeTranslations(lang) {
   console.log(`Applied ${count} clearscope translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyClearscopeTranslations(lang), 200);
 });

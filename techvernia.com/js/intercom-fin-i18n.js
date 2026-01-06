@@ -828,7 +828,7 @@ function applyIntercomFinTranslations(lang) {
   console.log(`✅ Applied ${count} intercom-fin translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyIntercomFinTranslations(lang), 200);
 });

@@ -828,7 +828,7 @@ function applyKirasystemsTranslations(lang) {
     console.log(`Applied ${count} kira-systems translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyKirasystemsTranslations(lang), 200);
 });

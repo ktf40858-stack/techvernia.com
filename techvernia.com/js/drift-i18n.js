@@ -109,7 +109,7 @@ function applyDriftTranslations(lang) {
   console.log(`✅ Applied ${count} drift translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyDriftTranslations(lang), 200);
 });

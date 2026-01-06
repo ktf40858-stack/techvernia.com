@@ -36,7 +36,7 @@ function applyTerraformTranslations(lang) {
     console.log(`Applied ${count} terraform translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyTerraformTranslations(lang), 200);
 });

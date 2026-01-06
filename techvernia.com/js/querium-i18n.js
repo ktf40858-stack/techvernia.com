@@ -892,7 +892,7 @@ function applyQueriumTranslations(lang) {
   console.log(`Applied ${count} querium translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
   const lang = e.detail.language;
   setTimeout(() => applyQueriumTranslations(lang), 200);
 });

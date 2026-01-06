@@ -33,7 +33,7 @@ function applyNeuronwriterFaqTranslations(lang) {
     console.log(`Applied ${count} neuronwriter FAQ translations`);
 }
 
-window.addEventListener('languageChanged', (e) => {
+document.addEventListener('languageChanged', (e) => {
     const lang = e.detail.language;
     setTimeout(() => applyNeuronwriterFaqTranslations(lang), 200);
 });
