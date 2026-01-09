@@ -1376,7 +1376,7 @@ function applyArticleTranslations(lang) {
     if (h3Elements[1]) h3Elements[1].textContent = t.heading7;
 
     // Update main paragraphs
-    if (paragraphs[0]) paragraphs[0].innerHTML = t.para1;
+    if (paragraphs[0]) paragraphs[0].textContent = t.para1;
     if (paragraphs[1]) paragraphs[1].textContent = t.para2;
     if (paragraphs[2]) paragraphs[2].textContent = t.para3;
     if (paragraphs[3]) paragraphs[3].textContent = t.para4;

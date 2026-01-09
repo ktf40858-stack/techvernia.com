@@ -39,12 +39,33 @@ test_translations.html
 # Backups supplémentaires
 *.backup
 *.bak
+*.old
+*.save
+
+# Fichiers de test et debug
+test-*.html
+TEST_*.html
+diagnostic-*.html
+verify_*.html
 
 # Scripts Python d'analyse
 analyze_content.py
+extract_tools.py
+
+# Fichiers de traduction/génération
+*batch*.json
+i18n_*.json
+i18n_keys_*.js
+
+# Fichiers de tracking
+*.csv
+affiliate_programs_tracker.csv
 
 # Fichiers de communication/marketing
 Communication/
 
 # Fichiers avec noms réservés Windows
 nul
+
+# Dossiers de backup
+backup_*/

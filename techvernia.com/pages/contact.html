@@ -148,6 +148,42 @@
             transform: translateY(-2px);
             box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
         }
+        .submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Form Status Messages */
+        .form-status {
+            padding: var(--space-md);
+            border-radius: var(--radius-md);
+            margin-top: var(--space-md);
+            font-weight: 500;
+            text-align: center;
+            animation: slideDown 0.3s ease-out;
+        }
+        .form-status-success {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            color: #22c55e;
+        }
+        .form-status-error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #ef4444;
+        }
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
         @media (max-width: 768px) {
             .contact-grid {
                 grid-template-columns: 1fr;
@@ -267,28 +303,41 @@
 
                 <div class="contact-form">
                     <h2 style="margin-bottom: var(--space-xl);">Send us a Message</h2>
-                    <form action="#" method="POST">
+                    <!--
+                        FormSpree Configuration:
+                        1. Allez sur https://formspree.io et créez un compte gratuit
+                        2. Créez un nouveau formulaire et copiez votre Form ID
+                        3. Remplacez "YOUR_FORM_ID" ci-dessous par votre vrai Form ID
+
+                        Alternative Netlify: Remplacez la balise form par:
+                        <form id="contact-form" name="contact" method="POST" data-netlify="true">
+                    -->
+                    <form id="contact-form" action="https://formspree.io/f/mdakqqdp" method="POST">
+                        <!-- Honeypot field for spam protection (hidden from users) -->
+                        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" maxlength="100" required>
                         </div>
 
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" maxlength="254" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                         </div>
 
                         <div class="form-group">
                             <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
+                            <input type="text" id="subject" name="subject" maxlength="200" required>
                         </div>
 
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
+                            <textarea id="message" name="message" maxlength="5000" rows="6" required></textarea>
                         </div>
 
                         <button type="submit" class="submit-btn">Send Message</button>
+                        <div id="form-status" style="margin-top: 1rem; display: none;"></div>
                     </form>
                 </div>
             </div>
@@ -337,6 +386,81 @@
     <script src="../js/animations.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/contact-i18n.js"></script>
+
+    <!-- Contact Form Handler -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contact-form');
+            const statusDiv = document.getElementById('form-status');
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const originalBtnText = submitBtn.textContent;
+
+            form.addEventListener('submit', async function(e) {
+                e.preventDefault();
+
+                // Check if FormSpree ID is configured
+                const formAction = form.getAttribute('action');
+                if (formAction.includes('YOUR_FORM_ID')) {
+                    showStatus('error', '⚠️ Configuration required: Please configure your FormSpree Form ID. See instructions in the HTML code.');
+                    return;
+                }
+
+                // Disable submit button
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Sending...';
+
+                // Get form data
+                const formData = new FormData(form);
+
+                try {
+                    // Send form via AJAX
+                    const response = await fetch(form.action, {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    });
+
+                    if (response.ok) {
+                        // Success
+                        showStatus('success', '✅ Message sent successfully! We will get back to you soon.');
+                        form.reset();
+                    } else {
+                        // Error from server
+                        const data = await response.json();
+                        if (data.errors) {
+                            const errors = data.errors.map(error => error.message).join(', ');
+                            showStatus('error', `❌ Error: ${errors}`);
+                        } else {
+                            showStatus('error', '❌ An error occurred. Please try again.');
+                        }
+                    }
+                } catch (error) {
+                    // Network error
+                    console.error('Form submission error:', error);
+                    showStatus('error', '❌ Connection error. Please check your internet connection and try again.');
+                } finally {
+                    // Re-enable submit button
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = originalBtnText;
+                }
+            });
+
+            function showStatus(type, message) {
+                statusDiv.textContent = message;
+                statusDiv.className = 'form-status form-status-' + type;
+                statusDiv.style.display = 'block';
+
+                // Auto-hide after 10 seconds
+                setTimeout(() => {
+                    statusDiv.style.display = 'none';
+                }, 10000);
+            }
+
+            console.log('✅ Contact form handler initialized');
+        });
+    </script>
 
     <!-- Verify scripts loaded -->
     <script>

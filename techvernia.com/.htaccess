@@ -1,0 +1,64 @@
+# ==============================================
+# TechVernia Security Headers Configuration
+# Apache / .htaccess
+# ==============================================
+
+<IfModule mod_headers.c>
+    # Content Security Policy (Improved - 'unsafe-inline' removed for scripts)
+    # Prevents XSS attacks by controlling which resources can be loaded
+    # NOTE: style-src still uses 'unsafe-inline' for SVG gradients and inline styles
+    # To fully remove 'unsafe-inline' from styles, move all inline styles to external CSS files
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;"
+
+    # X-Frame-Options
+    # Prevents clickjacking attacks by not allowing the site to be embedded in iframes
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    # X-Content-Type-Options
+    # Prevents MIME type sniffing
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Strict-Transport-Security (HSTS)
+    # Forces HTTPS connections (only enable if you have SSL/TLS)
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+    # X-XSS-Protection
+    # Enables browser XSS protection (legacy browsers)
+    Header always set X-XSS-Protection "1; mode=block"
+
+    # Referrer-Policy
+    # Controls how much referrer information is shared
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # Permissions-Policy
+    # Controls which browser features can be used
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=(), usb=(), accelerometer=(), gyroscope=(), magnetometer=()"
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Prevent access to sensitive files
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+# Protect configuration files
+<Files ~ "^.*\.(env|config|ini|log|sh|sql)$">
+    Require all denied
+</Files>
+
+# Block test, debug, and diagnostic files
+<FilesMatch "^(test-|TEST_|diagnostic-).*\.(html|js)$">
+    Require all denied
+</FilesMatch>
+
+# Block backup files
+<FilesMatch "\.(backup|bak|old|tmp|swp|save)$">
+    Require all denied
+</FilesMatch>
+
+# Block JSON data files (if they contain sensitive data)
+<FilesMatch "batch.*\.json$">
+    Require all denied
+</FilesMatch>

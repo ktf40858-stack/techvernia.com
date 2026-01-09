@@ -1,0 +1,44 @@
+# ==============================================
+# TechVernia Robots.txt
+# Security-focused configuration
+# ==============================================
+
+# Allow all robots to access main content
+User-agent: *
+Allow: /
+
+# Block access to test and debug files
+Disallow: /test-*.html
+Disallow: /diagnostic-*.html
+Disallow: /TEST_*.html
+Disallow: /*test-*.html
+Disallow: /*diagnostic-*.html
+Disallow: /*TEST_*.html
+
+# Block access to backup files
+Disallow: /*.backup
+Disallow: /*.bak
+Disallow: /*.old
+Disallow: /*.tmp
+
+# Block access to development files
+Disallow: /*.log
+Disallow: /*.sql
+Disallow: /*.env
+Disallow: /*.config
+Disallow: /*.ini
+
+# Block access to JSON data files (if they contain sensitive data)
+Disallow: /*batch*.json
+
+# Block access to development directories
+Disallow: /pages/reviews/*/test-*.html
+Disallow: /pages/categories/backup_*/
+
+# Allow CSS, JS, and images for proper rendering
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Sitemap location (create this file later)
+# Sitemap: https://techvernia.com/sitemap.xml
