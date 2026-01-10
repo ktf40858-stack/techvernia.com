@@ -786,7 +786,7 @@ function applySnykTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} snyk translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applySnykTranslations(e.detail.language), 200));

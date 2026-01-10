@@ -1046,7 +1046,7 @@ function applyNuanceDragonTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} nuance-dragon translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyNuanceDragonTranslations(e.detail.language), 200));

@@ -974,7 +974,7 @@ function getGoogletranslateaiTranslation(key, lang) {
 }
 
 function applyGoogletranslateaiTranslations(lang) {
-  console.log(`🔥 Applying google-translate-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -986,7 +986,7 @@ function applyGoogletranslateaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} google-translate-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1004,4 +1004,4 @@ if (document.readyState === 'loading') {
   applyGoogletranslateaiTranslations(currentLang);
 }
 
-console.log('✅ google-translate-ai i18n loaded');
+

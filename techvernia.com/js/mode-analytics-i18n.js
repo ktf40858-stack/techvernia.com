@@ -1006,7 +1006,7 @@ function applyModeAnalyticsTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} mode-analytics translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyModeAnalyticsTranslations(e.detail.language), 200));

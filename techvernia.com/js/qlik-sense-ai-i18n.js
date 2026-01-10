@@ -807,7 +807,7 @@ function getQliksenseaiTranslation(key, lang) {
 }
 
 function applyQliksenseaiTranslations(lang) {
-    console.log('Applying qlik-sense-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -819,7 +819,7 @@ function applyQliksenseaiTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} qlik-sense-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -837,4 +837,4 @@ if (document.readyState === 'loading') {
     applyQliksenseaiTranslations(currentLang);
 }
 
-console.log('qlik-sense-ai i18n loaded');
+

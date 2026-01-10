@@ -1270,7 +1270,7 @@ function getGlm47Translation(key, lang) {
 }
 
 function applyGlm47Translations(lang) {
-  console.log(`🔥 Applying glm-4-7 translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1282,7 +1282,7 @@ function applyGlm47Translations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} glm-4-7 translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1300,4 +1300,4 @@ if (document.readyState === 'loading') {
   applyGlm47Translations(currentLang);
 }
 
-console.log('✅ glm-4-7 i18n loaded');
+

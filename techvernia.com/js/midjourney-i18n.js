@@ -3382,7 +3382,7 @@ function getMidjourneyTranslation(key, lang) {
 
 // Appliquer les traductions midjourney
 function applyMidjourneyTranslations(lang) {
-    console.log('🔥 Applying midjourney translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -3398,7 +3398,7 @@ function applyMidjourneyTranslations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} midjourney translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -3418,4 +3418,4 @@ if (document.readyState === 'loading') {
     applyMidjourneyTranslations(currentLang);
 }
 
-console.log('✅ midjourney i18n loaded');
+

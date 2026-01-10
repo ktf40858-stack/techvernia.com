@@ -1124,7 +1124,7 @@ function getCharismaaiTranslation(key, lang) {
 }
 
 function applyCharismaaiTranslations(lang) {
-  console.log(`🔥 Applying charismaai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyCharismaaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} charismaai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyCharismaaiTranslations(currentLang);
 }
 
-console.log('✅ charismaai i18n loaded');
+

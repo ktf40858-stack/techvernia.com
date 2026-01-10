@@ -882,7 +882,7 @@ function getNotionAiTranslation(key, lang) {
 }
 
 function applyNotionAiTranslations(lang) {
-    console.log('Applying notion-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -894,7 +894,7 @@ function applyNotionAiTranslations(lang) {
             }
         }
     });
-    console.log('Applied ' + count + ' notion-ai translations');
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -912,4 +912,4 @@ if (document.readyState === 'loading') {
     applyNotionAiTranslations(currentLang);
 }
 
-console.log('notion-ai i18n loaded');
+

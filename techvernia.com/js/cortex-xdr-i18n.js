@@ -516,7 +516,7 @@ function applyCortexXdrTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} cortex-xdr translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyCortexXdrTranslations(e.detail.language), 200));

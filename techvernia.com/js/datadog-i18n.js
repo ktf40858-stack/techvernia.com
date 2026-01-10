@@ -21,7 +21,7 @@ function getDatadogTranslation(key, lang) {
 }
 
 function applyDatadogTranslations(lang) {
-    console.log('Applying datadog translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -33,7 +33,7 @@ function applyDatadogTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} datadog translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -51,4 +51,4 @@ if (document.readyState === 'loading') {
     applyDatadogTranslations(currentLang);
 }
 
-console.log('datadog i18n loaded');
+

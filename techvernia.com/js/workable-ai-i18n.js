@@ -1255,7 +1255,7 @@ function getWorkableaiTranslation(key, lang) {
 }
 
 function applyWorkableaiTranslations(lang) {
-  console.log(`🔥 Applying workable-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applyWorkableaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} workable-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applyWorkableaiTranslations(currentLang);
 }
 
-console.log('✅ workable-ai i18n loaded');
+

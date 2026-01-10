@@ -1,7 +1,7 @@
 // Comparisons Page - Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('[i18n] comparisons-i18n.js loaded');
+
 
 const comparisonsTranslations = {
     en: {
@@ -1563,5 +1563,5 @@ if (typeof module !== 'undefined' && module.exports) {
 // Make available globally for i18n system
 if (typeof window !== 'undefined') {
     window.comparisonsTranslations = comparisonsTranslations;
-    console.log('[i18n] comparisonsTranslations registered globally');
+    
 }

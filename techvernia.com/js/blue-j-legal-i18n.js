@@ -803,7 +803,7 @@ function getBluejlegalTranslation(key, lang) {
 }
 
 function applyBluejlegalTranslations(lang) {
-    console.log('Applying blue-j-legal translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -815,7 +815,7 @@ function applyBluejlegalTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} blue-j-legal translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -833,4 +833,4 @@ if (document.readyState === 'loading') {
     applyBluejlegalTranslations(currentLang);
 }
 
-console.log('blue-j-legal i18n loaded');
+

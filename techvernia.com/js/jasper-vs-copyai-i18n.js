@@ -1,7 +1,7 @@
 // Jasper Vs Copyai Article - Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('[i18n] jasper-vs-copyai-i18n.js loaded');
+
 
 const articleTranslations = {
     en: {
@@ -2209,24 +2209,24 @@ const articleTranslations = {
 // Fonction pour appliquer les traductions
 // Merge with global translations object
 if (typeof translations !== 'undefined') {
-    console.log('[i18n] Merging jasper-vs-copyai translations with global translations');
+    
     Object.keys(articleTranslations).forEach(lang => {
         if (!translations[lang]) {
             translations[lang] = {};
         }
         Object.assign(translations[lang], articleTranslations[lang]);
     });
-    console.log('[i18n] ✅ Merged successfully - translations object now has article-specific keys');
+    
 
     // Force re-translate the page with the new translations
     if (typeof translatePage === 'function' && typeof setLanguage === 'function') {
         const currentLang = localStorage.getItem('language') || 'en';
-        console.log('[i18n] 🔄 Re-translating page with merged translations for:', currentLang);
+        
         setTimeout(() => {
             setLanguage(currentLang);  // Set the language first
             translatePage();           // Then translate
         }, 100);
     }
 } else {
-    console.warn('[i18n] ⚠️ Global translations object not found - creating standalone');
+    
 }

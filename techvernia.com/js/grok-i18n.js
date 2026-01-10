@@ -1534,7 +1534,7 @@ function getGrokTranslation(key, lang) {
 }
 
 function applyGrokTranslations(lang) {
-  console.log(`🔥 Applying grok translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1546,7 +1546,7 @@ function applyGrokTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} grok translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1564,4 +1564,4 @@ if (document.readyState === 'loading') {
   applyGrokTranslations(currentLang);
 }
 
-console.log('✅ grok i18n loaded');
+

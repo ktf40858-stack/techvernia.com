@@ -840,7 +840,7 @@ function getRegieaiTranslation(key, lang) {
 }
 
 function applyRegieaiTranslations(lang) {
-  console.log(`Applying regieai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyRegieaiTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} regieai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyRegieaiTranslations(currentLang);
 }
 
-console.log('regieai i18n loaded');
+

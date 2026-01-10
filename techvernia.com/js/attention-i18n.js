@@ -840,7 +840,7 @@ function getAttentionTranslation(key, lang) {
 }
 
 function applyAttentionTranslations(lang) {
-  console.log(`Applying attention translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyAttentionTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} attention translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyAttentionTranslations(currentLang);
 }
 
-console.log('attention i18n loaded');
+

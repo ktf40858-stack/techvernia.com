@@ -792,7 +792,7 @@ function getClearscopeTranslation(key, lang) {
 }
 
 function applyClearscopeTranslations(lang) {
-  console.log('Applying clearscope translations for:', lang);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -804,7 +804,7 @@ function applyClearscopeTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} clearscope translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -822,4 +822,4 @@ if (document.readyState === 'loading') {
   applyClearscopeTranslations(currentLang);
 }
 
-console.log('clearscope i18n loaded');
+

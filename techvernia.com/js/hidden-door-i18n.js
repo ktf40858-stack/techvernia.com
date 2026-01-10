@@ -1124,7 +1124,7 @@ function getHiddendoorTranslation(key, lang) {
 }
 
 function applyHiddendoorTranslations(lang) {
-  console.log(`🔥 Applying hidden-door translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyHiddendoorTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} hidden-door translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyHiddendoorTranslations(currentLang);
 }
 
-console.log('✅ hidden-door i18n loaded');
+

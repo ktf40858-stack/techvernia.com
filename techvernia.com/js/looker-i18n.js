@@ -21,7 +21,7 @@ function getLookerTranslation(key, lang) {
 }
 
 function applyLookerTranslations(lang) {
-    console.log('Applying looker translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -33,7 +33,7 @@ function applyLookerTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} looker translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -51,4 +51,4 @@ if (document.readyState === 'loading') {
     applyLookerTranslations(currentLang);
 }
 
-console.log('looker i18n loaded');
+

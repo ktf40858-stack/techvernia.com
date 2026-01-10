@@ -4,7 +4,7 @@
  * Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
  */
 
-console.log('📦 github-copilot-vs-cursor-i18n.js loaded');
+
 
 const githubCopilotVsCursorTranslations = {
     en: {

@@ -840,7 +840,7 @@ function getLavenderTranslation(key, lang) {
 }
 
 function applyLavenderTranslations(lang) {
-  console.log(`Applying lavender translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyLavenderTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} lavender translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyLavenderTranslations(currentLang);
 }
 
-console.log('lavender i18n loaded');
+

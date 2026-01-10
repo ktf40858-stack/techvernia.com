@@ -361,7 +361,7 @@ function getUdioTranslation(key, lang) {
 }
 
 function applyUdioTranslations(lang) {
-    console.log('🔥 Applying udio translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -373,7 +373,7 @@ function applyUdioTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} udio translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -391,4 +391,4 @@ if (document.readyState === 'loading') {
     applyUdioTranslations(currentLang);
 }
 
-console.log('✅ udio i18n loaded');
+

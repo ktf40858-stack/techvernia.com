@@ -21,7 +21,7 @@ function getZabbixTranslation(key, lang) {
 }
 
 function applyZabbixTranslations(lang) {
-    console.log('Applying zabbix translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -33,7 +33,7 @@ function applyZabbixTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} zabbix translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -51,4 +51,4 @@ if (document.readyState === 'loading') {
     applyZabbixTranslations(currentLang);
 }
 
-console.log('zabbix i18n loaded');
+

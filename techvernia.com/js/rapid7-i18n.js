@@ -536,7 +536,7 @@ function applyRapid7Translations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} rapid7 translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyRapid7Translations(e.detail.language), 200));

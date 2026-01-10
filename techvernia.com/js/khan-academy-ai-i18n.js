@@ -877,7 +877,7 @@ function getKhanAcademyAiTranslation(key, lang) {
 }
 
 function applyKhanAcademyAiTranslations(lang) {
-  console.log(`Applying khan-academy-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applyKhanAcademyAiTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} khan-academy-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applyKhanAcademyAiTranslations(currentLang);
 }
 
-console.log('khan-academy-ai i18n loaded');
+

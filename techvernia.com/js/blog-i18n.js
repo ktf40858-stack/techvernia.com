@@ -1,7 +1,7 @@
 // Blog Page - Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('📦 blog-i18n.js loaded');
+
 
 const blogTranslations = {
     en: {
@@ -717,21 +717,21 @@ const blogTranslations = {
 
 // Initialize i18n for Blog page
 function initBlogI18n() {
-    console.log('🌍 Blog i18n initializing...');
+    
     const currentLang = localStorage.getItem('selectedLanguage') || 'en';
-    console.log('📍 Current language:', currentLang);
+    
     applyBlogTranslations(currentLang);
 
     // Listen for language changes
     document.addEventListener('languageChanged', (e) => {
-        console.log('🔄 Language changed to:', e.detail.language);
+        
         applyBlogTranslations(e.detail.language);
     });
-    console.log('✅ Blog i18n initialized successfully');
+    
 }
 
 function applyBlogTranslations(lang) {
-    console.log('🔧 Applying Blog page translations for language:', lang);
+    
     const t = blogTranslations[lang] || blogTranslations.en;
 
     // Update page title and meta
@@ -740,7 +740,7 @@ function applyBlogTranslations(lang) {
     const metaKeywords = document.querySelector('meta[name="keywords"]');
     if (metaDesc) metaDesc.content = t.metaDescription;
     if (metaKeywords) metaKeywords.content = t.metaKeywords;
-    console.log('📄 Page title updated:', t.pageTitle);
+    
 
     // Hero Section
     const heroTitle = document.querySelector('.page-title');
@@ -778,7 +778,7 @@ function applyBlogTranslations(lang) {
 
     // Blog Cards - Update Article Content
     const blogCards = document.querySelectorAll('.blog-page-grid .blog-card');
-    console.log(`📝 Found ${blogCards.length} blog cards to translate`);
+    
 
     // Array of article keys
     const articles = ['article1', 'article2', 'article3', 'article4', 'article5', 'article6', 'article7', 'article8', 'article9'];
@@ -839,7 +839,7 @@ function applyBlogTranslations(lang) {
     if (copyright) copyright.textContent = t.footerCopyright;
     if (affiliateNotice) affiliateNotice.textContent = t.footerAffiliateNotice;
 
-    console.log('✅ Blog page translations applied successfully');
+    
 }
 
 // Initialize on page load

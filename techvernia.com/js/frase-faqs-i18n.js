@@ -152,7 +152,7 @@ function getFraseFaqTranslation(key, lang) {
 }
 
 function applyFraseFaqTranslations(lang) {
-  console.log('Applying frase FAQ translations for:', lang);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -164,7 +164,7 @@ function applyFraseFaqTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} frase FAQ translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -182,4 +182,4 @@ if (document.readyState === 'loading') {
   applyFraseFaqTranslations(currentLang);
 }
 
-console.log('frase FAQ i18n loaded');
+

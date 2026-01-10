@@ -526,7 +526,7 @@ function applyCiscoSecurexTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} cisco-securex translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyCiscoSecurexTranslations(e.detail.language), 200));

@@ -813,7 +813,7 @@ function getCasetextTranslation(key, lang) {
 }
 
 function applyCasetextTranslations(lang) {
-    console.log('Applying casetext translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyCasetextTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} casetext translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyCasetextTranslations(currentLang);
 }
 
-console.log('casetext i18n loaded');
+

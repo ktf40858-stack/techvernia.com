@@ -1124,7 +1124,7 @@ function getLudoaiTranslation(key, lang) {
 }
 
 function applyLudoaiTranslations(lang) {
-  console.log(`🔥 Applying ludoai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyLudoaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} ludoai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyLudoaiTranslations(currentLang);
 }
 
-console.log('✅ ludoai i18n loaded');
+

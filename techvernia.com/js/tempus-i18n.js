@@ -1026,7 +1026,7 @@ function applyTempusTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} tempus translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyTempusTranslations(e.detail.language), 200));

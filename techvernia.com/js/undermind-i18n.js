@@ -884,7 +884,7 @@ function getUndermindTranslation(key, lang) {
 }
 
 function applyUndermindTranslations(lang) {
-  console.log(`🔥 Applying undermind translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -896,7 +896,7 @@ function applyUndermindTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} undermind translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -914,4 +914,4 @@ if (document.readyState === 'loading') {
   applyUndermindTranslations(currentLang);
 }
 
-console.log('✅ undermind i18n loaded');
+

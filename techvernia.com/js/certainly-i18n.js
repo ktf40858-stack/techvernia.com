@@ -93,7 +93,7 @@ function getCertainlyTranslation(key, lang) {
 }
 
 function applyCertainlyTranslations(lang) {
-  console.log(`🔥 Applying certainly translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -105,7 +105,7 @@ function applyCertainlyTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} certainly translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -123,4 +123,4 @@ if (document.readyState === 'loading') {
   applyCertainlyTranslations(currentLang);
 }
 
-console.log('✅ certainly i18n loaded');
+

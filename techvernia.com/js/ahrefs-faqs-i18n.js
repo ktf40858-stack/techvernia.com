@@ -136,7 +136,7 @@ function getAhrefsFaqTranslation(key, lang) {
 }
 
 function applyAhrefsFaqTranslations(lang) {
-    console.log('🔥 Applying ahrefs FAQ translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n^="review.ahrefs.faq"]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -148,7 +148,7 @@ function applyAhrefsFaqTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} ahrefs FAQ translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -166,4 +166,4 @@ if (document.readyState === 'loading') {
     applyAhrefsFaqTranslations(currentLang);
 }
 
-console.log('✅ ahrefs FAQs i18n loaded');
+

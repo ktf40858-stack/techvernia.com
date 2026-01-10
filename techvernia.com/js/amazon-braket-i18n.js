@@ -1124,7 +1124,7 @@ function getAmazonbraketTranslation(key, lang) {
 }
 
 function applyAmazonbraketTranslations(lang) {
-  console.log(`🔥 Applying amazon-braket translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyAmazonbraketTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} amazon-braket translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyAmazonbraketTranslations(currentLang);
 }
 
-console.log('✅ amazon-braket i18n loaded');
+

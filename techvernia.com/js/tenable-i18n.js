@@ -516,7 +516,7 @@ function applyTenableTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} tenable translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyTenableTranslations(e.detail.language), 200));

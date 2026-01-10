@@ -882,7 +882,7 @@ function getClickupAiTranslation(key, lang) {
 }
 
 function applyClickupAiTranslations(lang) {
-    console.log('Applying clickup-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -894,7 +894,7 @@ function applyClickupAiTranslations(lang) {
             }
         }
     });
-    console.log('Applied ' + count + ' clickup-ai translations');
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -912,4 +912,4 @@ if (document.readyState === 'loading') {
     applyClickupAiTranslations(currentLang);
 }
 
-console.log('clickup-ai i18n loaded');
+

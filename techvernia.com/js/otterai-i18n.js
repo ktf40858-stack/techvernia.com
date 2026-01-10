@@ -802,7 +802,7 @@ function getOtteraiTranslation(key, lang) {
 }
 
 function applyOtteraiTranslations(lang) {
-    console.log('Applying otterai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -814,7 +814,7 @@ function applyOtteraiTranslations(lang) {
             }
         }
     });
-    console.log('Applied ' + count + ' otterai translations');
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -832,4 +832,4 @@ if (document.readyState === 'loading') {
     applyOtteraiTranslations(currentLang);
 }
 
-console.log('otterai i18n loaded');
+

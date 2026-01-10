@@ -1136,7 +1136,7 @@ function getSpechifyTranslation(key, lang) {
 }
 
 function applySpechifyTranslations(lang) {
-    console.log('🔥 Applying speechify translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1148,7 +1148,7 @@ function applySpechifyTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} speechify translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1166,4 +1166,4 @@ if (document.readyState === 'loading') {
     applySpechifyTranslations(currentLang);
 }
 
-console.log('✅ speechify i18n loaded');
+

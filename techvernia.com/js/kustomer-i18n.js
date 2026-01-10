@@ -823,7 +823,7 @@ function getKustomerTranslation(key, lang) {
 }
 
 function applyKustomerTranslations(lang) {
-  console.log(`🔥 Applying kustomer translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -835,7 +835,7 @@ function applyKustomerTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} kustomer translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -853,4 +853,4 @@ if (document.readyState === 'loading') {
   applyKustomerTranslations(currentLang);
 }
 
-console.log('✅ kustomer i18n loaded');
+

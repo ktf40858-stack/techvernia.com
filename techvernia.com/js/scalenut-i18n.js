@@ -529,7 +529,7 @@ function getScalenuTranslation(key, lang) {
 }
 
 function applyScalenuTranslations(lang) {
-    console.log('Applying scalenut translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -541,7 +541,7 @@ function applyScalenuTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} scalenut translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -559,4 +559,4 @@ if (document.readyState === 'loading') {
     applyScalenuTranslations(currentLang);
 }
 
-console.log('scalenut i18n loaded');
+

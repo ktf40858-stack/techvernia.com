@@ -1124,7 +1124,7 @@ function getRctaiTranslation(key, lang) {
 }
 
 function applyRctaiTranslations(lang) {
-  console.log(`🔥 Applying rct-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyRctaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} rct-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyRctaiTranslations(currentLang);
 }
 
-console.log('✅ rct-ai i18n loaded');
+

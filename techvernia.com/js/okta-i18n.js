@@ -536,7 +536,7 @@ function applyOktaTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} okta translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyOktaTranslations(e.detail.language), 200));

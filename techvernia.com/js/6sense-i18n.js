@@ -840,7 +840,7 @@ function get6senseTranslation(key, lang) {
 }
 
 function apply6senseTranslations(lang) {
-  console.log(`Applying 6sense translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function apply6senseTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} 6sense translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   apply6senseTranslations(currentLang);
 }
 
-console.log('6sense i18n loaded');
+

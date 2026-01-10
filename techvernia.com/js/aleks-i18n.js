@@ -877,7 +877,7 @@ function getAleksTranslation(key, lang) {
 }
 
 function applyAleksTranslations(lang) {
-  console.log(`Applying aleks translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applyAleksTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} aleks translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applyAleksTranslations(currentLang);
 }
 
-console.log('aleks i18n loaded');
+

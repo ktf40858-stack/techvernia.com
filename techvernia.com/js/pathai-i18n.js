@@ -1016,7 +1016,7 @@ function applyPathaiTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} pathai translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyPathaiTranslations(e.detail.language), 200));

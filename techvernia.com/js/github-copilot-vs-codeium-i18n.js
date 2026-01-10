@@ -4,7 +4,7 @@
  * 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
  */
 
-console.log('📦 github-copilot-vs-codeium-i18n.js loaded');
+
 
 const githubCopilotVsCodeiumTranslations = {
     en: {

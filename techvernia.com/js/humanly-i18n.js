@@ -1255,7 +1255,7 @@ function getHumanlyTranslation(key, lang) {
 }
 
 function applyHumanlyTranslations(lang) {
-  console.log(`🔥 Applying humanly translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applyHumanlyTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} humanly translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applyHumanlyTranslations(currentLang);
 }
 
-console.log('✅ humanly i18n loaded');
+

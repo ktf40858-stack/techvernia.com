@@ -516,7 +516,7 @@ function applyCyberarkTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} cyberark translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyCyberarkTranslations(e.detail.language), 200));

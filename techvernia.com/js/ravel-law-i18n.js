@@ -813,7 +813,7 @@ function getRavellawTranslation(key, lang) {
 }
 
 function applyRavellawTranslations(lang) {
-    console.log('Applying ravel-law translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyRavellawTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} ravel-law translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyRavellawTranslations(currentLang);
 }
 
-console.log('ravel-law i18n loaded');
+

@@ -1456,7 +1456,7 @@ function applyMaketAiTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} maket-ai translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyMaketAiTranslations(e.detail.language), 200));

@@ -1512,7 +1512,7 @@ function getTabnineTranslation(key, lang) {
 }
 
 function applyTabnineTranslations(lang) {
-    console.log('🔥 Applying tabnine translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1524,7 +1524,7 @@ function applyTabnineTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} tabnine translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1542,4 +1542,4 @@ if (document.readyState === 'loading') {
     applyTabnineTranslations(currentLang);
 }
 
-console.log('✅ tabnine i18n loaded');
+

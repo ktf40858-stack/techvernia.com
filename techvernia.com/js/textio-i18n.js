@@ -1255,7 +1255,7 @@ function getTextioTranslation(key, lang) {
 }
 
 function applyTextioTranslations(lang) {
-  console.log(`🔥 Applying textio translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applyTextioTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} textio translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applyTextioTranslations(currentLang);
 }
 
-console.log('✅ textio i18n loaded');
+

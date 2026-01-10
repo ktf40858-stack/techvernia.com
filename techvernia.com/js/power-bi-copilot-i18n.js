@@ -893,7 +893,7 @@ function getPowerbicopilotTranslation(key, lang) {
 }
 
 function applyPowerbicopilotTranslations(lang) {
-    console.log('Applying power-bi-copilot translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -905,7 +905,7 @@ function applyPowerbicopilotTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} power-bi-copilot translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -923,4 +923,4 @@ if (document.readyState === 'loading') {
     applyPowerbicopilotTranslations(currentLang);
 }
 
-console.log('power-bi-copilot i18n loaded');
+

@@ -884,7 +884,7 @@ function getIrisaiTranslation(key, lang) {
 }
 
 function applyIrisaiTranslations(lang) {
-  console.log(`🔥 Applying irisai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -896,7 +896,7 @@ function applyIrisaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} irisai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -914,4 +914,4 @@ if (document.readyState === 'loading') {
   applyIrisaiTranslations(currentLang);
 }
 
-console.log('✅ irisai i18n loaded');
+

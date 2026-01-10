@@ -840,7 +840,7 @@ function getPeopleaiTranslation(key, lang) {
 }
 
 function applyPeopleaiTranslations(lang) {
-  console.log(`Applying peopleai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyPeopleaiTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} peopleai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyPeopleaiTranslations(currentLang);
 }
 
-console.log('peopleai i18n loaded');
+

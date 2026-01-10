@@ -974,7 +974,7 @@ function getLiltTranslation(key, lang) {
 }
 
 function applyLiltTranslations(lang) {
-  console.log(`🔥 Applying lilt translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -986,7 +986,7 @@ function applyLiltTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} lilt translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1004,4 +1004,4 @@ if (document.readyState === 'loading') {
   applyLiltTranslations(currentLang);
 }
 
-console.log('✅ lilt i18n loaded');
+

@@ -136,7 +136,7 @@ function getSemrushFaqTranslation(key, lang) {
 }
 
 function applySemrushFaqTranslations(lang) {
-    console.log('🔥 Applying semrush FAQ translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n^="review.semrush.faq"]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -148,7 +148,7 @@ function applySemrushFaqTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} semrush FAQ translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -166,4 +166,4 @@ if (document.readyState === 'loading') {
     applySemrushFaqTranslations(currentLang);
 }
 
-console.log('✅ semrush FAQs i18n loaded');
+

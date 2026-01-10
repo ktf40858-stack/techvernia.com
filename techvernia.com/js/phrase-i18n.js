@@ -974,7 +974,7 @@ function getPhraseTranslation(key, lang) {
 }
 
 function applyPhraseTranslations(lang) {
-  console.log(`🔥 Applying phrase translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -986,7 +986,7 @@ function applyPhraseTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} phrase translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1004,4 +1004,4 @@ if (document.readyState === 'loading') {
   applyPhraseTranslations(currentLang);
 }
 
-console.log('✅ phrase i18n loaded');
+

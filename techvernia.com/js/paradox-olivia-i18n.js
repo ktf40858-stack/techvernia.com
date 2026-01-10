@@ -1255,7 +1255,7 @@ function getParadoxoliviaTranslation(key, lang) {
 }
 
 function applyParadoxoliviaTranslations(lang) {
-  console.log(`🔥 Applying paradox-olivia translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applyParadoxoliviaTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} paradox-olivia translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applyParadoxoliviaTranslations(currentLang);
 }
 
-console.log('✅ paradox-olivia i18n loaded');
+

@@ -840,7 +840,7 @@ function getConversicaTranslation(key, lang) {
 }
 
 function applyConversicaTranslations(lang) {
-  console.log(`Applying conversica translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyConversicaTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} conversica translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyConversicaTranslations(currentLang);
 }
 
-console.log('conversica i18n loaded');
+

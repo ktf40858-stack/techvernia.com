@@ -481,7 +481,7 @@ function getH2oaiTranslation(key, lang) {
 }
 
 function applyH2oaiTranslations(lang) {
-    console.log('Applying h2oai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -493,7 +493,7 @@ function applyH2oaiTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} h2oai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -511,4 +511,4 @@ if (document.readyState === 'loading') {
     applyH2oaiTranslations(currentLang);
 }
 
-console.log('h2oai i18n loaded');
+

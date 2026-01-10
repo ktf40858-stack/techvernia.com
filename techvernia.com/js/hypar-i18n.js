@@ -1010,7 +1010,7 @@ function applyHyparTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} hypar translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyHyparTranslations(e.detail.language), 200));

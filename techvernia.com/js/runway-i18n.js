@@ -964,7 +964,7 @@ function getRunwayTranslation(key, lang) {
 
 // Appliquer les traductions runway
 function applyRunwayTranslations(lang) {
-    console.log('🔥 Applying runway translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -980,7 +980,7 @@ function applyRunwayTranslations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} runway translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -1000,4 +1000,4 @@ if (document.readyState === 'loading') {
     applyRunwayTranslations(currentLang);
 }
 
-console.log('✅ runway i18n loaded');
+

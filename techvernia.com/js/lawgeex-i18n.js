@@ -813,7 +813,7 @@ function getLawgeexTranslation(key, lang) {
 }
 
 function applyLawgeexTranslations(lang) {
-    console.log('Applying lawgeex translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyLawgeexTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} lawgeex translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyLawgeexTranslations(currentLang);
 }
 
-console.log('lawgeex i18n loaded');
+

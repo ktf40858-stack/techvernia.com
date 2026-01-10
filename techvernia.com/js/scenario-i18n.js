@@ -1124,7 +1124,7 @@ function getScenarioTranslation(key, lang) {
 }
 
 function applyScenarioTranslations(lang) {
-  console.log(`🔥 Applying scenario translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyScenarioTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} scenario translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyScenarioTranslations(currentLang);
 }
 
-console.log('✅ scenario i18n loaded');
+

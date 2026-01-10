@@ -536,7 +536,7 @@ function applySplunkSecurityTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} splunk-security translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applySplunkSecurityTranslations(e.detail.language), 200));

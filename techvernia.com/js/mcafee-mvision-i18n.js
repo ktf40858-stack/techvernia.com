@@ -776,7 +776,7 @@ function applyMcafeeMvisionTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} mcafee-mvision translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyMcafeeMvisionTranslations(e.detail.language), 200));

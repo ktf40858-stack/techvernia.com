@@ -94,7 +94,7 @@ function getDriftTranslation(key, lang) {
 }
 
 function applyDriftTranslations(lang) {
-  console.log(`🔥 Applying drift translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -106,7 +106,7 @@ function applyDriftTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} drift translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -124,4 +124,4 @@ if (document.readyState === 'loading') {
   applyDriftTranslations(currentLang);
 }
 
-console.log('✅ drift i18n loaded');
+

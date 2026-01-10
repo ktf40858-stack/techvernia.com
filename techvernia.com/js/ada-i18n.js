@@ -813,7 +813,7 @@ function getAdaTranslation(key, lang) {
 }
 
 function applyAdaTranslations(lang) {
-  console.log(`🔥 Applying ada translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyAdaTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} ada translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
   applyAdaTranslations(currentLang);
 }
 
-console.log('✅ ada i18n loaded');
+

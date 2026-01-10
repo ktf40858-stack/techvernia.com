@@ -1,7 +1,7 @@
 // AI Chatbots Category Page - Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('📦 ai-chatbots-i18n.js loaded');
+
 
 const chatbotsCategoryTranslations = {
     en: {
@@ -218,21 +218,21 @@ const chatbotsCategoryTranslations = {
 
 // Initialize i18n for AI Chatbots Category page
 function initChatbotsCategoryI18n() {
-    console.log('🌍 AI Chatbots Category i18n initializing...');
+    
     const currentLang = localStorage.getItem('selectedLanguage') || 'en';
-    console.log('📍 Current language:', currentLang);
+    
     applyChatbotsCategoryTranslations(currentLang);
 
     // Listen for language changes
     document.addEventListener('languageChanged', (e) => {
-        console.log('🔄 Language changed to:', e.detail.language);
+        
         applyChatbotsCategoryTranslations(e.detail.language);
     });
-    console.log('✅ AI Chatbots Category i18n initialized successfully');
+    
 }
 
 function applyChatbotsCategoryTranslations(lang) {
-    console.log('🔧 Applying AI Chatbots Category translations for language:', lang);
+    
     const t = chatbotsCategoryTranslations[lang] || chatbotsCategoryTranslations.en;
 
     // Update page title and meta
@@ -241,7 +241,7 @@ function applyChatbotsCategoryTranslations(lang) {
     const metaKeywords = document.querySelector('meta[name="keywords"]');
     if (metaDesc) metaDesc.content = t.metaDescription;
     if (metaKeywords) metaKeywords.content = t.metaKeywords;
-    console.log('📄 Page title updated:', t.pageTitle);
+    
 
     // Hero Section
     const heroTitle = document.querySelector('.category-hero h1');
@@ -292,7 +292,7 @@ function applyChatbotsCategoryTranslations(lang) {
     const copyright = document.querySelector('.copyright');
     if (copyright) copyright.textContent = t.footerCopyright;
 
-    console.log('✅ AI Chatbots Category translations applied successfully');
+    
 }
 
 // Initialize on page load

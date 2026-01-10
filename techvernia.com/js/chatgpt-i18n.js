@@ -1594,7 +1594,7 @@ function getChatgptTranslation(key, lang) {
 }
 
 function applyChatgptTranslations(lang) {
-  console.log(`🔥 Applying chatgpt translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1606,7 +1606,7 @@ function applyChatgptTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} chatgpt translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1624,4 +1624,4 @@ if (document.readyState === 'loading') {
   applyChatgptTranslations(currentLang);
 }
 
-console.log('✅ chatgpt i18n loaded');
+

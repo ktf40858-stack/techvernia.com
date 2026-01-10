@@ -974,7 +974,7 @@ function getDeeplproTranslation(key, lang) {
 }
 
 function applyDeeplproTranslations(lang) {
-  console.log(`🔥 Applying deepl-pro translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -986,7 +986,7 @@ function applyDeeplproTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} deepl-pro translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1004,4 +1004,4 @@ if (document.readyState === 'loading') {
   applyDeeplproTranslations(currentLang);
 }
 
-console.log('✅ deepl-pro i18n loaded');
+

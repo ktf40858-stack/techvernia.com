@@ -3372,7 +3372,7 @@ function getStableDiffusionTranslation(key, lang) {
 
 // Appliquer les traductions stable-diffusion
 function applyStableDiffusionTranslations(lang) {
-    console.log('🔥 Applying stable-diffusion translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -3388,7 +3388,7 @@ function applyStableDiffusionTranslations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} stable-diffusion translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -3408,4 +3408,4 @@ if (document.readyState === 'loading') {
     applyStableDiffusionTranslations(currentLang);
 }
 
-console.log('✅ stable-diffusion i18n loaded');
+

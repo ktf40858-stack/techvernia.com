@@ -1124,7 +1124,7 @@ function getDwaveleapTranslation(key, lang) {
 }
 
 function applyDwaveleapTranslations(lang) {
-  console.log(`🔥 Applying d-wave-leap translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyDwaveleapTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} d-wave-leap translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyDwaveleapTranslations(currentLang);
 }
 
-console.log('✅ d-wave-leap i18n loaded');
+

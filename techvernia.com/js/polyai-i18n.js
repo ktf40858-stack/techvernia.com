@@ -306,7 +306,7 @@ function getPolyaiTranslation(key, lang) {
 }
 
 function applyPolyaiTranslations(lang) {
-  console.log(`🔥 Applying polyai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -318,7 +318,7 @@ function applyPolyaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} polyai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -336,4 +336,4 @@ if (document.readyState === 'loading') {
   applyPolyaiTranslations(currentLang);
 }
 
-console.log('✅ polyai i18n loaded');
+

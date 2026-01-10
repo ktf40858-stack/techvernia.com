@@ -884,7 +884,7 @@ function getScholarcyTranslation(key, lang) {
 }
 
 function applyScholarcyTranslations(lang) {
-  console.log(`🔥 Applying scholarcy translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -896,7 +896,7 @@ function applyScholarcyTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} scholarcy translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -914,4 +914,4 @@ if (document.readyState === 'loading') {
   applyScholarcyTranslations(currentLang);
 }
 
-console.log('✅ scholarcy i18n loaded');
+

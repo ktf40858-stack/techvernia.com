@@ -840,7 +840,7 @@ function getChorusaiTranslation(key, lang) {
 }
 
 function applyChorusaiTranslations(lang) {
-  console.log(`Applying chorusai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyChorusaiTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} chorusai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyChorusaiTranslations(currentLang);
 }
 
-console.log('chorusai i18n loaded');
+

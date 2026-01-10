@@ -813,7 +813,7 @@ function getUltimateaiTranslation(key, lang) {
 }
 
 function applyUltimateaiTranslations(lang) {
-  console.log(`🔥 Applying ultimateai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyUltimateaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} ultimateai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
   applyUltimateaiTranslations(currentLang);
 }
 
-console.log('✅ ultimateai i18n loaded');
+

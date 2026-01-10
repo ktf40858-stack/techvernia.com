@@ -776,7 +776,7 @@ function applySymantecEndpointTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} symantec-endpoint translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applySymantecEndpointTranslations(e.detail.language), 200));

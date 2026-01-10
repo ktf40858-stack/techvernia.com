@@ -877,7 +877,7 @@ function getThinksterMathTranslation(key, lang) {
 }
 
 function applyThinksterMathTranslations(lang) {
-  console.log(`Applying thinkster-math translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applyThinksterMathTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} thinkster-math translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applyThinksterMathTranslations(currentLang);
 }
 
-console.log('thinkster-math i18n loaded');
+

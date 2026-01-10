@@ -2282,7 +2282,7 @@ function getCanvaAiTranslation(key, lang) {
 
 // Appliquer les traductions canva-ai
 function applyCanvaAiTranslations(lang) {
-    console.log('🔥 Applying canva-ai translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -2298,7 +2298,7 @@ function applyCanvaAiTranslations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} canva-ai translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -2318,4 +2318,4 @@ if (document.readyState === 'loading') {
     applyCanvaAiTranslations(currentLang);
 }
 
-console.log('✅ canva-ai i18n loaded');
+

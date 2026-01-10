@@ -906,7 +906,7 @@ function applyZerofoxTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} zerofox translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyZerofoxTranslations(e.detail.language), 200));

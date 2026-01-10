@@ -874,7 +874,7 @@ function getGeminiTranslation(key, lang) {
 }
 
 function applyGeminiTranslations(lang) {
-  console.log(`🔥 Applying gemini translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -886,7 +886,7 @@ function applyGeminiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} gemini translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -904,4 +904,4 @@ if (document.readyState === 'loading') {
   applyGeminiTranslations(currentLang);
 }
 
-console.log('✅ gemini i18n loaded');
+

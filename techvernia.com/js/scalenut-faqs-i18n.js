@@ -18,7 +18,7 @@ function getScalenutFaqTranslation(key, lang) {
 }
 
 function applyScalenutFaqTranslations(lang) {
-    console.log('Applying scalenut FAQ translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -30,7 +30,7 @@ function applyScalenutFaqTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} scalenut FAQ translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -48,4 +48,4 @@ if (document.readyState === 'loading') {
     applyScalenutFaqTranslations(currentLang);
 }
 
-console.log('scalenut FAQ i18n loaded');
+

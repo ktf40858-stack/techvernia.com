@@ -385,7 +385,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initParallax();
     initMouseTrail();
 
-    console.log('🚀 Enhanced hero section initialized!');
+    
 });
 
 // Handle window resize

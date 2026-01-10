@@ -1,7 +1,7 @@
 // ChatGPT Code Interpreter Guide - Complete Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('[i18n] chatgpt-code-interpreter-guide-i18n.js loaded');
+
 
 const articleTranslations = {
     en: {
@@ -562,5 +562,5 @@ if (typeof translations !== 'undefined') {
         if (!translations[lang]) translations[lang] = {};
         Object.assign(translations[lang], articleTranslations[lang]);
     });
-    console.log('✅ Article translations merged into global translations');
+    
 }

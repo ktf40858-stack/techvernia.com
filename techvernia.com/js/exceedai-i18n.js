@@ -840,7 +840,7 @@ function getExceedaiTranslation(key, lang) {
 }
 
 function applyExceedaiTranslations(lang) {
-  console.log(`Applying exceedai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyExceedaiTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} exceedai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyExceedaiTranslations(currentLang);
 }
 
-console.log('exceedai i18n loaded');
+

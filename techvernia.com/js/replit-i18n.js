@@ -1594,7 +1594,7 @@ function getReplitTranslation(key, lang) {
 }
 
 function applyReplitTranslations(lang) {
-    console.log('🔥 Applying replit translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1606,7 +1606,7 @@ function applyReplitTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} replit translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1624,4 +1624,4 @@ if (document.readyState === 'loading') {
     applyReplitTranslations(currentLang);
 }
 
-console.log('✅ replit i18n loaded');
+

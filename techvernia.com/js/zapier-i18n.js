@@ -802,7 +802,7 @@ function getZapierTranslation(key, lang) {
 }
 
 function applyZapierTranslations(lang) {
-    console.log("Applying zapier translations for:", lang);
+    
     let count = 0;
     document.querySelectorAll("[data-i18n]").forEach(element => {
         const key = element.getAttribute("data-i18n");
@@ -814,7 +814,7 @@ function applyZapierTranslations(lang) {
             }
         }
     });
-    console.log("Applied " + count + " zapier translations");
+    
 }
 
 window.addEventListener("languageChanged", (e) => {

@@ -840,7 +840,7 @@ function getTroopsaiTranslation(key, lang) {
 }
 
 function applyTroopsaiTranslations(lang) {
-  console.log(`Applying troopsai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyTroopsaiTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} troopsai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyTroopsaiTranslations(currentLang);
 }
 
-console.log('troopsai i18n loaded');
+

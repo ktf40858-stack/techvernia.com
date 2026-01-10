@@ -1124,7 +1124,7 @@ function getIonqTranslation(key, lang) {
 }
 
 function applyIonqTranslations(lang) {
-  console.log(`🔥 Applying ionq translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyIonqTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} ionq translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyIonqTranslations(currentLang);
 }
 
-console.log('✅ ionq i18n loaded');
+

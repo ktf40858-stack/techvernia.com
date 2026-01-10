@@ -902,7 +902,7 @@ function getSemrushTranslation(key, lang) {
 }
 
 function applySemrushTranslations(lang) {
-    console.log('Applying semrush translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -914,7 +914,7 @@ function applySemrushTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} semrush translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -932,4 +932,4 @@ if (document.readyState === 'loading') {
     applySemrushTranslations(currentLang);
 }
 
-console.log('semrush i18n loaded');
+

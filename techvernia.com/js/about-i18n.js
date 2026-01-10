@@ -1,7 +1,7 @@
 // About Page - Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('📦 about-i18n.js loaded');
+
 
 const aboutTranslations = {
     en: {
@@ -870,28 +870,28 @@ const aboutTranslations = {
 
 // Initialize i18n for About page
 function initAboutI18n() {
-    console.log('🌍 About i18n initializing...');
+    
     const currentLang = localStorage.getItem('selectedLanguage') || 'en';
-    console.log('📍 Current language:', currentLang);
+    
     applyAboutTranslations(currentLang);
 
     // Listen for language changes
     document.addEventListener('languageChanged', (e) => {
-        console.log('🔄 Language changed to:', e.detail.language);
+        
         applyAboutTranslations(e.detail.language);
     });
-    console.log('✅ About i18n initialized successfully');
+    
 }
 
 function applyAboutTranslations(lang) {
-    console.log('🔧 Applying About page translations for language:', lang);
+    
     const t = aboutTranslations[lang] || aboutTranslations.en;
 
     // Update page title and meta
     document.title = t.pageTitle;
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.content = t.metaDescription;
-    console.log('📄 Page title updated:', t.pageTitle);
+    
 
     // Hero Section
     const heroBadge = document.querySelector('.hero-badge span:last-child');
@@ -1052,7 +1052,7 @@ function applyAboutTranslations(lang) {
     if (footerHeaders[1]) footerHeaders[1].textContent = t.footerCompany;
     if (copyright) copyright.textContent = t.footerCopyright;
 
-    console.log('✅ About page translations applied successfully');
+    
 }
 
 // Initialize on page load

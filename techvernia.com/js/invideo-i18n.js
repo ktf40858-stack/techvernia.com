@@ -1181,7 +1181,7 @@ function getInvideoTranslation(key, lang) {
 }
 
 function applyInvideoTranslations(lang) {
-    console.log('🔥 Applying invideo translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1193,7 +1193,7 @@ function applyInvideoTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} invideo translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1208,4 +1208,4 @@ if (document.readyState === 'loading') {
     applyInvideoTranslations(window.i18n ? window.i18n.getCurrentLanguage() : 'en');
 }
 
-console.log('✅ invideo i18n loaded');
+

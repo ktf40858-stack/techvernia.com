@@ -364,7 +364,7 @@ function getMarketMuseTranslation(key, lang) {
 }
 
 function applyMarketMuseTranslations(lang) {
-  console.log('Applying marketmuse translations for:', lang);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -376,7 +376,7 @@ function applyMarketMuseTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} marketmuse translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -394,4 +394,4 @@ if (document.readyState === 'loading') {
   applyMarketMuseTranslations(currentLang);
 }
 
-console.log('marketmuse i18n loaded');
+

@@ -877,7 +877,7 @@ function getKnewtonAltaTranslation(key, lang) {
 }
 
 function applyKnewtonAltaTranslations(lang) {
-  console.log(`Applying knewton-alta translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applyKnewtonAltaTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} knewton-alta translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applyKnewtonAltaTranslations(currentLang);
 }
 
-console.log('knewton-alta i18n loaded');
+

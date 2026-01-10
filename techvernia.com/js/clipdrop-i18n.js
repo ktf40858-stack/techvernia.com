@@ -2196,7 +2196,7 @@ function getClipdropTranslation(key, lang) {
 
 // Appliquer les traductions clipdrop
 function applyClipdropTranslations(lang) {
-    console.log('🔥 Applying clipdrop translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -2212,7 +2212,7 @@ function applyClipdropTranslations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} clipdrop translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -2232,4 +2232,4 @@ if (document.readyState === 'loading') {
     applyClipdropTranslations(currentLang);
 }
 
-console.log('✅ clipdrop i18n loaded');
+

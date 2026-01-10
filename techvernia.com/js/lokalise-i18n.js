@@ -974,7 +974,7 @@ function getLokaliseTranslation(key, lang) {
 }
 
 function applyLokaliseTranslations(lang) {
-  console.log(`🔥 Applying lokalise translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -986,7 +986,7 @@ function applyLokaliseTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} lokalise translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1004,4 +1004,4 @@ if (document.readyState === 'loading') {
   applyLokaliseTranslations(currentLang);
 }
 
-console.log('✅ lokalise i18n loaded');
+

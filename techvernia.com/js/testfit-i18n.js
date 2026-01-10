@@ -1003,7 +1003,7 @@ function applyTestfitTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} testfit translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyTestfitTranslations(e.detail.language), 200));

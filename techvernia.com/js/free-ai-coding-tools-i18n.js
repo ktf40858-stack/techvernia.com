@@ -1,7 +1,7 @@
 // Free AI Coding Tools - Complete Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('[i18n] free-ai-coding-tools-i18n.js loaded');
+
 
 const articleTranslations = {
     en: {
@@ -1361,11 +1361,11 @@ const articleTranslations = {
 };
 
 // Merge with global translations object - IMMEDIATE EXECUTION
-console.log('[i18n] 🚀 FREE AI CODING TOOLS i18n loading...');
+
 
 if (typeof translations !== 'undefined') {
-    console.log('[i18n] ✅ Global translations object found');
-    console.log('[i18n] 🔄 Merging article translations into global...');
+    
+    
 
     // Merge all languages
     Object.keys(articleTranslations).forEach(lang => {
@@ -1375,41 +1375,41 @@ if (typeof translations !== 'undefined') {
         const beforeCount = Object.keys(translations[lang]).length;
         Object.assign(translations[lang], articleTranslations[lang]);
         const afterCount = Object.keys(translations[lang]).length;
-        console.log(`[i18n] 📊 ${lang}: ${beforeCount} → ${afterCount} keys (+ ${afterCount - beforeCount})`);
+        `);
     });
 
-    console.log('[i18n] ✅ Merge completed!');
+    
 
     // Immediate re-translation if page is already loaded
     const currentLang = localStorage.getItem('language') || sessionStorage.getItem('language') || 'en';
-    console.log('[i18n] 📍 Current language:', currentLang);
+    
 
     if (currentLang !== 'en') {
-        console.log('[i18n] 🔄 Non-English language detected, forcing re-translation...');
+        
 
         // Verify the translation exists
         if (translations[currentLang] && translations[currentLang].heroTitle) {
-            console.log('[i18n] ✅ Blog translations confirmed for', currentLang);
-            console.log('[i18n] 📝 Sample:', translations[currentLang].heroTitle.substring(0, 50) + '...');
+            
+            + '...');
 
             // Force immediate re-translation
             if (typeof translatePage === 'function') {
-                console.log('[i18n] 🔄 Calling translatePage() NOW...');
+                NOW...');
                 translatePage();
-                console.log('[i18n] ✅ translatePage() completed');
+                completed');
             } else {
-                console.warn('[i18n] ⚠️ translatePage not available yet, scheduling...');
+                
                 setTimeout(() => {
                     if (typeof setLanguage === 'function') setLanguage(currentLang);
                     if (typeof translatePage === 'function') translatePage();
                 }, 500);
             }
         } else {
-            console.error('[i18n] ❌ Blog translations NOT found for', currentLang);
+            
         }
     } else {
-        console.log('[i18n] ℹ️ English language, no translation needed');
+        
     }
 } else {
-    console.error('[i18n] ❌ Global translations object NOT found!');
+    
 }

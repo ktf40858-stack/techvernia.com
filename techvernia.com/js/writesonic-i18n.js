@@ -864,7 +864,7 @@ function getWritesonicTranslation(key, lang) {
 }
 
 function applyWritesonicTranslations(lang) {
-  console.log(`🔥 Applying writesonic translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -876,7 +876,7 @@ function applyWritesonicTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} writesonic translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -894,4 +894,4 @@ if (document.readyState === 'loading') {
   applyWritesonicTranslations(currentLang);
 }
 
-console.log('✅ writesonic i18n loaded');
+

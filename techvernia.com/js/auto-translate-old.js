@@ -31,11 +31,11 @@ function loadTranslationCache() {
             // Vérifier l'expiration
             if (data.timestamp && (Date.now() - data.timestamp) < AUTO_TRANSLATE_CONFIG.cacheExpiry) {
                 translationCache = data.translations || {};
-                console.log('📦 Cache de traduction chargé:', Object.keys(translationCache).length, 'entrées');
+                .length, 'entrées');
             }
         }
     } catch (e) {
-        console.warn('Erreur chargement cache traduction:', e);
+        
     }
 }
 
@@ -47,7 +47,7 @@ function saveTranslationCache() {
             translations: translationCache
         }));
     } catch (e) {
-        console.warn('Erreur sauvegarde cache traduction:', e);
+        
     }
 }
 
@@ -252,7 +252,7 @@ async function translateElement(element, toLang) {
 async function translatePage(toLang) {
     if (!AUTO_TRANSLATE_CONFIG.enabled || toLang === 'en') return;
 
-    console.log(`🌍 Traduction automatique vers: ${toLang}`);
+    
 
     // Charger le cache
     loadTranslationCache();
@@ -272,7 +272,7 @@ async function translatePage(toLang) {
     // Sauvegarder le cache
     saveTranslationCache();
 
-    console.log('✅ Traduction automatique terminée');
+    
 }
 
 // Initialiser la traduction automatique
@@ -291,7 +291,7 @@ function initAutoTranslate() {
         return;
     }
 
-    console.log(`🔧 Auto-translate initialisé avec langue: ${currentLang}`);
+    
 
     // Écouter les changements de langue
     document.addEventListener('languageChanged', (event) => {
@@ -326,8 +326,8 @@ window.autoTranslate = {
     clearCache: () => {
         translationCache = {};
         localStorage.removeItem('translationCache');
-        console.log('🗑️ Cache de traduction vidé');
+        
     }
 };
 
-console.log('✅ Système de traduction automatique chargé');
+

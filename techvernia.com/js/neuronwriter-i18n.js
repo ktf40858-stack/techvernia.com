@@ -360,7 +360,7 @@ function getNeuronwriterTranslation(key, lang) {
 }
 
 function applyNeuronwriterTranslations(lang) {
-  console.log('Applying neuronwriter translations for:', lang);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -372,7 +372,7 @@ function applyNeuronwriterTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} neuronwriter translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -390,4 +390,4 @@ if (document.readyState === 'loading') {
   applyNeuronwriterTranslations(currentLang);
 }
 
-console.log('neuronwriter i18n loaded');
+

@@ -1255,7 +1255,7 @@ function getSeekoutTranslation(key, lang) {
 }
 
 function applySeekoutTranslations(lang) {
-  console.log(`🔥 Applying seekout translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applySeekoutTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} seekout translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applySeekoutTranslations(currentLang);
 }
 
-console.log('✅ seekout i18n loaded');
+

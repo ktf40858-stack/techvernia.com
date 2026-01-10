@@ -1124,7 +1124,7 @@ function getInworldaiTranslation(key, lang) {
 }
 
 function applyInworldaiTranslations(lang) {
-  console.log(`🔥 Applying inworld-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyInworldaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} inworld-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyInworldaiTranslations(currentLang);
 }
 
-console.log('✅ inworld-ai i18n loaded');
+

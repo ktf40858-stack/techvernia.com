@@ -1016,7 +1016,7 @@ function applyVizAiTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} viz-ai translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyVizAiTranslations(e.detail.language), 200));

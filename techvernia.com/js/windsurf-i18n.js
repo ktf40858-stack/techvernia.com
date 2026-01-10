@@ -1561,7 +1561,7 @@ function getWindsurfTranslation(key, lang) {
 }
 
 function applyWindsurfTranslations(lang) {
-    console.log('🔥 Applying windsurf translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1573,7 +1573,7 @@ function applyWindsurfTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} windsurf translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1591,4 +1591,4 @@ if (document.readyState === 'loading') {
     applyWindsurfTranslations(currentLang);
 }
 
-console.log('✅ windsurf i18n loaded');
+

@@ -2523,7 +2523,7 @@ function getLeonardoAiTranslation(key, lang) {
 
 // Appliquer les traductions leonardo-ai
 function applyLeonardoAiTranslations(lang) {
-    console.log('🔥 Applying leonardo-ai translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -2539,7 +2539,7 @@ function applyLeonardoAiTranslations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} leonardo-ai translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -2559,4 +2559,4 @@ if (document.readyState === 'loading') {
     applyLeonardoAiTranslations(currentLang);
 }
 
-console.log('✅ leonardo-ai i18n loaded');
+

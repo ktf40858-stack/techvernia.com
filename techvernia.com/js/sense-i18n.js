@@ -1255,7 +1255,7 @@ function getSenseTranslation(key, lang) {
 }
 
 function applySenseTranslations(lang) {
-  console.log(`🔥 Applying sense translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applySenseTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} sense translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applySenseTranslations(currentLang);
 }
 
-console.log('✅ sense i18n loaded');
+

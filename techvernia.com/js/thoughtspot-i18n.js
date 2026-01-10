@@ -808,7 +808,7 @@ function applyThoughtspotTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} thoughtspot translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyThoughtspotTranslations(e.detail.language), 200));

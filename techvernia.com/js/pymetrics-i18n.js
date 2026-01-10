@@ -1255,7 +1255,7 @@ function getPymetricsTranslation(key, lang) {
 }
 
 function applyPymetricsTranslations(lang) {
-  console.log(`🔥 Applying pymetrics translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applyPymetricsTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} pymetrics translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applyPymetricsTranslations(currentLang);
 }
 
-console.log('✅ pymetrics i18n loaded');
+

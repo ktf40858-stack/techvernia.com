@@ -152,7 +152,7 @@ function getMarketmuseFaqTranslation(key, lang) {
 }
 
 function applyMarketmuseFaqTranslations(lang) {
-  console.log('Applying marketmuse FAQ translations for:', lang);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -164,7 +164,7 @@ function applyMarketmuseFaqTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} marketmuse FAQ translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -182,4 +182,4 @@ if (document.readyState === 'loading') {
   applyMarketmuseFaqTranslations(currentLang);
 }
 
-console.log('marketmuse FAQ i18n loaded');
+

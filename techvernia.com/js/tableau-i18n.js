@@ -21,7 +21,7 @@ function getTableauTranslation(key, lang) {
 }
 
 function applyTableauTranslations(lang) {
-    console.log('Applying tableau translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -33,7 +33,7 @@ function applyTableauTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} tableau translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -51,4 +51,4 @@ if (document.readyState === 'loading') {
     applyTableauTranslations(currentLang);
 }
 
-console.log('tableau i18n loaded');
+

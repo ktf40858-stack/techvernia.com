@@ -877,7 +877,7 @@ function getSocraticByGoogleTranslation(key, lang) {
 }
 
 function applySocraticByGoogleTranslations(lang) {
-  console.log(`Applying socratic-by-google translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applySocraticByGoogleTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} socratic-by-google translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applySocraticByGoogleTranslations(currentLang);
 }
 
-console.log('socratic-by-google i18n loaded');
+

@@ -2,7 +2,7 @@
 // Auto-generated - 10 languages (EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI)
 // Total: 216 keys × 10 languages = 2,160 translations
 
-console.log('📦 [1/2] github-copilot-vs-tabnine-i18n.js loading...');
+
 
 const githubCopilotVsTabnineTranslations = {
   "en": {
@@ -2780,7 +2780,7 @@ const githubCopilotVsTabnineTranslations = {
 // Make available globally
 if (typeof window !== 'undefined') {
   window.githubCopilotVsTabnineTranslations = githubCopilotVsTabnineTranslations;
-  console.log('✅ [1/2] github-copilot-vs-tabnine-i18n.js loaded - ' + Object.keys(githubCopilotVsTabnineTranslations).length + ' languages available');
+  .length + ' languages available');
 }
 
 // Export for module systems

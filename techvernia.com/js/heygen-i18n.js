@@ -944,7 +944,7 @@ function getHeyGenTranslation(key, lang) {
 
 // Appliquer les traductions heygen
 function applyHeyGenTranslations(lang) {
-    console.log('🔥 Applying heygen translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -960,7 +960,7 @@ function applyHeyGenTranslations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} heygen translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -980,4 +980,4 @@ if (document.readyState === 'loading') {
     applyHeyGenTranslations(currentLang);
 }
 
-console.log('✅ heygen i18n loaded');
+

@@ -3365,7 +3365,7 @@ function getDallE3Translation(key, lang) {
 
 // Appliquer les traductions dall-e-3
 function applyDallE3Translations(lang) {
-    console.log('🔥 Applying dall-e-3 translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -3381,7 +3381,7 @@ function applyDallE3Translations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} dall-e-3 translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -3401,4 +3401,4 @@ if (document.readyState === 'loading') {
     applyDallE3Translations(currentLang);
 }
 
-console.log('✅ dall-e-3 i18n loaded');
+

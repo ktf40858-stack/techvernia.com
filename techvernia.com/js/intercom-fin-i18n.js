@@ -813,7 +813,7 @@ function getIntercomFinTranslation(key, lang) {
 }
 
 function applyIntercomFinTranslations(lang) {
-  console.log(`🔥 Applying intercom-fin translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyIntercomFinTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} intercom-fin translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
   applyIntercomFinTranslations(currentLang);
 }
 
-console.log('✅ intercom-fin i18n loaded');
+

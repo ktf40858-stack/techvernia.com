@@ -974,7 +974,7 @@ function getUnbabelTranslation(key, lang) {
 }
 
 function applyUnbabelTranslations(lang) {
-  console.log(`🔥 Applying unbabel translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -986,7 +986,7 @@ function applyUnbabelTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} unbabel translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1004,4 +1004,4 @@ if (document.readyState === 'loading') {
   applyUnbabelTranslations(currentLang);
 }
 
-console.log('✅ unbabel i18n loaded');
+

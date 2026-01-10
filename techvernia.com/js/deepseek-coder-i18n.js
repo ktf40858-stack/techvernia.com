@@ -1362,7 +1362,7 @@ function getDeepSeekCoderTranslation(key, lang) {
 }
 
 function applyDeepSeekCoderTranslations(lang) {
-    console.log('🔥 Applying deepseek-coder translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1374,7 +1374,7 @@ function applyDeepSeekCoderTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} deepseek-coder translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1392,4 +1392,4 @@ if (document.readyState === 'loading') {
     applyDeepSeekCoderTranslations(currentLang);
 }
 
-console.log('✅ deepseek-coder i18n loaded');
+

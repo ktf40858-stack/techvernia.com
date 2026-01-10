@@ -1124,7 +1124,7 @@ function getGooglecirqTranslation(key, lang) {
 }
 
 function applyGooglecirqTranslations(lang) {
-  console.log(`🔥 Applying google-cirq translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyGooglecirqTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} google-cirq translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyGooglecirqTranslations(currentLang);
 }
 
-console.log('✅ google-cirq i18n loaded');
+

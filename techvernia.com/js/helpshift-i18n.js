@@ -93,7 +93,7 @@ function getHelpshiftTranslation(key, lang) {
 }
 
 function applyHelpshiftTranslations(lang) {
-  console.log(`🔥 Applying helpshift translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -105,7 +105,7 @@ function applyHelpshiftTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} helpshift translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -123,4 +123,4 @@ if (document.readyState === 'loading') {
   applyHelpshiftTranslations(currentLang);
 }
 
-console.log('✅ helpshift i18n loaded');
+

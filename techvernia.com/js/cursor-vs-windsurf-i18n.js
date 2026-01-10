@@ -2,7 +2,7 @@
 // Auto-generated - 10 languages (EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI)
 // Total: 148 keys × 10 languages = 1,480 translations
 
-console.log('📦 [1/2] cursor-vs-windsurf-i18n.js loading...');
+
 
 const cursorVsWindsurfTranslations = {
   "en": {
@@ -1510,7 +1510,7 @@ const cursorVsWindsurfTranslations = {
 // Make available globally
 if (typeof window !== 'undefined') {
   window.cursorVsWindsurfTranslations = cursorVsWindsurfTranslations;
-  console.log('✅ [1/2] cursor-vs-windsurf-i18n.js loaded - ' + Object.keys(cursorVsWindsurfTranslations).length + ' languages available');
+  .length + ' languages available');
 }
 
 // Export for module systems

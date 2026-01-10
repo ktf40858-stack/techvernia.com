@@ -877,7 +877,7 @@ function getCogniiTranslation(key, lang) {
 }
 
 function applyCogniiTranslations(lang) {
-  console.log(`Applying cognii translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applyCogniiTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} cognii translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applyCogniiTranslations(currentLang);
 }
 
-console.log('cognii i18n loaded');
+

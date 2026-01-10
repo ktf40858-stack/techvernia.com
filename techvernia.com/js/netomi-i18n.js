@@ -823,7 +823,7 @@ function getNetomiTranslation(key, lang) {
 }
 
 function applyNetomiTranslations(lang) {
-  console.log(`🔥 Applying netomi translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -835,7 +835,7 @@ function applyNetomiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} netomi translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -853,4 +853,4 @@ if (document.readyState === 'loading') {
   applyNetomiTranslations(currentLang);
 }
 
-console.log('✅ netomi i18n loaded');
+

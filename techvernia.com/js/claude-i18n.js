@@ -1184,7 +1184,7 @@ function getClaudeTranslation(key, lang) {
 }
 
 function applyClaudeTranslations(lang) {
-  console.log(`🔥 Applying claude translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1196,7 +1196,7 @@ function applyClaudeTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} claude translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1214,4 +1214,4 @@ if (document.readyState === 'loading') {
   applyClaudeTranslations(currentLang);
 }
 
-console.log('✅ claude i18n loaded');
+

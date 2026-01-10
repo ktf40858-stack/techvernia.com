@@ -1,9 +1,9 @@
 // Midjourney vs DALL-E 3 Article - Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('📦 midjourney-vs-dalle-i18n.js loaded');
 
-console.log("[1/2] midjourney-vs-dalle-i18n.js loading...");
+
+
 
 const articleTranslations = {
     en: {
@@ -860,20 +860,20 @@ const articleTranslations = {
 
 // Initialize i18n for this article
 function initArticleI18n() {
-    console.log('🌍 Article i18n initializing...');
+    
     const currentLang = localStorage.getItem('selectedLanguage') || 'en';
-    console.log('📍 Current language:', currentLang);
+    
     applyArticleTranslations(currentLang);
 
     document.addEventListener('languageChanged', (e) => {
-        console.log('🔄 Language changed to:', e.detail.language);
+        
         applyArticleTranslations(e.detail.language);
     });
-    console.log('✅ Article i18n initialized successfully');
+    
 }
 
 function applyArticleTranslations(lang) {
-    console.log('🔧 Applying article translations for language:', lang);
+    
     const t = articleTranslations[lang] || articleTranslations.en;
 
     // If language is simplified (ZH, JA, KO, AR, HI), only translate basic elements
@@ -888,7 +888,7 @@ function applyArticleTranslations(lang) {
 
     // Get all elements with data-i18n attributes
     const i18nElements = document.querySelectorAll('[data-i18n]');
-    console.log(`📍 Found ${i18nElements.length} elements with data-i18n attributes`);
+    
 
     let translatedCount = 0;
     let skippedCount = 0;
@@ -966,12 +966,12 @@ function applyArticleTranslations(lang) {
             const fallback = articleTranslations.en[key];
             if (fallback && lang !== 'en') {
                 element.textContent = fallback;
-                console.warn(`⚠️ Translation key "${key}" not found for language "${lang}", using English fallback`);
+                
             }
         }
     });
 
-    console.log(`✅ Article translations applied: ${translatedCount} translated, ${skippedCount} skipped (simplified language)`);
+    `);
 }
 
 // Initialize on page load
@@ -984,7 +984,7 @@ if (document.readyState === 'loading') {
 // Export to window for standalone i18n system
 if (typeof window !== 'undefined') {
     window.midjourneyVsDalleTranslations = articleTranslations;
-    console.log("[1/2] midjourney-vs-dalle-i18n.js loaded - " + Object.keys(articleTranslations).length + " languages available");
+    .length + " languages available");
 }
 
 // Export for use in other scripts

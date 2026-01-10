@@ -884,7 +884,7 @@ function getConsensusTranslation(key, lang) {
 }
 
 function applyConsensusTranslations(lang) {
-  console.log(`🔥 Applying consensus translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -896,7 +896,7 @@ function applyConsensusTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} consensus translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -914,4 +914,4 @@ if (document.readyState === 'loading') {
   applyConsensusTranslations(currentLang);
 }
 
-console.log('✅ consensus i18n loaded');
+

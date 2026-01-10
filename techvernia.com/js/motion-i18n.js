@@ -802,7 +802,7 @@ function getMotionTranslation(key, lang) {
 }
 
 function applyMotionTranslations(lang) {
-    console.log('Applying motion translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -814,7 +814,7 @@ function applyMotionTranslations(lang) {
             }
         }
     });
-    console.log('Applied ' + count + ' motion translations');
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -832,4 +832,4 @@ if (document.readyState === 'loading') {
     applyMotionTranslations(currentLang);
 }
 
-console.log('motion i18n loaded');
+

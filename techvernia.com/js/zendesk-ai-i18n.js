@@ -813,7 +813,7 @@ function getZendeskAiTranslation(key, lang) {
 }
 
 function applyZendeskAiTranslations(lang) {
-  console.log(`🔥 Applying zendesk-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyZendeskAiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} zendesk-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
   applyZendeskAiTranslations(currentLang);
 }
 
-console.log('✅ zendesk-ai i18n loaded');
+

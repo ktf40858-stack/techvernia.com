@@ -364,7 +364,7 @@ function getSurferSeoTranslation(key, lang) {
 }
 
 function applySurferSeoTranslations(lang) {
-  console.log('Applying surfer-seo translations for:', lang);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -376,7 +376,7 @@ function applySurferSeoTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} surfer-seo translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -394,4 +394,4 @@ if (document.readyState === 'loading') {
   applySurferSeoTranslations(currentLang);
 }
 
-console.log('surfer-seo i18n loaded');
+

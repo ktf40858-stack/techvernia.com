@@ -994,7 +994,7 @@ function getSynthesiaTranslation(key, lang) {
 
 // Appliquer les traductions synthesia
 function applySynthesiaTranslations(lang) {
-    console.log('🔥 Applying synthesia translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -1010,7 +1010,7 @@ function applySynthesiaTranslations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} synthesia translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -1030,4 +1030,4 @@ if (document.readyState === 'loading') {
     applySynthesiaTranslations(currentLang);
 }
 
-console.log('✅ synthesia i18n loaded');
+

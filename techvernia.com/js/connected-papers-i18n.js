@@ -884,7 +884,7 @@ function getConnectedpapersTranslation(key, lang) {
 }
 
 function applyConnectedpapersTranslations(lang) {
-  console.log(`🔥 Applying connected-papers translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -896,7 +896,7 @@ function applyConnectedpapersTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} connected-papers translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -914,4 +914,4 @@ if (document.readyState === 'loading') {
   applyConnectedpapersTranslations(currentLang);
 }
 
-console.log('✅ connected-papers i18n loaded');
+

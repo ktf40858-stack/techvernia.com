@@ -877,7 +877,7 @@ function getCenturyTechTranslation(key, lang) {
 }
 
 function applyCenturyTechTranslations(lang) {
-  console.log(`Applying century-tech translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applyCenturyTechTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} century-tech translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applyCenturyTechTranslations(currentLang);
 }
 
-console.log('century-tech i18n loaded');
+

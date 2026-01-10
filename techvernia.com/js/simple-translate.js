@@ -3,7 +3,7 @@
  * Traduit le texte visible en utilisant des remplacements simples
  */
 
-console.log('🚀 SIMPLE TRANSLATE - Chargement...');
+
 
 // Dictionnaire de traductions
 const TRANSLATIONS = {
@@ -52,15 +52,15 @@ const PRESERVE = ['ChatGPT', 'Claude', 'Gemini', 'GPT-4', 'Copilot', 'Perplexity
 
 // Fonction de traduction SIMPLE
 function simpleTranslate(lang) {
-    console.log('🌍 SIMPLE TRANSLATE: Démarrage traduction vers ' + lang);
+    
 
     if (!lang || lang === 'en') {
-        console.log('⏭️  Langue anglaise - pas de traduction');
+        
         return;
     }
 
     if (!TRANSLATIONS[lang]) {
-        console.log('❌ Langue non supportée: ' + lang);
+        
         return;
     }
 
@@ -110,32 +110,32 @@ function simpleTranslate(lang) {
                 if (text !== originalText) {
                     node.textContent = text;
                     count++;
-                    console.log('✅ Traduit: "' + originalText.trim() + '" → "' + text.trim() + '"');
+                    + '" → "' + text.trim() + '"');
                 }
             }
         });
     });
 
-    console.log('✅ SIMPLE TRANSLATE: Terminé - ' + count + ' éléments traduits');
+    
 }
 
 // Initialisation
 function initSimpleTranslate() {
-    console.log('🔧 SIMPLE TRANSLATE: Initialisation...');
+    
 
     // Attendre i18n
     if (!window.i18n || !window.i18n.getCurrentLanguage) {
-        console.log('⏳ Attente de i18n...');
+        
         setTimeout(initSimpleTranslate, 100);
         return;
     }
 
-    console.log('✅ i18n détecté');
+    
 
     // Écouter les changements de langue
     document.addEventListener('languageChanged', function(event) {
         const newLang = event.detail.language;
-        console.log('📡 SIMPLE TRANSLATE: Changement détecté vers ' + newLang);
+        
         setTimeout(function() {
             simpleTranslate(newLang);
         }, 150);
@@ -144,13 +144,13 @@ function initSimpleTranslate() {
     // Traduire si pas anglais au démarrage
     const currentLang = window.i18n.getCurrentLanguage();
     if (currentLang && currentLang !== 'en') {
-        console.log('🌍 Langue non-anglaise détectée au démarrage: ' + currentLang);
+        
         setTimeout(function() {
             simpleTranslate(currentLang);
         }, 300);
     }
 
-    console.log('✅ SIMPLE TRANSLATE: Prêt!');
+    
 }
 
 // Démarrer
@@ -163,4 +163,4 @@ if (document.readyState === 'loading') {
 // Export global
 window.simpleTranslate = simpleTranslate;
 
-console.log('✅ SIMPLE TRANSLATE: Module chargé');
+

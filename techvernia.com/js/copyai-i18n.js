@@ -864,7 +864,7 @@ function getCopyaiTranslation(key, lang) {
 }
 
 function applyCopyaiTranslations(lang) {
-  console.log(`🔥 Applying copyai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -876,7 +876,7 @@ function applyCopyaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} copyai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -894,4 +894,4 @@ if (document.readyState === 'loading') {
   applyCopyaiTranslations(currentLang);
 }
 
-console.log('✅ copyai i18n loaded');
+

@@ -1,7 +1,7 @@
 // Free Ai Coding Tools - Multilingual
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('[i18n] free-ai-coding-tools-i18n.js loaded');
+
 
 const articleTranslations = {
     en: {

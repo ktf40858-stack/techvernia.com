@@ -877,7 +877,7 @@ function getCarnegieLearningTranslation(key, lang) {
 }
 
 function applyCarnegieLearningTranslations(lang) {
-  console.log(`Applying carnegie-learning translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applyCarnegieLearningTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} carnegie-learning translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applyCarnegieLearningTranslations(currentLang);
 }
 
-console.log('carnegie-learning i18n loaded');
+

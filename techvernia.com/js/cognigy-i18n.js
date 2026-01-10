@@ -93,7 +93,7 @@ function getCognigyTranslation(key, lang) {
 }
 
 function applyCognigyTranslations(lang) {
-  console.log(`🔥 Applying cognigy translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -105,7 +105,7 @@ function applyCognigyTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} cognigy translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -123,4 +123,4 @@ if (document.readyState === 'loading') {
   applyCognigyTranslations(currentLang);
 }
 
-console.log('✅ cognigy i18n loaded');
+

@@ -6,7 +6,7 @@
 (function() {
     'use strict';
 
-    console.log('🚀 Force Translate chargé');
+    
 
     // Dictionnaire de traductions COMPLET
     const TRANSLATIONS = {
@@ -93,13 +93,13 @@
         // Appliquer si changé
         if (text !== originalText) {
             node.textContent = text;
-            console.log(`Traduit: "${originalText.trim()}" -> "${text.trim()}"`);
+            }" -> "${text.trim()}"`);
         }
     }
 
     // Parcourir tous les nœuds de texte
     function translateAllText(lang) {
-        console.log(`🌍 Force translation vers: ${lang}`);
+        
         let count = 0;
 
         // Fonction récursive pour parcourir l'arbre DOM
@@ -143,7 +143,7 @@
             walkNode(footer);
         }
 
-        console.log(`✅ Force translation terminée (${count} nœuds parcourus)`);
+        `);
     }
 
     // Écouter les changements de langue
@@ -154,12 +154,12 @@
             return;
         }
 
-        console.log('🔧 Force Translate initialisé');
+        
 
         // Écouter l'événement de changement de langue
         document.addEventListener('languageChanged', (event) => {
             const newLang = event.detail.language;
-            console.log(`📡 Changement de langue détecté: ${newLang}`);
+            
 
             // Attendre que i18n ait fini
             setTimeout(() => {

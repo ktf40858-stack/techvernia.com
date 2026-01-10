@@ -864,7 +864,7 @@ function getRytrTranslation(key, lang) {
 }
 
 function applyRytrTranslations(lang) {
-  console.log(`🔥 Applying rytr translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -876,7 +876,7 @@ function applyRytrTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} rytr translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -894,4 +894,4 @@ if (document.readyState === 'loading') {
   applyRytrTranslations(currentLang);
 }
 
-console.log('✅ rytr i18n loaded');
+

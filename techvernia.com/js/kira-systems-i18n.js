@@ -813,7 +813,7 @@ function getKirasystemsTranslation(key, lang) {
 }
 
 function applyKirasystemsTranslations(lang) {
-    console.log('Applying kira-systems translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyKirasystemsTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} kira-systems translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyKirasystemsTranslations(currentLang);
 }
 
-console.log('kira-systems i18n loaded');
+

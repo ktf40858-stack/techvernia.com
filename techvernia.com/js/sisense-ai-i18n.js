@@ -623,7 +623,7 @@ function getSisenseaiTranslation(key, lang) {
 }
 
 function applySisenseaiTranslations(lang) {
-    console.log('Applying sisense-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -635,7 +635,7 @@ function applySisenseaiTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} sisense-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -653,4 +653,4 @@ if (document.readyState === 'loading') {
     applySisenseaiTranslations(currentLang);
 }
 
-console.log('sisense-ai i18n loaded');
+

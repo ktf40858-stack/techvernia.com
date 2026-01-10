@@ -346,7 +346,7 @@ function getDescriptTranslation(key, lang) {
 }
 
 function applyDescriptTranslations(lang) {
-    console.log('🔥 Applying descript translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -358,7 +358,7 @@ function applyDescriptTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} descript translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -376,4 +376,3 @@ if (document.readyState === 'loading') {
     applyDescriptTranslations(currentLang);
 }
 
-console.log('✅ descript i18n loaded');

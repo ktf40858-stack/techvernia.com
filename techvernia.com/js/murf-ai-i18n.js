@@ -371,7 +371,7 @@ function getMurfAiTranslation(key, lang) {
 }
 
 function applyMurfAiTranslations(lang) {
-    console.log('🔥 Applying murf-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -383,7 +383,7 @@ function applyMurfAiTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} murf-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -401,4 +401,4 @@ if (document.readyState === 'loading') {
     applyMurfAiTranslations(currentLang);
 }
 
-console.log('✅ murf-ai i18n loaded');
+

@@ -1,7 +1,7 @@
 // ChatGPT Code Interpreter Article - Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('📦 chatgpt-code-interpreter-i18n.js loaded');
+
 
 const articleTranslations = {
     en: {
@@ -68,7 +68,7 @@ function initArticleI18n() {
 }
 
 function applyArticleTranslations(lang) {
-    console.log('🔧 Applying article translations for language:', lang);
+    
     const t = articleTranslations[lang] || articleTranslations.en;
 
     // If language is simplified (ZH, JA, KO, AR, HI), only translate basic elements
@@ -83,7 +83,7 @@ function applyArticleTranslations(lang) {
 
     // Get all elements with data-i18n attributes
     const i18nElements = document.querySelectorAll('[data-i18n]');
-    console.log(`📍 Found ${i18nElements.length} elements with data-i18n attributes`);
+    
 
     let translatedCount = 0;
     let skippedCount = 0;
@@ -160,12 +160,12 @@ function applyArticleTranslations(lang) {
             const fallback = articleTranslations.en[key];
             if (fallback && lang !== 'en') {
                 element.textContent = fallback;
-                console.warn(`⚠️ Translation key "${key}" not found for language "${lang}", using English fallback`);
+                
             }
         }
     });
 
-    console.log(`✅ Article translations applied: ${translatedCount} translated, ${skippedCount} skipped (simplified language)`);
+    `);
 }
 
 if (document.readyState === 'loading') {

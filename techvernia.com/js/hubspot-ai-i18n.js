@@ -840,7 +840,7 @@ function getHubSpotAITranslation(key, lang) {
 }
 
 function applyHubSpotAITranslations(lang) {
-  console.log(`Applying hubspot-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyHubSpotAITranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} hubspot-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyHubSpotAITranslations(currentLang);
 }
 
-console.log('hubspot-ai i18n loaded');
+

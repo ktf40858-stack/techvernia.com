@@ -813,7 +813,7 @@ function getForethoughtTranslation(key, lang) {
 }
 
 function applyForethoughtTranslations(lang) {
-  console.log(`🔥 Applying forethought translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyForethoughtTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} forethought translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
   applyForethoughtTranslations(currentLang);
 }
 
-console.log('✅ forethought i18n loaded');
+

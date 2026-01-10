@@ -1496,7 +1496,7 @@ function applyVerasAiTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} veras-ai translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyVerasAiTranslations(e.detail.language), 200));

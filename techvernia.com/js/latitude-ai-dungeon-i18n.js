@@ -1114,7 +1114,7 @@ function getLatitudeaidungeonTranslation(key, lang) {
 }
 
 function applyLatitudeaidungeonTranslations(lang) {
-  console.log(`🔥 Applying latitude-ai-dungeon translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1126,7 +1126,7 @@ function applyLatitudeaidungeonTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} latitude-ai-dungeon translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1144,4 +1144,4 @@ if (document.readyState === 'loading') {
   applyLatitudeaidungeonTranslations(currentLang);
 }
 
-console.log('✅ latitude-ai-dungeon i18n loaded');
+

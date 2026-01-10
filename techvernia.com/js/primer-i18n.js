@@ -813,7 +813,7 @@ function getPrimerTranslation(key, lang) {
 }
 
 function applyPrimerTranslations(lang) {
-    console.log('Applying primer translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyPrimerTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} primer translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyPrimerTranslations(currentLang);
 }
 
-console.log('primer i18n loaded');
+

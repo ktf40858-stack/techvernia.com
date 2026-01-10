@@ -536,7 +536,7 @@ function applyTrendMicroVisionOneTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} trend-micro-vision-one translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyTrendMicroVisionOneTranslations(e.detail.language), 200));

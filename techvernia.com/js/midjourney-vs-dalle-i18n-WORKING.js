@@ -1,4 +1,4 @@
-console.log('[1/2] midjourney-vs-dalle-i18n.js loading...');
+
 
 const midjourneyVsDalleTranslations = {
   "en": {
@@ -221,5 +221,5 @@ const midjourneyVsDalleTranslations = {
 
 if (typeof window !== 'undefined') {
     window.midjourneyVsDalleTranslations = midjourneyVsDalleTranslations;
-    console.log('[1/2] midjourney-vs-dalle-i18n.js loaded - ' + Object.keys(midjourneyVsDalleTranslations).length + ' languages available');
+    .length + ' languages available');
 }

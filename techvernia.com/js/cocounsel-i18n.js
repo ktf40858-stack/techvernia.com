@@ -813,7 +813,7 @@ function getCocounselTranslation(key, lang) {
 }
 
 function applyCocounselTranslations(lang) {
-    console.log('Applying cocounsel translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyCocounselTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} cocounsel translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyCocounselTranslations(currentLang);
 }
 
-console.log('cocounsel i18n loaded');
+

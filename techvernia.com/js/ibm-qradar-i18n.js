@@ -526,7 +526,7 @@ function applyIbmQradarTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} ibm-qradar translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyIbmQradarTranslations(e.detail.language), 200));

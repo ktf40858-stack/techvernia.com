@@ -1,7 +1,7 @@
 // ChatGPT vs Claude Article - Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('📦 chatgpt-vs-claude-i18n.js loaded');
+
 
 const articleTranslations = {
     en: {
@@ -1327,21 +1327,21 @@ hi: {
 
 // Initialize i18n
 function initArticleI18n() {
-    console.log('🌍 Article i18n initializing...');
+    
     const currentLang = localStorage.getItem('selectedLanguage') || 'en';
-    console.log('📍 Current language:', currentLang);
+    
     applyArticleTranslations(currentLang);
 
     // Listen for language changes
     document.addEventListener('languageChanged', (e) => {
-        console.log('🔄 Language changed to:', e.detail.language);
+        
         applyArticleTranslations(e.detail.language);
     });
-    console.log('✅ Article i18n initialized successfully');
+    
 }
 
 function applyArticleTranslations(lang) {
-    console.log('🔧 Applying article translations for language:', lang);
+    
     const t = articleTranslations[lang] || articleTranslations.en;
 
     // Update page title and meta
@@ -1620,7 +1620,7 @@ function applyArticleTranslations(lang) {
         }
     }
 
-    console.log('✅ Article translations applied successfully');
+    
 }
 
 // Initialize on page load

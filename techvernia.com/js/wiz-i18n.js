@@ -786,7 +786,7 @@ function applyWizTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} wiz translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyWizTranslations(e.detail.language), 200));

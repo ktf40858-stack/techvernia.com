@@ -1124,7 +1124,7 @@ function getArtomatixTranslation(key, lang) {
 }
 
 function applyArtomatixTranslations(lang) {
-  console.log(`🔥 Applying artomatix translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyArtomatixTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} artomatix translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyArtomatixTranslations(currentLang);
 }
 
-console.log('✅ artomatix i18n loaded');
+

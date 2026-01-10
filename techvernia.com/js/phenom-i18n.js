@@ -1255,7 +1255,7 @@ function getPhenomTranslation(key, lang) {
 }
 
 function applyPhenomTranslations(lang) {
-  console.log(`🔥 Applying phenom translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applyPhenomTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} phenom translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applyPhenomTranslations(currentLang);
 }
 
-console.log('✅ phenom i18n loaded');
+

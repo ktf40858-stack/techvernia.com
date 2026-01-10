@@ -2201,7 +2201,7 @@ function applyTranslations(lang) {
         }
     });
 
-    console.log(`✅ DALL-E vs Ideogram i18n: Applied ${lang.toUpperCase()} translations`);
+    } translations`);
 }
 
 // Expose i18n interface for main.js
@@ -2209,12 +2209,12 @@ if (typeof window !== 'undefined') {
     window.i18n = window.i18n || {};
 
     window.i18n.setLanguage = function(lang) {
-        console.log('🌍 DALL-E vs Ideogram i18n: setLanguage(' + lang + ')');
+        ');
         if (translations[lang]) {
             applyTranslations(lang);
             localStorage.setItem('selectedLanguage', lang);
         } else {
-            console.warn('⚠️ Language not available: ' + lang + ', falling back to EN');
+            
             applyTranslations('en');
         }
     };
@@ -2235,7 +2235,7 @@ if (typeof window !== 'undefined') {
 
         if (translations[defaultLang]) {
             applyTranslations(defaultLang);
-            console.log('🌍 DALL-E vs Ideogram i18n initialized with: ' + defaultLang.toUpperCase());
+            );
         }
     });
 }

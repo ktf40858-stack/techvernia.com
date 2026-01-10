@@ -762,7 +762,7 @@ function getMemAiTranslation(key, lang) {
 }
 
 function applyMemAiTranslations(lang) {
-    console.log("Applying mem-ai translations for:", lang);
+    
     let count = 0;
     document.querySelectorAll("[data-i18n]").forEach(element => {
         const key = element.getAttribute("data-i18n");
@@ -774,7 +774,7 @@ function applyMemAiTranslations(lang) {
             }
         }
     });
-    console.log("Applied " + count + " mem-ai translations");
+    
 }
 
 window.addEventListener("languageChanged", (e) => {

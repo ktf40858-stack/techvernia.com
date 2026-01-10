@@ -3,7 +3,7 @@
  * Traduit ABSOLUMENT TOUT sauf les noms d'outils IA
  */
 
-console.log('🌍 COMPLETE TRANSLATE - Chargement...');
+
 
 // DICTIONNAIRE MASSIF - Français
 const FR = {
@@ -526,10 +526,10 @@ const NEVER = [
 
 // Traduire tout
 function translateAll(lang) {
-    console.log('🌍 COMPLETE TRANSLATE → ' + lang.toUpperCase());
+    );
 
     if (!lang || lang === 'en' || !DICT[lang]) {
-        console.log('⏭️  Pas de traduction nécessaire');
+        
         return;
     }
 
@@ -579,7 +579,7 @@ function translateAll(lang) {
         });
     });
 
-    console.log('✅ COMPLETE TRANSLATE: ' + count + ' éléments traduits');
+    
 }
 
 // Observer pour détecter les changements DOM
@@ -601,7 +601,7 @@ function observeDOM() {
         }
 
         if (shouldTranslate) {
-            console.log('🔄 Nouveau contenu détecté - Re-traduction...');
+            
             setTimeout(() => translateAll(currentLang), 100);
         }
     });
@@ -611,51 +611,51 @@ function observeDOM() {
         subtree: true
     });
 
-    console.log('👁️ Observer DOM activé');
+    
 }
 
 // Init
 function init() {
     if (!window.i18n || !window.i18n.getCurrentLanguage) {
-        console.log('⏳ En attente de i18n...');
+        
         setTimeout(init, 50);
         return;
     }
 
-    console.log('✅ COMPLETE TRANSLATE: Prêt');
+    
 
     // Activer l'observer DOM
     observeDOM();
 
     document.addEventListener('languageChanged', (e) => {
         currentLang = e.detail.language;
-        console.log('📡 Langue changée → ' + currentLang);
+        
         setTimeout(() => translateAll(currentLang), 100);
     });
 
     const lang = window.i18n.getCurrentLanguage();
     currentLang = lang;
-    console.log('🌍 Langue détectée au chargement: ' + lang);
+    
 
     if (lang && lang !== 'en') {
-        console.log('🔄 Déclenchement de la traduction en ' + lang);
+        
         // Traduire immédiatement après que le DOM soit prêt
         setTimeout(() => {
-            console.log('🚀 Exécution de translateAll(' + lang + ')');
+            ');
             translateAll(lang);
         }, 100);
     } else {
-        console.log('ℹ️  Langue = EN ou non définie, pas de traduction');
+        
     }
 }
 
 if (document.readyState === 'loading') {
-    console.log('📄 DOM en cours de chargement...');
+    
     document.addEventListener('DOMContentLoaded', init);
 } else {
-    console.log('📄 DOM déjà chargé, initialisation immédiate');
+    
     init();
 }
 
 window.completeTranslate = translateAll;
-console.log('✅ COMPLETE TRANSLATE: Chargé');
+

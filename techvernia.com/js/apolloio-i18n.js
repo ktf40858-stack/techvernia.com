@@ -840,7 +840,7 @@ function getApolloioTranslation(key, lang) {
 }
 
 function applyApolloioTranslations(lang) {
-  console.log(`Applying apolloio translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyApolloioTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} apolloio translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyApolloioTranslations(currentLang);
 }
 
-console.log('apolloio i18n loaded');
+

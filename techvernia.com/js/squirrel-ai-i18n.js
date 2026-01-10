@@ -877,7 +877,7 @@ function getSquirrelAiTranslation(key, lang) {
 }
 
 function applySquirrelAiTranslations(lang) {
-  console.log(`Applying squirrel-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applySquirrelAiTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} squirrel-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applySquirrelAiTranslations(currentLang);
 }
 
-console.log('squirrel-ai i18n loaded');
+

@@ -709,7 +709,7 @@ function applyProphetMetaTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} prophet-meta translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyProphetMetaTranslations(e.detail.language), 200));

@@ -1297,7 +1297,7 @@ function getCursorTranslation(key, lang) {
 }
 
 function applyCursorTranslations(lang) {
-    console.log('🔥 Applying cursor translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1309,7 +1309,7 @@ function applyCursorTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} cursor translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1327,4 +1327,4 @@ if (document.readyState === 'loading') {
     applyCursorTranslations(currentLang);
 }
 
-console.log('✅ cursor i18n loaded');
+

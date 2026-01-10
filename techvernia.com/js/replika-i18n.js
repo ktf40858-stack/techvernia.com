@@ -1124,7 +1124,7 @@ function getReplikaTranslation(key, lang) {
 }
 
 function applyReplikaTranslations(lang) {
-  console.log(`🔥 Applying replika translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyReplikaTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} replika translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyReplikaTranslations(currentLang);
 }
 
-console.log('✅ replika i18n loaded');
+

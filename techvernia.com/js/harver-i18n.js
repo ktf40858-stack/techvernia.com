@@ -1255,7 +1255,7 @@ function getHarverTranslation(key, lang) {
 }
 
 function applyHarverTranslations(lang) {
-  console.log(`🔥 Applying harver translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applyHarverTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} harver translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applyHarverTranslations(currentLang);
 }
 
-console.log('✅ harver i18n loaded');
+

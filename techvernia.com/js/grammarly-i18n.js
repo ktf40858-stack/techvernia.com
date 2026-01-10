@@ -854,7 +854,7 @@ function getGrammarlyTranslation(key, lang) {
 }
 
 function applyGrammarlyTranslations(lang) {
-  console.log(`🔥 Applying grammarly translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -866,7 +866,7 @@ function applyGrammarlyTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} grammarly translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -884,4 +884,4 @@ if (document.readyState === 'loading') {
   applyGrammarlyTranslations(currentLang);
 }
 
-console.log('✅ grammarly i18n loaded');
+

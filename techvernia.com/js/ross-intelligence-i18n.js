@@ -813,7 +813,7 @@ function getRossintelligenceTranslation(key, lang) {
 }
 
 function applyRossintelligenceTranslations(lang) {
-    console.log('Applying ross-intelligence translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyRossintelligenceTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} ross-intelligence translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyRossintelligenceTranslations(currentLang);
 }
 
-console.log('ross-intelligence i18n loaded');
+

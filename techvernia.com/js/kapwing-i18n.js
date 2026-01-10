@@ -942,7 +942,7 @@ function getKapwingTranslation(key, lang) {
 }
 
 function applyKapwingTranslations(lang) {
-    console.log('🔥 Applying kapwing translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -954,7 +954,7 @@ function applyKapwingTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} kapwing translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -969,4 +969,4 @@ if (document.readyState === 'loading') {
     applyKapwingTranslations(window.i18n ? window.i18n.getCurrentLanguage() : 'en');
 }
 
-console.log('✅ kapwing i18n loaded');
+

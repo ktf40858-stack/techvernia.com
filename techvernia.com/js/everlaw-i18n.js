@@ -813,7 +813,7 @@ function getEverlawTranslation(key, lang) {
 }
 
 function applyEverlawTranslations(lang) {
-    console.log('Applying everlaw translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyEverlawTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} everlaw translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyEverlawTranslations(currentLang);
 }
 
-console.log('everlaw i18n loaded');
+

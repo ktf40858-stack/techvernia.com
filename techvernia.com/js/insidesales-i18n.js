@@ -840,7 +840,7 @@ function getInsideSalesTranslation(key, lang) {
 }
 
 function applyInsideSalesTranslations(lang) {
-  console.log(`Applying insidesales translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyInsideSalesTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} insidesales translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyInsideSalesTranslations(currentLang);
 }
 
-console.log('insidesales i18n loaded');
+

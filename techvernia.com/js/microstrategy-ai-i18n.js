@@ -463,7 +463,7 @@ function getMicrostrategyaiTranslation(key, lang) {
 }
 
 function applyMicrostrategyaiTranslations(lang) {
-    console.log('Applying microstrategy-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -475,7 +475,7 @@ function applyMicrostrategyaiTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} microstrategy-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -493,4 +493,4 @@ if (document.readyState === 'loading') {
     applyMicrostrategyaiTranslations(currentLang);
 }
 
-console.log('microstrategy-ai i18n loaded');
+

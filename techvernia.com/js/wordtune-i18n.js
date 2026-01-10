@@ -864,7 +864,7 @@ function getWordtuneTranslation(key, lang) {
 }
 
 function applyWordtuneTranslations(lang) {
-  console.log(`🔥 Applying wordtune translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -876,7 +876,7 @@ function applyWordtuneTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} wordtune translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -894,4 +894,4 @@ if (document.readyState === 'loading') {
   applyWordtuneTranslations(currentLang);
 }
 
-console.log('✅ wordtune i18n loaded');
+

@@ -1006,7 +1006,7 @@ function applyAlteryxAiTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} alteryx-ai translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyAlteryxAiTranslations(e.detail.language), 200));

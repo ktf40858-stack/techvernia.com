@@ -884,7 +884,7 @@ function getResearchrabbitTranslation(key, lang) {
 }
 
 function applyResearchrabbitTranslations(lang) {
-  console.log(`🔥 Applying researchrabbit translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -896,7 +896,7 @@ function applyResearchrabbitTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} researchrabbit translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -914,4 +914,4 @@ if (document.readyState === 'loading') {
   applyResearchrabbitTranslations(currentLang);
 }
 
-console.log('✅ researchrabbit i18n loaded');
+

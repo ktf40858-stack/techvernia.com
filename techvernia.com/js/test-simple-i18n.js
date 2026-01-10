@@ -84,7 +84,7 @@ function getTestsimpleTranslation(key, lang) {
 }
 
 function applyTestsimpleTranslations(lang) {
-  console.log(`🔥 Applying test-simple translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -96,7 +96,7 @@ function applyTestsimpleTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} test-simple translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -114,4 +114,4 @@ if (document.readyState === 'loading') {
   applyTestsimpleTranslations(currentLang);
 }
 
-console.log('✅ test-simple i18n loaded');
+

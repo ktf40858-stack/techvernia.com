@@ -21,7 +21,7 @@ function getSplunkTranslation(key, lang) {
 }
 
 function applySplunkTranslations(lang) {
-    console.log('Applying splunk translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -33,7 +33,7 @@ function applySplunkTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} splunk translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -51,4 +51,4 @@ if (document.readyState === 'loading') {
     applySplunkTranslations(currentLang);
 }
 
-console.log('splunk i18n loaded');
+

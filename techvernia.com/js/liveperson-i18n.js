@@ -823,7 +823,7 @@ function getLivepersonTranslation(key, lang) {
 }
 
 function applyLivepersonTranslations(lang) {
-  console.log(`🔥 Applying liveperson translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -835,7 +835,7 @@ function applyLivepersonTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} liveperson translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -853,4 +853,4 @@ if (document.readyState === 'loading') {
   applyLivepersonTranslations(currentLang);
 }
 
-console.log('✅ liveperson i18n loaded');
+

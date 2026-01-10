@@ -902,7 +902,7 @@ function getAhrefsTranslation(key, lang) {
 }
 
 function applyAhrefsTranslations(lang) {
-    console.log('Applying ahrefs translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -914,7 +914,7 @@ function applyAhrefsTranslations(lang) {
             }
         }
     });
-    console.log();
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -932,4 +932,4 @@ if (document.readyState === 'loading') {
     applyAhrefsTranslations(currentLang);
 }
 
-console.log('Ahrefs i18n loaded');
+

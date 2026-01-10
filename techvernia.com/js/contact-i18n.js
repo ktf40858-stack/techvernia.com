@@ -1,7 +1,7 @@
 // Contact Page - Multilingual Translations
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('📦 contact-i18n.js loaded');
+
 
 const contactTranslations = {
     en: {
@@ -547,26 +547,26 @@ const contactTranslations = {
 
 // Language selector implementation
 function initContactI18n() {
-    console.log('🌍 Contact i18n initializing...');
+    
     const currentLang = localStorage.getItem('selectedLanguage') || 'en';
-    console.log('📍 Current language:', currentLang);
+    
     applyContactTranslations(currentLang);
 
     // Listen for language changes
     document.addEventListener('languageChanged', (e) => {
-        console.log('🔄 Language changed to:', e.detail.language);
+        
         applyContactTranslations(e.detail.language);
     });
-    console.log('✅ Contact i18n initialized successfully');
+    
 }
 
 function applyContactTranslations(lang) {
-    console.log('🔧 Applying translations for language:', lang);
+    
     const t = contactTranslations[lang] || contactTranslations.en;
 
     // Update page title and meta
     document.title = t.pageTitle;
-    console.log('📄 Page title updated:', t.pageTitle);
+    
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.content = t.metaDescription;
 

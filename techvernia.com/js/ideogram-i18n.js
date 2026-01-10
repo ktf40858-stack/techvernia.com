@@ -3364,7 +3364,7 @@ function getIdeogramTranslation(key, lang) {
 
 // Appliquer les traductions ideogram
 function applyIdeogramTranslations(lang) {
-    console.log('🔥 Applying ideogram translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -3380,7 +3380,7 @@ function applyIdeogramTranslations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} ideogram translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -3400,4 +3400,4 @@ if (document.readyState === 'loading') {
     applyIdeogramTranslations(currentLang);
 }
 
-console.log('✅ ideogram i18n loaded');
+

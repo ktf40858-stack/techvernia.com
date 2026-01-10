@@ -1026,7 +1026,7 @@ function applyPaigeAiTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} paige-ai translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyPaigeAiTranslations(e.detail.language), 200));

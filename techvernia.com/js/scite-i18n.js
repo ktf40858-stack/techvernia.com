@@ -884,7 +884,7 @@ function getSciteTranslation(key, lang) {
 }
 
 function applySciteTranslations(lang) {
-  console.log(`🔥 Applying scite translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -896,7 +896,7 @@ function applySciteTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} scite translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -914,4 +914,4 @@ if (document.readyState === 'loading') {
   applySciteTranslations(currentLang);
 }
 
-console.log('✅ scite i18n loaded');
+

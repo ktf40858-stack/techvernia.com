@@ -766,7 +766,7 @@ function applyVectraAiTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} vectra-ai translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyVectraAiTranslations(e.detail.language), 200));

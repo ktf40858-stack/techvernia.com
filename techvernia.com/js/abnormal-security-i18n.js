@@ -766,7 +766,7 @@ function applyAbnormalSecurityTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} abnormal-security translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyAbnormalSecurityTranslations(e.detail.language), 200));

@@ -974,7 +974,7 @@ function getSystranTranslation(key, lang) {
 }
 
 function applySystranTranslations(lang) {
-  console.log(`🔥 Applying systran translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -986,7 +986,7 @@ function applySystranTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} systran translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1004,4 +1004,4 @@ if (document.readyState === 'loading') {
   applySystranTranslations(currentLang);
 }
 
-console.log('✅ systran i18n loaded');
+

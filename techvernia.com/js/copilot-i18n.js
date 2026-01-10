@@ -844,7 +844,7 @@ function getCopilotTranslation(key, lang) {
 }
 
 function applyCopilotTranslations(lang) {
-  console.log(`🔥 Applying copilot translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -856,7 +856,7 @@ function applyCopilotTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} copilot translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -874,4 +874,4 @@ if (document.readyState === 'loading') {
   applyCopilotTranslations(currentLang);
 }
 
-console.log('✅ copilot i18n loaded');
+

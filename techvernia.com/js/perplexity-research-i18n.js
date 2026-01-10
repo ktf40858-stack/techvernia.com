@@ -884,7 +884,7 @@ function getPerplexityresearchTranslation(key, lang) {
 }
 
 function applyPerplexityresearchTranslations(lang) {
-  console.log(`🔥 Applying perplexity-research translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -896,7 +896,7 @@ function applyPerplexityresearchTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} perplexity-research translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -914,4 +914,4 @@ if (document.readyState === 'loading') {
   applyPerplexityresearchTranslations(currentLang);
 }
 
-console.log('✅ perplexity-research i18n loaded');
+

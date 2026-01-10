@@ -3,14 +3,12 @@
  * Self-contained translation system for this comparison page
  */
 
-console.log('[2/2] midjourney-vs-dalle-standalone-i18n.js loading...');
+
 
 // Load translations
 const translations = window.midjourneyVsDalleTranslations || {};
 
-console.log('[2/2] Checking translations:', {
-    available: !!window.midjourneyVsDalleTranslations,
-    languages: Object.keys(translations).length,
+.length,
     keys: translations.en ? Object.keys(translations.en).length : 0
 });
 
@@ -30,23 +28,23 @@ const languages = {
 
 let currentLanguage = localStorage.getItem('language') || sessionStorage.getItem('language') || 'en';
 
-console.log('[Midjourney vs DALL-E i18n] Initializing...');
-console.log('Current language:', currentLanguage);
+
+
 
 function getTranslation(key) {
     if (translations[currentLanguage] && translations[currentLanguage][key]) {
         return translations[currentLanguage][key];
     }
     if (translations.en && translations.en[key]) {
-        console.warn(`Translation missing for "${key}" in ${currentLanguage}, using English`);
+        
         return translations.en[key];
     }
-    console.warn(`Translation not found for key: "${key}"`);
+    
     return key;
 }
 
 function translatePage() {
-    console.log('[translatePage] Starting translation to:', currentLanguage);
+    
     let count = 0;
 
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -104,14 +102,14 @@ function translatePage() {
         }
     }
 
-    console.log(`[translatePage] Translated ${count} elements`);
+    
 }
 
 function setLanguage(lang) {
-    console.log('[setLanguage] Switching to:', lang);
+    
 
     if (!translations[lang] || Object.keys(translations[lang]).length === 0) {
-        console.warn(`Language '${lang}' not available, falling back to English`);
+        
         lang = 'en';
     }
 
@@ -120,9 +118,9 @@ function setLanguage(lang) {
     try {
         localStorage.setItem('language', lang);
         sessionStorage.setItem('language', lang);
-        console.log('Language saved to storage:', lang);
+        
     } catch (e) {
-        console.warn('Could not save to storage');
+        
     }
 
     document.documentElement.dir = languages[lang].dir;
@@ -135,7 +133,7 @@ function setLanguage(lang) {
         detail: { language: lang }
     }));
 
-    console.log('[setLanguage] Language switched to:', lang);
+    
 }
 
 function updateLanguageSelector(lang) {
@@ -155,11 +153,11 @@ function setupLanguageSelector() {
     const langSelector = document.querySelector('.language-selector');
 
     if (!langBtn || !langDropdown || !langSelector) {
-        console.warn('Language selector elements not found');
+        
         return;
     }
 
-    console.log('Setting up language selector');
+    
 
     langBtn.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -179,7 +177,7 @@ function setupLanguageSelector() {
         });
     });
 
-    console.log('Language selector setup complete');
+    
 }
 
 function getCurrentLanguage() {
@@ -187,19 +185,19 @@ function getCurrentLanguage() {
 }
 
 function initI18n() {
-    console.log('[initI18n] Initializing Midjourney vs DALL-E i18n');
-    console.log('Available languages:', Object.keys(translations).length);
-    console.log('Current language:', currentLanguage);
+    
+    .length);
+    
 
     if (Object.keys(translations).length === 0) {
-        console.error('No translations loaded! Make sure midjourney-vs-dalle-i18n.js is loaded first.');
+        
         return;
     }
 
     setupLanguageSelector();
     setLanguage(currentLanguage);
 
-    console.log('[initI18n] Initialization complete');
+    
 }
 
 window.midjourneyVsDalleI18n = {
@@ -214,7 +212,7 @@ window.midjourneyVsDalleI18n = {
 // Override main.js LanguageSelector
 window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
-        console.log('Overriding main.js language selector with standalone i18n');
+        
 
         document.querySelectorAll('.lang-option').forEach(option => {
             const newOption = option.cloneNode(true);
@@ -232,7 +230,7 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        console.log('Language selector override complete');
+        
     }, 100);
 });
 
@@ -242,4 +240,4 @@ if (document.readyState === 'loading') {
     initI18n();
 }
 
-console.log('[2/2] Midjourney vs DALL-E standalone i18n loaded');
+

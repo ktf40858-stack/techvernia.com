@@ -786,7 +786,7 @@ function applyLaceworkTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} lacework translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyLaceworkTranslations(e.detail.language), 200));

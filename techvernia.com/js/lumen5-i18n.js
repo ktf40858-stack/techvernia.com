@@ -972,7 +972,7 @@ function getLumen5Translation(key, lang) {
 }
 
 function applyLumen5Translations(lang) {
-    console.log('🔥 Applying lumen5 translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -984,7 +984,7 @@ function applyLumen5Translations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} lumen5 translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -999,4 +999,4 @@ if (document.readyState === 'loading') {
     applyLumen5Translations(window.i18n ? window.i18n.getCurrentLanguage() : 'en');
 }
 
-console.log('✅ lumen5 i18n loaded');
+

@@ -21,7 +21,7 @@ function getCiscoAiTranslation(key, lang) {
 }
 
 function applyCiscoAiTranslations(lang) {
-    console.log('Applying cisco-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -33,7 +33,7 @@ function applyCiscoAiTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} cisco-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -51,4 +51,4 @@ if (document.readyState === 'loading') {
     applyCiscoAiTranslations(currentLang);
 }
 
-console.log('cisco-ai i18n loaded');
+

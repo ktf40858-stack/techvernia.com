@@ -974,7 +974,7 @@ function getMicrosofttranslatorTranslation(key, lang) {
 }
 
 function applyMicrosofttranslatorTranslations(lang) {
-  console.log(`🔥 Applying microsoft-translator translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -986,7 +986,7 @@ function applyMicrosofttranslatorTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} microsoft-translator translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1004,4 +1004,4 @@ if (document.readyState === 'loading') {
   applyMicrosofttranslatorTranslations(currentLang);
 }
 
-console.log('✅ microsoft-translator i18n loaded');
+

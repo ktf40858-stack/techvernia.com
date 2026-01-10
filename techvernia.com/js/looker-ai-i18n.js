@@ -808,7 +808,7 @@ function applyLookerAiTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} looker-ai translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyLookerAiTranslations(e.detail.language), 200));

@@ -3,7 +3,7 @@
    Core functionality and interactions
    ============================================ */
 
-console.log('⚙️ main.js loaded');
+
 
 // ============================================
 // DOM Elements
@@ -236,7 +236,7 @@ class SearchModal {
     handleSearch(query) {
         // Implement search logic here
         // This is a placeholder for actual search functionality
-        console.log('Searching for:', query);
+        
 
         // You could implement:
         // - Client-side search through tool data
@@ -404,10 +404,7 @@ class AffiliateTracker {
         const destination = link.href;
 
         // Log affiliate click (replace with actual analytics)
-        console.log('Affiliate click:', {
-            tool: toolName,
-            destination: destination,
-            timestamp: new Date().toISOString()
+        .toISOString()
         });
 
         // You could send this to:
@@ -470,7 +467,7 @@ class LazyLoader {
 // ============================================
 class LanguageSelector {
     constructor() {
-        console.log('🌐 LanguageSelector constructor called');
+        
         this.selector = document.querySelector('.language-selector');
         this.langBtn = document.getElementById('lang-btn');
         this.langDropdown = document.getElementById('lang-dropdown');
@@ -480,31 +477,25 @@ class LanguageSelector {
         // Read from 'language' to match i18n.js
         this.currentLang = localStorage.getItem('language') || sessionStorage.getItem('language') || 'en';
 
-        console.log('🔍 Elements found:', {
-            selector: !!this.selector,
-            langBtn: !!this.langBtn,
-            langDropdown: !!this.langDropdown,
-            langOptions: this.langOptions.length,
-            langCurrent: !!this.langCurrent
-        });
+        
 
         this.init();
     }
 
     init() {
         if (!this.selector || !this.langBtn || !this.langDropdown) {
-            console.warn('⚠️ LanguageSelector elements not found - skipping initialization');
+            
             return;
         }
 
-        console.log('⚙️ Setting up LanguageSelector event listeners');
+        
         this.setupEventListeners();
         this.updateCurrentLanguage();
 
         // Apply saved language on page load
         this.applyCurrentLanguage();
 
-        console.log('✅ LanguageSelector initialized successfully');
+        
     }
 
     setupEventListeners() {
@@ -549,17 +540,17 @@ class LanguageSelector {
     open() {
         this.isOpen = true;
         this.selector.classList.add('active');
-        console.log('🔓 Dropdown opened');
+        
     }
 
     close() {
         this.isOpen = false;
         this.selector.classList.remove('active');
-        console.log('🔒 Dropdown closed');
+        
     }
 
     selectLanguage(lang) {
-        console.log('🎯 Language selected:', lang);
+        
         this.currentLang = lang;
 
         // Save to localStorage using the same key as i18n.js
@@ -578,15 +569,15 @@ class LanguageSelector {
 
         // Call i18n.setLanguage to translate the page and update all links
         if (window.i18n && window.i18n.setLanguage) {
-            console.log('🌍 Calling window.i18n.setLanguage(' + lang + ')');
+            ');
             window.i18n.setLanguage(lang);
         } else {
-            console.warn('⚠️ window.i18n.setLanguage not available');
+            
             // Fallback: Dispatch event for i18n files to listen to
             const event = new CustomEvent('languageChanged', {
                 detail: { language: lang }
             });
-            console.log('📢 Dispatching languageChanged event:', lang);
+            
             document.dispatchEvent(event);
         }
 
@@ -619,7 +610,7 @@ class LanguageSelector {
     }
 
     applyCurrentLanguage() {
-        console.log('🌍 Applying saved language on page load:', this.currentLang);
+        
 
         // Wait a bit to ensure all i18n scripts are loaded
         setTimeout(() => {
@@ -634,7 +625,7 @@ class LanguageSelector {
                 window.i18n.setLanguage(this.currentLang);
             }
 
-            console.log('✅ Language applied:', this.currentLang);
+            
         }, 100);
     }
 }
@@ -737,7 +728,7 @@ class PerformanceMonitor {
             const observer = new PerformanceObserver((list) => {
                 const entries = list.getEntries();
                 const lastEntry = entries[entries.length - 1];
-                console.log('LCP:', lastEntry.startTime);
+                
             });
             observer.observe({ type: 'largest-contentful-paint', buffered: true });
         } catch (e) {
@@ -750,7 +741,7 @@ class PerformanceMonitor {
             const observer = new PerformanceObserver((list) => {
                 const entries = list.getEntries();
                 entries.forEach(entry => {
-                    console.log('FID:', entry.processingStart - entry.startTime);
+                    
                 });
             });
             observer.observe({ type: 'first-input', buffered: true });
@@ -769,7 +760,7 @@ class PerformanceMonitor {
                         clsValue += entry.value;
                     }
                 });
-                console.log('CLS:', clsValue);
+                
             });
             observer.observe({ type: 'layout-shift', buffered: true });
         } catch (e) {
@@ -802,8 +793,8 @@ function initApp() {
         new PerformanceMonitor();
     }
 
-    console.log('✅ TechVernia initialized');
-    console.log('📊 All modules loaded successfully');
+    
+    
 }
 
 // Initialize when DOM is ready

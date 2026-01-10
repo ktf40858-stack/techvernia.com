@@ -1152,7 +1152,7 @@ function getPlayhtTranslation(key, lang) {
 }
 
 function applyPlayhtTranslations(lang) {
-    console.log('🔥 Applying playht translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1164,7 +1164,7 @@ function applyPlayhtTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} playht translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1182,4 +1182,4 @@ if (document.readyState === 'loading') {
     applyPlayhtTranslations(currentLang);
 }
 
-console.log('✅ playht i18n loaded');
+

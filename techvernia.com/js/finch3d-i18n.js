@@ -1456,7 +1456,7 @@ function applyFinch3dTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} finch3d translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyFinch3dTranslations(e.detail.language), 200));

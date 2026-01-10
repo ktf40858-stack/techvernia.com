@@ -1124,7 +1124,7 @@ function getAzurequantumTranslation(key, lang) {
 }
 
 function applyAzurequantumTranslations(lang) {
-  console.log(`🔥 Applying azure-quantum translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyAzurequantumTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} azure-quantum translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyAzurequantumTranslations(currentLang);
 }
 
-console.log('✅ azure-quantum i18n loaded');
+

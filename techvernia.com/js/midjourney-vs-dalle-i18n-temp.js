@@ -1,4 +1,4 @@
-console.log("[1/2] midjourney-vs-dalle-i18n.js loading...");
+
 
 const midjourneyVsDalleTranslations = {
     en: {

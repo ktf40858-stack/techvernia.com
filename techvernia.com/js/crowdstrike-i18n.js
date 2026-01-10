@@ -536,7 +536,7 @@ function applyCrowdstrikeTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} crowdstrike translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyCrowdstrikeTranslations(e.detail.language), 200));

@@ -796,7 +796,7 @@ function applyExabeamTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} exabeam translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyExabeamTranslations(e.detail.language), 200));

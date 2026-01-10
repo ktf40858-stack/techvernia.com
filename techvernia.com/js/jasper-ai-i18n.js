@@ -734,7 +734,7 @@ function getJasperaiTranslation(key, lang) {
 }
 
 function applyJasperaiTranslations(lang) {
-  console.log(`🔥 Applying jasper-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -746,7 +746,7 @@ function applyJasperaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} jasper-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -764,4 +764,4 @@ if (document.readyState === 'loading') {
   applyJasperaiTranslations(currentLang);
 }
 
-console.log('✅ jasper-ai i18n loaded');
+

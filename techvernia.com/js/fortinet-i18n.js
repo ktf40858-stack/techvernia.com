@@ -526,7 +526,7 @@ function applyFortinetTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} fortinet translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyFortinetTranslations(e.detail.language), 200));

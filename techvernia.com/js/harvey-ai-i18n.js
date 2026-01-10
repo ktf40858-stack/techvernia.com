@@ -813,7 +813,7 @@ function getHarveyaiTranslation(key, lang) {
 }
 
 function applyHarveyaiTranslations(lang) {
-    console.log('Applying harvey-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyHarveyaiTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} harvey-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyHarveyaiTranslations(currentLang);
 }
 
-console.log('harvey-ai i18n loaded');
+

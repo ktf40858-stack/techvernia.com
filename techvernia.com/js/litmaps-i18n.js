@@ -884,7 +884,7 @@ function getLitmapsTranslation(key, lang) {
 }
 
 function applyLitmapsTranslations(lang) {
-  console.log(`🔥 Applying litmaps translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -896,7 +896,7 @@ function applyLitmapsTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} litmaps translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -914,4 +914,4 @@ if (document.readyState === 'loading') {
   applyLitmapsTranslations(currentLang);
 }
 
-console.log('✅ litmaps i18n loaded');
+

@@ -813,7 +813,7 @@ function getYellowaiTranslation(key, lang) {
 }
 
 function applyYellowaiTranslations(lang) {
-  console.log(`🔥 Applying yellowai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyYellowaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} yellowai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
   applyYellowaiTranslations(currentLang);
 }
 
-console.log('✅ yellowai i18n loaded');
+

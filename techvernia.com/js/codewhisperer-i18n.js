@@ -1345,7 +1345,7 @@ function getCodeWhispererTranslation(key, lang) {
 }
 
 function applyCodeWhispererTranslations(lang) {
-    console.log('🔥 Applying codewhisperer translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1357,7 +1357,7 @@ function applyCodeWhispererTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} codewhisperer translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1375,4 +1375,4 @@ if (document.readyState === 'loading') {
     applyCodeWhispererTranslations(currentLang);
 }
 
-console.log('✅ codewhisperer i18n loaded');
+

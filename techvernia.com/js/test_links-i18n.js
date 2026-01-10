@@ -104,7 +104,7 @@ function getTest_linksTranslation(key, lang) {
 }
 
 function applyTest_linksTranslations(lang) {
-  console.log(`🔥 Applying test_links translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -116,7 +116,7 @@ function applyTest_linksTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} test_links translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -134,4 +134,4 @@ if (document.readyState === 'loading') {
   applyTest_linksTranslations(currentLang);
 }
 
-console.log('✅ test_links i18n loaded');
+

@@ -1255,7 +1255,7 @@ function getEightfoldaiTranslation(key, lang) {
 }
 
 function applyEightfoldaiTranslations(lang) {
-  console.log(`🔥 Applying eightfold-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applyEightfoldaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} eightfold-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applyEightfoldaiTranslations(currentLang);
 }
 
-console.log('✅ eightfold-ai i18n loaded');
+

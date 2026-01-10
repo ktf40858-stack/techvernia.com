@@ -1124,7 +1124,7 @@ function getIbmquantumTranslation(key, lang) {
 }
 
 function applyIbmquantumTranslations(lang) {
-  console.log(`🔥 Applying ibm-quantum translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyIbmquantumTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} ibm-quantum translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyIbmquantumTranslations(currentLang);
 }
 
-console.log('✅ ibm-quantum i18n loaded');
+

@@ -776,7 +776,7 @@ function applyCarbonBlackTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} carbon-black translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyCarbonBlackTranslations(e.detail.language), 200));

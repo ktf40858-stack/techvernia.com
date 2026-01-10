@@ -794,7 +794,7 @@ function getFirefliesaiTranslation(key, lang) {
 }
 
 function applyFirefliesaiTranslations(lang) {
-  console.log(`🔥 Applying firefliesai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -806,7 +806,7 @@ function applyFirefliesaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} firefliesai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -824,4 +824,4 @@ if (document.readyState === 'loading') {
   applyFirefliesaiTranslations(currentLang);
 }
 
-console.log('✅ firefliesai i18n loaded');
+

@@ -536,7 +536,7 @@ function applyMicrosoftSentinelTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} microsoft-sentinel translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyMicrosoftSentinelTranslations(e.detail.language), 200));

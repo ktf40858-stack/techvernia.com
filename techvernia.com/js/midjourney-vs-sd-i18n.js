@@ -1435,7 +1435,7 @@ if (typeof window !== 'undefined') {
     window.i18n = window.i18n || {};
 
     window.i18n.setLanguage = function(lang) {
-        console.log('🌍 Midjourney vs SD i18n: setLanguage(' + lang + ')');
+        ');
         if (translations[lang]) {
             applyTranslations(lang);
             localStorage.setItem('selectedLanguage', lang);
@@ -1450,11 +1450,11 @@ if (typeof window !== 'undefined') {
 
 function applyTranslations(lang) {
     if (!translations[lang]) {
-        console.warn('⚠️ Language not found: ' + lang);
+        
         return;
     }
 
-    console.log('🔄 Applying translations for: ' + lang);
+    
 
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(el => {
@@ -1474,18 +1474,18 @@ function applyTranslations(lang) {
         document.title = translations[lang].pageTitle + " | TechVernia";
     }
 
-    console.log('✅ Translations applied successfully');
+    
 }
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('📄 Midjourney vs SD i18n: DOMContentLoaded');
+    
 
     const savedLang = localStorage.getItem('selectedLanguage') || 'en';
     const urlParams = new URLSearchParams(window.location.search);
     const currentLang = urlParams.get('lang') || savedLang;
 
-    console.log('🔍 Current language: ' + currentLang);
+    
 
     if (translations[currentLang]) {
         applyTranslations(currentLang);

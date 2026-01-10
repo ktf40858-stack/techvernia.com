@@ -877,7 +877,7 @@ function getCourseraCoachTranslation(key, lang) {
 }
 
 function applyCourseraCoachTranslations(lang) {
-  console.log(`Applying coursera-coach translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applyCourseraCoachTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} coursera-coach translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applyCourseraCoachTranslations(currentLang);
 }
 
-console.log('coursera-coach i18n loaded');
+

@@ -2,7 +2,7 @@
 // 10 Languages: EN, ES, FR, DE, PT (full), ZH, JA, KO, AR, HI (basic)
 // 82 translation keys
 
-console.log('📦 aiops-monitoring-i18n.js loaded');
+
 
 const articleTranslations = {
     en: {
@@ -825,24 +825,24 @@ const articleTranslations = {
 
 // Merge with global translations object
 if (typeof translations !== 'undefined') {
-    console.log('[i18n] Merging aiops-monitoring translations with global translations');
+    
     Object.keys(articleTranslations).forEach(lang => {
         if (!translations[lang]) {
             translations[lang] = {};
         }
         Object.assign(translations[lang], articleTranslations[lang]);
     });
-    console.log('[i18n] ✅ Merged successfully - translations object now has article-specific keys');
+    
 
     // Force re-translate the page with the new translations
     if (typeof translatePage === 'function' && typeof setLanguage === 'function') {
         const currentLang = localStorage.getItem('language') || 'en';
-        console.log('[i18n] 🔄 Re-translating page with merged translations for:', currentLang);
+        
         setTimeout(() => {
             setLanguage(currentLang);  // Set the language first
             translatePage();           // Then translate
         }, 100);
     }
 } else {
-    console.warn('[i18n] ⚠️ Global translations object not found - creating standalone');
+    
 }

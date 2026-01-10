@@ -2253,7 +2253,7 @@ function getAdobeFireflyTranslation(key, lang) {
 
 // Appliquer les traductions adobe-firefly
 function applyAdobeFireflyTranslations(lang) {
-    console.log('🔥 Applying adobe-firefly translations for:', lang);
+    
 
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -2269,7 +2269,7 @@ function applyAdobeFireflyTranslations(lang) {
         }
     });
 
-    console.log(`✅ Applied ${count} adobe-firefly translations`);
+    
 }
 
 // Auto-appliquer quand la langue change
@@ -2289,4 +2289,4 @@ if (document.readyState === 'loading') {
     applyAdobeFireflyTranslations(currentLang);
 }
 
-console.log('✅ adobe-firefly i18n loaded');
+

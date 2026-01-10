@@ -830,7 +830,7 @@ function getSalesforceEinsteinGPTTranslation(key, lang) {
 }
 
 function applySalesforceEinsteinGPTTranslations(lang) {
-  console.log(`Applying salesforce-einstein-gpt translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -842,7 +842,7 @@ function applySalesforceEinsteinGPTTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} salesforce-einstein-gpt translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -860,4 +860,4 @@ if (document.readyState === 'loading') {
   applySalesforceEinsteinGPTTranslations(currentLang);
 }
 
-console.log('salesforce-einstein-gpt i18n loaded');
+

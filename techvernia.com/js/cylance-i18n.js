@@ -786,7 +786,7 @@ function applyCylanceTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} cylance translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyCylanceTranslations(e.detail.language), 200));

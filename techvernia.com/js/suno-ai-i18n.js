@@ -1142,7 +1142,7 @@ function getSunoAiTranslation(key, lang) {
 }
 
 function applySunoAiTranslations(lang) {
-    console.log('🔥 Applying suno-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1154,7 +1154,7 @@ function applySunoAiTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} suno-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1172,4 +1172,4 @@ if (document.readyState === 'loading') {
     applySunoAiTranslations(currentLang);
 }
 
-console.log('✅ suno-ai i18n loaded');
+

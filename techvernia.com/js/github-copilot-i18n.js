@@ -996,7 +996,7 @@ function getGithubCopilotTranslation(key, lang) {
 }
 
 function applyGithubCopilotTranslations(lang) {
-    console.log('🔥 Applying github-copilot translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1008,7 +1008,7 @@ function applyGithubCopilotTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} github-copilot translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1026,4 +1026,4 @@ if (document.readyState === 'loading') {
     applyGithubCopilotTranslations(currentLang);
 }
 
-console.log('✅ github-copilot i18n loaded');
+

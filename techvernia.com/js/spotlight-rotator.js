@@ -11,14 +11,14 @@ class SpotlightRotator {
         this.rotationDelay = 15000; // 15 seconds per tool
         this.previousIndex = -1;
 
-        console.log('SpotlightRotator initialized with', this.items.length, 'items');
+        
 
         // Start with a random AI tool
         this.currentIndex = Math.floor(Math.random() * this.items.length);
-        console.log('Starting with item index:', this.currentIndex);
+        
 
         if (this.items.length === 0) {
-            console.warn('No spotlight items found!');
+            
             return;
         }
 
@@ -28,7 +28,7 @@ class SpotlightRotator {
     }
 
     showInitialSlide() {
-        console.log('Showing initial slide at index:', this.currentIndex);
+        
         // Remove all active classes first
         this.items.forEach(item => item.classList.remove('active'));
         this.dots.forEach(dot => dot.classList.remove('active'));
@@ -37,7 +37,7 @@ class SpotlightRotator {
         this.items[this.currentIndex].classList.add('active');
         this.dots[this.currentIndex].classList.add('active');
         this.previousIndex = this.currentIndex;
-        console.log('Initial slide shown');
+        
     }
 
     init() {
@@ -81,18 +81,18 @@ class SpotlightRotator {
             nextIndex = Math.floor(Math.random() * this.items.length);
         } while (nextIndex === this.currentIndex && this.items.length > 1);
 
-        console.log('Transitioning from', this.currentIndex, 'to', nextIndex);
+        
         this.goToSlide(nextIndex);
     }
 
     startRotation() {
         if (this.interval) {
-            console.log('Rotation already running');
+            
             return; // Already running
         }
-        console.log('Starting rotation with delay:', this.rotationDelay, 'ms');
+        
         this.interval = setInterval(() => this.next(), this.rotationDelay);
-        console.log('Interval ID:', this.interval);
+        
     }
 
     pauseRotation() {

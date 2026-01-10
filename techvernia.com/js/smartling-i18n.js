@@ -974,7 +974,7 @@ function getSmartlingTranslation(key, lang) {
 }
 
 function applySmartlingTranslations(lang) {
-  console.log(`🔥 Applying smartling translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -986,7 +986,7 @@ function applySmartlingTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} smartling translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1004,4 +1004,4 @@ if (document.readyState === 'loading') {
   applySmartlingTranslations(currentLang);
 }
 
-console.log('✅ smartling i18n loaded');
+

@@ -94,7 +94,7 @@ function getTestdebugTranslation(key, lang) {
 }
 
 function applyTestdebugTranslations(lang) {
-  console.log(`🔥 Applying test-debug translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -106,7 +106,7 @@ function applyTestdebugTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} test-debug translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -124,4 +124,4 @@ if (document.readyState === 'loading') {
   applyTestdebugTranslations(currentLang);
 }
 
-console.log('✅ test-debug i18n loaded');
+

@@ -1,7 +1,7 @@
 // AI History Page - Multilingual Translations
 // 10 Languages: EN, FR, ES, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('📦 i18n-ai-history.js loaded');
+
 
 const aiHistoryTranslations = {
     en: {
@@ -2625,11 +2625,11 @@ const aiHistoryTranslations = {
 
 // Translation function with debug logging
 function translateAIHistory(lang) {
-    console.log('🌍 translateAIHistory called with language:', lang);
+    
 
     const translations = aiHistoryTranslations[lang] || aiHistoryTranslations.en;
     const elements = document.querySelectorAll('[data-i18n]');
-    console.log('📄 Found', elements.length, 'elements with data-i18n attribute');
+    
 
     let translatedCount = 0;
     let skippedCount = 0;
@@ -2640,26 +2640,26 @@ function translateAIHistory(lang) {
             element.textContent = translations[key];
             translatedCount++;
         } else {
-            console.log('⚠️ No translation found for key:', key, 'in language:', lang);
+            
             skippedCount++;
         }
     });
 
-    console.log('✅ Translated', translatedCount, 'elements');
-    console.log('⏭️ Skipped', skippedCount, 'elements');
-    console.log('🔧 Available languages:', Object.keys(aiHistoryTranslations));
+    
+    
+    );
 }
 
 // Initialize translation on page load
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('📱 DOMContentLoaded event fired for AI History page');
+    
     const currentLang = localStorage.getItem('selectedLanguage') || 'en';
-    console.log('💾 Current language from localStorage:', currentLang);
+    
     translateAIHistory(currentLang);
 });
 
 // Listen for language changes from main.js
 document.addEventListener('languageChanged', (event) => {
-    console.log('🔄 languageChanged event received:', event.detail.language);
+    
     translateAIHistory(event.detail.language);
 });

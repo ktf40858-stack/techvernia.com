@@ -1032,7 +1032,7 @@ function getCodeiumTranslation(key, lang) {
 }
 
 function applyCodeiumTranslations(lang) {
-    console.log('🔥 Applying codeium translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1044,7 +1044,7 @@ function applyCodeiumTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} codeium translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1062,4 +1062,3 @@ if (document.readyState === 'loading') {
     applyCodeiumTranslations(currentLang);
 }
 
-console.log('✅ codeium i18n loaded');

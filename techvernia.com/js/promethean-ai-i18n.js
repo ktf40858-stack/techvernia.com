@@ -1124,7 +1124,7 @@ function getPrometheanaiTranslation(key, lang) {
 }
 
 function applyPrometheanaiTranslations(lang) {
-  console.log(`🔥 Applying promethean-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1136,7 +1136,7 @@ function applyPrometheanaiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} promethean-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1154,4 +1154,4 @@ if (document.readyState === 'loading') {
   applyPrometheanaiTranslations(currentLang);
 }
 
-console.log('✅ promethean-ai i18n loaded');
+

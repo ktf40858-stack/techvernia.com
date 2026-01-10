@@ -7,7 +7,7 @@
 (function() {
     'use strict';
 
-    console.log('🌍 Universal Translate chargé');
+    
 
     // Dictionnaire COMPLET de traductions pour toutes les langues
     const DICT = {
@@ -219,11 +219,11 @@
     // Traduire toute la page
     function translateAll(lang) {
         if (!lang || lang === 'en') {
-            console.log('⏭️  Langue anglaise - pas de traduction nécessaire');
+            
             return;
         }
 
-        console.log(`🌍 Universal Translate: Traduction vers ${lang.toUpperCase()}`);
+        }`);
 
         // Vider le cache
         processedNodes.clear();
@@ -231,7 +231,7 @@
         // Traduire tout le document
         walkDOM(document.body, lang);
 
-        console.log(`✅ Universal Translate: Traduction terminée`);
+        
     }
 
     // Initialisation
@@ -242,12 +242,12 @@
             return;
         }
 
-        console.log('🔧 Universal Translate: Initialisé');
+        
 
         // Écouter les changements de langue
         document.addEventListener('languageChanged', (e) => {
             const newLang = e.detail.language;
-            console.log(`📡 Changement détecté: ${newLang}`);
+            
 
             // Attendre un peu que i18n finisse
             setTimeout(() => translateAll(newLang), 100);
@@ -272,4 +272,4 @@
 
 })();
 
-console.log('✅ Universal Translate: Module chargé');
+

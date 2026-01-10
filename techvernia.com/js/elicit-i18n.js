@@ -884,7 +884,7 @@ function getElicitTranslation(key, lang) {
 }
 
 function applyElicitTranslations(lang) {
-  console.log(`🔥 Applying elicit translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -896,7 +896,7 @@ function applyElicitTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} elicit translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -914,4 +914,4 @@ if (document.readyState === 'loading') {
   applyElicitTranslations(currentLang);
 }
 
-console.log('✅ elicit i18n loaded');
+

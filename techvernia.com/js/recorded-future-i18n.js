@@ -796,7 +796,7 @@ function applyRecordedFutureTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} recorded-future translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyRecordedFutureTranslations(e.detail.language), 200));

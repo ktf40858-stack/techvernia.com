@@ -903,7 +903,7 @@ function getDomoaiTranslation(key, lang) {
 }
 
 function applyDomoaiTranslations(lang) {
-    console.log('Applying domo-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -915,7 +915,7 @@ function applyDomoaiTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} domo-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -933,4 +933,4 @@ if (document.readyState === 'loading') {
     applyDomoaiTranslations(currentLang);
 }
 
-console.log('domo-ai i18n loaded');
+

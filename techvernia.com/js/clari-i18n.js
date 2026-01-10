@@ -840,7 +840,7 @@ function getClariTranslation(key, lang) {
 }
 
 function applyClariTranslations(lang) {
-  console.log(`Applying clari translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyClariTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} clari translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyClariTranslations(currentLang);
 }
 
-console.log('clari i18n loaded');
+

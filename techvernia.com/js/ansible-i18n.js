@@ -21,7 +21,7 @@ function getAnsibleTranslation(key, lang) {
 }
 
 function applyAnsibleTranslations(lang) {
-    console.log('Applying ansible translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -33,7 +33,7 @@ function applyAnsibleTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} ansible translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -51,4 +51,4 @@ if (document.readyState === 'loading') {
     applyAnsibleTranslations(currentLang);
 }
 
-console.log('ansible i18n loaded');
+

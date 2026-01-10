@@ -877,7 +877,7 @@ function getQuizletAiTranslation(key, lang) {
 }
 
 function applyQuizletAiTranslations(lang) {
-  console.log(`Applying quizlet-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applyQuizletAiTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} quizlet-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applyQuizletAiTranslations(currentLang);
 }
 
-console.log('quizlet-ai i18n loaded');
+

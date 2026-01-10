@@ -1356,7 +1356,7 @@ function applySpacemakerAiTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} spacemaker-ai translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applySpacemakerAiTranslations(e.detail.language), 200));

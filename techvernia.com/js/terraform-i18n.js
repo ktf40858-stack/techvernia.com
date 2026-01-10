@@ -21,7 +21,7 @@ function getTerraformTranslation(key, lang) {
 }
 
 function applyTerraformTranslations(lang) {
-    console.log('Applying terraform translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -33,7 +33,7 @@ function applyTerraformTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} terraform translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -51,4 +51,4 @@ if (document.readyState === 'loading') {
     applyTerraformTranslations(currentLang);
 }
 
-console.log('terraform i18n loaded');
+

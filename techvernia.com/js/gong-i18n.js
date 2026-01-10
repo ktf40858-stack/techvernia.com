@@ -840,7 +840,7 @@ function getGongTranslation(key, lang) {
 }
 
 function applyGongTranslations(lang) {
-  console.log(`Applying gong translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyGongTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} gong translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyGongTranslations(currentLang);
 }
 
-console.log('gong i18n loaded');
+

@@ -1255,7 +1255,7 @@ function getBeameryTranslation(key, lang) {
 }
 
 function applyBeameryTranslations(lang) {
-  console.log(`🔥 Applying beamery translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applyBeameryTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} beamery translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applyBeameryTranslations(currentLang);
 }
 
-console.log('✅ beamery i18n loaded');
+

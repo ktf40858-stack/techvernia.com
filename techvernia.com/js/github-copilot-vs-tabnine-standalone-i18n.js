@@ -4,7 +4,7 @@
  * No dependency on the massive global i18n.js file
  */
 
-console.log('📦 [2/2] github-copilot-vs-tabnine-standalone-i18n.js loading...');
+
 
 // ============================================
 // TRANSLATIONS DATA
@@ -14,9 +14,7 @@ console.log('📦 [2/2] github-copilot-vs-tabnine-standalone-i18n.js loading...'
 // This will be loaded AFTER github-copilot-vs-tabnine-i18n.js
 const translations = window.githubCopilotVsTabnineTranslations || {};
 
-console.log('🔍 [2/2] Checking translations:', {
-    available: !!window.githubCopilotVsTabnineTranslations,
-    languages: Object.keys(translations).length,
+.length,
     keys: translations.en ? Object.keys(translations.en).length : 0
 });
 
@@ -45,9 +43,9 @@ let currentLanguage = localStorage.getItem('language') ||
                       sessionStorage.getItem('language') ||
                       'en';
 
-console.log('🌍 [GitHub Copilot vs Tabnine i18n] Initializing...');
-console.log('📊 Current language:', currentLanguage);
-console.log('📊 Available translations:', Object.keys(translations));
+
+
+);
 
 // ============================================
 // CORE FUNCTIONS
@@ -63,11 +61,11 @@ function getTranslation(key) {
 
     // Fallback to English
     if (translations.en && translations.en[key]) {
-        console.warn(`⚠️ Translation missing for "${key}" in ${currentLanguage}, using English`);
+        
         return translations.en[key];
     }
 
-    console.warn(`⚠️ Translation not found for key: "${key}"`);
+    
     return key; // Return the key itself as last resort
 }
 
@@ -75,7 +73,7 @@ function getTranslation(key) {
  * Translate all elements with data-i18n attributes
  */
 function translatePage() {
-    console.log('🔄 [translatePage] Starting translation to:', currentLanguage);
+    
     let count = 0;
 
     // Translate text content
@@ -145,18 +143,18 @@ function translatePage() {
         }
     }
 
-    console.log(`✅ [translatePage] Translated ${count} elements`);
+    
 }
 
 /**
  * Set the current language and translate the page
  */
 function setLanguage(lang) {
-    console.log('🔍 [setLanguage] Switching to:', lang);
+    
 
     // Validate language
     if (!translations[lang] || Object.keys(translations[lang]).length === 0) {
-        console.warn(`⚠️ Language '${lang}' not available, falling back to English`);
+        
         lang = 'en';
     }
 
@@ -166,9 +164,9 @@ function setLanguage(lang) {
     try {
         localStorage.setItem('language', lang);
         sessionStorage.setItem('language', lang);
-        console.log('✅ Language saved to storage:', lang);
+        
     } catch (e) {
-        console.warn('⚠️ Could not save to storage');
+        
     }
 
     // Update document direction for RTL languages
@@ -186,7 +184,7 @@ function setLanguage(lang) {
         detail: { language: lang }
     }));
 
-    console.log('✅ [setLanguage] Language switched to:', lang);
+    
 }
 
 /**
@@ -214,11 +212,11 @@ function setupLanguageSelector() {
     const langSelector = document.querySelector('.language-selector');
 
     if (!langBtn || !langDropdown || !langSelector) {
-        console.warn('⚠️ Language selector elements not found');
+        
         return;
     }
 
-    console.log('⚙️ Setting up language selector');
+    
 
     // Toggle dropdown
     langBtn.addEventListener('click', (e) => {
@@ -241,7 +239,7 @@ function setupLanguageSelector() {
         });
     });
 
-    console.log('✅ Language selector setup complete');
+    
 }
 
 /**
@@ -255,13 +253,13 @@ function getCurrentLanguage() {
  * Initialize the i18n system
  */
 function initI18n() {
-    console.log('🚀 [initI18n] Initializing GitHub Copilot vs Tabnine i18n');
-    console.log('📊 Available languages:', Object.keys(translations).length);
-    console.log('📊 Current language:', currentLanguage);
+    
+    .length);
+    
 
     // Check if translations are loaded
     if (Object.keys(translations).length === 0) {
-        console.error('❌ No translations loaded! Make sure github-copilot-vs-tabnine-i18n.js is loaded first.');
+        
         return;
     }
 
@@ -271,7 +269,7 @@ function initI18n() {
     // Set initial language (will translate the page)
     setLanguage(currentLanguage);
 
-    console.log('✅ [initI18n] Initialization complete');
+    
 }
 
 // ============================================
@@ -291,7 +289,7 @@ window.githubCopilotVsTabnineI18n = {
 window.addEventListener('DOMContentLoaded', () => {
     // Wait a bit for other scripts to load
     setTimeout(() => {
-        console.log('🔧 Overriding main.js language selector with standalone i18n');
+        
 
         // Find language options and attach our handler
         document.querySelectorAll('.lang-option').forEach(option => {
@@ -313,7 +311,7 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        console.log('✅ Language selector override complete');
+        
     }, 100);
 });
 
@@ -327,4 +325,4 @@ if (document.readyState === 'loading') {
     initI18n();
 }
 
-console.log('✅ [2/2] GitHub Copilot vs Tabnine standalone i18n loaded');
+

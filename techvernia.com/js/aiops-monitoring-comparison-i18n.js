@@ -1,7 +1,7 @@
 // Aiops Monitoring Comparison - Multilingual
 // 10 Languages: EN, ES, FR, DE, PT, ZH, JA, KO, AR, HI
 
-console.log('[i18n] aiops-monitoring-comparison-i18n.js loaded');
+
 
 const articleTranslations = {
     en: {

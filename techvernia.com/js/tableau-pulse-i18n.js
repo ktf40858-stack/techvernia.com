@@ -511,7 +511,7 @@ function applyTableauPulseTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} tableau-pulse translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyTableauPulseTranslations(e.detail.language), 200));

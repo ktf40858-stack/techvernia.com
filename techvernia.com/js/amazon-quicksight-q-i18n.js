@@ -996,7 +996,7 @@ function applyAmazonQuicksightQTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} amazon-quicksight-q translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyAmazonQuicksightQTranslations(e.detail.language), 200));

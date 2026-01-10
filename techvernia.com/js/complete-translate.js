@@ -3,7 +3,7 @@
  * Traduit ABSOLUMENT TOUT sauf les noms d'outils IA
  */
 
-console.log('🌍 COMPLETE TRANSLATE - Chargement...');
+
 
 // DICTIONNAIRE MASSIF - Français
 const FR = {
@@ -317,10 +317,10 @@ const NEVER = [
 
 // Traduire tout
 function translateAll(lang) {
-    console.log('🌍 COMPLETE TRANSLATE → ' + lang.toUpperCase());
+    );
 
     if (!lang || lang === 'en' || !DICT[lang]) {
-        console.log('⏭️  Pas de traduction nécessaire');
+        
         return;
     }
 
@@ -366,7 +366,7 @@ function translateAll(lang) {
         });
     });
 
-    console.log('✅ COMPLETE TRANSLATE: ' + count + ' éléments traduits');
+    
 }
 
 // Init
@@ -376,10 +376,10 @@ function init() {
         return;
     }
 
-    console.log('✅ COMPLETE TRANSLATE: Prêt');
+    
 
     document.addEventListener('languageChanged', (e) => {
-        console.log('📡 Langue changée → ' + e.detail.language);
+        
         setTimeout(() => translateAll(e.detail.language), 150);
     });
 
@@ -396,4 +396,4 @@ if (document.readyState === 'loading') {
 }
 
 window.completeTranslate = translateAll;
-console.log('✅ COMPLETE TRANSLATE: Chargé');
+

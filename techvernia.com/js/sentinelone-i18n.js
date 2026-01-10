@@ -536,7 +536,7 @@ function applySentineloneTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} sentinelone translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applySentineloneTranslations(e.detail.language), 200));

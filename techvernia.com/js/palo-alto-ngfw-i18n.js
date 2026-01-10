@@ -536,7 +536,7 @@ function applyPaloAltoNgfwTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} palo-alto-ngfw translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyPaloAltoNgfwTranslations(e.detail.language), 200));

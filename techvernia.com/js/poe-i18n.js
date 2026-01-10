@@ -874,7 +874,7 @@ function getPoeTranslation(key, lang) {
 }
 
 function applyPoeTranslations(lang) {
-  console.log(`🔥 Applying poe translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -886,7 +886,7 @@ function applyPoeTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} poe translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -904,4 +904,4 @@ if (document.readyState === 'loading') {
   applyPoeTranslations(currentLang);
 }
 
-console.log('✅ poe i18n loaded');
+

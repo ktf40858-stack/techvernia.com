@@ -840,7 +840,7 @@ function getOutreachTranslation(key, lang) {
 }
 
 function applyOutreachTranslations(lang) {
-  console.log(`Applying outreach translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -852,7 +852,7 @@ function applyOutreachTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} outreach translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -870,4 +870,4 @@ if (document.readyState === 'loading') {
   applyOutreachTranslations(currentLang);
 }
 
-console.log('outreach i18n loaded');
+

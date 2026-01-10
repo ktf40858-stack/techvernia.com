@@ -813,7 +813,7 @@ function getLexmachinaTranslation(key, lang) {
 }
 
 function applyLexmachinaTranslations(lang) {
-    console.log('Applying lex-machina translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyLexmachinaTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} lex-machina translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyLexmachinaTranslations(currentLang);
 }
 
-console.log('lex-machina i18n loaded');
+

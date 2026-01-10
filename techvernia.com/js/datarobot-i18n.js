@@ -903,7 +903,7 @@ function getDatarobotTranslation(key, lang) {
 }
 
 function applyDatarobotTranslations(lang) {
-    console.log('Applying datarobot translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -915,7 +915,7 @@ function applyDatarobotTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} datarobot translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -933,4 +933,4 @@ if (document.readyState === 'loading') {
     applyDatarobotTranslations(currentLang);
 }
 
-console.log('datarobot i18n loaded');
+

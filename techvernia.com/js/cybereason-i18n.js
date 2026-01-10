@@ -786,7 +786,7 @@ function applyCybereasonTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} cybereason translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyCybereasonTranslations(e.detail.language), 200));

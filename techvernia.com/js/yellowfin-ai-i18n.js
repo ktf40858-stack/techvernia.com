@@ -687,7 +687,7 @@ function getYellowfinaiTranslation(key, lang) {
 }
 
 function applyYellowfinaiTranslations(lang) {
-    console.log('Applying yellowfin-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -699,7 +699,7 @@ function applyYellowfinaiTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} yellowfin-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -717,4 +717,4 @@ if (document.readyState === 'loading') {
     applyYellowfinaiTranslations(currentLang);
 }
 
-console.log('yellowfin-ai i18n loaded');
+

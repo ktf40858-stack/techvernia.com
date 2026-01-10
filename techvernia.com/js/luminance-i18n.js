@@ -813,7 +813,7 @@ function getLuminanceTranslation(key, lang) {
 }
 
 function applyLuminanceTranslations(lang) {
-    console.log('Applying luminance translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyLuminanceTranslations(lang) {
             }
         }
     });
-    console.log(`Applied ${count} luminance translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
     applyLuminanceTranslations(currentLang);
 }
 
-console.log('luminance i18n loaded');
+

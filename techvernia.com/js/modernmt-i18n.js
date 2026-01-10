@@ -974,7 +974,7 @@ function getModernmtTranslation(key, lang) {
 }
 
 function applyModernmtTranslations(lang) {
-  console.log(`🔥 Applying modernmt translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -986,7 +986,7 @@ function applyModernmtTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} modernmt translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1004,4 +1004,4 @@ if (document.readyState === 'loading') {
   applyModernmtTranslations(currentLang);
 }
 
-console.log('✅ modernmt i18n loaded');
+

@@ -1255,7 +1255,7 @@ function getFindemTranslation(key, lang) {
 }
 
 function applyFindemTranslations(lang) {
-  console.log(`🔥 Applying findem translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -1267,7 +1267,7 @@ function applyFindemTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} findem translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1285,4 +1285,4 @@ if (document.readyState === 'loading') {
   applyFindemTranslations(currentLang);
 }
 
-console.log('✅ findem i18n loaded');
+

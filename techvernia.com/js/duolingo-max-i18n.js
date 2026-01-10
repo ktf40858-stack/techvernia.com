@@ -877,7 +877,7 @@ function getDuolingoMaxTranslation(key, lang) {
 }
 
 function applyDuolingoMaxTranslations(lang) {
-  console.log(`Applying duolingo-max translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -889,7 +889,7 @@ function applyDuolingoMaxTranslations(lang) {
       }
     }
   });
-  console.log(`Applied ${count} duolingo-max translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -907,4 +907,4 @@ if (document.readyState === 'loading') {
   applyDuolingoMaxTranslations(currentLang);
 }
 
-console.log('duolingo-max i18n loaded');
+

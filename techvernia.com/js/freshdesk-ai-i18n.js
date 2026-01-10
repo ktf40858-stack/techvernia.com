@@ -813,7 +813,7 @@ function getFreshdeskAiTranslation(key, lang) {
 }
 
 function applyFreshdeskAiTranslations(lang) {
-  console.log(`🔥 Applying freshdesk-ai translations for: ${lang}`);
+  
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
@@ -825,7 +825,7 @@ function applyFreshdeskAiTranslations(lang) {
       }
     }
   });
-  console.log(`✅ Applied ${count} freshdesk-ai translations`);
+  
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -843,4 +843,4 @@ if (document.readyState === 'loading') {
   applyFreshdeskAiTranslations(currentLang);
 }
 
-console.log('✅ freshdesk-ai i18n loaded');
+

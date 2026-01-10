@@ -962,7 +962,7 @@ function getPictoryTranslation(key, lang) {
 }
 
 function applyPictoryTranslations(lang) {
-    console.log('🔥 Applying pictory translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -974,7 +974,7 @@ function applyPictoryTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} pictory translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -989,4 +989,4 @@ if (document.readyState === 'loading') {
     applyPictoryTranslations(window.i18n ? window.i18n.getCurrentLanguage() : 'en');
 }
 
-console.log('✅ pictory i18n loaded');
+

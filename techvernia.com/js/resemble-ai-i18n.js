@@ -1142,7 +1142,7 @@ function getResembleAiTranslation(key, lang) {
 }
 
 function applyResembleAiTranslations(lang) {
-    console.log('🔥 Applying resemble-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -1154,7 +1154,7 @@ function applyResembleAiTranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} resemble-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -1172,4 +1172,4 @@ if (document.readyState === 'loading') {
     applyResembleAiTranslations(currentLang);
 }
 
-console.log('✅ resemble-ai i18n loaded');
+

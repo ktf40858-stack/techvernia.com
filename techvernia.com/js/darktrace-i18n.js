@@ -516,7 +516,7 @@ function applyDarktraceTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} darktrace translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyDarktraceTranslations(e.detail.language), 200));

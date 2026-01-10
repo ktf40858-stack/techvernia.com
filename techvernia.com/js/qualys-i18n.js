@@ -526,7 +526,7 @@ function applyQualysTranslations(lang) {
             if (translation) { el.textContent = translation; count++; }
         }
     });
-    console.log(`Applied ${count} qualys translations`);
+    
 }
 
 window.addEventListener("languageChanged", e => setTimeout(() => applyQualysTranslations(e.detail.language), 200));

@@ -942,7 +942,7 @@ function getKlingAITranslation(key, lang) {
 }
 
 function applyKlingAITranslations(lang) {
-    console.log('🔥 Applying kling-ai translations for:', lang);
+    
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -954,7 +954,7 @@ function applyKlingAITranslations(lang) {
             }
         }
     });
-    console.log(`✅ Applied ${count} kling-ai translations`);
+    
 }
 
 document.addEventListener('languageChanged', (e) => {
@@ -969,4 +969,4 @@ if (document.readyState === 'loading') {
     applyKlingAITranslations(window.i18n ? window.i18n.getCurrentLanguage() : 'en');
 }
 
-console.log('✅ kling-ai i18n loaded');
+
