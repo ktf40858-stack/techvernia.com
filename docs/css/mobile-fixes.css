@@ -3,6 +3,50 @@
    Corrections pour améliorer l'expérience mobile
    ============================================ */
 
+/* iOS Safari Specific Fixes */
+@supports (-webkit-touch-callout: none) {
+    /* This targets iOS Safari specifically */
+    body {
+        -webkit-text-size-adjust: 100% !important;
+        -webkit-font-smoothing: antialiased !important;
+    }
+}
+
+/* Force responsive behavior on all mobile devices */
+* {
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+html {
+    -webkit-text-size-adjust: 100% !important;
+    -ms-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
+}
+
+/* Prevent horizontal scroll globally */
+html,
+body {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    position: relative !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Force all sections to be contained */
+section,
+div,
+main,
+header,
+footer {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
 /* ==================================================
    CORRECTIONS SPÉCIFIQUES POUR LA PAGE D'ACCUEIL
    Surcharge des styles de hero-enhanced.css
@@ -10,15 +54,35 @@
 
 /* Hero Enhanced Mobile Fixes */
 @media (max-width: 768px) {
+    /* Force hero to fit screen */
+    .hero-enhanced,
+    .hero-enhanced *,
+    .hero-container,
+    .hero-container * {
+        max-width: 100vw !important;
+        box-sizing: border-box !important;
+    }
+
     /* Hero container */
     .hero-enhanced {
         min-height: auto !important;
         padding: 5rem 1rem 3rem !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
     }
 
     .hero-container {
         padding-left: 1rem !important;
         padding-right: 1rem !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
     /* Glitch title */
@@ -26,12 +90,28 @@
         font-size: 2rem !important;
         line-height: 1.2 !important;
         margin-bottom: 1rem !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
     }
 
     /* Typewriter */
     .typewriter {
         font-size: 1rem !important;
         margin-bottom: 2rem !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
+        padding: 0 0.5rem !important;
+    }
+
+    /* Hero label */
+    .hero-label {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 90% !important;
     }
 
     /* Hero stats enhanced */
@@ -250,6 +330,38 @@
     .floating-orbs,
     .data-streams {
         display: none !important;
+    }
+
+    /* Force all sections to be centered and contained */
+    .section,
+    .featured-preview,
+    .popular-tools,
+    .value-section,
+    .spotlight-section,
+    .why-choose-section,
+    .cta-section,
+    .logos-showcase-section,
+    .live-stats-section {
+        width: 100% !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        margin: 0 auto !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Center all containers */
+    .container,
+    .spotlight-container,
+    .section-header {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        text-align: center !important;
     }
 }
 
