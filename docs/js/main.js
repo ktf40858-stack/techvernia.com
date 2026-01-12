@@ -491,18 +491,20 @@ class LanguageSelector {
 
     init() {
         if (!this.selector || !this.langBtn || !this.langDropdown) {
-            
+            console.error('Language selector elements not found:', {
+                selector: !!this.selector,
+                langBtn: !!this.langBtn,
+                langDropdown: !!this.langDropdown
+            });
             return;
         }
 
-        
+        console.log('Language selector initialized successfully');
         this.setupEventListeners();
         this.updateCurrentLanguage();
 
         // Apply saved language on page load
         this.applyCurrentLanguage();
-
-        
     }
 
     setupEventListeners() {
@@ -537,6 +539,7 @@ class LanguageSelector {
     }
 
     toggle() {
+        console.log('Toggle called. Current state:', this.isOpen);
         if (this.isOpen) {
             this.close();
         } else {
@@ -545,15 +548,16 @@ class LanguageSelector {
     }
 
     open() {
+        console.log('Opening language dropdown');
         this.isOpen = true;
         this.selector.classList.add('active');
-        
+        console.log('Active class added. Dropdown should be visible now.');
     }
 
     close() {
+        console.log('Closing language dropdown');
         this.isOpen = false;
         this.selector.classList.remove('active');
-        
     }
 
     selectLanguage(lang) {

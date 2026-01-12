@@ -327,63 +327,17 @@ main {
 }
 
 /* ==================================================
-   LANGUAGE SELECTOR - GLOBAL RULES (ALL PAGES)
-   Affiche toutes les 10 langues sans scrollbar
+   LANGUAGE SELECTOR - ONLY REMOVE SCROLLBARS
+   Ne touche à RIEN d'autre - laisse style.css gérer le reste
    ================================================== */
 
-/* Language selector container - position relative for dropdown */
-.language-selector {
-    position: relative !important;
-}
-
-/* Language dropdown - position absolute to not push content */
-.lang-dropdown,
-#lang-dropdown {
-    position: absolute !important;
-    top: calc(100% + 0.5rem) !important;
-    right: 0 !important;
-    min-width: 200px !important;
-}
-
-/* Hide the chevron arrow */
-.lang-btn .chevron,
-.language-selector .chevron,
-#lang-btn .chevron {
-    display: none !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
-}
-
-/* Hide dropdown by default */
-.lang-dropdown,
-#lang-dropdown {
-    opacity: 0 !important;
-    visibility: hidden !important;
-    max-height: 0 !important;
-    height: 0 !important;
-    overflow: hidden !important;
-}
-
-/* Language dropdown - FORCE NO SCROLLBAR */
-.lang-dropdown,
-#lang-dropdown,
-.language-selector .lang-dropdown,
-.lang-btn,
-#lang-btn {
-    -ms-overflow-style: none !important;
-    scrollbar-width: none !important;
-    overflow-x: hidden !important;
-}
-
-/* Hide scrollbar completely including arrows - ALL ELEMENTS */
+/* Remove scrollbar arrows and scrollbar itself */
 .lang-dropdown::-webkit-scrollbar,
 #lang-dropdown::-webkit-scrollbar,
 .language-selector::-webkit-scrollbar,
 .lang-btn::-webkit-scrollbar,
 #lang-btn::-webkit-scrollbar {
     display: none !important;
-    width: 0 !important;
-    height: 0 !important;
 }
 
 .lang-dropdown::-webkit-scrollbar-button,
@@ -392,69 +346,51 @@ main {
 .lang-btn::-webkit-scrollbar-button,
 #lang-btn::-webkit-scrollbar-button {
     display: none !important;
-    width: 0 !important;
-    height: 0 !important;
 }
 
-.lang-dropdown::-webkit-scrollbar-track,
-#lang-dropdown::-webkit-scrollbar-track,
-.language-selector::-webkit-scrollbar-track,
-.lang-btn::-webkit-scrollbar-track,
-#lang-btn::-webkit-scrollbar-track {
-    display: none !important;
+/* Firefox et IE/Edge */
+.lang-dropdown,
+#lang-dropdown,
+.language-selector,
+.lang-btn,
+#lang-btn {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
 }
 
-.lang-dropdown::-webkit-scrollbar-thumb,
-#lang-dropdown::-webkit-scrollbar-thumb,
-.language-selector::-webkit-scrollbar-thumb,
-.lang-btn::-webkit-scrollbar-thumb,
-#lang-btn::-webkit-scrollbar-thumb {
-    display: none !important;
+/* ===================================================
+   LANGUAGE SELECTOR - EXTEND LIKE BURGER MENU
+   Toutes les 10 langues visibles d'un coup, comme menu burger
+   =================================================== */
+
+/* Ensure language selector button is always clickable */
+.lang-btn,
+#lang-btn {
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    position: relative !important;
+    z-index: 101 !important;
 }
 
-/* FORCE dropdown to open when active */
+/* When active, ensure dropdown is visible and shows ALL 10 languages at once */
 .language-selector.active .lang-dropdown,
 .language-selector.active #lang-dropdown {
-    position: absolute !important;
-    top: calc(100% + 0.5rem) !important;
-    right: 0 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
     max-height: none !important;
     height: auto !important;
     overflow: visible !important;
     overflow-y: visible !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    transform: translateY(0) !important;
     display: block !important;
     z-index: 9999 !important;
-    min-width: 200px !important;
-    background: rgba(10, 10, 15, 0.98) !important;
-    border: 1px solid rgba(255, 255, 255, 0.2) !important;
-    border-radius: 12px !important;
-    padding: 0.5rem !important;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
+    position: absolute !important;
 }
 
-/* Force all 10 language options to display */
-.language-selector.active .lang-option,
-.language-selector.active #lang-dropdown .lang-option {
-    display: flex !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-}
-
-/* Ensure all 10 language options are visible */
+/* All language options visible at once */
 .lang-option {
     display: flex !important;
-    width: 100% !important;
-}
-
-/* Remove any max-height constraints on dropdown */
-.language-selector .lang-dropdown,
-.lang-dropdown-content {
-    max-height: none !important;
-    overflow-y: visible !important;
-    overflow-x: hidden !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 /* ==================================================
@@ -1079,131 +1015,7 @@ main {
         height: 0 !important;
     }
 
-    /* Language selector mobile */
-    .language-selector {
-        width: 100% !important;
-        position: relative !important;
-    }
-
-    .lang-btn {
-        width: 100% !important;
-        justify-content: space-between !important;
-        padding: 0.875rem 1rem !important;
-        font-size: 1rem !important;
-        display: flex !important;
-        align-items: center !important;
-        background: rgba(255, 255, 255, 0.05) !important;
-        border: 1px solid rgba(255, 255, 255, 0.1) !important;
-        border-radius: 12px !important;
-        cursor: pointer !important;
-    }
-
-    /* Hide chevron arrow on mobile */
-    .lang-btn .chevron,
-    #lang-btn .chevron {
-        display: none !important;
-        opacity: 0 !important;
-        visibility: hidden !important;
-    }
-
-    .lang-btn:active,
-    .lang-btn:focus {
-        background: rgba(255, 255, 255, 0.1) !important;
-        border-color: rgba(0, 217, 255, 0.5) !important;
-    }
-
-    .lang-dropdown,
-    #lang-dropdown {
-        position: absolute !important;
-        top: 100% !important;
-        right: 0 !important;
-        width: auto !important;
-        min-width: 200px !important;
-        margin-top: 0.5rem !important;
-        opacity: 0 !important;
-        visibility: hidden !important;
-        max-height: 0 !important;
-        height: 0 !important;
-        overflow: hidden !important;
-        transition: opacity 0.3s ease, visibility 0.3s ease, max-height 0.3s ease !important;
-        background: rgba(10, 10, 15, 0.95) !important;
-        border: 1px solid rgba(255, 255, 255, 0.2) !important;
-        border-radius: 12px !important;
-        padding: 0 !important;
-        -ms-overflow-style: none !important;
-        scrollbar-width: none !important;
-    }
-
-    /* Hide ALL scrollbar elements on mobile */
-    .language-selector,
-    .lang-btn,
-    #lang-btn {
-        -ms-overflow-style: none !important;
-        scrollbar-width: none !important;
-        overflow: visible !important;
-    }
-
-    .language-selector::-webkit-scrollbar,
-    .lang-btn::-webkit-scrollbar,
-    #lang-btn::-webkit-scrollbar,
-    .language-selector::-webkit-scrollbar-button,
-    .lang-btn::-webkit-scrollbar-button,
-    #lang-btn::-webkit-scrollbar-button {
-        display: none !important;
-        width: 0 !important;
-        height: 0 !important;
-    }
-
-    .lang-dropdown::-webkit-scrollbar,
-    #lang-dropdown::-webkit-scrollbar {
-        display: none !important;
-        width: 0 !important;
-        height: 0 !important;
-    }
-
-    .lang-dropdown::-webkit-scrollbar-button,
-    #lang-dropdown::-webkit-scrollbar-button {
-        display: none !important;
-        width: 0 !important;
-        height: 0 !important;
-    }
-
-    .lang-dropdown::-webkit-scrollbar-track,
-    #lang-dropdown::-webkit-scrollbar-track {
-        display: none !important;
-    }
-
-    .lang-dropdown::-webkit-scrollbar-thumb,
-    #lang-dropdown::-webkit-scrollbar-thumb {
-        display: none !important;
-    }
-
-    .language-selector.active .lang-dropdown,
-    .language-selector.active #lang-dropdown {
-        position: absolute !important;
-        top: 100% !important;
-        right: 0 !important;
-        opacity: 1 !important;
-        visibility: visible !important;
-        max-height: none !important;
-        height: auto !important;
-        overflow: visible !important;
-        overflow-y: visible !important;
-        padding: 0.5rem !important;
-        display: block !important;
-        z-index: 9999 !important;
-        background: rgba(10, 10, 15, 0.98) !important;
-        border: 1px solid rgba(255, 255, 255, 0.2) !important;
-        border-radius: 12px !important;
-        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
-    }
-
-    /* Force all 10 languages to show */
-    .language-selector.active .lang-option {
-        display: flex !important;
-        visibility: visible !important;
-        opacity: 1 !important;
-    }
+    /* Language selector mobile - SUPPRIMÉ - on se concentre sur desktop d'abord */
 
 
     .lang-option {

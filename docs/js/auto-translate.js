@@ -636,14 +636,13 @@ function init() {
     
 
     if (lang && lang !== 'en') {
-        
+
         // Traduire immédiatement après que le DOM soit prêt
         setTimeout(() => {
-            ');
             translateAll(lang);
         }, 100);
     } else {
-        
+
     }
 }
 
