@@ -463,6 +463,28 @@ footer {
     #holographic-grid,
     canvas {
         z-index: 0 !important;
+        position: fixed !important;
+        pointer-events: none !important;
+    }
+
+    /* Ensure all content cards are above backgrounds */
+    .stat-card,
+    .category-card,
+    .tool-card,
+    .featured-cat-card,
+    .tool-preview-card,
+    .value-card,
+    .spotlight-content,
+    .why-item,
+    .cta-box,
+    .logo-showcase-item,
+    .stat-dashboard-item,
+    .guide-card,
+    .blog-card,
+    section,
+    .section {
+        z-index: 1 !important;
+        position: relative !important;
     }
 
     body {
@@ -480,7 +502,7 @@ footer {
     .navbar {
         padding: 0.75rem 0;
         position: relative !important;
-        z-index: 1000 !important;
+        z-index: 100 !important;
     }
 
     .nav-container {
