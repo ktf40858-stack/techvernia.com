@@ -577,7 +577,8 @@ footer {
     .language-selector.active .lang-dropdown {
         opacity: 1 !important;
         visibility: visible !important;
-        max-height: 500px !important;
+        max-height: none !important;
+        overflow-y: visible !important;
         padding: 0.5rem !important;
     }
 
