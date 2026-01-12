@@ -404,8 +404,15 @@ class AffiliateTracker {
         const destination = link.href;
 
         // Log affiliate click (replace with actual analytics)
-        .toISOString()
-        });
+        // Example: Send to analytics service
+        /*
+        const analyticsData = {
+            tool: toolName,
+            destination: destination,
+            timestamp: new Date().toISOString()
+        };
+        // Send analyticsData to your analytics endpoint
+        */
 
         // You could send this to:
         // - Google Analytics
