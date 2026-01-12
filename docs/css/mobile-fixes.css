@@ -97,6 +97,71 @@ main {
 }
 
 /* ==================================================
+   LANGUAGE SELECTOR - GLOBAL RULES (ALL PAGES)
+   Affiche toutes les 10 langues sans scrollbar
+   ================================================== */
+
+/* Language dropdown - no scrollbar, show all languages */
+.lang-dropdown {
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    overflow-y: visible !important;
+}
+
+.language-selector.active .lang-dropdown {
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    overflow-y: visible !important;
+}
+
+/* Ensure all 10 language options are visible */
+.lang-option {
+    display: flex !important;
+    width: 100% !important;
+}
+
+/* Remove any max-height constraints on dropdown */
+.language-selector .lang-dropdown,
+.lang-dropdown-content {
+    max-height: none !important;
+    overflow-y: visible !important;
+    overflow-x: hidden !important;
+}
+
+/* ==================================================
+   CATEGORIES MEGA-MENU - GLOBAL RULES (ALL PAGES)
+   Affiche toutes les catégories sans scrollbar
+   ================================================== */
+
+/* Categories dropdown - no scrollbar, show all categories */
+.dropdown-menu,
+.mega-menu {
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    overflow-y: visible !important;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown:hover .mega-menu,
+.dropdown.active .dropdown-menu,
+.dropdown.active .mega-menu {
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    overflow-y: visible !important;
+}
+
+/* Mega menu grid and content */
+.mega-menu-grid,
+.mega-menu-content {
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+/* ==================================================
    CORRECTIONS SPÉCIFIQUES POUR LA PAGE D'ACCUEIL
    Surcharge des styles de hero-enhanced.css
    ================================================== */
