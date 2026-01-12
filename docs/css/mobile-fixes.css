@@ -578,6 +578,8 @@ footer {
         opacity: 1 !important;
         visibility: visible !important;
         max-height: none !important;
+        height: auto !important;
+        overflow: visible !important;
         overflow-y: visible !important;
         padding: 0.5rem !important;
     }
@@ -617,7 +619,7 @@ footer {
         opacity: 0 !important;
         visibility: hidden !important;
         margin-top: 0.5rem !important;
-        padding: 1rem !important;
+        padding: 0 !important;
         max-height: 0 !important;
         overflow: hidden !important;
         transition: all 0.3s ease !important;
@@ -629,7 +631,10 @@ footer {
     .dropdown.active .mega-menu {
         opacity: 1 !important;
         visibility: visible !important;
-        max-height: 2000px !important;
+        max-height: none !important;
+        height: auto !important;
+        overflow: visible !important;
+        padding: 1rem !important;
     }
 
     .mega-menu-grid {
