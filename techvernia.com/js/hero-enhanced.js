@@ -203,7 +203,7 @@ function initTypewriter() {
     if (!textElement) return;
 
     const texts = [
-        'Explore 116+ cutting-edge AI tools across 13 categories',
+        'Explore 256+ cutting-edge AI tools across 22 categories',
         'Expert reviews, guides, and comparisons for every need',
         'From ChatGPT to specialized enterprise solutions',
         'Your ultimate AI tools directory starts here'
