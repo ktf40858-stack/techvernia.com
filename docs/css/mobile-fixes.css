@@ -76,6 +76,17 @@ html::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
+/* Hide ALL scrollbar buttons (arrows) on all elements */
+html::-webkit-scrollbar-button {
+    display: none !important;
+    height: 0 !important;
+}
+
+body::-webkit-scrollbar-button {
+    display: none !important;
+    height: 0 !important;
+}
+
 /* Hide horizontal scrollbar for Firefox */
 html {
     scrollbar-width: thin;
@@ -85,6 +96,225 @@ html {
 body::-webkit-scrollbar {
     width: 10px;
     height: 0px !important;
+}
+
+body::-webkit-scrollbar-button {
+    display: none !important;
+    height: 0 !important;
+}
+
+/* ====================================================
+   REMOVE ALL SCROLLBAR ARROWS GLOBALLY
+   Supprime toutes les flèches de défilement sur tous les éléments
+   ==================================================== */
+
+/* Universal rule - applies to ALL elements */
+*::-webkit-scrollbar-button,
+*::-webkit-scrollbar-track-piece,
+*::-webkit-scrollbar-corner {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+/* Force hide on all elements */
+* {
+    scrollbar-arrow-color: transparent !important;
+}
+
+/* Ensure no elements show scrollbar arrows */
+div::-webkit-scrollbar-button,
+section::-webkit-scrollbar-button,
+nav::-webkit-scrollbar-button,
+ul::-webkit-scrollbar-button,
+ol::-webkit-scrollbar-button,
+header::-webkit-scrollbar-button,
+footer::-webkit-scrollbar-button,
+main::-webkit-scrollbar-button,
+aside::-webkit-scrollbar-button,
+article::-webkit-scrollbar-button {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Navbar and header - no scrollbars */
+.navbar,
+.navbar-container,
+.nav-container,
+header {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+    overflow-x: hidden !important;
+}
+
+.navbar::-webkit-scrollbar,
+.navbar-container::-webkit-scrollbar,
+.nav-container::-webkit-scrollbar,
+header::-webkit-scrollbar,
+.navbar::-webkit-scrollbar-button,
+.navbar-container::-webkit-scrollbar-button,
+.nav-container::-webkit-scrollbar-button,
+header::-webkit-scrollbar-button {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Remove scrollbar from common page elements */
+.container::-webkit-scrollbar-button,
+.hero-section::-webkit-scrollbar-button,
+.hero-enhanced::-webkit-scrollbar-button,
+.hero-container::-webkit-scrollbar-button,
+.nav-menu::-webkit-scrollbar-button,
+.nav-item::-webkit-scrollbar-button,
+.card::-webkit-scrollbar-button,
+.stat-card::-webkit-scrollbar-button,
+.category-card::-webkit-scrollbar-button,
+.tool-card::-webkit-scrollbar-button,
+.value-card::-webkit-scrollbar-button,
+.why-item::-webkit-scrollbar-button,
+.hero-stats-enhanced::-webkit-scrollbar-button,
+.value-grid::-webkit-scrollbar-button,
+.why-grid::-webkit-scrollbar-button {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* ====================================================
+   STAT CARDS - COMPLETE SCROLLBAR REMOVAL
+   Force removal of ALL scrollbar elements from stat cards
+   ==================================================== */
+
+/* Force no scrollbar on cards - complete removal */
+.stat-card,
+.value-card,
+.why-item,
+.hero-stats-enhanced,
+.value-grid,
+.why-grid {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+    overflow: visible !important;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+}
+
+/* Override hero-enhanced.css overflow:hidden on stat-card */
+.stat-card {
+    overflow: visible !important;
+}
+
+/* Hide ALL scrollbar components on stat cards */
+.stat-card::-webkit-scrollbar,
+.stat-card::-webkit-scrollbar-button,
+.stat-card::-webkit-scrollbar-track,
+.stat-card::-webkit-scrollbar-track-piece,
+.stat-card::-webkit-scrollbar-thumb,
+.stat-card::-webkit-scrollbar-corner {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    background: transparent !important;
+}
+
+/* Hero stats enhanced container */
+.hero-stats-enhanced::-webkit-scrollbar,
+.hero-stats-enhanced::-webkit-scrollbar-button,
+.hero-stats-enhanced::-webkit-scrollbar-track,
+.hero-stats-enhanced::-webkit-scrollbar-track-piece,
+.hero-stats-enhanced::-webkit-scrollbar-thumb {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Other cards */
+.value-card::-webkit-scrollbar,
+.why-item::-webkit-scrollbar,
+.value-grid::-webkit-scrollbar,
+.why-grid::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.stat-card::-webkit-scrollbar-button,
+.value-card::-webkit-scrollbar-button,
+.why-item::-webkit-scrollbar-button,
+.hero-stats-enhanced::-webkit-scrollbar-button {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Remove ALL possible scrollbar elements from cards */
+.stat-card::-webkit-scrollbar-track,
+.value-card::-webkit-scrollbar-track,
+.why-item::-webkit-scrollbar-track,
+.stat-card::-webkit-scrollbar-thumb,
+.value-card::-webkit-scrollbar-thumb,
+.why-item::-webkit-scrollbar-thumb,
+.stat-card::-webkit-scrollbar-track-piece,
+.value-card::-webkit-scrollbar-track-piece,
+.why-item::-webkit-scrollbar-track-piece {
+    display: none !important;
+}
+
+/* Ensure cards have no overflow that could cause scrollbars */
+.stat-card > *,
+.value-card > *,
+.why-item > * {
+    overflow: visible !important;
+}
+
+/* Stat card children - no scrollbars */
+.stat-icon,
+.stat-number,
+.stat-label,
+.stat-glow,
+.stat-card > div {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+    overflow: visible !important;
+}
+
+.stat-icon::-webkit-scrollbar,
+.stat-number::-webkit-scrollbar,
+.stat-label::-webkit-scrollbar,
+.stat-glow::-webkit-scrollbar,
+.stat-icon::-webkit-scrollbar-button,
+.stat-number::-webkit-scrollbar-button,
+.stat-label::-webkit-scrollbar-button,
+.stat-glow::-webkit-scrollbar-button {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Additional card types on homepage */
+.feature-card,
+.benefit-card,
+.cta-box,
+.section {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+}
+
+.feature-card::-webkit-scrollbar,
+.benefit-card::-webkit-scrollbar,
+.cta-box::-webkit-scrollbar,
+.section::-webkit-scrollbar,
+.feature-card::-webkit-scrollbar-button,
+.benefit-card::-webkit-scrollbar-button,
+.cta-box::-webkit-scrollbar-button,
+.section::-webkit-scrollbar-button {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
 }
 
 /* Force no horizontal scrollbar on main page elements */
@@ -101,19 +331,81 @@ main {
    Affiche toutes les 10 langues sans scrollbar
    ================================================== */
 
-/* Language dropdown - no scrollbar, show all languages */
-.lang-dropdown {
+/* Language dropdown - FORCE NO SCROLLBAR */
+.lang-dropdown,
+#lang-dropdown,
+.language-selector,
+.language-selector .lang-dropdown,
+.lang-btn,
+#lang-btn {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+    overflow-x: hidden !important;
+}
+
+/* Hide scrollbar completely including arrows - ALL ELEMENTS */
+.lang-dropdown::-webkit-scrollbar,
+#lang-dropdown::-webkit-scrollbar,
+.language-selector::-webkit-scrollbar,
+.lang-btn::-webkit-scrollbar,
+#lang-btn::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.lang-dropdown::-webkit-scrollbar-button,
+#lang-dropdown::-webkit-scrollbar-button,
+.language-selector::-webkit-scrollbar-button,
+.lang-btn::-webkit-scrollbar-button,
+#lang-btn::-webkit-scrollbar-button {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.lang-dropdown::-webkit-scrollbar-track,
+#lang-dropdown::-webkit-scrollbar-track,
+.language-selector::-webkit-scrollbar-track,
+.lang-btn::-webkit-scrollbar-track,
+#lang-btn::-webkit-scrollbar-track {
+    display: none !important;
+}
+
+.lang-dropdown::-webkit-scrollbar-thumb,
+#lang-dropdown::-webkit-scrollbar-thumb,
+.language-selector::-webkit-scrollbar-thumb,
+.lang-btn::-webkit-scrollbar-thumb,
+#lang-btn::-webkit-scrollbar-thumb {
+    display: none !important;
+}
+
+/* FORCE dropdown to open when active */
+.language-selector.active .lang-dropdown,
+.language-selector.active #lang-dropdown,
+#lang-dropdown {
     max-height: none !important;
     height: auto !important;
     overflow: visible !important;
     overflow-y: visible !important;
 }
 
-.language-selector.active .lang-dropdown {
-    max-height: none !important;
-    height: auto !important;
-    overflow: visible !important;
-    overflow-y: visible !important;
+.language-selector.active .lang-dropdown,
+.language-selector.active #lang-dropdown {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
+    display: block !important;
+    position: relative !important;
+    z-index: 9999 !important;
+}
+
+/* Force all 10 language options to display */
+.language-selector.active .lang-option,
+.language-selector.active #lang-dropdown .lang-option {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 /* Ensure all 10 language options are visible */
@@ -142,6 +434,18 @@ main {
     height: auto !important;
     overflow: visible !important;
     overflow-y: visible !important;
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+}
+
+/* Hide scrollbar arrows from dropdown and mega-menu */
+.dropdown-menu::-webkit-scrollbar-button,
+.mega-menu::-webkit-scrollbar-button,
+.dropdown-menu::-webkit-scrollbar,
+.mega-menu::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
 }
 
 .dropdown:hover .dropdown-menu,
@@ -159,6 +463,40 @@ main {
 .mega-menu-content {
     max-height: none !important;
     overflow: visible !important;
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+}
+
+.mega-menu-grid::-webkit-scrollbar-button,
+.mega-menu-content::-webkit-scrollbar-button {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* ==================================================
+   HERO CTA BUTTONS - GLOBAL CENTERING (ALL SCREENS)
+   Centralise les boutons sur desktop et mobile
+   ================================================== */
+
+/* Center the CTA buttons container */
+.hero-cta-enhanced {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    flex-wrap: wrap !important;
+    gap: 1rem !important;
+}
+
+/* Center individual buttons */
+.hero-cta-enhanced .btn-futuristic {
+    margin: 0 auto !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 /* ==================================================
@@ -253,6 +591,34 @@ main {
         flex-direction: column !important;
         align-items: center !important;
         justify-content: center !important;
+        -ms-overflow-style: none !important;
+        scrollbar-width: none !important;
+        overflow: visible !important;
+    }
+
+    /* FORCE remove scrollbars from stat cards on mobile */
+    .stat-card::-webkit-scrollbar,
+    .stat-card::-webkit-scrollbar-button,
+    .stat-card::-webkit-scrollbar-track,
+    .stat-card::-webkit-scrollbar-thumb,
+    .stat-card::-webkit-scrollbar-corner,
+    .hero-stats-enhanced::-webkit-scrollbar,
+    .hero-stats-enhanced::-webkit-scrollbar-button {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+
+    /* Stat card children on mobile */
+    .stat-icon::-webkit-scrollbar,
+    .stat-number::-webkit-scrollbar,
+    .stat-label::-webkit-scrollbar,
+    .stat-icon::-webkit-scrollbar-button,
+    .stat-number::-webkit-scrollbar-button,
+    .stat-label::-webkit-scrollbar-button {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
     }
 
     .stat-icon {
@@ -666,6 +1032,16 @@ main {
         width: 100%;
         gap: 1rem;
         margin-top: 2rem;
+        overflow: visible !important;
+        -ms-overflow-style: none !important;
+        scrollbar-width: none !important;
+    }
+
+    .nav-actions::-webkit-scrollbar,
+    .nav-actions::-webkit-scrollbar-button {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
     }
 
     /* Language selector mobile */
@@ -703,14 +1079,61 @@ main {
         visibility: hidden !important;
         max-height: 0 !important;
         overflow: hidden !important;
-        transition: all 0.3s ease !important;
+        transition: opacity 0.3s ease, visibility 0.3s ease !important;
         background: rgba(10, 10, 15, 0.95) !important;
         border: 1px solid rgba(255, 255, 255, 0.2) !important;
         border-radius: 12px !important;
         padding: 0 !important;
+        -ms-overflow-style: none !important;
+        scrollbar-width: none !important;
     }
 
-    .language-selector.active .lang-dropdown {
+    /* Hide ALL scrollbar elements on mobile */
+    .language-selector,
+    .lang-btn,
+    #lang-btn {
+        -ms-overflow-style: none !important;
+        scrollbar-width: none !important;
+        overflow: visible !important;
+    }
+
+    .language-selector::-webkit-scrollbar,
+    .lang-btn::-webkit-scrollbar,
+    #lang-btn::-webkit-scrollbar,
+    .language-selector::-webkit-scrollbar-button,
+    .lang-btn::-webkit-scrollbar-button,
+    #lang-btn::-webkit-scrollbar-button {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+
+    .lang-dropdown::-webkit-scrollbar,
+    #lang-dropdown::-webkit-scrollbar {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+
+    .lang-dropdown::-webkit-scrollbar-button,
+    #lang-dropdown::-webkit-scrollbar-button {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+
+    .lang-dropdown::-webkit-scrollbar-track,
+    #lang-dropdown::-webkit-scrollbar-track {
+        display: none !important;
+    }
+
+    .lang-dropdown::-webkit-scrollbar-thumb,
+    #lang-dropdown::-webkit-scrollbar-thumb {
+        display: none !important;
+    }
+
+    .language-selector.active .lang-dropdown,
+    .language-selector.active #lang-dropdown {
         opacity: 1 !important;
         visibility: visible !important;
         max-height: none !important;
@@ -718,7 +1141,18 @@ main {
         overflow: visible !important;
         overflow-y: visible !important;
         padding: 0.5rem !important;
+        display: block !important;
+        z-index: 9999 !important;
+        position: relative !important;
     }
+
+    /* Force all 10 languages to show */
+    .language-selector.active .lang-option {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
 
     .lang-option {
         width: 100% !important;
