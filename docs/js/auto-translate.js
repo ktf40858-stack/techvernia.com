@@ -526,10 +526,8 @@ const NEVER = [
 
 // Traduire tout
 function translateAll(lang) {
-    );
-
     if (!lang || lang === 'en' || !DICT[lang]) {
-        
+
         return;
     }
 
