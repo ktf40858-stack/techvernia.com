@@ -24,27 +24,76 @@ html {
     text-size-adjust: 100% !important;
 }
 
-/* Prevent horizontal scroll globally */
-html,
+/* Prevent horizontal scroll globally - CRITICAL FIX */
+html {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    width: 100% !important;
+}
+
 body {
     max-width: 100vw !important;
     overflow-x: hidden !important;
     position: relative !important;
-}
-
-body {
     margin: 0 !important;
     padding: 0 !important;
+    width: 100% !important;
 }
 
-/* Force all sections to be contained */
+/* Force all sections and elements to be contained */
+*,
+*::before,
+*::after {
+    max-width: 100% !important;
+}
+
 section,
 div,
 main,
 header,
-footer {
+footer,
+.container,
+.hero-enhanced,
+.navbar,
+nav {
     max-width: 100vw !important;
     overflow-x: hidden !important;
+    box-sizing: border-box !important;
+}
+
+/* Hide horizontal scrollbar on all browsers */
+html::-webkit-scrollbar {
+    width: 10px;
+    height: 0px !important;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+/* Hide horizontal scrollbar for Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 0px !important;
+}
+
+/* Force no horizontal scrollbar on main page elements */
+body,
+#root,
+.app,
+main {
+    scrollbar-width: thin !important;
+    -ms-overflow-style: auto !important;
 }
 
 /* ==================================================
