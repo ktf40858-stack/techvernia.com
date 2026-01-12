@@ -80,7 +80,7 @@ Ceci permet à **www.techvernia.com** de rediriger vers **techvernia.com**.
 #### Enregistrement CNAME
 - **Type** : `CNAME`
 - **Name** : `www`
-- **Value** : `freddyfx.github.io` (votre nom d'utilisateur GitHub + .github.io)
+- **Value** : `ktf40858-stack.github.io` (votre nom d'utilisateur GitHub + .github.io)
 - **TTL** : `1 hour`
 
 ### F. Sauvegarder les changements
@@ -96,7 +96,7 @@ Ceci permet à **www.techvernia.com** de rediriger vers **techvernia.com**.
 
 ### A. Aller dans les paramètres du repository
 
-1. Allez sur : https://github.com/freddyfx/freddyfx.github.io
+1. Allez sur : https://github.com/ktf40858-stack/techvernia.com/settings/pages
 2. Cliquez sur **Settings** (Paramètres)
 3. Dans le menu latéral, cliquez sur **Pages**
 
@@ -225,7 +225,7 @@ git push origin master
 1. Retournez dans GoDaddy DNS
 2. Vérifiez que le CNAME est :
    - **Name** : `www`
-   - **Value** : `freddyfx.github.io`
+   - **Value** : `ktf40858-stack.github.io`
 3. Attendez la propagation
 
 ### Problème 5 : Les anciennes pages GoDaddy s'affichent encore
@@ -257,7 +257,7 @@ Cmd + Shift + R (Mac)
 | A     | @    | 185.199.109.153    | 600 sec  |
 | A     | @    | 185.199.110.153    | 600 sec  |
 | A     | @    | 185.199.111.153    | 600 sec  |
-| CNAME | www  | freddyfx.github.io | 1 hour   |
+| CNAME | www  | ktf40858-stack.github.io | 1 hour   |
 
 ### Ce que vous devez avoir sur GitHub :
 
