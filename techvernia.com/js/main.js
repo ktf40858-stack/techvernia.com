@@ -576,7 +576,6 @@ class LanguageSelector {
 
         // Call i18n.setLanguage to translate the page and update all links
         if (window.i18n && window.i18n.setLanguage) {
-            ');
             window.i18n.setLanguage(lang);
         } else {
             
