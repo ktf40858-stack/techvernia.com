@@ -544,6 +544,9 @@ ul, ol {
     font-size: var(--text-sm);
     font-weight: 500;
     transition: all var(--transition-fast);
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 .lang-btn:hover {
@@ -565,7 +568,9 @@ ul, ol {
     position: absolute;
     top: calc(100% + var(--space-sm));
     right: 0;
-    min-width: 160px;
+    min-width: 200px;
+    max-height: 450px;
+    overflow-y: auto;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
@@ -575,13 +580,17 @@ ul, ol {
     visibility: hidden;
     transform: translateY(-10px);
     transition: all var(--transition-fast);
-    z-index: var(--z-dropdown);
+    z-index: 1000;
+    display: none;
+    pointer-events: none;
 }
 
 .language-selector.active .lang-dropdown {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+    display: block;
+    pointer-events: auto;
 }
 
 .lang-option {
