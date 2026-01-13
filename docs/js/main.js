@@ -101,16 +101,19 @@ class Navigation {
 
             if (!toggle || !menu) return;
 
-            // On mobile: toggle dropdown on click (but still allow navigation)
+            // On mobile: allow direct navigation, dropdown opens on second click if needed
             toggle.addEventListener('click', (e) => {
-                if (window.innerWidth <= 1024) {
-                    // Only prevent default if dropdown is not already active
-                    // This allows: first click opens dropdown, second click navigates
+                if (window.innerWidth <= 768) {
+                    // Sur mobile (≤768px): Laisser naviguer directement
+                    // Ne pas empêcher le comportement par défaut
+                    // Le lien fonctionne normalement
+                    return;
+                } else if (window.innerWidth <= 1024) {
+                    // Sur tablette (769-1024px): Toggle dropdown
                     if (!dropdown.classList.contains('active')) {
                         e.preventDefault();
                         dropdown.classList.add('active');
                     }
-                    // If already active, let the link navigate normally
                 }
             });
         });

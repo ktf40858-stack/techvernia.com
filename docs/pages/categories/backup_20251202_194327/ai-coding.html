@@ -225,6 +225,7 @@
         }
     </style>
 <link href="../../../css/mobile-fixes.css" rel="stylesheet"/>
+<link href="../css/responsive.css" rel="stylesheet"/>
 </head>
 <body>
     <canvas id="neural-bg"></canvas>
@@ -244,63 +245,64 @@
                 <li class="nav-item"><a href="../about.html" class="nav-link"><span data-i18n="nav.about">About</span></a></li>
             </ul>
             <div class="nav-actions">
-                <!-- Language Selector -->
-                <div class="language-selector">
-                    <button class="lang-btn" id="lang-btn" aria-label="Select Language">
-                        <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
-                        <span class="lang-current">EN</span>
-                        <svg class="chevron" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
-                        </svg>
-                    </button>
-                    <div class="lang-dropdown" id="lang-dropdown">
-                        <button class="lang-option active" data-lang="en">
-                            <span class="flag">🇺🇸</span> English
-                        </button>
-                        <button class="lang-option" data-lang="es">
-                            <span class="flag">🇪🇸</span> Español
-                        </button>
-                        <button class="lang-option" data-lang="fr">
-                            <span class="flag">🇫🇷</span> Français
-                        </button>
-                        <button class="lang-option" data-lang="de">
-                            <span class="flag">🇩🇪</span> Deutsch
-                        </button>
-                        <button class="lang-option" data-lang="pt">
-                            <span class="flag">🇧🇷</span> Português
-                        </button>
-                        <button class="lang-option" data-lang="zh">
-                            <span class="flag">🇨🇳</span> 中文
-                        </button>
-                        <button class="lang-option" data-lang="ja">
-                            <span class="flag">🇯🇵</span> 日本語
-                        </button>
-                        <button class="lang-option" data-lang="ko">
-                            <span class="flag">🇰🇷</span> 한국어
-                        </button>
-                        <button class="lang-option" data-lang="ar">
-                            <span class="flag">🇸🇦</span> العربية
-                        </button>
-                        <button class="lang-option" data-lang="hi">
-                            <span class="flag">🇮🇳</span> हिन्दी
-                        </button>
-                    </div>
-                </div>
-
-                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
-                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-                    </svg>
-                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-                    </svg>
-                </button>
-                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
-                    <span></span><span></span><span></span>
-                </button>
-            </div>
-        </div>
-    </nav>
+<!-- Language Selector -->
+<div class="language-selector">
+<button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+<span class="lang-current">EN</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="lang-dropdown" id="lang-dropdown">
+<button class="lang-option active" data-lang="en">
+<span class="flag">US</span> English
+</button>
+<button class="lang-option" data-lang="es">
+<span class="flag">ES</span> Espanol
+</button>
+<button class="lang-option" data-lang="fr">
+<span class="flag">FR</span> Francais
+</button>
+<button class="lang-option" data-lang="de">
+<span class="flag">DE</span> Deutsch
+</button>
+<button class="lang-option" data-lang="pt">
+<span class="flag">BR</span> Portugues
+</button>
+<button class="lang-option" data-lang="zh">
+<span class="flag">CN</span> Chinese
+</button>
+<button class="lang-option" data-lang="ja">
+<span class="flag">JP</span> Japanese
+</button>
+<button class="lang-option" data-lang="ko">
+<span class="flag">KR</span> Korean
+</button>
+<button class="lang-option" data-lang="ar">
+<span class="flag">SA</span> Arabic
+</button>
+<button class="lang-option" data-lang="hi">
+<span class="flag">IN</span> Hindi
+</button>
+</div>
+</div>
+<!-- Search -->
+<button aria-label="Search" class="search-btn" id="search-btn">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="11" cy="11" r="8"></circle>
+<path d="M21 21l-4.35-4.35"></path>
+</svg>
+</button>
+<!-- Mobile Menu Toggle -->
+<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</div>
+</nav>
 
     <!-- Category Hero -->
     <header class="category-hero">

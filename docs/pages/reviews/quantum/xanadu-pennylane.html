@@ -88,6 +88,7 @@
         @media (max-width: 968px) { .review-layout { grid-template-columns: 1fr; } .review-sidebar { position: static; order: -1; } .review-hero-content { grid-template-columns: 1fr; text-align: center; } .review-logo { margin: 0 auto; } .pros-cons-grid { grid-template-columns: 1fr; } }
     </style>
 <link href="../../../css/mobile-fixes.css" rel="stylesheet"/>
+<link href="../css/responsive.css" rel="stylesheet"/>
 </head>
 <body>
 <canvas id="neural-bg"></canvas>
@@ -127,27 +128,57 @@
 </li>
 </ul>
 <div class="nav-actions">
+<!-- Language Selector -->
 <div class="language-selector">
 <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
 <span class="lang-current">EN</span>
-<svg class="chevron-icon" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16">
-<polyline points="6 9 12 15 18 9"></polyline>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
 </svg>
 </button>
 <div class="lang-dropdown" id="lang-dropdown">
-<button class="lang-option active" data-lang="en">🇺🇸 English</button>
-<button class="lang-option" data-lang="fr">🇫🇷 Français</button>
-<button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
-<button class="lang-option" data-lang="es">🇪🇸 Español</button>
-<button class="lang-option" data-lang="pt">🇵🇹 Português</button>
-<button class="lang-option" data-lang="zh">🇨🇳 中文</button>
-<button class="lang-option" data-lang="ja">🇯🇵 日本語</button>
-<button class="lang-option" data-lang="ko">🇰🇷 한국어</button>
-<button class="lang-option" data-lang="ar">🇸🇦 العربية</button>
-<button class="lang-option" data-lang="hi">🇮🇳 हिन्दी</button>
+<button class="lang-option active" data-lang="en">
+<span class="flag">US</span> English
+</button>
+<button class="lang-option" data-lang="es">
+<span class="flag">ES</span> Espanol
+</button>
+<button class="lang-option" data-lang="fr">
+<span class="flag">FR</span> Francais
+</button>
+<button class="lang-option" data-lang="de">
+<span class="flag">DE</span> Deutsch
+</button>
+<button class="lang-option" data-lang="pt">
+<span class="flag">BR</span> Portugues
+</button>
+<button class="lang-option" data-lang="zh">
+<span class="flag">CN</span> Chinese
+</button>
+<button class="lang-option" data-lang="ja">
+<span class="flag">JP</span> Japanese
+</button>
+<button class="lang-option" data-lang="ko">
+<span class="flag">KR</span> Korean
+</button>
+<button class="lang-option" data-lang="ar">
+<span class="flag">SA</span> Arabic
+</button>
+<button class="lang-option" data-lang="hi">
+<span class="flag">IN</span> Hindi
+</button>
 </div>
 </div>
-<button class="hamburger" id="hamburger">
+<!-- Search -->
+<button aria-label="Search" class="search-btn" id="search-btn">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="11" cy="11" r="8"></circle>
+<path d="M21 21l-4.35-4.35"></path>
+</svg>
+</button>
+<!-- Mobile Menu Toggle -->
+<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
 <span></span>
 <span></span>
 <span></span>
