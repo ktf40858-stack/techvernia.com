@@ -1,0 +1,1946 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbots Guide - Professional | TechVernia</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/categories.css">
+    <style>
+
+        .logo {
+            transition: opacity 0.3s ease;
+        }
+
+
+        .inline-icon {
+            display: inline-block;
+            width: 1.2em;
+            height: 1.2em;
+            vertical-align: middle;
+            margin-right: 0.3em;
+            stroke: currentColor;
+            stroke-width: 2;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        h2 .inline-icon {
+            width: 1.5em;
+            height: 1.5em;
+            stroke: url(#icon-gradient);
+        }
+
+        /* Gradient pour les icônes dans les titres */
+        .icon-gradient-def {
+            position: absolute;
+            width: 0;
+            height: 0;
+        }
+
+        .guide-layout {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 3rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .sidebar {
+            position: sticky;
+            top: 100px;
+            height: fit-content;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-lg);
+            padding: 1.5rem;
+        }
+
+        .sidebar-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.875rem 1rem;
+            margin-bottom: 0.5rem;
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            color: var(--text-secondary);
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .nav-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-primary);
+        }
+
+        .nav-item.active {
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(124, 58, 237, 0.2));
+            color: var(--text-primary);
+            border: 1px solid rgba(0, 217, 255, 0.3);
+        }
+
+        .nav-icon {
+            width: 20px;
+            height: 20px;
+            stroke: currentColor;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        .guide-content {
+            min-height: 80vh;
+        }
+
+        .section {
+            display: none;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-icon {
+            width: 64px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(124, 58, 237, 0.2));
+            border: 2px solid rgba(0, 217, 255, 0.3);
+            border-radius: var(--radius-md);
+            box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);
+        }
+
+        .section-icon svg {
+            width: 32px;
+            height: 32px;
+            stroke: url(#grad-section);
+            stroke-width: 2;
+            fill: none;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .content-block {
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .content-block h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .content-block p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+
+        .code-block {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(0, 217, 255, 0.2);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            overflow-x: auto;
+        }
+
+        .code-block code {
+            color: #00d9ff;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: 1rem;
+            text-align: left;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .comparison-table th {
+            background: rgba(0, 217, 255, 0.1);
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .comparison-table td {
+            color: var(--text-secondary);
+        }
+
+        .tip-box {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(5, 150, 105, 0.1));
+            border-left: 4px solid #10b981;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: var(--radius-md);
+        }
+
+        .tip-box strong {
+            color: #10b981;
+        }
+
+        .warning-box {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(217, 119, 6, 0.1));
+            border-left: 4px solid #f59e0b;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: var(--radius-md);
+        }
+
+        .warning-box strong {
+            color: #f59e0b;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.875rem 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-md);
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .nav-btn:hover {
+            background: rgba(0, 217, 255, 0.1);
+            border-color: rgba(0, 217, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .feature-card {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+        }
+
+        .feature-card h4 {
+            color: #00d9ff;
+            margin-bottom: 0.5rem;
+        }
+
+        ul.tech-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul.tech-list li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        ul.tech-list li:before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #00d9ff;
+        }
+    
+        
+
+    </style>
+    <link rel="stylesheet" href="../../css/guides-reviews.css">
+    <link href="../../css/mobile-fixes.css" rel="stylesheet"/>
+<link href="../css/responsive.css" rel="stylesheet"/>
+            <!-- Balises hreflang pour SEO multilingue -->
+    <link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/guides/ai-chatbots-guide-pro.html" />
+    <link rel="alternate" hreflang="en" href="https://techvernia.com/pages/guides/ai-chatbots-guide-pro.html" />
+    <link rel="alternate" hreflang="fr" href="https://techvernia.com/fr/pages/guides/ai-chatbots-guide-pro.html" />
+    <link rel="alternate" hreflang="es" href="https://techvernia.com/es/pages/guides/ai-chatbots-guide-pro.html" />
+    <link rel="alternate" hreflang="de" href="https://techvernia.com/de/pages/guides/ai-chatbots-guide-pro.html" />
+    <link rel="alternate" hreflang="pt" href="https://techvernia.com/pt/pages/guides/ai-chatbots-guide-pro.html" />
+    <link rel="alternate" hreflang="zh" href="https://techvernia.com/zh/pages/guides/ai-chatbots-guide-pro.html" />
+    <link rel="alternate" hreflang="ja" href="https://techvernia.com/ja/pages/guides/ai-chatbots-guide-pro.html" />
+    <link rel="alternate" hreflang="ko" href="https://techvernia.com/ko/pages/guides/ai-chatbots-guide-pro.html" />
+    <link rel="alternate" hreflang="ar" href="https://techvernia.com/ar/pages/guides/ai-chatbots-guide-pro.html" />
+    <link rel="alternate" hreflang="hi" href="https://techvernia.com/hi/pages/guides/ai-chatbots-guide-pro.html" />
+</head>
+<body>
+<!-- Neural Network Background Animation -->
+<canvas id="neural-bg"></canvas>
+<!-- Floating Particles -->
+<div id="particles-container"></div>
+
+    <svg style="display: none;">
+        <defs>
+            <linearGradient id="grad-section" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="logo">
+                <img alt="TechVernia Logo" src="../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+                <span class="logo-ai">.ai</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../guides.html" class="active"><span data-i18n="nav.guides">ガイド</span></a></li>
+                <li><a href="../categories.html"><span data-i18n="nav.categories">カテゴリー</span></a></li>
+                <li><a href="../about.html"><span data-i18n="nav.about">お問い合わせ</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="guide-layout">
+        <aside class="sidebar">
+            <h2 class="sidebar-title">Contents</h2>
+            <a href="#" class="nav-item active" data-section="overview">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/>
+                </svg>
+                <span>Overview</span>
+            </a>
+            <a href="#" class="nav-item" data-section="architecture">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+                <span>Architecture</span>
+            </a>
+            <a href="#" class="nav-item" data-section="prompting">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    <path d="M8 10h8M8 14h4"/>
+                </svg>
+                <span>Prompt Engineering</span>
+            </a>
+            <a href="#" class="nav-item" data-section="api">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M16 18l2-2 4 4-4 4-2-2m-8-8l-2-2 4-4-4-4 2-2"/>
+                    <path d="M9 5l6 14"/>
+                </svg>
+                <span>API Integration</span>
+            </a>
+            <a href="#" class="nav-item" data-section="rag">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                </svg>
+                <span>RAG Systems</span>
+            </a>
+            <a href="#" class="nav-item" data-section="agents">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+                <span>Agentic Workflows</span>
+            </a>
+            <a href="#" class="nav-item" data-section="fine-tuning">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M12 20V10M18 20V4M6 20v-4"/>
+                    <circle cx="12" cy="10" r="2"/>
+                    <circle cx="18" cy="4" r="2"/>
+                    <circle cx="6" cy="16" r="2"/>
+                </svg>
+                <span>Fine-Tuning</span>
+            </a>
+            <a href="#" class="nav-item" data-section="production">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+                <span>Production</span>
+            </a>
+        </aside>
+
+        <main class="guide-content">
+            <!-- Overview Section -->
+            <div class="section active" id="overview">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/>
+                        </svg>
+                    </div>
+                    <h2 class="section-title">Overview</h2>
+                </div>
+
+                <div class="content-block">
+                    <h3>Large Language Models (LLMs)</h3>
+                    <p>Large Language Models are transformer-based neural networks trained on extensive text corpora using self-supervised learning. These models employ attention mechanisms to capture long-range dependencies and contextual relationships within sequences.</p>
+                    <p><strong>Key capabilities:</strong></p>
+                    <ul class="tech-list">
+                        <li>Natural language understanding and generation</li>
+                        <li>Context-aware reasoning (up to 200K+ tokens)</li>
+                        <li>Multi-turn conversation with memory retention</li>
+                        <li>Function calling and tool integration</li>
+                        <li>Structured output generation (JSON, XML, code)</li>
+                        <li>Multimodal processing (text, images, audio)</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h3>Transformer Architecture Fundamentals</h3>
+                    <p>Modern LLMs utilize the transformer architecture introduced in "Attention Is All You Need" (Vaswani et al., 2017). Key components:</p>
+                    <ul class="tech-list">
+                        <li><strong>Self-Attention Mechanism:</strong> Enables parallel processing of sequence elements with O(n²) complexity</li>
+                        <li><strong>Multi-Head Attention:</strong> Captures different representation subspaces simultaneously</li>
+                        <li><strong>Feed-Forward Networks:</strong> Position-wise fully connected layers with GELU/SwiGLU activation</li>
+                        <li><strong>Positional Encoding:</strong> RoPE (Rotary Position Embedding) or ALiBi for sequence position awareness</li>
+                        <li><strong>Layer Normalization:</strong> RMSNorm or Pre-LN for training stability</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h3>Market-Leading Models (2024-2025)</h3>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>Organization</th>
+                                <th>Context</th>
+                                <th>Modality</th>
+                                <th>Best For</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>GPT-4 Turbo</strong></td>
+                                <td>OpenAI</td>
+                                <td>128K</td>
+                                <td>Text, Vision</td>
+                                <td>General purpose, complex reasoning</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Claude 3.5 Sonnet</strong></td>
+                                <td>Anthropic</td>
+                                <td>200K</td>
+                                <td>Text, Vision</td>
+                                <td>Long-context analysis, code generation</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Gemini 1.5 Pro</strong></td>
+                                <td>Google</td>
+                                <td>2M</td>
+                                <td>Text, Vision, Audio</td>
+                                <td>Ultra-long context, multimodal tasks</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Grok-2</strong></td>
+                                <td>xAI</td>
+                                <td>32K</td>
+                                <td>Text, Vision</td>
+                                <td>Real-time data, X integration</td>
+                            </tr>
+                            <tr>
+                                <td><strong>DeepSeek-V3</strong></td>
+                                <td>DeepSeek</td>
+                                <td>128K</td>
+                                <td>Text</td>
+                                <td>Cost-efficient, high performance</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="tip-box">
+                    <strong>Pro Tip:</strong> Choose models based on your specific requirements: GPT-4 for general tasks, Claude for extensive code analysis, Gemini for processing large documents (books, codebases), and DeepSeek for cost-sensitive production deployments.
+                </div>
+
+                <div class="nav-buttons">
+                    <div></div>
+                    <button class="nav-btn" onclick="navigateTo('architecture')">
+                        Next: Architecture →
+                    </button>
+                </div>
+            </div>
+
+            <!-- Architecture Section -->
+            <div class="section" id="architecture">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h2 class="section-title">Architecture</h2>
+                </div>
+
+                <div class="content-block">
+                    <h3>Decoder-Only Transformer Architecture</h3>
+                    <p>Most modern LLMs (GPT series, Claude, LLaMA) use decoder-only architectures optimized for autoregressive generation:</p>
+
+                    <div class="code-block">
+                        <code>
+Input Tokens → Embedding Layer → Positional Encoding
+    ↓
+Transformer Decoder Blocks (×N layers):
+    ├─ Multi-Head Self-Attention (causal masking)
+    ├─ Layer Normalization
+    ├─ Feed-Forward Network (4× hidden dim)
+    └─ Residual Connections
+    ↓
+Final Layer Norm → Output Projection → Logits → Softmax
+                        </code>
+                    </div>
+
+                    <p><strong>Key architectural innovations:</strong></p>
+                    <ul class="tech-list">
+                        <li><strong>Grouped-Query Attention (GQA):</strong> Reduces KV cache memory by sharing key/value heads</li>
+                        <li><strong>FlashAttention:</strong> IO-aware attention computation for 2-4× speed improvement</li>
+                        <li><strong>Mixture of Experts (MoE):</strong> Sparse activation of expert networks (GPT-4, Mixtral)</li>
+                        <li><strong>SwiGLU Activation:</strong> Gated Linear Unit variant outperforming ReLU/GELU</li>
+                        <li><strong>RMSNorm:</strong> Computationally efficient alternative to LayerNorm</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h3>Training Pipeline</h3>
+                    <p>Modern LLMs undergo multi-stage training:</p>
+
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <h4>1. Pre-training</h4>
+                            <p>Next-token prediction on trillion-token datasets. Objectives: minimize cross-entropy loss, learn language patterns and world knowledge.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>2. Supervised Fine-Tuning (SFT)</h4>
+                            <p>Training on curated instruction-response pairs to align model behavior with desired task formats.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>3. RLHF</h4>
+                            <p>Reinforcement Learning from Human Feedback using PPO algorithm to optimize for human preferences.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>4. Constitutional AI</h4>
+                            <p>Self-supervised alignment using AI-generated critiques and revisions (Anthropic's approach).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Context Window Management</h3>
+                    <p>Context window determines the maximum sequence length the model can process:</p>
+
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Context Size</th>
+                                <th>Use Case</th>
+                                <th>KV Cache Memory</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>4K-8K tokens</td>
+                                <td>Short conversations, simple queries</td>
+                                <td>~100MB</td>
+                            </tr>
+                            <tr>
+                                <td>32K-128K tokens</td>
+                                <td>Document analysis, extended dialogues</td>
+                                <td>~1-4GB</td>
+                            </tr>
+                            <tr>
+                                <td>200K-2M tokens</td>
+                                <td>Entire codebases, books, long-form content</td>
+                                <td>~10-100GB</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="tip-box">
+                        <strong>Optimization:</strong> Use techniques like sliding window attention, sparse attention patterns, or external memory systems (RAG) to handle contexts exceeding model limits efficiently.
+                    </div>
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="navigateTo('overview')">
+                        ← Previous: Overview
+                    </button>
+                    <button class="nav-btn" onclick="navigateTo('prompting')">
+                        Next: Prompt Engineering →
+                    </button>
+                </div>
+            </div>
+
+            <!-- Prompt Engineering Section -->
+            <div class="section" id="prompting">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            <path d="M8 10h8M8 14h4"/>
+                        </svg>
+                    </div>
+                    <h2 class="section-title">Prompt Engineering</h2>
+                </div>
+
+                <div class="content-block">
+                    <h3>Systematic Prompting Techniques</h3>
+                    <p>Prompt engineering is the practice of designing inputs to elicit optimal model behavior. Advanced techniques:</p>
+                </div>
+
+                <div class="content-block">
+                    <h3>1. Zero-Shot Prompting</h3>
+                    <p>Direct instruction without examples. Effective for well-defined tasks and capable models.</p>
+                    <div class="code-block">
+                        <code>
+Classify the sentiment of this text as positive, negative, or neutral:
+"The product exceeded my expectations and arrived early."
+
+Expected output: positive
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>2. Few-Shot Prompting</h3>
+                    <p>Provide examples to establish pattern. Crucial for complex or ambiguous tasks.</p>
+                    <div class="code-block">
+                        <code>
+Extract structured data from product descriptions.
+
+Example 1:
+Input: "Samsung 65-inch QLED 4K TV, $1,299"
+Output: {"brand": "Samsung", "size": "65-inch", "type": "QLED 4K TV", "price": 1299}
+
+Example 2:
+Input: "Apple MacBook Pro M3, 16GB RAM, $2,499"
+Output: {"brand": "Apple", "model": "MacBook Pro M3", "ram": "16GB", "price": 2499}
+
+Now extract from: "Sony WH-1000XM5 Noise-Cancelling Headphones, $399"
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>3. Chain-of-Thought (CoT)</h3>
+                    <p>Elicit step-by-step reasoning to improve accuracy on complex problems.</p>
+                    <div class="code-block">
+                        <code>
+Solve this problem step by step:
+
+A company's revenue increased by 15% in Q1, then decreased by 10% in Q2.
+If the initial revenue was $1,000,000, what is the final revenue?
+
+Let's break this down:
+Step 1: Calculate Q1 revenue after 15% increase
+  $1,000,000 × 1.15 = $1,150,000
+
+Step 2: Calculate Q2 revenue after 10% decrease
+  $1,150,000 × 0.90 = $1,035,000
+
+Final answer: $1,035,000
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>4. Structured Output with Schema</h3>
+                    <p>Define exact output format using JSON schema or TypeScript interfaces.</p>
+                    <div class="code-block">
+                        <code>
+Extract information in this exact JSON format:
+{
+  "name": string,
+  "email": string,
+  "skills": string[],
+  "experience_years": number,
+  "remote_willing": boolean
+}
+
+Resume text: "John Doe (john@example.com) is a senior developer
+with 8 years of experience in Python, TypeScript, and React.
+Open to remote opportunities."
+
+Output: {
+  "name": "John Doe",
+  "email": "john@example.com",
+  "skills": ["Python", "TypeScript", "React"],
+  "experience_years": 8,
+  "remote_willing": true
+}
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>5. ReAct Pattern (Reasoning + Acting)</h3>
+                    <p>Combine reasoning traces with action execution for agentic behavior.</p>
+                    <div class="code-block">
+                        <code>
+Task: Find the current stock price of Apple and calculate portfolio value
+
+Thought: I need to get the current AAPL stock price first
+Action: search("Apple Inc stock price AAPL current")
+Observation: $178.45 per share
+
+Thought: Now I need to know how many shares the user owns
+Action: check_portfolio("AAPL")
+Observation: 150 shares
+
+Thought: I can now calculate the total value
+Action: calculate(150 * 178.45)
+Observation: $26,767.50
+
+Answer: Your Apple portfolio is currently worth $26,767.50
+(150 shares × $178.45/share)
+                        </code>
+                    </div>
+                </div>
+
+                <div class="tip-box">
+                    <strong>Best Practice:</strong> Combine techniques for optimal results. Use few-shot + CoT for complex reasoning tasks, or structured output + ReAct for agentic workflows with deterministic formatting.
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="navigateTo('architecture')">
+                        ← Previous: Architecture
+                    </button>
+                    <button class="nav-btn" onclick="navigateTo('api')">
+                        Next: API Integration →
+                    </button>
+                </div>
+            </div>
+
+            <!-- API Integration Section -->
+            <div class="section" id="api">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M16 18l2-2 4 4-4 4-2-2m-8-8l-2-2 4-4-4-4 2-2"/>
+                            <path d="M9 5l6 14"/>
+                        </svg>
+                    </div>
+                    <h2 class="section-title">API Integration</h2>
+                </div>
+
+                <div class="content-block">
+                    <h3>OpenAI API Integration</h3>
+                    <p>Standard interface for GPT models with streaming, function calling, and vision capabilities.</p>
+
+                    <div class="code-block">
+                        <code>
+import openai
+from openai import OpenAI
+
+client = OpenAI(api_key="sk-...")
+
+# Basic chat completion
+response = client.chat.completions.create(
+    model="gpt-4-turbo",
+    messages=[
+        {"role": "system", "content": "You are a technical assistant."},
+        {"role": "user", "content": "Explain async/await in JavaScript"}
+    ],
+    temperature=0.7,
+    max_tokens=500,
+    top_p=0.95,
+    frequency_penalty=0.0,
+    presence_penalty=0.0
+)
+
+print(response.choices[0].message.content)
+
+# Streaming response
+stream = client.chat.completions.create(
+    model="gpt-4-turbo",
+    messages=[{"role": "user", "content": "Write a Python function"}],
+    stream=True
+)
+
+for chunk in stream:
+    if chunk.choices[0].delta.content:
+        print(chunk.choices[0].delta.content, end="")
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Function Calling / Tool Use</h3>
+                    <p>Enable models to interact with external systems through structured function calls.</p>
+
+                    <div class="code-block">
+                        <code>
+tools = [
+    {
+        "type": "function",
+        "function": {
+            "name": "get_weather",
+            "description": "Get current weather for a location",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "location": {
+                        "type": "string",
+                        "description": "City name, e.g. San Francisco"
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": ["celsius", "fahrenheit"]
+                    }
+                },
+                "required": ["location"]
+            }
+        }
+    }
+]
+
+response = client.chat.completions.create(
+    model="gpt-4-turbo",
+    messages=[{"role": "user", "content": "What's the weather in Paris?"}],
+    tools=tools,
+    tool_choice="auto"
+)
+
+# Handle function call
+if response.choices[0].message.tool_calls:
+    tool_call = response.choices[0].message.tool_calls[0]
+    function_name = tool_call.function.name
+    arguments = json.loads(tool_call.function.arguments)
+
+    # Execute function
+    result = get_weather(**arguments)
+
+    # Send result back to model
+    messages.append(response.choices[0].message)
+    messages.append({
+        "role": "tool",
+        "tool_call_id": tool_call.id,
+        "content": json.dumps(result)
+    })
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Anthropic Claude API</h3>
+                    <p>Claude API with extended context windows and multimodal capabilities.</p>
+
+                    <div class="code-block">
+                        <code>
+import anthropic
+
+client = anthropic.Anthropic(api_key="sk-ant-...")
+
+message = client.messages.create(
+    model="claude-3-5-sonnet-20241022",
+    max_tokens=4096,
+    temperature=0,
+    system="You are a code review assistant. Analyze code for bugs and improvements.",
+    messages=[
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Review this Python function:\n\ndef process_data(items):\n    result = []\n    for i in range(len(items)):\n        if items[i] > 0:\n            result.append(items[i] * 2)\n    return result"
+                }
+            ]
+        }
+    ]
+)
+
+print(message.content[0].text)
+
+# Vision example
+with open("diagram.png", "rb") as f:
+    image_data = base64.standard_b64encode(f.read()).decode("utf-8")
+
+message = client.messages.create(
+    model="claude-3-5-sonnet-20241022",
+    max_tokens=1024,
+    messages=[{
+        "role": "user",
+        "content": [
+            {
+                "type": "image",
+                "source": {
+                    "type": "base64",
+                    "media_type": "image/png",
+                    "data": image_data
+                }
+            },
+            {
+                "type": "text",
+                "text": "Explain this architecture diagram"
+            }
+        ]
+    }]
+)
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Critical Parameters</h3>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Parameter</th>
+                                <th>Range</th>
+                                <th>Effect</th>
+                                <th>Recommended</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>temperature</strong></td>
+                                <td>0.0 - 2.0</td>
+                                <td>Higher = more random/creative</td>
+                                <td>0.0-0.3 (code), 0.7-1.0 (creative)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>top_p</strong></td>
+                                <td>0.0 - 1.0</td>
+                                <td>Nucleus sampling threshold</td>
+                                <td>0.9-0.95 (balanced diversity)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>max_tokens</strong></td>
+                                <td>1 - context_limit</td>
+                                <td>Maximum output length</td>
+                                <td>500-2000 (typical), 4096+ (long-form)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>frequency_penalty</strong></td>
+                                <td>-2.0 - 2.0</td>
+                                <td>Reduce token repetition</td>
+                                <td>0.0-0.5 (avoid redundancy)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>presence_penalty</strong></td>
+                                <td>-2.0 - 2.0</td>
+                                <td>Encourage topic diversity</td>
+                                <td>0.0-0.6 (varied content)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="warning-box">
+                    <strong>Rate Limiting:</strong> Implement exponential backoff for rate limit errors (429). OpenAI: 10K TPM (tokens per minute) on free tier, 2M+ on paid. Claude: 50K TPM tier 1, 400K+ on tier 4. Always handle rate limits gracefully.
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="navigateTo('prompting')">
+                        ← Previous: Prompt Engineering
+                    </button>
+                    <button class="nav-btn" onclick="navigateTo('rag')">
+                        Next: RAG Systems →
+                    </button>
+                </div>
+            </div>
+
+            <!-- RAG Systems Section -->
+            <div class="section" id="rag">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                        </svg>
+                    </div>
+                    <h2 class="section-title">RAG Systems</h2>
+                </div>
+
+                <div class="content-block">
+                    <h3>Retrieval-Augmented Generation (RAG)</h3>
+                    <p>RAG combines retrieval systems with LLMs to provide grounded, factual responses using external knowledge bases. Essential for production applications requiring up-to-date or domain-specific information.</p>
+
+                    <div class="code-block">
+                        <code>
+RAG Pipeline:
+┌─────────────┐
+│   Query     │
+└──────┬──────┘
+       │
+       v
+┌─────────────────────┐
+│  Embed Query        │  ← Embedding Model (e.g., text-embedding-3-large)
+└──────┬──────────────┘
+       │
+       v
+┌─────────────────────┐
+│  Vector Search      │  ← Vector DB (Pinecone, Weaviate, ChromaDB)
+│  Top-K Documents    │
+└──────┬──────────────┘
+       │
+       v
+┌─────────────────────┐
+│  Rerank Results     │  ← Reranking Model (Cohere, cross-encoder)
+└──────┬──────────────┘
+       │
+       v
+┌─────────────────────┐
+│  Augment Prompt     │  ← Inject retrieved context
+└──────┬──────────────┘
+       │
+       v
+┌─────────────────────┐
+│  LLM Generation     │  ← GPT-4, Claude, etc.
+└─────────────────────┘
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Vector Database Implementation</h3>
+                    <p>Store and retrieve document embeddings using vector similarity search.</p>
+
+                    <div class="code-block">
+                        <code>
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.vectorstores import Chroma
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.document_loaders import DirectoryLoader
+
+# Load documents
+loader = DirectoryLoader('./docs', glob="**/*.md")
+documents = loader.load()
+
+# Split into chunks (critical for quality)
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=1000,
+    chunk_overlap=200,
+    length_function=len,
+    separators=["\n\n", "\n", " ", ""]
+)
+chunks = text_splitter.split_documents(documents)
+
+# Create embeddings and store in vector DB
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
+vectorstore = Chroma.from_documents(
+    documents=chunks,
+    embedding=embeddings,
+    persist_directory="./chroma_db"
+)
+
+# Retrieve relevant documents
+query = "How do I configure authentication?"
+relevant_docs = vectorstore.similarity_search(
+    query,
+    k=4,  # Top 4 results
+    fetch_k=20  # Fetch 20, rerank to 4
+)
+
+# Build context for LLM
+context = "\n\n".join([doc.page_content for doc in relevant_docs])
+prompt = f"""Answer the question based on this context:
+
+Context:
+{context}
+
+Question: {query}
+
+Answer:"""
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Advanced RAG Techniques</h3>
+
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <h4>Hybrid Search</h4>
+                            <p>Combine vector similarity (semantic) with keyword search (BM25) for better recall. Weight: 0.7 vector + 0.3 keyword.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>Hypothetical Document Embeddings (HyDE)</h4>
+                            <p>Generate hypothetical answer first, embed it, then retrieve similar real documents.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>Parent-Child Chunking</h4>
+                            <p>Store small chunks for retrieval, but provide larger parent chunks to LLM for better context.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>Reranking</h4>
+                            <p>Use cross-encoder models to rerank retrieved results. Cohere Rerank improves relevance by 20-30%.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Production RAG Stack</h3>
+                    <div class="code-block">
+                        <code>
+from langchain.chat_models import ChatOpenAI
+from langchain.chains import RetrievalQA
+from langchain.prompts import PromptTemplate
+
+# Define custom prompt
+template = """Use the following context to answer the question.
+If you don't know the answer, say so - don't make up information.
+
+Context: {context}
+
+Question: {question}
+
+Provide a detailed answer with sources:"""
+
+prompt = PromptTemplate(
+    template=template,
+    input_variables=["context", "question"]
+)
+
+# Create retrieval chain
+llm = ChatOpenAI(model="gpt-4-turbo", temperature=0)
+qa_chain = RetrievalQA.from_chain_type(
+    llm=llm,
+    chain_type="stuff",  # Options: stuff, map_reduce, refine
+    retriever=vectorstore.as_retriever(
+        search_type="mmr",  # Maximum Marginal Relevance
+        search_kwargs={
+            "k": 4,
+            "fetch_k": 20,
+            "lambda_mult": 0.5  # Diversity vs relevance
+        }
+    ),
+    return_source_documents=True,
+    chain_type_kwargs={"prompt": prompt}
+)
+
+# Query
+result = qa_chain({"query": "How do I implement OAuth2?"})
+print(result["result"])
+print(f"\nSources: {[doc.metadata for doc in result['source_documents']]}")
+                        </code>
+                    </div>
+                </div>
+
+                <div class="tip-box">
+                    <strong>Optimization:</strong> Chunk size significantly impacts quality. Test 500-1500 tokens with 100-300 overlap. Use recursive splitting on semantic boundaries (paragraphs, sentences). Monitor retrieval precision/recall metrics.
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="navigateTo('api')">
+                        ← Previous: API Integration
+                    </button>
+                    <button class="nav-btn" onclick="navigateTo('agents')">
+                        Next: Agentic Workflows →
+                    </button>
+                </div>
+            </div>
+
+            <!-- Agentic Workflows Section -->
+            <div class="section" id="agents">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h2 class="section-title">Agentic Workflows</h2>
+                </div>
+
+                <div class="content-block">
+                    <h3>AI Agents: Autonomous Task Execution</h3>
+                    <p>AI agents are LLM-powered systems that can plan, execute actions, use tools, and iterate towards goals autonomously. They extend LLM capabilities beyond single-turn generation.</p>
+
+                    <p><strong>Core agent components:</strong></p>
+                    <ul class="tech-list">
+                        <li><strong>Reasoning Engine:</strong> LLM for decision-making and planning</li>
+                        <li><strong>Memory:</strong> Short-term (conversation) and long-term (vector DB)</li>
+                        <li><strong>Tools:</strong> External functions (APIs, databases, calculators)</li>
+                        <li><strong>Planning:</strong> Task decomposition and execution strategies</li>
+                        <li><strong>Reflection:</strong> Self-critique and iterative improvement</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h3>ReAct Agent Implementation</h3>
+                    <p>ReAct (Reasoning + Acting) pattern enables agents to interleave thought and action.</p>
+
+                    <div class="code-block">
+                        <code>
+from langchain.agents import initialize_agent, Tool, AgentType
+from langchain.chat_models import ChatOpenAI
+from langchain.utilities import SerpAPIWrapper, PythonREPL
+
+# Define tools
+search = SerpAPIWrapper()
+python_repl = PythonREPL()
+
+tools = [
+    Tool(
+        name="Search",
+        func=search.run,
+        description="Search the internet for current information"
+    ),
+    Tool(
+        name="Python",
+        func=python_repl.run,
+        description="Execute Python code. Input should be valid Python code."
+    ),
+    Tool(
+        name="Calculator",
+        func=lambda x: eval(x),
+        description="Perform mathematical calculations"
+    )
+]
+
+# Initialize agent
+llm = ChatOpenAI(model="gpt-4-turbo", temperature=0)
+agent = initialize_agent(
+    tools=tools,
+    llm=llm,
+    agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+    verbose=True,
+    max_iterations=5,
+    early_stopping_method="generate"
+)
+
+# Execute complex task
+result = agent.run("""
+Find the current stock price of NVIDIA, then calculate how many shares
+I could buy with $10,000 and what the total value would be if the price
+increases by 15%.
+""")
+
+# Agent output (example):
+# Thought: I need to search for NVIDIA's current stock price
+# Action: Search
+# Action Input: "NVIDIA stock price today"
+# Observation: $495.22 per share
+#
+# Thought: Now I'll calculate how many shares $10,000 can buy
+# Action: Calculator
+# Action Input: 10000 / 495.22
+# Observation: 20.19 shares
+#
+# Thought: Calculate value with 15% increase
+# Action: Python
+# Action Input: shares = 20.19; price = 495.22; new_price = price * 1.15; ...
+# Observation: $11,500.00
+#
+# Final Answer: With $10,000, you can buy approximately 20 shares of NVIDIA...
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Multi-Agent Systems</h3>
+                    <p>Coordinate multiple specialized agents for complex workflows.</p>
+
+                    <div class="code-block">
+                        <code>
+from langchain.agents import AgentExecutor
+from langchain.chat_models import ChatAnthropic
+from langgraph.prebuilt import create_react_agent
+
+# Define specialized agents
+researcher = create_react_agent(
+    ChatAnthropic(model="claude-3-5-sonnet-20241022"),
+    tools=[search_tool, arxiv_tool],
+    prompt="You are a research assistant. Find accurate technical information."
+)
+
+coder = create_react_agent(
+    ChatOpenAI(model="gpt-4-turbo"),
+    tools=[python_repl, file_read_tool, file_write_tool],
+    prompt="You are a coding assistant. Write clean, efficient code."
+)
+
+critic = create_react_agent(
+    ChatAnthropic(model="claude-3-5-sonnet-20241022"),
+    tools=[],
+    prompt="You are a code reviewer. Critique for bugs, efficiency, and best practices."
+)
+
+# Orchestration workflow
+def multi_agent_workflow(task):
+    # 1. Research phase
+    research_result = researcher.invoke({"messages": [("user", f"Research: {task}")]})
+
+    # 2. Implementation phase
+    code_result = coder.invoke({
+        "messages": [("user", f"Implement based on: {research_result}")]
+    })
+
+    # 3. Review phase
+    critique = critic.invoke({
+        "messages": [("user", f"Review this code:\n{code_result}")]
+    })
+
+    # 4. Refinement (if needed)
+    if "issues found" in critique.lower():
+        final_code = coder.invoke({
+            "messages": [("user", f"Fix these issues:\n{critique}")]
+        })
+    else:
+        final_code = code_result
+
+    return final_code
+
+result = multi_agent_workflow("Create a REST API for user authentication")
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Agent Frameworks Comparison</h3>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Framework</th>
+                                <th>Best For</th>
+                                <th>Key Features</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>LangGraph</strong></td>
+                                <td>Complex stateful workflows</td>
+                                <td>Graph-based execution, checkpointing, human-in-loop</td>
+                            </tr>
+                            <tr>
+                                <td><strong>AutoGPT</strong></td>
+                                <td>Autonomous goal pursuit</td>
+                                <td>Self-prompting, memory management, web browsing</td>
+                            </tr>
+                            <tr>
+                                <td><strong>CrewAI</strong></td>
+                                <td>Multi-agent collaboration</td>
+                                <td>Role-based agents, task delegation, shared memory</td>
+                            </tr>
+                            <tr>
+                                <td><strong>LangChain Agents</strong></td>
+                                <td>Tool-using agents</td>
+                                <td>ReAct, OpenAI Functions, extensive tool integrations</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="warning-box">
+                    <strong>Cost Management:</strong> Agentic workflows can generate 10-100× more API calls than single-turn interactions. Implement token budgets, max_iterations limits, and cost tracking. Use cheaper models (GPT-3.5, Claude Haiku) for tool selection and expensive models (GPT-4, Claude Sonnet) only for critical reasoning.
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="navigateTo('rag')">
+                        ← Previous: RAG Systems
+                    </button>
+                    <button class="nav-btn" onclick="navigateTo('fine-tuning')">
+                        Next: Fine-Tuning →
+                    </button>
+                </div>
+            </div>
+
+            <!-- Fine-Tuning Section -->
+            <div class="section" id="fine-tuning">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 20V10M18 20V4M6 20v-4"/>
+                            <circle cx="12" cy="10" r="2"/>
+                            <circle cx="18" cy="4" r="2"/>
+                            <circle cx="6" cy="16" r="2"/>
+                        </svg>
+                    </div>
+                    <h2 class="section-title">Fine-Tuning</h2>
+                </div>
+
+                <div class="content-block">
+                    <h3>When to Fine-Tune vs Prompt Engineering</h3>
+                    <p>Fine-tuning adapts pre-trained models to specific domains or tasks through additional training. Consider fine-tuning when:</p>
+
+                    <ul class="tech-list">
+                        <li>Domain-specific terminology and patterns (legal, medical, finance)</li>
+                        <li>Consistent output formatting that's hard to achieve with prompts</li>
+                        <li>Need to reduce latency by embedding instructions in model weights</li>
+                        <li>Cost optimization for high-volume production use</li>
+                        <li>Have 500+ high-quality training examples</li>
+                    </ul>
+
+                    <p><strong>Stick with prompt engineering if:</strong></p>
+                    <ul class="tech-list">
+                        <li>Few examples available (&lt;500)</li>
+                        <li>Requirements change frequently</li>
+                        <li>Task is well-handled by base model with good prompts</li>
+                        <li>Need model flexibility across various tasks</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h3>Supervised Fine-Tuning (SFT)</h3>
+                    <p>Train on input-output pairs to specialize model behavior.</p>
+
+                    <div class="code-block">
+                        <code>
+# Prepare training data (JSONL format)
+# Each line: {"messages": [{"role": "system", ...}, {"role": "user", ...}, {"role": "assistant", ...}]}
+
+training_data = [
+    {
+        "messages": [
+            {"role": "system", "content": "You are a legal contract analyzer."},
+            {"role": "user", "content": "Analyze this NDA clause: ..."},
+            {"role": "assistant", "content": "This is a mutual NDA with standard provisions..."}
+        ]
+    },
+    # ... 500+ more examples
+]
+
+# OpenAI Fine-Tuning
+from openai import OpenAI
+client = OpenAI()
+
+# Upload training file
+file = client.files.create(
+    file=open("training_data.jsonl", "rb"),
+    purpose="fine-tune"
+)
+
+# Create fine-tuning job
+job = client.fine_tuning.jobs.create(
+    training_file=file.id,
+    model="gpt-3.5-turbo",
+    hyperparameters={
+        "n_epochs": 3,
+        "batch_size": 4,
+        "learning_rate_multiplier": 0.1
+    }
+)
+
+# Monitor training
+while True:
+    job_status = client.fine_tuning.jobs.retrieve(job.id)
+    print(f"Status: {job_status.status}")
+    if job_status.status in ["succeeded", "failed", "cancelled"]:
+        break
+    time.sleep(60)
+
+# Use fine-tuned model
+response = client.chat.completions.create(
+    model=job_status.fine_tuned_model,
+    messages=[{"role": "user", "content": "Analyze this contract..."}]
+)
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Parameter-Efficient Fine-Tuning (PEFT)</h3>
+                    <p>Efficient alternatives to full fine-tuning for large models.</p>
+
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <h4>LoRA (Low-Rank Adaptation)</h4>
+                            <p>Train small adapter matrices instead of full model. 0.1% parameters, 90% performance. Ideal for resource-constrained environments.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>QLoRA</h4>
+                            <p>LoRA + 4-bit quantization. Fine-tune 65B models on single GPU. Memory efficient while maintaining quality.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>Prefix Tuning</h4>
+                            <p>Optimize continuous prompt vectors. Fast adaptation, easy multi-task switching by swapping prefixes.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>Adapter Layers</h4>
+                            <p>Insert small trainable layers between frozen transformer blocks. Modular and composable.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>LoRA Fine-Tuning with Hugging Face</h3>
+                    <div class="code-block">
+                        <code>
+from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
+from peft import LoraConfig, get_peft_model, TaskType
+from trl import SFTTrainer
+
+# Load base model
+model = AutoModelForCausalLM.from_pretrained(
+    "meta-llama/Llama-2-7b-hf",
+    load_in_8bit=True,
+    device_map="auto"
+)
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
+
+# Configure LoRA
+lora_config = LoraConfig(
+    r=16,  # Rank of adaptation matrices
+    lora_alpha=32,  # Scaling factor
+    target_modules=["q_proj", "v_proj"],  # Which layers to adapt
+    lora_dropout=0.05,
+    bias="none",
+    task_type=TaskType.CAUSAL_LM
+)
+
+model = get_peft_model(model, lora_config)
+model.print_trainable_parameters()  # Shows only 0.8% params trainable
+
+# Training arguments
+training_args = TrainingArguments(
+    output_dir="./lora-output",
+    per_device_train_batch_size=4,
+    gradient_accumulation_steps=4,
+    num_train_epochs=3,
+    learning_rate=2e-4,
+    fp16=True,
+    logging_steps=10,
+    save_strategy="epoch"
+)
+
+# Train
+trainer = SFTTrainer(
+    model=model,
+    train_dataset=dataset,
+    peft_config=lora_config,
+    args=training_args,
+    tokenizer=tokenizer
+)
+
+trainer.train()
+
+# Save adapter weights only (few MB vs GB)
+model.save_pretrained("./lora-adapter")
+                        </code>
+                    </div>
+                </div>
+
+                <div class="tip-box">
+                    <strong>Data Quality:</strong> Fine-tuning quality depends heavily on data. Aim for diverse, high-quality examples. Remove duplicates, balance classes, and validate outputs. 500 excellent examples >> 5000 mediocre ones. Consider synthetic data generation using GPT-4 for data augmentation.
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="navigateTo('agents')">
+                        ← Previous: Agentic Workflows
+                    </button>
+                    <button class="nav-btn" onclick="navigateTo('production')">
+                        Next: Production →
+                    </button>
+                </div>
+            </div>
+
+            <!-- Production Section -->
+            <div class="section" id="production">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        </svg>
+                    </div>
+                    <h2 class="section-title">Production Deployment</h2>
+                </div>
+
+                <div class="content-block">
+                    <h3>Production-Ready Architecture</h3>
+                    <p>Deploy LLM applications with reliability, scalability, and cost efficiency.</p>
+
+                    <div class="code-block">
+                        <code>
+┌──────────────┐
+│   Client     │
+└──────┬───────┘
+       │
+       v
+┌──────────────────────┐
+│   Load Balancer      │  ← Rate limiting, request routing
+└──────┬───────────────┘
+       │
+       v
+┌──────────────────────┐
+│   API Gateway        │  ← Authentication, logging, caching
+└──────┬───────────────┘
+       │
+       v
+┌──────────────────────┐
+│   Application        │  ← FastAPI / Flask / Express
+│   - Prompt templates │
+│   - Response parsing │
+│   - Error handling   │
+└──────┬───────────────┘
+       │
+       ├─────────────────┐
+       v                 v
+┌──────────────┐  ┌──────────────┐
+│  LLM API     │  │  Vector DB   │  ← RAG knowledge base
+│  (OpenAI,    │  │  (Pinecone,  │
+│   Claude)    │  │   Weaviate)  │
+└──────────────┘  └──────────────┘
+       │
+       v
+┌──────────────────────┐
+│   Monitoring         │  ← Logs, metrics, tracing
+│   - Latency tracking │
+│   - Token usage      │
+│   - Error rates      │
+└──────────────────────┘
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Caching Strategy</h3>
+                    <p>Reduce latency and costs with intelligent caching.</p>
+
+                    <div class="code-block">
+                        <code>
+import redis
+import hashlib
+import json
+
+redis_client = redis.Redis(host='localhost', port=6379, db=0)
+
+def cached_llm_call(prompt, model="gpt-4-turbo", ttl=3600):
+    # Create cache key from prompt + model
+    cache_key = hashlib.sha256(
+        f"{model}:{prompt}".encode()
+    ).hexdigest()
+
+    # Check cache
+    cached = redis_client.get(cache_key)
+    if cached:
+        print("Cache hit!")
+        return json.loads(cached)
+
+    # Call LLM
+    response = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "user", "content": prompt}]
+    )
+
+    result = response.choices[0].message.content
+
+    # Store in cache
+    redis_client.setex(
+        cache_key,
+        ttl,
+        json.dumps(result)
+    )
+
+    return result
+
+# Semantic caching with embeddings
+def semantic_cache_lookup(query, threshold=0.95):
+    # Embed query
+    query_embedding = get_embedding(query)
+
+    # Search similar cached queries
+    similar = vector_store.similarity_search_with_score(
+        query_embedding,
+        k=1
+    )
+
+    if similar and similar[0][1] > threshold:
+        return similar[0][0].metadata["response"]
+
+    return None
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Error Handling & Retry Logic</h3>
+                    <div class="code-block">
+                        <code>
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+import openai
+
+@retry(
+    retry=retry_if_exception_type((
+        openai.RateLimitError,
+        openai.APIConnectionError,
+        openai.APITimeoutError
+    )),
+    wait=wait_exponential(multiplier=1, min=4, max=60),
+    stop=stop_after_attempt(5)
+)
+def call_llm_with_retry(prompt):
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4-turbo",
+            messages=[{"role": "user", "content": prompt}],
+            timeout=30
+        )
+        return response.choices[0].message.content
+
+    except openai.RateLimitError as e:
+        print(f"Rate limited. Retrying... {e}")
+        raise
+
+    except openai.InvalidRequestError as e:
+        # Don't retry invalid requests
+        print(f"Invalid request: {e}")
+        return None
+
+    except Exception as e:
+        print(f"Unexpected error: {e}")
+        # Log to monitoring system
+        sentry.capture_exception(e)
+        raise
+
+# Fallback to cheaper model on failure
+def call_with_fallback(prompt):
+    try:
+        return call_llm_with_retry(prompt)
+    except Exception:
+        print("GPT-4 failed, falling back to GPT-3.5")
+        return client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": prompt}]
+        ).choices[0].message.content
+                        </code>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h3>Cost Optimization</h3>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Strategy</th>
+                                <th>Impact</th>
+                                <th>Implementation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Caching</strong></td>
+                                <td>60-90% cost reduction</td>
+                                <td>Redis + semantic similarity</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Model Selection</strong></td>
+                                <td>10-50× cost difference</td>
+                                <td>GPT-3.5 for simple, GPT-4 for complex</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Prompt Compression</strong></td>
+                                <td>30-70% token reduction</td>
+                                <td>Remove redundancy, use abbreviations</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Response Streaming</strong></td>
+                                <td>Better UX, same cost</td>
+                                <td>stream=True in API calls</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Batch Processing</strong></td>
+                                <td>50% cost reduction</td>
+                                <td>OpenAI Batch API (24h latency)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="content-block">
+                    <h3>Monitoring & Observability</h3>
+                    <div class="code-block">
+                        <code>
+from prometheus_client import Counter, Histogram, Gauge
+import time
+
+# Define metrics
+llm_requests = Counter(
+    'llm_requests_total',
+    'Total LLM API requests',
+    ['model', 'status']
+)
+
+llm_latency = Histogram(
+    'llm_latency_seconds',
+    'LLM API latency',
+    ['model']
+)
+
+llm_tokens = Counter(
+    'llm_tokens_total',
+    'Total tokens consumed',
+    ['model', 'type']  # type: prompt or completion
+)
+
+llm_cost = Counter(
+    'llm_cost_usd',
+    'Total LLM cost in USD',
+    ['model']
+)
+
+def monitored_llm_call(prompt, model="gpt-4-turbo"):
+    start = time.time()
+
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        # Track metrics
+        latency = time.time() - start
+        llm_latency.labels(model=model).observe(latency)
+        llm_requests.labels(model=model, status="success").inc()
+
+        # Track tokens
+        prompt_tokens = response.usage.prompt_tokens
+        completion_tokens = response.usage.completion_tokens
+        llm_tokens.labels(model=model, type="prompt").inc(prompt_tokens)
+        llm_tokens.labels(model=model, type="completion").inc(completion_tokens)
+
+        # Track cost (GPT-4 pricing: $10/1M prompt, $30/1M completion)
+        cost = (prompt_tokens * 0.00001) + (completion_tokens * 0.00003)
+        llm_cost.labels(model=model).inc(cost)
+
+        return response.choices[0].message.content
+
+    except Exception as e:
+        llm_requests.labels(model=model, status="error").inc()
+        raise
+                        </code>
+                    </div>
+                </div>
+
+                <div class="warning-box">
+                    <strong>Security:</strong> Never log or cache PII/sensitive data. Implement input sanitization to prevent prompt injection. Use separate API keys per environment. Rotate keys regularly. Set spending limits on API accounts. Encrypt data in transit and at rest.
+                </div>
+
+                <div class="content-block">
+                    <h3>Deployment Checklist</h3>
+                    <ul class="tech-list">
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Rate limiting configured (per user, per endpoint)</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Error handling with retries and fallbacks</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Caching layer implemented (Redis/Memcached)</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Monitoring and alerting (Prometheus/Datadog)</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Cost tracking per request</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Input validation and sanitization</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Timeout configuration (30-60s)</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Load testing completed (concurrent requests)</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> API keys secured (env variables, secrets manager)</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Logging (structured, with request IDs)</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Circuit breakers for downstream dependencies</li>
+                        <li><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Health check endpoints configured</li>
+                    </ul>
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="nav-btn" onclick="navigateTo('fine-tuning')">
+                        ← Previous: Fine-Tuning
+                    </button>
+                    <div></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        function navigateTo(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Show target section
+            document.getElementById(sectionId).classList.add('active');
+
+            // Update nav items
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            document.querySelector(`[data-section="${sectionId}"]`).classList.add('active');
+
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Navigation item click handlers
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+                const section = item.getAttribute('data-section');
+                navigateTo(section);
+            });
+        });
+    </script>
+
+    <script>
+        // Cacher le logo au scroll
+        let lastScroll = 0;
+        const navbar = document.querySelector('.navbar');
+        const logo = document.querySelector('.logo');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > 100) {
+                // On a scrollé vers le bas - cacher le logo
+                logo.style.opacity = '0';
+                logo.style.pointerEvents = 'none';
+            } else {
+                // En haut de la page - montrer le logo
+                logo.style.opacity = '1';
+                logo.style.pointerEvents = 'auto';
+            }
+
+            lastScroll = currentScroll;
+        });
+    </script>
+    <script src="../../js/i18n.js"></script>
+    <script src="../../js/auto-translate.js"></script>
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+
+</body>
+</html>

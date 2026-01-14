@@ -1,0 +1,521 @@
+﻿<!DOCTYPE html>
+
+<html data-theme="dark" lang="ja">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Comprehensive AI guides for all skill levels. Learn AI fundamentals, advanced techniques, and expert strategies." name="description"/>
+<title>AI Guides &amp; Tutorials | TechVernia</title>
+<link href="../css/style.css" rel="stylesheet"/>
+<link href="../css/animations.css" rel="stylesheet"/><link href="../css/neon-icons.css" rel="stylesheet"/>
+<link href="../assets/images/logo.svg" rel="icon" type="image/svg+xml"/>
+<style>
+        .guides-hero {
+            padding: calc(80px + var(--space-4xl)) var(--space-lg) var(--space-3xl);
+            background: linear-gradient(135deg, rgba(var(--accent-primary-rgb), 0.05) 0%, transparent 50%);
+            text-align: center;
+        }
+        .guides-hero h1 {
+            font-size: clamp(var(--text-3xl), 6vw, var(--text-5xl));
+            font-weight: 800;
+            margin-bottom: var(--space-lg);
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .guides-hero p {
+            font-size: var(--text-lg);
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .category-card {
+            display: block;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            padding: var(--space-xl);
+            transition: all var(--transition-normal);
+            text-decoration: none;
+        }
+        .category-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-glow);
+            border-color: var(--border-color-hover);
+        }
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-lg);
+            margin-bottom: var(--space-md);
+            padding: var(--space-lg);
+            border-radius: var(--radius-lg);
+        }
+        .category-icon {
+            width: 72px;
+            height: 72px;
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .category-info {
+            flex: 1;
+        }
+        .category-info h2 {
+            margin: 0;
+            font-size: var(--text-2xl);
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .category-info p {
+            margin: var(--space-xs) 0 0;
+            font-weight: 600;
+        }
+        .category-description {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--space-lg);
+        }
+        .category-cta {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            font-weight: 600;
+        }
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--space-xl);
+        }
+        .guides-grid {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-2xl);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .guide-card {
+            position: relative;
+            overflow: hidden;
+            padding: var(--space-3xl);
+            min-height: 280px;
+        }
+        .guide-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.12;
+            z-index: 0;
+        }
+        .guide-card:nth-child(1)::before {
+            background-image: url('https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80');
+        }
+        .guide-card:nth-child(2)::before {
+            background-image: url('https://images.unsplash.com/photo-1676299081847-824916de030a?w=1200&q=80');
+        }
+        .guide-card:nth-child(3)::before {
+            background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80');
+        }
+        .guide-card > * {
+            position: relative;
+            z-index: 1;
+        }
+        .guide-card-header h3 {
+            font-size: var(--text-2xl);
+            margin-top: var(--space-md);
+        }
+        .guide-description {
+            font-size: var(--text-lg);
+            margin: var(--space-lg) 0;
+        }
+        .guide-meta {
+            font-size: var(--text-md);
+        }
+    </style>
+<link href="../css/responsive.css" rel="stylesheet"/>
+            <!-- Balises hreflang pour SEO multilingue -->
+    <link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/guides.html" />
+    <link rel="alternate" hreflang="en" href="https://techvernia.com/pages/guides.html" />
+    <link rel="alternate" hreflang="fr" href="https://techvernia.com/fr/pages/guides.html" />
+    <link rel="alternate" hreflang="es" href="https://techvernia.com/es/pages/guides.html" />
+    <link rel="alternate" hreflang="de" href="https://techvernia.com/de/pages/guides.html" />
+    <link rel="alternate" hreflang="pt" href="https://techvernia.com/pt/pages/guides.html" />
+    <link rel="alternate" hreflang="zh" href="https://techvernia.com/zh/pages/guides.html" />
+    <link rel="alternate" hreflang="ja" href="https://techvernia.com/ja/pages/guides.html" />
+    <link rel="alternate" hreflang="ko" href="https://techvernia.com/ko/pages/guides.html" />
+    <link rel="alternate" hreflang="ar" href="https://techvernia.com/ar/pages/guides.html" />
+    <link rel="alternate" hreflang="hi" href="https://techvernia.com/hi/pages/guides.html" />
+</head>
+<body>
+<!-- Neural Network Background Animation -->
+<canvas id="neural-bg"></canvas>
+<!-- Floating Particles -->
+<div id="particles-container"></div>
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+<div class="nav-container">
+<a class="logo" href="../index.html">
+<img alt="TechVernia" src="../assets/images/logo-techvernia-neon.svg" style="height: 50px; width: auto;"/>
+</a>
+<ul class="nav-menu" id="nav-menu">
+<li class="nav-item"><a href="../index.html" class="nav-link" data-i18n="nav.home">ホーム ></a></li>
+<li class="nav-item"><a href="categories.html" class="nav-link" data-i18n="nav.categories">カテゴリー</a></li>
+<li class="nav-item"><a href="guides.html" class="nav-link active" data-i18n="nav.guides">ガイド</a></li>
+<li class="nav-item"><a href="comparisons.html" class="nav-link" data-i18n="nav.compare">比較する</a></li>
+<li class="nav-item"><a href="ai-history.html" class="nav-link" data-i18n="nav.ai-history">AI歴史</a></li>
+<li class="nav-item"><a href="blog.html" class="nav-link" data-i18n="nav.blog">ブログ</a></li>
+<li class="nav-item"><a href="about.html" class="nav-link" data-i18n="nav.about">お問い合わせ</a></li>
+<li class="nav-item"><a href="contact.html" class="nav-link" data-i18n="nav.contact">お問い合わせ</a></li>
+</ul>
+<div class="nav-actions">
+<!-- Language Selector -->
+<div class="language-selector">
+<button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+<span class="lang-current">EN</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="lang-dropdown" id="lang-dropdown">
+<button class="lang-option active" data-lang="en">
+<span class="flag">🇺🇸</span> English
+</button>
+<button class="lang-option" data-lang="es">
+<span class="flag">🇪🇸</span> Español
+</button>
+<button class="lang-option" data-lang="fr">
+<span class="flag">🇫🇷</span> Français
+</button>
+<button class="lang-option" data-lang="de">
+<span class="flag">🇩🇪</span> Deutsch
+</button>
+<button class="lang-option" data-lang="pt">
+<span class="flag">🇧🇷</span> Português
+</button>
+<button class="lang-option" data-lang="zh">
+<span class="flag">🇨🇳</span> 中文
+</button>
+<button class="lang-option" data-lang="ja">
+<span class="flag">🇯🇵</span> 日本語
+</button>
+<button class="lang-option" data-lang="ko">
+<span class="flag">🇰🇷</span> 한국어
+</button>
+<button class="lang-option" data-lang="ar">
+<span class="flag">🇸🇦</span> العربية
+</button>
+<button class="lang-option" data-lang="hi">
+<span class="flag">🇮🇳</span> हिन्दी
+</button>
+</div>
+</div>
+<!-- Search -->
+<button aria-label="Search" class="search-btn" id="search-btn">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="11" cy="11" r="8"></circle>
+<path d="M21 21l-4.35-4.35"></path>
+</svg>
+</button>
+<!-- Mobile Menu Toggle -->
+<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="guides-hero">
+<div class="container">
+<h1>AI Guides &amp; Tutorials</h1>
+<p>Master artificial intelligence with our comprehensive guides. From complete beginners to AI experts, we have the perfect learning path for you.</p>
+</div>
+</section>
+<!-- Main Content -->
+<main style="padding: var(--space-4xl) var(--space-lg);">
+<div class="container">
+<!-- Featured Guides -->
+<section style="margin-bottom: var(--space-4xl);">
+<div style="text-align: center; margin-bottom: var(--space-3xl);">
+<div style="display: inline-flex; align-items: center; gap: var(--space-xs); padding: var(--space-xs) var(--space-md); background: rgba(var(--accent-primary-rgb), 0.1); border: 1px solid rgba(var(--accent-primary-rgb), 0.3); border-radius: var(--radius-full); font-size: var(--text-sm); font-weight: 600; color: var(--accent-primary); margin-bottom: var(--space-md);">
+<svg fill="none" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<lineargradient id="neonGradientStar" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" style="stop-color:#00D9FF"></stop>
+<stop offset="100%" style="stop-color:#7C3AED"></stop>
+</lineargradient>
+<filter id="neonGlowStar">
+<fegaussianblur in="SourceGraphic" result="blur1" stddeviation="0.5"></fegaussianblur>
+<fegaussianblur in="SourceGraphic" result="blur2" stddeviation="1"></fegaussianblur>
+<femerge>
+<femergenode in="blur2"></femergenode>
+<femergenode in="blur1"></femergenode>
+<femergenode in="SourceGraphic"></femergenode>
+</femerge>
+</filter>
+</defs>
+<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="url(#neonGradientStar)" filter="url(#neonGlowStar)"></path>
+</svg>
+                        Featured
+                    </div>
+<h2 style="font-size: var(--text-3xl); font-weight: 800; margin-bottom: var(--space-md);">
+                        Popular Guides
+                    </h2>
+<p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto;">
+                        Start with these hand-picked guides covering the most essential AI topics
+                    </p>
+</div>
+<div class="guides-grid">
+<a class="guide-card" href="guides/ai-fundamentals.html" target="_blank">
+<div class="guide-card-header">
+<h3>AI Fundamentals</h3>
+</div>
+<p class="guide-description">Master the core concepts of artificial intelligence, machine learning, and neural networks</p>
+<div class="guide-meta">
+<span class="meta-item">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="M12 6v6l4 2"></path>
+</svg>
+                                20 min
+                            </span>
+<span class="meta-item">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+<path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+</svg>
+                                5 lessons
+                            </span>
+</div>
+</a>
+<a class="guide-card" href="guides/advanced-prompt-engineering.html" target="_blank">
+<div class="guide-card-header">
+<h3>Advanced Prompt Engineering</h3>
+</div>
+<p class="guide-description">Master complex prompting techniques for sophisticated AI interactions</p>
+<div class="guide-meta">
+<span class="meta-item">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="M12 6v6l4 2"></path>
+</svg>
+                                35 min
+                            </span>
+<span class="meta-item">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+<path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+</svg>
+                                8 lessons
+                            </span>
+</div>
+</a>
+<a class="guide-card" href="guides/enterprise-ai-architecture.html" target="_blank">
+<div class="guide-card-header">
+<h3>Enterprise AI Architecture</h3>
+</div>
+<p class="guide-description">Design scalable AI systems for large organizations</p>
+<div class="guide-meta">
+<span class="meta-item">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="M12 6v6l4 2"></path>
+</svg>
+                                50 min
+                            </span>
+<span class="meta-item">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+<path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+</svg>
+                                12 lessons
+                            </span>
+</div>
+</a>
+</div>
+</section>
+<!-- Browse by Level -->
+<section>
+<div style="text-align: center; margin-bottom: var(--space-3xl);">
+<h2 style="font-size: var(--text-3xl); font-weight: 800; margin-bottom: var(--space-md);">
+                        Browse by Skill Level
+                    </h2>
+<p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto;">
+                        Choose your path and explore guides tailored to your experience level
+                    </p>
+</div>
+<div class="categories-grid">
+<!-- Beginner -->
+<a class="category-card" href="categories/guides-beginner.html">
+<div class="category-header" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.05), rgba(34, 197, 94, 0.02));">
+<div class="category-icon" style="background: rgba(34, 197, 94, 0.1); border: 2px solid rgba(34, 197, 94, 0.3);">
+<svg fill="none" viewbox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<lineargradient id="neonGradientBeginner" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" style="stop-color:#22C55E"></stop>
+<stop offset="100%" style="stop-color:#10B981"></stop>
+</lineargradient>
+<filter id="neonGlowBeginner">
+<fegaussianblur in="SourceGraphic" result="blur1" stddeviation="2"></fegaussianblur>
+<fegaussianblur in="SourceGraphic" result="blur2" stddeviation="4"></fegaussianblur>
+<femerge>
+<femergenode in="blur2"></femergenode>
+<femergenode in="blur1"></femergenode>
+<femergenode in="SourceGraphic"></femergenode>
+</femerge>
+</filter>
+</defs>
+<circle cx="36" cy="36" fill="none" filter="url(#neonGlowBeginner)" r="28" stroke="url(#neonGradientBeginner)" stroke-width="3"></circle>
+<path d="M36 44V32M36 24h.03" filter="url(#neonGlowBeginner)" stroke="url(#neonGradientBeginner)" stroke-linecap="round" stroke-width="3"></path>
+<circle cx="36" cy="36" filter="url(#neonGlowBeginner)" opacity="0.4" r="20" stroke="url(#neonGradientBeginner)" stroke-width="2"></circle>
+</svg>
+</div>
+<div class="category-info">
+<h2>Beginner Guides</h2>
+<p style="color: #22C55E;">10 Guides</p>
+</div>
+</div>
+<p class="category-description">Perfect starting point for AI newcomers. Learn the fundamentals with easy-to-follow guides that require no prior experience.</p>
+<div class="category-cta" style="color: #22C55E;">
+<span>Explore Guides</span>
+<svg fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px;" viewbox="0 0 24 24">
+<path d="M5 12h14M12 5l7 7-7 7"></path>
+</svg>
+</div>
+</a>
+<!-- Intermediate -->
+<a class="category-card" href="categories/guides-intermediate.html">
+<div class="category-header" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.05), rgba(59, 130, 246, 0.02));">
+<div class="category-icon" style="background: rgba(59, 130, 246, 0.1); border: 2px solid rgba(59, 130, 246, 0.3);">
+<svg fill="none" viewbox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<lineargradient id="neonGradientIntermediate" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" style="stop-color:#3B82F6"></stop>
+<stop offset="100%" style="stop-color:#2563EB"></stop>
+</lineargradient>
+<filter id="neonGlowIntermediate">
+<fegaussianblur in="SourceGraphic" result="blur1" stddeviation="2"></fegaussianblur>
+<fegaussianblur in="SourceGraphic" result="blur2" stddeviation="4"></fegaussianblur>
+<femerge>
+<femergenode in="blur2"></femergenode>
+<femergenode in="blur1"></femergenode>
+<femergenode in="SourceGraphic"></femergenode>
+</femerge>
+</filter>
+</defs>
+<polyline fill="none" filter="url(#neonGlowIntermediate)" points="64 18 40 46 24 30 8 54" stroke="url(#neonGradientIntermediate)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"></polyline>
+<polyline fill="none" filter="url(#neonGlowIntermediate)" points="50 18 64 18 64 32" stroke="url(#neonGradientIntermediate)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></polyline>
+<circle cx="40" cy="46" fill="url(#neonGradientIntermediate)" filter="url(#neonGlowIntermediate)" r="4"></circle>
+<circle cx="24" cy="30" fill="url(#neonGradientIntermediate)" filter="url(#neonGlowIntermediate)" r="4"></circle>
+</svg>
+</div>
+<div class="category-info">
+<h2>Intermediate Guides</h2>
+<p style="color: #3B82F6;">10 Guides</p>
+</div>
+</div>
+<p class="category-description">Level up your AI skills with advanced techniques and workflows. Build on your foundation with professional-grade strategies.</p>
+<div class="category-cta" style="color: #3B82F6;">
+<span>Explore Guides</span>
+<svg fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px;" viewbox="0 0 24 24">
+<path d="M5 12h14M12 5l7 7-7 7"></path>
+</svg>
+</div>
+</a>
+<!-- Advanced -->
+<a class="category-card" href="categories/guides-advanced.html">
+<div class="category-header" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.05), rgba(168, 85, 247, 0.02));">
+<div class="category-icon" style="background: rgba(168, 85, 247, 0.1); border: 2px solid rgba(168, 85, 247, 0.3);">
+<svg fill="none" viewbox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<lineargradient id="neonGradientAdvanced" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" style="stop-color:#A855F7"></stop>
+<stop offset="100%" style="stop-color:#7C3AED"></stop>
+</lineargradient>
+<filter id="neonGlowAdvanced">
+<fegaussianblur in="SourceGraphic" result="blur1" stddeviation="2"></fegaussianblur>
+<fegaussianblur in="SourceGraphic" result="blur2" stddeviation="4"></fegaussianblur>
+<femerge>
+<femergenode in="blur2"></femergenode>
+<femergenode in="blur1"></femergenode>
+<femergenode in="SourceGraphic"></femergenode>
+</femerge>
+</filter>
+</defs>
+<!-- Couche supérieure -->
+<path d="M36 8L12 22l24 14 24-14-24-14z" fill="none" filter="url(#neonGlowAdvanced)" stroke="url(#neonGradientAdvanced)" stroke-linejoin="round" stroke-width="3"></path>
+<!-- Couche milieu -->
+<path d="M12 36l24 14 24-14" fill="none" filter="url(#neonGlowAdvanced)" stroke="url(#neonGradientAdvanced)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+<!-- Couche inférieure -->
+<path d="M12 50l24 14 24-14" fill="none" filter="url(#neonGlowAdvanced)" stroke="url(#neonGradientAdvanced)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+<!-- Points de connexion -->
+<circle cx="36" cy="22" fill="url(#neonGradientAdvanced)" filter="url(#neonGlowAdvanced)" r="3"></circle>
+<circle cx="36" cy="36" fill="url(#neonGradientAdvanced)" filter="url(#neonGlowAdvanced)" r="3"></circle>
+<circle cx="36" cy="50" fill="url(#neonGradientAdvanced)" filter="url(#neonGlowAdvanced)" r="3"></circle>
+</svg>
+</div>
+<div class="category-info">
+<h2>Advanced Guides</h2>
+<p style="color: #A855F7;">10 Guides</p>
+</div>
+</div>
+<p class="category-description">Expert-level techniques for AI professionals and researchers. Master cutting-edge AI development and deployment strategies.</p>
+<div class="category-cta" style="color: #A855F7;">
+<span>Explore Guides</span>
+<svg fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px;" viewbox="0 0 24 24">
+<path d="M5 12h14M12 5l7 7-7 7"></path>
+</svg>
+</div>
+</a>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-content">
+<div class="footer-section">
+<a class="footer-logo" href="../index.html">
+<img alt="TechVernia Logo" src="../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+</a>
+<p class="footer-description">Your trusted source for AI tool reviews and comparisons.</p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 TechVernia. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script>
+        // Logo scroll behavior
+        const logo = document.querySelector('.logo');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                logo.style.opacity = '0';
+                logo.style.pointerEvents = 'none';
+            } else {
+                logo.style.opacity = '1';
+                logo.style.pointerEvents = 'auto';
+            }
+        });
+    </script>
+<script src="../js/animations.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/i18n.js"></script>
+<script src="../js/auto-translate.js"></script>
+</body>
+</html>

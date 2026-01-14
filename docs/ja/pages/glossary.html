@@ -1,0 +1,893 @@
+﻿<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete AI Glossary - Learn essential artificial intelligence terms, definitions, and concepts. From A to Z guide for beginners and experts.">
+    <meta name="keywords" content="AI glossary, artificial intelligence terms, machine learning definitions, AI dictionary, AI terminology">
+    <title>AI Glossary - Essential Terms & Definitions | TechVernia</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="../css/neon-icons.css" rel="stylesheet">
+    <style>
+        .glossary-hero {
+            padding: calc(80px + var(--space-4xl)) var(--space-lg) var(--space-3xl);
+            text-align: center;
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(99, 102, 241, 0.1));
+            border-bottom: 1px solid var(--border-color);
+        }
+        .glossary-hero h1 {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 800;
+            margin-bottom: var(--space-md);
+            background: linear-gradient(135deg, #8B5CF6, #6366F1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glossary-hero p {
+            font-size: var(--text-lg);
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .search-section {
+            padding: var(--space-2xl) 0;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 80px;
+            z-index: 50;
+        }
+        .search-box {
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .search-input {
+            width: 100%;
+            padding: var(--space-md) var(--space-lg) var(--space-md) 3.5rem;
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            color: var(--text-primary);
+            font-size: var(--text-md);
+            font-family: inherit;
+            transition: all var(--transition-fast);
+        }
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+        }
+        .search-icon {
+            position: absolute;
+            left: 1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            color: var(--text-tertiary);
+        }
+        .alphabet-nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: var(--space-xs);
+            margin-top: var(--space-lg);
+        }
+        .alphabet-btn {
+            width: 40px;
+            height: 40px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            color: var(--text-secondary);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        .alphabet-btn:hover, .alphabet-btn.active {
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+        .glossary-content {
+            padding: var(--space-4xl) 0;
+        }
+        .letter-section {
+            margin-bottom: var(--space-4xl);
+        }
+        .letter-header {
+            font-size: var(--text-4xl);
+            font-weight: 800;
+            color: var(--accent-primary);
+            margin-bottom: var(--space-2xl);
+            padding-bottom: var(--space-md);
+            border-bottom: 3px solid var(--accent-primary);
+        }
+        .term-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--space-xl);
+            margin-bottom: var(--space-lg);
+            transition: all var(--transition-normal);
+        }
+        .term-card:hover {
+            border-color: var(--accent-primary);
+            box-shadow: 0 4px 20px rgba(99, 102, 241, 0.1);
+        }
+        .term-title {
+            font-size: var(--text-xl);
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: var(--space-sm);
+        }
+        .term-category {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: rgba(139, 92, 246, 0.1);
+            color: var(--accent-primary);
+            border-radius: var(--radius-full);
+            font-size: var(--text-xs);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: var(--space-md);
+        }
+        .term-definition {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: var(--space-md);
+        }
+        .term-example {
+            background: var(--bg-secondary);
+            border-left: 3px solid var(--accent-primary);
+            padding: var(--space-md);
+            border-radius: var(--radius-md);
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .term-related {
+            margin-top: var(--space-md);
+            font-size: var(--text-sm);
+            color: var(--text-tertiary);
+        }
+        .term-related a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .term-related a:hover {
+            text-decoration: underline;
+        }
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-3xl);
+            padding: var(--space-2xl);
+            background: var(--bg-card);
+            border-radius: var(--radius-xl);
+            margin-bottom: var(--space-2xl);
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: var(--text-3xl);
+            font-weight: 800;
+            background: linear-gradient(135deg, #8B5CF6, #6366F1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .stat-label {
+            font-size: var(--text-sm);
+            color: var(--text-tertiary);
+            margin-top: var(--space-xs);
+        }
+        @media (max-width: 768px) {
+            .alphabet-nav {
+                gap: 0.25rem;
+            }
+            .alphabet-btn {
+                width: 32px;
+                height: 32px;
+                font-size: var(--text-sm);
+            }
+            .stats-bar {
+                flex-direction: column;
+                gap: var(--space-lg);
+            }
+        }
+    </style>
+<link href="../css/responsive.css" rel="stylesheet"/>
+            <!-- Balises hreflang pour SEO multilingue -->
+    <link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/glossary.html" />
+    <link rel="alternate" hreflang="en" href="https://techvernia.com/pages/glossary.html" />
+    <link rel="alternate" hreflang="fr" href="https://techvernia.com/fr/pages/glossary.html" />
+    <link rel="alternate" hreflang="es" href="https://techvernia.com/es/pages/glossary.html" />
+    <link rel="alternate" hreflang="de" href="https://techvernia.com/de/pages/glossary.html" />
+    <link rel="alternate" hreflang="pt" href="https://techvernia.com/pt/pages/glossary.html" />
+    <link rel="alternate" hreflang="zh" href="https://techvernia.com/zh/pages/glossary.html" />
+    <link rel="alternate" hreflang="ja" href="https://techvernia.com/ja/pages/glossary.html" />
+    <link rel="alternate" hreflang="ko" href="https://techvernia.com/ko/pages/glossary.html" />
+    <link rel="alternate" hreflang="ar" href="https://techvernia.com/ar/pages/glossary.html" />
+    <link rel="alternate" hreflang="hi" href="https://techvernia.com/hi/pages/glossary.html" />
+</head>
+<body>
+    <canvas id="neural-bg"></canvas>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo-techvernia-neon.svg" alt="TechVernia" style="height: 50px; width: auto;">
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="guides.html" class="nav-link">Guides</a></li>
+                <li class="nav-item"><a href="comparisons.html" class="nav-link">Compare</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <div class="nav-actions">
+<!-- Language Selector -->
+<div class="language-selector">
+<button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+<span class="lang-current">EN</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="lang-dropdown" id="lang-dropdown">
+<button class="lang-option active" data-lang="en">
+<span class="flag">US</span> English
+</button>
+<button class="lang-option" data-lang="es">
+<span class="flag">ES</span> Espanol
+</button>
+<button class="lang-option" data-lang="fr">
+<span class="flag">FR</span> Francais
+</button>
+<button class="lang-option" data-lang="de">
+<span class="flag">DE</span> Deutsch
+</button>
+<button class="lang-option" data-lang="pt">
+<span class="flag">BR</span> Portugues
+</button>
+<button class="lang-option" data-lang="zh">
+<span class="flag">CN</span> Chinese
+</button>
+<button class="lang-option" data-lang="ja">
+<span class="flag">JP</span> Japanese
+</button>
+<button class="lang-option" data-lang="ko">
+<span class="flag">KR</span> Korean
+</button>
+<button class="lang-option" data-lang="ar">
+<span class="flag">SA</span> Arabic
+</button>
+<button class="lang-option" data-lang="hi">
+<span class="flag">IN</span> Hindi
+</button>
+</div>
+</div>
+<!-- Search -->
+<button aria-label="Search" class="search-btn" id="search-btn">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="11" cy="11" r="8"></circle>
+<path d="M21 21l-4.35-4.35"></path>
+</svg>
+</button>
+<!-- Mobile Menu Toggle -->
+<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</div>
+</nav>
+
+    <header class="glossary-hero">
+        <h1>AI Glossary</h1>
+        <p>Your comprehensive guide to artificial intelligence terminology. Master the language of AI with clear definitions and practical examples.</p>
+    </header>
+
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search for AI terms...">
+            </div>
+            <div class="alphabet-nav">
+                <button class="alphabet-btn" data-letter="all">All</button>
+                <button class="alphabet-btn" data-letter="A">A</button>
+                <button class="alphabet-btn" data-letter="B">B</button>
+                <button class="alphabet-btn" data-letter="C">C</button>
+                <button class="alphabet-btn" data-letter="D">D</button>
+                <button class="alphabet-btn" data-letter="E">E</button>
+                <button class="alphabet-btn" data-letter="F">F</button>
+                <button class="alphabet-btn" data-letter="G">G</button>
+                <button class="alphabet-btn" data-letter="H">H</button>
+                <button class="alphabet-btn" data-letter="I">I</button>
+                <button class="alphabet-btn" data-letter="L">L</button>
+                <button class="alphabet-btn" data-letter="M">M</button>
+                <button class="alphabet-btn" data-letter="N">N</button>
+                <button class="alphabet-btn" data-letter="O">O</button>
+                <button class="alphabet-btn" data-letter="P">P</button>
+                <button class="alphabet-btn" data-letter="Q">Q</button>
+                <button class="alphabet-btn" data-letter="R">R</button>
+                <button class="alphabet-btn" data-letter="S">S</button>
+                <button class="alphabet-btn" data-letter="T">T</button>
+                <button class="alphabet-btn" data-letter="U">U</button>
+                <button class="alphabet-btn" data-letter="V">V</button>
+                <button class="alphabet-btn" data-letter="Z">Z</button>
+            </div>
+        </div>
+    </section>
+
+    <main class="glossary-content">
+        <div class="container">
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">AI Terms</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2025</div>
+                    <div class="stat-label">Updated</div>
+                </div>
+            </div>
+
+            <!-- Letter A -->
+            <div class="letter-section" id="section-A">
+                <h2 class="letter-header">A</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Core Concept</span>
+                    <h3 class="term-title">Artificial Intelligence (AI)</h3>
+                    <p class="term-definition">The simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, problem-solving, perception, and language understanding.</p>
+                    <div class="term-example">Example: ChatGPT uses AI to understand and generate human-like text responses.</div>
+                    <div class="term-related">Related: <a href="#Machine-Learning">Machine Learning</a>, <a href="#Deep-Learning">Deep Learning</a>, <a href="#AGI">AGI</a></div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Advanced</span>
+                    <h3 class="term-title">AGI (Artificial General Intelligence)</h3>
+                    <p class="term-definition">A theoretical form of AI that possesses the ability to understand, learn, and apply intelligence across a wide range of tasks at a human level or beyond. Unlike narrow AI, AGI can transfer knowledge between different domains.</p>
+                    <div class="term-example">Example: While current AI excels at specific tasks, true AGI would match human versatility across all cognitive tasks.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Model Architecture</span>
+                    <h3 class="term-title">Attention Mechanism</h3>
+                    <p class="term-definition">A technique in neural networks that allows models to focus on specific parts of input data when making predictions. It's fundamental to transformer architectures and modern language models.</p>
+                    <div class="term-example">Example: When translating "The cat sat on the mat", attention helps the model focus on relevant words for each translation step.</div>
+                    <div class="term-related">Related: <a href="#Transformer">Transformer</a>, <a href="#Self-Attention">Self-Attention</a></div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Adversarial Training</h3>
+                    <p class="term-definition">A training method where models are exposed to adversarial examples (intentionally perturbed inputs) to improve robustness and generalization.</p>
+                    <div class="term-example">Example: Training an image classifier with slightly modified images to make it more resistant to attacks.</div>
+                </div>
+            </div>
+
+            <!-- Letter B -->
+            <div class="letter-section" id="section-B">
+                <h2 class="letter-header">B</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Backpropagation</h3>
+                    <p class="term-definition">An algorithm for training neural networks by calculating gradients of the loss function and propagating them backward through the network to update weights.</p>
+                    <div class="term-example">Example: After making a prediction, the network adjusts its weights based on how wrong it was.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Batch Size</h3>
+                    <p class="term-definition">The number of training examples processed together in one iteration before the model's weights are updated.</p>
+                    <div class="term-example">Example: A batch size of 32 means the model processes 32 examples before updating.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Data</span>
+                    <h3 class="term-title">Bias (Dataset)</h3>
+                    <p class="term-definition">Systematic errors in AI systems that result from prejudiced assumptions in training data or model design, leading to unfair outcomes.</p>
+                    <div class="term-example">Example: A hiring AI trained on historical data might inherit gender biases from past decisions.</div>
+                </div>
+            </div>
+
+            <!-- Letter C -->
+            <div class="letter-section" id="section-C">
+                <h2 class="letter-header">C</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Application</span>
+                    <h3 class="term-title">Chatbot</h3>
+                    <p class="term-definition">An AI-powered conversational agent that can interact with users through text or voice, understanding queries and providing relevant responses.</p>
+                    <div class="term-example">Example: ChatGPT, Claude, and Gemini are advanced chatbots powered by large language models.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Architecture</span>
+                    <h3 class="term-title">CNN (Convolutional Neural Network)</h3>
+                    <p class="term-definition">A deep learning architecture specifically designed for processing grid-like data such as images. Uses convolutional layers to automatically learn spatial hierarchies of features.</p>
+                    <div class="term-example">Example: Image recognition systems use CNNs to identify objects, faces, and scenes.</div>
+                    <div class="term-related">Related: <a href="#Computer-Vision">Computer Vision</a></div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Application</span>
+                    <h3 class="term-title">Computer Vision</h3>
+                    <p class="term-definition">A field of AI that enables computers to interpret and understand visual information from the world, including images and videos.</p>
+                    <div class="term-example">Example: Self-driving cars use computer vision to detect pedestrians, road signs, and obstacles.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Model Interaction</span>
+                    <h3 class="term-title">Context Window</h3>
+                    <p class="term-definition">The maximum amount of text (measured in tokens) that an AI model can process at once. Larger context windows allow models to handle longer conversations and documents.</p>
+                    <div class="term-example">Example: Claude 4.5 has a 200K token context window, allowing it to process entire books.</div>
+                </div>
+            </div>
+
+            <!-- Letter D -->
+            <div class="letter-section" id="section-D">
+                <h2 class="letter-header">D</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Core Concept</span>
+                    <h3 class="term-title">Deep Learning</h3>
+                    <p class="term-definition">A subset of machine learning that uses neural networks with multiple layers (deep neural networks) to learn hierarchical representations of data.</p>
+                    <div class="term-example">Example: Image recognition systems use deep learning to identify features from pixels to objects.</div>
+                    <div class="term-related">Related: <a href="#Neural-Network">Neural Network</a>, <a href="#Machine-Learning">Machine Learning</a></div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Model Type</span>
+                    <h3 class="term-title">Diffusion Model</h3>
+                    <p class="term-definition">A generative model that learns to create data by reversing a gradual noising process. Widely used in image generation.</p>
+                    <div class="term-example">Example: Stable Diffusion and Midjourney use diffusion models to generate images from text.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Dropout</h3>
+                    <p class="term-definition">A regularization technique that randomly drops units from a neural network during training to prevent overfitting.</p>
+                    <div class="term-example">Example: During training, 20% of neurons might be randomly deactivated each iteration.</div>
+                </div>
+            </div>
+
+            <!-- Letter E -->
+            <div class="letter-section" id="section-E">
+                <h2 class="letter-header">E</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Representation</span>
+                    <h3 class="term-title">Embedding</h3>
+                    <p class="term-definition">A representation of data (text, images, etc.) as dense vectors in a continuous vector space, where similar items are positioned closer together.</p>
+                    <div class="term-example">Example: Words like "cat" and "kitten" have similar embeddings because they're semantically related.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Epoch</h3>
+                    <p class="term-definition">One complete pass through the entire training dataset during the training process of a machine learning model.</p>
+                    <div class="term-example">Example: Training for 10 epochs means the model sees the complete dataset 10 times.</div>
+                </div>
+            </div>
+
+            <!-- Letter F -->
+            <div class="letter-section" id="section-F">
+                <h2 class="letter-header">F</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Fine-tuning</h3>
+                    <p class="term-definition">The process of taking a pre-trained model and further training it on a specific task or dataset to adapt it to particular needs.</p>
+                    <div class="term-example">Example: Taking GPT-4 and fine-tuning it on medical literature to create a healthcare chatbot.</div>
+                    <div class="term-related">Related: <a href="#Transfer-Learning">Transfer Learning</a></div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Few-Shot Learning</h3>
+                    <p class="term-definition">The ability of a model to learn from just a few examples, typically by providing examples in the prompt rather than full retraining.</p>
+                    <div class="term-example">Example: Showing an AI 3 examples of a new classification task and having it perform well immediately.</div>
+                </div>
+            </div>
+
+            <!-- Letter G -->
+            <div class="letter-section" id="section-G">
+                <h2 class="letter-header">G</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Model Type</span>
+                    <h3 class="term-title">GAN (Generative Adversarial Network)</h3>
+                    <p class="term-definition">A neural network architecture with two competing networks: a generator that creates data and a discriminator that evaluates it, improving through competition.</p>
+                    <div class="term-example">Example: GANs can generate realistic fake faces or artwork.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Model Type</span>
+                    <h3 class="term-title">Generative AI</h3>
+                    <p class="term-definition">AI systems that can create new content, including text, images, music, code, and video, based on patterns learned from training data.</p>
+                    <div class="term-example">Example: ChatGPT generates text, Midjourney generates images, and GitHub Copilot generates code.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Model Architecture</span>
+                    <h3 class="term-title">GPT (Generative Pre-trained Transformer)</h3>
+                    <p class="term-definition">A family of large language models developed by OpenAI that use transformer architecture and are pre-trained on vast amounts of text data.</p>
+                    <div class="term-example">Example: ChatGPT is based on the GPT architecture.</div>
+                </div>
+            </div>
+
+            <!-- Letter H -->
+            <div class="letter-section" id="section-H">
+                <h2 class="letter-header">H</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Model Issue</span>
+                    <h3 class="term-title">Hallucination</h3>
+                    <p class="term-definition">When an AI model generates information that sounds plausible but is factually incorrect or completely fabricated.</p>
+                    <div class="term-example">Example: A chatbot confidently citing a scientific paper that doesn't exist.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Hyperparameter</h3>
+                    <p class="term-definition">Configuration settings for a machine learning model that are set before training begins, such as learning rate, batch size, and number of layers.</p>
+                    <div class="term-example">Example: Choosing a learning rate of 0.001 before starting model training.</div>
+                </div>
+            </div>
+
+            <!-- Letter I -->
+            <div class="letter-section" id="section-I">
+                <h2 class="letter-header">I</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Inference</h3>
+                    <p class="term-definition">The process of using a trained AI model to make predictions or generate outputs on new, unseen data.</p>
+                    <div class="term-example">Example: After training an image classifier, using it to identify objects in new photos is inference.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Model Interaction</span>
+                    <h3 class="term-title">Instruction Tuning</h3>
+                    <p class="term-definition">Fine-tuning language models to better follow user instructions and prompts by training on instruction-response pairs.</p>
+                    <div class="term-example">Example: Training a model to respond appropriately when given commands like "Summarize this text" or "Translate to French".</div>
+                </div>
+            </div>
+
+            <!-- Letter L -->
+            <div class="letter-section" id="section-L">
+                <h2 class="letter-header">L</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Core Concept</span>
+                    <h3 class="term-title">Large Language Model (LLM)</h3>
+                    <p class="term-definition">Neural networks with billions of parameters trained on massive text datasets to understand and generate human-like text.</p>
+                    <div class="term-example">Example: GPT-4, Claude, and Gemini are large language models.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Learning Rate</h3>
+                    <p class="term-definition">A hyperparameter that controls how much to adjust model weights during training. Too high causes instability, too low makes training slow.</p>
+                    <div class="term-example">Example: A learning rate of 0.001 means weights change by small increments each step.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Loss Function</h3>
+                    <p class="term-definition">A mathematical function that measures how far a model's predictions are from the actual values, guiding the training process.</p>
+                    <div class="term-example">Example: Mean squared error is a common loss function for regression tasks.</div>
+                </div>
+            </div>
+
+            <!-- Letter M -->
+            <div class="letter-section" id="section-M">
+                <h2 class="letter-header">M</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Core Concept</span>
+                    <h3 class="term-title">Machine Learning (ML)</h3>
+                    <p class="term-definition">A subset of AI where systems learn from data to improve performance without being explicitly programmed for specific tasks.</p>
+                    <div class="term-example">Example: Email spam filters learn to identify spam by analyzing thousands of labeled emails.</div>
+                    <div class="term-related">Related: <a href="#Deep-Learning">Deep Learning</a>, <a href="#Supervised-Learning">Supervised Learning</a></div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Model Type</span>
+                    <h3 class="term-title">Multimodal AI</h3>
+                    <p class="term-definition">AI systems that can process and understand multiple types of data simultaneously, such as text, images, audio, and video.</p>
+                    <div class="term-example">Example: GPT-4 Vision can analyze both text and images in the same conversation.</div>
+                </div>
+            </div>
+
+            <!-- Letter N -->
+            <div class="letter-section" id="section-N">
+                <h2 class="letter-header">N</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Application</span>
+                    <h3 class="term-title">Natural Language Processing (NLP)</h3>
+                    <p class="term-definition">A branch of AI focused on enabling computers to understand, interpret, and generate human language.</p>
+                    <div class="term-example">Example: Language translation, sentiment analysis, and chatbots all use NLP.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Core Concept</span>
+                    <h3 class="term-title">Neural Network</h3>
+                    <p class="term-definition">A computing system inspired by biological neural networks, consisting of interconnected nodes (neurons) organized in layers that process information.</p>
+                    <div class="term-example">Example: Image recognition systems use neural networks to identify patterns in pixels.</div>
+                </div>
+            </div>
+
+            <!-- Letter O -->
+            <div class="letter-section" id="section-O">
+                <h2 class="letter-header">O</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Overfitting</h3>
+                    <p class="term-definition">When a model learns the training data too well, including noise and outliers, resulting in poor performance on new data.</p>
+                    <div class="term-example">Example: A model that memorizes training examples but can't generalize to new situations.</div>
+                </div>
+            </div>
+
+            <!-- Letter P -->
+            <div class="letter-section" id="section-P">
+                <h2 class="letter-header">P</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Model Configuration</span>
+                    <h3 class="term-title">Parameters</h3>
+                    <p class="term-definition">The learned weights and biases in a neural network that are adjusted during training. Model size is often measured in parameters.</p>
+                    <div class="term-example">Example: GPT-4 reportedly has over 1 trillion parameters.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Model Interaction</span>
+                    <h3 class="term-title">Prompt Engineering</h3>
+                    <p class="term-definition">The practice of crafting effective inputs (prompts) to get desired outputs from AI models, especially language models.</p>
+                    <div class="term-example">Example: Adding "Think step by step" to a prompt often improves reasoning quality.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Pre-training</h3>
+                    <p class="term-definition">The initial phase of training where a model learns general patterns from large amounts of unlabeled data before being fine-tuned for specific tasks.</p>
+                    <div class="term-example">Example: GPT models are pre-trained on internet text before being fine-tuned for chat.</div>
+                </div>
+            </div>
+
+            <!-- Letter R -->
+            <div class="letter-section" id="section-R">
+                <h2 class="letter-header">R</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Application</span>
+                    <h3 class="term-title">RAG (Retrieval-Augmented Generation)</h3>
+                    <p class="term-definition">A technique that enhances language models by retrieving relevant information from external sources before generating responses.</p>
+                    <div class="term-example">Example: A chatbot that searches a company's documentation before answering questions.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Reinforcement Learning</h3>
+                    <p class="term-definition">A type of machine learning where agents learn by interacting with an environment and receiving rewards or penalties for actions.</p>
+                    <div class="term-example">Example: AlphaGo learned to play Go through reinforcement learning by playing millions of games.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">RLHF (Reinforcement Learning from Human Feedback)</h3>
+                    <p class="term-definition">A training method where humans rate model outputs, and these ratings guide the model to align better with human preferences.</p>
+                    <div class="term-example">Example: ChatGPT was trained using RLHF to be more helpful and harmless.</div>
+                </div>
+            </div>
+
+            <!-- Letter S -->
+            <div class="letter-section" id="section-S">
+                <h2 class="letter-header">S</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Model Interaction</span>
+                    <h3 class="term-title">Self-Attention</h3>
+                    <p class="term-definition">A mechanism that allows models to weigh the importance of different parts of the input relative to each other.</p>
+                    <div class="term-example">Example: Understanding that "it" refers to "book" in "The book was interesting. It was well-written."</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Supervised Learning</h3>
+                    <p class="term-definition">A type of machine learning where models learn from labeled training data with known input-output pairs.</p>
+                    <div class="term-example">Example: Training an image classifier with photos labeled as "cat" or "dog".</div>
+                </div>
+            </div>
+
+            <!-- Letter T -->
+            <div class="letter-section" id="section-T">
+                <h2 class="letter-header">T</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Model Configuration</span>
+                    <h3 class="term-title">Temperature</h3>
+                    <p class="term-definition">A parameter controlling randomness in AI text generation. Higher values increase creativity but reduce consistency.</p>
+                    <div class="term-example">Example: Temperature 0.1 gives consistent, focused outputs; 0.9 gives creative, varied responses.</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Tokenization</span>
+                    <h3 class="term-title">Token</h3>
+                    <p class="term-definition">The basic unit of text that language models process. A token can be a word, part of a word, or punctuation.</p>
+                    <div class="term-example">Example: "ChatGPT" might be split into tokens: "Chat" and "GPT".</div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Architecture</span>
+                    <h3 class="term-title">Transformer</h3>
+                    <p class="term-definition">A neural network architecture that uses self-attention mechanisms, forming the basis of modern language models like GPT and BERT.</p>
+                    <div class="term-example">Example: All modern large language models use transformer architecture.</div>
+                    <div class="term-related">Related: <a href="#Attention-Mechanism">Attention Mechanism</a></div>
+                </div>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Transfer Learning</h3>
+                    <p class="term-definition">Using knowledge from one task to improve learning on a related but different task, often by starting with a pre-trained model.</p>
+                    <div class="term-example">Example: Using an image model trained on general photos to recognize medical X-rays.</div>
+                </div>
+            </div>
+
+            <!-- Letter U -->
+            <div class="letter-section" id="section-U">
+                <h2 class="letter-header">U</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Unsupervised Learning</h3>
+                    <p class="term-definition">Machine learning where models find patterns in unlabeled data without explicit guidance on what to learn.</p>
+                    <div class="term-example">Example: Clustering customer data to discover market segments without predefined categories.</div>
+                </div>
+            </div>
+
+            <!-- Letter V -->
+            <div class="letter-section" id="section-V">
+                <h2 class="letter-header">V</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Model Type</span>
+                    <h3 class="term-title">Vision Transformer (ViT)</h3>
+                    <p class="term-definition">An adaptation of transformer architecture for computer vision tasks, processing images as sequences of patches.</p>
+                    <div class="term-example">Example: Modern image recognition systems increasingly use ViTs instead of CNNs.</div>
+                </div>
+            </div>
+
+            <!-- Letter Z -->
+            <div class="letter-section" id="section-Z">
+                <h2 class="letter-header">Z</h2>
+
+                <div class="term-card">
+                    <span class="term-category">Training</span>
+                    <h3 class="term-title">Zero-Shot Learning</h3>
+                    <p class="term-definition">The ability of a model to perform tasks it wasn't explicitly trained on, using only instructions without examples.</p>
+                    <div class="term-example">Example: Asking GPT-4 to translate to a rare language without providing translation examples.</div>
+                    <div class="term-related">Related: <a href="#Few-Shot-Learning">Few-Shot Learning</a></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="footer-logo">
+                        <img src="../assets/images/logo-techvernia-neon.svg" alt="TechVernia Logo" style="height: 40px; width: auto;">
+                    </a>
+                    <p class="footer-desc">Your trusted source for AI tool reviews, comparisons, and guides.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="comparisons.html">Comparisons</a></li>
+                        <li><a href="glossary.html">AI Glossary</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 TechVernia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/animations.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        // Search functionality
+        const searchInput = document.getElementById('searchInput');
+        const termCards = document.querySelectorAll('.term-card');
+        const letterSections = document.querySelectorAll('.letter-section');
+
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+
+            termCards.forEach(card => {
+                const title = card.querySelector('.term-title').textContent.toLowerCase();
+                const definition = card.querySelector('.term-definition').textContent.toLowerCase();
+
+                if (title.includes(searchTerm) || definition.includes(searchTerm)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // Hide empty sections
+            letterSections.forEach(section => {
+                const visibleCards = section.querySelectorAll('.term-card[style="display: block;"], .term-card:not([style])');
+                section.style.display = visibleCards.length > 0 ? 'block' : 'none';
+            });
+        });
+
+        // Alphabet navigation
+        const alphabetBtns = document.querySelectorAll('.alphabet-btn');
+
+        alphabetBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const letter = btn.dataset.letter;
+
+                // Remove active class from all buttons
+                alphabetBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                if (letter === 'all') {
+                    letterSections.forEach(section => section.style.display = 'block');
+                } else {
+                    letterSections.forEach(section => {
+                        if (section.id === `section-${letter}`) {
+                            section.style.display = 'block';
+                            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        } else {
+                            section.style.display = 'none';
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

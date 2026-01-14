@@ -1,0 +1,593 @@
+﻿<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechVernia Blog - Latest AI news, tool reviews, tutorials, and insights. Stay updated with the AI revolution.">
+    <meta name="keywords" content="AI blog, artificial intelligence news, AI tools, AI reviews, AI tutorials, machine learning">
+    <meta name="author" content="TechVernia">
+    <title>AI Blog & News | TechVernia</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .icon {
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+        }
+        .contact-card-icon .icon {
+            width: 32px;
+            height: 32px;
+        }
+
+        .page-hero {
+            padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            text-align: center;
+        }
+        .page-title {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 800;
+            margin-bottom: var(--space-md);
+        }
+        .page-subtitle {
+            font-size: var(--text-lg);
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Blog Filter */
+        .blog-filter {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: var(--space-sm);
+            margin-top: var(--space-2xl);
+        }
+        .filter-btn {
+            padding: var(--space-sm) var(--space-lg);
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-full);
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--accent-primary);
+            border-color: var(--accent-primary);
+            color: var(--bg-primary);
+        }
+
+        /* Blog Section */
+        .blog-page-section {
+            padding: var(--space-4xl) 0;
+        }
+
+        .blog-page-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-xl);
+        }
+
+        /* Featured Post */
+        .blog-page-featured {
+            grid-column: span 3;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: var(--space-2xl);
+            background: var(--bg-card);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            margin-bottom: var(--space-2xl);
+        }
+        .blog-page-featured .blog-image {
+            min-height: 350px;
+        }
+        .blog-page-featured .blog-content {
+            padding: var(--space-2xl);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .blog-page-featured .blog-title {
+            font-size: var(--text-3xl);
+            -webkit-line-clamp: 3;
+        }
+        .blog-page-featured .blog-excerpt {
+            font-size: var(--text-base);
+            -webkit-line-clamp: 4;
+        }
+        .featured-label {
+            display: inline-block;
+            background: var(--gradient-primary);
+            color: white;
+            font-size: var(--text-xs);
+            font-weight: 600;
+            padding: var(--space-xs) var(--space-sm);
+            border-radius: var(--radius-full);
+            margin-bottom: var(--space-md);
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-sm);
+            margin-top: var(--space-3xl);
+        }
+        .page-btn {
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            color: var(--text-secondary);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        .page-btn:hover,
+        .page-btn.active {
+            background: var(--accent-primary);
+            border-color: var(--accent-primary);
+            color: var(--bg-primary);
+        }
+        .page-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        @media (max-width: 1024px) {
+            .blog-page-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .blog-page-featured {
+                grid-column: span 2;
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (max-width: 768px) {
+            .blog-page-grid {
+                grid-template-columns: 1fr;
+            }
+            .blog-page-featured {
+                grid-column: span 1;
+            }
+        }
+    </style>
+<link href="../css/responsive.css" rel="stylesheet"/>
+            <!-- Balises hreflang pour SEO multilingue -->
+    <link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog.html" />
+    <link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog.html" />
+    <link rel="alternate" hreflang="fr" href="https://techvernia.com/fr/pages/blog.html" />
+    <link rel="alternate" hreflang="es" href="https://techvernia.com/es/pages/blog.html" />
+    <link rel="alternate" hreflang="de" href="https://techvernia.com/de/pages/blog.html" />
+    <link rel="alternate" hreflang="pt" href="https://techvernia.com/pt/pages/blog.html" />
+    <link rel="alternate" hreflang="zh" href="https://techvernia.com/zh/pages/blog.html" />
+    <link rel="alternate" hreflang="ja" href="https://techvernia.com/ja/pages/blog.html" />
+    <link rel="alternate" hreflang="ko" href="https://techvernia.com/ko/pages/blog.html" />
+    <link rel="alternate" hreflang="ar" href="https://techvernia.com/ar/pages/blog.html" />
+    <link rel="alternate" hreflang="hi" href="https://techvernia.com/hi/pages/blog.html" />
+</head>
+<body>
+    <!-- Neural Network Background Animation -->
+    <canvas id="neural-bg"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/images/logo-techvernia-neon.svg" alt="TechVernia" style="height: 50px; width: auto;">
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link" data-i18n="nav.home">(주)</a>
+                </li>
+                <li class="nav-item">
+                    <a href="categories.html" class="nav-link"><span data-i18n="nav.categories">카테고리</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="guides.html" class="nav-link" data-i18n="nav.guides">제품정보</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="comparisons.html" class="nav-link" data-i18n="nav.compare">기타 제품</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="ai-history.html" class="nav-link" data-i18n="nav.ai-history">AI 역사</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link active" data-i18n="nav.blog">블로그</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link" data-i18n="nav.about">제품정보</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link"><span data-i18n="nav.contact">연락처</span></a>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+<!-- Language Selector -->
+<div class="language-selector">
+<button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+<span class="lang-current">EN</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="lang-dropdown" id="lang-dropdown">
+<button class="lang-option active" data-lang="en">
+<span class="flag">US</span> English
+</button>
+<button class="lang-option" data-lang="es">
+<span class="flag">ES</span> Espanol
+</button>
+<button class="lang-option" data-lang="fr">
+<span class="flag">FR</span> Francais
+</button>
+<button class="lang-option" data-lang="de">
+<span class="flag">DE</span> Deutsch
+</button>
+<button class="lang-option" data-lang="pt">
+<span class="flag">BR</span> Portugues
+</button>
+<button class="lang-option" data-lang="zh">
+<span class="flag">CN</span> Chinese
+</button>
+<button class="lang-option" data-lang="ja">
+<span class="flag">JP</span> Japanese
+</button>
+<button class="lang-option" data-lang="ko">
+<span class="flag">KR</span> Korean
+</button>
+<button class="lang-option" data-lang="ar">
+<span class="flag">SA</span> Arabic
+</button>
+<button class="lang-option" data-lang="hi">
+<span class="flag">IN</span> Hindi
+</button>
+</div>
+</div>
+<!-- Search -->
+<button aria-label="Search" class="search-btn" id="search-btn">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="11" cy="11" r="8"></circle>
+<path d="M21 21l-4.35-4.35"></path>
+</svg>
+</button>
+<!-- Mobile Menu Toggle -->
+<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</div>
+</nav>
+
+    <!-- Page Hero -->
+    <header class="page-hero">
+        <div class="container">
+            <h1 class="page-title" data-i18n="section.blog.title">AI 블로그 & 뉴스</h1>
+            <p class="page-subtitle" data-i18n="section.blog.subtitle">최신 AI 트렌드와 도구 업데이트 소식</p>
+            <div class="blog-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="reviews">Reviews</button>
+                <button class="filter-btn" data-filter="comparisons">Comparisons</button>
+                <button class="filter-btn" data-filter="tutorials">Tutorials</button>
+                <button class="filter-btn" data-filter="news">News</button>
+                <button class="filter-btn" data-filter="network">Network Eng</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog Content -->
+    <main class="blog-page-section">
+        <div class="container">
+            <!-- Featured Post -->
+            <article class="blog-page-featured">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80"
+                         alt="Futuristic AI Robot Agent - Autonomous Artificial Intelligence"
+                         loading="lazy"
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="blog-content">
+                    <span class="featured-label">Featured Article</span>
+                    <div class="blog-meta">
+                        <span class="blog-date">Nov 25, 2026</span>
+                        <span class="blog-read-time">8 min read</span>
+                    </div>
+                    <h2 class="blog-title">The Rise of AI Agents: How Autonomous AI is Changing Everything in 2026</h2>
+                    <p class="blog-excerpt">From Claude's computer use to OpenAI's GPT-4 Turbo, AI agents are revolutionizing how we work. Discover what this means for you and how to leverage these powerful tools for maximum productivity.</p>
+                    <div class="blog-footer">
+                        <div class="blog-author">
+                            <div class="author-avatar">TV</div>
+                            <span>TechVernia Team</span>
+                        </div>
+                        <a href="blog/ai-agents-2024.html" class="btn btn-primary">Read Article</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Grid -->
+            <div class="blog-page-grid">
+                <!-- Article 1 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80"
+                         alt="Price Comparison Calculator - ChatGPT Plus vs Claude Pro Subscription"
+                         loading="lazy"
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 22, 2026</span>
+                            <span class="blog-read-time">6 min read</span>
+                        </div>
+                        <h3 class="blog-title">ChatGPT Plus vs Claude Pro: Which $20/Month Subscription is Worth It?</h3>
+                        <p class="blog-excerpt">We break down features, limitations, and real-world performance to help you choose.</p>
+                        <a href="blog/chatgpt-vs-claude-subscription.html" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80"
+                         alt="AI Programming Code Display - Machine Learning Technology"
+                         loading="lazy"
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 20, 2026</span>
+                            <span class="blog-read-time">10 min read</span>
+                        </div>
+                        <h3 class="blog-title">Midjourney V6 vs DALL-E 3: The Ultimate Image Generation Showdown</h3>
+                        <p class="blog-excerpt">Detailed comparison with sample images, pricing analysis, and recommendations.</p>
+                        <a href="blog/midjourney-vs-dalle-comparison.html" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80"
+                         alt="Programming Code on Screen - AI Development Tools"
+                         loading="lazy"
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 18, 2026</span>
+                            <span class="blog-read-time">12 min read</span>
+                        </div>
+                        <h3 class="blog-title">Best Free AI Coding Tools in 2026: Complete Developer's Guide</h3>
+                        <p class="blog-excerpt">Discover free alternatives to GitHub Copilot including Codeium and TabNine.</p>
+                        <a href="blog/free-ai-coding-tools.html" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80"
+                         alt="Network Analytics Dashboard - AIOps Monitoring"
+                         loading="lazy"
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 15, 2026</span>
+                            <span class="blog-read-time">15 min read</span>
+                        </div>
+                        <h3 class="blog-title">AI-Powered Network Monitoring: Datadog vs Splunk vs New Relic</h3>
+                        <p class="blog-excerpt">Enterprise-grade AIOps tools compared for your infrastructure needs.</p>
+                        <a href="blog/aiops-monitoring-comparison.html" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80"
+                         alt="Audio Waveform Technology - AI Voice Generation and Speech Synthesis"
+                         loading="lazy"
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 12, 2026</span>
+                            <span class="blog-read-time">7 min read</span>
+                        </div>
+                        <h3 class="blog-title">ElevenLabs Review: Is It Worth the Hype? Honest Analysis & Pricing</h3>
+                        <p class="blog-excerpt">In-depth review of the most realistic AI voice generator on the market.</p>
+                        <a href="blog/elevenlabs-review.html" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                    <img src="../assets/images/blog/claude-3.webp"
+                         alt="Claude AI by Anthropic - Claude 4.5 Sonnet Update"
+                         loading="lazy"
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 10, 2026</span>
+                            <span class="blog-read-time">5 min read</span>
+                        </div>
+                        <h3 class="blog-title">Claude 4.5 Sonnet Update: What's New and Why It Matters</h3>
+                        <p class="blog-excerpt">Anthropic's latest model brings impressive improvements to coding and analysis.</p>
+                        <a href="blog/claude-35-sonnet-update.html" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 7 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+                         alt="Data Analysis Charts and Graphs - AI Analytics"
+                         loading="lazy"
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                        <span class="blog-category">Tutorial</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 8, 2026</span>
+                            <span class="blog-read-time">8 min read</span>
+                        </div>
+                        <h3 class="blog-title">How to Use ChatGPT Code Interpreter for Data Analysis</h3>
+                        <p class="blog-excerpt">Step-by-step guide to analyzing spreadsheets and creating visualizations.</p>
+                        <a href="blog/chatgpt-code-interpreter-guide.html" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 8 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80"
+                         alt="Cybersecurity Network Protection - AI Security"
+                         loading="lazy"
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                        <span class="blog-category">Network Eng</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 5, 2026</span>
+                            <span class="blog-read-time">12 min read</span>
+                        </div>
+                        <h3 class="blog-title">Zero Trust Security with AI: A Network Engineer's Guide</h3>
+                        <p class="blog-excerpt">Implementing AI-powered zero trust architecture in enterprise networks.</p>
+                        <a href="blog/zero-trust-ai-guide.html" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 9 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80"
+                         alt="Professional Writing and Content Creation - AI Marketing Tools"
+                         loading="lazy"
+                         style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                        <span class="blog-category">Review</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">Nov 2, 2026</span>
+                            <span class="blog-read-time">9 min read</span>
+                        </div>
+                        <h3 class="blog-title">Jasper AI vs Copy.ai: Which AI Writing Tool is Best for Marketing?</h3>
+                        <p class="blog-excerpt">Head-to-head comparison for content creators and marketing teams.</p>
+                        <a href="blog/jasper-vs-copyai.html" class="blog-link">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- Newsletter Section -->
+    <section class="section newsletter-section">
+        <div class="container">
+            <div class="newsletter-card">
+                <div class="newsletter-content">
+                    <h2 class="newsletter-title" data-i18n="newsletter.title">AI 트렌드를 앞서가세요</h2>
+                    <p class="newsletter-desc" data-i18n="newsletter.desc">최신 AI 도구, 독점 튜토리얼, 전문가 인사이트를 매주 받아보세요.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Enter your email" data-i18n-placeholder="newsletter.placeholder" required>
+                            <button type="submit" class="btn btn-primary" data-i18n="newsletter.btn">구독</button>
+                        </div>
+                        <p class="form-note" data-i18n="newsletter.note">스팸 없음. 언제든 구독 취소 가능.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="footer-logo">
+                        <img src="../assets/images/logo-techvernia-neon.svg" alt="TechVernia Logo" style="height: 40px; width: auto;">
+                    </a>
+                    <p class="footer-desc" data-i18n="footer.desc">AI 도구 리뷰, 비교, 가이드의 신뢰할 수 있는 소스. 초보자부터 네트워크 엔지니어까지 AI 환경 탐색을 도와드립니다.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 data-i18n="footer.categories">카테고리</h4>
+                    <ul>
+                        <li><a href="categories/ai-chatbots.html">AI Chatbots</a></li>
+                        <li><a href="categories/ai-writing.html">AI Writing</a></li>
+                        <li><a href="categories/ai-coding.html">AI Coding</a></li>
+                        <li><a href="categories/ai-networking.html">AI Networking</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 data-i18n="footer.resources">리소스</h4>
+                    <ul>
+                        <li><a href="guides.html"><span data-i18n="nav.guides">제품정보</span></a></li>
+                        <li><a href="comparisons.html">Comparisons</a></li>
+                        <li><a href="blog.html"><span data-i18n="nav.blog">블로그</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 data-i18n="footer.company">회사</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html" data-i18n="footer.contact" data-i18n="footer.contact">연락처</a></li>
+                        <li><a href="affiliate.html">Affiliate Disclosure</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright" data-i18n="footer.copyright">© 2024 TechVernia. All rights reserved.</p>
+                <p class="affiliate-notice" data-i18n="footer.affiliate.notice">일부 링크는 제휴 링크일 수 있습니다. 추가 비용 없이 커미션을 받을 수 있습니다.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/animations.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/blog-i18n.js"></script>
+    <script>
+        // Blog filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                // In a real implementation, this would filter the blog posts
+            });
+        });
+    </script>
+</body>
+</html>
