@@ -35,6 +35,9 @@ test_translations.html
 
 # Claude Code artifacts
 .claude/
+tmpclaude-*/
+fix_navbar.py
+.pastes/
 
 # Backups supplémentaires
 *.backup
