@@ -12,6 +12,13 @@ Disallow: /test_*
 Disallow: /batch_translation/
 Disallow: /fix_navbar.py
 
+# Block backup files (critical for SEO)
+Disallow: /*backup*/
+Disallow: /*_backup*/
+Disallow: /*.backup
+Disallow: /*bak*/
+Disallow: /*.bak
+
 # Block internal tools
 Disallow: /docs/demo-*
 Disallow: /docs/exemple-*
