@@ -1346,6 +1346,7 @@ ul, ol {
     border-radius: var(--radius-xl);
     padding: var(--space-xl);
     transition: all var(--transition-normal);
+    overflow: visible !important;
 }
 
 .tool-card:hover {
