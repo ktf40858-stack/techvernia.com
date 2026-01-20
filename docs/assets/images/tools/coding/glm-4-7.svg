@@ -1,0 +1,54 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient pour GLM -->
+    <linearGradient id="glmGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Filtre glow -->
+    <filter id="glmGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Cercle de fond -->
+  <circle cx="100" cy="100" r="90" fill="url(#glmGradient)" opacity="0.15"/>
+
+  <!-- Forme géométrique centrale (représentant l'IA) -->
+  <g filter="url(#glmGlow)">
+    <!-- Hexagone central -->
+    <path d="M100,30 L140,50 L140,90 L100,110 L60,90 L60,50 Z"
+          fill="none"
+          stroke="url(#glmGradient)"
+          stroke-width="3"/>
+
+    <!-- Lignes de connexion -->
+    <line x1="100" y1="30" x2="100" y2="60" stroke="url(#glmGradient)" stroke-width="2"/>
+    <line x1="140" y1="50" x2="120" y2="70" stroke="url(#glmGradient)" stroke-width="2"/>
+    <line x1="140" y1="90" x2="120" y2="70" stroke="url(#glmGradient)" stroke-width="2"/>
+    <line x1="100" y1="110" x2="100" y2="80" stroke="url(#glmGradient)" stroke-width="2"/>
+    <line x1="60" y1="90" x2="80" y2="70" stroke="url(#glmGradient)" stroke-width="2"/>
+    <line x1="60" y1="50" x2="80" y2="70" stroke="url(#glmGradient)" stroke-width="2"/>
+
+    <!-- Centre -->
+    <circle cx="100" cy="70" r="15" fill="url(#glmGradient)"/>
+    <circle cx="100" cy="70" r="8" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Texte GLM-4 -->
+  <text x="100" y="155"
+        font-family="'Space Grotesk', 'Arial', sans-serif"
+        font-size="28"
+        font-weight="700"
+        fill="url(#glmGradient)"
+        text-anchor="middle"
+        filter="url(#glmGlow)">
+    GLM-4
+  </text>
+</svg>
