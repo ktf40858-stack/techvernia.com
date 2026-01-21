@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
      crossorigin="anonymous"></script>
@@ -322,7 +322,7 @@
     <link rel="stylesheet" href="../../css/guides-reviews.css">
     <link href="../../css/mobile-fixes.css" rel="stylesheet"/>
 <link href="../css/responsive.css" rel="stylesheet"/>
-            <!-- Balises hreflang pour SEO multilingue -->
+        <!-- Balises hreflang pour SEO multilingue -->
     <link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/guides/ai-coding-guide-pro.html" />
     <link rel="alternate" hreflang="en" href="https://techvernia.com/pages/guides/ai-coding-guide-pro.html" />
     <link rel="alternate" hreflang="fr" href="https://techvernia.com/fr/pages/guides/ai-coding-guide-pro.html" />
@@ -358,10 +358,10 @@
                 <span class="logo-ai">.ai</span>
             </a>
             <ul class="nav-menu">
-                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html">البيت</a></li>
                 <li><a href="../guides.html" class="active"><span data-i18n="nav.guides">الأدلة</span></a></li>
-                <li><a href="../categories.html"><span data-i18n="nav.categories">التصنيفات</span></a></li>
-                <li><a href="../about.html"><span data-i18n="nav.about">بشأن</span></a></li>
+                <li><a href="../categories.html"><span data-i18n="nav.categories">الفئات</span></a></li>
+                <li><a href="../about.html"><span data-i18n="nav.about">عن</span></a></li>
             </ul>
         </div>
     </nav>
@@ -1736,7 +1736,7 @@ function UserDashboard() {
 
   const filteredUsers = users.filter(u => u.active);
   const sortedUsers = filteredUsers.sort((a, b) =>
-    a.name.localeCompare(b.name)
+    a.name.localeقارن(b.name)
   );
 
   return (
@@ -1778,7 +1778,7 @@ function UserDashboard() {
   const sortedUsers = useMemo(() => {
     return users
       .filter(u => u.active)
-      .sort((a, b) => a.name.localeCompare(b.name));
+      .sort((a, b) => a.name.localeقارن(b.name));
   }, [users]);
 
   // Stable callback reference
@@ -1815,7 +1815,7 @@ const UserCard = React.memo(({ user, onUpdate }) => {
                 </div>
 
                 <div class="warning-box">
-                    <strong>Debugging Limitations:</strong> AI can misdiagnose issues without full context. Always verify suggested fixes in a test environment. For race conditions, memory leaks, and complex async bugs, combine AI suggestions with profiling tools (Chrome DevTools, Python cProfile).
+                    <strong>Debugging Limitations:</strong> AI can misdiagnose issues without full context. Always verify suggested fixes in a test environment. For race conditions, memory leaks, and complex async bugs, combine AI suggestions with profiling tools (Chrome Devأدوات, Python cProfile).
                 </div>
 
                 <div class="nav-buttons">
