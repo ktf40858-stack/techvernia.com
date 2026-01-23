@@ -73,3 +73,6 @@ nul
 
 # Dossiers de backup
 backup_*/
+
+# Dossier de travail local IA
+IA2026/
