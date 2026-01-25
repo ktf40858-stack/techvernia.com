@@ -18,22 +18,115 @@
 <title>How to Use ChatGPT Code Interpreter for Data Analysis | TechVernia</title>
 <link href="../../css/style.css" rel="stylesheet"/>
 <style>
-        .article-hero {
+        .review-hero {
             padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
-            background: var(--bg-secondary);
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.05) 0%, rgba(124, 58, 237, 0.05) 100%);
             border-bottom: 1px solid var(--border-color);
         }
-        .article-title {
-            font-size: clamp(2rem, 5vw, 3rem);
+        .review-hero-content {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: var(--space-2xl);
+            align-items: center;
+        }
+        .tool-logo-xl {
+            width: 120px;
+            height: 120px;
+            border-radius: var(--radius-xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #00d9ff, #7c3aed);
+            box-shadow: 0 10px 40px rgba(0, 217, 255, 0.3);
+        }
+        .review-hero-info h1 {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
             font-weight: 800;
             line-height: 1.2;
-            margin-bottom: var(--space-lg);
+            margin-bottom: var(--space-sm);
         }
-        .article-excerpt {
+        .review-hero-info .company {
             font-size: var(--text-lg);
             color: var(--text-secondary);
-            line-height: 1.7;
-            max-width: 700px;
+            margin-bottom: var(--space-md);
+        }
+        .review-badges {
+            display: flex;
+            gap: var(--space-sm);
+            flex-wrap: wrap;
+        }
+        .badge {
+            padding: var(--space-xs) var(--space-sm);
+            border-radius: var(--radius-md);
+            font-size: var(--text-sm);
+            font-weight: 500;
+        }
+        .badge-new {
+            background: rgba(0, 217, 255, 0.1);
+            color: #00d9ff;
+        }
+        .rating-box {
+            background: var(--bg-secondary);
+            padding: var(--space-lg);
+            border-radius: var(--radius-lg);
+            text-align: center;
+            min-width: 120px;
+        }
+        .rating-score {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #00d9ff, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .rating-stars {
+            color: #fbbf24;
+            font-size: var(--text-xl);
+            margin: var(--space-xs) 0;
+        }
+        .rating-label {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+        }
+        .quick-stats {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-xl);
+            padding: var(--space-xl);
+            margin-top: var(--space-2xl);
+        }
+        .quick-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: var(--space-lg);
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-value {
+            font-size: var(--text-xl);
+            font-weight: 700;
+            color: var(--accent-primary);
+            margin-bottom: var(--space-xs);
+        }
+        .stat-label {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+        }
+        @media (max-width: 768px) {
+            .review-hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .tool-logo-xl {
+                margin: 0 auto;
+            }
+            .rating-box {
+                margin: 0 auto;
+            }
+            .quick-stats-grid {
+                grid-template-columns: 1fr;
+            }
         }
         .article-content {
             padding: var(--space-3xl) 0;
@@ -316,10 +409,51 @@
 </div>
 </div>
 </nav>
-<header class="article-hero">
+<header class="review-hero">
 <div class="container">
-<h1 class="article-title" data-i18n="heroTitle" style="font-size: clamp(2rem, 5vw, 3rem); font-weight: 800;">How to Use ChatGPT Code Interpreter for Data Analysis</h1>
-<p class="article-excerpt" data-i18n="heroExcerpt" style="font-size: var(--text-lg); color: var(--text-secondary);">Step-by-step guide to analyzing spreadsheets and creating visualizations with ChatGPT.</p>
+<div class="review-hero-content">
+<div class="tool-logo-xl" style="background: #fff; padding: 15px;">
+<img src="../../assets/images/tools/chatbots/chatgpt.svg" alt="ChatGPT" style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px;">
+</div>
+<div class="review-hero-info">
+<h1 data-i18n="heroTitle">How to Use ChatGPT Code Interpreter for Data Analysis</h1>
+<p class="company" data-i18n="heroExcerpt">Step-by-step guide to analyzing data with ChatGPT</p>
+<div class="review-badges">
+<span class="badge" style="background: rgba(124, 58, 237, 0.1); color: #7C3AED;">Tutorial</span>
+<span class="badge badge-new">2026 Guide</span>
+<span class="badge" style="background: rgba(16, 185, 129, 0.1); color: #10B981;">6 min read</span>
+</div>
+</div>
+<div class="rating-box">
+<div class="rating-score">4.8</div>
+<div class="rating-stars">★★★★★</div>
+<div class="rating-label">User Rating</div>
+</div>
+</div>
+<div class="quick-stats">
+<div class="quick-stats-grid">
+<div class="stat-item">
+<div class="stat-value">$20</div>
+<div class="stat-label">Plus/mo</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">Python</div>
+<div class="stat-label">Code Support</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">CSV</div>
+<div class="stat-label">Excel Support</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">Charts</div>
+<div class="stat-label">Visualizations</div>
+</div>
+<div class="stat-item">
+<div class="stat-value">Easy</div>
+<div class="stat-label">Setup</div>
+</div>
+</div>
+</div>
 </div>
 </header>
 <main style="padding: var(--space-3xl) 0;"><div class="container"><article style="max-width: 800px; margin: 0 auto;">
