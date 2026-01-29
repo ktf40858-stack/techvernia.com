@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="claudeCodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97757;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc6b4a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#claudeCodeGrad)" opacity="0.1"/>
+  <rect x="60" y="70" width="80" height="60" rx="5" fill="none" stroke="url(#claudeCodeGrad)" stroke-width="6"/>
+  <path d="M 80 90 L 90 100 L 80 110" stroke="url(#claudeCodeGrad)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="100" y1="95" x2="120" y2="95" stroke="url(#claudeCodeGrad)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="100" y1="105" x2="115" y2="105" stroke="url(#claudeCodeGrad)" stroke-width="4" stroke-linecap="round"/>
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#claudeCodeGrad)" text-anchor="middle">CLAUDE CODE</text>
+</svg>

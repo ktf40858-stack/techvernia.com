@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wisprGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#wisprGrad)" opacity="0.1"/>
+  <circle cx="70" cy="100" r="8" fill="url(#wisprGrad)"/>
+  <circle cx="100" cy="80" r="10" fill="url(#wisprGrad)"/>
+  <circle cx="130" cy="100" r="8" fill="url(#wisprGrad)"/>
+  <path d="M 50 120 Q 75 140, 100 120 Q 125 140, 150 120" stroke="url(#wisprGrad)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#wisprGrad)" text-anchor="middle">WISPR</text>
+</svg>

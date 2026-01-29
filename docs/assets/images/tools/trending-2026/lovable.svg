@@ -1,0 +1,11 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lovableGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C44569;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#lovableGrad)" opacity="0.1"/>
+  <path d="M 100 60 Q 120 40, 140 60 Q 150 70, 140 85 L 100 130 L 60 85 Q 50 70, 60 60 Q 80 40, 100 60" fill="url(#lovableGrad)"/>
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="url(#lovableGrad)" text-anchor="middle">LOVABLE</text>
+</svg>
