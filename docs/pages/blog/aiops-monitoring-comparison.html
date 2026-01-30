@@ -301,7 +301,46 @@
                 margin: var(--space-sm) 0;
             }
         }
-    </style>
+    
+/* Author Bio */
+.author-bio {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    padding: var(--space-xl);
+    margin: var(--space-3xl) 0;
+    display: flex;
+    gap: var(--space-lg);
+    align-items: start;
+}
+.author-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.author-info h4 {
+    margin: 0 0 var(--space-xs) 0;
+    font-size: var(--text-lg);
+}
+.author-info .author-title {
+    color: var(--accent-primary);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-sm);
+}
+.author-info p {
+    margin: 0;
+    font-size: var(--text-sm);
+}
+
+@media (max-width: 768px) {
+    .author-bio {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+</style>
 <link href="../../css/mobile-fixes.css" rel="stylesheet"/>
 <link href="../css/responsive.css" rel="stylesheet"/>
         <!-- Balises hreflang pour SEO multilingue -->
@@ -512,6 +551,18 @@
 <p data-i18n="para6_1">Choose Datadog if: You run modern cloud infrastructure (AWS, Kubernetes) and want comprehensive observability.</p>
 <p data-i18n="para6_2">Choose Splunk if: You need enterprise-grade security monitoring, compliance, and can afford premium pricing.</p>
 <p data-i18n="para6_3">Choose New Relic if: Application performance is your priority and you want excellent value with a generous free tier.</p>
+
+<!-- Author Bio -->
+<div class="author-bio">
+<img src="../../assets/images/authors/linkedinPP.jpg" alt="Kodjo Apedoh" class="author-avatar" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+<div class="author-info">
+<h4>About the Author</h4>
+<p class="author-title">Kodjo Apedoh - Network Engineer & AI Entrepreneur</p>
+<p>Kodjo is the founder of <strong>TechVernia</strong> and <strong>SankaraShield</strong>, and a Certified Network Security Engineer with 4+ years of experience designing and implementing enterprise-grade network solutions. He specializes in network automation using Python, AI tools research, and advanced security implementations.</p>
+<p style="margin-top: 0.5rem;"><a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" style="color: #10B981; text-decoration: none;">→ Connect on LinkedIn</a></p>
+</div>
+</div>
+
 </article>
 </div>
 </main>

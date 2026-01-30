@@ -325,7 +325,46 @@
                 margin: var(--space-sm) 0;
             }
         }
-    </style>
+    
+/* Author Bio */
+.author-bio {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    padding: var(--space-xl);
+    margin: var(--space-3xl) 0;
+    display: flex;
+    gap: var(--space-lg);
+    align-items: start;
+}
+.author-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.author-info h4 {
+    margin: 0 0 var(--space-xs) 0;
+    font-size: var(--text-lg);
+}
+.author-info .author-title {
+    color: var(--accent-primary);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-sm);
+}
+.author-info p {
+    margin: 0;
+    font-size: var(--text-sm);
+}
+
+@media (max-width: 768px) {
+    .author-bio {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+</style>
 <link href="../../css/mobile-fixes.css" rel="stylesheet"/>
 <link href="../css/responsive.css" rel="stylesheet"/>
         <!-- Balises hreflang pour SEO multilingue -->
@@ -706,52 +745,21 @@
                     we may earn a commission at no extra cost to you. This helps us keep creating free content.
                     We only recommend products we've personally tested and believe in.</em>
 </p>
+
+<!-- Author Bio -->
+<div class="author-bio">
+<img src="../../assets/images/authors/linkedinPP.jpg" alt="Kodjo Apedoh" class="author-avatar" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+<div class="author-info">
+<h4>About the Author</h4>
+<p class="author-title">Kodjo Apedoh - Network Engineer & AI Entrepreneur</p>
+<p>Kodjo is the founder of <strong>TechVernia</strong> and <strong>SankaraShield</strong>, and a Certified Network Security Engineer with 4+ years of experience designing and implementing enterprise-grade network solutions. He specializes in network automation using Python, AI tools research, and advanced security implementations.</p>
+<p style="margin-top: 0.5rem;"><a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" style="color: #10B981; text-decoration: none;">→ Connect on LinkedIn</a></p>
+</div>
+</div>
+
 </article>
 </div>
 </main>
-<!-- Related Articles -->
-<section class="related-section">
-<div class="container">
-<div class="section-header">
-<h2 class="section-title" data-i18n="blog.relatedArticles">Related Articles</h2>
-</div>
-<div class="related-grid">
-<article class="blog-card">
-<div class="blog-image">
-<div class="blog-placeholder gradient-ai">
-<span><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="10" rx="2" width="18" x="3" y="11"></rect><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle><path d="M9 7L9 9M15 7L15 9M12 2v5"></path></svg></span>
-</div>
-</div>
-<div class="blog-content">
-<h3 class="blog-title">The Rise of AI Agents: How Autonomous AI is Changing Everything</h3>
-<a class="blog-link" href="ai-agents-2024.html">Read More →</a>
-</div>
-</article>
-<article class="blog-card">
-<div class="blog-image">
-<div class="blog-placeholder gradient-code">
-<span><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="14" rx="2" width="20" x="2" y="3"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg></span>
-</div>
-</div>
-<div class="blog-content">
-<h3 class="blog-title">Best Free AI Coding Tools in 2026: Complete Developer's Guide</h3>
-<a class="blog-link" href="free-ai-coding-tools.html">Read More →</a>
-</div>
-</article>
-<article class="blog-card">
-<div class="blog-image">
-<div class="blog-placeholder gradient-creative">
-<span><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M12 2a10 10 0 0 0 0 20 2.5 2.5 0 0 0 2.5-2.5c0-.654-.253-1.248-.656-1.688a.75.75 0 0 1 .656-1.312h1.5A6 6 0 0 0 22 10a10 10 0 0 0-10-8z"></path><circle cx="7.5" cy="10.5" r="1.5"></circle><circle cx="10" cy="7.5" r="1.5"></circle><circle cx="14" cy="7.5" r="1.5"></circle><circle cx="16.5" cy="10.5" r="1.5"></circle></svg></span>
-</div>
-</div>
-<div class="blog-content">
-<h3 class="blog-title">Midjourney V6 vs DALL-E 3: The Ultimate Image Generation Showdown</h3>
-<a class="blog-link" href="midjourney-vs-dalle-comparison.html">Read More →</a>
-</div>
-</article>
-</div>
-</div>
-</section>
 <!-- Footer -->
 <footer class="footer">
 <div class="container">
