@@ -801,12 +801,15 @@ function applyBlogTranslations(lang) {
 
     // Blog Cards - Update Article Content
     const blogCards = document.querySelectorAll('.blog-page-grid .blog-card');
-    
+
 
     // Array of article keys
     const articles = ['article1', 'article2', 'article3', 'article4', 'article5', 'article6', 'article7', 'article8', 'article9', 'article10', 'article11', 'article12'];
 
-    blogCards.forEach((card, index) => {
+    // Filter out cards with data-no-translate attribute
+    const translatableCards = Array.from(blogCards).filter(card => !card.hasAttribute('data-no-translate'));
+
+    translatableCards.forEach((card, index) => {
         if (index < articles.length) {
             const articleKey = articles[index];
 
