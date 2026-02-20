@@ -152,10 +152,12 @@
             margin-top: var(--space-xs);
         }
         .review-content {
+            padding: var(--space-4xl) 0;
+        }
+        .review-grid {
             display: grid;
             grid-template-columns: 1fr 350px;
             gap: var(--space-3xl);
-            padding: var(--space-4xl) 0;
         }
         .review-main h2 {
             font-size: var(--text-2xl);
@@ -319,7 +321,7 @@
             border-bottom: none;
         }
         @media (max-width: 968px) {
-            .review-content {
+            .review-grid {
                 grid-template-columns: 1fr;
             }
             .sidebar {
@@ -531,7 +533,7 @@
 <!-- Review Content -->
 <section class="review-content">
     <div class="container">
-        <div style="display: grid; grid-template-columns: 1fr 350px; gap: var(--space-3xl);">
+        <div class="review-grid">
             <div class="review-main">
 
                 <!-- Test Section at Top -->
