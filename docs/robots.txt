@@ -19,6 +19,10 @@ Disallow: /*.backup
 Disallow: /*bak*/
 Disallow: /*.bak
 
+# Block template snippets (not full pages, not for indexing)
+Disallow: /templates/
+Disallow: /*/templates/
+
 # Block internal tools
 Disallow: /docs/demo-*
 Disallow: /docs/exemple-*
