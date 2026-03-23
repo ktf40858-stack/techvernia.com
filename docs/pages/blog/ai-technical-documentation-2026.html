@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="Every developer has tried using AI for documentation. Most were disappointed. The problem isn't that AI can't write — it's that it doesn't understand your system. Here's how to fix that."/>
+<meta name="keywords" content="AI technical documentation, AI documentation tools, Claude documentation, GPT-4 docs, AI co-author, developer documentation, AI writing tools 2026"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/ai-technical-documentation-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/ai-technical-documentation-2026.html"/>
+<meta property="og:title" content="Why AI Still Fails at Technical Documentation (And How to Fix It)"/>
+<meta property="og:description" content="Every developer has tried it. Most were disappointed. The problem isn't that AI can't write — it's that it doesn't understand your system."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/ai-technical-documentation-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Why AI Still Fails at Technical Documentation (And How to Fix It)"/>
+<meta name="twitter:description" content="The gap between AI-generated docs and useful docs is a workflow problem, not a technology problem. Here's how to close it."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Why AI Still Fails at Technical Documentation (And How to Fix It)",
+  "description": "A practical guide to using AI as a co-author for technical documentation — and how to avoid the pitfalls that make most AI-generated docs useless.",
+  "image": "https://techvernia.com/assets/images/blog-covers/ai-technical-documentation-2026.png",
+  "datePublished": "2026-03-23",
+  "dateModified": "2026-03-23",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/ai-technical-documentation-2026.html"
+  }
+}
+</script>
+
+<title>Why AI Still Fails at Technical Documentation (And How to Fix It) | TechVernia</title>
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.05) 0%, rgba(124, 58, 237, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content { max-width: 820px; margin: 0 auto; padding: 0 var(--space-lg); }
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--space-lg); margin: var(--space-2xl) 0; }
+.stat-card { background: var(--surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-xl); text-align: center; }
+.stat-card .stat-number { font-size: 2rem; font-weight: 800; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.stat-card .stat-label { font-size: var(--text-sm); color: var(--text-secondary); line-height: 1.4; }
+.feature-card { background: var(--surface); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-primary); border-radius: var(--radius-lg); padding: var(--space-xl); margin: var(--space-lg) 0; }
+.feature-card .feature-label { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-primary); margin-bottom: var(--space-xs); }
+.feature-card h3 { margin-top: 0; margin-bottom: var(--space-sm); }
+.feature-card p { margin-bottom: 0; }
+.highlight-box { background: linear-gradient(135deg, rgba(0, 217, 255, 0.06), rgba(124, 58, 237, 0.06)); border: 1px solid rgba(0, 217, 255, 0.25); border-radius: var(--radius-lg); padding: var(--space-xl); margin: var(--space-xl) 0; }
+.highlight-box p { margin-bottom: 0; font-style: italic; }
+.warning-box { background: linear-gradient(135deg, rgba(251, 146, 60, 0.08), rgba(239, 68, 68, 0.06)); border: 1px solid rgba(251, 146, 60, 0.3); border-radius: var(--radius-lg); padding: var(--space-xl); margin: var(--space-xl) 0; }
+.warning-box p { margin-bottom: 0; }
+.verdict-box { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(0, 217, 255, 0.06)); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.verdict-box h3 { margin-top: 0; color: #10b981; }
+.faq-section { background: var(--surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.05), rgba(59, 130, 246, 0.05)); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); flex-shrink: 0; }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<link href="../../css/mobile-fixes.css" rel="stylesheet"/>
+<link href="../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/ai-technical-documentation-2026.html"/>
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/ai-technical-documentation-2026.html"/>
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img alt="TechVernia Logo" src="../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                    <button class="lang-option" data-lang="es"><span class="flag">ES</span> Espanol</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>Why AI Still Fails at Technical Documentation (And How to Fix It)</h1>
+                <p class="subtitle">Every developer has tried it. Most were disappointed. The problem isn't that AI can't write — it's that it doesn't understand your system. Here's how to change that.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>7 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>March 23, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+
+<p>Every developer has tried it. You paste a function signature into ChatGPT or Claude, ask for documentation, and get back something that looks professional. You think: "This is great." Then a senior engineer reads it and says: "This is completely wrong for how we actually do things."</p>
+
+<p>Most AI-generated documentation fails — not because the AI can't write, but because it doesn't understand <em>your</em> system. It doesn't know why that function was built the way it was. It doesn't know about the architectural decision made two years ago that makes everything else make sense. It doesn't know your team's internal language, naming conventions, or the edge cases your codebase has accumulated over time.</p>
+
+<p>That's not an AI failure. That's a workflow failure.</p>
+
+<div class="stat-grid">
+    <div class="stat-card">
+        <span class="stat-number">~70%</span>
+        <span class="stat-label">Of developers have tried AI for documentation</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-number">&lt;30%</span>
+        <span class="stat-label">Report being satisfied with the output quality</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-number">6 mo</span>
+        <span class="stat-label">Before most docs drift from the actual codebase</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-number">3x</span>
+        <span class="stat-label">Faster onboarding with accurate, maintained docs</span>
+    </div>
+</div>
+
+<p>The teams getting real value from AI documentation have figured out the difference between using AI as a ghostwriter and using it as a co-author. That distinction changes everything.</p>
+
+<h2>What Goes Wrong: The Four Failure Modes</h2>
+
+<div class="feature-card">
+    <div class="feature-label">Failure Mode 01</div>
+    <h3>No Codebase Context</h3>
+    <p>When you feed AI just a function signature or a code snippet without surrounding context, you get generic documentation that could apply to any codebase. The AI doesn't know that this function is called at a specific point in your pipeline, that it has a known edge case in production, or that it was refactored last quarter. Without that context, the output is technically accurate but practically useless — it describes <em>what</em> the code does, not <em>why</em> it exists or <em>how</em> it fits into the larger system.</p>
+</div>
+
+<div class="feature-card">
+    <div class="feature-label">Failure Mode 02</div>
+    <h3>Confident Outdated Information</h3>
+    <p>AI models have training cutoffs. They don't know about the library version you upgraded to last month, the API change that broke everything in January, or the deprecation your team is working around. The danger isn't that AI gives you wrong information — it's that AI gives you wrong information confidently, in the same fluent prose as accurate information. In documentation, where readers assume correctness, this is particularly damaging.</p>
+</div>
+
+<div class="feature-card">
+    <div class="feature-label">Failure Mode 03</div>
+    <h3>No Alignment With Team Conventions</h3>
+    <p>Every engineering team has its own language. Its own patterns. Its own way of describing things. "Handler," "controller," "service," "processor" — these terms mean different things in different codebases. When AI generates documentation without knowing your conventions, it introduces terminological drift that confuses new team members and creates inconsistency across your docs. Over time, this erodes trust in the documentation itself.</p>
+</div>
+
+<div class="feature-card">
+    <div class="feature-label">Failure Mode 04</div>
+    <h3>Treating AI as a One-Shot Solution</h3>
+    <p>The most common mistake is using AI to generate documentation once, then filing it away. Code evolves. Requirements change. What was accurate in January may be wrong by June. Documentation that doesn't evolve alongside the codebase becomes a liability — it's worse than having no docs at all, because it gives teams false confidence about how the system actually behaves.</p>
+</div>
+
+<h2>What Actually Works: The Co-Author Model</h2>
+
+<p>The teams getting consistent value from AI documentation have stopped treating it as a writing tool and started treating it as a thinking partner. The key insight is simple: AI is excellent at structure, prose, and completeness. Humans are excellent at context, intent, and accuracy. The right workflow combines both.</p>
+
+<div class="highlight-box">
+    <p><strong>The core principle:</strong> Don't ask AI to write your documentation from scratch. Ask it to help you structure, expand, and maintain what you already know. You bring the context. AI brings the clarity.</p>
+</div>
+
+<h3>Step 1 — Feed Context Before Asking for Output</h3>
+
+<p>Before asking AI to document anything, give it the context it's missing. This means: the relevant code section, your existing documentation on adjacent components, the architectural decision record (ADR) if one exists, and a brief description of how this component fits into the broader system. The more context you provide, the more accurate and useful the output becomes. A well-contextualized prompt takes 5 extra minutes. It saves hours of corrections.</p>
+
+<h3>Step 2 — Generate, Annotate, Refine</h3>
+
+<p>Use AI to generate a first draft, then have a domain expert annotate what's wrong, missing, or misleading. Feed those annotations back to the AI and ask it to revise. This review loop is where quality actually compounds. After two or three iterations, you typically have documentation that is structurally solid, well-written, and accurate — because the human brought the accuracy and the AI brought the structure.</p>
+
+<h3>Step 3 — Build a Living Style Guide</h3>
+
+<p>Create a short documentation style guide for your team — your preferred terminology, the structure you expect for different doc types, examples of good and bad documentation. Include this guide in every AI prompt. This one change eliminates most of the terminological drift and inconsistency that makes AI-generated docs feel foreign. It forces the AI to write in your team's voice, not a generic technical voice.</p>
+
+<h3>Step 4 — Use AI to Maintain, Not Just Generate</h3>
+
+<p>The highest-leverage application of AI in documentation isn't generation — it's maintenance. Set up a process where AI periodically reviews your documentation against the current codebase and flags potential drift: functions that have changed signatures, parameters that no longer match, references to deprecated components. This keeps your docs honest without requiring a human to manually audit everything after every sprint.</p>
+
+<h2>The Tools Worth Using in 2026</h2>
+
+<p>The tooling landscape for AI-assisted documentation has matured significantly. A few categories worth knowing:</p>
+
+<ul>
+    <li><strong>Claude (Anthropic):</strong> Best for long-context tasks — analyzing entire files or modules in a single pass and generating coherent, nuanced documentation. Its 200K token context window makes it particularly useful for large codebases.</li>
+    <li><strong>GPT-4o (OpenAI):</strong> Strong general-purpose documentation generation, especially when combined with custom GPTs that carry your style guide and conventions as persistent context.</li>
+    <li><strong>GitHub Copilot Docs:</strong> Integrated directly into the editor. Lower friction for inline documentation. Less suited for high-level architectural documentation.</li>
+    <li><strong>Mintlify / Swimm:</strong> Documentation platforms with native AI integration, designed specifically for technical teams. Worth considering if you want AI maintenance built into your documentation workflow rather than bolted on.</li>
+</ul>
+
+<div class="warning-box">
+    <p><strong>Tool selection caution:</strong> No tool replaces the workflow. The best AI documentation tool used with a bad process will still produce bad documentation. Invest in the process first, then pick the tool that fits it best.</p>
+</div>
+
+<h2>The Maintenance Problem — And Why It Matters More Than Generation</h2>
+
+<p>Most engineering teams treat documentation as a project, not a process. They write docs at the start of a new feature, declare victory, and move on. Six months later, the docs are wrong. A year later, they're actively misleading. New engineers who rely on them make incorrect assumptions. Debugging takes longer because no one trusts the written record. Onboarding becomes a tribal knowledge transfer instead of a structured process.</p>
+
+<p>This is the real cost of undocumented or outdated documentation — not the initial time saved by skipping the write-up, but the compounding overhead it creates across every future interaction with that code.</p>
+
+<p>AI changes the economics of this problem. Generation still requires human context and oversight. But <em>maintenance</em> — checking for drift, flagging inconsistencies, surfacing outdated references — can be automated to a much greater degree. Teams that use AI for maintenance rather than just generation are the ones achieving durable documentation quality.</p>
+
+<div class="verdict-box">
+    <h3>The Bottom Line</h3>
+    <p>AI won't replace the engineer who knows why a system was built the way it was. But it will replace the hours spent translating that knowledge into written form — if you build the right workflow around it.</p>
+    <p>The teams that figure this out won't just have better docs. They'll onboard faster, debug faster, and make better architectural decisions — because the context is finally written down and kept current. Documentation is the foundation of institutional knowledge. AI finally makes it possible to keep that foundation solid.</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-section">
+<div class="faq-item">
+    <div class="faq-question">Can AI really generate accurate technical documentation?</div>
+    <div class="faq-answer">
+        <p>With the right workflow, yes. The key is providing sufficient context — not just the code, but the intent, the architectural decisions, and the conventions your team uses. AI generates accurate prose when it has accurate input. The failure mode is almost always insufficient context, not the model's capability.</p>
+    </div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">Which AI model is best for technical documentation?</div>
+    <div class="faq-answer">
+        <p>Claude is currently the strongest choice for large codebases due to its long context window (up to 200K tokens), which lets you feed entire files or modules in a single prompt. GPT-4o performs similarly on smaller, well-scoped tasks. For inline documentation integrated directly into your editor, GitHub Copilot reduces friction significantly. Most teams benefit from using multiple tools for different documentation layers.</p>
+    </div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">How do you prevent AI documentation from becoming outdated?</div>
+    <div class="faq-answer">
+        <p>Build a maintenance process, not just a generation process. Schedule periodic reviews where AI compares current code against existing documentation and flags potential drift. Treat documentation updates as part of the definition of done for any feature or refactor. Platforms like Swimm are designed specifically for this — linking documentation to code so that changes trigger review prompts automatically.</p>
+    </div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">How much time does AI documentation actually save?</div>
+    <div class="faq-answer">
+        <p>For initial generation: typically 50–70% of writing time, assuming you invest in a proper review loop. For maintenance: significantly more, because AI can scan and flag drift at a scale no human reviewer can match. The compounding benefit comes over time — teams that maintain accurate docs consistently spend less time onboarding, debugging, and answering recurring questions from new engineers.</p>
+    </div>
+</div>
+</div>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="chatgpt-vs-claude-technical-documentation-2026.html">ChatGPT vs Claude for Technical Documentation: Which Is Better in 2026?</a></li>
+    <li><a href="ai-agents-enterprise-2026.html">AI Agents in Enterprise: Promise or Reality in 2026?</a></li>
+    <li><a href="best-ai-tools-network-engineers-2026.html">The 7 Best AI Tools for Network Engineers in 2026</a></li>
+</ul>
+
+</article>
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Holds certifications from Palo Alto Networks, Fortinet, and 15+ other vendors. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
