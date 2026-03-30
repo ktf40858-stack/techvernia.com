@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="simplGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#simplGrad)" opacity="0.1"/>
+
+  <!-- Minimalist S Icon -->
+  <path d="M 120 60 Q 80 60 80 80 Q 80 100 100 100 Q 120 100 120 120 Q 120 140 80 140"
+        fill="none" stroke="url(#simplGrad)" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Simplicity dots -->
+  <circle cx="70" cy="80" r="5" fill="url(#simplGrad)"/>
+  <circle cx="130" cy="120" r="5" fill="url(#simplGrad)"/>
+
+  <!-- Text -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#simplGrad)" text-anchor="middle">Simpl</text>
+</svg>
