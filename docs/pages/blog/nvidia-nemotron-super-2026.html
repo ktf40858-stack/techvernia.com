@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="NVIDIA unveiled Nemotron 3 Super at GTC 2026 — a hybrid 120B model with only 12B active parameters, ranked #1 on SWE-Bench Verified at 60.47%. Plus an open-source Agent Toolkit for enterprise AI agents."/>
+<meta name="keywords" content="NVIDIA Nemotron Super, GTC 2026, SWE-Bench Verified, AI model 2026, NVIDIA Agent Toolkit, enterprise AI agents, hybrid LLM, open source AI"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/nvidia-nemotron-super-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/nvidia-nemotron-super-2026.html"/>
+<meta property="og:title" content="NVIDIA Nemotron 3 Super: #1 on SWE-Bench and an Open-Source Agent Toolkit"/>
+<meta property="og:description" content="NVIDIA's Nemotron 3 Super tops SWE-Bench Verified at 60.47% with a hybrid 120B/12B architecture. Plus an open-source Agent Toolkit for enterprise AI agents."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/nvidia-nemotron-super-2026.jpeg"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="NVIDIA Nemotron 3 Super: #1 on SWE-Bench and an Open-Source Agent Toolkit"/>
+<meta name="twitter:description" content="A hybrid 120B model with only 12B active parameters — NVIDIA just claimed the top spot on the most demanding coding benchmark in AI."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "NVIDIA Nemotron 3 Super: #1 on SWE-Bench Verified and a New Open-Source Agent Toolkit",
+  "description": "NVIDIA unveiled Nemotron 3 Super at GTC 2026, a hybrid model with 120 billion parameters (12B active), ranked #1 on SWE-Bench Verified at 60.47%, alongside an open-source Agent Toolkit for enterprise AI agents.",
+  "image": "https://techvernia.com/assets/images/blog-covers/nvidia-nemotron-super-2026.jpeg",
+  "datePublished": "2026-04-03",
+  "dateModified": "2026-04-03",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/nvidia-nemotron-super-2026.html"
+  }
+}
+</script>
+
+<title>NVIDIA Nemotron 3 Super: #1 on SWE-Bench — What It Means | TechVernia</title>
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(118, 185, 0, 0.05) 0%, rgba(0, 217, 255, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content { max-width: 820px; margin: 0 auto; padding: 0 var(--space-lg); }
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--space-lg); margin: var(--space-2xl) 0; }
+.stat-card { background: var(--surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-xl); text-align: center; }
+.stat-card .stat-number { font-size: 2rem; font-weight: 800; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.stat-card .stat-label { font-size: var(--text-sm); color: var(--text-secondary); line-height: 1.4; }
+.feature-card { background: var(--surface); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-primary); border-radius: var(--radius-lg); padding: var(--space-xl); margin: var(--space-lg) 0; }
+.feature-card .feature-label { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-primary); margin-bottom: var(--space-xs); }
+.feature-card h3 { margin-top: 0; margin-bottom: var(--space-sm); }
+.feature-card p { margin-bottom: 0; }
+.highlight-box { background: linear-gradient(135deg, rgba(118, 185, 0, 0.06), rgba(0, 217, 255, 0.06)); border: 1px solid rgba(118, 185, 0, 0.25); border-radius: var(--radius-lg); padding: var(--space-xl); margin: var(--space-xl) 0; }
+.highlight-box p { margin-bottom: 0; font-style: italic; }
+.verdict-box { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(0, 217, 255, 0.06)); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.verdict-box h3 { margin-top: 0; color: #10b981; }
+.faq-section { background: var(--surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.05), rgba(59, 130, 246, 0.05)); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); flex-shrink: 0; }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<link href="../../css/mobile-fixes.css" rel="stylesheet"/>
+<link href="../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/nvidia-nemotron-super-2026.html"/>
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/nvidia-nemotron-super-2026.html"/>
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img alt="TechVernia Logo" src="../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                    <button class="lang-option" data-lang="es"><span class="flag">ES</span> Espanol</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>NVIDIA Nemotron 3 Super: #1 on SWE-Bench Verified and a New Open-Source Agent Toolkit</h1>
+                <p class="subtitle">Announced at GTC 2026, Nemotron 3 Super is a hybrid 120B model with only 12B parameters active at inference — and it just claimed the top spot on the most demanding coding benchmark in AI.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>7 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>April 3, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+
+<p>At GTC 2026, NVIDIA announced <strong>Nemotron 3 Super</strong> — and the AI industry paid close attention. This is not another iteration in a long line of incremental releases. It is a fundamental rethink of how large language models should be architected and deployed at scale inside organizations.</p>
+
+<p>The headline number is 60.47% on SWE-Bench Verified — the top score on a benchmark that the entire industry treats as the definitive test of practical software engineering capability. But the architecture behind that number is just as significant as the result itself.</p>
+
+<div class="stat-grid">
+    <div class="stat-card">
+        <span class="stat-number">120B</span>
+        <span class="stat-label">total parameters in the hybrid architecture</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-number">12B</span>
+        <span class="stat-label">parameters active at inference time</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-number">60.47%</span>
+        <span class="stat-label">accuracy on SWE-Bench Verified — #1 globally</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-number">Open source</span>
+        <span class="stat-label">Agent Toolkit for enterprise AI agents</span>
+    </div>
+</div>
+
+<h2>The Architecture: 120B Parameters, 12B Active</h2>
+
+<p>Nemotron 3 Super is a hybrid model. That term gets used loosely in the AI industry, but here it has a precise meaning: the model holds 120 billion parameters in its full architecture, yet only 12 billion are activated during any given inference pass. This sparse activation pattern — sometimes called a Mixture-of-Experts approach — fundamentally changes the cost equation for enterprise deployment.</p>
+
+<p>In practice, this means you get the reasoning depth of a frontier-class model at a fraction of the computational overhead. For organizations running AI workloads at scale — hundreds of thousands of API calls per day, latency-sensitive pipelines, cost-constrained environments — that is not a minor optimization. It is a completely different business case.</p>
+
+<div class="feature-card">
+    <div class="feature-label">Architecture</div>
+    <h3>Why Sparse Activation Changes Everything</h3>
+    <p>Traditional dense models activate all parameters for every token generated, making inference costs scale linearly with parameter count. Nemotron 3 Super's hybrid design routes each input through a specialized subset of its total capacity. The result is frontier-level quality output at inference costs closer to a 12B model — a ratio that makes large-scale enterprise deployment economically viable in a way that dense 120B models are not.</p>
+</div>
+
+<h2>The Benchmark: #1 on SWE-Bench Verified</h2>
+
+<p>SWE-Bench Verified is the most demanding public benchmark for software engineering AI. It does not test code generation in isolation or toy examples — it presents models with real GitHub issues drawn from production repositories, requiring genuine bug diagnosis, multi-file reasoning, and validated fix implementation.</p>
+
+<p>At 60.47%, Nemotron 3 Super claims the top position on this leaderboard — surpassing models from OpenAI, Anthropic, Google, and Meta on this specific task. To understand why that matters: previous state-of-the-art scores hovered in the low-to-mid fifties. A jump to 60.47% represents a meaningful gap, not a marginal improvement.</p>
+
+<div class="highlight-box">
+    <p><strong>What SWE-Bench actually measures:</strong> Models are given unresolved GitHub issues from real open-source codebases. They must identify the root cause, navigate complex file structures, write a working fix, and pass the associated test suite — entirely autonomously. A score of 60.47% means Nemotron 3 Super successfully closes more than six out of ten real-world software engineering tasks without human intervention.</p>
+</div>
+
+<p>For engineering teams evaluating AI coding tools or building autonomous development pipelines, that number deserves serious attention. It signals that AI systems are crossing a threshold — from useful assistants to capable autonomous contributors on complex, production-grade work.</p>
+
+<h2>The Agent Toolkit: Open Source, Built for Enterprise</h2>
+
+<p>Alongside the model, NVIDIA announced an open-source <strong>Agent Toolkit</strong> designed specifically for building autonomous AI agents in enterprise environments. This is where the announcement becomes strategically interesting beyond the benchmark headline.</p>
+
+<p>The toolkit addresses the gap that most organizations hit when moving from AI experimentation to production deployment. Building a capable AI agent in a notebook is straightforward. Deploying it reliably in a production environment — with proper orchestration, tool integration, auditability, error handling, and governance controls — is an entirely different engineering challenge. The Agent Toolkit provides the infrastructure layer for that transition.</p>
+
+<div class="feature-card">
+    <div class="feature-label">Agent Toolkit</div>
+    <h3>What It Enables for Enterprise Teams</h3>
+    <p>The toolkit gives developers the building blocks to design multi-step reasoning workflows, connect agents to enterprise tools, APIs, and data sources, and deploy with the compliance controls that regulated industries require. It supports orchestration of complex agentic pipelines, provides hooks for human-in-the-loop oversight, and is designed to integrate with existing enterprise infrastructure rather than requiring greenfield deployment.</p>
+</div>
+
+<p>Open sourcing this was a deliberate and strategically significant choice. It accelerates adoption across the developer community, invites external contributions that improve the tooling over time, and — most importantly for NVIDIA — positions the company as foundational infrastructure for the enterprise AI stack rather than as one vendor among many.</p>
+
+<h2>What This Means for Enterprise AI Strategy</h2>
+
+<p>NVIDIA has owned the compute layer of AI for years. The GPU dominance that enabled the current wave of large language models is well documented. With Nemotron 3 Super and the Agent Toolkit, the company is making a deliberate move up the stack — into models, agent tooling, and the enterprise software layer.</p>
+
+<ul>
+    <li><strong>The cost equation for frontier AI is changing.</strong> A model that delivers top-tier coding performance at the inference cost of a 12B model removes one of the most significant barriers to enterprise deployment at scale.</li>
+    <li><strong>Autonomous software engineering is becoming real.</strong> A 60.47% score on SWE-Bench Verified means AI agents can now close a majority of real engineering tickets without human intervention. The implications for how software teams are structured and resourced are significant.</li>
+    <li><strong>Open-source agent infrastructure accelerates the ecosystem.</strong> The Agent Toolkit lowers the barrier to building production-grade agentic systems. Organizations that have been waiting for mature tooling before committing to agentic workflows now have a credible starting point.</li>
+    <li><strong>NVIDIA's vertical ambition is clear.</strong> From silicon to agents, the company is building a full-stack position in enterprise AI. For organizations building on NVIDIA infrastructure, that creates both opportunities and vendor dependency considerations worth evaluating.</li>
+</ul>
+
+<div class="verdict-box">
+    <h3>The Bottom Line</h3>
+    <p>Nemotron 3 Super is not just a benchmark result. It is a signal that the architecture of AI deployment is changing — toward efficient hybrid models that deliver frontier capability at manageable cost, combined with open tooling that makes production deployment achievable rather than aspirational.</p>
+    <p>The combination of a #1 SWE-Bench score and an open-source Agent Toolkit does something few announcements manage: it addresses both the "can the model do it?" question and the "can we actually deploy it?" question at the same time. For enterprise leaders who have been watching the AI space and waiting for both answers to be yes, NVIDIA's GTC announcement is worth taking seriously.</p>
+    <p>The question is no longer whether to deploy autonomous AI agents in enterprise workflows. It is how fast, how governed, and how well. NVIDIA just made that question a lot easier to answer.</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-section">
+<div class="faq-item">
+    <div class="faq-question">What is NVIDIA Nemotron 3 Super?</div>
+    <div class="faq-answer">
+        <p>Nemotron 3 Super is a hybrid large language model announced by NVIDIA at GTC 2026. It features 120 billion total parameters with only 12 billion active at inference time, delivering frontier-level performance at a fraction of the typical computational cost. It ranks #1 on SWE-Bench Verified with a score of 60.47%.</p>
+    </div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">What does #1 on SWE-Bench Verified mean in practice?</div>
+    <div class="faq-answer">
+        <p>SWE-Bench Verified evaluates AI models on real GitHub issues from production open-source repositories. Models must autonomously diagnose bugs, navigate complex codebases, and implement working fixes that pass test suites. A score of 60.47% means Nemotron 3 Super successfully resolves more than six in ten real-world software engineering tasks without human assistance — surpassing all other publicly evaluated models including those from OpenAI, Anthropic, Google, and Meta.</p>
+    </div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">What is the NVIDIA Agent Toolkit?</div>
+    <div class="faq-answer">
+        <p>The NVIDIA Agent Toolkit is an open-source framework announced alongside Nemotron 3 Super for building autonomous AI agents in enterprise environments. It provides infrastructure for multi-step reasoning workflows, tool and API integration, governance controls, and production deployment — addressing the practical gap between prototype AI agents and production-grade agentic systems.</p>
+    </div>
+</div>
+<div class="faq-item">
+    <div class="faq-question">How does the hybrid 120B/12B architecture benefit enterprise deployments?</div>
+    <div class="faq-answer">
+        <p>By activating only 12 billion parameters per inference pass instead of all 120 billion, Nemotron 3 Super delivers inference costs comparable to a 12B model while maintaining the reasoning quality of a much larger architecture. For enterprises running AI at scale, this significantly reduces per-query costs, latency, and infrastructure requirements — making production deployment of frontier-capable AI economically viable.</p>
+    </div>
+</div>
+</div>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="age-of-ai-agents-orchestration-2026.html">The Age of AI Agents: Why Orchestration Is the New Superpower</a></li>
+    <li><a href="ai-agents-enterprise-2026.html">AI Agents in Enterprise: Promise or Reality in 2026?</a></li>
+    <li><a href="open-source-vs-closed-source-ai-2026.html">Open Source vs Closed Source AI — Is 2026 the Tipping Point?</a></li>
+</ul>
+
+</article>
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Holds certifications from Palo Alto Networks, Fortinet, and 15+ other vendors. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
