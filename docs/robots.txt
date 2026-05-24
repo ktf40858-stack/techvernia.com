@@ -31,15 +31,6 @@ Disallow: /docs/voir-*
 
 # Allow specific paths (important pages)
 Allow: /docs/pages/
-Allow: /docs/fr/
-Allow: /docs/es/
-Allow: /docs/de/
-Allow: /docs/pt/
-Allow: /docs/zh/
-Allow: /docs/ja/
-Allow: /docs/ko/
-Allow: /docs/ar/
-Allow: /docs/hi/
 
 # Crawl delay (0 = no delay, let Google crawl fast)
 Crawl-delay: 0
