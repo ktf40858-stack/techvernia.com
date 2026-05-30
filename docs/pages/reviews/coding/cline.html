@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script>
+<!-- Google Analytics 4 - TechVernia -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S2YLSEB9VR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S2YLSEB9VR');
+</script>
+<!-- End Google Analytics -->
+
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="In-depth review of Cline — the most transparent AI coding agent for VS Code. Shows every diff before execution. Supports Claude, GPT-4o, Gemini, Deepseek, Ollama and any OpenAI-compatible API." name="description"/>
+<meta content="Cline review, Cline VS Code extension, AI coding agent, transparent AI coding, model agnostic coding, MCP support, open source AI coding, Cline vs Cursor, Cline vs Claude Code" name="keywords"/>
+<meta content="TechVernia" name="author"/>
+<title>Cline Review 2026 - The Most Transparent AI Coding Agent for VS Code | TechVernia</title>
+<link href="../../../css/style.css" rel="stylesheet"/>
+<link href="../../../css/responsive.css" rel="stylesheet"/>
+<link href="../../../css/guides-reviews.css" rel="stylesheet"/>
+<link href="../../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="../../../css/neon-icons.css" rel="stylesheet"/>
+<style>
+        .inline-icon {
+            display: inline-block;
+            width: 1.2em;
+            height: 1.2em;
+            vertical-align: middle;
+            margin-right: 0.3em;
+            stroke: currentColor;
+            stroke-width: 2;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        h2 .inline-icon {
+            width: 1.5em;
+            height: 1.5em;
+            stroke: url(#icon-gradient);
+        }
+
+        .icon-gradient-def {
+            position: absolute;
+            width: 0;
+            height: 0;
+        }
+
+        .review-hero {
+            padding: calc(80px + var(--space-4xl)) var(--space-lg) var(--space-3xl);
+            background: linear-gradient(135deg, rgba(79, 70, 229, 0.12) 0%, rgba(129, 140, 248, 0.05) 100%);
+        }
+        .review-hero-content {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: var(--space-2xl);
+            align-items: center;
+            max-width: 900px;
+        }
+        .review-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: var(--radius-xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: 800;
+            color: white;
+            background: linear-gradient(135deg, #4F46E5, #818CF8);
+            box-shadow: 0 20px 40px rgba(79, 70, 229, 0.35);
+        }
+        .review-logo img {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+        }
+        .review-hero-info h1 {
+            font-size: clamp(var(--text-2xl), 5vw, var(--text-4xl));
+            font-weight: 800;
+            margin-bottom: var(--space-sm);
+        }
+        .review-hero-info .company {
+            color: var(--text-tertiary);
+            margin-bottom: var(--space-md);
+        }
+        .review-meta {
+            display: flex;
+            gap: var(--space-lg);
+            flex-wrap: wrap;
+            margin-top: var(--space-lg);
+        }
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+        }
+        .rating-large {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+        .rating-large .stars {
+            color: #FBBF24;
+            font-size: var(--text-xl);
+        }
+        .rating-large .score {
+            font-size: var(--text-2xl);
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+        .review-layout {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: var(--space-2xl);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-2xl) var(--space-lg);
+        }
+        .review-main { min-width: 0; }
+        .review-sidebar {
+            position: sticky;
+            top: 100px;
+            height: fit-content;
+        }
+        .sidebar-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            padding: var(--space-xl);
+            margin-bottom: var(--space-lg);
+        }
+        .sidebar-card h3 {
+            font-size: var(--text-lg);
+            font-weight: 700;
+            margin-bottom: var(--space-lg);
+        }
+        .quick-stats .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: var(--space-sm) 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .quick-stats .stat-row:last-child { border-bottom: none; }
+        .quick-stats .stat-label { color: var(--text-secondary); }
+        .quick-stats .stat-value { font-weight: 600; color: var(--text-primary); }
+        .toc-list {
+            list-style: none;
+            padding: 0;
+        }
+        .toc-list li {
+            padding: var(--space-sm) 0;
+        }
+        .toc-list a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: var(--text-sm);
+            transition: color var(--transition-fast);
+        }
+        .toc-list a:hover { color: #4F46E5; }
+        .review-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            padding: var(--space-2xl);
+            margin-bottom: var(--space-xl);
+        }
+        .review-section h2 {
+            font-size: var(--text-xl);
+            font-weight: 700;
+            margin-bottom: var(--space-lg);
+            padding-bottom: var(--space-md);
+            border-bottom: 1px solid var(--border-color);
+        }
+        .review-section p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: var(--space-md);
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-lg);
+            margin-top: var(--space-lg);
+        }
+        .feature-card {
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+            border: 1px solid rgba(79, 70, 229, 0.15);
+        }
+        .feature-card h4 {
+            font-size: var(--text-base);
+            font-weight: 600;
+            margin-bottom: var(--space-sm);
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+        .feature-card p {
+            font-size: var(--text-sm);
+            margin-bottom: 0;
+        }
+        .pros-cons-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+        }
+        .pros-card, .cons-card {
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-lg);
+            padding: var(--space-xl);
+        }
+        .pros-card {
+            background: rgba(16,185,129,0.05);
+            border: 1px solid rgba(16,185,129,0.2);
+        }
+        .cons-card {
+            background: rgba(239,68,68,0.05);
+            border: 1px solid rgba(239,68,68,0.2);
+        }
+        .pros-card h3, .cons-card h3 {
+            font-size: var(--text-lg);
+            font-weight: 600;
+            margin-bottom: var(--space-lg);
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+        .pros-card h3 { color: #10B981; }
+        .cons-card h3 { color: #EF4444; }
+        .pros-card ul, .cons-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .pros-card li, .cons-card li {
+            padding: var(--space-sm) 0;
+            padding-left: var(--space-lg);
+            position: relative;
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+        }
+        .pros-card li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #10B981;
+            font-weight: 700;
+        }
+        .cons-card li::before {
+            content: "✗";
+            position: absolute;
+            left: 0;
+            color: #EF4444;
+            font-weight: 700;
+        }
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: var(--space-lg);
+        }
+        .pricing-table th, .pricing-table td {
+            padding: var(--space-md) var(--space-lg);
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .pricing-table th {
+            background: var(--bg-tertiary);
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        .pricing-table td {
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+        }
+        .pricing-table tr:hover td {
+            background: var(--bg-tertiary);
+        }
+        .price-highlight {
+            color: #4F46E5;
+            font-weight: 700;
+            font-size: var(--text-lg);
+        }
+        .verdict-box {
+            background: linear-gradient(135deg, rgba(79, 70, 229, 0.1), rgba(129, 140, 248, 0.08));
+            border: 1px solid rgba(79, 70, 229, 0.3);
+            border-radius: var(--radius-xl);
+            padding: var(--space-2xl);
+            text-align: center;
+        }
+        .verdict-score {
+            font-size: var(--text-5xl);
+            font-weight: 800;
+            background: linear-gradient(135deg, #4F46E5, #818CF8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .verdict-label {
+            font-size: var(--text-xl);
+            font-weight: 600;
+            margin-top: var(--space-sm);
+        }
+        .cta-buttons {
+            display: flex;
+            gap: var(--space-md);
+            justify-content: center;
+            margin-top: var(--space-xl);
+        }
+        .rating-breakdown {
+            margin-top: var(--space-lg);
+        }
+        .rating-row {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin-bottom: var(--space-sm);
+        }
+        .rating-row .label {
+            width: 120px;
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+        }
+        .rating-row .bar {
+            flex: 1;
+            height: 8px;
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-full);
+            overflow: hidden;
+        }
+        .rating-row .bar-fill {
+            height: 100%;
+            background: linear-gradient(135deg, #4F46E5, #818CF8);
+            border-radius: var(--radius-full);
+        }
+        .rating-row .score {
+            width: 40px;
+            text-align: right;
+            font-weight: 600;
+            font-size: var(--text-sm);
+        }
+        .faq-item {
+            border-bottom: 1px solid var(--border-color);
+            padding: var(--space-lg) 0;
+        }
+        .faq-item:last-child { border-bottom: none; }
+        .faq-question {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: var(--space-sm);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-answer {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            font-size: var(--text-sm);
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.3s ease;
+        }
+        .model-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-sm);
+            margin-top: var(--space-md);
+        }
+        .model-badge {
+            padding: var(--space-xs) var(--space-sm);
+            background: rgba(79, 70, 229, 0.1);
+            border: 1px solid rgba(79, 70, 229, 0.3);
+            border-radius: var(--radius-sm);
+            font-size: var(--text-xs);
+            color: #818CF8;
+            font-family: var(--font-mono);
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(79, 70, 229, 0.1), rgba(129, 140, 248, 0.05));
+            border: 1px solid rgba(79, 70, 229, 0.3);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+            margin: var(--space-lg) 0;
+        }
+        .highlight-box h4 {
+            color: #818CF8;
+            margin-bottom: var(--space-sm);
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: var(--space-lg);
+            font-size: var(--text-sm);
+        }
+        .comparison-table th {
+            background: var(--bg-tertiary);
+            padding: var(--space-md) var(--space-lg);
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .comparison-table td {
+            padding: var(--space-md) var(--space-lg);
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+        .comparison-table tr:last-child td { border-bottom: none; }
+        .comparison-table tr:hover td { background: var(--bg-tertiary); }
+        .comparison-table .winner {
+            color: #10B981;
+            font-weight: 600;
+        }
+        .use-case-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-md);
+            margin-top: var(--space-lg);
+        }
+        .use-case-item {
+            background: var(--bg-tertiary);
+            padding: var(--space-lg);
+            border-radius: var(--radius-lg);
+            text-align: center;
+            border: 1px solid rgba(79, 70, 229, 0.1);
+        }
+        .use-case-item .icon {
+            font-size: var(--text-2xl);
+            margin-bottom: var(--space-sm);
+        }
+        .use-case-item h4 {
+            font-size: var(--text-sm);
+            font-weight: 600;
+            margin-bottom: var(--space-xs);
+        }
+        .use-case-item p {
+            font-size: var(--text-xs);
+            color: var(--text-tertiary);
+            margin: 0;
+        }
+        .author-bio {
+            display: flex;
+            gap: var(--space-lg);
+            align-items: flex-start;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            padding: var(--space-xl);
+            margin-bottom: var(--space-xl);
+        }
+        .author-bio img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        .author-info h4 { font-size: var(--text-base); font-weight: 700; margin-bottom: var(--space-xs); }
+        .author-title { color: #818CF8; font-size: var(--text-sm); font-weight: 500; margin-bottom: var(--space-sm); }
+        .author-info p { font-size: var(--text-sm); color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-xs); }
+        @media (max-width: 968px) {
+            .review-layout {
+                grid-template-columns: 1fr;
+            }
+            .review-sidebar {
+                position: static;
+                order: -1;
+            }
+            .review-hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .review-logo { margin: 0 auto; }
+            .review-meta { justify-content: center; }
+            .pros-cons-grid { grid-template-columns: 1fr; }
+            .author-bio { flex-direction: column; align-items: center; text-align: center; }
+        }
+</style>
+    <!-- Hreflang tags for multilingual SEO -->
+    <link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/reviews/coding/cline.html" />
+    <link rel="alternate" hreflang="en" href="https://techvernia.com/pages/reviews/coding/cline.html" />
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://techvernia.com/pages/reviews/coding/cline.html" />
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "name": "Cline Review 2026 — The Most Transparent AI Coding Agent",
+      "reviewBody": "In-depth review of Cline, the open-source VS Code extension that shows every diff before executing. Model-agnostic, transparent, and MCP-enabled.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.6",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Kodjo Apedoh"
+      },
+      "itemReviewed": {
+        "@type": "SoftwareApplication",
+        "name": "Cline",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Windows, macOS, Linux",
+        "url": "https://cline.bot",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "TechVernia",
+        "url": "https://techvernia.com"
+      },
+      "datePublished": "2026-05-21"
+    }
+    </script>
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+<div id="particles-container"></div>
+
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+<div class="nav-container">
+<a class="logo" href="../../../index.html">
+<img alt="TechVernia Logo" src="../../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+</a>
+<ul class="nav-menu" id="nav-menu">
+<li class="nav-item">
+    <a href="../../../index.html" class="nav-link" data-i18n="nav.home">Home</a>
+</li>
+<li class="nav-item dropdown">
+    <a href="../../../pages/categories.html" class="nav-link dropdown-toggle" data-i18n="nav.categories">Categories
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
+    </a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/guides.html" class="nav-link" data-i18n="nav.guides">Guides</a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/comparisons.html" class="nav-link" data-i18n="nav.compare">Compare</a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/ai-history.html" class="nav-link" data-i18n="nav.ai-history">AI History</a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/blog.html" class="nav-link" data-i18n="nav.blog">Blog</a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/about.html" class="nav-link" data-i18n="nav.about">About</a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/contact.html" class="nav-link" data-i18n="nav.contact">Contact</a>
+</li>
+</ul>
+<div class="nav-actions">
+<!-- Language Selector -->
+<div class="language-selector">
+<button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+<span class="lang-current">EN</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="lang-dropdown" id="lang-dropdown">
+<button class="lang-option active" data-lang="en">
+<span class="flag">US</span> English
+</button>
+<button class="lang-option" data-lang="es">
+<span class="flag">ES</span> Espanol
+</button>
+<button class="lang-option" data-lang="fr">
+<span class="flag">FR</span> Francais
+</button>
+<button class="lang-option" data-lang="de">
+<span class="flag">DE</span> Deutsch
+</button>
+<button class="lang-option" data-lang="pt">
+<span class="flag">BR</span> Portugues
+</button>
+<button class="lang-option" data-lang="zh">
+<span class="flag">CN</span> Chinese
+</button>
+<button class="lang-option" data-lang="ja">
+<span class="flag">JP</span> Japanese
+</button>
+<button class="lang-option" data-lang="ko">
+<span class="flag">KR</span> Korean
+</button>
+<button class="lang-option" data-lang="ar">
+<span class="flag">SA</span> Arabic
+</button>
+<button class="lang-option" data-lang="hi">
+<span class="flag">IN</span> Hindi
+</button>
+</div>
+</div>
+<!-- Search -->
+<button aria-label="Search" class="search-btn" id="search-btn">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
+<circle cx="11" cy="11" r="8"></circle>
+<path d="M21 21l-4.35-4.35"></path>
+</svg>
+</button>
+<!-- Mobile Menu Toggle -->
+<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</div>
+</nav>
+
+<!-- Breadcrumb -->
+<div style="padding: calc(80px + var(--space-md)) 0 var(--space-sm); background: var(--bg-secondary); border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+        <ol style="list-style: none; padding: 0; margin: 0; display: flex; gap: var(--space-sm); align-items: center; font-size: var(--text-sm); color: var(--text-tertiary); flex-wrap: wrap;">
+            <li><a href="../../../index.html" style="color: var(--text-tertiary); text-decoration: none;">Home</a></li>
+            <li>›</li>
+            <li><a href="../../categories/ai-coding.html" style="color: var(--text-tertiary); text-decoration: none;">AI Coding</a></li>
+            <li>›</li>
+            <li style="color: var(--text-primary); font-weight: 500;">Cline</li>
+        </ol>
+    </div>
+</div>
+
+<!-- Review Hero -->
+<header class="review-hero">
+<div class="container">
+<div class="review-hero-content">
+<div class="review-logo"><img src="../../../assets/images/logos/cline.png" alt="cline" style="width:100%;height:100%;object-fit:contain;" onerror="this.style.display='none'"/></div>
+<div class="review-hero-info">
+<div style="display: flex; gap: var(--space-sm); flex-wrap: wrap; margin-bottom: var(--space-sm);">
+    <span class="badge badge-new">Open Source</span>
+    <span class="badge badge-featured">Any LLM</span>
+    <span class="badge" style="background: rgba(79,70,229,0.15); color: #818CF8; border: 1px solid rgba(79,70,229,0.3);">VS Code Extension</span>
+</div>
+<h1>Cline Review 2026</h1>
+<p class="company">by Open Source Community (MIT License) &nbsp;·&nbsp; The Most Transparent AI Coding Agent</p>
+<div class="rating-large">
+    <span class="stars">★★★★½</span>
+    <span class="score">4.6/5</span>
+</div>
+<div class="review-meta">
+    <div class="meta-item">
+        <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>
+        <span>Updated: May 2026</span>
+    </div>
+    <div class="meta-item">
+        <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        <span>12 min read</span>
+    </div>
+    <div class="meta-item">
+        <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        <span>Maximum Transparency</span>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Review Content -->
+<div class="review-layout">
+<main class="review-main">
+
+    <!-- Overview Section -->
+    <section class="review-section" id="overview">
+        <h2>
+            <svg class="inline-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            Overview
+        </h2>
+        <p>Cline is the most transparent AI coding agent available today. As a free, open-source VS Code extension, it gives developers something no closed-source competitor can match: complete visibility into every action the AI takes before it takes it. Every file edit, every terminal command, every package installation is shown as a diff and requires your explicit approval before execution. There are no surprises, no silent file changes, and no black-box decisions.</p>
+        <p>Unlike standalone AI editors such as Cursor or Windsurf, Cline lives inside your existing VS Code installation. You keep your full setup — themes, extensions, Git integrations, language servers — and simply layer Cline on top. The extension connects to any LLM you choose via API: Claude (Anthropic), GPT-4o (OpenAI), Gemini (Google), Deepseek, Mistral, or any OpenAI-compatible endpoint including locally hosted Ollama models. This model-agnostic architecture puts you in full control of both cost and capability.</p>
+        <p>Cline operates in a genuine agentic loop. Given a task, it reads relevant files, writes code, runs terminal commands, installs packages, and verifies outputs — iterating until the task is complete. What distinguishes it is that every step surfaces to you as an approval checkpoint. The agent loop is fully visible and controllable, making it the go-to choice for developers who want the power of AI-driven task execution without sacrificing oversight or understanding.</p>
+
+        <div class="highlight-box">
+            <h4>
+                <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                Why Cline Stands Out
+            </h4>
+            <p style="margin: 0;">Cline's "show-before-execute" philosophy fundamentally changes how you interact with AI coding agents. Every diff is presented inline — you see exactly what will change, then accept or reject it. This builds genuine understanding and trust in AI-assisted workflows, rather than hoping the AI got it right.</p>
+        </div>
+
+        <div class="model-badges">
+            <span class="model-badge">claude-3-5-sonnet</span>
+            <span class="model-badge">claude-opus-4</span>
+            <span class="model-badge">gpt-4o</span>
+            <span class="model-badge">gpt-4.1</span>
+            <span class="model-badge">gemini-2.0-flash</span>
+            <span class="model-badge">deepseek-coder-v3</span>
+            <span class="model-badge">ollama (local)</span>
+            <span class="model-badge">any OpenAI-compatible API</span>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="review-section" id="features">
+        <h2>
+            <svg class="inline-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            Key Features
+        </h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h4>
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    Full Transparency
+                </h4>
+                <p>Every action is shown as a diff before execution — file edits, terminal commands, package installations. No surprises, no silent changes. You approve every single step in the agentic loop, giving you complete oversight without slowing down the workflow.</p>
+            </div>
+            <div class="feature-card">
+                <h4>
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                    Model Agnostic
+                </h4>
+                <p>Connect any LLM via its API: Claude API (Anthropic), OpenAI (GPT-4o, GPT-4.1), Google Gemini, Deepseek, Mistral, or any OpenAI-compatible endpoint. Run Ollama locally for fully offline, private coding assistance. Switch models per task with zero friction.</p>
+            </div>
+            <div class="feature-card">
+                <h4>
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                    Full Agentic Loop
+                </h4>
+                <p>Cline reads files, writes and edits code, executes terminal commands, installs npm/pip packages, runs tests, and verifies results. Delegate entire tasks — from feature implementation to bug-fix-and-verify — while staying in control via approval prompts.</p>
+            </div>
+            <div class="feature-card">
+                <h4>
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="14" rx="2" ry="2" width="20" x="2" y="3"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg>
+                    MCP Support
+                </h4>
+                <p>Native Model Context Protocol (MCP) support lets you extend Cline with custom tools, database connectors, external APIs, and specialized workflows. Connect to PostgreSQL, Supabase, GitHub, Jira, or any MCP-compatible service to give the agent richer context and capabilities.</p>
+            </div>
+            <div class="feature-card">
+                <h4>
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    Browser Use
+                </h4>
+                <p>Cline can open a real browser, navigate to URLs, click elements, and capture screenshots. Use this to test your web app in a real environment, validate UI changes after deploying to a dev server, or scrape and summarize content as part of a larger coding workflow.</p>
+            </div>
+            <div class="feature-card">
+                <h4>
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    Open Source (MIT)
+                </h4>
+                <p>Fully auditable codebase hosted on GitHub. MIT license means you can use it commercially, self-host, or fork and modify freely. Backed by an active community with thousands of GitHub stars, frequent releases, and a transparent development roadmap.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pros & Cons Section -->
+    <section class="review-section" id="pros-cons">
+        <h2>
+            <svg class="inline-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="6" y1="20" y2="4"></line><line x1="6" x2="18" y1="20" y2="4"></line></svg>
+            Pros &amp; Cons
+        </h2>
+        <div class="pros-cons-grid">
+            <div class="pros-card">
+                <h3>Advantages</h3>
+                <ul>
+                    <li>Completely free — only pay for the AI model API you choose</li>
+                    <li>Maximum transparency: every diff shown before execution</li>
+                    <li>Model-agnostic: Claude, GPT-4o, Gemini, Deepseek, local Ollama</li>
+                    <li>Native MCP support for custom tools and integrations</li>
+                    <li>Browser automation for real end-to-end testing</li>
+                    <li>Runs inside VS Code — no editor switch, keep all extensions</li>
+                    <li>MIT licensed, fully auditable, community-driven</li>
+                    <li>Ideal for teams with existing API agreements</li>
+                    <li>Local model support (Ollama) for air-gapped environments</li>
+                    <li>Active development with frequent feature releases</li>
+                </ul>
+            </div>
+            <div class="cons-card">
+                <h3>Disadvantages</h3>
+                <ul>
+                    <li>Requires your own API keys and billing management</li>
+                    <li>Can become expensive at scale with premium models</li>
+                    <li>No built-in model — unlike Claude Code or Cursor subscription</li>
+                    <li>Setup requires technical knowledge (API keys, config)</li>
+                    <li>Cost unpredictability if agent runs long tasks autonomously</li>
+                    <li>No native JetBrains support (VS Code only)</li>
+                    <li>Approval checkpoints can slow down very simple tasks</li>
+                    <li>Quality depends entirely on which model you connect</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="review-section" id="pricing">
+        <h2>
+            <svg class="inline-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="12" x2="12" y1="1" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            Pricing
+        </h2>
+        <p>Cline itself is completely free to install and use. You pay only for the AI model API you connect. This makes pricing highly flexible — from near-zero cost with local Ollama models to powerful paid APIs like Claude Sonnet or GPT-4o. Here's a realistic cost breakdown for common setups:</p>
+
+        <table class="pricing-table">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Provider</th>
+                    <th>Input Cost</th>
+                    <th>Output Cost</th>
+                    <th>Best For</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Free (Ollama local)</strong></td>
+                    <td>Self-hosted</td>
+                    <td><span class="price-highlight">$0</span></td>
+                    <td><span class="price-highlight">$0</span></td>
+                    <td>Privacy, offline, experimentation</td>
+                </tr>
+                <tr>
+                    <td>Deepseek Coder V3</td>
+                    <td>Deepseek API</td>
+                    <td>$0.27/M tokens</td>
+                    <td>$1.10/M tokens</td>
+                    <td>Budget-conscious production use</td>
+                </tr>
+                <tr style="background: rgba(79,70,229,0.05);">
+                    <td><strong>Claude Sonnet 4.5</strong></td>
+                    <td>Anthropic API</td>
+                    <td>$3/M tokens</td>
+                    <td>$15/M tokens</td>
+                    <td>Best quality/cost ratio — recommended</td>
+                </tr>
+                <tr>
+                    <td>GPT-4o</td>
+                    <td>OpenAI API</td>
+                    <td>$5/M tokens</td>
+                    <td>$15/M tokens</td>
+                    <td>Teams already on OpenAI</td>
+                </tr>
+                <tr>
+                    <td>Gemini 2.0 Flash</td>
+                    <td>Google AI</td>
+                    <td>$0.10/M tokens</td>
+                    <td>$0.40/M tokens</td>
+                    <td>High-volume, cost-sensitive tasks</td>
+                </tr>
+                <tr>
+                    <td>Claude Opus 4</td>
+                    <td>Anthropic API</td>
+                    <td>$15/M tokens</td>
+                    <td>$75/M tokens</td>
+                    <td>Complex architectural tasks</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="highlight-box" style="margin-top: var(--space-lg);">
+            <h4>Typical Cost in Practice</h4>
+            <p style="margin: 0;">A typical hour of active Cline usage with Claude Sonnet costs $1–5 depending on task complexity. Light daily use (a few tasks) typically runs $10–30/month — comparable to Cursor Pro but with no subscription lock-in. Heavy users or teams should consider Anthropic's usage tiers for discounts.</p>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="review-section" id="comparison">
+        <h2>
+            <svg class="inline-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>
+            Cline vs Competitors
+        </h2>
+        <p>How does Cline stack up against the leading AI coding tools? Here is a direct feature comparison across the dimensions that matter most to professional developers:</p>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th style="color: #818CF8;">Cline</th>
+                    <th>Claude Code</th>
+                    <th>Cursor</th>
+                    <th>Aider</th>
+                    <th>GitHub Copilot</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cost</td>
+                    <td class="winner">Free + API</td>
+                    <td>$20/mo (Pro) + API</td>
+                    <td>$20/mo</td>
+                    <td>Free + API</td>
+                    <td>$10/mo</td>
+                </tr>
+                <tr>
+                    <td>Transparency (diffs)</td>
+                    <td class="winner">Every action</td>
+                    <td>Yes, per step</td>
+                    <td>Partial</td>
+                    <td>Yes, per change</td>
+                    <td>Suggestions only</td>
+                </tr>
+                <tr>
+                    <td>Model Agnostic</td>
+                    <td class="winner">Yes (any API)</td>
+                    <td>Claude only</td>
+                    <td>GPT-4 / Claude</td>
+                    <td>Yes (any API)</td>
+                    <td>Copilot only</td>
+                </tr>
+                <tr>
+                    <td>MCP Support</td>
+                    <td class="winner">Native</td>
+                    <td>Yes</td>
+                    <td>Partial</td>
+                    <td>No</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Browser Automation</td>
+                    <td class="winner">Yes</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Local Models (Ollama)</td>
+                    <td class="winner">Yes</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>IDE</td>
+                    <td>VS Code</td>
+                    <td>Terminal / VS Code</td>
+                    <td>Standalone app</td>
+                    <td>Terminal</td>
+                    <td>Any major IDE</td>
+                </tr>
+                <tr>
+                    <td>Open Source</td>
+                    <td class="winner">MIT</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td class="winner">Apache 2.0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Agentic Loop</td>
+                    <td class="winner">Full</td>
+                    <td>Full</td>
+                    <td>Agent mode</td>
+                    <td>Partial</td>
+                    <td>No</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p style="margin-top: var(--space-lg);">The key differentiator for Cline is the combination of <strong>full transparency + model agnosticism + MCP + open source</strong> in a single VS Code extension. Claude Code matches transparency but locks you to Claude and requires a subscription. Cursor is polished but a closed standalone app. Aider is open source and model-agnostic but terminal-only. Cline sits at the intersection of all these strengths.</p>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="review-section" id="use-cases">
+        <h2>
+            <svg class="inline-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            Best Use Cases
+        </h2>
+        <div class="use-case-grid">
+            <div class="use-case-item">
+                <div class="icon">
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                </div>
+                <h4>Full Task Delegation</h4>
+                <p>Hand off entire features: "Add OAuth login with GitHub" — Cline reads your codebase, writes the code, installs packages, and verifies with your tests</p>
+            </div>
+            <div class="use-case-item">
+                <div class="icon">
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                </div>
+                <h4>Security &amp; Auditing</h4>
+                <p>Teams requiring compliance or security review need to see every change. Cline's mandatory approval flow creates a natural audit trail for all AI-generated code</p>
+            </div>
+            <div class="use-case-item">
+                <div class="icon">
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                </div>
+                <h4>Cost-Optimized Teams</h4>
+                <p>Companies with existing API agreements (Anthropic Enterprise, Azure OpenAI) can use Cline without paying a second subscription fee on top</p>
+            </div>
+            <div class="use-case-item">
+                <div class="icon">
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="11" rx="2" ry="2" width="18" x="3" y="11"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                </div>
+                <h4>Air-Gapped Environments</h4>
+                <p>Use Ollama with local models (Llama 3, Mistral, Qwen) for fully private, offline coding assistance in regulated industries or high-security environments</p>
+            </div>
+            <div class="use-case-item">
+                <div class="icon">
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                </div>
+                <h4>Web App Testing</h4>
+                <p>Leverage Cline's built-in browser to automatically test your web app after changes — navigate pages, verify rendered output, and catch regressions visually</p>
+            </div>
+            <div class="use-case-item">
+                <div class="icon">
+                    <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="16" rx="2" width="20" x="2" y="4"></rect><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M8 12h.01M12 12h.01M16 12h.01M7 16h10"></path></svg>
+                </div>
+                <h4>MCP Integrations</h4>
+                <p>Connect Cline to databases, project management tools, and external APIs via MCP — enabling workflows like "query the DB, identify anomalies, fix the code"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Verdict Section -->
+    <section class="review-section" id="verdict">
+        <h2>
+            <svg class="inline-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            Final Verdict
+        </h2>
+        <div class="verdict-box">
+            <div class="verdict-score">4.6/5</div>
+            <div class="verdict-label">Highly Recommended</div>
+            <p style="margin-top: var(--space-lg); color: var(--text-secondary); max-width: 640px; margin-left: auto; margin-right: auto;">Cline is the best AI coding agent for developers who demand full control, transparency, and model flexibility. Its "show everything before doing anything" philosophy fundamentally differentiates it from black-box AI coding tools — you learn from every step, you catch mistakes before they land in your codebase, and you build genuine trust in AI-assisted workflows. It is particularly well-suited for security-conscious teams, developers with existing API contracts, and anyone who wants to run local LLMs for private coding assistance. The only meaningful trade-off is setup friction and variable cost compared to a flat monthly subscription. For developers comfortable managing API keys, Cline delivers extraordinary value.</p>
+
+            <div class="rating-breakdown">
+                <div class="rating-row">
+                    <span class="label">Transparency</span>
+                    <div class="bar"><div class="bar-fill" style="width: 100%;"></div></div>
+                    <span class="score">10.0</span>
+                </div>
+                <div class="rating-row">
+                    <span class="label">Flexibility</span>
+                    <div class="bar"><div class="bar-fill" style="width: 98%;"></div></div>
+                    <span class="score">9.8</span>
+                </div>
+                <div class="rating-row">
+                    <span class="label">AI Capabilities</span>
+                    <div class="bar"><div class="bar-fill" style="width: 88%;"></div></div>
+                    <span class="score">8.8</span>
+                </div>
+                <div class="rating-row">
+                    <span class="label">Ease of Setup</span>
+                    <div class="bar"><div class="bar-fill" style="width: 72%;"></div></div>
+                    <span class="score">7.2</span>
+                </div>
+                <div class="rating-row">
+                    <span class="label">Value for Money</span>
+                    <div class="bar"><div class="bar-fill" style="width: 94%;"></div></div>
+                    <span class="score">9.4</span>
+                </div>
+            </div>
+
+            <div class="cta-buttons">
+                <a class="btn btn-primary" href="https://cline.bot" rel="nofollow noopener noreferrer" target="_blank">View on GitHub →</a>
+                <a class="btn btn-outline" href="../../categories/ai-coding.html">Compare All AI Coding Tools</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="review-section" id="faq">
+        <h2>
+            <svg class="inline-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" x2="12.01" y1="17" y2="17"></line></svg>
+            Frequently Asked Questions
+        </h2>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Can I use Cline with local models like Ollama?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Yes, absolutely. Cline supports any OpenAI-compatible API endpoint, and Ollama exposes exactly that. Install Ollama, pull a model like <code>ollama pull llama3.3</code> or <code>ollama pull qwen2.5-coder</code>, set the base URL to <code>http://localhost:11434/v1</code> in Cline's settings, and you have a fully local, private AI coding assistant with zero API costs. This is especially useful for air-gapped environments, sensitive codebases, or simply keeping costs at zero while experimenting.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                What is the difference between Cline and Claude Code?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Both tools show diffs before executing and operate as transparent AI coding agents, but they differ in key ways. Claude Code is an official Anthropic product, runs in the terminal (with a VS Code extension in beta), and is locked exclusively to Claude models — it requires an Anthropic subscription ($20/mo Pro, or API billing). Cline is open-source, runs as a first-class VS Code extension with a full chat UI, and is model-agnostic — you can use Claude, GPT-4o, Gemini, Deepseek, or local Ollama models. If you're already paying for Claude Pro or Anthropic API access and only want Claude, Claude Code is tightly integrated. If you want model flexibility, VS Code UX, open-source auditability, or local model support, Cline is the stronger choice.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Is Cline really free? What does it actually cost?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Cline the extension is completely free — MIT licensed, no subscription, no usage limits on the tool itself. You only pay for the AI model API you connect. With a budget model like Deepseek V3 (~$0.27/M input tokens) the cost can be fractions of a cent per task. With Claude Sonnet ($3/M input, $15/M output) a typical day of moderate use might run $2–8. Heavy users doing large agentic tasks with GPT-4o or Claude Opus can spend more. Estimated monthly cost for a single developer doing moderate daily AI coding: $15–40 with a mid-tier model. This is comparable to Cursor Pro ($20/mo) but with no subscription lock-in and full model choice.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Does Cline support all programming languages?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Yes. Since Cline operates at the file and terminal level within VS Code, it works with every language VS Code supports — which is virtually every major programming language: Python, JavaScript/TypeScript, Go, Rust, Java, C/C++, C#, Ruby, PHP, Swift, Kotlin, SQL, Terraform, YAML, and more. The AI model you connect determines code quality per language, but the Cline agent mechanics work universally regardless of language or framework.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                How does Cline compare to Cursor for everyday use?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Cursor is a polished, standalone editor built on VS Code, with a beautiful UI, deep codebase indexing, and predictable $20/mo pricing. If you want the easiest out-of-the-box experience and are happy switching editors, Cursor is excellent. Cline stays inside your existing VS Code — no editor switch, all your extensions stay intact — and gives you more model flexibility and full transparency. The trade-off: Cursor's codebase search and tab-completion are more refined, while Cline's agentic loop with mandatory approval is more controlled and auditable. Many developers use Cursor for daily editing and Cline for complex multi-step autonomous tasks where they want full oversight.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                What is MCP support in Cline and how do I use it?
+                <span>+</span>
+            </div>
+            <div class="faq-answer">
+                Model Context Protocol (MCP) is an open standard that allows AI tools to connect to external data sources and tools via a standardized server interface. Cline has native MCP support, meaning you can install MCP servers that give the agent access to your PostgreSQL database, Supabase project, GitHub repositories, Jira issues, Slack messages, or any other MCP-compatible source. For example, with a database MCP server connected, you can tell Cline: "Look at the slow_query_log table and write an optimized version of the queries flagged there." This dramatically extends what the agent can do without manual copy-pasting of context.
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Bio -->
+    <div class="author-bio">
+        <img src="../../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" />
+        <div class="author-info">
+            <h4>About the Author</h4>
+            <p class="author-title">Kodjo Apedoh — Network Engineer &amp; AI Entrepreneur</p>
+            <p>Kodjo is the founder of <strong>TechVernia</strong> and <strong>SankaraShield</strong>, and a Certified Network Security Engineer with 4+ years of experience designing enterprise-grade network solutions. He specializes in network automation using Python, AI tools research, and advanced security implementations.</p>
+            <p><a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener" style="color: #818CF8; text-decoration: none;">→ Connect on LinkedIn</a></p>
+        </div>
+    </div>
+
+    <!-- Schema.org Author Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Kodjo Apedoh",
+      "jobTitle": "Network Engineer & AI Entrepreneur",
+      "description": "Founder of TechVernia and SankaraShield. Certified Network Security Engineer with 4+ years of experience. Specializes in AI tools research, network automation, and cybersecurity.",
+      "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+      "image": "https://techvernia.com/assets/images/authors/kodjo-apedoh.jpg",
+      "sameAs": ["https://www.linkedin.com/in/kodjo-apedoh-03030990", "https://techvernia.com"]
+    }
+    </script>
+
+</main>
+
+<!-- Sidebar -->
+<aside class="review-sidebar">
+    <div class="sidebar-card">
+        <h3>Quick Stats</h3>
+        <div class="quick-stats">
+            <div class="stat-row">
+                <span class="stat-label">Rating</span>
+                <span class="stat-value">4.6/5 ★</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">Price</span>
+                <span class="stat-value">Free (+ API)</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">License</span>
+                <span class="stat-value">MIT (Open Source)</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">IDE</span>
+                <span class="stat-value">VS Code</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">AI Models</span>
+                <span class="stat-value">Any (Claude, GPT, etc.)</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">MCP Support</span>
+                <span class="stat-value">Yes (Native)</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">Local Models</span>
+                <span class="stat-value">Yes (Ollama)</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">Browser Use</span>
+                <span class="stat-value">Yes</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-card">
+        <h3>Table of Contents</h3>
+        <ul class="toc-list">
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Key Features</a></li>
+            <li><a href="#pros-cons">Pros &amp; Cons</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#comparison">Comparison</a></li>
+            <li><a href="#use-cases">Use Cases</a></li>
+            <li><a href="#verdict">Final Verdict</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </div>
+
+    <div class="sidebar-card" style="background: linear-gradient(135deg, rgba(79, 70, 229, 0.2), rgba(129, 140, 248, 0.1)); border-color: rgba(79,70,229,0.3);">
+        <h3>Try Cline Free</h3>
+        <p style="font-size: var(--text-sm); color: var(--text-secondary); margin-bottom: var(--space-md);">
+            Install the VS Code extension and connect your preferred AI model. Start with Gemini Flash for near-zero cost or Ollama for fully local usage.
+        </p>
+        <a class="btn btn-primary" href="https://cline.bot" rel="nofollow noopener noreferrer" target="_blank" style="width: 100%; text-align: center; background: linear-gradient(135deg, #4F46E5, #818CF8);">View on GitHub →</a>
+        <div style="margin-top: var(--space-sm); text-align: center; font-size: var(--text-xs); color: var(--text-tertiary);">Free &amp; Open Source · MIT License</div>
+    </div>
+
+    <div class="sidebar-card">
+        <h3>Related Reviews</h3>
+        <ul style="list-style: none; padding: 0;">
+            <li style="padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+                <a href="cursor.html" style="color: var(--text-secondary); text-decoration: none; font-size: var(--text-sm);">→ Cursor Review</a>
+            </li>
+            <li style="padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+                <a href="windsurf.html" style="color: var(--text-secondary); text-decoration: none; font-size: var(--text-sm);">→ Windsurf Review</a>
+            </li>
+            <li style="padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+                <a href="aider.html" style="color: var(--text-secondary); text-decoration: none; font-size: var(--text-sm);">→ Aider Review</a>
+            </li>
+            <li style="padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+                <a href="continue-dev.html" style="color: var(--text-secondary); text-decoration: none; font-size: var(--text-sm);">→ Continue.dev Review</a>
+            </li>
+            <li style="padding: var(--space-sm) 0;">
+                <a href="github-copilot.html" style="color: var(--text-secondary); text-decoration: none; font-size: var(--text-sm);">→ GitHub Copilot Review</a>
+            </li>
+        </ul>
+    </div>
+</aside>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="../../../index.html">
+<img alt="TechVernia Logo" src="../../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+</a>
+<p class="footer-desc">Your trusted source for AI tool reviews, comparisons, and guides.</p>
+</div>
+<div class="footer-links">
+<h4>Categories</h4>
+<ul>
+<li><a href="../../categories/ai-chatbots.html">AI Chatbots</a></li>
+<li><a href="../../categories/ai-coding.html">AI Coding</a></li>
+<li><a href="../../categories/ai-writing.html">AI Writing</a></li>
+<li><a href="../../categories/ai-image.html">AI Image</a></li>
+</ul>
+</div>
+<div class="footer-links">
+<h4>Resources</h4>
+<ul>
+<li><a href="../../guides.html">Guides</a></li>
+<li><a href="../../comparisons.html">Comparisons</a></li>
+<li><a href="../../about.html">About</a></li>
+<li><a href="../../contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p class="copyright">© 2026 TechVernia. All rights reserved.</p>
+<p class="affiliate-notice">Some links may be affiliate links. We may earn a commission at no extra cost to you.</p>
+</div>
+</div>
+</footer>
+
+<script src="../../../js/main.js"></script>
+<script>
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            const isOpen = answer.style.maxHeight && answer.style.maxHeight !== '0px';
+            // Close all
+            document.querySelectorAll('.faq-answer').forEach(a => {
+                a.style.maxHeight = null;
+                a.style.paddingTop = '0';
+            });
+            document.querySelectorAll('.faq-question span').forEach(s => s.textContent = '+');
+            // Open clicked if it was closed
+            if (!isOpen) {
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+                answer.style.paddingTop = 'var(--space-sm)';
+                question.querySelector('span').textContent = '−';
+            }
+        });
+    });
+
+    // Smooth scroll for TOC links
+    document.querySelectorAll('.toc-list a').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const target = document.querySelector(link.getAttribute('href'));
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+</script>
+<script src="../../../js/i18n.js?v=20260521"></script>
+<script src="../../../js/auto-translate.js"></script>
+<script src="../../../js/animations.js"></script>
+</body>
+</html>
+
