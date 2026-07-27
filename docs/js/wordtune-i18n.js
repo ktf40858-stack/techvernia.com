@@ -74,7 +74,7 @@ const wordtuneTranslations = {
       "review.wordtune.unlimited.words.5.brand.voices": "Unlimited words, 5 brand voices, workflows, priority support",
       "review.wordtune.used.by.over.10.million": "Used by over 10 million marketers and businesses worldwide, Wordtune excels at helping teams scale their content production without sacrificing quality. The platform's brand voice feature ensures consistency across all generated content, while its workflow automation capabilities allow teams to create repeatable processes for common copywriting tasks.",
       "review.wordtune.view.pricing": "View Pricing",
-      "review.wordtune.what.sets.wordtune.apart.is": "What sets Wordtune apart is its focus on marketing and sales use cases with specialized workflows for different business needs. The platform combines GPT-4 technology with custom-trained models to generate copy that's not just grammatically correct, but persuasive and conversion-focused. From cold emails to landing pages, Wordtune understands marketing frameworks and applies them automatically.",
+      "review.wordtune.what.sets.wordtune.apart.is": "What sets Wordtune apart is its focus on marketing and sales use cases with specialized workflows for different business needs. The platform combines GPT-5.6 technology with custom-trained models to generate copy that's not just grammatically correct, but persuasive and conversion-focused. From cold emails to landing pages, Wordtune understands marketing frameworks and applies them automatically.",
       "review.wordtune.word.limits.can.be.restrictive": "Word limits can be restrictive",
       "review.wordtune.wordsmonth": "Words/Month",
       "review.wordtune.wordtune.excels.at": "Wordtune Excels At:",

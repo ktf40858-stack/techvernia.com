@@ -2,7 +2,7 @@
 const dalle3Translations = {
   "en": {
     "review.dall-e-3.tldr.yes.if.you.already": "TL;DR: Yes, if you already use ChatGPT Plus ($20/month). DALL-E 3's seamless integration with ChatGPT makes it the easiest AI image generator to use. Just describe what you want conversationally, and ChatGPT optimizes your prompt. Quality is excellent (comparable to Midjourney for photorealism), though it lacks Midjourney's artistic flair and Ideogram's text rendering. Best for: convenience, natural language prompts, and built-in safety.",
-    "review.dall-e-3.get.dall-e.3.with.chatgpt": "Get DALL-E 3 with ChatGPT Plus for $20/month. Includes GPT-4, browsing, analysis, and unlimited AI image generation.",
+    "review.dall-e-3.get.dall-e.3.with.chatgpt": "Get DALL-E 3 with ChatGPT Plus for $20/month. Includes GPT-5.6, browsing, analysis, and unlimited AI image generation.",
     "review.dall-e-3.dall-e.3.is.openais.third-generation": "DALL-E 3 is OpenAI's third-generation AI image generator, launched in October 2023. Unlike standalone tools like Midjourney or Stable Diffusion, DALL-E 3 is integrated directly into ChatGPT, making it the most accessible AI art tool for mainstream users.",
     "review.dall-e-3.safety.filters.strong.content.moderation": "Safety filters: Strong content moderation (no NSFW, violence, copyrighted characters)",
     "review.dall-e-3.the.chatgpt.integration.is.the": "The ChatGPT integration is the game-changer. Instead of one-shot prompts, you have a conversation to refine ideas.",
@@ -25,7 +25,7 @@ const dalle3Translations = {
     "review.dall-e-3.be.explicit.photorealistic.watercolor.painting": "Be explicit: \"photorealistic,\" \"watercolor painting,\" \"3D render,\" \"minimalist illustration.\" DALL-E 3 handles diverse styles well.",
     "review.dall-e-3.ask.chatgpt.to.brainstorm.image": "Ask ChatGPT to brainstorm image ideas, write prompts, then generate. Use the full ChatGPT workflow.",
     "review.dall-e-3.dall-e.3.earns.465.stars": "DALL-E 3 earns 4.6/5 stars. It's the most accessible, user-friendly AI image generator, period. The ChatGPT integration makes it feel like magic for beginners while still producing professional-quality results.",
-    "review.dall-e-3.at.20month.dall-e.3.is": "At $20/month, DALL-E 3 is excellent value if you already use ChatGPT Plus. You get GPT-4, web browsing, data analysis, AND unlimited image generation (within soft limits).",
+    "review.dall-e-3.at.20month.dall-e.3.is": "At $20/month, DALL-E 3 is excellent value if you already use ChatGPT Plus. You get GPT-5.6, web browsing, data analysis, AND unlimited image generation (within soft limits).",
     "review.dall-e-3.if.you.only.want.images": "If you only want images (no ChatGPT), Midjourney Basic ($10/month) or free Ideogram may be better value. But for ChatGPT users, DALL-E 3 is a no-brainer inclusion.",
     "review.dall-e-3.no.dall-e.3.requires.chatgpt": "No. DALL-E 3 requires ChatGPT Plus ($20/month). There's no free tier. Alternatively, developers can access it via the OpenAI API (pay-per-image pricing).",
     "review.dall-e-3.chatgpt.plus.has.a.soft": "ChatGPT Plus has a soft cap of approximately 50 images every 3 hours. If you hit the limit, wait a few hours to continue. There's no hard monthly limit.",
@@ -33,7 +33,7 @@ const dalle3Translations = {
     "review.dall-e-3.dall-e.3.is.easier.to": "DALL-E 3 is easier to use (ChatGPT interface vs Discord) and excellent for photorealism. Midjourney produces more artistic, cinematic images with better aesthetic quality. Choose DALL-E 3 for convenience and realism, Midjourney for artistic work.",
     "review.dall-e-3.yes.strong.ones.dall-e.3": "Yes, strong ones. DALL-E 3 blocks NSFW, violence, copyrighted characters, public figures, and other sensitive content. This makes it safe for businesses but limits creative freedom compared to Stable Diffusion.",
     "review.dall-e-3.not.within.chatgpt.no.inpaintingoutpainting": "Not within ChatGPT (no inpainting/outpainting). You can ask ChatGPT to regenerate with changes (\"make the sky darker\"), but you can't edit specific areas. For precise editing, export to Photoshop or use Stable Diffusion.",
-    "review.dall-e-3.get.chatgpt.plus.for.20month": "Get ChatGPT Plus for $20/month and unlock DALL-E 3, GPT-4, and advanced features.",
+    "review.dall-e-3.get.chatgpt.plus.for.20month": "Get ChatGPT Plus for $20/month and unlock DALL-E 3, GPT-5.6, and advanced features.",
     "review.dall-e-3.create.compelling.sales.emails.cold": "Create compelling sales emails, cold outreach, and follow-ups that convert. AI understands sales frameworks like AIDA and PAS.",
     "review.dall-e-3.work.together.with.unlimited.team": "Work together with unlimited team members. Share brand voices, templates, and workflows across your organization.",
     "review.dall-e-3.build.custom.workflows.for.repeatable": "Build custom workflows for repeatable copywriting tasks. Chain multiple AI tools together for complex content needs.",

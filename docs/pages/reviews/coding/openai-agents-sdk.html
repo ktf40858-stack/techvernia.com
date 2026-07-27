@@ -263,7 +263,7 @@
             <p><strong>What it is:</strong> The OpenAI Agents SDK gives Python developers a minimal but powerful set of primitives — <strong>Agents</strong>, <strong>Tools</strong>, <strong>Handoffs</strong>, and <strong>Guardrails</strong> — to build multi-step AI workflows. Where the OpenAI Chat API gives you a single model call, the Agents SDK lets you orchestrate fleets of specialized agents that collaborate, delegate, and reason across complex tasks.</p>
           </div>
           <p>OpenAI first introduced Swarm in late 2024 as a lightweight experiment in multi-agent coordination. The community response was strong enough that OpenAI productionized it into the official Agents SDK, shipping a substantially upgraded version in early 2025 with enterprise features: structured tracing, input/output guardrails, streaming support, and tight integration with the broader OpenAI platform.</p>
-          <p>By 2026, the SDK has become the default starting point for OpenAI-powered agent development. If your stack runs on GPT-4o or o3-mini and you want something that just works — without the complexity of LangChain or the opinionatedness of CrewAI — the Agents SDK is the shortest path from idea to production agent.</p>
+          <p>By 2026, the SDK has become the default starting point for OpenAI-powered agent development. If your stack runs on GPT-5.6 or GPT-5.6 Luna and you want something that just works — without the complexity of LangChain or the opinionatedness of CrewAI — the Agents SDK is the shortest path from idea to production agent.</p>
 
           <div class="highlight-box">
             <p><strong>Formerly Swarm:</strong> If you used Swarm in late 2024, the Agents SDK is its direct successor. The core handoff mechanism is identical, but the SDK adds guardrails, real tracing infrastructure, streaming, structured outputs, and official OpenAI support. Migration from Swarm is straightforward — mostly renaming imports.</p>
@@ -401,7 +401,7 @@ result = Runner.run_sync(weather_agent, <span class="string">"What's the weather
               <h4>Cons</h4>
               <ul>
                 <li>Locked to OpenAI models — no Anthropic Claude, Google Gemini, or local models</li>
-                <li>API costs add up at scale — GPT-4o can be expensive for high-volume agents</li>
+                <li>API costs add up at scale — GPT-5.6 can be expensive for high-volume agents</li>
                 <li>Python-only — no TypeScript/JavaScript SDK yet</li>
                 <li>Less flexible than LangChain for complex RAG pipelines</li>
                 <li>No built-in memory/vector store — you bring your own persistence layer</li>
@@ -421,16 +421,16 @@ result = Runner.run_sync(weather_agent, <span class="string">"What's the weather
             <thead><tr><th>Component</th><th>Input Tokens</th><th>Output Tokens</th><th>Best For</th></tr></thead>
             <tbody>
               <tr class="highlight-plan"><td><strong>OpenAI Agents SDK ⭐</strong></td><td colspan="2" style="color:#0D9488;font-weight:600;">$0 — Free forever (MIT)</td><td>All use cases</td></tr>
-              <tr><td><strong>GPT-4o</strong></td><td>$5 / 1M tokens</td><td>$15 / 1M tokens</td><td>Primary reasoning agent</td></tr>
-              <tr><td><strong>GPT-4o-mini</strong></td><td>$0.15 / 1M tokens</td><td>$0.60 / 1M tokens</td><td>Routing &amp; triage agents</td></tr>
-              <tr><td><strong>o3-mini</strong></td><td>$1.10 / 1M tokens</td><td>$4.40 / 1M tokens</td><td>Complex reasoning tasks</td></tr>
-              <tr><td><strong>GPT-4o Batch API</strong></td><td>$2.50 / 1M tokens</td><td>$7.50 / 1M tokens</td><td>Offline / async processing</td></tr>
+              <tr><td><strong>GPT-5.6</strong></td><td>$5 / 1M tokens</td><td>$15 / 1M tokens</td><td>Primary reasoning agent</td></tr>
+              <tr><td><strong>GPT-5.6 Luna</strong></td><td>$0.15 / 1M tokens</td><td>$0.60 / 1M tokens</td><td>Routing &amp; triage agents</td></tr>
+              <tr><td><strong>GPT-5.6 Luna</strong></td><td>$1.10 / 1M tokens</td><td>$4.40 / 1M tokens</td><td>Complex reasoning tasks</td></tr>
+              <tr><td><strong>GPT-5.6 Batch API</strong></td><td>$2.50 / 1M tokens</td><td>$7.50 / 1M tokens</td><td>Offline / async processing</td></tr>
             </tbody>
           </table>
-          <p style="font-size:var(--text-sm);color:var(--text-tertiary);margin-top:var(--space-md);">A practical tip: use GPT-4o-mini for lightweight routing agents (triage, classification) and reserve GPT-4o or o3-mini for agents that require deep reasoning. This tiered approach can reduce API costs by 60–80% on typical multi-agent workflows without meaningful quality loss on routing steps.</p>
+          <p style="font-size:var(--text-sm);color:var(--text-tertiary);margin-top:var(--space-md);">A practical tip: use GPT-5.6 Luna for lightweight routing agents (triage, classification) and reserve GPT-5.6 or GPT-5.6 Luna for agents that require deep reasoning. This tiered approach can reduce API costs by 60–80% on typical multi-agent workflows without meaningful quality loss on routing steps.</p>
 
           <div class="highlight-box">
-            <p><strong>Real-world cost example:</strong> A customer service system handling 10,000 conversations/day, with an average of 3 agent turns and 800 input + 300 output tokens per turn, would cost roughly $120–$180/day using GPT-4o throughout — or $15–$25/day using GPT-4o-mini for triage and GPT-4o only for complex cases.</p>
+            <p><strong>Real-world cost example:</strong> A customer service system handling 10,000 conversations/day, with an average of 3 agent turns and 800 input + 300 output tokens per turn, would cost roughly $120–$180/day using GPT-5.6 throughout — or $15–$25/day using GPT-5.6 Luna for triage and GPT-5.6 only for complex cases.</p>
           </div>
         </div>
 
@@ -517,7 +517,7 @@ result = Runner.run_sync(weather_agent, <span class="string">"What's the weather
 
           <h3 style="font-size:var(--text-xl);font-weight:600;margin:var(--space-2xl) 0 var(--space-md);">When to Choose Each</h3>
           <p><strong style="color:#0D9488;">Choose OpenAI Agents SDK</strong> when your team is already using OpenAI APIs, you want minimal framework overhead, you need reliable built-in tracing, and you're building straightforward multi-agent workflows (routing, tool use, handoffs). The low learning curve means a new team member can be productive in a day.</p>
-          <p><strong style="color:#6366F1;">Choose LangChain / LangGraph</strong> when you need model flexibility (switching between Claude, Gemini, and GPT-4o), have complex RAG requirements with vector store integrations, or are building graph-based workflows with conditional branching and cycles.</p>
+          <p><strong style="color:#6366F1;">Choose LangChain / LangGraph</strong> when you need model flexibility (switching between Claude, Gemini, and GPT-5.6), have complex RAG requirements with vector store integrations, or are building graph-based workflows with conditional branching and cycles.</p>
           <p><strong style="color:#F59E0B;">Choose CrewAI</strong> when you want to define agents by role and persona (like a real team), and your workflow maps naturally to a crew of specialists with defined responsibilities. CrewAI's higher-level abstraction can be faster for role-based use cases.</p>
           <p><strong style="color:#06B6D4;">Choose AutoGen</strong> when you need dynamic conversation patterns between agents, are doing research-style tasks where agents debate and iterate, or are working on complex code generation scenarios where back-and-forth agent discussion improves results.</p>
         </div>
@@ -534,7 +534,7 @@ result = Runner.run_sync(weather_agent, <span class="string">"What's the weather
             <h3>Final Verdict — Is the OpenAI Agents SDK Worth Using?</h3>
             <p>The OpenAI Agents SDK earns its 4.5/5 rating by doing exactly what it promises: giving Python developers the cleanest, most production-ready path to multi-agent AI — if they're already on OpenAI. The handoff mechanism is elegant, the built-in tracing is genuinely useful, and the minimal API means less time fighting the framework and more time building actual product.</p>
             <p>The model lock-in is the only real weakness, and it matters more as the LLM landscape becomes more competitive. Teams that want to hedge between OpenAI, Anthropic, and Google should look at LangChain or a thin abstraction layer on top of the Agents SDK. But for teams committed to the OpenAI ecosystem, the SDK is the right call — it is production-grade from day one, actively maintained, and backed by the company that makes the models.</p>
-            <p><strong>Recommended for:</strong> Python developers building on OpenAI APIs, teams that want production-ready agents quickly, companies needing reliable observability out of the box, startups moving from prototype to production, and anyone building customer service, research, or workflow automation agents on GPT-4o.</p>
+            <p><strong>Recommended for:</strong> Python developers building on OpenAI APIs, teams that want production-ready agents quickly, companies needing reliable observability out of the box, startups moving from prototype to production, and anyone building customer service, research, or workflow automation agents on GPT-5.6.</p>
             <p><strong>Not recommended for:</strong> Teams needing model flexibility (use LangChain), TypeScript/JavaScript developers (no JS SDK yet), workflows requiring heavy RAG with vector stores, or teams that want a visual/no-code agent builder.</p>
           </div>
         </div>
@@ -545,7 +545,7 @@ result = Runner.run_sync(weather_agent, <span class="string">"What's the weather
           <div class="faq-list">
             <div class="faq-item">
               <button class="faq-question">Can I use the OpenAI Agents SDK with non-OpenAI models (Anthropic Claude, Gemini)? <span class="faq-icon">+</span></button>
-              <div class="faq-answer">No — the OpenAI Agents SDK is designed exclusively for OpenAI models. It uses the OpenAI API client under the hood, and the model parameter accepts OpenAI model names only (gpt-4o, gpt-4o-mini, o3-mini, etc.). If you need to use Claude, Gemini, or other providers, consider LangChain (which supports 50+ model providers), CrewAI, or building a custom abstraction. OpenAI has said the SDK may support third-party models in future versions, but there is no timeline as of 2026.</div>
+              <div class="faq-answer">No — the OpenAI Agents SDK is designed exclusively for OpenAI models. It uses the OpenAI API client under the hood, and the model parameter accepts OpenAI model names only (gpt-4o, gpt-4o-mini, GPT-5.6 Luna, etc.). If you need to use Claude, Gemini, or other providers, consider LangChain (which supports 50+ model providers), CrewAI, or building a custom abstraction. OpenAI has said the SDK may support third-party models in future versions, but there is no timeline as of 2026.</div>
             </div>
             <div class="faq-item">
               <button class="faq-question">What is the difference between the OpenAI Agents SDK and LangChain? <span class="faq-icon">+</span></button>
@@ -622,7 +622,7 @@ result = Runner.run_sync(weather_agent, <span class="string">"What's the weather
             <div class="quick-info-item"><span class="quick-info-label">License</span><span class="quick-info-value">MIT (Open Source)</span></div>
             <div class="quick-info-item"><span class="quick-info-label">Language</span><span class="quick-info-value">Python</span></div>
             <div class="quick-info-item"><span class="quick-info-label">Install</span><span class="quick-info-value">pip install openai-agents</span></div>
-            <div class="quick-info-item"><span class="quick-info-label">Best Model</span><span class="quick-info-value">GPT-4o / o3-mini</span></div>
+            <div class="quick-info-item"><span class="quick-info-label">Best Model</span><span class="quick-info-value">GPT-5.6 / GPT-5.6 Luna</span></div>
             <div class="quick-info-item"><span class="quick-info-label">GitHub</span><span class="quick-info-value"><a href="https://github.com/openai/openai-agents-python" target="_blank" rel="noopener" style="color:#0D9488;text-decoration:none;">openai/openai-agents-python</a></span></div>
           </div>
         </div>

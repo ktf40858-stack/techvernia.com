@@ -83,7 +83,7 @@ const glm47Translations = {
       "review.glm-4-7.comparison.title": "Comparison with Competitors",
       "review.glm-4-7.comparison.vs.title": "GLM-4.7 vs Other AI Coding Assistants",
       "review.glm-4-7.comparison.advantages.title": "Key Advantages",
-      "review.glm-4-7.comparison.advantages.1": "More cost-effective than GPT-4 and Claude",
+      "review.glm-4-7.comparison.advantages.1": "More cost-effective than GPT-5.6 and Claude",
       "review.glm-4-7.comparison.advantages.2": "Faster inference speed than larger models",
       "review.glm-4-7.comparison.advantages.3": "Better understanding of Asian programming patterns",
       "review.glm-4-7.comparison.advantages.4": "Superior Chinese language code documentation",

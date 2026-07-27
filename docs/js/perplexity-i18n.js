@@ -2,7 +2,7 @@
 const perplexityTranslations = {
   "en": {
       "review.perplexity.20month": "$20/month",
-      "review.perplexity.300.pro.searchesday.gpt-4claude.access": "300+ Pro searches/day, GPT-4/Claude access, file uploads, API credits",
+      "review.perplexity.300.pro.searchesday.gpt-4claude.access": "300+ Pro searches/day, GPT-5.6/Claude access, file uploads, API credits",
       "review.perplexity.academic.search.mode": "Academic search mode",
       "review.perplexity.academic.searches.scholarly.sources.research": "Academic: Searches scholarly sources, research papers, and academic databases",
       "review.perplexity.academic.writing.wolfram.youtube.and": "Academic, Writing, Wolfram, YouTube, and Reddit focus modes for specialized searches.",
@@ -12,7 +12,7 @@ const perplexityTranslations = {
       "review.perplexity.button.try.free": "Try Free →",
       "review.perplexity.button.view.pro": "View Pro",
       "review.perplexity.cant.handle.complex.multi-turn.tasks": "Can't handle complex multi-turn tasks",
-      "review.perplexity.choose.between.gpt-4.claude.and": "Choose between GPT-4, Claude, and Perplexity's own models depending on your needs.",
+      "review.perplexity.choose.between.gpt-4.claude.and": "Choose between GPT-5.6, Claude, and Perplexity's own models depending on your needs.",
       "review.perplexity.chrome.extension": "Chrome extension",
       "review.perplexity.clean.focused.interface": "Clean, focused interface",
       "review.perplexity.custom": "Custom",
@@ -20,7 +20,7 @@ const perplexityTranslations = {
       "review.perplexity.every.answer.includes.numbered.citations": "Every answer includes numbered citations. Click to view the original source and verify information yourself.",
       "review.perplexity.faq1.answer": "For factual, current information - yes. Perplexity searches the web in real-time and cites sources, while ChatGPT relies on training data with a cutoff date. However, ChatGPT may be better for creative or analytical tasks that don't require current information.",
       "review.perplexity.faq1.question": "Is Perplexity more accurate than ChatGPT?",
-      "review.perplexity.faq2.answer": "Perplexity Pro users can choose between GPT-4, Claude 3, and Perplexity's own fine-tuned models. Free users get access to the default Perplexity model which is optimized for search tasks.",
+      "review.perplexity.faq2.answer": "Perplexity Pro users can choose between GPT-5.6, Claude Opus 5, and Perplexity's own fine-tuned models. Free users get access to the default Perplexity model which is optimized for search tasks.",
       "review.perplexity.faq2.question": "What AI models does Perplexity use?",
       "review.perplexity.faq3.answer": "Yes, Perplexity has a dedicated Academic focus mode that searches scholarly sources and research papers. It's excellent for literature reviews and understanding research topics, though always verify citations for academic work.",
       "review.perplexity.faq3.question": "Is Perplexity good for academic research?",

@@ -20,14 +20,14 @@ const comparisonsTranslations = {
         chatgptFeature1: "180M+ users, largest ecosystem",
         chatgptFeature2: "GPT Store with 3M+ custom GPTs",
         chatgptFeature3: "DALL-E 3 image generation",
-        chatgptFeature4: "Voice mode with GPT-4o",
+        chatgptFeature4: "Voice mode with GPT-5.6",
         chatgptFeature5: "Advanced Data Analysis",
         chatgptWeaknesses: "Weaknesses: Shorter context (128K), can be verbose, knowledge cutoff",
 
         // Claude Card
         claudeBadge: "Best Writing",
         claudeBestFor: "Best For: Long-form writing, document analysis, code review",
-        claudeFeature1: "200K context window (entire books)",
+        claudeFeature1: "1M context window (entire books)",
         claudeFeature2: "Superior writing quality",
         claudeFeature3: "Excellent code analysis",
         claudeFeature4: "Interactive Artifacts",
@@ -41,7 +41,7 @@ const comparisonsTranslations = {
         geminiFeature2: "Workspace integration",
         geminiFeature3: "Real-time Google Search",
         geminiFeature4: "Native multimodal support",
-        geminiFeature5: "Gemini 1.5 Flash is very fast",
+        geminiFeature5: "Gemini 3.6 Flash is very fast",
         geminiWeaknesses: "Weaknesses: Quality can be inconsistent, prone to hallucinations",
 
         // Grok Card
@@ -70,7 +70,7 @@ const comparisonsTranslations = {
         categoryAIImage: "AI Image Generators",
 
         // Comparison Cards - Chatbots
-        chatgptVsGeminiSummary: "OpenAI vs Google: Gemini 1.5 Pro offers massive 2M token context (entire codebases!), deep Google integration, and multimodal capabilities. ChatGPT has superior creative writing, larger plugin ecosystem, and more refined conversation. Free tier: Gemini wins with higher limits.",
+        chatgptVsGeminiSummary: "OpenAI vs Google: Gemini 3.1 Pro offers massive 2M token context (entire codebases!), deep Google integration, and multimodal capabilities. ChatGPT has superior creative writing, larger plugin ecosystem, and more refined conversation. Free tier: Gemini wins with higher limits.",
         chatgptVsGeminiStat1Label: "Context",
         chatgptVsGeminiStat1Value: "128K vs 2M",
         chatgptVsGeminiStat2Label: "Free Tier",
@@ -80,11 +80,11 @@ const comparisonsTranslations = {
         chatgptVsGeminiStat4Label: "Reasoning",
         chatgptVsGeminiStat4Value: "Excellent vs Good",
 
-        claudeVsGeminiSummary: "Context Kings Battle: Both excel at long-context tasks. Claude 3.5 Sonnet (200K) best for code analysis, technical writing, and nuanced reasoning. Gemini 1.5 Pro (2M) dominates for processing entire books, large codebases, and multimodal analysis (video, audio).",
+        claudeVsGeminiSummary: "Context Kings Battle: Both excel at long-context tasks. Claude Sonnet 5 (1M) best for code analysis, technical writing, and nuanced reasoning. Gemini 3.1 Pro (2M) dominates for processing entire books, large codebases, and multimodal analysis (video, audio).",
         claudeVsGeminiStat1Label: "Code Quality",
         claudeVsGeminiStat1Value: "Excellent vs Very Good",
         claudeVsGeminiStat2Label: "Max Context",
-        claudeVsGeminiStat2Value: "200K vs 2M",
+        claudeVsGeminiStat2Value: "1M vs 2M",
         claudeVsGeminiStat3Label: "Multimodal",
         claudeVsGeminiStat3Value: "Text+Vision vs Full",
         claudeVsGeminiStat4Label: "Price/1M",
@@ -111,17 +111,17 @@ const comparisonsTranslations = {
         copilotVsCodeiumStat4Label: "IDE Support",
         copilotVsCodeiumStat4Value: "5 vs 40+",
 
-        cursorVsWindsurfSummary: "Premium Agentic IDEs Face-Off: Both are VS Code forks with agentic coding. Cursor ($20/mo) uses GPT-4 with excellent codebase understanding. Windsurf (FREE!) uses Cascade AI with \"Flow State\" for autonomous multi-file editing. Windsurf's free tier is unbelievable value, but Cursor has more refinement.",
+        cursorVsWindsurfSummary: "Premium Agentic IDEs Face-Off: Both are VS Code forks with agentic coding. Cursor ($20/mo) uses GPT-5.6 with excellent codebase understanding. Windsurf (FREE!) uses Cascade AI with \"Flow State\" for autonomous multi-file editing. Windsurf's free tier is unbelievable value, but Cursor has more refinement.",
         cursorVsWindsurfStat1Label: "Pricing",
         cursorVsWindsurfStat1Value: "$20 vs FREE",
         cursorVsWindsurfStat2Label: "Model",
-        cursorVsWindsurfStat2Value: "GPT-4 vs Cascade",
+        cursorVsWindsurfStat2Value: "GPT-5.6 vs Cascade",
         cursorVsWindsurfStat3Label: "Agent Mode",
         cursorVsWindsurfStat3Value: "Yes vs Flow State",
         cursorVsWindsurfStat4Label: "Maturity",
         cursorVsWindsurfStat4Value: "High vs Growing",
 
-        copilotVsTabnineSummary: "Privacy vs Power: GitHub Copilot offers cutting-edge GPT-4 AI in the cloud for best code quality. Tabnine promises complete privacy with on-premise deployment - your code never leaves your infrastructure. Perfect for regulated industries (finance, healthcare, government). Copilot: $10/mo better AI. Tabnine: $12/mo maximum privacy.",
+        copilotVsTabnineSummary: "Privacy vs Power: GitHub Copilot offers cutting-edge GPT-5.6 AI in the cloud for best code quality. Tabnine promises complete privacy with on-premise deployment - your code never leaves your infrastructure. Perfect for regulated industries (finance, healthcare, government). Copilot: $10/mo better AI. Tabnine: $12/mo maximum privacy.",
         copilotVsTabnineStat1Label: "Deployment",
         copilotVsTabnineStat1Value: "Cloud vs On-Prem",
         copilotVsTabnineStat2Label: "Privacy",

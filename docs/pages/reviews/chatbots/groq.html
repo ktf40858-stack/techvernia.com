@@ -144,13 +144,13 @@
 <h2>Key Features</h2>
 
 <h3>LPU-Powered Inference Speed</h3>
-<p>Groq's LPU processes tokens sequentially with deterministic latency — the same response time every time, with no queuing variability. On Llama 3.3 70B, Groq achieves 750+ tokens per second versus 50–100 tokens per second on equivalent GPU infrastructure. This speed difference changes what's possible in latency-sensitive applications: voice AI responses that feel instant, coding assistants that complete suggestions before you finish typing, and real-time document processing pipelines.</p>
+<p>Groq's LPU processes tokens sequentially with deterministic latency — the same response time every time, with no queuing variability. On Llama 4, Groq achieves 750+ tokens per second versus 50–100 tokens per second on equivalent GPU infrastructure. This speed difference changes what's possible in latency-sensitive applications: voice AI responses that feel instant, coding assistants that complete suggestions before you finish typing, and real-time document processing pipelines.</p>
 
 <h3>OpenAI-Compatible API</h3>
 <p>Groq's API uses the same request/response format as the OpenAI API — same endpoint structure, same JSON schema, same streaming protocol. Switching from OpenAI to Groq for open-source models typically requires changing one line of code (the base URL and API key). This drop-in compatibility makes Groq the fastest way to prototype with faster inference or reduce API costs for open-source model workloads.</p>
 
 <h3>Broad Model Support</h3>
-<p>GroqCloud serves Llama 4 Scout and Maverick, Gemma 4, Mixtral 8x7B and 8x22B, DeepSeek Coder, Whisper Large v3 (audio transcription), and more. The platform adds new open-source models quickly after release. For developers who want to benchmark different models at the same extreme speed, Groq is the fastest way to compare model quality without speed being a confounding variable.</p>
+<p>GroqCloud serves Llama 4 Scout and Maverick, Gemma 4, Mistral Small 4 and 8x22B, DeepSeek Coder, Whisper Large v3 (audio transcription), and more. The platform adds new open-source models quickly after release. For developers who want to benchmark different models at the same extreme speed, Groq is the fastest way to compare model quality without speed being a confounding variable.</p>
 
 <h3>Function Calling & Tool Use</h3>
 <p>Groq supports structured function calling — the same JSON-based tool use interface popularized by OpenAI. AI agents that use tools (web search, database queries, API calls) can run their reasoning loops significantly faster on Groq, which compounds the speed advantage for multi-step agentic workflows. A 5-step agent that takes 30 seconds on standard GPU providers can complete in under 10 seconds on Groq.</p>
@@ -171,7 +171,7 @@
 <div class="cons-box">
 <h4>❌ Cons</h4>
 <ul>
-<li>Only serves open-source models — no GPT-4o or Claude</li>
+<li>Only serves open-source models — no GPT-5.6 or Claude</li>
 <li>Rate limits on free tier can be restrictive</li>
 <li>Context windows smaller than some GPU-based providers</li>
 <li>Less model variety than Together AI or Replicate</li>
@@ -205,7 +205,7 @@
 <tr class="winner"><td>Groq</td><td>Custom LPU</td><td>750+ T/s</td><td>Yes (Llama, Gemma, Mixtral)</td><td>Ultra-low latency apps</td></tr>
 <tr><td>Together AI</td><td>GPU cluster</td><td>100–200 T/s</td><td>Yes (widest selection)</td><td>Model variety</td></tr>
 <tr><td>Fireworks AI</td><td>GPU cluster</td><td>100–150 T/s</td><td>Yes</td><td>Function calling speed</td></tr>
-<tr><td>OpenAI</td><td>GPU cluster</td><td>60–100 T/s</td><td>No (closed models)</td><td>GPT-4o, best quality</td></tr>
+<tr><td>OpenAI</td><td>GPU cluster</td><td>60–100 T/s</td><td>No (closed models)</td><td>GPT-5.6, best quality</td></tr>
 <tr><td>Replicate</td><td>GPU cloud</td><td>Varies</td><td>Yes (1000+ models)</td><td>Model variety, images</td></tr>
 </tbody>
 </table>
@@ -213,7 +213,7 @@
 <div class="verdict-box">
 <h3>Final Verdict</h3>
 <p>Groq is the definitive choice for developers who need the fastest possible AI inference and are building with open-source models. If your application is latency-sensitive — voice assistants, real-time coding help, interactive agents, live content moderation — Groq's LPU speed often transforms a technically feasible application into a genuinely delightful user experience.</p>
-<p>The limitations are real: Groq only serves open-source models, so if you need GPT-4o or Claude, you'll need to go elsewhere. And for applications where response quality matters more than speed (complex reasoning, nuanced creative writing), the model matters more than the hardware. But for real-time inference at scale, Groq is unmatched — and the free tier is one of the best in the industry for developers getting started.</p>
+<p>The limitations are real: Groq only serves open-source models, so if you need GPT-5.6 or Claude, you'll need to go elsewhere. And for applications where response quality matters more than speed (complex reasoning, nuanced creative writing), the model matters more than the hardware. But for real-time inference at scale, Groq is unmatched — and the free tier is one of the best in the industry for developers getting started.</p>
 <p><strong>Best for:</strong> Voice AI developers, real-time chatbot builders, AI agent developers, and anyone who needs open-source model inference faster than any GPU provider can deliver.</p>
 </div>
 

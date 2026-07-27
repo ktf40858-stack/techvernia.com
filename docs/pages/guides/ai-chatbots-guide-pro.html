@@ -441,7 +441,7 @@
                     <p><strong>Key capabilities:</strong></p>
                     <ul class="tech-list">
                         <li>Natural language understanding and generation</li>
-                        <li>Context-aware reasoning (up to 200K+ tokens)</li>
+                        <li>Context-aware reasoning (up to 1M tokens)</li>
                         <li>Multi-turn conversation with memory retention</li>
                         <li>Function calling and tool integration</li>
                         <li>Structured output generation (JSON, XML, code)</li>
@@ -475,35 +475,35 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><strong>GPT-4 Turbo</strong></td>
+                                <td><strong>GPT-5.6</strong></td>
                                 <td>OpenAI</td>
                                 <td>128K</td>
                                 <td>Text, Vision</td>
                                 <td>General purpose, complex reasoning</td>
                             </tr>
                             <tr>
-                                <td><strong>Claude 3.5 Sonnet</strong></td>
+                                <td><strong>Claude Sonnet 5</strong></td>
                                 <td>Anthropic</td>
-                                <td>200K</td>
+                                <td>1M</td>
                                 <td>Text, Vision</td>
                                 <td>Long-context analysis, code generation</td>
                             </tr>
                             <tr>
-                                <td><strong>Gemini 1.5 Pro</strong></td>
+                                <td><strong>Gemini 3.1 Pro</strong></td>
                                 <td>Google</td>
                                 <td>2M</td>
                                 <td>Text, Vision, Audio</td>
                                 <td>Ultra-long context, multimodal tasks</td>
                             </tr>
                             <tr>
-                                <td><strong>Grok-2</strong></td>
+                                <td><strong>Grok 4.5</strong></td>
                                 <td>xAI</td>
                                 <td>32K</td>
                                 <td>Text, Vision</td>
                                 <td>Real-time data, X integration</td>
                             </tr>
                             <tr>
-                                <td><strong>DeepSeek-V3</strong></td>
+                                <td><strong>DeepSeek V4</strong></td>
                                 <td>DeepSeek</td>
                                 <td>128K</td>
                                 <td>Text</td>
@@ -514,7 +514,7 @@
                 </div>
 
                 <div class="tip-box">
-                    <strong>Pro Tip:</strong> Choose models based on your specific requirements: GPT-4 for general tasks, Claude for extensive code analysis, Gemini for processing large documents (books, codebases), and DeepSeek for cost-sensitive production deployments.
+                    <strong>Pro Tip:</strong> Choose models based on your specific requirements: GPT-5.6 for general tasks, Claude for extensive code analysis, Gemini for processing large documents (books, codebases), and DeepSeek for cost-sensitive production deployments.
                 </div>
 
                 <div class="nav-buttons">
@@ -558,7 +558,7 @@ Final Layer Norm → Output Projection → Logits → Softmax
                     <ul class="tech-list">
                         <li><strong>Grouped-Query Attention (GQA):</strong> Reduces KV cache memory by sharing key/value heads</li>
                         <li><strong>FlashAttention:</strong> IO-aware attention computation for 2-4× speed improvement</li>
-                        <li><strong>Mixture of Experts (MoE):</strong> Sparse activation of expert networks (GPT-4, Mixtral)</li>
+                        <li><strong>Mixture of Experts (MoE):</strong> Sparse activation of expert networks (GPT-5.6, Mixtral)</li>
                         <li><strong>SwiGLU Activation:</strong> Gated Linear Unit variant outperforming ReLU/GELU</li>
                         <li><strong>RMSNorm:</strong> Computationally efficient alternative to LayerNorm</li>
                     </ul>
@@ -612,7 +612,7 @@ Final Layer Norm → Output Projection → Logits → Softmax
                                 <td>~1-4GB</td>
                             </tr>
                             <tr>
-                                <td>200K-2M tokens</td>
+                                <td>1M-2M tokens</td>
                                 <td>Entire codebases, books, long-form content</td>
                                 <td>~10-100GB</td>
                             </tr>
@@ -895,7 +895,7 @@ import anthropic
 client = anthropic.Anthropic(api_key="sk-ant-...")
 
 message = client.messages.create(
-    model="claude-3-5-sonnet-20241022",
+    model="claude-sonnet-5",
     max_tokens=4096,
     temperature=0,
     system="You are a code review assistant. Analyze code for bugs and improvements.",
@@ -919,7 +919,7 @@ with open("diagram.png", "rb") as f:
     image_data = base64.standard_b64encode(f.read()).decode("utf-8")
 
 message = client.messages.create(
-    model="claude-3-5-sonnet-20241022",
+    model="claude-sonnet-5",
     max_tokens=1024,
     messages=[{
         "role": "user",
@@ -1048,7 +1048,7 @@ RAG Pipeline:
        │
        v
 ┌─────────────────────┐
-│  LLM Generation     │  ← GPT-4, Claude, etc.
+│  LLM Generation     │  ← GPT-5.6, Claude, etc.
 └─────────────────────┘
                         </code>
                     </div>
@@ -1301,7 +1301,7 @@ from langgraph.prebuilt import create_react_agent
 
 # Define specialized agents
 researcher = create_react_agent(
-    ChatAnthropic(model="claude-3-5-sonnet-20241022"),
+    ChatAnthropic(model="claude-sonnet-5"),
     tools=[search_tool, arxiv_tool],
     prompt="You are a research assistant. Find accurate technical information."
 )
@@ -1313,7 +1313,7 @@ coder = create_react_agent(
 )
 
 critic = create_react_agent(
-    ChatAnthropic(model="claude-3-5-sonnet-20241022"),
+    ChatAnthropic(model="claude-sonnet-5"),
     tools=[],
     prompt="You are a code reviewer. Critique for bugs, efficiency, and best practices."
 )
@@ -1384,7 +1384,7 @@ result = multi_agent_workflow("Create a REST API for user authentication")
                 </div>
 
                 <div class="warning-box">
-                    <strong>Cost Management:</strong> Agentic workflows can generate 10-100× more API calls than single-turn interactions. Implement token budgets, max_iterations limits, and cost tracking. Use cheaper models (GPT-3.5, Claude Haiku) for tool selection and expensive models (GPT-4, Claude Sonnet) only for critical reasoning.
+                    <strong>Cost Management:</strong> Agentic workflows can generate 10-100× more API calls than single-turn interactions. Implement token budgets, max_iterations limits, and cost tracking. Use cheaper models (GPT-5.6 Luna, Claude Haiku) for tool selection and expensive models (GPT-5.6, Claude Sonnet) only for critical reasoning.
                 </div>
 
                 <div class="nav-buttons">
@@ -1573,7 +1573,7 @@ model.save_pretrained("./lora-adapter")
                 </div>
 
                 <div class="tip-box">
-                    <strong>Data Quality:</strong> Fine-tuning quality depends heavily on data. Aim for diverse, high-quality examples. Remove duplicates, balance classes, and validate outputs. 500 excellent examples >> 5000 mediocre ones. Consider synthetic data generation using GPT-4 for data augmentation.
+                    <strong>Data Quality:</strong> Fine-tuning quality depends heavily on data. Aim for diverse, high-quality examples. Remove duplicates, balance classes, and validate outputs. 500 excellent examples >> 5000 mediocre ones. Consider synthetic data generation using GPT-5.6 for data augmentation.
                 </div>
 
                 <div class="nav-buttons">
@@ -1749,7 +1749,7 @@ def call_with_fallback(prompt):
     try:
         return call_llm_with_retry(prompt)
     except Exception:
-        print("GPT-4 failed, falling back to GPT-3.5")
+        print("GPT-5.6 failed, falling back to GPT-5.6 Luna")
         return client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "user", "content": prompt}]
@@ -1777,7 +1777,7 @@ def call_with_fallback(prompt):
                             <tr>
                                 <td><strong>Model Selection</strong></td>
                                 <td>10-50× cost difference</td>
-                                <td>GPT-3.5 for simple, GPT-4 for complex</td>
+                                <td>GPT-5.6 Luna for simple, GPT-5.6 for complex</td>
                             </tr>
                             <tr>
                                 <td><strong>Prompt Compression</strong></td>
@@ -1850,7 +1850,7 @@ def monitored_llm_call(prompt, model="gpt-4-turbo"):
         llm_tokens.labels(model=model, type="prompt").inc(prompt_tokens)
         llm_tokens.labels(model=model, type="completion").inc(completion_tokens)
 
-        # Track cost (GPT-4 pricing: $10/1M prompt, $30/1M completion)
+        # Track cost (GPT-5.6 pricing: $10/1M prompt, $30/1M completion)
         cost = (prompt_tokens * 0.00001) + (completion_tokens * 0.00003)
         llm_cost.labels(model=model).inc(cost)
 

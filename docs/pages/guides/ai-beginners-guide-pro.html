@@ -445,25 +445,25 @@
                         </thead>
                         <tbody>
                             <tr style="border-bottom: 1px solid var(--border-color);">
-                                <td style="padding: var(--space-sm);">GPT-4</td>
+                                <td style="padding: var(--space-sm);">GPT-5.6</td>
                                 <td style="padding: var(--space-sm);">~1.7T (MoE)</td>
                                 <td style="padding: var(--space-sm);">128K tokens</td>
                                 <td style="padding: var(--space-sm);">Decoder-only</td>
                             </tr>
                             <tr style="border-bottom: 1px solid var(--border-color);">
-                                <td style="padding: var(--space-sm);">Claude 3.5 Sonnet</td>
+                                <td style="padding: var(--space-sm);">Claude Sonnet 5</td>
                                 <td style="padding: var(--space-sm);">~200B</td>
-                                <td style="padding: var(--space-sm);">200K tokens</td>
+                                <td style="padding: var(--space-sm);">1M tokens</td>
                                 <td style="padding: var(--space-sm);">Constitutional AI</td>
                             </tr>
                             <tr style="border-bottom: 1px solid var(--border-color);">
-                                <td style="padding: var(--space-sm);">Gemini 1.5 Pro</td>
+                                <td style="padding: var(--space-sm);">Gemini 3.1 Pro</td>
                                 <td style="padding: var(--space-sm);">~175B</td>
                                 <td style="padding: var(--space-sm);">2M tokens</td>
                                 <td style="padding: var(--space-sm);">Multimodal transformer</td>
                             </tr>
                             <tr>
-                                <td style="padding: var(--space-sm);">DeepSeek V3</td>
+                                <td style="padding: var(--space-sm);">DeepSeek V4</td>
                                 <td style="padding: var(--space-sm);">671B (MoE)</td>
                                 <td style="padding: var(--space-sm);">128K tokens</td>
                                 <td style="padding: var(--space-sm);">Open-source MoE</td>
@@ -508,7 +508,7 @@ import anthropic
 client = anthropic.Anthropic(api_key="your_api_key")
 
 message = client.messages.create(
-    model="claude-3-5-sonnet-20241022",
+    model="claude-sonnet-5",
     max_tokens=1024,
     messages=[
         {"role": "user", "content": "Explain transformer architecture"}
@@ -630,18 +630,18 @@ Answer: 50 concurrent connections
                     <div class="tool-grid">
                         <div class="tool-item">
                             <h4>General Purpose</h4>
-                            <p style="font-size: var(--text-sm); margin: var(--space-xs) 0;">GPT-4 or Claude 3.5</p>
+                            <p style="font-size: var(--text-sm); margin: var(--space-xs) 0;">GPT-5.6 or Claude Sonnet 5</p>
                             <span class="badge">Production Ready</span>
                         </div>
                         <div class="tool-item">
                             <h4>Code Generation</h4>
-                            <p style="font-size: var(--text-sm); margin: var(--space-xs) 0;">GPT-4 / DeepSeek Coder</p>
+                            <p style="font-size: var(--text-sm); margin: var(--space-xs) 0;">GPT-5.6 / DeepSeek Coder</p>
                             <span class="badge">Specialized</span>
                         </div>
                         <div class="tool-item">
                             <h4>Long Context</h4>
-                            <p style="font-size: var(--text-sm); margin: var(--space-xs) 0;">Claude 3.5 / Gemini 1.5</p>
-                            <span class="badge">200K+ tokens</span>
+                            <p style="font-size: var(--text-sm); margin: var(--space-xs) 0;">Claude Sonnet 5 / Gemini 3.1</p>
+                            <span class="badge">1M tokens</span>
                         </div>
                         <div class="tool-item">
                             <h4>Cost Optimization</h4>

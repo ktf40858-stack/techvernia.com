@@ -79,7 +79,7 @@ const rytrTranslations = {
       "review.rytr.unlimited.words.5.brand.voices": "Unlimited words, 5 brand voices, workflows, priority support",
       "review.rytr.used.by.over.10.million": "Used by over 10 million marketers and businesses worldwide, Rytr excels at helping teams scale their content production without sacrificing quality. The platform's brand voice feature ensures consistency across all generated content, while its workflow automation capabilities allow teams to create repeatable processes for common copywriting tasks.",
       "review.rytr.view.pricing": "View Pricing",
-      "review.rytr.what.sets.rytr.apart.is": "What sets Rytr apart is its focus on marketing and sales use cases with specialized workflows for different business needs. The platform combines GPT-4 technology with custom-trained models to generate copy that's not just grammatically correct, but persuasive and conversion-focused. From cold emails to landing pages, Rytr understands marketing frameworks and applies them automatically.",
+      "review.rytr.what.sets.rytr.apart.is": "What sets Rytr apart is its focus on marketing and sales use cases with specialized workflows for different business needs. The platform combines GPT-5.6 technology with custom-trained models to generate copy that's not just grammatically correct, but persuasive and conversion-focused. From cold emails to landing pages, Rytr understands marketing frameworks and applies them automatically.",
       "review.rytr.word.limits.can.be.restrictive": "Word limits can be restrictive",
       "review.rytr.wordsmonth": "Words/Month",
       "review.rytr.work.together.with.unlimited.team": "Work together with unlimited team members. Share brand voices, templates, and workflows across your organization.",
