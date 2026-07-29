@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="Anthropic released Claude Opus 5 the week of July 27, 2026, scoring 43.3% on FrontierBench v0.1 at maximum effort versus GPT-5.6 Sol's 37.5%. Here's what the benchmark actually measures, and why the release cadence matters more than the score."/>
+<meta name="keywords" content="Claude Opus 5, Anthropic, FrontierBench, GPT-5.6 Sol, AI benchmark 2026, Claude vs GPT, frontier AI models, enterprise AI, AI reasoning benchmark"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/claude-opus-5-frontierbench-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/claude-opus-5-frontierbench-2026.html"/>
+<meta property="og:title" content="Claude Opus 5 Just Took the Lead on FrontierBench. Here's Why That Matters More Than the Score"/>
+<meta property="og:description" content="Claude Opus 5 scored 43.3% on FrontierBench v0.1 at maximum effort, ahead of GPT-5.6 Sol's 37.5%. The real story isn't the six-point gap — it's how fast the frontier is now moving."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/claude-opus-5-frontierbench-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Claude Opus 5 Just Took the Lead on FrontierBench. Here's Why That Matters More Than the Score"/>
+<meta name="twitter:description" content="Anthropic's Claude Opus 5 leads GPT-5.6 Sol on FrontierBench v0.1. Here's what the benchmark measures and why the release cadence is the real headline."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Claude Opus 5 Just Took the Lead on FrontierBench. Here's Why That Matters More Than the Score",
+  "description": "Analysis of Anthropic's Claude Opus 5 release, which scored 43.3% on FrontierBench v0.1 at maximum effort versus GPT-5.6 Sol's 37.5%, and what the accelerating frontier-model release cadence means for enterprises building on top of these models.",
+  "image": "https://techvernia.com/assets/images/blog-covers/claude-opus-5-frontierbench-2026.png",
+  "datePublished": "2026-07-29",
+  "dateModified": "2026-07-29",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/claude-opus-5-frontierbench-2026.html"
+  }
+}
+</script>
+
+<title>Claude Opus 5: Why Its FrontierBench Lead Over GPT-5.6 Sol Matters | TechVernia</title>
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.05), rgba(59, 130, 246, 0.05)); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<link href="../../css/mobile-fixes.css" rel="stylesheet"/>
+<link href="../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/claude-opus-5-frontierbench-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/claude-opus-5-frontierbench-2026.html" />
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img alt="TechVernia Logo" src="../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>Claude Opus 5 Just Took the Lead on FrontierBench. Here's Why That Matters More Than the Score</h1>
+                <p class="subtitle">The week of July 27, 2026, Anthropic released Claude Opus 5, scoring 43.3% on FrontierBench v0.1 at maximum effort — six points ahead of GPT-5.6 Sol's 37.5%. The gap itself is modest. What it confirms about the pace of frontier AI development is not.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>6 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>July 29, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+
+<h2>A New Model, and a Number Worth Slowing Down For</h2>
+
+<p>The week of July 27, 2026, Anthropic released Claude Opus 5. The headline figure attached to it is 43.3% on FrontierBench v0.1 at maximum reasoning effort, ahead of GPT-5.6 Sol's 37.5% on the same benchmark. Six percentage points, on paper, is not a dramatic swing. But FrontierBench isn't a benchmark that rewards the kind of incremental polish most model updates ship with — and that's exactly why the number is worth a closer look than the average leaderboard shuffle.</p>
+
+<p>Most AI benchmarks measure how well a model handles questions it has effectively seen variations of during training. FrontierBench was built to resist that. It targets genuinely novel, expert-level reasoning tasks specifically designed to defeat memorization and pattern-matching shortcuts. Scoring higher here isn't a function of a bigger training corpus — it's a function of a model reasoning better when there is no shortcut available.</p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">43.3%</span>
+        <span class="spec-label">Claude Opus 5 on FrontierBench v0.1 (max effort)</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">37.5%</span>
+        <span class="spec-label">GPT-5.6 Sol on the same benchmark</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">~5 months</span>
+        <span class="spec-label">Since Opus 4.6's agent-teams release (Feb 2026)</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">July 27, 2026</span>
+        <span class="spec-label">Week Claude Opus 5 shipped</span>
+    </div>
+</div>
+
+<h2>What FrontierBench Actually Tests</h2>
+
+<p>Frontier labs have spent the last two years quietly admitting that most public benchmarks were becoming useless as differentiators — not because the models stopped improving, but because the benchmarks themselves had been absorbed into training data, explicitly or by osmosis. FrontierBench v0.1 was built as a response to that problem: a benchmark of ambiguous, multi-step, expert-level reasoning tasks with no clean answer key, closer to the kind of problem a senior analyst or engineer actually gets handed than a standardized test question.</p>
+
+<p>That distinction matters for anyone deciding what to build on top of these models. A model that scores well on trivia-adjacent benchmarks tells you it has absorbed a lot of text. A model that scores well on FrontierBench tells you something closer to how it will behave on the tasks enterprises are increasingly handing off to AI: open-ended analysis, architectural decisions, judgment calls with no single correct answer.</p>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">The Core Signal</div>
+    <h3>The Score Matters Less Than the Cadence</h3>
+    <p>Six months ago, Opus 4.6 shipped agent teams and a million-token context window. Now Opus 5 leads on a benchmark purpose-built to resist gaming. Taken individually, each release is an incremental step. Taken together, they describe a market where the distance between "frontier leader" and "the field" is now measured in weeks, not years — and where no lab has held the top spot for more than a couple of release cycles in a row.</p>
+</div>
+
+<div class="callout">
+    <strong>The detail that matters most:</strong> Opus 5 isn't leading in isolation. OpenAI's GPT-5.6 Sol, Google DeepMind, and a wave of fast-moving labs — including Moonshot AI, whose 2.8-trillion-parameter Kimi K3 went open-weight the same week — are all shipping frontier-class updates on a compressed timeline. The competitive floor is rising as fast as the ceiling.
+</div>
+
+<h2>Why the Release Cadence Is the Real Story</h2>
+
+<p>It's tempting to read a benchmark win as a simple scoreboard update: Anthropic is ahead this week, someone else will be ahead next quarter, repeat. That framing misses what's actually changed. The interval between "best available model" and "the next best available model" has been compressing steadily through 2026 — not because any single lab found a silver bullet, but because the entire field is now iterating on shorter cycles, with more compute, more aggressive scaling, and benchmarks like FrontierBench specifically designed to keep the comparison honest as everyone gets better at the older tests.</p>
+
+<p>For enterprises, that compression changes the nature of the decision. Model selection used to be closer to a vendor contract: pick one, integrate it, revisit in a year. When the gap between the leader and the field can flip within a single quarter, "which model" stops being a decision you make once and starts being a decision you have to keep making.</p>
+
+<div class="highlight-box">
+    <p><strong>Worth noting for context:</strong> Opus 5 landed the same week Nvidia was reportedly in talks for a roughly $250 billion financing backstop tied to a 10-gigawatt OpenAI data center in Ohio, and the same week Alphabet raised its 2026 capital expenditure guidance to $195–205 billion. The capability race and the infrastructure race are now moving on the same weekly news cycle — every benchmark win is being underwritten by spending on a scale that didn't exist eighteen months ago.</p>
+</div>
+
+<h2>What This Means If You're Building With AI</h2>
+
+<p>None of this means enterprises should chase every benchmark headline with a migration. It does mean a few planning assumptions from even a year ago no longer hold:</p>
+
+<ul>
+    <li><strong>Model selection is now a moving target.</strong> Whatever you benchmark today may not hold by Q4 — build evaluation into your pipeline as an ongoing process, not a one-time procurement step.</li>
+    <li><strong>Frontier reasoning gains compound.</strong> A model that's marginally better at ambiguous, multi-step tasks compounds that edge across every agentic workflow built on top of it — the six-point FrontierBench gap shows up bigger downstream than it looks on a leaderboard.</li>
+    <li><strong>The durable moat is shrinking.</strong> When benchmark leadership flips every release cycle, the competitive advantage isn't "which model you picked" — it's how fast your team can evaluate and adopt the better one when it ships.</li>
+    <li><strong>Vendor lock-in carries a new kind of risk.</strong> Architectures tightly coupled to one model's specific behavior are more expensive to migrate exactly when migration becomes most valuable.</li>
+</ul>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What is Claude Opus 5?</div>
+        <div class="faq-answer">Claude Opus 5 is Anthropic's frontier model released the week of July 27, 2026, positioned as the successor to Claude Opus 4.6 (released February 2026). It scored 43.3% on FrontierBench v0.1 at maximum reasoning effort, ahead of GPT-5.6 Sol's 37.5% on the same benchmark.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What is FrontierBench?</div>
+        <div class="faq-answer">FrontierBench v0.1 is a benchmark built around genuinely novel, expert-level reasoning tasks designed to resist memorization and pattern-matching shortcuts, in contrast to benchmarks whose questions can be effectively absorbed into training data. It's designed to measure how models perform on ambiguous, multi-step problems closer to real analytical work than standardized test questions.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Is Claude Opus 5 better than GPT-5.6 Sol?</div>
+        <div class="faq-answer">On FrontierBench v0.1 at maximum effort, Claude Opus 5 scored higher than GPT-5.6 Sol (43.3% versus 37.5%). Benchmark leadership in 2026 has changed hands between labs multiple times within months, so this specific result reflects one point in a fast-moving comparison rather than a settled ranking.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How is Claude Opus 5 different from Claude Opus 4.6?</div>
+        <div class="faq-answer">Opus 4.6, released in February 2026, introduced autonomous agent teams and a million-token context window. Opus 5 builds on that foundation with stronger performance on FrontierBench-style reasoning tasks, arriving roughly five months later — a release cadence that's noticeably faster than Anthropic's historical pace.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>Benchmark wins get forgotten within a news cycle. What doesn't get forgotten — or shouldn't — is the pace behind this one: the best model in the world right now has a shelf life measured in weeks, not the annual refresh cycle most enterprise AI strategies were built around as recently as last year. Teams still treating model choice as a once-a-year decision are already planning against a market that no longer exists.</p>
+
+<p>The more useful question Claude Opus 5's release puts on the table isn't "which model is best." It's whether your evaluation process can actually keep up with a frontier that reshuffles this fast — because the lab that wins FrontierBench this week is not guaranteed to hold that lead by the time your next model review comes around.</p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="claude-fable-5-extended-july-12-2026.html">Anthropic Extends Claude Fable 5 Access to July 12: What the Five-Day Reversal Really Signals</a></li>
+    <li><a href="openai-ai-model-hack-huggingface-2026.html">An AI Model Just Hacked Another AI Company — And OpenAI Still Doesn't Fully Know Why</a></li>
+    <li><a href="ai-kill-switch-act-2026.html">Congress Just Introduced a Bill to Give the Government a Kill Switch for AI</a></li>
+</ul>
+
+</article>
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
