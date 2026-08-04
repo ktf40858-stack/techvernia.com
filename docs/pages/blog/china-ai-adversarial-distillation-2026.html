@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="Alibaba's Qwen3.8-Max, Moonshot AI's Kimi K3, and DeepSeek V4 are closing the gap with OpenAI and Anthropic at a fraction of the training cost. The technique behind the speed is adversarial distillation — and it raises hard questions about what US chip sanctions can actually stop."/>
+<meta name="keywords" content="China AI 2026, adversarial distillation, Qwen3.8-Max, Kimi K3, DeepSeek V4, AI chip sanctions, China AI models, AI death zone Bloomberg, open weight AI models"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/china-ai-adversarial-distillation-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/china-ai-adversarial-distillation-2026.html"/>
+<meta property="og:title" content="China Isn't Just Catching Up to OpenAI and Anthropic — It's Doing It on a Fraction of the Budget"/>
+<meta property="og:description" content="Qwen3.8-Max, Kimi K3, and DeepSeek V4 are closing the gap with US frontier labs fast. The technique behind it, adversarial distillation, is the real story — and a hard problem for chip export controls."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/china-ai-adversarial-distillation-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="China Isn't Just Catching Up to OpenAI and Anthropic — It's Doing It on a Fraction of the Budget"/>
+<meta name="twitter:description" content="Adversarial distillation is letting Chinese labs match frontier US models at a fraction of the training cost. Here's how the technique works and what it means for chip sanctions."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "China Isn't Just Catching Up to OpenAI and Anthropic — It's Doing It on a Fraction of the Budget",
+  "description": "Analysis of adversarial distillation, the technique behind Qwen3.8-Max, Kimi K3, and DeepSeek V4's rapid gains on US frontier models, and what it means for chip export controls and AI product strategy.",
+  "image": "https://techvernia.com/assets/images/blog-covers/china-ai-adversarial-distillation-2026.png",
+  "datePublished": "2026-08-05",
+  "dateModified": "2026-08-05",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/china-ai-adversarial-distillation-2026.html"
+  }
+}
+</script>
+
+<title>China AI 2026: How Adversarial Distillation Is Closing the Gap With OpenAI | TechVernia</title>
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.05), rgba(59, 130, 246, 0.05)); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<link href="../../css/mobile-fixes.css" rel="stylesheet"/>
+<link href="../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/china-ai-adversarial-distillation-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/china-ai-adversarial-distillation-2026.html" />
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img alt="TechVernia Logo" src="../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>China Isn't Just Catching Up to OpenAI and Anthropic — It's Doing It on a Fraction of the Budget</h1>
+                <p class="subtitle">Alibaba's Qwen3.8-Max, Moonshot AI's Kimi K3, and DeepSeek V4 are trading blows with the priciest US frontier models, built on a fraction of the training budget. The technique behind the speed, adversarial distillation, is the real story — and it's a much harder thing to embargo than compute.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>8 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>August 5, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+
+<h2>A "Death Zone" for Anyone Without Frontier Performance or Frontier Pricing</h2>
+
+<p>In the space of about two weeks, three Chinese AI labs reset the conversation about who's actually leading the AI race. Moonshot AI released Kimi K3, a 2.8-trillion-parameter model with open weights, matching performance many assumed only the priciest US models could reach. DeepSeek followed with V4, an MIT-licensed model priced at $0.14 per million input tokens. Then Alibaba topped both with Qwen3.8-Max — its largest model yet, at 2.4 trillion parameters, ranking ahead of Kimi K3 on several benchmarks barely two weeks after Kimi's debut.</p>
+
+<p>Bloomberg described the resulting pace of releases as creating a "death zone" for any lab without either breakthrough performance or market-breaking pricing. That framing is worth sitting with, because the leaderboard churn isn't really the story. The story is how these labs are getting there — on training budgets a fraction of the size that produced GPT-5.6, Claude Opus 5, or Gemini's latest iteration.</p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">2.8T</span>
+        <span class="spec-label">Parameters in Moonshot AI's open-weight Kimi K3</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">2.4T</span>
+        <span class="spec-label">Parameters in Alibaba's Qwen3.8-Max, released two weeks after Kimi K3</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">$0.14/M</span>
+        <span class="spec-label">DeepSeek V4 input token pricing, under an MIT license</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">+70%</span>
+        <span class="spec-label">Higher global token usage for Chinese models vs. US models, as of June 2026</span>
+    </div>
+</div>
+
+<h2>The Technique Behind the Speed: Adversarial Distillation</h2>
+
+<p>Much of this progress traces back to a method researchers call adversarial distillation. Instead of training reasoning capability from scratch — the enormously expensive process that produced the current generation of US frontier models — a smaller model is trained to reproduce a larger frontier model's outputs. It learns to imitate the reasoning patterns of a model like GPT-5.6 or Claude Opus 5 without repeating the compute bill that produced them in the first place.</p>
+
+<p>The technique isn't new in principle; distillation has been a standard tool in machine learning for years. What's changed is that Chinese labs have industrialized it at frontier scale, using it not to produce smaller, cheaper versions of their own models, but to close the capability gap with the best models in the world — including ones they don't have direct access to train on.</p>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">The Core Signal</div>
+    <h3>This Challenges the Core Assumption Behind Chip Export Controls</h3>
+    <p>US chip sanctions were built on the premise that restricting access to advanced compute would slow China's ability to reach the AI frontier, because training frontier-scale reasoning models from scratch requires enormous compute clusters. Adversarial distillation sidesteps part of that premise: if a smaller model can be trained to imitate a frontier model's reasoning patterns at a fraction of the compute cost, the bottleneck shifts away from raw compute access — and toward something export controls were never designed to restrict.</p>
+</div>
+
+<p>That's the uncomfortable question these releases raise for policymakers. Chip sanctions can still slow one path to the frontier — training the largest models from zero. They don't obviously slow the fastest-growing one, which is learning from models that already exist.</p>
+
+<div class="callout">
+    <strong>Worth noting:</strong> Chinese authorities are reportedly considering classifying the leak or theft of proprietary AI technology as a national security offense — a sign that Beijing is treating its own frontier AI know-how as strategically valuable enough to protect with the same legal weight as other sensitive technologies.
+</div>
+
+<h2>Why It's Working</h2>
+
+<p>Three factors are compounding at once. First, an ecosystem effect: DeepSeek, Moonshot AI, Alibaba's Qwen family, Tencent's Hunyuan, Zhipu AI, and MiniMax are not one lab racing alone — they're multiple, well-funded organizations repeatedly producing world-class results, which means techniques and lessons propagate across the ecosystem fast. Second, open weights: Kimi K3's weights became downloadable within days of launch, which means every lab and independent researcher can inspect, fine-tune, and build on it immediately, compounding the pace of iteration. Third, pricing as a weapon: DeepSeek V4's $0.14-per-million-token pricing isn't just aggressive — it's a deliberate attempt to make the cost of switching away from a Chinese model economically irrational for cost-sensitive production workloads.</p>
+
+<div class="highlight-box">
+    <p><strong>For context:</strong> at the World AI Conference (WAIC) 2026, Xi Jinping called on states to "encourage open source, openness, cooperation and sharing" and announced the World AI Cooperation Organization (WAICO), a new international body aimed at coordinating AI standards and research. Framing open-weight releases as a matter of global cooperation, rather than competitive necessity, is itself a strategic choice — it positions China's labs as the more open alternative to increasingly closed US frontier models.</p>
+</div>
+
+<h2>What This Means If You're Building With AI</h2>
+
+<p>Whatever your view of the geopolitics, the practical implications for teams building AI products are concrete and immediate:</p>
+
+<ul>
+    <li><strong>Model choice is no longer a US-default decision.</strong> Chinese open-weight models are legitimate options for cost-sensitive production workloads now, not research curiosities to keep an eye on for later.</li>
+    <li><strong>Pricing pressure is coming from below, not above.</strong> If a competitor can match your model's output quality at a fraction of the inference cost, margin assumptions built around US frontier-model pricing need revisiting now, not next quarter.</li>
+    <li><strong>Open weights change the self-hosting calculus.</strong> Running a frontier-class model entirely on infrastructure you control — with data that never leaves your environment — is now realistic for teams that need it, not just a theoretical option reserved for the largest players.</li>
+    <li><strong>Benchmark leadership is now a two-week cycle, not a two-quarter one.</strong> Building a product roadmap around "whichever model is currently best" is riskier than it looks; the leaderboard has changed hands three times in under a month.</li>
+</ul>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What is adversarial distillation in AI training?</div>
+        <div class="faq-answer">Adversarial distillation is a technique where a smaller model is trained to reproduce the outputs of a larger, more capable "teacher" model, learning to imitate its reasoning patterns without repeating the compute cost required to train that capability from scratch. Chinese AI labs have used it at frontier scale to close the gap with US models like GPT-5.6 and Claude Opus 5.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What are Qwen3.8-Max, Kimi K3, and DeepSeek V4?</div>
+        <div class="faq-answer">Qwen3.8-Max is Alibaba's largest AI model to date, a 2.4-trillion-parameter model released in early August 2026. Kimi K3 is Moonshot AI's 2.8-trillion-parameter open-weight model, released roughly two weeks earlier. DeepSeek V4 is DeepSeek's latest model, released under an MIT license and priced at $0.14 per million input tokens. All three rank competitively against leading US frontier models on multiple benchmarks.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Do US chip export controls still work against China's AI progress?</div>
+        <div class="faq-answer">Export controls still restrict China's ability to train the largest frontier models entirely from scratch on cutting-edge hardware. But adversarial distillation lets Chinese labs approximate frontier reasoning capability at a fraction of the compute cost by learning from existing models, which sidesteps part of the premise export controls were built on — that compute access is the primary bottleneck to reaching the frontier.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Are Chinese open-weight AI models safe to use in production?</div>
+        <div class="faq-answer">Open-weight models like Kimi K3 and DeepSeek V4 can be self-hosted, which lets teams control data residency and inference infrastructure directly rather than relying on an external API. As with any model choice, teams should evaluate licensing terms, data handling practices of any hosted API option, and their own compliance requirements before deploying in production.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>Export controls were built on the assumption that compute is the bottleneck to AI capability. Adversarial distillation is a bet that the real bottleneck is knowing what a good reasoning trace looks like — and once someone shows you, replicating it costs far less than discovering it from nothing. That's a much harder thing to embargo than a chip.</p>
+
+<p>The labs and policymakers treating this as a temporary catch-up phase, closed once the next export control tightens, may be underestimating how structural the cost advantage has become. If frontier capability can be distilled this efficiently, the durability of any single lab's first-mover advantage looks a lot shorter than it did a year ago — and that changes the calculus for anyone building a product roadmap around which model currently sits on top.</p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="claude-opus-5-frontierbench-2026.html">Claude Opus 5 and the FrontierBench Results</a></li>
+    <li><a href="eu-ai-act-transparency-2026.html">The EU AI Act Just Grew Teeth: What Changed on August 2, 2026</a></li>
+    <li><a href="ai-kill-switch-act-2026.html">Congress Just Introduced a Bill to Give the Government a Kill Switch for AI</a></li>
+</ul>
+
+</article>
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
