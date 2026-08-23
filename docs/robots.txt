@@ -1,36 +1,25 @@
-# TechVernia Robots.txt - Updated January 2026
+# TechVernia Robots.txt - Updated August 2026
 User-agent: *
 Allow: /
 
 # Sitemap
 Sitemap: https://techvernia.com/sitemap.xml
 
-# Block temporary files
-Disallow: /tmpclaude-*/
+# Fichiers de travail (scripts, tests, donnees) - jamais des pages
 Disallow: /*.py$
+Disallow: /*.sh$
+Disallow: /*.json$
+Disallow: /*.csv$
+Disallow: /tmpclaude-*
 Disallow: /test_*
 Disallow: /batch_translation/
-Disallow: /fix_navbar.py
 
-# Block backup files (critical for SEO)
-Disallow: /*backup*/
-Disallow: /*_backup*/
-Disallow: /*.backup
-Disallow: /*bak*/
+# Sauvegardes (supprimees en aout 2026, regles conservees par securite)
+Disallow: /*backup*
 Disallow: /*.bak
 
-# Block template snippets (not full pages, not for indexing)
+# Fragments de gabarit : pas des pages autonomes
 Disallow: /templates/
-Disallow: /*/templates/
 
-# Block internal tools
-Disallow: /docs/demo-*
-Disallow: /docs/exemple-*
-Disallow: /docs/test_*
-Disallow: /docs/voir-*
-
-# Allow specific paths (important pages)
-Allow: /docs/pages/
-
-# Crawl delay (0 = no delay, let Google crawl fast)
+# Crawl sans delai
 Crawl-delay: 0
