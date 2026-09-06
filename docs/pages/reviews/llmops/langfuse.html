@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="noindex, nofollow" name="robots"/>
+<!-- NOINDEX : fiche en attente de validation editoriale. Retire par generate_reviews.py --publish -->
+<meta content="Langfuse review 2026. The MIT-licensed LLM observability platform teams self-host: tracing, evaluations, datasets and prompt management in one product. Deployment, limits and how it compares to LangSmith." name="description"/>
+<meta content="Langfuse review, LLM observability, open source LLM tracing, LLM evaluation platform, Langfuse vs LangSmith, self-hosted LLMOps" name="keywords"/>
+<meta content="TechVernia" name="author"/>
+<meta content="Langfuse Review 2026: Open-Source LLM Observability | TechVernia" property="og:title"/>
+<meta content="Langfuse review 2026. The MIT-licensed LLM observability platform teams self-host: tracing, evaluations, datasets and prompt management in one product. Deployment, limits and how it compares to LangSmith." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://techvernia.com/pages/reviews/llmops/langfuse.html" property="og:url"/>
+<meta content="https://techvernia.com/assets/images/logos/langfuse.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script>
+<!-- Google Analytics 4 - TechVernia -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S2YLSEB9VR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S2YLSEB9VR');
+</script>
+<!-- End Google Analytics -->
+
+<title>Langfuse Review 2026: Open-Source LLM Observability | TechVernia</title>
+<link href="../../../css/style.css" rel="stylesheet"/>
+<link href="../../../css/responsive.css" rel="stylesheet"/>
+<link href="../../../css/guides-reviews.css" rel="stylesheet"/>
+<link href="../../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="../../../css/neon-icons.css" rel="stylesheet"/>
+<style>
+
+        .inline-icon {
+            display: inline-block;
+            width: 1.2em;
+            height: 1.2em;
+            vertical-align: middle;
+            margin-right: 0.3em;
+            stroke: currentColor;
+            stroke-width: 2;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        h2 .inline-icon {
+            width: 1.5em;
+            height: 1.5em;
+            stroke: url(#icon-gradient);
+        }
+
+        .icon-gradient-def {
+            position: absolute;
+            width: 0;
+            height: 0;
+        }
+
+        .review-hero {
+            padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+            background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, rgba(192, 132, 252, 0.05) 100%);
+            border-bottom: 1px solid var(--border-color);
+        }
+        .review-hero-content {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: var(--space-2xl);
+            align-items: center;
+        }
+        .tool-logo-xl {
+            width: 120px;
+            height: 120px;
+            border-radius: var(--radius-xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: 800;
+            color: white;
+            background: linear-gradient(135deg, #7C3AED, #C084FC);
+            box-shadow: 0 20px 40px rgba(124, 58, 237, 0.3);
+            overflow: hidden;
+        }
+        .rating-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            padding: var(--space-xl);
+            text-align: center;
+            min-width: 180px;
+        }
+        .rating-score {
+            font-size: var(--text-5xl);
+            font-weight: 800;
+            background: linear-gradient(135deg, #7C3AED, #C084FC);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1;
+        }
+        .rating-stars {
+            color: #F59E0B;
+            font-size: var(--text-xl);
+            margin: var(--space-sm) 0;
+        }
+        .feature-card-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(124, 58, 237, 0.1);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--text-xl);
+            margin-bottom: var(--space-md);
+        }
+        .pricing-table .price {
+            font-weight: 700;
+            color: #7C3AED;
+        }
+        .verdict-box {
+            background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, rgba(192, 132, 252, 0.1) 100%);
+            border: 1px solid rgba(124, 58, 237, 0.3);
+            border-radius: var(--radius-xl);
+            padding: var(--space-2xl);
+            margin: var(--space-2xl) 0;
+        }
+        .rating-item-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #7C3AED, #C084FC);
+            border-radius: var(--radius-full);
+        }
+        .review-hero-info h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: var(--space-sm); }
+        .review-hero-info .company { color: var(--text-tertiary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+        .review-badges { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
+        .review-badges .badge { padding: var(--space-xs) var(--space-md); font-size: var(--text-sm); }
+        .rating-label { font-size: var(--text-sm); color: var(--text-tertiary); }
+        .quick-stats { background: var(--bg-secondary); padding: var(--space-lg) 0; border-bottom: 1px solid var(--border-color); }
+        .quick-stats-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: var(--space-lg); }
+        .quick-stat { text-align: center; }
+        .quick-stat-value { font-size: var(--text-xl); font-weight: 700; color: var(--text-primary); }
+        .quick-stat-label { font-size: var(--text-xs); color: var(--text-tertiary); margin-top: var(--space-xs); }
+        .review-content { display: grid; grid-template-columns: 1fr 350px; gap: var(--space-3xl); padding: var(--space-4xl) 0; }
+        .review-main h2 { font-size: var(--text-2xl); font-weight: 700; margin: var(--space-2xl) 0 var(--space-lg); padding-bottom: var(--space-sm); border-bottom: 2px solid var(--border-color); }
+        .review-main h2:first-child { margin-top: 0; }
+        .review-main h3 { font-size: var(--text-lg); font-weight: 600; margin: var(--space-xl) 0 var(--space-md); color: var(--text-primary); }
+        .review-main p { color: var(--text-secondary); line-height: 1.8; margin-bottom: var(--space-lg); }
+        .review-main ul, .review-main ol { margin-bottom: var(--space-lg); padding-left: var(--space-xl); }
+        .review-main li { color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-sm); }
+        .features-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); margin: var(--space-xl) 0; }
+        .feature-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); }
+        .feature-card h4 { font-size: var(--text-md); font-weight: 600; margin-bottom: var(--space-sm); }
+        .feature-card p { font-size: var(--text-sm); color: var(--text-secondary); margin: 0; }
+        .pros-cons-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); margin: var(--space-xl) 0; }
+        .pros-box, .cons-box { background: var(--bg-card); border-radius: var(--radius-lg); padding: var(--space-xl); }
+        .pros-box { border: 1px solid rgba(124, 58, 237, 0.3); }
+        .cons-box { border: 1px solid rgba(239, 68, 68, 0.3); }
+        .pros-box h4, .cons-box h4 { display: flex; align-items: center; gap: var(--space-sm); font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-lg); }
+        .pros-box h4 { color: #7C3AED; }
+        .cons-box h4 { color: #EF4444; }
+        .pricing-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; background: var(--bg-card); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border-color); }
+        .pricing-table th, .pricing-table td { padding: var(--space-lg); text-align: left; border-bottom: 1px solid var(--border-color); }
+        .pricing-table th { background: var(--bg-tertiary); font-weight: 600; color: var(--text-primary); }
+        .pricing-table td { color: var(--text-secondary); }
+        .pricing-table .plan-name { font-weight: 600; color: var(--text-primary); }
+        .verdict-box h3 { font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-md); color: var(--text-primary); }
+        .verdict-box p { font-size: var(--text-md); margin: 0; }
+        .review-sidebar { position: sticky; top: 100px; }
+        .sidebar-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: var(--space-xl); margin-bottom: var(--space-xl); }
+        .sidebar-card h3 { font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-lg); padding-bottom: var(--space-sm); border-bottom: 1px solid var(--border-color); }
+        .cta-buttons { display: flex; flex-direction: column; gap: var(--space-sm); }
+        .cta-buttons .btn { width: 100%; justify-content: center; }
+        .rating-breakdown { margin-top: var(--space-lg); }
+        .rating-item { display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-md); }
+        .rating-item-label { flex: 1; font-size: var(--text-sm); color: var(--text-secondary); }
+        .rating-item-bar { width: 100px; height: 8px; background: var(--bg-tertiary); border-radius: var(--radius-full); overflow: hidden; }
+        .rating-item-score { font-size: var(--text-sm); font-weight: 600; color: var(--text-primary); min-width: 30px; }
+        .toc-list { list-style: none; padding: 0; }
+        .toc-list li { margin-bottom: var(--space-sm); }
+        .toc-list a { font-size: var(--text-sm); color: var(--text-secondary); text-decoration: none; transition: color var(--transition-fast); }
+        .toc-list a:hover { color: var(--accent-primary); }
+        .related-tool { display: flex; align-items: center; gap: var(--space-md); padding: var(--space-md) 0; border-bottom: 1px solid var(--border-color); }
+        .related-tool:last-child { border-bottom: none; }
+        .related-tool-logo { width: 40px; height: 40px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: var(--text-sm); color: white; overflow: hidden; }
+        .related-tool-info { flex: 1; }
+        .related-tool-name { font-weight: 600; font-size: var(--text-sm); }
+        .related-tool-rating { font-size: var(--text-xs); color: var(--text-tertiary); }
+        .faq-item { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); margin-bottom: var(--space-md); overflow: hidden; }
+        .faq-question { padding: var(--space-lg); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 600; }
+        .faq-question:hover { background: var(--bg-tertiary); }
+        .faq-answer { padding: 0 var(--space-lg) var(--space-lg); color: var(--text-secondary); line-height: 1.7; display: none; }
+        @media (max-width: 1024px) { .review-content { grid-template-columns: 1fr; } .review-sidebar { position: static; } }
+        @media (max-width: 768px) { .review-hero-content { grid-template-columns: 1fr; text-align: center; } .tool-logo-xl { margin: 0 auto; } .review-badges { justify-content: center; } .rating-box { margin: 0 auto; } .quick-stats-grid { grid-template-columns: repeat(2, 1fr); } .features-grid, .pros-cons-grid { grid-template-columns: 1fr; } }
+
+        .test-section-top {
+            background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(192, 132, 252, 0.1));
+            border: 2px solid var(--border-color-hover);
+            border-radius: var(--radius-xl);
+            padding: var(--space-2xl);
+            text-align: center;
+            margin-bottom: var(--space-3xl);
+        }
+        .test-section-top h2 {
+            margin-top: 0;
+            margin-bottom: var(--space-lg);
+            font-size: var(--text-2xl);
+        }
+        .cta-buttons-top {
+            display: flex;
+            gap: var(--space-md);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .cta-buttons-top .btn {
+            min-width: 200px;
+        }
+        @media (max-width: 768px) {
+            .cta-buttons-top {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style>
+
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "Review",
+ "itemReviewed": {
+  "@type": "SoftwareApplication",
+  "name": "Langfuse",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://langfuse.com/"
+ },
+ "author": {
+  "@type": "Organization",
+  "name": "TechVernia"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "TechVernia"
+ },
+ "reviewRating": {
+  "@type": "Rating",
+  "ratingValue": 4.7,
+  "bestRating": 5,
+  "worstRating": 1
+ },
+ "datePublished": "2026-09-06",
+ "reviewBody": "Langfuse solves the problem every team hits about three weeks after their LLM feature reaches production: something is wrong, and you have no idea which step of a multi-agent, multi-tool call chain caused it. Conventional application monitoring shows you a slow request. Langfuse shows you the nested spans — every model call, retrieval, tool invocation and their inputs and outputs — so the failure becomes an ordinary debugging problem instead of a guessing game."
+}</script>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is Langfuse really free to self-host?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. It is MIT-licensed and the self-hosted deployment is the complete product with no feature gating. The managed cloud is a convenience, not an unlock."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it only work with LangChain?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Langfuse is framework-agnostic, with SDKs for LangChain, LlamaIndex, raw provider SDKs and custom stacks."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Why does self-hosting matter for observability?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "LLM traces contain prompts, retrieved documents and model outputs — frequently customer data and internal information. Self-hosting keeps that on your infrastructure instead of a vendor's."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is the difference between tracing and evaluation here?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Tracing records what happened; evaluation scores whether it was any good. Langfuse does both and lets you promote a bad trace into a dataset to test future changes against."
+   }
+  }
+ ]
+}</script>
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+<nav class="navbar" id="navbar">
+<div class="nav-container">
+<a class="logo" href="../../../index.html">
+<img alt="TechVernia Logo" src="../../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;" onerror="this.style.display='none'"/>
+</a>
+<ul class="nav-menu" id="nav-menu">
+<li class="nav-item">
+    <a href="../../../index.html" class="nav-link" data-i18n="nav.home">Home</a>
+</li>
+<li class="nav-item dropdown">
+    <a href="../../../pages/categories.html" class="nav-link dropdown-toggle" data-i18n="nav.categories">Categories
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"></path></svg>
+    </a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/guides.html" class="nav-link" data-i18n="nav.guides">Guides</a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/comparisons.html" class="nav-link" data-i18n="nav.compare">Compare</a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/ai-history.html" class="nav-link" data-i18n="nav.ai-history">AI History</a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/blog.html" class="nav-link" data-i18n="nav.blog">Blog</a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/about.html" class="nav-link" data-i18n="nav.about">About</a>
+</li>
+<li class="nav-item">
+    <a href="../../../pages/contact.html" class="nav-link" data-i18n="nav.contact">Contact</a>
+</li>
+</ul>
+<div class="nav-actions">
+<div class="language-selector">
+<button aria-label="Select Language" class="lang-btn" id="lang-btn">
+<span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+<span class="lang-current">EN</span>
+<svg class="chevron" fill="currentColor" viewBox="0 0 20 20">
+<path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</button>
+<div class="lang-dropdown" id="lang-dropdown">
+<button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+<button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+<button class="lang-option" data-lang="es"><span class="flag">ES</span> Espanol</button>
+<button class="lang-option" data-lang="de"><span class="flag">DE</span> Deutsch</button>
+<button class="lang-option" data-lang="pt"><span class="flag">BR</span> Portugues</button>
+<button class="lang-option" data-lang="zh"><span class="flag">CN</span> Chinese</button>
+<button class="lang-option" data-lang="ja"><span class="flag">JP</span> Japanese</button>
+<button class="lang-option" data-lang="ko"><span class="flag">KR</span> Korean</button>
+<button class="lang-option" data-lang="ar"><span class="flag">SA</span> Arabic</button>
+<button class="lang-option" data-lang="hi"><span class="flag">IN</span> Hindi</button>
+</div>
+</div>
+<button aria-label="Search" class="search-btn" id="search-btn">
+<svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<circle cx="11" cy="11" r="8"></circle>
+<path d="M21 21l-4.35-4.35"></path>
+</svg>
+</button>
+<button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</div>
+</nav>
+
+<div class="container" style="padding-top: calc(80px + var(--space-lg));">
+<nav style="font-size: var(--text-sm); color: var(--text-tertiary);">
+<a href="../../../index.html" style="color: var(--text-tertiary); text-decoration: none;">Home</a>
+<span style="margin: 0 var(--space-sm);">/</span>
+<a href="../../categories.html" style="color: var(--text-tertiary); text-decoration: none;">LLMOps &amp; Evaluation</a>
+<span style="margin: 0 var(--space-sm);">/</span>
+<span style="color: var(--text-primary);">Langfuse Review</span>
+</nav>
+</div>
+<header class="review-hero">
+<div class="container">
+<div class="review-hero-content">
+<div class="tool-logo-xl">
+<img alt="Langfuse Logo" src="../../../assets/images/logos/langfuse.png" onerror="this.style.display='none'"/>
+</div>
+<div class="review-hero-info">
+<h1>Langfuse Review 2026</h1>
+<p class="company">by Langfuse &mdash; langfuse.com &nbsp; &#127465;&#127466; Germany</p>
+<div class="review-badges">
+<span class="badge badge-popular">MIT Licence</span>
+<span class="badge badge-new">Self-Hostable</span>
+<span class="badge" style="background: rgba(124, 58, 237, 0.1); color: #7C3AED;">Category Default</span>
+</div>
+</div>
+<div class="rating-box">
+<div class="rating-score">4.7</div>
+<div class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+<div class="rating-label">Expert Rating</div>
+</div>
+</div>
+</div>
+</header>
+<div class="quick-stats">
+<div class="container">
+<div class="quick-stats-grid">
+<div class="quick-stat"><div class="quick-stat-value">MIT</div><div class="quick-stat-label">Licence</div></div>
+<div class="quick-stat"><div class="quick-stat-value">Traces + Evals</div><div class="quick-stat-label">Scope</div></div>
+<div class="quick-stat"><div class="quick-stat-value">Self-host</div><div class="quick-stat-label">Full Product</div></div>
+<div class="quick-stat"><div class="quick-stat-value">Framework-agnostic</div><div class="quick-stat-label">Integration</div></div>
+<div class="quick-stat"><div class="quick-stat-value">2022</div><div class="quick-stat-label">Founded</div></div>
+</div>
+</div>
+</div>
+<main class="container">
+<div class="review-content">
+<article class="review-main">
+<div class="test-section-top">
+<h2>Try Langfuse</h2>
+<div class="cta-buttons-top">
+<a class="btn btn-primary" href="https://langfuse.com/" rel="nofollow sponsored" target="_blank">Visit Langfuse &rarr;</a>
+<a class="btn btn-outline" href="https://cloud.langfuse.com/" rel="nofollow sponsored" target="_blank">Start Free</a>
+</div>
+</div>
+
+<h2 id="overview">Overview</h2>
+<p>Langfuse solves the problem every team hits about three weeks after their LLM feature reaches production: something is wrong, and you have no idea which step of a multi-agent, multi-tool call chain caused it. Conventional application monitoring shows you a slow request. Langfuse shows you the nested spans — every model call, retrieval, tool invocation and their inputs and outputs — so the failure becomes an ordinary debugging problem instead of a guessing game.</p>
+<p>It goes further than tracing. Datasets, evaluations and prompt management live in the same product, which means the loop from 'this trace looks wrong' to 'add it to a test set' to 'verify the fix did not break something else' happens without exporting data between tools. That integration is why teams consolidate on it rather than assembling three separate services.</p>
+<p>The decisive feature for many organisations is the licence. Langfuse is MIT-licensed and fully self-hostable, so LLM traces — which routinely contain customer data, internal documents and prompts you would rather not hand to a third party — can stay on your infrastructure. Managed cloud exists for teams that do not need that; the self-hosted version is the complete product, not a teaser.</p>
+
+<h2 id="features">Key Features</h2>
+<div class="features-grid">
+<div class="feature-card">
+<div class="feature-card-icon">
+<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+</div>
+<h4>Nested Trace Capture</h4>
+<p>Full spans across agents, retrievers and tool calls with inputs and outputs, turning opaque LLM failures into readable execution traces.</p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon">
+<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+</div>
+<h4>Evaluations on Production Traffic</h4>
+<p>Attach automated or human evaluation scores to real traces, not only to a curated offline test set.</p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon">
+<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+</div>
+<h4>Datasets from Real Failures</h4>
+<p>Promote a failing production trace into a regression dataset in one step, which is how LLM test suites actually get built.</p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon">
+<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+</div>
+<h4>Prompt Management</h4>
+<p>Version prompts, deploy them without a code release, and see which version produced which trace.</p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon">
+<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M6 21V9a9 9 0 0 0 9 9"></path></svg>
+</div>
+<h4>MIT Licence, Fully Self-Hostable</h4>
+<p>The complete product runs on your infrastructure, which matters because traces contain your most sensitive data.</p>
+</div>
+<div class="feature-card">
+<div class="feature-card-icon">
+<svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+</div>
+<h4>Framework-Agnostic SDKs</h4>
+<p>Works with LangChain, LlamaIndex, raw SDK calls and custom stacks, rather than assuming one framework.</p>
+</div>
+</div>
+
+<h2 id="pros-cons">Pros &amp; Cons</h2>
+<div class="pros-cons-grid">
+<div class="pros-box">
+<h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg> Advantages</h4>
+<ul>
+<li>MIT-licensed and genuinely self-hostable — the whole product, not a limited edition</li>
+<li>Tracing, evaluation, datasets and prompts in one place</li>
+<li>Framework-agnostic rather than tied to one orchestration library</li>
+<li>Keeps sensitive trace data on your own infrastructure</li>
+<li>Active development and a strong community</li>
+</ul>
+</div>
+<div class="cons-box">
+<h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg> Disadvantages</h4>
+<ul>
+<li>Self-hosting means running a database and a service you must maintain</li>
+<li>High-volume trace storage grows quickly and needs a retention policy</li>
+<li>Evaluation tooling is less opinionated than dedicated eval platforms</li>
+<li>Instrumentation still has to be added to your code</li>
+</ul>
+</div>
+</div>
+
+<h2 id="pricing">Pricing Plans</h2>
+<table class="pricing-table">
+<thead><tr><th>Plan</th><th>Price</th><th>Key Features</th></tr></thead>
+<tbody>
+<tr><td class="plan-name">Self-Hosted</td><td class="price">Free</td><td>MIT licence, complete feature set, your infrastructure</td></tr>
+<tr><td class="plan-name">Cloud Hobby</td><td class="price">Free</td><td>Limited monthly events on managed cloud</td></tr>
+<tr><td class="plan-name">Cloud Pro</td><td class="price">From $59 / month</td><td>Higher volumes, longer retention, team features</td></tr>
+<tr><td class="plan-name">Enterprise</td><td class="price">Custom</td><td>SSO, compliance, support, dedicated deployment</td></tr>
+</tbody>
+</table>
+
+<h2 id="use-cases">Best Use Cases</h2>
+<h3>Langfuse Excels At:</h3>
+<ul>
+<li>Debugging multi-step agent and RAG failures in production</li>
+<li>Teams that cannot send prompts and traces to a third party</li>
+<li>Building regression test suites from real production failures</li>
+<li>Consolidating tracing, evals and prompt versioning in one tool</li>
+</ul>
+<h3>May Not Be Ideal For:</h3>
+<ul>
+<li>Teams with no capacity to run infrastructure who also cannot use cloud</li>
+<li>Very high trace volumes without a storage strategy</li>
+<li>Organisations wanting the deepest LangGraph-specific visualisations</li>
+</ul>
+
+<h2 id="comparison">How It Compares</h2>
+<h3>Langfuse vs LangSmith</h3>
+<p>LangSmith has the deepest integration with LangChain and LangGraph and is the natural pick if you live inside that stack. Langfuse is framework-agnostic and self-hostable under MIT. Data residency usually decides it.</p>
+<h3>Langfuse vs Braintrust</h3>
+<p>Braintrust is stronger on prompt-centric evaluation workflows and experiment management; Langfuse is stronger on open, self-hosted tracing. Teams focused on shipping quality improvements lean Braintrust, teams focused on understanding production lean Langfuse.</p>
+
+<h2 id="verdict">Final Verdict</h2>
+<div class="verdict-box">
+<h3>Our Recommendation</h3>
+<p>Langfuse is the default LLM observability platform for good reasons. The MIT licence and complete self-hosted product remove the objection that kills most observability purchases in regulated environments — traces contain your most sensitive data, and here they never leave. Having tracing, evaluation, datasets and prompt management in one tool means the loop from production failure to regression test is short enough that teams actually close it. Plan trace retention before you scale, and accept that you still have to instrument your code.</p>
+</div>
+
+<h2 id="faq">Frequently Asked Questions</h2>
+<div class="faq-item">
+<div class="faq-question"><span>Is Langfuse really free to self-host?</span><span>+</span></div>
+<div class="faq-answer">Yes. It is MIT-licensed and the self-hosted deployment is the complete product with no feature gating. The managed cloud is a convenience, not an unlock.</div>
+</div>
+<div class="faq-item">
+<div class="faq-question"><span>Does it only work with LangChain?</span><span>+</span></div>
+<div class="faq-answer">No. Langfuse is framework-agnostic, with SDKs for LangChain, LlamaIndex, raw provider SDKs and custom stacks.</div>
+</div>
+<div class="faq-item">
+<div class="faq-question"><span>Why does self-hosting matter for observability?</span><span>+</span></div>
+<div class="faq-answer">LLM traces contain prompts, retrieved documents and model outputs — frequently customer data and internal information. Self-hosting keeps that on your infrastructure instead of a vendor's.</div>
+</div>
+<div class="faq-item">
+<div class="faq-question"><span>What is the difference between tracing and evaluation here?</span><span>+</span></div>
+<div class="faq-answer">Tracing records what happened; evaluation scores whether it was any good. Langfuse does both and lets you promote a bad trace into a dataset to test future changes against.</div>
+</div>
+</article>
+
+<aside class="review-sidebar">
+<div class="sidebar-card">
+<h3>Get Langfuse</h3>
+<div class="cta-buttons">
+<a class="btn btn-primary" href="https://langfuse.com/" rel="nofollow sponsored" target="_blank">Visit Langfuse &rarr;</a>
+<a class="btn btn-outline" href="https://cloud.langfuse.com/" rel="nofollow sponsored" target="_blank">Start Free</a>
+</div>
+<div class="rating-breakdown">
+<div class="rating-item"><span class="rating-item-label">Trace Depth</span><div class="rating-item-bar"><div class="rating-item-fill" style="width: 94%"></div></div><span class="rating-item-score">9.4</span></div>
+<div class="rating-item"><span class="rating-item-label">Self-Hosting</span><div class="rating-item-bar"><div class="rating-item-fill" style="width: 99%"></div></div><span class="rating-item-score">9.9</span></div>
+<div class="rating-item"><span class="rating-item-label">Evaluation Tooling</span><div class="rating-item-bar"><div class="rating-item-fill" style="width: 85%"></div></div><span class="rating-item-score">8.5</span></div>
+<div class="rating-item"><span class="rating-item-label">Framework Coverage</span><div class="rating-item-bar"><div class="rating-item-fill" style="width: 92%"></div></div><span class="rating-item-score">9.2</span></div>
+<div class="rating-item"><span class="rating-item-label">Value</span><div class="rating-item-bar"><div class="rating-item-fill" style="width: 96%"></div></div><span class="rating-item-score">9.6</span></div>
+</div>
+</div>
+<div class="sidebar-card">
+<h3>Table of Contents</h3>
+<ul class="toc-list">
+<li><a href="#overview">Overview</a></li>
+<li><a href="#features">Key Features</a></li>
+<li><a href="#pros-cons">Pros &amp; Cons</a></li>
+<li><a href="#pricing">Pricing</a></li>
+<li><a href="#use-cases">Use Cases</a></li>
+<li><a href="#comparison">Comparison</a></li>
+<li><a href="#verdict">Verdict</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+</div>
+<div class="sidebar-card">
+<h3>Compare With</h3>
+<div class="related-tool">
+<div class="related-tool-logo" style="background: linear-gradient(135deg, #7C3AED, #C084FC);">
+<img alt="LangSmith Logo" src="../../../assets/images/logos/langsmith.png" style="width: 100%; height: 100%; object-fit: contain;" onerror="this.style.display='none'"/>
+</div>
+<div class="related-tool-info">
+<div class="related-tool-name"><a href="langsmith.html">LangSmith</a></div>
+<div class="related-tool-rating">&#9733; 4.5 - LangChain Observability</div>
+</div>
+</div>
+<div class="related-tool">
+<div class="related-tool-logo" style="background: linear-gradient(135deg, #7C3AED, #C084FC);">
+<img alt="Braintrust Logo" src="../../../assets/images/logos/braintrust.png" style="width: 100%; height: 100%; object-fit: contain;" onerror="this.style.display='none'"/>
+</div>
+<div class="related-tool-info">
+<div class="related-tool-name"><a href="braintrust.html">Braintrust</a></div>
+<div class="related-tool-rating">&#9733; 4.5 - Eval-First Platform</div>
+</div>
+</div>
+<div class="related-tool">
+<div class="related-tool-logo" style="background: linear-gradient(135deg, #7C3AED, #C084FC);">
+<img alt="LangChain Logo" src="../../../assets/images/logos/langchain.png" style="width: 100%; height: 100%; object-fit: contain;" onerror="this.style.display='none'"/>
+</div>
+<div class="related-tool-info">
+<div class="related-tool-name"><a href="../agents/langchain.html">LangChain</a></div>
+<div class="related-tool-rating">&#9733; 4.4 - Agent Framework</div>
+</div>
+</div>
+</div>
+<div class="sidebar-card">
+<h3>Quick Info</h3>
+<ul style="list-style: none; padding: 0; font-size: var(--text-sm);">
+<li style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);"><span style="color: var(--text-tertiary);">Company</span><span style="font-weight: 500;">Langfuse</span></li>
+<li style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);"><span style="color: var(--text-tertiary);">Founded</span><span style="font-weight: 500;">2022</span></li>
+<li style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);"><span style="color: var(--text-tertiary);">Headquarters</span><span style="font-weight: 500;">Berlin, Germany</span></li>
+<li style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);"><span style="color: var(--text-tertiary);">Country</span><span style="font-weight: 500;">&#127465;&#127466; Germany</span></li>
+<li style="display: flex; justify-content: space-between; padding: var(--space-sm) 0;"><span style="color: var(--text-tertiary);">Website</span><span style="font-weight: 500; color: #7C3AED;">langfuse.com</span></li>
+</ul>
+</div>
+</aside>
+</div>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="../../../index.html">
+<img alt="TechVernia Logo" src="../../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;" onerror="this.style.display='none'"/>
+</a>
+<p class="footer-desc">Your trusted source for AI tool reviews, comparisons, and guides.</p>
+</div>
+<div class="footer-links"><h4>Categories</h4><ul><li><a href="../../categories.html">LLMOps &amp; Evaluation</a></li><li><a href="../../categories/ai-analytics.html">AI Analytics</a></li><li><a href="../../categories/ai-coding.html">AI Coding</a></li></ul></div>
+<div class="footer-links"><h4>Resources</h4><ul><li><a href="../../guides.html">Guides</a></li><li><a href="../../comparisons.html">Comparisons</a></li><li><a href="../../about.html">About</a></li></ul></div>
+</div>
+<div class="footer-bottom">
+<p class="copyright">© 2026 TechVernia. All rights reserved.</p>
+<p class="affiliate-notice">Some links may be affiliate links.</p>
+</div>
+</div>
+</footer>
+<script src="../../../js/i18n.js"></script>
+<script src="../../../js/auto-translate.js"></script>
+<script src="../../../js/animations.js"></script>
+<script src="../../../js/main.js"></script>
+<script>
+    document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            const isOpen = answer.style.display === 'block';
+            document.querySelectorAll('.faq-answer').forEach(a => a.style.display = 'none');
+            document.querySelectorAll('.faq-question span:last-child').forEach(s => s.textContent = '+');
+            if (!isOpen) {
+                answer.style.display = 'block';
+                question.querySelector('span:last-child').textContent = '−';
+            }
+        });
+    });
+</script>
+</body>
+</html>

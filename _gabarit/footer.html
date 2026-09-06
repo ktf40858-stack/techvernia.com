@@ -1,0 +1,38 @@
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="footer-logo" href="../../../index.html">
+<img alt="TechVernia Logo" src="../../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;" onerror="this.style.display='none'"/>
+</a>
+<p class="footer-desc">Your trusted source for AI tool reviews, comparisons, and guides.</p>
+</div>
+<div class="footer-links"><h4>Categories</h4><ul><li><a href="../../categories/ai-cybersecurity.html">AI Cybersecurity</a></li><li><a href="../../categories/ai-analytics.html">AI Analytics</a></li><li><a href="../../categories/ai-coding.html">AI Coding</a></li></ul></div>
+<div class="footer-links"><h4>Resources</h4><ul><li><a href="../../guides.html">Guides</a></li><li><a href="../../comparisons.html">Comparisons</a></li><li><a href="../../about.html">About</a></li></ul></div>
+</div>
+<div class="footer-bottom">
+<p class="copyright">© 2026 TechVernia. All rights reserved.</p>
+<p class="affiliate-notice">Some links may be affiliate links.</p>
+</div>
+</div>
+</footer>
+<script src="../../../js/i18n.js"></script>
+<script src="../../../js/auto-translate.js"></script>
+<script src="../../../js/animations.js"></script>
+<script src="../../../js/main.js"></script>
+<script>
+    document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            const isOpen = answer.style.display === 'block';
+            document.querySelectorAll('.faq-answer').forEach(a => a.style.display = 'none');
+            document.querySelectorAll('.faq-question span:last-child').forEach(s => s.textContent = '+');
+            if (!isOpen) {
+                answer.style.display = 'block';
+                question.querySelector('span:last-child').textContent = '−';
+            }
+        });
+    });
+</script>
+</body>
+</html>
