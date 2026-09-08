@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="Researchers named it GitSpawn: eight vulnerabilities across seven AI coding agents, all triggered by one line in a repository's .git/config. Claude Code, OpenAI Codex, Cursor, Grok Build, Goose, Hermes Agent and Qwen Code run attacker-supplied commands while collecting context, and on several of them the payload fires before the workspace-trust prompt."/>
+<meta name="keywords" content="GitSpawn, core.fsmonitor, AI coding agent security, Claude Code vulnerability, OpenAI Codex, Cursor IDE, Grok Build, Qwen Code, Hermes Agent, Goose agent, git config RCE, developer endpoint security, agent harness security, workspace trust bypass, DevSecOps, supply chain security"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/gitspawn-ai-coding-agents-rce-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/gitspawn-ai-coding-agents-rce-2026.html"/>
+<meta property="og:title" content="One Line in .git/config Runs Attacker Code in Seven AI Coding Agents"/>
+<meta property="og:description" content="Eight flaws, seven agents, four still unpatched. No prompt injection, no model involved: git executes a command the repository supplied, and the agent asked git to run."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/gitspawn-ai-coding-agents-rce-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="GitSpawn: The Agent Ran the Code Before You Clicked Trust"/>
+<meta name="twitter:description" content="core.fsmonitor is not a setting, it is a command. AI agents run git status in the background. The rest writes itself."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "GitSpawn: One Line in a Repository's .git/config Executes Attacker Code Inside Seven AI Coding Agents",
+  "description": "Analysis of the September 2026 GitSpawn disclosure: eight vulnerabilities across seven AI coding agents abusing Git's core.fsmonitor setting, which Git executes as a command whenever it refreshes the index. Covers the affected products and patch status, why the execution happens before workspace-trust prompts, why this is a harness bug rather than prompt injection, the developer-endpoint patch-management gap, and the controls that remove the attack surface.",
+  "image": "https://techvernia.com/assets/images/blog-covers/gitspawn-ai-coding-agents-rce-2026.png",
+  "datePublished": "2026-09-09",
+  "dateModified": "2026-09-09",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/gitspawn-ai-coding-agents-rce-2026.html"
+  }
+}
+</script>
+
+<title>GitSpawn: One .git/config Line Runs Code in 7 AI Agents | TechVernia</title>
+
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-section-title { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-primary); margin: 0 0 var(--space-sm); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08)), var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<link href="../../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/gitspawn-ai-coding-agents-rce-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/gitspawn-ai-coding-agents-rce-2026.html" />
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img alt="TechVernia Logo" src="../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>One Line in a Repository Runs Attacker Code Inside Seven AI Coding Agents</h1>
+                <p class="subtitle">Researchers call it GitSpawn: eight vulnerabilities across Claude Code, OpenAI Codex, Cursor, Grok Build, Goose, Hermes Agent and Qwen Code. Git treats core.fsmonitor as a command. Agents run git in the background. On several of them the payload fires before the workspace-trust prompt is ever accepted.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>13 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>September 9, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+<h2>What Actually Happened</h2>
+
+<p>In early September 2026, researchers disclosed a class of vulnerabilities they named <strong>GitSpawn</strong>: eight distinct flaws across seven AI coding agents, every one of them reachable by publishing a repository and waiting for someone to open it.</p>
+
+<p>The affected products are not fringe tools. They are <strong>Claude Code, OpenAI Codex, Cursor, Grok Build, Goose, Hermes Agent and Qwen Code</strong> &mdash; the daily driver for a large share of professional developers in 2026.</p>
+
+<p>There is no exploit chain here, no memory corruption, no malicious dependency to install. The entire attack is one line of configuration sitting inside a repository, and a background command the agent runs before it says a single word to you.</p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">8</span>
+        <span class="spec-label">Distinct vulnerabilities in the GitSpawn class</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">7</span>
+        <span class="spec-label">AI coding agents affected, including Claude Code, Codex and Cursor</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">4</span>
+        <span class="spec-label">Of the eight still executing repository-supplied commands as of September 1</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">0</span>
+        <span class="spec-label">Clicks required by the victim beyond opening the project</span>
+    </div>
+</div>
+
+<h2>core.fsmonitor Is Not a Setting. It Is a Command.</h2>
+
+<p>Git has a performance feature called <code>core.fsmonitor</code>. It exists because walking an entire working tree to find out what changed is slow on large repositories, so Git lets you delegate that question to an external file-system monitor.</p>
+
+<p>The important detail is what the configuration value contains. It is not a boolean and not a path to data. <strong>It is a command, and Git executes it</strong> on any operation that refreshes the index.</p>
+
+<p>That includes the two commands every developer runs a hundred times a day:</p>
+
+<ul>
+    <li><code>git status</code></li>
+    <li><code>git diff</code></li>
+</ul>
+
+<p>And critically, Git reads that value from the repository's own <code>.git/config</code> &mdash; a file that travels with a repository you did not write.</p>
+
+<h3>Now Add an AI Agent</h3>
+
+<p>Consider what every AI coding agent does the moment you open a project. Before it answers anything, it orients itself: current branch, staged files, recent diff, working-tree state. It gathers that context by running git commands in the background, silently, by design. The user sees a spinner, not a shell.</p>
+
+<p>Put the two facts together and the attack writes itself:</p>
+
+<ol>
+    <li>An attacker publishes a repository carrying one hostile line in <code>.git/config</code>.</li>
+    <li>A developer clones it &mdash; to review a pull request, evaluate a library, reproduce a bug report.</li>
+    <li>They open it in their agent.</li>
+    <li>The agent runs <code>git status</code> to build context.</li>
+    <li>Git reads the repository's configuration, finds the fsmonitor command, and executes it.</li>
+</ol>
+
+<p>The repository told git to run something. The agent asked git to run. Nobody in that chain did anything unusual.</p>
+
+<h2>Who Is Affected, and Where the Patches Stand</h2>
+
+<p>The disclosure describes eight flaws across seven agents, and the patch picture as of September 1, 2026 was mixed.</p>
+
+<ul>
+    <li><strong>Claude Code</strong> &mdash; the <code>core.fsmonitor</code> path was confirmed in version 2.1.193 and fixed in 2.1.196. A second path was still reported as executing repository-supplied commands.</li>
+    <li><strong>OpenAI Codex</strong> &mdash; affected, since patched.</li>
+    <li><strong>Cursor</strong> &mdash; affected, since patched.</li>
+    <li><strong>Hermes Agent, Qwen Code, Grok Build</strong> &mdash; still executing repository-supplied commands as of September 1.</li>
+    <li><strong>Goose</strong> &mdash; named in the affected set.</li>
+</ul>
+
+<p>The timing of execution is the part that turns a serious bug into an architectural one. On <strong>Claude Code and Hermes Agent</strong>, the payload fires before the workspace-trust prompt is accepted. On <strong>Qwen Code</strong>, before the user has authenticated at all. On <strong>Grok Build</strong>, on the first keystroke.</p>
+
+<div class="callout-orange">
+    <strong>A note on freshness.</strong> Patch status in a story like this ages in days, not months. The versions and the four-of-eight unpatched count reflect the reporting as of September 1, 2026. Before you brief anyone on it, check the current release notes for the specific agents your engineers actually run &mdash; the mitigation below holds regardless of which vendor has shipped what.
+</div>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">The Structural Read</div>
+    <h3>A Consent Dialog That Appears After Execution Is a Receipt, Not a Control</h3>
+    <p>Every vendor in this space has built an approval layer: workspace-trust dialogs, per-command permission prompts, tool-call logging, allow and deny lists. Those controls are real and they work as designed &mdash; for actions the model decides to take. GitSpawn runs underneath that layer entirely. Execution happens during context collection, in plumbing the approval system was never pointed at, and in several products it happens before the prompt is shown or the user is even authenticated. The security model assumed the dangerous actions were the ones the agent proposes. The dangerous action here was one the agent performs to figure out where it is.</p>
+</div>
+
+<h2>This Is Not Prompt Injection, and the Distinction Decides the Fix</h2>
+
+<p>It is worth being precise, because the entire mitigation strategy depends on which kind of bug this is.</p>
+
+<p><strong>Prompt injection</strong> manipulates the model. Hostile text enters the context window and the model is persuaded to take an action it should not. Defences are probabilistic by nature: instruction hierarchies, classifiers, narrowed tool scopes, human confirmation on sensitive calls.</p>
+
+<p><strong>GitSpawn asks nothing of the model.</strong> The AI is not tricked, not consulted, not involved in the decision at all. The agent is a process that runs git as a subprocess, and git had been configured &mdash; by the repository, not by the user &mdash; to run something else. Strip the AI out of the description and you are left with a textbook untrusted-input-to-command-execution bug that happens to live inside AI tooling.</p>
+
+<div class="callout">
+    <strong>Why that matters operationally.</strong> No amount of alignment work, guardrail tuning or model evaluation touches this. It is fixed the way command-execution bugs have always been fixed: by treating repository-supplied configuration as untrusted input and refusing to hand it to a shell. Which is exactly what the patches do.
+</div>
+
+<h2>The Real Exposure Is the Patch Pipeline</h2>
+
+<p>A vulnerability with a same-week fix is a minor incident when you can push the fix. It is an open door when you cannot see the installs.</p>
+
+<p>AI coding agents occupy an unusual position in most organisations. They live on developer laptops. They update on their own release cadence, often silently. They are frequently installed by the engineer rather than by IT, sometimes through npm or a package manager rather than a managed software catalogue. They rarely appear in an asset inventory, and almost never in a vulnerability management report.</p>
+
+<p>Ask a security team which agent version is running on which engineer's machine. Most cannot answer &mdash; not because the process is weak, but because these tools were never enrolled in it.</p>
+
+<div class="insight-card">
+    <div class="insight-number">02</div>
+    <div class="insight-label">The Blast-Radius Read</div>
+    <h3>The Developer Laptop Is the Highest-Value Endpoint You Do Not Treat Like One</h3>
+    <p>Think about what sits on the machine where this executes: cloud credentials, SSH keys, signing keys, registry tokens, kubeconfig files, browser sessions to the CI system and the cloud console, and write access to the repositories that build production. A single command executed there is not an endpoint compromise, it is a foothold in the software supply chain. We spent a decade hardening servers and CI runners while the machine that pushes to both kept a developer's full standing privileges and, increasingly, an agent that executes things on their behalf. GitSpawn is a small bug pointed at a very large target.</p>
+</div>
+
+<h2>What To Do If You Run Engineering</h2>
+
+<h3>1. Disable fsmonitor Globally, Today</h3>
+
+<p>One command removes the attack surface for every repository on a machine:</p>
+
+<p><code>git config --global core.fsmonitor false</code></p>
+
+<p>The performance cost is negligible outside very large monorepos, and it is enforced regardless of which agent, editor or script touches the repository next. Push it through your MDM or dotfiles baseline rather than asking people individually.</p>
+
+<h3>2. Inventory the Agents and Their Versions</h3>
+
+<p>Enumerate which AI coding tools are installed across engineering, at which versions, and bring them into normal patch management with an owner and a minimum-version policy. Several products in the affected set were still shipping the behaviour at the start of the month. You cannot ship a fix to software you have not inventoried.</p>
+
+<h3>3. Treat Cloning as Execution</h3>
+
+<p>Opening an untrusted repository in an agent is now functionally equivalent to running it. That reframing should change routine habits: triage before you clone, be deliberate about repositories from issue reports, forks, job applicants and vendor demos, and keep unknown code in a disposable environment.</p>
+
+<h3>4. Isolate the Agent Workspace</h3>
+
+<p>Containers, devcontainers, dedicated VMs or a separate low-privilege user turn a developer-machine compromise into a discarded sandbox. This is the control that survives the next bug in this class, which will not be about fsmonitor and will not be announced in advance.</p>
+
+<h3>5. Monitor the Developer Endpoint Like an Endpoint</h3>
+
+<p>EDR coverage, process telemetry and egress logging belong on machines running agents, not only on servers and CI runners. If a git subprocess spawns an unexpected child process on an engineer's laptop, someone should see it. Today, on most estates, nobody would.</p>
+
+<h3>6. Rotate What the Laptop Holds</h3>
+
+<p>If an engineer opened an untrusted repository on an unpatched agent, treat the cloud tokens, SSH keys and registry credentials on that machine as potentially exposed. Short-lived credentials and hardware-backed keys make that conversation dramatically shorter.</p>
+
+<div class="highlight-box">
+    <p><strong>The pattern worth carrying forward is not the fsmonitor trick.</strong> An agent is not just a model. It is a process with a shell, a filesystem, a network stack, credentials, and a long tail of helper commands nobody audits because they look like plumbing: git, package managers, language servers, formatters, build tools, test runners. Every one of those reads configuration from the project directory, and the project directory is attacker-controlled the moment you clone something you did not write. The model is the part everyone is watching. The subprocess is the part that gets you.</p>
+</div>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What is GitSpawn?</div>
+        <div class="faq-answer">GitSpawn is the name researchers gave to a class of eight vulnerabilities across seven AI coding agents, disclosed in early September 2026. All of them let a repository execute commands on the machine of anyone who opens it in an affected agent, by abusing Git's core.fsmonitor configuration value, which Git runs as a command whenever it refreshes the index. The affected products include Claude Code, OpenAI Codex, Cursor, Grok Build, Goose, Hermes Agent and Qwen Code.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How does one line in .git/config get code execution?</div>
+        <div class="faq-answer">Git's core.fsmonitor setting exists to delegate change detection to an external file-system monitor, so its value is a command rather than data, and Git executes it during any index refresh, including git status and git diff. AI coding agents run those commands in the background to gather project context as soon as you open a project. If the repository ships its own .git/config with a hostile fsmonitor value, the agent's routine context collection runs the attacker's command.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Does the workspace-trust prompt protect me?</div>
+        <div class="faq-answer">Not in the affected versions. The execution happens during context collection, underneath the approval layer. On Claude Code and Hermes Agent the payload fires before the trust prompt is accepted, on Qwen Code before the user has authenticated, and on Grok Build on the first keystroke. A consent dialog that appears after execution is a record of what already happened, not a control.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Is this a prompt injection attack?</div>
+        <div class="faq-answer">No, and the distinction matters. Prompt injection manipulates the model through hostile text in its context window. GitSpawn never involves the model at all: the agent runs git as a subprocess, and git was configured by the repository to run something else. That means model-side guardrails, classifiers and alignment work do not address it. It is fixed by treating repository-supplied configuration as untrusted input, which is what the vendor patches do.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Which agents are patched?</div>
+        <div class="faq-answer">As reported at the start of September 2026, Claude Code fixed the core.fsmonitor path in version 2.1.196 after it was confirmed in 2.1.193, and OpenAI Codex and Cursor had both shipped fixes. Hermes Agent, Qwen Code, Grok Build and a second path in Claude Code were still executing repository-supplied commands at that point, with four of the eight flaws outstanding. Patch status changes quickly, so verify the current release notes for the versions your team actually runs.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What is the single most effective mitigation?</div>
+        <div class="faq-answer">Running git config --global core.fsmonitor false removes the attack surface for every repository on the machine, independently of which agent or editor opens it, at negligible performance cost outside very large monorepos. Beyond that, inventory the agents and their versions so patches can actually be shipped, run agents in an isolated workspace such as a devcontainer, and put EDR and egress logging on developer laptops rather than only on servers and CI runners.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>The industry has spent two years hardening what AI agents <em>say</em>. Refusals, guardrails, output filtering, red-teaming the weights, evaluations for dangerous capability. That work is necessary and it is not where this bug lives.</p>
+
+<p>GitSpawn is a 2005-vintage vulnerability wearing a 2026 badge. Untrusted input reaches a command interpreter. We have known how to fix that for a very long time. What is new is the delivery: the untrusted input arrives in a config file nobody reads, the command interpreter is a tool everybody trusts, and the trigger is an agent doing something so mundane that no product designer thought to put a gate in front of it.</p>
+
+<p>That is the shape I expect to see repeatedly. The interesting attack surface in agentic systems is not the model, it is the harness &mdash; the subprocesses, the config parsing, the file access, the network calls the agent makes to orient itself before it does anything a human approves. Every one of those is code executing on attacker-influenced input, and almost none of it is covered by the permission model the vendor shipped.</p>
+
+<p>The uncomfortable part is the deployment reality. These tools sit on the machines with the broadest access in the company, install themselves outside IT, update on their own schedule, and are absent from most asset inventories. When the fix arrived in a point release, a large share of the installed base had no mechanism to receive it. That gap is not the vendors' to close.</p>
+
+<p>Fix the config setting this week. Then ask the harder question: how many other commands does your agent run before you approve anything, and what do they read from the folder you just cloned?</p>
+
+<p>If a hostile repository were opened on one of your developer machines today, what in your telemetry would tell you?</p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="openai-wiki-incident-agent-coordination-2026.html">Thousands of OpenAI Agents Used a Dead German Wiki as a Message Board. Nobody Told Them To.</a></li>
+    <li><a href="uk-aisi-ai-agents-attack-chains-2026.html">Frontier AI Agents Built Their Own Attack Chains. Nobody Told Them To.</a></li>
+    <li><a href="openai-astra-critical-cybersecurity-threshold-2026.html">OpenAI Rated Its Own Model "Critical" for Cyber. Google and Anthropic Moved the Same Week.</a></li>
+    <li><a href="ai-cybersecurity-weapon-shield-2026.html">AI in Cybersecurity 2026: Weapon or Shield?</a></li>
+</ul>
+
+
+</article>
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h4 class="author-section-title">About the Author</h4>
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kodjo Apedoh",
+  "jobTitle": "Network Engineer & AI Entrepreneur",
+  "description": "Founder of TechVernia and SankaraShield. Certified Network Security Engineer with 4+ years of experience. Specializes in AI tools research, network automation, and cybersecurity.",
+  "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+  "image": "https://techvernia.com/assets/images/authors/kodjo-apedoh.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+    "https://techvernia.com"
+  ]
+}
+</script>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
