@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="On September 18, 2026, Air Security disclosed Plugin4Shell: a zero-click RCE affecting Claude Code, OpenAI Codex, GitHub Copilot and Gemini CLI. All four checked out a SHA-pinned plugin without verifying where the checkout landed. Claude Code and Codex are patched; Copilot and Gemini CLI are not."/>
+<meta name="keywords" content="Plugin4Shell, AI coding agent vulnerability, SHA pinning bypass, zero-click RCE, Claude Code 2.1.179, OpenAI Codex 0.146.0, GitHub Copilot vulnerability, Gemini CLI, Air Security, git refname resolution, FETCH_HEAD, AI supply chain security, plugin marketplace security, SkillJacking, DevSecOps"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/plugin4shell-ai-coding-agents-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/plugin4shell-ai-coding-agents-2026.html"/>
+<meta property="og:title" content="Plugin4Shell: Your AI Coding Agent Pinned That Plugin. It Never Checked Where It Landed."/>
+<meta property="og:description" content="One missing assertion in four AI coding agents turns an approved, SHA-pinned plugin into attacker-controlled code on the next auto-update. Two agents are patched. Two are not."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/plugin4shell-ai-coding-agents-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Plugin4Shell: The Pin That Was Never a Pin"/>
+<meta name="twitter:description" content="Claude Code, Codex, Copilot and Gemini CLI all asked git for a pinned commit and never verified they got it. A branch named like a hash is enough."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Plugin4Shell: Your AI Coding Agent Pinned That Plugin to a Commit Hash. It Never Checked Where It Landed.",
+  "description": "Analysis of Plugin4Shell, the zero-click remote code execution flaw Air Security disclosed on September 18, 2026 in Claude Code, OpenAI Codex, GitHub Copilot and Gemini CLI. Covers git reference resolution, the branch-named-as-SHA and FETCH_HEAD variants, the one-line verification that was missing, patch status per agent, why GitHub-hosted plugins are partly shielded while Bitbucket and self-hosted Git are not, and what teams running coding agents should do now.",
+  "image": "https://techvernia.com/assets/images/blog-covers/plugin4shell-ai-coding-agents-2026.png",
+  "datePublished": "2026-09-21",
+  "dateModified": "2026-09-21",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/plugin4shell-ai-coding-agents-2026.html"
+  }
+}
+</script>
+
+<title>Plugin4Shell: SHA-Pinned Plugin RCE in 4 AI Coding Agents | TechVernia</title>
+
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-section-title { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-primary); margin: 0 0 var(--space-sm); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08)), var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<style>
+.code-block {
+    background: rgba(2, 6, 23, 0.85);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+    overflow-x: auto;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--text-secondary);
+    white-space: pre;
+}
+.code-block .cmt { color: #64748b; }
+.code-block .hl { color: var(--accent-primary); }
+.article-content p code, .article-content li code, .faq-answer code {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 0.9em;
+    background: rgba(0, 217, 255, 0.08);
+    border: 1px solid rgba(0, 217, 255, 0.18);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: var(--accent-primary);
+    white-space: nowrap;
+}
+.status-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; font-size: var(--text-sm); }
+.status-table th, .status-table td { text-align: left; padding: var(--space-md); border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+.status-table th { color: var(--text-primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: var(--text-xs); }
+.status-table td strong { color: var(--text-primary); }
+.status-ok { color: #10b981; font-weight: 700; }
+.status-bad { color: #f87171; font-weight: 700; }
+@media (max-width: 640px) { .status-table { font-size: var(--text-xs); } .status-table th, .status-table td { padding: var(--space-sm); } }
+</style>
+<link href="../../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/plugin4shell-ai-coding-agents-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/plugin4shell-ai-coding-agents-2026.html" />
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img alt="TechVernia Logo" src="../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav><header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>Your AI Coding Agent Pinned That Plugin to a Commit Hash. It Never Checked Where It Landed.</h1>
+                <p class="subtitle">On September 18, 2026, Air Security disclosed Plugin4Shell: a zero-click remote code execution flaw in Claude Code, OpenAI Codex, GitHub Copilot and Gemini CLI. All four ask git for an approved commit. None of them verified they got it. Two are now patched. Two are not.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>10 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>September 21, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+<h2>What Actually Happened</h2>
+
+<p>On <strong>September 18, 2026</strong>, researchers at <strong>Air Security</strong> published <strong>Plugin4Shell</strong>, a zero-click remote code execution flaw affecting the four most widely used AI coding agents: <strong>Anthropic Claude Code</strong>, <strong>OpenAI Codex</strong>, <strong>GitHub Copilot</strong> and <strong>Google Gemini CLI</strong>.</p>
+
+<p>The flaw does not live in a model. It lives in two lines of git plumbing that every one of those agents got wrong in the same way.</p>
+
+<p>Plugin marketplaces lock a reviewed plugin to a specific <strong>40-character commit hash</strong>. The hash is the security control: a commit hash is content-addressed, so pinning to one is supposed to mean the code can never change underneath you. Air found that all four agents <em>request</em> the pinned commit and then <strong>never verify that the working tree they ended up with actually matches it</strong>.</p>
+
+<p>Anyone who controls the plugin repository can exploit that gap. No click, no reinstall, no approval prompt, no new permission. The next routine auto-update is enough, and auto-update is on by default in Claude Code and Codex.</p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">4</span>
+        <span class="spec-label">AI coding agents affected: Claude Code, Codex, Copilot, Gemini CLI</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">2</span>
+        <span class="spec-label">Still without a fix as of disclosure: Copilot and Gemini CLI</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">0</span>
+        <span class="spec-label">Clicks required, and zero CVE identifiers assigned at publication</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">134,000</span>
+        <span class="spec-label">Agents reached by SkillJacking, the prior study on plugin distribution scale</span>
+    </div>
+</div>
+
+<h2>How SHA Pinning Was Supposed To Work</h2>
+
+<p>Every plugin or skill marketplace serving AI agents follows roughly the same model. A plugin is published, someone reviews it, and the approved version is recorded as a git commit hash. From then on, installs and updates reference that hash rather than a branch or a tag.</p>
+
+<p>That design is borrowed straight from software supply chain security, and it is the right design. A branch moves. A tag can be re-pointed. A commit hash is derived from the content itself, so it is immutable by construction. Pin to the hash and you have pinned the code.</p>
+
+<p>That is the theory. The implementation is where it fell apart.</p>
+
+<h2>The Exploit: Git Resolves a Name Before It Resolves a Hash</h2>
+
+<h3>Variant 1: A Branch Named Like a Commit Hash</h3>
+
+<p>Claude Code, Codex and GitHub Copilot install a plugin with the pattern every developer has typed a thousand times: clone the repository, then check out the pinned commit.</p>
+
+<div class="code-block"><span class="cmt"># What the agent runs</span>
+git clone https://&lt;host&gt;/&lt;owner&gt;/&lt;plugin&gt;.git
+git checkout <span class="hl">9f2c1a&hellip;</span>   <span class="cmt"># the approved 40-character SHA</span>
+</div>
+
+<p>The problem is what <code>git checkout</code> does with an argument that could be two different things. Git resolves <strong>reference names before raw object IDs</strong>. If a branch exists whose <em>name</em> is the same 40-hex string as the pinned commit, git checks out the branch.</p>
+
+<p>So the attacker creates a branch literally named <code>9f2c1a...</code> &mdash; the full approved hash &mdash; points it at malicious code, and makes it the default branch. The agent asks for the reviewed commit, git hands it the attacker's branch, the agent reports the approved version, and the malicious code executes.</p>
+
+<h3>Variant 2: A Default Branch Named FETCH_HEAD</h3>
+
+<p>Gemini CLI uses a different install path and needed a different trick. It fetches the pinned commit, then checks out <code>FETCH_HEAD</code>.</p>
+
+<div class="code-block"><span class="cmt"># Gemini CLI's install path</span>
+git fetch origin <span class="hl">9f2c1a&hellip;</span>
+git checkout FETCH_HEAD   <span class="cmt"># expects the commit just fetched</span>
+</div>
+
+<p>Air found that a repository whose default branch is <strong>named <code>FETCH_HEAD</code></strong> wins that resolution too. The checkout lands on the attacker's branch, and the correctly fetched, legitimately pinned code is silently discarded.</p>
+
+<h3>The Missing Line</h3>
+
+<p>In both variants the fix is the same single assertion after checkout, comparing what you asked for against what you actually got:</p>
+
+<div class="code-block">test "$(git rev-parse HEAD)" = "&lt;pinned-sha&gt;" || abort
+</div>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">The Engineering Read</div>
+    <h3>A Pin Is a Request. Verification Is the Control.</h3>
+    <p>This is the whole bug, and it generalizes well beyond AI agents. Asking a system for a specific artifact is not a security control. Confirming that you received that specific artifact is. Package managers learned this the hard way and answered with checksums and lockfile integrity hashes; TLS learned it and answered with certificate validation. Every one of those controls exists because the request and the response are two different things, and only the second one is what you actually run. Four independent engineering teams, building four competing products, all shipped the request without the confirmation &mdash; because nothing ever failed loudly. A checkout that lands on the wrong code returns exit code zero and a clean working tree. Correctness and security diverged silently, which is exactly the failure mode that survives code review.</p>
+</div>
+
+<h2>What the Attacker Gets</h2>
+
+<p>Air's framing is the one that matters operationally: <strong>a plugin runs with the same access as the person using the agent</strong>. It is not sandboxed away from your work. It is your work.</p>
+
+<p>That means, at minimum:</p>
+
+<ul>
+    <li><strong>Source code</strong> in every repository the agent can read.</li>
+    <li><strong>Environment variables</strong>, which is where most teams still keep tokens.</li>
+    <li><strong>Cloud credentials</strong> and SSH keys sitting in the developer's home directory.</li>
+    <li><strong>Connected systems</strong> &mdash; every MCP server, CI runner, database and internal API the agent is already wired into.</li>
+    <li><strong>Write access to the codebase</strong>, which turns one compromised developer into a supply chain incident of your own.</li>
+</ul>
+
+<p>There are two realistic paths in. Publish a clean plugin, pass review, build an install base, then turn it malicious. Or take over an existing repository that has already been reviewed and approved &mdash; an abandoned project, a lapsed domain behind a maintainer's email, a stolen maintainer credential.</p>
+
+<div class="callout">
+    <strong>Review happens once. Distribution happens every day.</strong> The whole point of pinning to a reviewed hash was to make the second one safe without repeating the first one. When the pin is never verified, approval becomes a one-time snapshot of code the repository owner can replace at any moment afterward.
+</div>
+
+<h2>Where Each Agent Stands</h2>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Agent</th><th>Status</th><th>Fixed In</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>Anthropic Claude Code</strong></td><td class="status-ok">Patched</td><td>2.1.179 (June 17, 2026)</td></tr>
+        <tr><td><strong>OpenAI Codex</strong></td><td class="status-ok">Patched</td><td>0.146.0 (August 12, 2026)</td></tr>
+        <tr><td><strong>GitHub Copilot</strong></td><td class="status-bad">No fix shipped</td><td>&mdash;</td></tr>
+        <tr><td><strong>Google Gemini CLI</strong></td><td class="status-bad">Will not be patched</td><td>Deprecated; migrate to Antigravity</td></tr>
+    </tbody>
+</table>
+
+<p>Air reported the findings in <strong>May 2026</strong> and coordinated with vendors through <strong>June 2026</strong>. Public disclosure came on September 18, roughly four months later. The researchers credited are <strong>Or Nevo, Dor Granat and Niv Hoffman</strong>. <strong>No exploitation in the wild had been observed</strong> at the time of publication.</p>
+
+<p>Google's position is the awkward one. Gemini CLI is being retired, so the answer to the vulnerability is a product migration to <strong>Antigravity</strong> rather than a patch. That is a defensible business decision and a bad security outcome: every installation still running Gemini CLI stays exposed permanently, and deprecated tools linger in developer environments for years.</p>
+
+<h2>Where Your Plugins Come From Decides Your Exposure</h2>
+
+<p>One detail meaningfully changes the risk picture. <strong>GitHub rejects branch and tag names that look like full commit hashes</strong>, precisely because this ambiguity in git is known. If your agent installs plugins from GitHub-hosted repositories, variant 1 does not work there.</p>
+
+<p><strong>Bitbucket and self-hosted git servers do not enforce that restriction.</strong> Neither does a plain git daemon someone stood up internally. So the practical question for your organization is not "which agent do we use" but:</p>
+
+<ul>
+    <li>Which marketplaces are our agents configured to trust?</li>
+    <li>Do any of them resolve plugins from non-GitHub hosts?</li>
+    <li>Can a developer add a custom or internal plugin source on their own?</li>
+</ul>
+
+<p>If the answer to the last one is yes &mdash; and in most teams running coding agents it is &mdash; then the host-level protection you are relying on is a default that anyone can opt out of.</p>
+
+<div class="insight-card">
+    <div class="insight-number">02</div>
+    <div class="insight-label">The Architecture Read</div>
+    <h3>No Marketplace Can Enforce a Pin It Does Not Resolve</h3>
+    <p>Air's sharpest observation is structural: the pin is resolved <em>inside the agent</em>, on the client, so no marketplace can guarantee it. You can build the most rigorous plugin review process in the industry, sign every approved commit, maintain an immaculate allowlist &mdash; and none of it binds, because the component that decides what code actually runs is the git invocation on the developer's laptop. That is the same lesson client-side validation taught web security twenty years ago, reappearing in an ecosystem that rebuilt its trust model from scratch in eighteen months. AI agent tooling is currently retaking the supply chain security curriculum at high speed, and it will keep arriving at the same answers the hard way: verify at the point of execution, or do not claim to have verified at all.</p>
+</div>
+
+<div class="callout-orange">
+    <strong>What is still unclear.</strong> No CVE identifiers had been assigned when the research was published, which makes this harder to track through normal vulnerability management. Air has not detailed exactly which marketplaces and plugin sources each agent resolves by default, GitHub has not published a timeline for a fix, and the patch dates in this article come from Air's own writeup and its press coverage rather than from vendor advisories. Verify against your own agent's release notes before reporting status internally.
+</div>
+
+<h2>What To Do Now</h2>
+
+<h3>1. Update the Two Agents That Have a Fix</h3>
+
+<p>Claude Code to <strong>2.1.179 or later</strong>, Codex to <strong>0.146.0 or later</strong>. Both fixes are months old, which means the exposure in most organizations is not the vendor's patch cadence but your own rollout. Check the installed version on every developer machine, not just yours.</p>
+
+<h3>2. Constrain Plugin Sources on the Two That Do Not</h3>
+
+<p>For GitHub Copilot, restrict plugin installation to GitHub-hosted sources, where branch names shaped like commit hashes are rejected at the platform level. For Gemini CLI, treat the migration to Antigravity as a security task with a deadline, not a roadmap item.</p>
+
+<h3>3. Turn Off Plugin Auto-Update Where You Cannot Vouch for the Source</h3>
+
+<p>Auto-update is what makes this zero-click. On unpatched agents pulling from hosts that allow hash-shaped branch names, auto-update converts a reviewed plugin into a standing remote execution path. Move to a manual update workflow until the source is trustworthy.</p>
+
+<h3>4. Inventory Which Plugins Are Actually Installed</h3>
+
+<p>Most teams cannot answer this question today. Enumerate the plugins, skills and extensions loaded by every coding agent in the organization, record the source host for each, and flag every one that resolves from anywhere other than a platform you trust to enforce refname restrictions.</p>
+
+<h3>5. Treat the Agent's Environment as a Credential Boundary</h3>
+
+<p>Assume a plugin can read everything the developer can. Move secrets out of shell environment variables and into a broker that requires an explicit request, scope cloud credentials on developer machines to the minimum, prefer short-lived tokens, and alert on credentials used from unexpected contexts. This is the same control that limits the API key theft described in <a href="midnight-blizzard-claude-ai-malware-evasion-2026.html">Anthropic's September threat report</a>.</p>
+
+<h3>6. Add Agent Tooling to Your Vulnerability Management Scope</h3>
+
+<p>Coding agents and their plugins are production software running with developer privileges, and right now most of them sit outside the asset inventory, outside patch SLAs and outside the CVE feeds your team monitors. Plugin4Shell shipped without a CVE. If your only detection mechanism is a CVE feed, you would not have seen this at all.</p>
+
+<div class="highlight-box">
+    <p><strong>The uncomfortable part is not the bug. It is how ordinary the bug is.</strong> Four well-resourced teams independently built the same plugin installer, and all four skipped the same verification step, in tooling that runs with full developer privileges on millions of machines. This is not an exotic AI failure mode. It is textbook supply chain security, rebuilt from zero by an ecosystem moving too fast to read the previous decade's incident reports.</p>
+</div>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What is Plugin4Shell?</div>
+        <div class="faq-answer">Plugin4Shell is a zero-click remote code execution vulnerability disclosed by Air Security on September 18, 2026, affecting Claude Code, OpenAI Codex, GitHub Copilot and Gemini CLI. All four agents install plugins pinned to a specific git commit hash but never verify that the checked-out code matches that hash, so anyone controlling a plugin repository can substitute malicious code while the agent still reports the approved version.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How does the attack actually work?</div>
+        <div class="faq-answer">Git resolves reference names before raw object IDs. For Claude Code, Codex and Copilot, an attacker creates a branch whose name is the same 40-character hex string as the pinned commit and points it at malicious code, so checking out that SHA lands on the branch instead of the commit. Gemini CLI fetches the commit and then checks out <code>FETCH_HEAD</code>, so naming the repository's default branch <code>FETCH_HEAD</code> achieves the same substitution. In both cases the correct pinned code is fetched and then discarded.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Which versions are patched?</div>
+        <div class="faq-answer">Claude Code is fixed in 2.1.179, released June 17, 2026, and OpenAI Codex in 0.146.0, released August 12, 2026. GitHub Copilot has shipped no fix. Google will not patch Gemini CLI because the tool is being retired, and points users to Antigravity instead. No CVE identifiers had been assigned at the time of publication.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Am I protected if my plugins come from GitHub?</div>
+        <div class="faq-answer">Partly. GitHub rejects branch and tag names that look like full commit hashes, which blocks the main variant at the platform level. Bitbucket and self-hosted git servers do not enforce that restriction, so plugins resolved from those hosts remain exploitable on unpatched agents. Since many teams allow developers to add custom plugin sources, GitHub's restriction is a default rather than a guarantee.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What can a malicious plugin access?</div>
+        <div class="faq-answer">A plugin runs with the same privileges as the person using the agent: source code in every readable repository, environment variables and the secrets in them, cloud credentials and SSH keys on the developer machine, every connected MCP server, CI runner and internal API, plus write access to the codebase itself. There is no separate sandbox between the plugin and the developer's session.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Has Plugin4Shell been exploited in the wild?</div>
+        <div class="faq-answer">No exploitation had been observed when Air Security published the research on September 18, 2026. Air reported the findings to vendors in May 2026 and coordinated disclosure through June, giving the two vendors that patched roughly three to four months of lead time before public release. The two unpatched agents remain exposed now that the technique is public.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>I have written about <a href="gitspawn-ai-coding-agents-rce-2026.html">one line in a repository running attacker code inside seven AI coding agents</a> and about <a href="papercut-ai-agent-swarm-attack-2026.html">a swarm of agents breaching 395 organizations</a>. Plugin4Shell belongs to the same family, and the family is getting predictable: the model is never the vulnerability. The plumbing around the model is.</p>
+
+<p>What makes this one worth your attention is the shape of the mistake. Nobody misunderstood cryptography here. Everybody understood that a commit hash is immutable and that pinning to one is the correct control. They just never checked that the control engaged. The padlock was closed. It simply was not holding anything.</p>
+
+<p>The industry response tells you where agent tooling sits on the maturity curve. Two vendors patched within weeks of disclosure, quietly, months ago. One has shipped nothing. One decided the vulnerability is a migration prompt. That spread &mdash; in a single class of product, from a single piece of research &mdash; is what an ecosystem looks like before security expectations have settled.</p>
+
+<p>Meanwhile the install base keeps growing. The prior research Air cites reached <strong>26,000 agents from one proof-of-concept plugin</strong>, and the SkillJacking study counted <strong>925 hijacked skills across 134,000 agents</strong>. Those are not distribution numbers you can treat casually. Every plugin marketplace serving coding agents is a supply chain, and most of them are younger than the average unpatched vulnerability.</p>
+
+<p>The practical takeaway is small and boring, which is usually the sign it is the right one: <strong>find out what version your agents are running, and find out where their plugins come from</strong>. Most teams cannot answer either question today.</p>
+
+<p>So &mdash; do you know which plugins your coding agent loaded this morning, and which host they came from?</p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="gitspawn-ai-coding-agents-rce-2026.html">One Line in a Repository Runs Attacker Code Inside Seven AI Coding Agents</a></li>
+    <li><a href="openai-model-misalignment-framework-2026.html">OpenAI Published Six Misalignment Reports. Two of Them Describe Agents Building Their Own Channel.</a></li>
+    <li><a href="midnight-blizzard-claude-ai-malware-evasion-2026.html">Russian State Hackers Used Claude Agents to Rewrite Their Malware Every Time It Got Caught</a></li>
+    <li><a href="papercut-ai-agent-swarm-attack-2026.html">One Attacker, Hundreds of AI Agents: How a Swarm Breached 395 Organizations Through PaperCut</a></li>
+    <li><a href="uk-aisi-ai-agents-attack-chains-2026.html">Frontier AI Agents Built Their Own Attack Chains. Nobody Told Them To.</a></li>
+    <li><a href="mcp-97-million-2026.html">MCP Hits 97 Million Installations: The AI Infrastructure Moment Nobody Saw Coming</a></li>
+</ul>
+
+
+</article>
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h4 class="author-section-title">About the Author</h4>
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kodjo Apedoh",
+  "jobTitle": "Network Engineer & AI Entrepreneur",
+  "description": "Founder of TechVernia and SankaraShield. Certified Network Security Engineer with 4+ years of experience. Specializes in AI tools research, network automation, and cybersecurity.",
+  "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+  "image": "https://techvernia.com/assets/images/authors/kodjo-apedoh.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+    "https://techvernia.com"
+  ]
+}
+</script>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
