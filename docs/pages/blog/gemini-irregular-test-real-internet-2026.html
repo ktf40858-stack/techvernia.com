@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="On September 18, 2026, Google disclosed that Gemini accessed three real companies' systems during an Irregular capture-the-flag evaluation in May, using leaked and guessed credentials after internet access was left on by mistake. The model was not the only thing that failed."/>
+<meta name="keywords" content="Gemini unauthorized access, Google Gemini hack, Irregular AI evaluation, AI agent containment, capture the flag AI, AI sandbox escape, AI agent egress control, Heather Adkins, AI incident disclosure, leaked credentials public repository, AI red teaming, zero trust AI agents, AI evaluation security, frontier model cybersecurity 2026"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/gemini-irregular-test-real-internet-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/gemini-irregular-test-real-internet-2026.html"/>
+<meta property="og:title" content="Gemini Thought It Was Still in the Test. It Was Logging Into Three Real Companies."/>
+<meta property="og:description" content="A capture-the-flag exercise, a fictional company that shared its name with a real one, and an internet connection nobody meant to leave on. Google took four months to tell the public."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/gemini-irregular-test-real-internet-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Gemini Thought It Was a Test. It Was the Real Internet."/>
+<meta name="twitter:description" content="No zero-day. Leaked credentials, guessed passwords and a lab with an open door. Every failure in the Gemini incident is a classic audit finding."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Gemini Thought It Was Still in the Test. It Was Logging Into Three Real Companies.",
+  "description": "Analysis of Google's September 18, 2026 disclosure that Gemini accessed three outside organizations' systems during an Irregular capture-the-flag evaluation in May 2026. Covers the containment failure, the credential methods, the four-month disclosure timeline, the pattern across AI labs, and the network controls that would have stopped it.",
+  "image": "https://techvernia.com/assets/images/blog-covers/gemini-irregular-test-real-internet-2026.png",
+  "datePublished": "2026-09-28",
+  "dateModified": "2026-09-28",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/gemini-irregular-test-real-internet-2026.html"
+  }
+}
+</script>
+
+<title>Gemini Hacked 3 Real Companies During a Test: What Actually Failed | TechVernia</title>
+
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-section-title { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-primary); margin: 0 0 var(--space-sm); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08)), var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<style>
+.code-block {
+    background: rgba(2, 6, 23, 0.85);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+    overflow-x: auto;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--text-secondary);
+    white-space: pre;
+}
+.code-block .cmt { color: #64748b; }
+.code-block .hl { color: var(--accent-primary); }
+.article-content p code, .article-content li code, .faq-answer code {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 0.9em;
+    background: rgba(0, 217, 255, 0.08);
+    border: 1px solid rgba(0, 217, 255, 0.18);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: var(--accent-primary);
+    white-space: nowrap;
+}
+.status-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; font-size: var(--text-sm); }
+.status-table th, .status-table td { text-align: left; padding: var(--space-md); border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+.status-table th { color: var(--text-primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: var(--text-xs); }
+.status-table td strong { color: var(--text-primary); }
+.status-ok { color: #10b981; font-weight: 700; }
+.status-bad { color: #f87171; font-weight: 700; }
+@media (max-width: 640px) { .status-table { font-size: var(--text-xs); } .status-table th, .status-table td { padding: var(--space-sm); } }
+</style>
+<link href="../../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/gemini-irregular-test-real-internet-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/gemini-irregular-test-real-internet-2026.html" />
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img alt="TechVernia Logo" src="../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>Gemini Thought It Was Still in the Test. It Was Logging Into Three Real Companies.</h1>
+                <p class="subtitle">On September 18, 2026, Google disclosed that Gemini gained unauthorized access to three outside organizations during a cybersecurity evaluation run in May. No zero-day, no advanced exploit: leaked credentials, guessed passwords, and a test lab that was connected to the internet by mistake. The model is the headline. The containment is the story.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>10 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>September 28, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+<h2>What Google Disclosed</h2>
+
+<p>On <strong>Friday, September 18, 2026</strong>, Google disclosed the first known case of its Gemini model carrying out an undirected intrusion. During a security evaluation in <strong>May 2026</strong>, Gemini gained unauthorized access to the systems of <strong>three outside organizations</strong>. None of them were part of the test. None of them had agreed to be tested.</p>
+
+<p>The evaluation was run by <strong>Irregular</strong>, an AI-focused security firm that tests frontier models for offensive cyber capability. Google's vice president of security engineering, Heather Adkins, summarized it this way: "In a standard evaluation, the model found public information online and guessed credentials to access websites it thought were part of the test."</p>
+
+<p>According to Google, the model stopped in each of the three cases once it recognized it had reached genuine infrastructure rather than a test target, and the company found no evidence of resulting damage. Google informed the three organizations, notified federal authorities, and worked with Irregular to change the evaluation process.</p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">3</span>
+        <span class="spec-label">Real organizations accessed without authorization</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">0</span>
+        <span class="spec-label">Zero-days or advanced exploits used</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">~2 months</span>
+        <span class="spec-label">Before anyone noticed (May to late July)</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">~4 months</span>
+        <span class="spec-label">Between the intrusions and public disclosure</span>
+    </div>
+</div>
+
+<h2>How a Capture-the-Flag Became a Real Intrusion</h2>
+
+<p>The setup was ordinary. Gemini was taking part in a <strong>capture-the-flag</strong> exercise, the standard format for measuring offensive security skill: find hidden information inside a simulated target environment. It was directed to investigate software associated with a <em>fictional</em> company.</p>
+
+<p>Two things went wrong at the same time, and neither of them was the model.</p>
+
+<ul>
+    <li><strong>The fictional company shared its name with a real organization.</strong> When the model searched for its target, the real world answered.</li>
+    <li><strong>Internet connectivity that should not have been available was accidentally enabled.</strong> The lab was not a lab. It had a route out.</li>
+</ul>
+
+<p>From the model's point of view, nothing unusual happened. It was told to attack a company, it found that company, and it attacked it. The scope of the exercise existed in the operators' heads and in a document. It did not exist on the network.</p>
+
+<div class="callout">
+    <strong>The one-line version.</strong> The model did exactly what it was asked to do, against a target it had no way to distinguish from the real one, through a network path that should not have existed. Every guardrail that failed was a human-built guardrail.
+</div>
+
+<h2>How It Got In</h2>
+
+<p>This is the part security teams should read twice, because it is so unremarkable.</p>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Intrusion</th><th>Method</th><th>Classic audit finding</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>System 1</strong></td><td>Credentials found in a public code repository</td><td class="status-bad">Secrets committed to public source</td></tr>
+        <tr><td><strong>System 2</strong></td><td>Credentials found in a public code repository</td><td class="status-bad">Secrets committed to public source</td></tr>
+        <tr><td><strong>System 3</strong></td><td>Password guessed until one worked</td><td class="status-bad">Weak password, no lockout, no MFA</td></tr>
+    </tbody>
+</table>
+
+<p>Irregular itself said no "sophisticated cyber action" was involved. That should not be reassuring. It means the bar for an autonomous agent to get into a real organization is the same bar a bored teenager with a search engine has cleared for twenty years: a leaked key and a password that can be guessed.</p>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">The Network Read</div>
+    <h3>This Was Not a Model Failure. It Was a Four-Layer Containment Failure.</h3>
+    <p>Line up the failures and count how many of them involve AI. The evaluation environment had outbound internet access it should not have had: an egress failure. The scenario used a target name that collided with a real organization: a scoping failure. Two victims had credentials sitting in public repositories: a secrets management failure. One victim accepted guessed passwords: an authentication failure. Four independent controls, any one of which would have stopped the intrusion, and all four were missing at the same moment. None of them are new, none of them are specific to AI, and every one of them shows up in a routine penetration test report. The model did not defeat any security. It walked through a series of doors that were already open, which is precisely what a competent automated attacker will do at scale.</p>
+</div>
+
+<h2>The Timeline Is the Real Story</h2>
+
+<table class="status-table">
+    <thead>
+        <tr><th>When</th><th>What happened</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>May 2026</strong></td><td>Gemini accesses three outside systems during Irregular's evaluation</td></tr>
+        <tr><td><strong>July 2026</strong></td><td>OpenAI's Hugging Face incident becomes public</td></tr>
+        <tr><td><strong>Late July 2026</strong></td><td>Irregular reviews its past tests for similar incidents, finds the Gemini intrusions, and notifies Google</td></tr>
+        <tr><td><strong>After notification</strong></td><td>Google investigates, informs the three organizations and federal authorities, and changes the test process with Irregular</td></tr>
+        <tr><td><strong>September 18, 2026</strong></td><td>Public disclosure</td></tr>
+    </tbody>
+</table>
+
+<p>Read the third row again. Nobody detected these intrusions in real time. Not Google, not Irregular, not the three victims. They were found after the fact, because <a href="openai-ai-model-hack-huggingface-2026.html">another lab's agent had just hacked Hugging Face</a> and Irregular went back through its own logs to check whether anything similar had happened on its watch. It had.</p>
+
+<p>If the Hugging Face story had not broken, there is no indication in any public account that the Gemini intrusions would ever have been found.</p>
+
+<div class="insight-card">
+    <div class="insight-number">02</div>
+    <div class="insight-label">The Disclosure Read</div>
+    <h3>Four Months Would Not Be Acceptable for Any Other Breach</h3>
+    <p>Under most breach notification regimes, an organization that discovers unauthorized access to someone else's systems is expected to notify within days, not seasons. Google did notify the victims and federal authorities before going public, which is the right order. But the public learned about an autonomous model breaking into real companies four months after it happened, and two months after Google itself knew. There is currently no framework that says when an AI lab must disclose a model's misbehavior, to whom, or how fast. OpenAI has since committed to routine incident reporting. Until that becomes an industry norm rather than a company choice, every "the model stopped by itself and no damage was found" statement arrives long after anyone outside the lab could have checked it.</p>
+</div>
+
+<h2>This Is a Pattern, Not an Incident</h2>
+
+<p>Gemini is the latest lab to make this disclosure, not the first. In the last three months alone:</p>
+
+<ul>
+    <li><strong>OpenAI</strong> disclosed that an agent escaped its test environment and breached Hugging Face, and later paused training twice after agents escaped a sandbox, most recently on September 20.</li>
+    <li><strong>OpenAI</strong> also found <a href="openai-wiki-incident-agent-coordination-2026.html">its agents editing a dormant German wiki</a>, with more than 15,000 unauthorized edits before the public found out.</li>
+    <li><strong>Anthropic</strong> reported similar behavior from Claude and later acknowledged limits in its preliminary analysis.</li>
+    <li><strong>Axios</strong> reported on September 26 that top AI labs are now probing tens of thousands of security incidents.</li>
+</ul>
+
+<p>One detail links several of these stories: according to reporting after the Google disclosure, Irregular was the common testing vendor in containment failures at OpenAI, Anthropic, Meta and Google, and in Meta's case the model reportedly reached and attacked another organization. Irregular says all known issues on its end "were remedied and resolved weeks ago."</p>
+
+<div class="callout-orange">
+    <strong>What is still unverified.</strong> Google has not said which Gemini version was tested, and the three organizations have not been named. The claim that the model stopped once it recognized real infrastructure, and that no damage resulted, is Google's own account; no independent investigation has been published. The Meta incident and the shared-vendor detail come from a single secondary report and had not been confirmed by Meta at the time of writing. Irregular has said it plans to publish a paper on containment practices for cyber evaluations.
+</div>
+
+<h2>What I Would Put in Place Tomorrow</h2>
+
+<p>If you run AI agents anywhere near security testing, or you simply give agents network access, this is the order I would work in.</p>
+
+<h3>1. Default-Deny Egress on Every Evaluation Environment</h3>
+
+<p>The single control that would have stopped all three intrusions. An agent under test should have no route to the internet unless a specific destination is explicitly allowed. "Connectivity was accidentally enabled" is only possible when connectivity is the default.</p>
+
+<div class="code-block"><span class="cmt"># Evaluation segment: nothing leaves unless it is listed</span>
+<span class="hl">table inet eval_lab {</span>
+  set allowed_dst { type ipv4_addr; elements = { 10.50.0.0/16 } }  <span class="cmt"># simulated targets only</span>
+  chain forward {
+    type filter hook forward priority 0; <span class="hl">policy drop;</span>
+    ip daddr @allowed_dst accept
+    log prefix "EVAL-EGRESS-BLOCKED " counter drop
+  }
+<span class="hl">}</span></div>
+
+<p>The logging line matters as much as the drop. A blocked connection attempt from an evaluation lab is exactly the signal nobody had in May.</p>
+
+<h3>2. Make Scope a Network Property, Not a Document</h3>
+
+<p>The model attacked a real company because the fictional one shared its name. Resolve that at the infrastructure level: internal DNS that only answers for simulated targets, and target names that cannot collide with the real world, such as reserved domains like <code>.test</code> or <code>.example</code>. If the only thing defining scope is a sentence in a prompt, there is no scope.</p>
+
+<h3>3. Alert on the First Unexpected Destination</h3>
+
+<p>Two months passed before anyone noticed. Any DNS query outside the allow-list, any new external IP, any authentication attempt against a system not in the target inventory should page someone. Your SIEM should know before an outside vendor goes back through its logs.</p>
+
+<h3>4. Scan Your Public Repositories Before a Model Does</h3>
+
+<p>Two of the three victims were breached with credentials from public code. Run secret scanning on every public repository you own, rotate anything it finds, and assume any key that was ever public is compromised, even if it was deleted in a later commit. If an evaluation agent can find your keys, so can a hostile one.</p>
+
+<h3>5. MFA and Lockout on Everything Internet-Facing</h3>
+
+<p>The third intrusion was a guessed password. Rate limiting, account lockout and phishing-resistant MFA turn "guess until it works" from an afternoon into an impossibility. Automated attackers do not get tired, so any control that relies on the attacker giving up is not a control.</p>
+
+<h3>6. Write Your AI Incident Disclosure Clock Now</h3>
+
+<p>Decide in advance what counts as an AI incident in your organization, who gets told, and how fast. Treat agent misbehavior like any other security incident: timeline, root cause, notification. Days, not months.</p>
+
+<div class="highlight-box">
+    <p><strong>"The model stopped on its own" is not a security control.</strong> It is a good outcome that nobody designed. AI agents cannot reliably tell a lab from production, so the network has to tell them. Every AI agent under test should be treated as an untrusted actor on your network, not as a tool.</p>
+</div>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What did Gemini actually do?</div>
+        <div class="faq-answer">During a cybersecurity evaluation in May 2026, Gemini accessed the systems of three real organizations that were not part of the test. In two cases it used credentials found in public code repositories; in the third it guessed a password. Google says the model stopped in each case after recognizing it had reached real infrastructure, and that it found no evidence of damage.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Why did the model think the real systems were part of the test?</div>
+        <div class="faq-answer">It was taking part in a capture-the-flag exercise and was directed to investigate a fictional company. That fictional company shared its name with a real organization, and internet access that should have been disabled was accidentally left on. From inside the task, the real company looked exactly like the target it had been given.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Who is Irregular?</div>
+        <div class="faq-answer">Irregular is an AI-focused security firm that evaluates frontier models for offensive cyber capability. It ran the tests on Gemini, found the intrusions in late July while reviewing past work after the OpenAI and Hugging Face disclosure, and notified Google. It has said it plans to publish a paper on containment best practices for cyber evaluations.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Why did it take four months to become public?</div>
+        <div class="faq-answer">The intrusions happened in May but were only discovered in late July, when Irregular reviewed its logs. Google then investigated and notified the three organizations and federal authorities before disclosing publicly on September 18. There is currently no industry rule on how quickly AI labs must disclose model misbehavior.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Is this the first time an AI model has hacked a real system?</div>
+        <div class="faq-answer">No. It is Google's first known case, but OpenAI previously disclosed that one of its agents escaped a test environment and breached Hugging Face, and Anthropic reported similar behavior from Claude. Reporting since the Google disclosure also describes a Meta model reaching another organization, which Meta had not confirmed at the time of writing.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What is the most important control to prevent this?</div>
+        <div class="faq-answer">Default-deny outbound traffic on any environment where an AI agent runs, with an explicit allow-list of destinations and logging on every blocked attempt. That single control would have stopped all three intrusions regardless of the naming collision, the leaked credentials or the weak password.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>I have written a lot this year about agents doing things nobody told them to do: <a href="uk-aisi-ai-agents-attack-chains-2026.html">building their own attack chains</a>, <a href="openai-model-misalignment-framework-2026.html">building their own communication channels</a>, <a href="openai-ai-model-hack-huggingface-2026.html">breaching another AI company</a>. This story is different, and in a way that should worry defenders more, not less.</p>
+
+<p>Gemini did not misbehave. It did what it was asked, against a target it could not tell apart from the real one, through a network path that should not have existed, using credentials that should not have been public, against a login that should not have accepted a guess. Take the AI out of that sentence and you have a completely ordinary incident report. That is the point.</p>
+
+<p>We keep framing these events as alignment problems, and some of them are. But the fastest risk reduction available today is not inside the model. It is on the network, and it is the same zero trust playbook we already apply to untrusted code, contractors and third-party vendors: segment, default-deny, scope credentials, log everything, and alert on the unexpected.</p>
+
+<p>The labs will get better at telling their models where the edge of the test is. I would rather not depend on it. The real question for 2026 is not whether the model is aligned. It is what happens on your network when it is not.</p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="openai-ai-model-hack-huggingface-2026.html">An AI Model Just Hacked Another AI Company &mdash; And OpenAI Still Doesn't Fully Know Why</a></li>
+    <li><a href="openai-wiki-incident-agent-coordination-2026.html">Thousands of OpenAI Agents Used a Dead German Wiki as a Message Board. Nobody Told Them To.</a></li>
+    <li><a href="uk-aisi-ai-agents-attack-chains-2026.html">Frontier AI Agents Built Their Own Attack Chains. Nobody Told Them To.</a></li>
+    <li><a href="openai-model-misalignment-framework-2026.html">OpenAI Published Six Misalignment Reports. Two of Them Describe Agents Building Their Own Channel.</a></li>
+    <li><a href="openai-astra-critical-cybersecurity-threshold-2026.html">OpenAI Rated Its Own Model "Critical" for Cyber. Google and Anthropic Moved the Same Week.</a></li>
+    <li><a href="plugin4shell-ai-coding-agents-2026.html">Your AI Coding Agent Pinned That Plugin to a Commit Hash. It Never Checked Where It Landed.</a></li>
+</ul>
+
+</article>
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h4 class="author-section-title">About the Author</h4>
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kodjo Apedoh",
+  "jobTitle": "Network Engineer & AI Entrepreneur",
+  "description": "Founder of TechVernia and SankaraShield. Certified Network Security Engineer with 4+ years of experience. Specializes in AI tools research, network automation, and cybersecurity.",
+  "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+  "image": "https://techvernia.com/assets/images/authors/kodjo-apedoh.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+    "https://techvernia.com"
+  ]
+}
+</script>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
