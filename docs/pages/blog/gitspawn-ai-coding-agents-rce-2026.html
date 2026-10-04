@@ -28,7 +28,7 @@
   "description": "Analysis of the September 2026 GitSpawn disclosure: eight vulnerabilities across seven AI coding agents abusing Git's core.fsmonitor setting, which Git executes as a command whenever it refreshes the index. Covers the affected products and patch status, why the execution happens before workspace-trust prompts, why this is a harness bug rather than prompt injection, the developer-endpoint patch-management gap, and the controls that remove the attack surface.",
   "image": "https://techvernia.com/assets/images/blog-covers/gitspawn-ai-coding-agents-rce-2026.png",
   "datePublished": "2026-09-09",
-  "dateModified": "2026-09-09",
+  "dateModified": "2026-10-03",
   "author": {
     "@type": "Person",
     "name": "Kodjo Apedoh",
@@ -340,13 +340,15 @@
 
 <h2>What To Do If You Run Engineering</h2>
 
-<h3>1. Disable fsmonitor Globally, Today</h3>
+<h3>1. Override fsmonitor Where It Actually Counts</h3>
 
-<p>One command removes the attack surface for every repository on a machine:</p>
+<p>The fix you will see recommended most often, <code>git config --global core.fsmonitor false</code>, does <strong>not</strong> protect you. Git applies configuration in order, system, then global, then the repository's own <code>.git/config</code>, and the last value wins. A poisoned repository sets fsmonitor locally, so it overrides your global setting. We tested it on Git 2.54: with the global value set to false, the repository's command still ran.</p>
 
-<p><code>git config --global core.fsmonitor false</code></p>
+<p>What does take precedence over the repository is configuration passed on the command line or through the environment. Setting these variables in the environment the agent runs in neutralizes the setting for every git call it makes, and the command did not run in our test:</p>
 
-<p>The performance cost is negligible outside very large monorepos, and it is enforced regardless of which agent, editor or script touches the repository next. Push it through your MDM or dotfiles baseline rather than asking people individually.</p>
+<p><code>GIT_CONFIG_COUNT=1</code> <code>GIT_CONFIG_KEY_0=core.fsmonitor</code> <code>GIT_CONFIG_VALUE_0=false</code></p>
+
+<p>Push it through your MDM or shell baseline rather than asking people individually, and pair it with a habit: before opening a repository you did not clone yourself, run <code>git config --local --list</code> and look for fsmonitor, hooksPath and sshCommand. Better still, re-clone from a known remote, since a fresh clone never copies the sender's <code>.git/config</code>.</p>
 
 <h3>2. Inventory the Agents and Their Versions</h3>
 
@@ -402,7 +404,7 @@
 
     <div class="faq-item">
         <div class="faq-question">What is the single most effective mitigation?</div>
-        <div class="faq-answer">Running git config --global core.fsmonitor false removes the attack surface for every repository on the machine, independently of which agent or editor opens it, at negligible performance cost outside very large monorepos. Beyond that, inventory the agents and their versions so patches can actually be shipped, run agents in an isolated workspace such as a devcontainer, and put EDR and egress logging on developer laptops rather than only on servers and CI runners.</div>
+        <div class="faq-answer">Override fsmonitor in the environment the agent runs in (GIT_CONFIG_COUNT=1, GIT_CONFIG_KEY_0=core.fsmonitor, GIT_CONFIG_VALUE_0=false), which takes precedence over a repository's own .git/config. The often-cited git config --global core.fsmonitor false is not enough, because the repository's local value overrides it. Re-cloning from a known remote avoids inheriting the sender's .git/config at all. Beyond that, inventory the agents and their versions so patches can actually be shipped, run agents in an isolated workspace such as a devcontainer, and put EDR and egress logging on developer laptops rather than only on servers and CI runners.</div>
     </div>
 </div>
 
