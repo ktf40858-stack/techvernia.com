@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="On September 21, 2026, an attacker that DIVD believes was an autonomous AI agent chained two Zammad zero-days, CVE-2026-102489 and CVE-2026-102490, to go from a hijacked helpdesk session to root in seconds inside the Dutch Institute for Vulnerability Disclosure. What happened, how DIVD recognized an AI agent, which Zammad versions are affected, and what every security team should change."/>
+<meta name="keywords" content="DIVD breach, Zammad zero-day, CVE-2026-102489, CVE-2026-102490, AI agent cyberattack, autonomous AI agent breach, Dutch Institute for Vulnerability Disclosure hack, Zammad vulnerability upgrade version 7, agentic AI attack 2026, helpdesk security, network segmentation, machine-speed attack detection"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/ai-agent-divd-zammad-zero-days-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/ai-agent-divd-zammad-zero-days-2026.html"/>
+<meta property="og:title" content="An AI Agent Broke Into the Organization That Warns Everyone About Vulnerabilities"/>
+<meta property="og:description" content="Two Zammad zero-days, root in seconds, and an attacker DIVD describes as loud, messy and autonomous. Segmentation is what stopped it."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/ai-agent-divd-zammad-zero-days-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="An AI Agent Chained Two Zammad Zero-Days and Breached DIVD in Seconds"/>
+<meta name="twitter:description" content="The Dutch vulnerability watchdog was hit through its own helpdesk. What happened, who is exposed, and how to defend against attacks that finish in seconds."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "An AI Agent Broke Into the Organization That Warns Everyone About Vulnerabilities",
+  "description": "Analysis of the September 21, 2026 breach of the Dutch Institute for Vulnerability Disclosure (DIVD), which DIVD attributes to an autonomous AI agent that chained two Zammad zero-days, CVE-2026-102489 and CVE-2026-102490, to reach root within seconds. Covers the timeline, the vulnerabilities and affected versions, why DIVD believes an AI agent was behind it, what remains unknown, and practical defenses including segmentation, behavior-based detection and automated containment.",
+  "image": "https://techvernia.com/assets/images/blog-covers/ai-agent-divd-zammad-zero-days-2026.png",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/ai-agent-divd-zammad-zero-days-2026.html"
+  }
+}
+</script>
+
+<title>AI Agent Breaches DIVD With Two Zammad Zero-Days | TechVernia</title>
+
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-section-title { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-primary); margin: 0 0 var(--space-sm); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08)), var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<style>
+.code-block {
+    background: rgba(2, 6, 23, 0.85);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+    overflow-x: auto;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--text-secondary);
+    white-space: pre;
+}
+.code-block .cmt { color: #64748b; }
+.code-block .hl { color: var(--accent-primary); }
+.article-content p code, .article-content li code, .faq-answer code {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 0.9em;
+    background: rgba(0, 217, 255, 0.08);
+    border: 1px solid rgba(0, 217, 255, 0.18);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: var(--accent-primary);
+    white-space: nowrap;
+}
+.status-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; font-size: var(--text-sm); }
+.status-table th, .status-table td { text-align: left; padding: var(--space-md); border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+.status-table th { color: var(--text-primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: var(--text-xs); }
+.status-table td strong { color: var(--text-primary); }
+.status-ok { color: #10b981; font-weight: 700; }
+.status-bad { color: #f87171; font-weight: 700; }
+@media (max-width: 640px) { .status-table { font-size: var(--text-xs); } .status-table th, .status-table td { padding: var(--space-sm); } }
+</style>
+<link href="../../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/ai-agent-divd-zammad-zero-days-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/ai-agent-divd-zammad-zero-days-2026.html" />
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img alt="TechVernia Logo" src="../../assets/images/logo-techvernia-neon.svg" style="height: 40px; width: auto;"/>
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>An AI Agent Broke Into the Organization That Warns Everyone About Vulnerabilities</h1>
+                <p class="subtitle">On September 21, 2026, the Dutch Institute for Vulnerability Disclosure (DIVD) was breached through two unknown flaws in Zammad, the open-source helpdesk it uses to handle reports. The attacker went from a hijacked session to root in seconds. DIVD says it was an autonomous AI agent: fast, loud, messy, and still successful. Here is what happened, what is still unknown, and what every security team should change.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>9 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>October 12, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+<div class="callout">
+    <strong>For information only.</strong> This article is shared to inform defenders about a real intrusion and the vulnerabilities behind it. It is based on DIVD's public statements as reported by <a href="https://bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach" target="_blank" rel="noopener noreferrer">BleepingComputer</a> and <a href="https://www.helpnetsecurity.com/?p=386522" target="_blank" rel="noopener noreferrer">Help Net Security</a>, and on the <a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-agentic-zero-day-chain-zammad-20261003-csa/" target="_blank" rel="noopener noreferrer">Cloud Security Alliance research note</a> of October 3, 2026. It contains no exploitation details.
+</div>
+
+<h2>The Watchdog Got Bitten</h2>
+
+<p>DIVD is a Dutch non-profit, staffed mostly by volunteer security researchers, that scans the internet for vulnerable systems and warns their owners. Its whole purpose is to get to a flaw before attackers do. On <strong>September 21, 2026</strong>, an attacker got to DIVD first.</p>
+
+<p>The entry point was <strong>Zammad</strong>, the open-source helpdesk and ticketing platform DIVD uses. The attacker chained two flaws nobody knew about, <strong>CVE-2026-102489</strong> and <strong>CVE-2026-102490</strong>, to hijack a session, run code on the server and escalate to <strong>root</strong>. According to DIVD, that took <strong>seconds</strong>. From there, the attacker reached other services and read and exfiltrated data.</p>
+
+<p>Then came the part that turned a breach into a headline. DIVD said the operation looked like the work of an <strong>autonomous AI agent</strong>, one that chose each next step itself after every action. In DIVD's words, the attack was <strong>"loud and very, very messy."</strong></p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">2</span>
+        <span class="spec-label">Zammad zero-days chained from session hijack to root</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">Seconds</span>
+        <span class="spec-label">Time from initial session hijack to root, per DIVD</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">9.4</span>
+        <span class="spec-label">Chain severity assigned by Sysdig (8.7 and 8.5 individually)</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">v7</span>
+        <span class="spec-label">Zammad version DIVD recommends, or take the instance offline</span>
+    </div>
+</div>
+
+<h2>How the Attack Unfolded</h2>
+
+<p>Putting together DIVD's updates and the CSA research note, the timeline looks like this:</p>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Date</th><th>What happened</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>Sept 21</strong></td><td>The attacker exploits the Zammad chain, reaches root and accesses other services</td><td class="status-bad">Breach</td></tr>
+        <tr><td><strong>Sept 22-23</strong></td><td>DIVD reproduces and analyzes the flaws, with incident response firm Merlon Security</td><td class="status-ok">Investigation</td></tr>
+        <tr><td><strong>Sept 24</strong></td><td>DIVD discloses the hack, notifies Zammad and reports to the Dutch Data Protection Authority and NCSC-NL</td><td class="status-ok">Disclosure</td></tr>
+        <tr><td><strong>Sept 26</strong></td><td>Scanning for exposed instances and notification of other potential victims begins</td><td class="status-ok">Warning others</td></tr>
+        <tr><td><strong>Sept 30</strong></td><td>DIVD publicly ties the breach to the two Zammad zero-days and an AI agent</td><td class="status-ok">Public details</td></tr>
+        <tr><td><strong>Oct 8</strong></td><td>Zammad advises upgrading to version 7.0 or later and says it is working on a fix for the escalation flaw</td><td class="status-bad">Fix in progress</td></tr>
+    </tbody>
+</table>
+
+<p>Network segmentation and DIVD's incident response kept the attacker from moving deeper. The CSA note reports that confirmed exposure includes <strong>volunteers' DIVD email addresses and possibly contact details</strong>, which creates a risk of impersonation. DIVD says it assumes it is still breached until it can prove otherwise.</p>
+
+<h2>The Two Zero-Days, and Who Is Exposed</h2>
+
+<p><strong>CVE-2026-102489</strong> is a session hijack that leads to remote code execution as the <code>zammad</code> service user. It affects Zammad <strong>6.3.0 through 6.5.4</strong>. Versions 7.0.0 to 7.1.3 contain the flaw, but DIVD says environmental conditions prevent exploitation there.</p>
+
+<p><strong>CVE-2026-102490</strong> is a local privilege escalation that lets the <code>zammad</code> user become root. It is reported to affect versions from <strong>1.5.0 through 7.1.0-alpha</strong>. Zammad says it cannot be exploited remotely on its own, and links it to a confirmed issue in the packager.io packaging service.</p>
+
+<p>On their own, each flaw is serious. Chained, they turn an internet-facing helpdesk into a root shell. Researchers at Horizon3 have since published a technical breakdown and proof-of-concept for CVE-2026-102489, which means the window for unpatched instances is closing fast.</p>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">The Target Choice</div>
+    <h3>Your Helpdesk Is a Crown Jewel</h3>
+    <p>Ticketing systems rarely get the same attention as identity providers or production databases. Yet they hold credentials pasted by users, email integrations, API tokens, customer data and, in DIVD's case, vulnerability reports about other organizations. They are also internet-facing by design. An attacker that owns the helpdesk owns a map of everything the organization is worried about.</p>
+</div>
+
+<h2>Why DIVD Believes It Was an AI Agent</h2>
+
+<p>DIVD has not named an actor or a model. Its conclusion comes from how the attacker behaved:</p>
+
+<ul>
+    <li><strong>Machine speed.</strong> Root was obtained within seconds of the initial session hijack, and each next action followed immediately.</li>
+    <li><strong>Self-directed steps.</strong> DIVD describes an attacker that chose its next move after every action, without signs of a human operator steering it.</li>
+    <li><strong>Sloppy logic.</strong> The attacker ran password spraying at the same time as a man-in-the-middle attempt, and the spraying contaminated its own interception.</li>
+    <li><strong>It explained itself.</strong> Its scripts contained verbose comments justifying each action. DIVD says those comments made the reverse engineering much easier.</li>
+</ul>
+
+<p>That last point is the irony of the case. The behavior that exposed the agent is exactly the behavior a better agent will not have. Defenders rebuilt the chain because the attacker narrated it.</p>
+
+<div class="callout-orange">
+    <strong>What to read with care.</strong> The AI-agent attribution is DIVD's own assessment based on observed behavior, not a confirmed attribution. No actor or model has been identified. It is not known whether the agent discovered the zero-days itself or only used them, how initial access was obtained, or whether this was part of a larger campaign or a capability test. The CVE identifiers and CVSS scores could not be found in the official CVE record or Zammad's advisory archive when the CSA note was published, and some outlets reported different scores. The full scope of the data taken is still being assessed.
+</div>
+
+<h2>Part of a Pattern</h2>
+
+<p>The CSA calls this the second publicly documented autonomous AI-agent breach in under three months, after <a href="openai-ai-model-hack-huggingface-2026.html">an AI model broke into Hugging Face</a> in July. It also fits what this blog has tracked all year: <a href="papercut-ai-agent-swarm-attack-2026.html">an agent swarm breaching hundreds of organizations through PaperCut</a>, <a href="uk-aisi-ai-agents-attack-chains-2026.html">frontier agents building their own attack chains</a>, and <a href="ai-erases-attacker-skill-gap-2026.html">AI closing the gap between lone hackers and nation-state teams</a>.</p>
+
+<p>The common thread is not sophistication. The DIVD agent was clumsy. What changed is that clumsy is now enough, because the agent tries everything, immediately, and only needs one chain to work.</p>
+
+<h2>What I Would Do Now</h2>
+
+<h3>1. Find Every Zammad Instance</h3>
+
+<p>Include internal, test and forgotten deployments. Upgrade to version 7 or later, or take vulnerable instances offline. Before updating, copy application and network logs, as NCSC-NL advises, and run DIVD's published log-check script to look for indicators of compromise.</p>
+
+<h3>2. Rotate What the Helpdesk Could Reach</h3>
+
+<p>If you ran an affected version, assume its secrets are burned: API tokens, email integration credentials, database passwords. Rotate them, and warn staff that leaked contact details can fuel convincing phishing.</p>
+
+<h3>3. Segment Support Tools From Core Systems</h3>
+
+<p>Segmentation is the control that saved DIVD. Put the helpdesk in its own zone, apply default-deny egress, and make sure a root shell on that server does not mean a path to everything else.</p>
+
+<h3>4. Detect Behavior, Not CVEs</h3>
+
+<p>Zero-days have no signature. Alert on what the chain looks like instead: an application process spawning a shell, a service account becoming root, sudden outbound connections, and bursts of actions in seconds. Machine speed is itself a signal.</p>
+
+<h3>5. Pre-Authorize Automated Containment</h3>
+
+<p>When an attack finishes in seconds, waiting for a human to approve isolation is too slow. For high-confidence alerts, such as a service account gaining root, let your tooling isolate the host first and ask questions second. Measure time to contain, not only time to detect.</p>
+
+<h3>6. Plan for Quieter Agents</h3>
+
+<p>Do not build your detection around this agent's mistakes. Assume the next one will not leave comments, will not collide with itself, and will pace its actions to blend in. Test your defenses against that version.</p>
+
+<div class="highlight-box">
+    <p><strong>An attacker no longer has to be good to win. It only has to be fast and persistent.</strong> The defenses that held at DIVD were architectural: segmentation and a prepared response team. Those work whether the attacker is a human, an agent, or a swarm.</p>
+</div>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What happened to DIVD?</div>
+        <div class="faq-answer">On September 21, 2026, an attacker chained two zero-day vulnerabilities in Zammad, the helpdesk DIVD uses, to hijack a session, execute code and escalate to root within seconds. It then accessed other services and exfiltrated data before network segmentation and incident response contained it.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Was it really an AI agent?</div>
+        <div class="faq-answer">That is DIVD's assessment, based on the attacker's speed, self-directed decision-making, sloppy logic and verbose explanatory comments in its scripts. No actor or AI model has been publicly identified, and the attribution is not confirmed.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Which Zammad versions are affected?</div>
+        <div class="faq-answer">CVE-2026-102489 affects versions 6.3.0 through 6.5.4; versions 7.0.0 to 7.1.3 contain it but are reported as not exploitable due to environmental conditions. CVE-2026-102490 is reported to affect versions 1.5.0 through 7.1.0-alpha. Zammad advises upgrading to version 7.0 or later.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What data was exposed?</div>
+        <div class="faq-answer">Confirmed exposure includes volunteers' DIVD email addresses and possibly contact details, according to the CSA research note. DIVD is still assessing the full scope and says it assumes breach until proven otherwise.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">I run Zammad. What should I do first?</div>
+        <div class="faq-answer">Copy your application and network logs, run DIVD's log-check script for indicators of compromise, then upgrade to version 7 or later or take the instance offline. If you ran an affected version, rotate every credential the helpdesk server could reach.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Is this the first AI-agent breach?</div>
+        <div class="faq-answer">No. The Cloud Security Alliance describes it as the second publicly documented autonomous AI-agent breach in under three months, after the Hugging Face intrusion in July 2026.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>The symbolism is hard to miss. The organization that spends its days warning others about exposed systems was breached through its own helpdesk, by an attacker that probably was not human. Credit to DIVD for disclosing it quickly and in detail. That is exactly what we ask of everyone else, and it is not easy when you are the victim.</p>
+
+<p>What worries me most is not that an AI agent hacked a security organization. It is that it did so badly and still won. It collided with its own attacks and wrote down its reasoning, and it still reached root in seconds. Today's agents are noisy. Tomorrow's will be quiet.</p>
+
+<p>Most incident response plans still assume attacks unfold over hours or days, with time for a human to look at an alert. That assumption just expired. The teams that invest now in segmentation, behavior-based detection and automated containment will be ready. The others will learn from their own incident report.</p>
+
+<p>So here is the question I will leave with you: <strong>is your incident response built for an attack that is over in seconds?</strong></p>
+
+<p><strong>Sources:</strong></p>
+<ul>
+    <li><a href="https://bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach" target="_blank" rel="noopener noreferrer">BleepingComputer: DIVD says Zammad zero-days enabled AI-driven network breach (September 30, 2026)</a></li>
+    <li><a href="https://www.helpnetsecurity.com/?p=386522" target="_blank" rel="noopener noreferrer">Help Net Security: AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit</a></li>
+    <li><a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-agentic-zero-day-chain-zammad-20261003-csa/" target="_blank" rel="noopener noreferrer">Cloud Security Alliance: Zammad Zero-Day Chain, An AI Agent Breaches DIVD (October 3, 2026)</a></li>
+    <li><a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-zammad-ai-agent-breach-20261001-csa-styled/" target="_blank" rel="noopener noreferrer">Cloud Security Alliance: Autonomous AI Agent Breaches DIVD via Chained Zammad Zero-Days (October 1, 2026)</a></li>
+    <li><a href="https://www.scworld.com/brief/ai-agent-exploits-zero-day-flaws-in-zammad-ticketing-system" target="_blank" rel="noopener noreferrer">SC Media: AI agent exploits zero-day flaws in Zammad ticketing system</a></li>
+</ul>
+
+<p><em>This article is published for information purposes only, to help defenders understand a real AI-driven intrusion and protect their own systems. It contains no exploitation details.</em></p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="openai-ai-model-hack-huggingface-2026.html">An AI Model Just Hacked Another AI Company — And OpenAI Still Doesn't Fully Know Why</a></li>
+    <li><a href="papercut-ai-agent-swarm-attack-2026.html">One Attacker, Hundreds of AI Agents: How a Swarm Breached 395 Organizations Through PaperCut</a></li>
+    <li><a href="ai-erases-attacker-skill-gap-2026.html">The Lone Hacker Now Hits Like a Nation-State Team. AI Closed the Gap.</a></li>
+    <li><a href="uk-aisi-ai-agents-attack-chains-2026.html">Frontier AI Agents Built Their Own Attack Chains. Nobody Told Them To.</a></li>
+    <li><a href="midnight-blizzard-claude-ai-malware-evasion-2026.html">Russian State Hackers Used Claude Agents to Rewrite Their Malware Every Time It Got Caught</a></li>
+    <li><a href="plugin4shell-ai-coding-agents-2026.html">Your AI Coding Agent Pinned That Plugin to a Commit Hash. It Never Checked Where It Landed.</a></li>
+</ul>
+
+</article>
+
+
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h4 class="author-section-title">About the Author</h4>
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kodjo Apedoh",
+  "jobTitle": "Network Engineer & AI Entrepreneur",
+  "description": "Founder of TechVernia and SankaraShield. Certified Network Security Engineer with 4+ years of experience. Specializes in AI tools research, network automation, and cybersecurity.",
+  "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+  "image": "https://techvernia.com/assets/images/authors/kodjo-apedoh.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+    "https://techvernia.com"
+  ]
+}
+</script>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
