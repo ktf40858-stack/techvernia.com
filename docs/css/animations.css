@@ -364,9 +364,11 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .hover-lift:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
 }
 
 /* Glow on Hover */
@@ -383,8 +385,10 @@
     transition: transform 0.3s ease;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .hover-scale:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
+}
 }
 
 /* Rotate on Hover */
@@ -392,8 +396,10 @@
     transition: transform 0.3s ease;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .hover-rotate:hover {
     transform: rotate(5deg);
+}
 }
 
 /* ============================================
@@ -404,7 +410,6 @@
 .typing-effect {
     display: inline-block;
     border-right: 3px solid var(--accent-primary);
-    animation: blink 0.7s step-end infinite;
 }
 
 /* Shimmer Effect */
@@ -432,7 +437,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    animation: shimmer 8s linear infinite;
 }
 
 /* Pulsing Dot */
@@ -450,7 +454,6 @@
     height: 8px;
     background: var(--accent-tertiary);
     border-radius: 50%;
-    animation: pulse 2s ease-in-out infinite;
 }
 
 /* Loading Spinner */
@@ -496,7 +499,6 @@
     background: var(--accent-primary);
     border-radius: 50%;
     opacity: 0.5;
-    animation: pulse 3s ease-in-out infinite;
 }
 
 .neural-connection {
@@ -519,7 +521,6 @@
     border-radius: 50%;
     opacity: 0.6;
     pointer-events: none;
-    animation: particleFloat linear infinite;
 }
 
 .particle:nth-child(odd) {
@@ -553,7 +554,6 @@
     width: 100px;
     height: 100%;
     background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
-    animation: dataStream 2s linear infinite;
 }
 
 /* ============================================
@@ -648,13 +648,15 @@
    ============================================ */
 
 @media (prefers-reduced-motion: reduce) {
+    /* Mouvement réduit = pas de déplacement, mais on garde les fondus */
     *,
     *::before,
     *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
     }
+
 
     .typing-effect {
         border-right: none;

@@ -37,7 +37,7 @@
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    transition: all 0.3s ease;
+    transition: var(--t-ui);
 }
 
 /* Icônes dans les titres h2 */
@@ -57,10 +57,12 @@ h3 .inline-icon {
 }
 
 /* Animation au survol des icônes */
+@media (hover: hover) and (pointer: fine) {
 .guide-section h2:hover .inline-icon,
 .review-content h2:hover .inline-icon {
-    transform: scale(1.1) rotate(5deg);
+    transform: scale(1.04);
     filter: drop-shadow(0 0 12px rgba(0, 217, 255, 0.6));
+}
 }
 
 /* Icônes dans les listes */

@@ -48,7 +48,7 @@
     background: rgba(15, 15, 25, 0.8);
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 24px;
-    transition: all 0.3s ease;
+    transition: var(--t-ui);
     overflow: hidden;
 }
 
@@ -64,10 +64,12 @@
     transition: opacity 0.3s ease;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .category-card-large:hover {
-    transform: translateY(-8px);
+    transform: translateY(-2px);
     border-color: rgba(0, 217, 255, 0.4);
     box-shadow: 0 20px 60px rgba(0, 217, 255, 0.15);
+}
 }
 
 .category-card-large:hover::before {
@@ -84,7 +86,7 @@
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
-    transition: all 0.3s ease;
+    transition: var(--t-ui);
 }
 
 .category-card-icon svg {
@@ -92,13 +94,15 @@
     height: 40px;
     stroke: var(--category-color, #00D9FF);
     filter: drop-shadow(0 0 12px var(--category-glow, rgba(0, 217, 255, 0.6)));
-    transition: all 0.3s ease;
+    transition: var(--t-ui);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .category-card-large:hover .category-card-icon {
-    transform: scale(1.1) rotate(5deg);
+    transform: scale(1.04);
     background: rgba(0, 217, 255, 0.1);
     border-color: var(--category-color, #00D9FF);
+}
 }
 
 .category-card-large:hover .category-card-icon svg {
@@ -140,12 +144,14 @@
 .category-arrow {
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.4);
-    transition: all 0.3s ease;
+    transition: var(--t-ui);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .category-card-large:hover .category-arrow {
     color: var(--category-color, #00D9FF);
     transform: translateX(4px);
+}
 }
 
 /* Category-specific colors */

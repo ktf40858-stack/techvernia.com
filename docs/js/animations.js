@@ -439,20 +439,8 @@ class SmoothReveal {
 function initAnimations() {
     
 
-    // Neural Network Background
-    const neuralCanvas = document.getElementById('neural-bg');
-    if (neuralCanvas) {
-        
-        window.neuralNetwork = new NeuralNetwork(neuralCanvas);
-    } else {
-        
-    }
-
-    // Particles
-    const particlesContainer = document.getElementById('particles-container');
-    if (particlesContainer) {
-        window.particleSystem = new ParticleSystem(particlesContainer);
-    }
+    // Fond « réseau de neurones » et particules désactivés (lot 2 design premium) :
+    // animation décorative permanente, coûteuse en CPU sur 717 pages.
 
     // Typing Effect
     const typingElement = document.getElementById('typing-text');
@@ -481,12 +469,6 @@ function initAnimations() {
 
     // Smooth Reveal
     new SmoothReveal();
-
-    // Magnetic Buttons
-    const magneticBtns = document.querySelectorAll('.btn-primary');
-    if (magneticBtns.length > 0) {
-        new MagneticButton(magneticBtns);
-    }
 
     // Listen for language changes
     document.addEventListener('languageChanged', (e) => {

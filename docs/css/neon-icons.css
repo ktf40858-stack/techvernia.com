@@ -12,7 +12,7 @@
     stroke-linecap: round;
     stroke-linejoin: round;
     filter: drop-shadow(0 0 3px currentColor);
-    transition: all 0.3s ease;
+    transition: var(--t-ui);
 }
 
 .neon-icon:hover {

@@ -376,20 +376,7 @@ document.head.appendChild(style);
 
 // Initialize everything when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-    initHolographicGrid();
-    initAIBrain3D();
-    animateCounters();
-    initTypewriter();
-    createParticleSystem();
+    // Lot 2 design premium : grille holographique, cerveau 3D, compteurs,
+    // machine à écrire, particules, parallaxe et traînée de souris désactivés.
     initSmoothScroll();
-    initParallax();
-    initMouseTrail();
-
-    
-});
-
-// Handle window resize
-window.addEventListener('resize', () => {
-    // Re-initialize grid on resize
-    initHolographicGrid();
 });

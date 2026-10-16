@@ -10,6 +10,12 @@
    CSS Variables & Theme Configuration
    ============================================ */
 :root {
+    /* Courbes & durées (design engineering, Emil Kowalski) */
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+    --t-ui: transform 200ms var(--ease-out), opacity 200ms var(--ease-out),
+            background-color 200ms ease, border-color 200ms ease, color 200ms ease, box-shadow 200ms ease;
+
     /* Colors - Dark Theme (Default) */
     --bg-primary: #0a0a0f;
     --bg-secondary: #12121a;
@@ -81,9 +87,9 @@
     --radius-full: 9999px;
 
     /* Transitions */
-    --transition-fast: 150ms ease;
-    --transition-normal: 250ms ease;
-    --transition-slow: 400ms ease;
+    --transition-fast: 150ms var(--ease-out);
+    --transition-normal: 200ms var(--ease-out);
+    --transition-slow: 300ms var(--ease-out);
 
     /* Z-index */
     --z-dropdown: 100;
@@ -203,7 +209,7 @@ ul, ol {
     right: 0;
     z-index: var(--z-sticky);
     padding: var(--space-md) 0;
-    transition: all var(--transition-normal);
+    transition: var(--t-ui);
     background: transparent;
 }
 
@@ -245,12 +251,14 @@ ul, ol {
     object-fit: contain;
     background: transparent !important;
     filter: drop-shadow(0 0 15px rgba(0, 217, 255, 0.4));
-    transition: all 0.3s ease;
+    transition: var(--t-ui);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .logo:hover .logo-image {
     filter: drop-shadow(0 0 25px rgba(0, 217, 255, 0.6));
-    transform: scale(1.05);
+    transform: scale(1.02);
+}
 }
 
 /* Logo dans le Hero */
@@ -265,7 +273,6 @@ ul, ol {
     object-fit: contain;
     filter: drop-shadow(0 0 50px rgba(0, 217, 255, 0.6))
             drop-shadow(0 0 100px rgba(124, 58, 237, 0.4));
-    animation: logoFloat 6s ease-in-out infinite;
 }
 
 @keyframes logoFloat {
@@ -347,8 +354,10 @@ ul, ol {
     transition: transform var(--transition-fast);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .dropdown:hover .dropdown-toggle svg {
     transform: rotate(180deg);
+}
 }
 
 .dropdown-menu {
@@ -358,7 +367,7 @@ ul, ol {
     transform: translateX(-50%) translateY(10px);
     opacity: 0;
     visibility: hidden;
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
     padding-top: var(--space-md);
 }
 
@@ -415,7 +424,7 @@ ul, ol {
     position: relative;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
 }
 
 .mega-icon svg {
@@ -423,16 +432,20 @@ ul, ol {
     height: 28px;
     stroke-width: 1.5;
     fill: none;
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .mega-item:hover .mega-icon {
     transform: scale(1.15);
 }
+}
 
+@media (hover: hover) and (pointer: fine) {
 .mega-item:hover .mega-icon svg {
-    transform: scale(1.1);
+    transform: scale(1.04);
     filter: brightness(1.3);
+}
 }
 
 .mega-icon::before {
@@ -543,7 +556,7 @@ ul, ol {
     color: var(--text-secondary);
     font-size: var(--text-sm);
     font-weight: 500;
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
     cursor: pointer;
     border: none;
     outline: none;
@@ -579,7 +592,7 @@ ul, ol {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
     z-index: 1000;
     display: none;
     pointer-events: none;
@@ -602,7 +615,7 @@ ul, ol {
     border-radius: var(--radius-md);
     font-size: var(--text-sm);
     color: var(--text-secondary);
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
 }
 
 .lang-option:hover,
@@ -625,7 +638,7 @@ ul, ol {
     background: var(--bg-tertiary);
     border-radius: var(--radius-md);
     color: var(--text-secondary);
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
 }
 
 .theme-toggle:hover {
@@ -654,7 +667,7 @@ ul, ol {
     background: var(--bg-tertiary);
     border-radius: var(--radius-md);
     color: var(--text-secondary);
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
 }
 
 .search-btn:hover {
@@ -682,7 +695,7 @@ ul, ol {
     width: 100%;
     height: 2px;
     background: var(--text-primary);
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
 }
 
 /* ============================================
@@ -703,7 +716,7 @@ ul, ol {
     padding-top: 15vh;
     opacity: 0;
     visibility: hidden;
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
 }
 
 .search-modal.active {
@@ -792,7 +805,7 @@ ul, ol {
     border-radius: var(--radius-full);
     font-size: var(--text-sm);
     color: var(--text-secondary);
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
 }
 
 .search-tag:hover {
@@ -930,7 +943,6 @@ ul, ol {
     background: var(--gradient-primary);
     border-radius: 50%;
     filter: blur(40px);
-    animation: pulse 4s ease-in-out infinite;
 }
 
 .orb-ring {
@@ -945,19 +957,16 @@ ul, ol {
 .ring-1 {
     width: 200px;
     height: 200px;
-    animation: spin 20s linear infinite;
 }
 
 .ring-2 {
     width: 300px;
     height: 300px;
-    animation: spin 30s linear infinite reverse;
 }
 
 .ring-3 {
     width: 400px;
     height: 400px;
-    animation: spin 40s linear infinite;
 }
 
 /* Hero Scroll Indicator */
@@ -978,7 +987,6 @@ ul, ol {
 }
 
 .scroll-arrow {
-    animation: bounce 2s ease-in-out infinite;
 }
 
 .scroll-arrow svg {
@@ -998,7 +1006,7 @@ ul, ol {
     font-size: var(--text-sm);
     font-weight: 600;
     border-radius: var(--radius-lg);
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
     white-space: nowrap;
 }
 
@@ -1013,9 +1021,11 @@ ul, ol {
     box-shadow: 0 4px 15px rgba(0, 217, 255, 0.3);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .btn-primary:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 25px rgba(0, 217, 255, 0.4);
+}
 }
 
 .btn-secondary {
@@ -1100,7 +1110,7 @@ ul, ol {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-xl);
-    transition: all var(--transition-normal);
+    transition: var(--t-ui);
     overflow: hidden;
 }
 
@@ -1117,14 +1127,18 @@ ul, ol {
     transition: transform var(--transition-normal);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .category-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     border-color: var(--border-color-hover);
     box-shadow: var(--shadow-glow);
 }
+}
 
+@media (hover: hover) and (pointer: fine) {
 .category-card:hover::before {
     transform: scaleX(1);
+}
 }
 
 .category-card.featured {
@@ -1164,7 +1178,7 @@ ul, ol {
 /* Neon Icon Gaming Computer Style */
 .category-icon.neon-icon {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: all var(--transition-normal);
+    transition: var(--t-ui);
 }
 
 .category-icon.neon-icon svg {
@@ -1172,14 +1186,16 @@ ul, ol {
     height: 48px;
     stroke-width: 1.5;
     fill: none;
-    transition: all var(--transition-normal);
+    transition: var(--t-ui);
     position: relative;
     z-index: 2;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .category-card:hover .category-icon.neon-icon svg {
-    transform: scale(1.1);
+    transform: scale(1.04);
     filter: brightness(1.3);
+}
 }
 
 /* Neon Glow Effect - Gaming Computer Style */
@@ -1216,7 +1232,6 @@ ul, ol {
 
 .category-card:hover .category-icon.neon-icon::after {
     opacity: 1;
-    animation: neonPulse 2s ease-in-out infinite;
 }
 
 /* Neon Pulse Animation - Gaming Effect */
@@ -1317,13 +1332,15 @@ ul, ol {
     background: var(--bg-tertiary);
     border-radius: 50%;
     color: var(--text-tertiary);
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .category-card:hover .category-arrow {
     background: var(--gradient-primary);
     color: var(--bg-primary);
     transform: translateX(5px);
+}
 }
 
 .category-arrow svg {
@@ -1345,14 +1362,16 @@ ul, ol {
     border: 1px solid var(--border-color);
     border-radius: var(--radius-xl);
     padding: var(--space-xl);
-    transition: all var(--transition-normal);
+    transition: var(--t-ui);
     overflow: visible !important;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .tool-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     border-color: var(--border-color-hover);
     box-shadow: var(--shadow-lg);
+}
 }
 
 .tool-header {
@@ -1537,13 +1556,15 @@ ul, ol {
     border-radius: var(--radius-xl);
     padding: var(--space-xl);
     text-align: center;
-    transition: all var(--transition-normal);
+    transition: var(--t-ui);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .comparison-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     border-color: var(--accent-primary);
     box-shadow: var(--shadow-glow);
+}
 }
 
 .vs-container {
@@ -1720,7 +1741,6 @@ ul, ol {
     stroke: var(--border-color);
     stroke-width: 1;
     stroke-dasharray: 5, 5;
-    animation: dash 20s linear infinite;
 }
 
 /* ============================================
@@ -1737,13 +1757,15 @@ ul, ol {
     border: 1px solid var(--border-color);
     border-radius: var(--radius-xl);
     overflow: hidden;
-    transition: all var(--transition-normal);
+    transition: var(--t-ui);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .guide-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     border-color: var(--border-color-hover);
     box-shadow: var(--shadow-lg);
+}
 }
 
 .guide-card.featured-guide {
@@ -1940,7 +1962,6 @@ ul, ol {
     background: var(--bg-card);
     border-radius: var(--radius-md);
     padding: var(--space-md);
-    animation: letterSlide 3s ease-in-out infinite;
 }
 
 .letter-line {
@@ -1984,13 +2005,15 @@ ul, ol {
     border-radius: var(--radius-xl);
     overflow: hidden;
     border: 1px solid var(--border-color);
-    transition: all var(--transition-normal);
+    transition: var(--t-ui);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .blog-card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-2px);
     border-color: var(--accent-primary);
     box-shadow: 0 20px 40px rgba(0, 217, 255, 0.1);
+}
 }
 
 .blog-card.blog-featured {
@@ -2167,12 +2190,14 @@ ul, ol {
     width: auto;
     object-fit: contain;
     filter: drop-shadow(0 0 15px rgba(0, 217, 255, 0.3));
-    transition: all 0.3s ease;
+    transition: var(--t-ui);
 }
 
+@media (hover: hover) and (pointer: fine) {
 .footer-logo:hover .footer-logo-image {
     filter: drop-shadow(0 0 25px rgba(0, 217, 255, 0.5));
-    transform: scale(1.05);
+    transform: scale(1.02);
+}
 }
 
 .footer-desc {
@@ -2196,7 +2221,7 @@ ul, ol {
     background: var(--bg-tertiary);
     border-radius: var(--radius-md);
     color: var(--text-secondary);
-    transition: all var(--transition-fast);
+    transition: var(--t-ui);
 }
 
 .social-link:hover {
@@ -2461,7 +2486,7 @@ ul, ol {
     border-radius: var(--radius-lg);
     padding: var(--space-xl);
     text-align: center;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--t-ui);
     position: relative;
     overflow: hidden;
     text-decoration: none;
@@ -2488,10 +2513,12 @@ ul, ol {
     opacity: 0.05;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .category-card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-2px);
     border-color: var(--accent-primary);
     box-shadow: 0 12px 40px rgba(0, 217, 255, 0.2);
+}
 }
 
 .category-icon {
@@ -2505,8 +2532,10 @@ ul, ol {
     transition: transform 0.3s ease;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .category-card:hover .category-icon {
-    transform: scale(1.1) rotate(5deg);
+    transform: scale(1.04);
+}
 }
 
 .category-icon img {
@@ -2546,7 +2575,7 @@ ul, ol {
     color: var(--accent-primary);
     opacity: 0;
     transform: translateX(-10px);
-    transition: all 0.3s ease;
+    transition: var(--t-ui);
     position: relative;
     z-index: 1;
 }
@@ -2614,4 +2643,22 @@ ul, ol {
         background: white;
         color: black;
     }
+}
+
+/* ==========================================================
+   Retour au clic : tout ce qui se presse réagit
+   ========================================================== */
+.btn, .btn-primary, .btn-secondary, .btn-outline, .btn-futuristic,
+.category-card, .tool-card, .blog-card, .value-card, .feature-card,
+.social-link, .nav-link, .lang-btn, .search-btn, .progress-dot {
+    -webkit-tap-highlight-color: transparent;
+}
+.btn:active, .btn-primary:active, .btn-secondary:active, .btn-outline:active,
+.btn-futuristic:active, .social-link:active, .lang-btn:active, .search-btn:active {
+    transform: scale(0.97);
+    transition-duration: 100ms;
+}
+.category-card:active, .tool-card:active, .blog-card:active {
+    transform: scale(0.99);
+    transition-duration: 100ms;
 }
