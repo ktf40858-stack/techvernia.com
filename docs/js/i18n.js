@@ -510,7 +510,7 @@ const translations = {
         "footer.privacy": "Privacy Policy",
         "footer.terms": "Terms of Service",
         "footer.affiliate": "Affiliate Disclosure",
-        "footer.copyright": "© 2024 TechVernia. All rights reserved.",
+        "footer.copyright": "© 2026 TechVernia. All rights reserved.",
         "footer.affiliate.notice": "Some links may be affiliate links. We may earn a commission at no extra cost to you.",
 
         // Common UI
@@ -22129,7 +22129,7 @@ const translations = {
         "footer.privacy": "Politique de Confidentialité",
         "footer.terms": "Conditions d'Utilisation",
         "footer.affiliate": "Divulgation d'Affiliation",
-        "footer.copyright": "© 2024 TechVernia. Tous droits réservés.",
+        "footer.copyright": "© 2026 TechVernia. Tous droits réservés.",
         "footer.affiliate.notice": "Certains liens peuvent être des liens affiliés. Nous pouvons percevoir une commission sans frais supplémentaires pour vous.",
 
         // Common UI
@@ -43389,7 +43389,7 @@ const translations = {
         "footer.privacy": "Política de Privacidad",
         "footer.terms": "Términos de Servicio",
         "footer.affiliate": "Divulgación de Afiliados",
-        "footer.copyright": "© 2024 TechVernia. Todos los derechos reservados.",
+        "footer.copyright": "© 2026 TechVernia. Todos los derechos reservados.",
         "footer.affiliate.notice": "Algunos enlaces pueden ser de afiliados. Podemos ganar una comisión sin costo adicional para ti.",
 
         // Common UI
@@ -64475,7 +64475,7 @@ const translations = {
         "footer.privacy": "Datenschutzrichtlinie",
         "footer.terms": "Nutzungsbedingungen",
         "footer.affiliate": "Affiliate-Offenlegung",
-        "footer.copyright": "© 2024 TechVernia. Alle Rechte vorbehalten.",
+        "footer.copyright": "© 2026 TechVernia. Alle Rechte vorbehalten.",
         "footer.affiliate.notice": "Einige Links können Affiliate-Links sein. Wir erhalten möglicherweise eine Provision ohne zusätzliche Kosten für Sie.",
 
         // Common UI
@@ -85619,7 +85619,7 @@ const translations = {
         "footer.privacy": "Política de Privacidade",
         "footer.terms": "Termos de Serviço",
         "footer.affiliate": "Divulgação de Afiliados",
-        "footer.copyright": "© 2024 TechVernia. Todos os direitos reservados.",
+        "footer.copyright": "© 2026 TechVernia. Todos os direitos reservados.",
         "footer.affiliate.notice": "Alguns links podem ser de afiliados. Podemos ganhar uma comissão sem custo adicional para você.",
 
         // Common UI
@@ -106762,7 +106762,7 @@ const translations = {
         "footer.privacy": "隐私政策",
         "footer.terms": "服务条款",
         "footer.affiliate": "联盟披露",
-        "footer.copyright": "© 2024 TechVernia. 保留所有权利。",
+        "footer.copyright": "© 2026 TechVernia. 保留所有权利。",
         "footer.affiliate.notice": "部分链接可能是联盟链接。我们可能会获得佣金，但不会增加您的成本。",
 
         // Common UI
@@ -127906,7 +127906,7 @@ const translations = {
         "footer.privacy": "プライバシーポリシー",
         "footer.terms": "利用規約",
         "footer.affiliate": "アフィリエイト開示",
-        "footer.copyright": "© 2024 TechVernia. All rights reserved.",
+        "footer.copyright": "© 2026 TechVernia. All rights reserved.",
         "footer.affiliate.notice": "一部のリンクはアフィリエイトリンクです。追加費用なしでコミッションを受け取る場合があります。",
 
         // Common UI
@@ -149050,7 +149050,7 @@ const translations = {
         "footer.privacy": "개인정보처리방침",
         "footer.terms": "이용약관",
         "footer.affiliate": "제휴 공개",
-        "footer.copyright": "© 2024 TechVernia. All rights reserved.",
+        "footer.copyright": "© 2026 TechVernia. All rights reserved.",
         "footer.affiliate.notice": "일부 링크는 제휴 링크일 수 있습니다. 추가 비용 없이 커미션을 받을 수 있습니다.",
 
         // Common UI
@@ -170194,7 +170194,7 @@ const translations = {
         "footer.privacy": "سياسة الخصوصية",
         "footer.terms": "شروط الخدمة",
         "footer.affiliate": "إفصاح الشراكة",
-        "footer.copyright": "© 2024 TechVernia. جميع الحقوق محفوظة.",
+        "footer.copyright": "© 2026 TechVernia. جميع الحقوق محفوظة.",
         "footer.affiliate.notice": "قد تكون بعض الروابط روابط تابعة. قد نحصل على عمولة دون أي تكلفة إضافية عليك.",
 
         // Common UI
@@ -191337,7 +191337,7 @@ const translations = {
         "footer.privacy": "प्राइवेसी पॉलिसी",
         "footer.terms": "सेवा की शर्तें",
         "footer.affiliate": "एफिलिएट डिस्क्लोज़र",
-        "footer.copyright": "© 2024 TechVernia. सर्वाधिकार सुरक्षित।",
+        "footer.copyright": "© 2026 TechVernia. सर्वाधिकार सुरक्षित।",
         "footer.affiliate.notice": "कुछ लिंक एफिलिएट लिंक हो सकते हैं। हम आपके लिए बिना किसी अतिरिक्त लागत के कमीशन कमा सकते हैं।",
 
         // Common UI

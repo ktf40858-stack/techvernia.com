@@ -263,7 +263,7 @@ const aiHistoryTranslations = {
         "footer.quick-links": "Quick Links",
         "footer.resources": "Resources",
         "footer.follow": "Follow Us",
-        "footer.copyright": "© 2024 TechVernia. All rights reserved."
+        "footer.copyright": "© 2026 TechVernia. All rights reserved."
     },
 
     fr: {
@@ -524,7 +524,7 @@ const aiHistoryTranslations = {
         "footer.quick-links": "Liens Rapides",
         "footer.resources": "Ressources",
         "footer.follow": "Suivez-Nous",
-        "footer.copyright": "© 2024 TechVernia. Tous droits réservés."
+        "footer.copyright": "© 2026 TechVernia. Tous droits réservés."
     },
 
     es: {
@@ -785,7 +785,7 @@ const aiHistoryTranslations = {
         "footer.quick-links": "Enlaces Rápidos",
         "footer.resources": "Recursos",
         "footer.follow": "Síguenos",
-        "footer.copyright": "© 2024 TechVernia. Todos los derechos reservados."
+        "footer.copyright": "© 2026 TechVernia. Todos los derechos reservados."
     },
 
     de: {
@@ -1047,7 +1047,7 @@ const aiHistoryTranslations = {
         "footer.quick-links": "Schnellzugriff",
         "footer.resources": "Ressourcen",
         "footer.follow": "Folgen Sie uns",
-        "footer.copyright": "© 2024 TechVernia. Alle Rechte vorbehalten."
+        "footer.copyright": "© 2026 TechVernia. Alle Rechte vorbehalten."
     },
 
     pt: {
@@ -1309,7 +1309,7 @@ const aiHistoryTranslations = {
         "footer.quick-links": "Links Rápidos",
         "footer.resources": "Recursos",
         "footer.follow": "Siga-nos",
-        "footer.copyright": "© 2024 TechVernia. Todos os direitos reservados."
+        "footer.copyright": "© 2026 TechVernia. Todos os direitos reservados."
     },
 
     zh: {
@@ -1571,7 +1571,7 @@ const aiHistoryTranslations = {
         "footer.quick-links": "快速链接",
         "footer.resources": "资源",
         "footer.follow": "关注我们",
-        "footer.copyright": "© 2024 TechVernia。保留所有权利。"
+        "footer.copyright": "© 2026 TechVernia。保留所有权利。"
     },
 
     ja: {
@@ -1833,7 +1833,7 @@ const aiHistoryTranslations = {
         "footer.quick-links": "クイックリンク",
         "footer.resources": "リソース",
         "footer.follow": "フォローする",
-        "footer.copyright": "© 2024 TechVernia。全著作権所有。"
+        "footer.copyright": "© 2026 TechVernia。全著作権所有。"
     },
 
     ko: {
@@ -2095,7 +2095,7 @@ const aiHistoryTranslations = {
         "footer.quick-links": "빠른 링크",
         "footer.resources": "리소스",
         "footer.follow": "팔로우하기",
-        "footer.copyright": "© 2024 TechVernia. 모든 권리 보유."
+        "footer.copyright": "© 2026 TechVernia. 모든 권리 보유."
     },
 
     ar: {
@@ -2357,7 +2357,7 @@ const aiHistoryTranslations = {
         "footer.quick-links": "روابط سريعة",
         "footer.resources": "الموارد",
         "footer.follow": "تابعنا",
-        "footer.copyright": "© 2024 TechVernia. جميع الحقوق محفوظة."
+        "footer.copyright": "© 2026 TechVernia. جميع الحقوق محفوظة."
     },
 
     hi: {
@@ -2619,7 +2619,7 @@ const aiHistoryTranslations = {
         "footer.quick-links": "त्वरित लिंक",
         "footer.resources": "संसाधन",
         "footer.follow": "हमें फ़ॉलो करें",
-        "footer.copyright": "© 2024 TechVernia। सर्वाधिकार सुरक्षित।"
+        "footer.copyright": "© 2026 TechVernia। सर्वाधिकार सुरक्षित।"
     }
 };
 
