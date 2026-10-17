@@ -32,7 +32,7 @@ img { display: block; max-width: 100%; }
 .logo { display: flex; align-items: center; gap: 10px; flex: none; }
 .logo .mk { width: 34px; height: 34px; }
 .logo .wm { height: 15px; width: auto; }
-@media (max-width: 480px) { .logo .wm { height: 12px; } .logo .mk { width: 30px; height: 30px; } .nav-right a[aria-label="Language"] { display: none; } }
+@media (max-width: 480px) { .logo .wm { height: 12px; } .logo .mk { width: 30px; height: 30px; } }
 
 /* Pied de page avec le logo officiel complet */
 .foot { margin-top: 160px; border-top: 1px solid var(--line); padding: 72px 0 48px; }
@@ -164,3 +164,17 @@ img { display: block; max-width: 100%; }
 .cookie-banner .btn:active { transform: scale(0.97); }
 .cookie-banner .btn-primary { background: var(--accent); color: var(--accent-ink); }
 .cookie-banner .btn-outline { background: #262626; color: #fff; }
+
+/* Sélecteur de langue (mémorise le choix pour les autres pages) */
+.language-selector { position: relative; }
+.lang-btn { width: auto; padding: 0 12px; gap: 6px; display: inline-flex; align-items: center; border: 0; background: none; cursor: pointer; font: 500 13px var(--body); }
+.lang-dropdown { position: absolute; top: calc(100% + 10px); right: 0; min-width: 190px; padding: 6px; background: var(--panel); border: 1px solid var(--line-2); border-radius: 14px; box-shadow: 0 24px 48px -12px rgba(0,0,0,.9);
+  opacity: 0; visibility: hidden; transform: translateY(-4px) scale(.98); transform-origin: top right; transition: opacity 150ms ease, transform 150ms var(--ease-out), visibility 150ms; z-index: 30; }
+.language-selector.active .lang-dropdown { opacity: 1; visibility: visible; transform: none; }
+.lang-option { display: flex; align-items: center; gap: 12px; width: 100%; padding: 9px 12px; border: 0; border-radius: 9px; background: none; color: var(--text-2); font: 500 14px var(--body); text-align: left; cursor: pointer; }
+.lang-option .code { width: 22px; font-size: 11px; letter-spacing: .08em; color: var(--text-3); }
+.lang-option.active { color: var(--white); background: rgba(255,255,255,.06); }
+.lang-option.active .code { color: var(--accent); }
+@media (hover: hover) and (pointer: fine) { .lang-option:hover { color: var(--white); background: rgba(255,255,255,.06); } }
+@media (max-width: 480px) { .lang-btn .lang-current { display: none; } .lang-btn { padding: 0; width: 38px; justify-content: center; } }
+@media (prefers-reduced-motion: reduce) { .lang-dropdown { transition: none; } }

@@ -40,7 +40,7 @@
 <style>
         .review-hero {
             padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
-            background: linear-gradient(135deg, rgba(236, 72, 153, 0.1) 0%, rgba(168, 85, 247, 0.05) 100%);
+            background: linear-gradient(135deg, rgba(236, 72, 153, 0.1) 0%, rgba(34, 204, 238, 0.05) 100%);
             border-bottom: 1px solid var(--border-color);
         }
         .review-hero-content {
@@ -59,7 +59,7 @@
             font-size: 3rem;
             font-weight: 800;
             color: white;
-            background: linear-gradient(135deg, #EC4899, #A855F7);
+            background: linear-gradient(135deg, #EC4899, #22CCEE);
             box-shadow: 0 20px 40px rgba(236, 72, 153, 0.3);
         }
         .tool-logo-xl img { width: 80%; height: 80%; object-fit: contain; }
@@ -78,7 +78,7 @@
         .rating-score {
             font-size: var(--text-5xl);
             font-weight: 800;
-            background: linear-gradient(135deg, #EC4899, #A855F7);
+            background: linear-gradient(135deg, #EC4899, #22CCEE);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             line-height: 1;
@@ -126,7 +126,7 @@
         .comparison-table tr:hover td { background: var(--bg-secondary); }
         .check-yes { color: #10B981; font-weight: 700; }
         .check-no { color: #EF4444; }
-        .verdict-box { background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(168, 85, 247, 0.05)); border: 1px solid rgba(236, 72, 153, 0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); }
+        .verdict-box { background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(34, 204, 238, 0.05)); border: 1px solid rgba(236, 72, 153, 0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); }
         .verdict-box h3 { font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-md); color: #EC4899; }
         .verdict-box p { color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-md); }
         .verdict-box p:last-child { margin-bottom: 0; }
@@ -136,7 +136,7 @@
         .rating-row { display: flex; align-items: center; gap: var(--space-md); }
         .rating-row-label { font-size: var(--text-sm); color: var(--text-secondary); min-width: 110px; }
         .rating-bar-track { flex: 1; height: 6px; background: var(--bg-secondary); border-radius: 3px; overflow: hidden; }
-        .rating-bar-fill { height: 100%; border-radius: 3px; background: linear-gradient(135deg, #EC4899, #A855F7); }
+        .rating-bar-fill { height: 100%; border-radius: 3px; background: linear-gradient(135deg, #EC4899, #22CCEE); }
         .rating-row-score { font-size: var(--text-sm); font-weight: 600; min-width: 30px; text-align: right; }
         .toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-sm); }
         .toc-list li a { font-size: var(--text-sm); color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: var(--space-sm); padding: var(--space-xs) 0; border-bottom: 1px solid var(--border-color); }
@@ -163,9 +163,9 @@
         .notice-box { background: rgba(236, 72, 153, 0.08); border: 1px solid rgba(236, 72, 153, 0.3); border-radius: var(--radius-lg); padding: var(--space-lg); margin-bottom: var(--space-xl); }
         .notice-box p { color: var(--text-secondary); font-size: var(--text-sm); margin: 0; line-height: 1.6; }
         .notice-box strong { color: #EC4899; }
-        .highlight-box { background: rgba(168, 85, 247, 0.08); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: var(--radius-lg); padding: var(--space-lg); margin: var(--space-xl) 0; }
+        .highlight-box { background: rgba(34, 204, 238, 0.08); border: 1px solid rgba(34, 204, 238, 0.3); border-radius: var(--radius-lg); padding: var(--space-lg); margin: var(--space-xl) 0; }
         .highlight-box p { color: var(--text-secondary); font-size: var(--text-sm); margin: 0; line-height: 1.6; }
-        .highlight-box strong { color: #A855F7; }
+        .highlight-box strong { color: #22CCEE; }
         .story-engine-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--space-md); margin: var(--space-lg) 0; }
         .story-card { background: var(--bg-secondary); border: 1px solid rgba(236, 72, 153, 0.2); border-radius: var(--radius-lg); padding: var(--space-md); text-align: center; }
         .story-card .story-icon { font-size: 1.5rem; margin-bottom: var(--space-xs); }
@@ -193,7 +193,7 @@
       <a class="nav-link" data-i18n="nav.about" href="../../about.html">About</a>
     </div>
     <div class="nav-actions">
-      <button aria-label="Toggle theme" class="theme-toggle" id="themeToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+      <button aria-label="Toggle theme" class="theme-toggle" id="themeToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
       <button aria-label="Toggle language" class="lang-toggle" id="langToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#06B6D4"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> EN</button>
       <button aria-label="Toggle menu" class="nav-toggle" id="navToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#06B6D4"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
     </div>
@@ -234,7 +234,7 @@
         <div class="review-badges">
           <span class="badge" style="background: rgba(16,185,129,0.1); color: #10B981; border: 1px solid rgba(16,185,129,0.3);"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#10B981"><polyline points="20 6 9 17 4 12"/></svg> Free Trial Available</span>
           <span class="badge" style="background: rgba(236,72,153,0.1); color: #EC4899; border: 1px solid rgba(236,72,153,0.3);">Story Engine</span>
-          <span class="badge" style="background: rgba(168,85,247,0.1); color: #A855F7; border: 1px solid rgba(168,85,247,0.3);">Beat Sheet</span>
+          <span class="badge" style="background: rgba(34,204,238,0.1); color: #22CCEE; border: 1px solid rgba(34,204,238,0.3);">Beat Sheet</span>
         </div>
       </div>
       <div class="rating-box">
@@ -256,7 +256,7 @@
         <div class="quick-stat-label">Starting Price</div>
       </div>
       <div class="quick-stat">
-        <div class="quick-stat-value" style="color: #A855F7;">Story Engine</div>
+        <div class="quick-stat-value" style="color: #22CCEE;">Story Engine</div>
         <div class="quick-stat-label">Full Novel AI</div>
       </div>
       <div class="quick-stat">
@@ -264,7 +264,7 @@
         <div class="quick-stat-label">Underlying Model</div>
       </div>
       <div class="quick-stat">
-        <div class="quick-stat-value" style="color: #A855F7;">2020</div>
+        <div class="quick-stat-value" style="color: #22CCEE;">2020</div>
         <div class="quick-stat-label">Founded</div>
       </div>
       <div class="quick-stat">
@@ -319,7 +319,7 @@
               <p>Full character profiles with backstory, motivation, voice, and arc.</p>
             </div>
             <div class="story-card">
-              <div class="story-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+              <div class="story-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
               <h5>Chapters</h5>
               <p>AI writes each chapter from your beat sheet, in your chosen style.</p>
             </div>
@@ -361,7 +361,7 @@
               <p>Generate natural dialogue between characters, maintaining distinct voices and revealing subtext as skilled authors do.</p>
             </div>
             <div class="feature-card">
-              <div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+              <div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
               <h4>Beat Sheet Generator</h4>
               <p>Produce a structured beat sheet for any genre — romance, mystery, thriller, fantasy — following proven story structures.</p>
             </div>
@@ -371,7 +371,7 @@
               <p>Condense long passages or entire chapters into concise summaries. Useful for tracking subplots across a 100,000-word manuscript.</p>
             </div>
             <div class="feature-card">
-              <div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.46 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.46 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/></svg></div>
+              <div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.46 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.46 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/></svg></div>
               <h4>Brainstorm Mode</h4>
               <p>Generate multiple ideas for plot twists, character motivations, setting details, or scene alternatives — presented as clickable options.</p>
             </div>
@@ -654,7 +654,7 @@
           <h3>Related Writing Tools</h3>
           <div class="related-tools">
             <a class="related-tool-link" href="jasper-ai.html">
-              <div class="related-tool-icon" style="background: linear-gradient(135deg, #F97316, #EF4444);"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div>
+              <div class="related-tool-icon" style="background: linear-gradient(135deg, #F97316, #EF4444);"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div>
               <div class="related-tool-info">
                 <div class="name">Jasper AI</div>
                 <div class="desc">Best for marketing copy</div>

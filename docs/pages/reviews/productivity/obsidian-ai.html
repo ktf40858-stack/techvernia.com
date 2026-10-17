@@ -109,15 +109,15 @@
 
     /* ── Accent ── */
     :root {
-        --accent: #7C3AED;
-        --accent-light: #A78BFA;
+        --accent: #0891B2;
+        --accent-light: #67E8F9;
         --accent-dark: #5B21B6;
     }
 
     /* ── Hero ── */
     .review-hero {
         padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
-        background: linear-gradient(135deg, rgba(124, 58, 237, 0.08) 0%, rgba(167, 139, 250, 0.04) 100%);
+        background: linear-gradient(135deg, rgba(8, 145, 178, 0.08) 0%, rgba(103, 232, 249, 0.04) 100%);
         border-bottom: 1px solid var(--border-color);
     }
     .review-hero-content {
@@ -136,8 +136,8 @@
         font-size: 2.8rem;
         font-weight: 800;
         color: white;
-        background: linear-gradient(135deg, #7C3AED, #A78BFA);
-        box-shadow: 0 20px 40px rgba(124, 58, 237, 0.35);
+        background: linear-gradient(135deg, #0891B2, #67E8F9);
+        box-shadow: 0 20px 40px rgba(8, 145, 178, 0.35);
         letter-spacing: -1px;
         user-select: none;
     }
@@ -163,9 +163,9 @@
         font-weight: 500;
     }
     .badge-purple {
-        background: rgba(124, 58, 237, 0.15);
-        color: #A78BFA;
-        border: 1px solid rgba(124, 58, 237, 0.3);
+        background: rgba(8, 145, 178, 0.15);
+        color: #67E8F9;
+        border: 1px solid rgba(8, 145, 178, 0.3);
     }
     .badge-green {
         background: rgba(16, 185, 129, 0.1);
@@ -190,7 +190,7 @@
     .rating-score {
         font-size: var(--text-5xl);
         font-weight: 800;
-        background: linear-gradient(135deg, #7C3AED, #A78BFA);
+        background: linear-gradient(135deg, #0891B2, #67E8F9);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -211,7 +211,7 @@
         width: 100px;
         height: 100px;
         border-radius: 50%;
-        background: conic-gradient(#7C3AED 0% 90%, var(--bg-tertiary) 90% 100%);
+        background: conic-gradient(#0891B2 0% 90%, var(--bg-tertiary) 90% 100%);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -230,7 +230,7 @@
         z-index: 1;
         font-size: var(--text-xl);
         font-weight: 800;
-        color: #A78BFA;
+        color: #67E8F9;
     }
     .score-circle-label {
         font-size: var(--text-sm);
@@ -242,7 +242,7 @@
     .quick-stats { background: var(--bg-secondary); padding: var(--space-lg) 0; border-bottom: 1px solid var(--border-color); }
     .quick-stats-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: var(--space-lg); }
     .quick-stat { text-align: center; }
-    .quick-stat-value { font-size: var(--text-xl); font-weight: 700; color: #A78BFA; }
+    .quick-stat-value { font-size: var(--text-xl); font-weight: 700; color: #67E8F9; }
     .quick-stat-label { font-size: var(--text-xs); color: var(--text-tertiary); margin-top: var(--space-xs); }
 
     /* ── Main layout ── */
@@ -259,8 +259,8 @@
     /* ── Features grid ── */
     .features-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); margin: var(--space-xl) 0; }
     .feature-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); transition: border-color 0.2s; }
-    .feature-card:hover { border-color: rgba(124, 58, 237, 0.4); }
-    .feature-card-icon { width: 48px; height: 48px; background: rgba(124, 58, 237, 0.1); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--text-xl); margin-bottom: var(--space-md); }
+    .feature-card:hover { border-color: rgba(8, 145, 178, 0.4); }
+    .feature-card-icon { width: 48px; height: 48px; background: rgba(8, 145, 178, 0.1); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--text-xl); margin-bottom: var(--space-md); }
     .feature-card h4 { font-size: var(--text-md); font-weight: 600; margin-bottom: var(--space-sm); }
     .feature-card p { font-size: var(--text-sm); color: var(--text-secondary); margin: 0; }
 
@@ -269,8 +269,8 @@
     .rating-bar-row { display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-md); }
     .rating-bar-label { width: 160px; font-size: var(--text-sm); color: var(--text-secondary); flex-shrink: 0; }
     .rating-bar-track { flex: 1; height: 10px; background: var(--bg-tertiary); border-radius: var(--radius-full); overflow: hidden; }
-    .rating-bar-fill { height: 100%; background: linear-gradient(90deg, #7C3AED, #A78BFA); border-radius: var(--radius-full); }
-    .rating-bar-pct { width: 42px; font-size: var(--text-sm); font-weight: 600; color: #A78BFA; text-align: right; flex-shrink: 0; }
+    .rating-bar-fill { height: 100%; background: linear-gradient(90deg, #0891B2, #67E8F9); border-radius: var(--radius-full); }
+    .rating-bar-pct { width: 42px; font-size: var(--text-sm); font-weight: 600; color: #67E8F9; text-align: right; flex-shrink: 0; }
 
     /* ── Pros / Cons ── */
     .pros-cons-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); margin: var(--space-xl) 0; }
@@ -287,7 +287,7 @@
     .pricing-table th { background: var(--bg-tertiary); font-weight: 600; color: var(--text-primary); }
     .pricing-table td { color: var(--text-secondary); }
     .pricing-table .plan-name { font-weight: 600; color: var(--text-primary); }
-    .pricing-table .price { font-weight: 700; color: #A78BFA; }
+    .pricing-table .price { font-weight: 700; color: #67E8F9; }
     .pricing-table tr:last-child td { border-bottom: none; }
 
     /* ── Comparison table ── */
@@ -296,13 +296,13 @@
     .comparison-table th { background: var(--bg-secondary); font-weight: 600; color: var(--text-primary); }
     .comparison-table td { color: var(--text-secondary); }
     .comparison-table tr:last-child td { border-bottom: none; }
-    .comparison-table .highlight { color: #A78BFA; font-weight: 600; }
+    .comparison-table .highlight { color: #67E8F9; font-weight: 600; }
     .check { color: #10B981; font-weight: 700; }
     .cross { color: #EF4444; font-weight: 700; }
 
     /* ── Verdict box ── */
-    .verdict-box { background: linear-gradient(135deg, rgba(124, 58, 237, 0.08) 0%, rgba(167, 139, 250, 0.08) 100%); border: 1px solid rgba(124, 58, 237, 0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); margin: var(--space-2xl) 0; }
-    .verdict-box h3 { font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-md); color: #A78BFA; }
+    .verdict-box { background: linear-gradient(135deg, rgba(8, 145, 178, 0.08) 0%, rgba(103, 232, 249, 0.08) 100%); border: 1px solid rgba(8, 145, 178, 0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); margin: var(--space-2xl) 0; }
+    .verdict-box h3 { font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-md); color: #67E8F9; }
     .verdict-box p { font-size: var(--text-md); margin: 0; }
 
     /* ── Use-case cards ── */
@@ -316,7 +316,7 @@
     .faq-item { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); margin-bottom: var(--space-md); overflow: hidden; }
     .faq-question { padding: var(--space-lg); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 600; color: var(--text-primary); }
     .faq-question:hover { background: var(--bg-tertiary); }
-    .faq-question span { color: #A78BFA; font-size: 1.2rem; transition: transform 0.2s; }
+    .faq-question span { color: #67E8F9; font-size: 1.2rem; transition: transform 0.2s; }
     .faq-answer { max-height: 0; overflow: hidden; padding: 0 var(--space-lg); color: var(--text-secondary); line-height: 1.7; transition: max-height 0.3s ease, padding-top 0.2s; }
 
     /* ── Author bio ── */
@@ -332,7 +332,7 @@
     }
     .author-avatar { width: 80px; height: 80px; border-radius: 50%; flex-shrink: 0; object-fit: cover; }
     .author-info h4 { margin: 0 0 var(--space-xs) 0; font-size: var(--text-lg); }
-    .author-info .author-title { color: #A78BFA; font-size: var(--text-sm); margin-bottom: var(--space-sm); }
+    .author-info .author-title { color: #67E8F9; font-size: var(--text-sm); margin-bottom: var(--space-sm); }
     .author-info p { margin: 0; font-size: var(--text-sm); color: var(--text-secondary); }
 
     /* ── Sidebar ── */
@@ -347,7 +347,7 @@
     .rating-item { display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-md); }
     .rating-item-label { flex: 1; font-size: var(--text-sm); color: var(--text-secondary); }
     .rating-item-bar { width: 100px; height: 8px; background: var(--bg-tertiary); border-radius: var(--radius-full); overflow: hidden; }
-    .rating-item-fill { height: 100%; background: linear-gradient(90deg, #7C3AED, #A78BFA); border-radius: var(--radius-full); }
+    .rating-item-fill { height: 100%; background: linear-gradient(90deg, #0891B2, #67E8F9); border-radius: var(--radius-full); }
     .rating-item-score { font-size: var(--text-sm); font-weight: 600; color: var(--text-primary); min-width: 30px; }
 
     /* Related tools */
@@ -357,13 +357,13 @@
     .related-tool-info { flex: 1; }
     .related-tool-name { font-weight: 600; font-size: var(--text-sm); }
     .related-tool-name a { color: var(--text-primary); text-decoration: none; }
-    .related-tool-name a:hover { color: #A78BFA; }
+    .related-tool-name a:hover { color: #67E8F9; }
     .related-tool-rating { font-size: var(--text-xs); color: var(--text-tertiary); }
 
     /* ── Try it section ── */
     .test-section-top {
-        background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(167, 139, 250, 0.06));
-        border: 2px solid rgba(124, 58, 237, 0.3);
+        background: linear-gradient(135deg, rgba(8, 145, 178, 0.1), rgba(103, 232, 249, 0.06));
+        border: 2px solid rgba(8, 145, 178, 0.3);
         border-radius: var(--radius-xl);
         padding: var(--space-2xl);
         text-align: center;
@@ -375,10 +375,10 @@
 
     /* ── Plugin pill list ── */
     .plugin-pills { display: flex; gap: var(--space-sm); flex-wrap: wrap; margin: var(--space-md) 0; }
-    .plugin-pill { background: rgba(124, 58, 237, 0.1); color: #A78BFA; border: 1px solid rgba(124, 58, 237, 0.25); border-radius: var(--radius-full); padding: var(--space-xs) var(--space-md); font-size: var(--text-sm); font-family: 'JetBrains Mono', monospace; font-weight: 500; }
+    .plugin-pill { background: rgba(8, 145, 178, 0.1); color: #67E8F9; border: 1px solid rgba(8, 145, 178, 0.25); border-radius: var(--radius-full); padding: var(--space-xs) var(--space-md); font-size: var(--text-sm); font-family: 'JetBrains Mono', monospace; font-weight: 500; }
 
     /* ── Info box ── */
-    .info-box { background: rgba(124, 58, 237, 0.06); border-left: 4px solid #7C3AED; border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: var(--space-lg); margin: var(--space-xl) 0; }
+    .info-box { background: rgba(8, 145, 178, 0.06); border-left: 4px solid #0891B2; border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: var(--space-lg); margin: var(--space-xl) 0; }
     .info-box p { margin: 0; color: var(--text-secondary); font-size: var(--text-sm); }
 
     /* ── Breadcrumb ── */
@@ -443,8 +443,8 @@
 <svg class="icon-gradient-def" aria-hidden="true">
     <defs>
         <linearGradient id="icon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#7C3AED"/>
-            <stop offset="100%" style="stop-color:#A78BFA"/>
+            <stop offset="0%" style="stop-color:#0891B2"/>
+            <stop offset="100%" style="stop-color:#67E8F9"/>
         </linearGradient>
     </defs>
 </svg>
@@ -559,42 +559,42 @@
 <div class="features-grid">
     <div class="feature-card">
         <div class="feature-card-icon">
-            <svg class="neon-icon" fill="none" stroke="#A78BFA" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6M11 8v6" stroke-width="1.5"/></svg>
+            <svg class="neon-icon" fill="none" stroke="#67E8F9" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6M11 8v6" stroke-width="1.5"/></svg>
         </div>
         <h4>Smart Connections — Semantic Search</h4>
         <p>Smart Connections embeds all your notes using vector representations and lets you perform semantic search: find notes by meaning rather than exact keywords. Its built-in AI chat lets you literally "chat with your vault" — ask questions and get answers synthesized from your own writing. Supports OpenAI, Anthropic, and local models via Ollama.</p>
     </div>
     <div class="feature-card">
         <div class="feature-card-icon">
-            <svg class="neon-icon" fill="none" stroke="#A78BFA" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <svg class="neon-icon" fill="none" stroke="#67E8F9" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
         </div>
         <h4>Copilot for Obsidian — Chat with Your Vault</h4>
         <p>Copilot brings a ChatGPT-style sidebar directly into Obsidian. You can chat with any AI model (GPT-5.6, Claude Sonnet 5, Gemini, local Ollama) and optionally include your vault notes as context. It remembers conversation history, supports custom system prompts, and lets you save AI responses directly as new notes.</p>
     </div>
     <div class="feature-card">
         <div class="feature-card-icon">
-            <svg class="neon-icon" fill="none" stroke="#A78BFA" stroke-width="2" viewBox="0 0 24 24"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>
+            <svg class="neon-icon" fill="none" stroke="#67E8F9" stroke-width="2" viewBox="0 0 24 24"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>
         </div>
         <h4>Text Generator — AI Writing Inside Notes</h4>
         <p>Text Generator integrates AI writing directly into the editor. Invoke it inline with a hotkey to autocomplete sentences, generate paragraphs, summarize content, create outlines, or run custom prompt templates. It supports a rich template system so you can build reusable AI writing workflows for recurring tasks like meeting notes, blog drafts, or research summaries.</p>
     </div>
     <div class="feature-card">
         <div class="feature-card-icon">
-            <svg class="neon-icon" fill="none" stroke="#A78BFA" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 7.38 16.75 2 2 0 0 1-3.5.54l-.9-1.34a2 2 0 0 0-1.65-.88H9.87a2 2 0 0 1-1.99-2.33L8.53 12a2 2 0 0 0-.26-1.5L6.8 8.53A10 10 0 0 1 12 2z"/></svg>
+            <svg class="neon-icon" fill="none" stroke="#67E8F9" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 7.38 16.75 2 2 0 0 1-3.5.54l-.9-1.34a2 2 0 0 0-1.65-.88H9.87a2 2 0 0 1-1.99-2.33L8.53 12a2 2 0 0 0-.26-1.5L6.8 8.53A10 10 0 0 1 12 2z"/></svg>
         </div>
         <h4>Smart Composer — Context-Aware Editing</h4>
         <p>Smart Composer is the newest addition and arguably the most elegant. It provides context-aware AI editing inside the current note, automatically pulling in related notes from your vault as context. Think of it as an AI editor that already knows everything in your second brain — it can refine arguments, expand bullet points, or rewrite sections using knowledge from across your entire vault.</p>
     </div>
     <div class="feature-card">
         <div class="feature-card-icon">
-            <svg class="neon-icon" fill="none" stroke="#A78BFA" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <svg class="neon-icon" fill="none" stroke="#67E8F9" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
         </div>
         <h4>Local Storage &amp; Privacy</h4>
         <p>All notes are stored as plain Markdown files on your device — no vendor lock-in, no subscription required, no data sent to Obsidian's servers. You own your data completely. AI plugins can be configured to run against local models (Ollama, LM Studio) for a 100% offline, privacy-first workflow, or against cloud APIs with your own keys.</p>
     </div>
     <div class="feature-card">
         <div class="feature-card-icon">
-            <svg class="neon-icon" fill="none" stroke="#A78BFA" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            <svg class="neon-icon" fill="none" stroke="#67E8F9" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
         </div>
         <h4>Canvas &amp; Graph View</h4>
         <p>Obsidian's native Canvas provides a free-form visual workspace where you can arrange notes, images, and web content as cards on an infinite whiteboard. The Graph View renders your entire vault as an interactive knowledge graph, revealing connections and clusters in your thinking that you might never have noticed.</p>
@@ -872,10 +872,10 @@
 <p>Roam Research pioneered the bi-directional linking concept that influenced Obsidian, but its AI feature set has lagged. Roam charges $15/month for a cloud-based service, while Obsidian offers the same core linking features for free with far superior AI plugins. Most Roam users who have tried Obsidian find the switch worthwhile.</p>
 
 <!-- ── Verdict ── -->
-<div class="review-section" id="cta-box" style="background:linear-gradient(135deg,rgba(0,0,0,0.04),rgba(0,0,0,0.02));border:2px solid #7C3AED;border-radius:16px;padding:32px;text-align:center;">
+<div class="review-section" id="cta-box" style="background:linear-gradient(135deg,rgba(0,0,0,0.04),rgba(0,0,0,0.02));border:2px solid #0891B2;border-radius:16px;padding:32px;text-align:center;">
   <h4 style="font-size:1.25rem;font-weight:700;margin:0 0 12px 0;color:var(--text-primary);">Try Obsidian AI Free</h4>
   <p style="color:var(--text-secondary);margin:0 0 20px 0;line-height:1.6;">The privacy-first AI note-taking app. Download free, works 100% locally on your device.</p>
-  <a href="https://obsidian.md" rel="nofollow noopener noreferrer" target="_blank" style="display:inline-block;background:#7C3AED;color:white;font-weight:700;padding:14px 28px;border-radius:8px;text-decoration:none;font-size:1rem;">Download Obsidian Free →</a>
+  <a href="https://obsidian.md" rel="nofollow noopener noreferrer" target="_blank" style="display:inline-block;background:#0891B2;color:white;font-weight:700;padding:14px 28px;border-radius:8px;text-decoration:none;font-size:1rem;">Download Obsidian Free →</a>
 </div>
 <h2>Final Verdict</h2>
 <div class="verdict-box">
@@ -916,7 +916,7 @@
         <h4>About the Author</h4>
         <p class="author-title">Kodjo Apedoh — Network Engineer &amp; AI Entrepreneur</p>
         <p>Kodjo is the founder of <strong>TechVernia</strong> and <strong>SankaraShield</strong>, and a Certified Network Security Engineer with 4+ years of experience designing enterprise-grade network solutions. He specializes in network automation with Python, AI tools research, and advanced security implementations. Kodjo personally tests every tool reviewed on TechVernia.</p>
-        <p style="margin-top: var(--space-sm);"><a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" style="color: #A78BFA; text-decoration: none;">→ Connect on LinkedIn</a></p>
+        <p style="margin-top: var(--space-sm);"><a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" style="color: #67E8F9; text-decoration: none;">→ Connect on LinkedIn</a></p>
     </div>
 </div>
 
@@ -1003,7 +1003,7 @@
             </div>
         </div>
         <div class="related-tool">
-            <div class="related-tool-logo" style="background: linear-gradient(135deg, #7C3AED, #A78BFA);">
+            <div class="related-tool-logo" style="background: linear-gradient(135deg, #0891B2, #67E8F9);">
                 <span style="font-size: 0.7rem; font-weight: 800; color: #fff;">NB</span>
             </div>
             <div class="related-tool-info">
@@ -1027,16 +1027,16 @@
         <h3>Top AI Plugins</h3>
         <ul style="list-style: none; padding: 0; font-size: var(--text-sm);">
             <li style="padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
-                <strong style="color: #A78BFA;">Smart Connections</strong><br/>Semantic search + vault chat
+                <strong style="color: #67E8F9;">Smart Connections</strong><br/>Semantic search + vault chat
             </li>
             <li style="padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
-                <strong style="color: #A78BFA;">Copilot for Obsidian</strong><br/>Multi-model AI sidebar
+                <strong style="color: #67E8F9;">Copilot for Obsidian</strong><br/>Multi-model AI sidebar
             </li>
             <li style="padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color); color: var(--text-secondary);">
-                <strong style="color: #A78BFA;">Text Generator</strong><br/>Inline AI writing &amp; templates
+                <strong style="color: #67E8F9;">Text Generator</strong><br/>Inline AI writing &amp; templates
             </li>
             <li style="padding: var(--space-sm) 0; color: var(--text-secondary);">
-                <strong style="color: #A78BFA;">Smart Composer</strong><br/>Context-aware AI editing
+                <strong style="color: #67E8F9;">Smart Composer</strong><br/>Context-aware AI editing
             </li>
         </ul>
     </div>

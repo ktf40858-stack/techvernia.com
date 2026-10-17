@@ -52,7 +52,7 @@ h3 .inline-icon {
     width: 1.3em;
     height: 1.3em;
     stroke: url(#icon-gradient-secondary);
-    filter: drop-shadow(0 0 6px rgba(168, 85, 247, 0.4));
+    filter: drop-shadow(0 0 6px rgba(34, 204, 238, 0.4));
 }
 
 /* Animation au survol des icônes */
@@ -73,7 +73,7 @@ li .inline-icon {
 
 /* Icônes dans les boxes (tip, warning, success) */
 .tip-box .inline-icon {
-    stroke: #8B5CF6;
+    stroke: #22CCEE;
 }
 
 .warning-box .inline-icon {

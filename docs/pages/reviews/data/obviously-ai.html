@@ -24,16 +24,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
 <link href="../../../css/neon-icons.css" rel="stylesheet"/>
 <style>
-.review-hero { padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl); background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, rgba(139, 92, 246, 0.05) 100%); border-bottom: 1px solid var(--border-color); }
+.review-hero { padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl); background: linear-gradient(135deg, rgba(8, 145, 178, 0.1) 0%, rgba(34, 204, 238, 0.05) 100%); border-bottom: 1px solid var(--border-color); }
 .review-hero-content { display: grid; grid-template-columns: auto 1fr auto; gap: var(--space-2xl); align-items: center; }
-.tool-logo-xl { width: 120px; height: 120px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; font-size: 3rem; font-weight: 800; color: white; background: linear-gradient(135deg, #7C3AED, #8B5CF6); box-shadow: 0 20px 40px rgba(124, 58, 237, 0.3); overflow: hidden; }
+.tool-logo-xl { width: 120px; height: 120px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; font-size: 3rem; font-weight: 800; color: white; background: linear-gradient(135deg, #0891B2, #22CCEE); box-shadow: 0 20px 40px rgba(8, 145, 178, 0.3); overflow: hidden; }
 .rating-box { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: var(--space-xl); text-align: center; min-width: 180px; }
-.rating-score { font-size: var(--text-5xl); font-weight: 800; background: linear-gradient(135deg, #7C3AED, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1; }
+.rating-score { font-size: var(--text-5xl); font-weight: 800; background: linear-gradient(135deg, #0891B2, #22CCEE); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1; }
 .rating-stars { color: #F59E0B; font-size: var(--text-xl); margin: var(--space-sm) 0; }
-.feature-card-icon { width: 48px; height: 48px; background: rgba(124, 58, 237, 0.1); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--text-xl); margin-bottom: var(--space-md); }
-.pricing-table .price { font-weight: 700; color: #7C3AED; }
-.verdict-box { background: linear-gradient(135deg, rgba(124, 58, 237, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%); border: 1px solid rgba(124, 58, 237, 0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); margin: var(--space-2xl) 0; }
-.rating-item-fill { height: 100%; background: linear-gradient(90deg, #7C3AED, #8B5CF6); border-radius: var(--radius-full); }
+.feature-card-icon { width: 48px; height: 48px; background: rgba(8, 145, 178, 0.1); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--text-xl); margin-bottom: var(--space-md); }
+.pricing-table .price { font-weight: 700; color: #0891B2; }
+.verdict-box { background: linear-gradient(135deg, rgba(8, 145, 178, 0.1) 0%, rgba(34, 204, 238, 0.1) 100%); border: 1px solid rgba(8, 145, 178, 0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); margin: var(--space-2xl) 0; }
+.rating-item-fill { height: 100%; background: linear-gradient(90deg, #0891B2, #22CCEE); border-radius: var(--radius-full); }
 .review-hero-info h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: var(--space-sm); }
 .review-hero-info .company { color: var(--text-tertiary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
 .review-badges { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
@@ -57,10 +57,10 @@
 .feature-card p { font-size: var(--text-sm); color: var(--text-secondary); margin: 0; }
 .pros-cons-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); margin: var(--space-xl) 0; }
 .pros-box, .cons-box { background: var(--bg-card); border-radius: var(--radius-lg); padding: var(--space-xl); }
-.pros-box { border: 1px solid rgba(124, 58, 237, 0.3); }
+.pros-box { border: 1px solid rgba(8, 145, 178, 0.3); }
 .cons-box { border: 1px solid rgba(239, 68, 68, 0.3); }
 .pros-box h4, .cons-box h4 { display: flex; align-items: center; gap: var(--space-sm); font-size: var(--text-lg); font-weight: 600; margin-bottom: var(--space-lg); }
-.pros-box h4 { color: #7C3AED; }
+.pros-box h4 { color: #0891B2; }
 .cons-box h4 { color: #EF4444; }
 .pricing-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; background: var(--bg-card); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border-color); }
 .pricing-table th, .pricing-table td { padding: var(--space-lg); text-align: left; border-bottom: 1px solid var(--border-color); }
@@ -93,14 +93,14 @@
 .faq-question { padding: var(--space-lg); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 600; }
 .faq-question:hover { background: var(--bg-tertiary); }
 .faq-answer { padding: 0 var(--space-lg) var(--space-lg); color: var(--text-secondary); line-height: 1.7; display: none; }
-.test-section-top { background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(139, 92, 246, 0.1)); border: 2px solid var(--border-color-hover); border-radius: var(--radius-xl); padding: var(--space-2xl); text-align: center; margin-bottom: var(--space-3xl); }
+.test-section-top { background: linear-gradient(135deg, rgba(8, 145, 178, 0.1), rgba(34, 204, 238, 0.1)); border: 2px solid var(--border-color-hover); border-radius: var(--radius-xl); padding: var(--space-2xl); text-align: center; margin-bottom: var(--space-3xl); }
 .test-section-top h2 { margin-top: 0; margin-bottom: var(--space-lg); font-size: var(--text-2xl); }
 .cta-buttons-top { display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap; }
 .cta-buttons-top .btn { min-width: 200px; }
 .author-bio { display: flex; align-items: flex-start; gap: var(--space-lg); background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: var(--space-xl); margin-top: var(--space-2xl); }
 .author-bio img { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
 .author-bio-info .name { font-size: var(--text-base); font-weight: 700; margin-bottom: var(--space-xs); }
-.author-bio-info .title { font-size: var(--text-sm); color: #7C3AED; margin-bottom: var(--space-sm); }
+.author-bio-info .title { font-size: var(--text-sm); color: #0891B2; margin-bottom: var(--space-sm); }
 .author-bio-info p { font-size: var(--text-sm); color: var(--text-secondary); margin: 0; line-height: 1.6; }
 @media (max-width: 1024px) { .review-content { grid-template-columns: 1fr; } .review-sidebar { position: static; } }
 @media (max-width: 768px) { .review-hero-content { grid-template-columns: 1fr; text-align: center; } .tool-logo-xl { margin: 0 auto; } .review-badges { justify-content: center; } .rating-box { margin: 0 auto; } .quick-stats-grid { grid-template-columns: repeat(2, 1fr); } .features-grid, .pros-cons-grid { grid-template-columns: 1fr; } .cta-buttons-top { flex-direction: column; align-items: stretch; } }
@@ -183,7 +183,7 @@
 <div class="review-badges">
 <span class="badge badge-popular">No-Code ML</span>
 <span class="badge badge-new">Predictive AI</span>
-<span class="badge" style="background: rgba(124, 58, 237, 0.1); color: #7C3AED;">Zero Coding</span>
+<span class="badge" style="background: rgba(8, 145, 178, 0.1); color: #0891B2;">Zero Coding</span>
 </div>
 </div>
 <div class="rating-box">
@@ -349,7 +349,7 @@
 <div class="name">Kodjo Apedoh</div>
 <div class="title">AI Tools Reviewer &amp; Tech Writer — TechVernia</div>
 <p>Kodjo covers AI data tools, machine learning platforms, and analytics software at TechVernia. He has tested over 80 AI platforms and focuses on practical, hands-on reviews that help founders and business teams make smarter software decisions. Based in West Africa, he writes for a global audience of builders and data-driven operators.</p>
-<p style="margin-top:0.5rem;"><a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" style="color:#7C3AED; text-decoration:none; font-weight:600;">&#8594; Connect on LinkedIn</a></p>
+<p style="margin-top:0.5rem;"><a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" style="color:#0891B2; text-decoration:none; font-weight:600;">&#8594; Connect on LinkedIn</a></p>
 </div>
 </div>
 </article>
@@ -385,7 +385,7 @@
 <div class="sidebar-card">
 <h3>Compare With</h3>
 <div class="related-tool">
-<div class="related-tool-logo" style="background: linear-gradient(135deg, #7C3AED, #8B5CF6);"><img alt="Rows AI Logo" src="../../../assets/images/logos/rows-ai.png" style="width:100%;height:100%;object-fit:contain;" onerror="this.style.display='none'; this.parentElement.textContent='Ro'"/></div>
+<div class="related-tool-logo" style="background: linear-gradient(135deg, #0891B2, #22CCEE);"><img alt="Rows AI Logo" src="../../../assets/images/logos/rows-ai.png" style="width:100%;height:100%;object-fit:contain;" onerror="this.style.display='none'; this.parentElement.textContent='Ro'"/></div>
 <div class="related-tool-info"><div class="related-tool-name"><a href="rows-ai.html">Rows AI</a></div><div class="related-tool-rating">&#9733; 4.3 - AI Spreadsheet</div></div>
 </div>
 <div class="related-tool">
@@ -404,7 +404,7 @@
 <li style="display:flex;justify-content:space-between;padding:var(--space-sm) 0;border-bottom:1px solid var(--border-color);"><span style="color:var(--text-tertiary);">Founded</span><span style="font-weight:500;">2019</span></li>
 <li style="display:flex;justify-content:space-between;padding:var(--space-sm) 0;border-bottom:1px solid var(--border-color);"><span style="color:var(--text-tertiary);">HQ</span><span style="font-weight:500;">San Francisco, USA</span></li>
 <li style="display:flex;justify-content:space-between;padding:var(--space-sm) 0;border-bottom:1px solid var(--border-color);"><span style="color:var(--text-tertiary);">Country</span><span style="font-weight:500;">&#127482;&#127480; USA</span></li>
-<li style="display:flex;justify-content:space-between;padding:var(--space-sm) 0;"><span style="color:var(--text-tertiary);">Website</span><span style="font-weight:500;color:#7C3AED;">obviously.ai</span></li>
+<li style="display:flex;justify-content:space-between;padding:var(--space-sm) 0;"><span style="color:var(--text-tertiary);">Website</span><span style="font-weight:500;color:#0891B2;">obviously.ai</span></li>
 </ul>
 </div>
 </aside>

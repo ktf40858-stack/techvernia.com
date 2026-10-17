@@ -30,15 +30,15 @@
 
 <link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/reviews/audio/aiva.html"/>
 <style>
-        .review-hero { padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl); background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(109, 40, 217, 0.05) 100%); border-bottom: 1px solid var(--border-color); }
+        .review-hero { padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl); background: linear-gradient(135deg, rgba(34, 204, 238, 0.1) 0%, rgba(109, 40, 217, 0.05) 100%); border-bottom: 1px solid var(--border-color); }
         .review-hero-content { display: grid; grid-template-columns: auto 1fr auto; gap: var(--space-2xl); align-items: center; }
-        .tool-logo-xl { width: 120px; height: 120px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white; background: linear-gradient(135deg, #A855F7, #6D28D9); box-shadow: 0 20px 40px rgba(168, 85, 247, 0.3); }
+        .tool-logo-xl { width: 120px; height: 120px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white; background: linear-gradient(135deg, #22CCEE, #0E7490); box-shadow: 0 20px 40px rgba(34, 204, 238, 0.3); }
         .review-hero-info h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: var(--space-sm); }
         .review-hero-info .company { color: var(--text-tertiary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
         .review-badges { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
         .review-badges .badge { padding: var(--space-xs) var(--space-md); font-size: var(--text-sm); }
         .rating-box { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: var(--space-xl); text-align: center; min-width: 180px; }
-        .rating-score { font-size: var(--text-5xl); font-weight: 800; background: linear-gradient(135deg, #A855F7, #6D28D9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1; }
+        .rating-score { font-size: var(--text-5xl); font-weight: 800; background: linear-gradient(135deg, #22CCEE, #0E7490); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1; }
         .rating-stars { color: #F59E0B; font-size: var(--text-xl); margin: var(--space-sm) 0; }
         .rating-label { font-size: var(--text-sm); color: var(--text-tertiary); }
         .quick-stats { background: var(--bg-secondary); padding: var(--space-lg) 0; border-bottom: 1px solid var(--border-color); }
@@ -72,7 +72,7 @@
         .pricing-table td { padding: var(--space-md); border-bottom: 1px solid var(--border-color); font-size: var(--text-sm); color: var(--text-secondary); }
         .pricing-table tr:last-child td { border-bottom: none; }
         .pricing-table tr:hover td { background: var(--bg-secondary); }
-        .highlight-plan { background: rgba(168,85,247,0.05) !important; }
+        .highlight-plan { background: rgba(34,204,238,0.05) !important; }
         .highlight-plan td { color: var(--text-primary) !important; }
         .comparison-table { width: 100%; border-collapse: collapse; }
         .comparison-table th { background: var(--bg-secondary); padding: var(--space-md); text-align: left; font-weight: 600; font-size: var(--text-sm); border-bottom: 1px solid var(--border-color); }
@@ -81,8 +81,8 @@
         .comparison-table tr:hover td { background: var(--bg-secondary); }
         .check-yes { color: #10B981; font-weight: 700; }
         .check-no { color: #EF4444; }
-        .verdict-box { background: linear-gradient(135deg, rgba(168,85,247,0.1), rgba(109,40,217,0.05)); border: 1px solid rgba(168,85,247,0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); }
-        .verdict-box h3 { font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-md); color: #A855F7; }
+        .verdict-box { background: linear-gradient(135deg, rgba(34,204,238,0.1), rgba(109,40,217,0.05)); border: 1px solid rgba(34,204,238,0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); }
+        .verdict-box h3 { font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-md); color: #22CCEE; }
         .verdict-box p { color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-md); }
         .verdict-box p:last-child { margin-bottom: 0; }
         .sidebar-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: var(--space-xl); }
@@ -91,11 +91,11 @@
         .rating-row { display: flex; align-items: center; gap: var(--space-md); }
         .rating-row-label { font-size: var(--text-sm); color: var(--text-secondary); min-width: 110px; }
         .rating-bar-track { flex: 1; height: 6px; background: var(--bg-secondary); border-radius: 3px; overflow: hidden; }
-        .rating-bar-fill { height: 100%; border-radius: 3px; background: linear-gradient(135deg, #A855F7, #6D28D9); }
+        .rating-bar-fill { height: 100%; border-radius: 3px; background: linear-gradient(135deg, #22CCEE, #0E7490); }
         .rating-row-score { font-size: var(--text-sm); font-weight: 600; min-width: 30px; text-align: right; }
         .toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-sm); }
         .toc-list li a { font-size: var(--text-sm); color: var(--text-secondary); text-decoration: none; padding: var(--space-xs) 0; border-bottom: 1px solid var(--border-color); display: block; }
-        .toc-list li a:hover { color: #A855F7; }
+        .toc-list li a:hover { color: #22CCEE; }
         .toc-list li:last-child a { border-bottom: none; }
         .related-tools { display: flex; flex-direction: column; gap: var(--space-md); }
         .related-tool-link { display: flex; align-items: center; gap: var(--space-md); padding: var(--space-md); background: var(--bg-secondary); border-radius: var(--radius-md); text-decoration: none; color: var(--text-primary); transition: all 0.2s; }
@@ -111,18 +111,18 @@
         .faq-item { border-bottom: 1px solid var(--border-color); }
         .faq-item:last-child { border-bottom: none; }
         .faq-question { width: 100%; background: none; border: none; padding: var(--space-lg) 0; text-align: left; font-size: var(--text-base); font-weight: 600; color: var(--text-primary); cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: var(--space-md); }
-        .faq-question .faq-icon { font-size: var(--text-xl); color: #A855F7; transition: transform 0.3s; flex-shrink: 0; }
+        .faq-question .faq-icon { font-size: var(--text-xl); color: #22CCEE; transition: transform 0.3s; flex-shrink: 0; }
         .faq-question.active .faq-icon { transform: rotate(45deg); }
         .faq-answer { display: none; padding-bottom: var(--space-lg); color: var(--text-secondary); line-height: 1.7; font-size: var(--text-sm); }
         .faq-answer.active { display: block; }
-        .notice-box { background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.3); border-radius: var(--radius-lg); padding: var(--space-lg); margin-bottom: var(--space-xl); }
+        .notice-box { background: rgba(34,204,238,0.08); border: 1px solid rgba(34,204,238,0.3); border-radius: var(--radius-lg); padding: var(--space-lg); margin-bottom: var(--space-xl); }
         .notice-box p { color: var(--text-secondary); font-size: var(--text-sm); margin: 0; line-height: 1.6; }
-        .notice-box strong { color: #A855F7; }
+        .notice-box strong { color: #22CCEE; }
         .highlight-box { background: rgba(109,40,217,0.08); border: 1px solid rgba(109,40,217,0.3); border-radius: var(--radius-lg); padding: var(--space-lg); margin: var(--space-xl) 0; }
         .highlight-box p { color: var(--text-secondary); font-size: var(--text-sm); margin: 0; line-height: 1.6; }
-        .highlight-box strong { color: #6D28D9; }
+        .highlight-box strong { color: #0E7490; }
         .styles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-md); margin: var(--space-lg) 0; }
-        .style-chip { background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.2); border-radius: var(--radius-md); padding: var(--space-sm) var(--space-md); text-align: center; font-size: var(--text-sm); color: var(--text-secondary); }
+        .style-chip { background: rgba(34,204,238,0.08); border: 1px solid rgba(34,204,238,0.2); border-radius: var(--radius-md); padding: var(--space-sm) var(--space-md); text-align: center; font-size: var(--text-sm); color: var(--text-secondary); }
         @media (max-width: 1024px) { .review-grid { grid-template-columns: 1fr; } .review-sidebar { position: static; } }
         @media (max-width: 768px) { .review-hero-content { grid-template-columns: 1fr; text-align: center; } .quick-stats-grid { grid-template-columns: repeat(3, 1fr); } .features-grid { grid-template-columns: 1fr; } .pros-cons-grid { grid-template-columns: 1fr; } .styles-grid { grid-template-columns: 1fr 1fr; } }
 </style>
@@ -141,7 +141,7 @@
       <a class="nav-link" href="../../about.html">About</a>
     </div>
     <div class="nav-actions">
-      <button aria-label="Toggle theme" class="theme-toggle" id="themeToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+      <button aria-label="Toggle theme" class="theme-toggle" id="themeToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
       <button aria-label="Toggle language" class="lang-toggle" id="langToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#06B6D4"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> EN</button>
       <button aria-label="Toggle menu" class="nav-toggle" id="navToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#06B6D4"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
     </div>
@@ -167,15 +167,15 @@
         <div class="review-badges" style="margin-bottom:var(--space-sm);">
           <span class="badge badge-new">AI Composer</span>
           <span class="badge badge-featured">Royalty-Free</span>
-          <span class="badge" style="background:rgba(168,85,247,0.15);color:#A855F7;border:1px solid rgba(168,85,247,0.3);">2026 Updated</span>
+          <span class="badge" style="background:rgba(34,204,238,0.15);color:#22CCEE;border:1px solid rgba(34,204,238,0.3);">2026 Updated</span>
         </div>
         <h1>AIVA Review 2026</h1>
         <p class="company">by AIVA Technologies &nbsp;·&nbsp; AI Music Composition for Film, Games &amp; Content</p>
         <p style="color:var(--text-secondary);max-width:600px;line-height:1.6;">AIVA (Artificial Intelligence Virtual Artist) is a Luxembourg-based AI that composes original, emotionally resonant music across 250+ styles. It was the first AI to be officially recognized as a composer by a music rights society — SACEM in France.</p>
         <div class="review-badges">
           <span class="badge" style="background:rgba(16,185,129,0.1);color:#10B981;border:1px solid rgba(16,185,129,0.3);"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#10B981"><polyline points="20 6 9 17 4 12"/></svg> Free Plan</span>
-          <span class="badge" style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.3);">250+ Styles</span>
-          <span class="badge" style="background:rgba(109,40,217,0.1);color:#6D28D9;border:1px solid rgba(109,40,217,0.3);">MIDI Export</span>
+          <span class="badge" style="background:rgba(34,204,238,0.1);color:#22CCEE;border:1px solid rgba(34,204,238,0.3);">250+ Styles</span>
+          <span class="badge" style="background:rgba(109,40,217,0.1);color:#0E7490;border:1px solid rgba(109,40,217,0.3);">MIDI Export</span>
         </div>
       </div>
       <div class="rating-box">
@@ -191,11 +191,11 @@
 <div class="quick-stats">
   <div class="container">
     <div class="quick-stats-grid">
-      <div class="quick-stat"><div class="quick-stat-value" style="color:#A855F7;">Free</div><div class="quick-stat-label">Starting Plan</div></div>
-      <div class="quick-stat"><div class="quick-stat-value" style="color:#6D28D9;">250+</div><div class="quick-stat-label">Music Styles</div></div>
-      <div class="quick-stat"><div class="quick-stat-value" style="color:#A855F7;">SACEM</div><div class="quick-stat-label">Officially Recognized</div></div>
-      <div class="quick-stat"><div class="quick-stat-value" style="color:#6D28D9;">2016</div><div class="quick-stat-label">Founded</div></div>
-      <div class="quick-stat"><div class="quick-stat-value" style="color:#A855F7;">MIDI + MP3</div><div class="quick-stat-label">Export Formats</div></div>
+      <div class="quick-stat"><div class="quick-stat-value" style="color:#22CCEE;">Free</div><div class="quick-stat-label">Starting Plan</div></div>
+      <div class="quick-stat"><div class="quick-stat-value" style="color:#0E7490;">250+</div><div class="quick-stat-label">Music Styles</div></div>
+      <div class="quick-stat"><div class="quick-stat-value" style="color:#22CCEE;">SACEM</div><div class="quick-stat-label">Officially Recognized</div></div>
+      <div class="quick-stat"><div class="quick-stat-value" style="color:#0E7490;">2016</div><div class="quick-stat-label">Founded</div></div>
+      <div class="quick-stat"><div class="quick-stat-value" style="color:#22CCEE;">MIDI + MP3</div><div class="quick-stat-label">Export Formats</div></div>
     </div>
   </div>
 </div>
@@ -221,7 +221,7 @@
             <div class="style-chip">🎻 Orchestral</div>
             <div class="style-chip"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#EF4444"><path d="M2 12h20"/><path d="M7 12V2"/><path d="M17 12V2"/><path d="M2 7h20"/><rect x="2" y="12" width="20" height="10" rx="2"/></svg> Cinematic</div>
             <div class="style-chip">🎹 Classical</div>
-            <div class="style-chip"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="m11 17.5-5 5a2.12 2.12 0 0 1-3-3l5-5"/><path d="m22 6-4 4-4-4 4-4 4 4z"/><path d="m11 17.5 5.5-5.5"/><path d="m17 11 1.5-1.5"/></svg> Rock</div>
+            <div class="style-chip"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="m11 17.5-5 5a2.12 2.12 0 0 1-3-3l5-5"/><path d="m22 6-4 4-4-4 4-4 4 4z"/><path d="m11 17.5 5.5-5.5"/><path d="m17 11 1.5-1.5"/></svg> Rock</div>
             <div class="style-chip">🎷 Jazz</div>
             <div class="style-chip">🎮 Video Game</div>
             <div class="style-chip"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#F59E0B"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Electronic</div>
@@ -233,9 +233,9 @@
         <div class="review-section" id="features">
           <h2>Key Features</h2>
           <div class="features-grid">
-            <div class="feature-card"><div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><h4>Style-Based Composition</h4><p>Choose from 250+ predefined styles. Adjust mood, tempo, duration, and instrumentation. AIVA generates a full composition in seconds.</p></div>
+            <div class="feature-card"><div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><h4>Style-Based Composition</h4><p>Choose from 250+ predefined styles. Adjust mood, tempo, duration, and instrumentation. AIVA generates a full composition in seconds.</p></div>
             <div class="feature-card"><div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#06B6D4"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></div><h4>Influence Tracks</h4><p>Upload a reference audio track or choose from AIVA's library. The AI analyzes the harmony, rhythm, and instrumentation to compose in a similar style.</p></div>
-            <div class="feature-card"><div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><h4>MIDI Export</h4><p>Export full MIDI files for any composition. Load them into any DAW (Logic, Ableton, FL Studio) to swap instruments, edit notes, and fine-tune the arrangement.</p></div>
+            <div class="feature-card"><div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><h4>MIDI Export</h4><p>Export full MIDI files for any composition. Load them into any DAW (Logic, Ableton, FL Studio) to swap instruments, edit notes, and fine-tune the arrangement.</p></div>
             <div class="feature-card"><div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#06B6D4"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>️</div><h4>Stems Export (Pro)</h4><p>Download individual instrument stems: strings, brass, woodwinds, piano, guitar, drums. Essential for professional post-production workflows.</p></div>
             <div class="feature-card"><div class="feature-icon"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#EF4444"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><h4>Influence Sliders</h4><p>Adjust how closely the generated music follows your reference track. Dial between "Original" (creative freedom) and "Strict" (close reference match).</p></div>
             <div class="feature-card"><div class="feature-icon">⏱️</div><h4>Duration Control</h4><p>Specify exact duration (15 sec to 5+ minutes). AIVA structures the composition with natural intro, development, climax, and resolution phases.</p></div>
@@ -363,7 +363,7 @@
         <div class="sidebar-card">
           <h3>Related Audio Tools</h3>
           <div class="related-tools">
-            <a class="related-tool-link" href="soundraw.html"><div class="related-tool-icon" style="background:linear-gradient(135deg,#F59E0B,#D97706);"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><div class="related-tool-info"><div class="name">Soundraw</div><div class="desc">Customizable AI background music</div></div></a>
+            <a class="related-tool-link" href="soundraw.html"><div class="related-tool-icon" style="background:linear-gradient(135deg,#F59E0B,#D97706);"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><div class="related-tool-info"><div class="name">Soundraw</div><div class="desc">Customizable AI background music</div></div></a>
             <a class="related-tool-link" href="boomy.html"><div class="related-tool-icon" style="background:linear-gradient(135deg,#EC4899,#DB2777);"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#EF4444"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg></div><div class="related-tool-info"><div class="name">Boomy</div><div class="desc">AI songs with streaming revenue</div></div></a>
           </div>
         </div>

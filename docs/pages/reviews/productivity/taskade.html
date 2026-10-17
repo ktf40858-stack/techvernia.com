@@ -30,15 +30,15 @@
 
 <link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/reviews/productivity/taskade.html"/>
 <style>
-        .review-hero { padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl); background: linear-gradient(135deg, rgba(99,102,241,0.1) 0%, rgba(139,92,246,0.05) 100%); border-bottom: 1px solid var(--border-color); }
+        .review-hero { padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl); background: linear-gradient(135deg, rgba(99,102,241,0.1) 0%, rgba(34,204,238,0.05) 100%); border-bottom: 1px solid var(--border-color); }
         .review-hero-content { display: grid; grid-template-columns: auto 1fr auto; gap: var(--space-2xl); align-items: center; }
-        .tool-logo-xl { width: 120px; height: 120px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white; background: linear-gradient(135deg, #6366F1, #8B5CF6); box-shadow: 0 20px 40px rgba(99,102,241,0.3); }
+        .tool-logo-xl { width: 120px; height: 120px; border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; font-size: 3rem; color: white; background: linear-gradient(135deg, #6366F1, #22CCEE); box-shadow: 0 20px 40px rgba(99,102,241,0.3); }
         .review-hero-info h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: var(--space-sm); }
         .review-hero-info .company { color: var(--text-tertiary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
         .review-badges { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
         .review-badges .badge { padding: var(--space-xs) var(--space-md); font-size: var(--text-sm); }
         .rating-box { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: var(--space-xl); text-align: center; min-width: 180px; }
-        .rating-score { font-size: var(--text-5xl); font-weight: 800; background: linear-gradient(135deg, #6366F1, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1; }
+        .rating-score { font-size: var(--text-5xl); font-weight: 800; background: linear-gradient(135deg, #6366F1, #22CCEE); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1; }
         .rating-stars { color: #F59E0B; font-size: var(--text-xl); margin: var(--space-sm) 0; }
         .rating-label { font-size: var(--text-sm); color: var(--text-tertiary); }
         .quick-stats { background: var(--bg-secondary); padding: var(--space-lg) 0; border-bottom: 1px solid var(--border-color); }
@@ -81,7 +81,7 @@
         .comparison-table tr:hover td { background: var(--bg-secondary); }
         .check-yes { color: #10B981; font-weight: 700; }
         .check-no { color: #EF4444; }
-        .verdict-box { background: linear-gradient(135deg, rgba(99,102,241,0.1), rgba(139,92,246,0.05)); border: 1px solid rgba(99,102,241,0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); }
+        .verdict-box { background: linear-gradient(135deg, rgba(99,102,241,0.1), rgba(34,204,238,0.05)); border: 1px solid rgba(99,102,241,0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); }
         .verdict-box h3 { font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-md); color: #6366F1; }
         .verdict-box p { color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-md); }
         .verdict-box p:last-child { margin-bottom: 0; }
@@ -91,7 +91,7 @@
         .rating-row { display: flex; align-items: center; gap: var(--space-md); }
         .rating-row-label { font-size: var(--text-sm); color: var(--text-secondary); min-width: 110px; }
         .rating-bar-track { flex: 1; height: 6px; background: var(--bg-secondary); border-radius: 3px; overflow: hidden; }
-        .rating-bar-fill { height: 100%; border-radius: 3px; background: linear-gradient(135deg, #6366F1, #8B5CF6); }
+        .rating-bar-fill { height: 100%; border-radius: 3px; background: linear-gradient(135deg, #6366F1, #22CCEE); }
         .rating-row-score { font-size: var(--text-sm); font-weight: 600; min-width: 30px; text-align: right; }
         .toc-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-sm); }
         .toc-list li a { font-size: var(--text-sm); color: var(--text-secondary); text-decoration: none; padding: var(--space-xs) 0; border-bottom: 1px solid var(--border-color); display: block; }
@@ -118,9 +118,9 @@
         .notice-box { background: rgba(99,102,241,0.08); border: 1px solid rgba(99,102,241,0.3); border-radius: var(--radius-lg); padding: var(--space-lg); margin-bottom: var(--space-xl); }
         .notice-box p { color: var(--text-secondary); font-size: var(--text-sm); margin: 0; line-height: 1.6; }
         .notice-box strong { color: #6366F1; }
-        .highlight-box { background: rgba(139,92,246,0.08); border: 1px solid rgba(139,92,246,0.3); border-radius: var(--radius-lg); padding: var(--space-lg); margin: var(--space-xl) 0; }
+        .highlight-box { background: rgba(34,204,238,0.08); border: 1px solid rgba(34,204,238,0.3); border-radius: var(--radius-lg); padding: var(--space-lg); margin: var(--space-xl) 0; }
         .highlight-box p { color: var(--text-secondary); font-size: var(--text-sm); margin: 0; line-height: 1.6; }
-        .highlight-box strong { color: #8B5CF6; }
+        .highlight-box strong { color: #22CCEE; }
         @media (max-width: 1024px) { .review-grid { grid-template-columns: 1fr; } .review-sidebar { position: static; } }
         @media (max-width: 768px) { .review-hero-content { grid-template-columns: 1fr; text-align: center; } .quick-stats-grid { grid-template-columns: repeat(3, 1fr); } .features-grid { grid-template-columns: 1fr; } .pros-cons-grid { grid-template-columns: 1fr; } }
 </style>
@@ -139,7 +139,7 @@
       <a class="nav-link" href="../../about.html">About</a>
     </div>
     <div class="nav-actions">
-      <button aria-label="Toggle theme" class="theme-toggle" id="themeToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+      <button aria-label="Toggle theme" class="theme-toggle" id="themeToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
       <button aria-label="Toggle language" class="lang-toggle" id="langToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#06B6D4"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> EN</button>
       <button aria-label="Toggle menu" class="nav-toggle" id="navToggle"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#06B6D4"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
     </div>
@@ -171,7 +171,7 @@
         <div class="review-badges">
           <span class="badge" style="background:rgba(16,185,129,0.1);color:#10B981;border:1px solid rgba(16,185,129,0.3);"><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#10B981"><polyline points="20 6 9 17 4 12"/></svg> Free Plan</span>
           <span class="badge" style="background:rgba(99,102,241,0.1);color:#6366F1;border:1px solid rgba(99,102,241,0.3);">AI Agents</span>
-          <span class="badge" style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.3);">Mind Maps</span>
+          <span class="badge" style="background:rgba(34,204,238,0.1);color:#22CCEE;border:1px solid rgba(34,204,238,0.3);">Mind Maps</span>
         </div>
       </div>
       <div class="rating-box">
@@ -187,9 +187,9 @@
   <div class="container">
     <div class="quick-stats-grid">
       <div class="quick-stat"><div class="quick-stat-value" style="color:#6366F1;">Free</div><div class="quick-stat-label">Starting Plan</div></div>
-      <div class="quick-stat"><div class="quick-stat-value" style="color:#8B5CF6;">AI Agents</div><div class="quick-stat-label">Autonomous Tasks</div></div>
+      <div class="quick-stat"><div class="quick-stat-value" style="color:#22CCEE;">AI Agents</div><div class="quick-stat-label">Autonomous Tasks</div></div>
       <div class="quick-stat"><div class="quick-stat-value" style="color:#6366F1;">6-in-1</div><div class="quick-stat-label">Workspace Views</div></div>
-      <div class="quick-stat"><div class="quick-stat-value" style="color:#8B5CF6;">2019</div><div class="quick-stat-label">Founded</div></div>
+      <div class="quick-stat"><div class="quick-stat-value" style="color:#22CCEE;">2019</div><div class="quick-stat-label">Founded</div></div>
       <div class="quick-stat"><div class="quick-stat-value" style="color:#6366F1;">1M+</div><div class="quick-stat-label">Users</div></div>
     </div>
   </div>

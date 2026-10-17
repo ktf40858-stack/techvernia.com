@@ -28,7 +28,7 @@
 <style>
         .review-hero {
             padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(167, 139, 250, 0.05) 100%);
+            background: linear-gradient(135deg, rgba(34, 204, 238, 0.1) 0%, rgba(103, 232, 249, 0.05) 100%);
             border-bottom: 1px solid var(--border-color);
         }
         .review-hero-content {
@@ -47,8 +47,8 @@
             font-size: 3rem;
             font-weight: 800;
             color: white;
-            background: linear-gradient(135deg, #8B5CF6, #A78BFA);
-            box-shadow: 0 20px 40px rgba(139, 92, 246, 0.3);
+            background: linear-gradient(135deg, #22CCEE, #67E8F9);
+            box-shadow: 0 20px 40px rgba(34, 204, 238, 0.3);
         }
         .tool-logo-xl img { width: 80%; height: 80%; object-fit: contain; }
         .review-hero-info h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: var(--space-sm); }
@@ -66,7 +66,7 @@
         .rating-score {
             font-size: var(--text-5xl);
             font-weight: 800;
-            background: linear-gradient(135deg, #8B5CF6, #A78BFA);
+            background: linear-gradient(135deg, #22CCEE, #67E8F9);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             line-height: 1;
@@ -92,7 +92,7 @@
         .review-main li { color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-sm); }
         .features-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); margin: var(--space-xl) 0; }
         .feature-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); }
-        .feature-card-icon { width: 48px; height: 48px; background: rgba(139, 92, 246, 0.1); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--text-xl); margin-bottom: var(--space-md); }
+        .feature-card-icon { width: 48px; height: 48px; background: rgba(34, 204, 238, 0.1); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-size: var(--text-xl); margin-bottom: var(--space-md); }
         .feature-card h4 { font-size: var(--text-md); font-weight: 600; margin-bottom: var(--space-sm); }
         .feature-card p { font-size: var(--text-sm); color: var(--text-secondary); margin: 0; }
         .pros-cons-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); margin: var(--space-xl) 0; }
@@ -107,12 +107,12 @@
         .pricing-table th { background: var(--bg-tertiary); font-weight: 600; color: var(--text-primary); }
         .pricing-table td { color: var(--text-secondary); }
         .pricing-table .plan-name { font-weight: 600; color: var(--text-primary); }
-        .pricing-table .price { font-weight: 700; color: #8B5CF6; }
+        .pricing-table .price { font-weight: 700; color: #22CCEE; }
         .comparison-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); overflow: hidden; }
         .comparison-table th, .comparison-table td { padding: var(--space-md); text-align: left; border-bottom: 1px solid var(--border-color); }
         .comparison-table th { background: var(--bg-tertiary); font-weight: 600; color: var(--text-primary); }
         .comparison-table tr:last-child td { border-bottom: none; }
-        .verdict-box { background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(167, 139, 250, 0.1) 100%); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); margin: var(--space-2xl) 0; }
+        .verdict-box { background: linear-gradient(135deg, rgba(34, 204, 238, 0.1) 0%, rgba(103, 232, 249, 0.1) 100%); border: 1px solid rgba(34, 204, 238, 0.3); border-radius: var(--radius-xl); padding: var(--space-2xl); margin: var(--space-2xl) 0; }
         .verdict-box h3 { font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-md); color: var(--text-primary); }
         .verdict-box p { font-size: var(--text-md); margin: 0 0 var(--space-md); }
         .review-sidebar { position: sticky; top: 100px; }
@@ -124,7 +124,7 @@
         .rating-item { display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-md); }
         .rating-item-label { flex: 1; font-size: var(--text-sm); color: var(--text-secondary); }
         .rating-item-bar { width: 100px; height: 8px; background: var(--bg-tertiary); border-radius: var(--radius-full); overflow: hidden; }
-        .rating-item-fill { height: 100%; background: linear-gradient(90deg, #8B5CF6, #A78BFA); border-radius: var(--radius-full); }
+        .rating-item-fill { height: 100%; background: linear-gradient(90deg, #22CCEE, #67E8F9); border-radius: var(--radius-full); }
         .rating-item-score { font-size: var(--text-sm); font-weight: 600; color: var(--text-primary); min-width: 30px; }
         .toc-list { list-style: none; padding: 0; }
         .toc-list li { margin-bottom: var(--space-sm); }
@@ -140,11 +140,11 @@
         .faq-question { padding: var(--space-lg); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 600; }
         .faq-question:hover { background: var(--bg-tertiary); }
         .faq-answer { padding: 0 var(--space-lg) var(--space-lg); color: var(--text-secondary); line-height: 1.7; display: none; }
-        .test-section-top { background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(167, 139, 250, 0.1)); border: 2px solid var(--border-color-hover); border-radius: var(--radius-xl); padding: var(--space-2xl); text-align: center; margin-bottom: var(--space-3xl); }
+        .test-section-top { background: linear-gradient(135deg, rgba(34, 204, 238, 0.1), rgba(103, 232, 249, 0.1)); border: 2px solid var(--border-color-hover); border-radius: var(--radius-xl); padding: var(--space-2xl); text-align: center; margin-bottom: var(--space-3xl); }
         .test-section-top h2 { margin-top: 0; margin-bottom: var(--space-lg); font-size: var(--text-2xl); }
         .cta-buttons-top { display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap; }
         .cta-buttons-top .btn { min-width: 200px; }
-        .highlight-box { background: rgba(139, 92, 246, 0.08); border: 1px solid rgba(139, 92, 246, 0.25); border-radius: var(--radius-lg); padding: var(--space-lg); margin: var(--space-xl) 0; }
+        .highlight-box { background: rgba(34, 204, 238, 0.08); border: 1px solid rgba(34, 204, 238, 0.25); border-radius: var(--radius-lg); padding: var(--space-lg); margin: var(--space-xl) 0; }
         .highlight-box p { margin: 0; color: var(--text-secondary); font-size: var(--text-sm); }
         @media (max-width: 1024px) { .review-content { grid-template-columns: 1fr; } .review-sidebar { position: static; } }
         @media (max-width: 768px) {
@@ -247,7 +247,7 @@
 <div class="review-badges">
 <span class="badge badge-success">Free Tier</span>
 <span class="badge badge-popular">$85M+ ARR</span>
-<span class="badge" style="background: rgba(139, 92, 246, 0.1); color: #8B5CF6;">Pikaffects</span>
+<span class="badge" style="background: rgba(34, 204, 238, 0.1); color: #22CCEE;">Pikaffects</span>
 </div>
 </div>
 <div class="rating-box">
@@ -294,7 +294,7 @@
 <p>Perhaps most importantly, Pika maintains a free tier with 80 monthly credits and no watermark on outputs — making it one of the most accessible professional AI video tools available. Commercial use is permitted on all paid plans, and the $8/month Standard plan represents exceptional value for content creators.</p>
 
 <div class="highlight-box">
-<p><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#8B5CF6"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg> <strong>Growth Milestone:</strong> Pika reached $85M+ in annualized recurring revenue in 2026, making it one of the fastest-growing AI companies ever. Models Pika 2.1 and 2.2 were released in succession, each bringing significant quality improvements.</p>
+<p><svg class="neon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#22CCEE"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg> <strong>Growth Milestone:</strong> Pika reached $85M+ in annualized recurring revenue in 2026, making it one of the fastest-growing AI companies ever. Models Pika 2.1 and 2.2 were released in succession, each bringing significant quality improvements.</p>
 </div>
 
 <h2 id="features">Key Features</h2>

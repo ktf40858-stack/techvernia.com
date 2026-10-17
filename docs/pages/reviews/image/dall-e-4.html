@@ -56,10 +56,10 @@
 <style>
   /* Tool accent color: #6366F1 indigo */
   .tool-accent { color: #6366F1; }
-  .tool-gradient { background: linear-gradient(135deg, #6366F1, #8B5CF6); }
-  .hero-section { padding: 120px 0 60px; background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, rgba(139,92,246,0.04) 100%); border-bottom: 1px solid var(--border-color); }
-  .tool-logo-xl { width: 100px; height: 100px; border-radius: 20px; background: linear-gradient(135deg, #6366F1, #8B5CF6); display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: 900; color: white; box-shadow: 0 20px 40px rgba(99,102,241,0.3); flex-shrink: 0; }
-  .rating-badge { background: linear-gradient(135deg, #6366F1, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3rem; font-weight: 800; line-height: 1; }
+  .tool-gradient { background: linear-gradient(135deg, #6366F1, #22CCEE); }
+  .hero-section { padding: 120px 0 60px; background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, rgba(34,204,238,0.04) 100%); border-bottom: 1px solid var(--border-color); }
+  .tool-logo-xl { width: 100px; height: 100px; border-radius: 20px; background: linear-gradient(135deg, #6366F1, #22CCEE); display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: 900; color: white; box-shadow: 0 20px 40px rgba(99,102,241,0.3); flex-shrink: 0; }
+  .rating-badge { background: linear-gradient(135deg, #6366F1, #22CCEE); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3rem; font-weight: 800; line-height: 1; }
   .review-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 32px; margin-bottom: 24px; }
   .review-section h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 16px; }
   .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -76,7 +76,7 @@
   .rating-bar { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
   .rating-bar-label { width: 140px; font-size: 0.85rem; color: var(--text-secondary); }
   .rating-bar-track { flex: 1; height: 6px; background: var(--bg-secondary); border-radius: 3px; overflow: hidden; }
-  .rating-bar-fill { height: 100%; background: linear-gradient(90deg, #6366F1, #8B5CF6); border-radius: 3px; }
+  .rating-bar-fill { height: 100%; background: linear-gradient(90deg, #6366F1, #22CCEE); border-radius: 3px; }
   .faq-item { border-bottom: 1px solid var(--border-color); }
   .faq-question { width: 100%; text-align: left; padding: 16px 0; font-weight: 600; cursor: pointer; background: none; border: none; color: var(--text-primary); display: flex; justify-content: space-between; align-items: center; font-size: 1rem; }
   .faq-answer { max-height: 0; overflow: hidden; color: var(--text-secondary); font-size: 0.9rem; line-height: 1.7; }
@@ -84,7 +84,7 @@
   .score-inner { width: 80px; height: 80px; border-radius: 50%; background: var(--bg-card); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; font-weight: 800; }
 
   /* Hero layout */
-  .review-hero { padding: calc(80px + var(--space-4xl, 3rem)) 0 var(--space-3xl, 2rem); background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, rgba(139,92,246,0.04) 100%); border-bottom: 1px solid var(--border-color); }
+  .review-hero { padding: calc(80px + var(--space-4xl, 3rem)) 0 var(--space-3xl, 2rem); background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, rgba(34,204,238,0.04) 100%); border-bottom: 1px solid var(--border-color); }
   .review-hero-content { display: grid; grid-template-columns: auto 1fr auto; gap: 2rem; align-items: center; }
   .review-hero-info h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: 0.5rem; }
   .company { color: var(--text-tertiary); font-size: 1.1rem; margin-bottom: 1rem; }
@@ -94,7 +94,7 @@
   .badge-api { background: rgba(99,102,241,0.15); color: #6366F1; }
   .badge-plus { background: rgba(245,158,11,0.15); color: #F59E0B; }
   .rating-box { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 1.5rem; text-align: center; min-width: 160px; }
-  .rating-score { font-size: 3rem; font-weight: 800; background: linear-gradient(135deg, #6366F1, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1; }
+  .rating-score { font-size: 3rem; font-weight: 800; background: linear-gradient(135deg, #6366F1, #22CCEE); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1; }
   .rating-stars { color: #F59E0B; font-size: 1.2rem; margin: 0.5rem 0; }
   .rating-label { font-size: 0.8rem; color: var(--text-tertiary); }
   .quick-stats { background: var(--bg-secondary); padding: 1.25rem 0; border-bottom: 1px solid var(--border-color); }
@@ -145,7 +145,7 @@
   .highlight-col { font-weight: 600; color: #6366F1; }
 
   /* Verdict box */
-  .verdict-box { background: linear-gradient(135deg, rgba(99,102,241,0.08), rgba(139,92,246,0.08)); border: 1px solid rgba(99,102,241,0.3); border-radius: 16px; padding: 2rem; margin: 2rem 0; }
+  .verdict-box { background: linear-gradient(135deg, rgba(99,102,241,0.08), rgba(34,204,238,0.08)); border: 1px solid rgba(99,102,241,0.3); border-radius: 16px; padding: 2rem; margin: 2rem 0; }
   .verdict-box h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.75rem; color: #6366F1; }
   .verdict-box p { margin: 0 0 0.75rem; color: var(--text-secondary); }
   .verdict-box p:last-child { margin-bottom: 0; }
@@ -171,7 +171,7 @@
   .rating-item { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; }
   .rating-item-label { flex: 1; font-size: 0.82rem; color: var(--text-secondary); }
   .rating-item-bar { width: 80px; height: 6px; background: var(--bg-secondary); border-radius: 3px; overflow: hidden; }
-  .rating-item-fill { height: 100%; background: linear-gradient(90deg, #6366F1, #8B5CF6); border-radius: 3px; }
+  .rating-item-fill { height: 100%; background: linear-gradient(90deg, #6366F1, #22CCEE); border-radius: 3px; }
   .rating-item-score { font-size: 0.82rem; font-weight: 600; color: var(--text-primary); min-width: 28px; }
   .toc-list { list-style: none; padding: 0; }
   .toc-list li { margin-bottom: 0.5rem; }
@@ -191,7 +191,7 @@
   .highlight-box p { margin: 0; color: var(--text-secondary); font-size: 0.875rem; }
 
   /* CTA section */
-  .cta-section { background: linear-gradient(135deg, rgba(99,102,241,0.1), rgba(139,92,246,0.1)); border: 2px solid rgba(99,102,241,0.4); border-radius: 16px; padding: 2rem; text-align: center; margin: 2rem 0; }
+  .cta-section { background: linear-gradient(135deg, rgba(99,102,241,0.1), rgba(34,204,238,0.1)); border: 2px solid rgba(99,102,241,0.4); border-radius: 16px; padding: 2rem; text-align: center; margin: 2rem 0; }
   .cta-section h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem; }
   .cta-section p { color: var(--text-secondary); margin-bottom: 1.25rem; }
   .cta-buttons-row { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
@@ -393,27 +393,27 @@
 
 <div class="rating-bar" style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
   <span class="rating-bar-label">Image Quality</span>
-  <div class="rating-bar-track" style="flex:1; height:6px; background:var(--bg-secondary); border-radius:3px; overflow:hidden;"><div class="rating-bar-fill" style="width:95%; height:100%; background:linear-gradient(90deg,#6366F1,#8B5CF6); border-radius:3px;"></div></div>
+  <div class="rating-bar-track" style="flex:1; height:6px; background:var(--bg-secondary); border-radius:3px; overflow:hidden;"><div class="rating-bar-fill" style="width:95%; height:100%; background:linear-gradient(90deg,#6366F1,#22CCEE); border-radius:3px;"></div></div>
   <span style="font-weight:600; color:var(--text-primary); min-width:36px;">95%</span>
 </div>
 <div class="rating-bar" style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
   <span class="rating-bar-label">Text Rendering</span>
-  <div class="rating-bar-track" style="flex:1; height:6px; background:var(--bg-secondary); border-radius:3px; overflow:hidden;"><div class="rating-bar-fill" style="width:90%; height:100%; background:linear-gradient(90deg,#6366F1,#8B5CF6); border-radius:3px;"></div></div>
+  <div class="rating-bar-track" style="flex:1; height:6px; background:var(--bg-secondary); border-radius:3px; overflow:hidden;"><div class="rating-bar-fill" style="width:90%; height:100%; background:linear-gradient(90deg,#6366F1,#22CCEE); border-radius:3px;"></div></div>
   <span style="font-weight:600; color:var(--text-primary); min-width:36px;">90%</span>
 </div>
 <div class="rating-bar" style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
   <span class="rating-bar-label">Prompt Adherence</span>
-  <div class="rating-bar-track" style="flex:1; height:6px; background:var(--bg-secondary); border-radius:3px; overflow:hidden;"><div class="rating-bar-fill" style="width:92%; height:100%; background:linear-gradient(90deg,#6366F1,#8B5CF6); border-radius:3px;"></div></div>
+  <div class="rating-bar-track" style="flex:1; height:6px; background:var(--bg-secondary); border-radius:3px; overflow:hidden;"><div class="rating-bar-fill" style="width:92%; height:100%; background:linear-gradient(90deg,#6366F1,#22CCEE); border-radius:3px;"></div></div>
   <span style="font-weight:600; color:var(--text-primary); min-width:36px;">92%</span>
 </div>
 <div class="rating-bar" style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
   <span class="rating-bar-label">Speed</span>
-  <div class="rating-bar-track" style="flex:1; height:6px; background:var(--bg-secondary); border-radius:3px; overflow:hidden;"><div class="rating-bar-fill" style="width:80%; height:100%; background:linear-gradient(90deg,#6366F1,#8B5CF6); border-radius:3px;"></div></div>
+  <div class="rating-bar-track" style="flex:1; height:6px; background:var(--bg-secondary); border-radius:3px; overflow:hidden;"><div class="rating-bar-fill" style="width:80%; height:100%; background:linear-gradient(90deg,#6366F1,#22CCEE); border-radius:3px;"></div></div>
   <span style="font-weight:600; color:var(--text-primary); min-width:36px;">80%</span>
 </div>
 <div class="rating-bar" style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
   <span class="rating-bar-label">Value for Money</span>
-  <div class="rating-bar-track" style="flex:1; height:6px; background:var(--bg-secondary); border-radius:3px; overflow:hidden;"><div class="rating-bar-fill" style="width:85%; height:100%; background:linear-gradient(90deg,#6366F1,#8B5CF6); border-radius:3px;"></div></div>
+  <div class="rating-bar-track" style="flex:1; height:6px; background:var(--bg-secondary); border-radius:3px; overflow:hidden;"><div class="rating-bar-fill" style="width:85%; height:100%; background:linear-gradient(90deg,#6366F1,#22CCEE); border-radius:3px;"></div></div>
   <span style="font-weight:600; color:var(--text-primary); min-width:36px;">85%</span>
 </div>
 
@@ -771,7 +771,7 @@ Editorial &amp; Blog Content
 <div class="sidebar-card">
 <h3>Compare With</h3>
 <div class="related-tool">
-<div class="related-tool-logo" style="background: linear-gradient(135deg, #EC4899, #8B5CF6);">MJ</div>
+<div class="related-tool-logo" style="background: linear-gradient(135deg, #EC4899, #22CCEE);">MJ</div>
 <div class="related-tool-info">
 <div class="related-tool-name"><a href="midjourney.html">Midjourney v7</a></div>
 <div class="related-tool-rating">&#9733; 4.9 &mdash; Best Artistic Style</div>

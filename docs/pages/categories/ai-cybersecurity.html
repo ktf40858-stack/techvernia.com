@@ -28,7 +28,7 @@
 <style>
         .category-hero {
             padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
-            background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(8, 145, 178, 0.1) 100%);
             border-bottom: 1px solid var(--border-color);
         }
         .category-hero-content {
@@ -40,7 +40,7 @@
         .category-icon-large {
             width: 120px;
             height: 120px;
-            background: linear-gradient(135deg, #EF4444 0%, #7C3AED 100%);
+            background: linear-gradient(135deg, #EF4444 0%, #0891B2 100%);
             border-radius: var(--radius-xl);
             display: flex;
             align-items: center;
@@ -69,7 +69,7 @@
         .category-stat-number {
             font-size: var(--text-3xl);
             font-weight: 800;
-            background: linear-gradient(135deg, #EF4444, #7C3AED);
+            background: linear-gradient(135deg, #EF4444, #0891B2);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -97,7 +97,7 @@
         }
         .subcategory-tag:hover,
         .subcategory-tag.active {
-            background: linear-gradient(135deg, #EF4444, #7C3AED);
+            background: linear-gradient(135deg, #EF4444, #0891B2);
             border-color: transparent;
             color: white;
         }
@@ -127,7 +127,7 @@
             left: 0;
             right: 0;
             height: 3px;
-            background: linear-gradient(90deg, #EF4444, #7C3AED);
+            background: linear-gradient(90deg, #EF4444, #0891B2);
             opacity: 0;
             transition: opacity var(--transition-fast);
         }
@@ -158,14 +158,14 @@
         }
         .tool-logo-cyber.darktrace { background: url('../../images/logos/cybersecurity/darktrace.png') center/contain no-repeat, linear-gradient(135deg, #F97316, #EA580C); }
         .tool-logo-cyber.crowdstrike { background: url('../../images/logos/cybersecurity/crowdstrike.png') center/contain no-repeat, linear-gradient(135deg, #EF4444, #DC2626); }
-        .tool-logo-cyber.sentinelone { background: url('../../images/logos/cybersecurity/sentinelone.png') center/contain no-repeat, linear-gradient(135deg, #8B5CF6, #7C3AED); }
+        .tool-logo-cyber.sentinelone { background: url('../../images/logos/cybersecurity/sentinelone.png') center/contain no-repeat, linear-gradient(135deg, #22CCEE, #0891B2); }
         .tool-logo-cyber.splunk { background: url('../../images/logos/cybersecurity/splunk.png') center/contain no-repeat, linear-gradient(135deg, #84CC16, #65A30D); }
         .tool-logo-cyber.microsoft { background: url('../../images/logos/cybersecurity/microsoft.png') center/contain no-repeat, linear-gradient(135deg, #0EA5E9, #0284C7); }
         .tool-logo-cyber.paloalto { background: url('../../images/logos/cybersecurity/paloalto.png') center/contain no-repeat, linear-gradient(135deg, #F59E0B, #D97706); }
         .tool-logo-cyber.fortinet { background: url('../../images/logos/cybersecurity/fortinet.png') center/contain no-repeat, linear-gradient(135deg, #EF4444, #B91C1C); }
         .tool-logo-cyber.cisco { background: url('../../images/logos/cybersecurity/cisco.png') center/contain no-repeat, linear-gradient(135deg, #06B6D4, #0891B2); }
         .tool-logo-cyber.tenable { background: url('../../images/logos/cybersecurity/tenable.png') center/contain no-repeat, linear-gradient(135deg, #3B82F6, #2563EB); }
-        .tool-logo-cyber.snyk { background: url('../../images/logos/cybersecurity/snyk.png') center/contain no-repeat, linear-gradient(135deg, #A855F7, #9333EA); }
+        .tool-logo-cyber.snyk { background: url('../../images/logos/cybersecurity/snyk.png') center/contain no-repeat, linear-gradient(135deg, #22CCEE, #0891B2); }
         .tool-logo-cyber.okta { background: url('../../images/logos/cybersecurity/okta.png') center/contain no-repeat, linear-gradient(135deg, #3B82F6, #1D4ED8); }
         .tool-logo-cyber.vectra { background: url('../../images/logos/cybersecurity/vectra.png') center/contain no-repeat, linear-gradient(135deg, #10B981, #059669); }
         .tool-logo-cyber.abnormal { background: url('../../images/logos/cybersecurity/abnormal.png') center/contain no-repeat, linear-gradient(135deg, #EC4899, #DB2777); }
@@ -483,6 +483,18 @@
 <p data-i18n="cyber.section.threat.desc">AI-powered security information and event management platforms</p>
 </div>
 <div class="tools-grid">
+<a class="tool-card" href="../reviews/cybersecurity/lacework.html">
+<div class="tool-logo"><img alt="Lacework" src="../../assets/images/logos/lacework.png" style="width: 64px; height: 64px; object-fit: contain;" onerror="this.style.display='none'"/></div>
+<h3>Lacework</h3>
+<div class="tool-country"><span class="country-flag">🇺🇸</span><span class="country-name">United States</span></div>
+<div class="tool-meta"><span>Cloud Security Platform</span></div>
+</a>
+<a class="tool-card" href="../reviews/cybersecurity/cisco-securex.html">
+<div class="tool-logo"><img alt="Cisco SecureX" src="../../assets/images/logos/cisco-securex.png" style="width: 64px; height: 64px; object-fit: contain;" onerror="this.style.display='none'"/></div>
+<h3>Cisco SecureX</h3>
+<div class="tool-country"><span class="country-flag">🇺🇸</span><span class="country-name">United States</span></div>
+<div class="tool-meta"><span>Unified Security Platform</span></div>
+</a>
 <a class="tool-card" href="../reviews/cybersecurity/crowdstrike.html">
 <div class="tool-logo">
 <img alt="CrowdStrike" src="../../assets/images/logos/crowdstrike.png" style="width: 48px; height: 48px; object-fit: contain;"/>

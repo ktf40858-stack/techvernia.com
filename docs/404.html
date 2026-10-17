@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, follow">
+<title>Page not found | TechVernia</title>
+<script>
+  // Old language URLs (/fr/pages/x.html) now live at the English address (/pages/x.html)
+  (function () {
+    var m = location.pathname.match(/^\/(fr|es|de|pt|zh|ja|ko|ar|hi)(\/.*)?$/);
+    if (m) {
+      var lang = m[1];
+      var rest = m[2] && m[2] !== '/' ? m[2] : '/';
+      var sep = location.search ? '&' : '?';
+      location.replace(rest + location.search + sep + 'lang=' + lang + location.hash);
+    }
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/home.css">
+<link rel="icon" type="image/webp" href="/assets/images/brand/techvernia-mark.webp">
+<style>
+  .nf { min-height: calc(100vh - 64px); display: grid; place-items: center; padding: 96px 0; text-align: center; }
+  .nf .code { font: 500 13px var(--body); letter-spacing: .2em; color: var(--accent); }
+  .nf h1 { margin: 20px 0 16px; }
+  .nf p { color: var(--text-2); max-width: 460px; margin: 0 auto 36px; }
+  .nf .stack { justify-content: center; }
+</style>
+</head>
+<body>
+<nav class="nav"><div class="w">
+  <a class="logo" href="/" aria-label="TechVernia — home"><img class="mk" src="/assets/images/brand/techvernia-mark.webp" alt=""><img class="wm" src="/assets/images/brand/techvernia-wordmark.webp" alt="TechVernia"></a>
+  <div class="nav-links"><a href="/pages/categories.html">Tools</a><a href="/pages/comparisons.html">Compare</a><a href="/pages/guides.html">Guides</a><a href="/pages/blog.html">News</a><a href="/pages/about.html">About</a></div>
+</div></nav>
+<main class="w nf">
+  <div>
+    <div class="code">ERROR 404</div>
+    <h1 class="d-l">This page moved or never existed.</h1>
+    <p>The review you were looking for may have a new address. Start from the tools directory or the latest news.</p>
+    <div class="stack"><a class="pill pill-solid caps" href="/pages/categories.html">Browse tools <span class="ar">→</span></a><a class="pill pill-line caps" href="/">Home</a></div>
+  </div>
+</main>
+</body>
+</html>

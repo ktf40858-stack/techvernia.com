@@ -206,7 +206,7 @@
 }
 
 .glitch-effect::after {
-    color: #A855F7;
+    color: #22CCEE;
     clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
 }
 
@@ -223,7 +223,7 @@
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, #00D9FF 0%, #00FFF0 50%, #A855F7 100%);
+    background: linear-gradient(135deg, #00D9FF 0%, #00FFF0 50%, #22CCEE 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -231,7 +231,7 @@
 }
 
 .gradient-text-alt {
-    background: linear-gradient(135deg, #A855F7 0%, #00D9FF 50%, #F472B6 100%);
+    background: linear-gradient(135deg, #22CCEE 0%, #00D9FF 50%, #F472B6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -258,7 +258,7 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, #00D9FF, #A855F7, transparent);
+    background: linear-gradient(90deg, transparent, #00D9FF, #22CCEE, transparent);
 }
 
 @keyframes underlineSlide {
@@ -318,7 +318,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(168, 85, 247, 0.2));
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(34, 204, 238, 0.2));
     border-radius: 12px;
     color: #00D9FF;
 }
@@ -335,7 +335,7 @@
 .stat-number {
     font-size: 2rem;
     font-weight: 800;
-    background: linear-gradient(135deg, #00D9FF 0%, #A855F7 100%);
+    background: linear-gradient(135deg, #00D9FF 0%, #22CCEE 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -759,7 +759,7 @@
     left: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(90deg, #00D9FF, #A855F7);
+    background: linear-gradient(90deg, #00D9FF, #22CCEE);
     opacity: 0;
     transition: opacity 0.3s ease;
 }
@@ -783,7 +783,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(168, 85, 247, 0.2));
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(34, 204, 238, 0.2));
     border-radius: 16px;
     margin-bottom: 1.5rem;
     transition: var(--t-ui);
@@ -798,7 +798,7 @@
 @media (hover: hover) and (pointer: fine) {
 .featured-cat-card:hover .cat-card-icon {
     transform: scale(1.04);
-    background: linear-gradient(135deg, rgba(0, 217, 255, 0.4), rgba(168, 85, 247, 0.4));
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.4), rgba(34, 204, 238, 0.4));
 }
 }
 
@@ -915,11 +915,11 @@
 
 .badge {
     padding: 0.25rem 0.75rem;
-    background: rgba(168, 85, 247, 0.2);
-    border: 1px solid rgba(168, 85, 247, 0.4);
+    background: rgba(34, 204, 238, 0.2);
+    border: 1px solid rgba(34, 204, 238, 0.4);
     border-radius: 12px;
     font-size: 0.75rem;
-    color: #A855F7;
+    color: #22CCEE;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -1020,7 +1020,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(0, 217, 255, 0.1), rgba(168, 85, 247, 0.1));
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.1), rgba(34, 204, 238, 0.1));
     border-radius: 16px;
 }
 
@@ -1057,7 +1057,7 @@
 /* Tool Spotlight */
 .spotlight-section {
     padding: 3rem 0 2rem;
-    background: linear-gradient(180deg, transparent 0%, rgba(168, 85, 247, 0.05) 50%, transparent 100%);
+    background: linear-gradient(180deg, transparent 0%, rgba(34, 204, 238, 0.05) 50%, transparent 100%);
 }
 
 .spotlight-container {
@@ -1069,7 +1069,7 @@
 .spotlight-badge {
     display: inline-block;
     padding: 0.5rem 1.5rem;
-    background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(168, 85, 247, 0.2));
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(34, 204, 238, 0.2));
     border: 1px solid rgba(0, 217, 255, 0.4);
     border-radius: 50px;
     font-size: 0.875rem;
@@ -1246,14 +1246,14 @@
 .why-item:hover {
     transform: translateY(-2px);
     background: rgba(255, 255, 255, 0.05);
-    border-color: rgba(168, 85, 247, 0.3);
+    border-color: rgba(34, 204, 238, 0.3);
 }
 }
 
 .why-number {
     font-size: 3rem;
     font-weight: 800;
-    background: linear-gradient(135deg, rgba(0, 217, 255, 0.3), rgba(168, 85, 247, 0.3));
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.3), rgba(34, 204, 238, 0.3));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1284,7 +1284,7 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 4rem;
-    background: linear-gradient(135deg, rgba(0, 217, 255, 0.1), rgba(168, 85, 247, 0.1));
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.1), rgba(34, 204, 238, 0.1));
     border: 1px solid rgba(0, 217, 255, 0.3);
     border-radius: 24px;
     text-align: center;
@@ -1371,7 +1371,7 @@
 
 .logos-showcase-section {
     padding: 6rem 0;
-    background: linear-gradient(180deg, rgba(168, 85, 247, 0.03) 0%, transparent 50%, rgba(0, 217, 255, 0.03) 100%);
+    background: linear-gradient(180deg, rgba(34, 204, 238, 0.03) 0%, transparent 50%, rgba(0, 217, 255, 0.03) 100%);
     position: relative;
     overflow: hidden;
 }
@@ -1537,7 +1537,7 @@
 .stat-dashboard-item {
     position: relative;
     padding: 2.5rem;
-    background: linear-gradient(135deg, rgba(0, 217, 255, 0.05), rgba(168, 85, 247, 0.05));
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.05), rgba(34, 204, 238, 0.05));
     border: 1px solid rgba(0, 217, 255, 0.2);
     border-radius: 20px;
     display: flex;
@@ -1554,7 +1554,7 @@
     left: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(90deg, #00D9FF, #A855F7, #F472B6);
+    background: linear-gradient(90deg, #00D9FF, #22CCEE, #F472B6);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.4s ease;
@@ -1580,7 +1580,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(168, 85, 247, 0.2));
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(34, 204, 238, 0.2));
     border-radius: 16px;
     flex-shrink: 0;
     position: relative;
@@ -1613,7 +1613,7 @@
     font-size: 3rem;
     font-weight: 800;
     line-height: 1;
-    background: linear-gradient(135deg, #00D9FF 0%, #A855F7 100%);
+    background: linear-gradient(135deg, #00D9FF 0%, #22CCEE 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
