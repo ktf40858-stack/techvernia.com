@@ -972,6 +972,8 @@ function getLumen5Translation(key, lang) {
 }
 
 function applyLumen5Translations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
     let count = 0;
     document.querySelectorAll('[data-i18n]').forEach(element => {

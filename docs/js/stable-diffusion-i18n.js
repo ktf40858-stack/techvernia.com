@@ -3372,6 +3372,8 @@ function getStableDiffusionTranslation(key, lang) {
 
 // Appliquer les traductions stable-diffusion
 function applyStableDiffusionTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
 
     let count = 0;

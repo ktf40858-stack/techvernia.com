@@ -2253,6 +2253,8 @@ function getAdobeFireflyTranslation(key, lang) {
 
 // Appliquer les traductions adobe-firefly
 function applyAdobeFireflyTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
 
     let count = 0;

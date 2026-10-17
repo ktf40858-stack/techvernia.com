@@ -365,7 +365,7 @@
 
 <h2 id="overview">Overview</h2>
 <p>Zed is a next-generation code editor built in Rust, designed from the ground up for performance, AI integration, and real-time collaboration. Founded by the creators of Atom (GitHub's retired editor) and Tree-sitter (the fast parsing library), Zed brings deep technical expertise to building what they believe is the future of code editing. Unlike VS Code (built on web technologies), Zed's Rust architecture makes it dramatically faster — startup in milliseconds, zero lag scrolling through large files, instant search across massive codebases.</p>
-<p>Zed's AI integration goes beyond simple code completion. The editor includes a built-in AI assistant panel that understands your full codebase context, lets you have extended conversations about code, and can make coordinated multi-file edits. Support for Claude, GPT-5.6, and local models via Ollama is built in. Zed's approach treats AI as a first-class editor feature rather than an afterthought plugin.</p>
+<p>Zed's AI integration goes beyond simple code completion. The editor includes a built-in AI assistant panel that understands your full codebase context, lets you have extended conversations about code, and can make coordinated multi-file edits. Support for Claude, OpenAI GPT models, and local models via Ollama is built in. Zed's approach treats AI as a first-class editor feature rather than an afterthought plugin.</p>
 <p>In 2026, Zed has grown significantly, particularly among developers who prioritize performance and want a modern alternative to VS Code. The addition of real-time collaborative editing (like Google Docs for code) and strong AI features positions it as a compelling option for teams who want both speed and intelligence in their editor.</p>
 
 <h2 id="features">Key Features</h2>
@@ -382,7 +382,7 @@
 <svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
 </div>
 <h4>Built-in AI Assistant</h4>
-<p>AI assistant panel with full codebase context. Supports Claude, GPT-5.6, and local Ollama models. Extended conversations about your code without leaving the editor.</p>
+<p>AI assistant panel with full codebase context. Supports Claude, OpenAI GPT models, and local Ollama models. Extended conversations about your code without leaving the editor.</p>
 </div>
 <div class="feature-card">
 <div class="feature-card-icon">
@@ -431,7 +431,7 @@
 <h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg> Disadvantages</h4>
 <ul>
 <li>Fewer extensions than VS Code ecosystem</li>
-<li>macOS/Linux only (no Windows support yet)</li>
+<li>Windows build is still young (stable only since October 2025)</li>
 <li>Some VS Code workflows don't translate</li>
 <li>Smaller community than VS Code</li>
 </ul>
@@ -454,25 +454,25 @@
 <li>Performance-sensitive development (large codebases)</li>
 <li>Real-time pair programming and collaborative coding</li>
 <li>Developers wanting fast AI-native editing experience</li>
-<li>Full-stack and systems developers on macOS/Linux</li>
+<li>Full-stack and systems developers on macOS, Linux and Windows</li>
 </ul>
 <h3>May Not Be Ideal For:</h3>
 <ul>
-<li>Windows users (not yet supported)</li>
+<li>Windows users who need a long-proven build (Windows stable since October 2025)</li>
 <li>Users heavily invested in VS Code extensions</li>
 <li>Teams needing specific VS Code-exclusive plugins</li>
 </ul>
 
 <h2 id="comparison">How It Compares</h2>
 <h3>Zed vs VS Code</h3>
-<p>VS Code has a vastly larger extension ecosystem and works on Windows. Zed is dramatically faster and has better native AI and collaboration features. Different trade-offs for different needs — VS Code wins on ecosystem breadth, Zed wins on raw performance and real-time collaboration.</p>
+<p>VS Code has a vastly larger extension ecosystem and a longer track record on Windows (Zed only reached a stable Windows release in October 2025). Zed is dramatically faster and has better native AI and collaboration features. Different trade-offs for different needs — VS Code wins on ecosystem breadth, Zed wins on raw performance and real-time collaboration.</p>
 <h3>Zed vs Cursor</h3>
-<p>Cursor is a VS Code fork optimized for AI coding, which means it inherits VS Code's extension ecosystem and Windows support. Zed is a completely new editor also with strong AI but superior performance and real-time collaboration. Cursor is better for users who need VS Code extensions; Zed is better for those who prioritize speed and collaboration.</p>
+<p>Cursor is a VS Code fork optimized for AI coding, which means it inherits VS Code's extension ecosystem and long-standing Windows support. Zed is a completely new editor also with strong AI but superior performance and real-time collaboration. Cursor is better for users who need VS Code extensions; Zed is better for those who prioritize speed and collaboration.</p>
 
 <h2 id="verdict">Final Verdict</h2>
 <div class="verdict-box">
 <h3>Our Recommendation</h3>
-<p>Zed makes a compelling case that the way we build code editors needs reinventing for the AI era. Its Rust-based performance is genuinely remarkable — if you've spent years waiting for VS Code to search large codebases or dealing with Electron's memory bloat, Zed feels like a revelation. The built-in real-time collaboration and multi-LLM AI support are well-integrated and genuinely useful. The main barrier to adoption is the smaller extension ecosystem and lack of Windows support. For macOS and Linux developers open to a new editor, Zed is one of the most exciting tools in the space.</p>
+<p>Zed makes a compelling case that the way we build code editors needs reinventing for the AI era. Its Rust-based performance is genuinely remarkable — if you've spent years waiting for VS Code to search large codebases or dealing with Electron's memory bloat, Zed feels like a revelation. The built-in real-time collaboration and multi-LLM AI support are well-integrated and genuinely useful. The main barrier to adoption is the smaller extension ecosystem; Windows support arrived later, with a stable release on October 15, 2025 (v0.208). For macOS, Linux and Windows developers open to a new editor, Zed is one of the most exciting tools in the space.</p>
 </div>
 
 <h2 id="faq">Frequently Asked Questions</h2>
@@ -482,7 +482,7 @@
 </div>
 <div class="faq-item">
 <div class="faq-question"><span>Does Zed work on Windows?</span><span>+</span></div>
-<div class="faq-answer">As of 2026, Zed is available for macOS and Linux. Windows support is in development but not yet officially released. This is the main platform limitation of Zed.</div>
+<div class="faq-answer">Yes. Zed has been available as a stable release on Windows since October 15, 2025 (version 0.208), in addition to macOS and Linux.</div>
 </div>
 <div class="faq-item">
 <div class="faq-question"><span>Which AI models does Zed support?</span><span>+</span></div>

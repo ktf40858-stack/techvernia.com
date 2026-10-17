@@ -3364,6 +3364,8 @@ function getIdeogramTranslation(key, lang) {
 
 // Appliquer les traductions ideogram
 function applyIdeogramTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
 
     let count = 0;

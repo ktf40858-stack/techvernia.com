@@ -873,6 +873,8 @@ function initArticleI18n() {
 }
 
 function applyArticleTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
     const t = articleTranslations[lang] || articleTranslations.en;
 

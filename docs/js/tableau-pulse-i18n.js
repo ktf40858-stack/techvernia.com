@@ -503,6 +503,8 @@ function getTableauPulseTranslation(key, lang) {
 }
 
 function applyTableauPulseTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     let count = 0;
     document.querySelectorAll("[data-i18n]").forEach(el => {
         const key = el.getAttribute("data-i18n");

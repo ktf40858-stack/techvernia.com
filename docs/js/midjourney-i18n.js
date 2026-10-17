@@ -3382,6 +3382,8 @@ function getMidjourneyTranslation(key, lang) {
 
 // Appliquer les traductions midjourney
 function applyMidjourneyTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
 
     let count = 0;

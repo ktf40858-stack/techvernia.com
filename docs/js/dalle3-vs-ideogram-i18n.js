@@ -2184,6 +2184,8 @@ pageTitle: "DALL-E 3 vs Ideogram 2.0: 텍스트 렌더링 챔피언",
 
 // Apply translations function
 function applyTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     const t = translations[lang] || translations.en;
 
     // Apply data-i18n attributes

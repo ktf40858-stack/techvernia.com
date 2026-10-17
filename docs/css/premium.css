@@ -292,3 +292,9 @@ h1, h2, h3, .review-hero-info h1, .guide-hero h1, .cert-hero h1 {
     .nav-actions { gap: 6px !important; }
     .lang-btn .lang-current, .lang-btn .chevron { display: none !important; }
 }
+
+/* Encadré de mise à jour en tête d'avis (outil arrêté, racheté, renommé) */
+.tv-update-note { max-width: 1100px; margin: 24px auto; padding: 16px 20px; border: 1px solid rgba(34, 204, 238, 0.35); border-left: 3px solid #22CCEE; border-radius: 12px; background: #0E0E0E; color: #F5F5F5; font-size: 15px; line-height: 1.55; }
+.tv-update-note strong { color: #22CCEE; font-weight: 600; }
+.tv-update-note a { color: #22CCEE; text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 640px) { .tv-update-note { margin: 16px; } }

@@ -884,6 +884,8 @@ function initAboutI18n() {
 }
 
 function applyAboutTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
     const t = aboutTranslations[lang] || aboutTranslations.en;
 

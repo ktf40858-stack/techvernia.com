@@ -561,6 +561,8 @@ function initContactI18n() {
 }
 
 function applyContactTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
     const t = contactTranslations[lang] || contactTranslations.en;
 

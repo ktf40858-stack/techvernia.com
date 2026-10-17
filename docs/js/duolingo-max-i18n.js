@@ -877,6 +877,8 @@ function getDuolingoMaxTranslation(key, lang) {
 }
 
 function applyDuolingoMaxTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
   
   let count = 0;
   document.querySelectorAll('[data-i18n]').forEach(element => {

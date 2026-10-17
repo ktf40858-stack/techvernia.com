@@ -964,6 +964,8 @@ function getRunwayTranslation(key, lang) {
 
 // Appliquer les traductions runway
 function applyRunwayTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
 
     let count = 0;

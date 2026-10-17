@@ -222,7 +222,7 @@
 <h2 id="overview">Overview</h2>
 <p>Obsidian Smart Connections is one of the most highly-rated plugins in the Obsidian community — a free, open-source plugin that transforms Obsidian's knowledge graph from a manual link system into an AI-powered semantic search and connection engine. Built by independent developer Brian Petro, the plugin uses vector embeddings to compute the semantic similarity between all notes in your vault and surfaces the most conceptually related notes in a persistent sidebar panel — without requiring you to manually tag, link, or organize anything.</p>
 <p>The core innovation is shifting from keyword matching to semantic understanding. Traditional Obsidian search finds notes that contain the exact words you type. Smart Connections finds notes that are about the same concepts, ideas, or topics — even if they use completely different vocabulary. This is particularly valuable for writers, researchers, academics, and thinkers with large vaults (thousands of notes) where related ideas are spread across time and context, and manual connections would take hours to maintain.</p>
-<p>In 2026, Smart Connections has evolved beyond passive connection surfacing to include an AI chat interface ("Smart Chat") that lets you query your entire vault in natural language, asking questions like "What did I write about attention mechanisms?" or "Find all my notes related to stoicism and decision-making." The plugin supports multiple embedding providers — including local models (via Ollama) for users who need complete data privacy — making it one of the most privacy-conscious AI tools in the personal knowledge management space.</p>
+<p>In 2026, Smart Connections has evolved beyond passive connection surfacing to include an AI chat interface ("Smart Chat") that lets you query your entire vault in natural language, asking questions like "What did I write about attention mechanisms?" or "Find all my notes related to stoicism and decision-making." Note that with version 4 the project reportedly moved to an open-core model, and Smart Chat is no longer part of the base Smart Connections plugin. The plugin supports multiple embedding providers — including local models (via Ollama) for users who need complete data privacy — making it one of the most privacy-conscious AI tools in the personal knowledge management space.</p>
 
 <h2 id="features">Key Features</h2>
 <div class="features-grid">
@@ -234,7 +234,7 @@
 <div class="feature-card">
 <div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div>
 <h4>Smart Chat (Vault Q&amp;A)</h4>
-<p>Chat with your vault using natural language. Smart Chat retrieves relevant note excerpts using vector search, then uses an LLM (OpenAI or local) to synthesize an answer from your own content — like ChatGPT trained on only your knowledge base.</p>
+<p>Chat with your vault using natural language. Smart Chat retrieves relevant note excerpts using vector search, then uses an LLM (OpenAI or local) to synthesize an answer from your own content — like ChatGPT trained on only your knowledge base. Since version 4, Smart Chat is reportedly distributed separately from the base plugin.</p>
 </div>
 <div class="feature-card">
 <div class="feature-card-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
@@ -322,7 +322,7 @@
 <h2 id="verdict">Final Verdict</h2>
 <div class="verdict-box">
 <h3>Our Recommendation</h3>
-<p>Obsidian Smart Connections is the best free AI enhancement available for Obsidian users, and it's not close. If you have a vault with hundreds or thousands of notes, the semantic similarity panel alone will surface connections you'd never find manually — and the Smart Chat feature turns your accumulated notes into a searchable, conversational knowledge base. The cost is essentially zero (especially with the Ollama local option), and the quality of connections with OpenAI embeddings is genuinely impressive on well-written vaults. The only real barrier is adoption: this tool rewards users who already have a mature Obsidian practice. If that's you, installing Smart Connections is one of the highest-leverage things you can do to get more value from the knowledge you've already captured.</p>
+<p>Obsidian Smart Connections is the best free AI enhancement available for Obsidian users, and it's not close. If you have a vault with hundreds or thousands of notes, the semantic similarity panel alone will surface connections you'd never find manually — and the Smart Chat feature (reportedly separate from the base plugin since version 4) turns your accumulated notes into a searchable, conversational knowledge base. The cost is essentially zero (especially with the Ollama local option), and the quality of connections with OpenAI embeddings is genuinely impressive on well-written vaults. The only real barrier is adoption: this tool rewards users who already have a mature Obsidian practice. If that's you, installing Smart Connections is one of the highest-leverage things you can do to get more value from the knowledge you've already captured.</p>
 </div>
 
 <h2 id="faq">Frequently Asked Questions</h2>
@@ -336,7 +336,7 @@
 </div>
 <div class="faq-item">
 <div class="faq-question"><span>Does Smart Connections work on mobile (iOS/Android)?</span><span>+</span></div>
-<div class="faq-answer">Smart Connections works on Obsidian Mobile (iOS and Android) in limited form. The connection panel functions normally for viewing related notes. Smart Chat also works on mobile. However, initial indexing of a large vault is best done on desktop due to processing time and battery considerations. Once the vault is indexed, the embedding data syncs with your vault files (if you use iCloud or Obsidian Sync), so mobile access works with the existing embeddings without re-processing on the phone.</div>
+<div class="faq-answer">Smart Connections works on Obsidian Mobile (iOS and Android) in limited form. The connection panel functions normally for viewing related notes. Smart Chat (reportedly no longer included in the base plugin since version 4) also works on mobile. However, initial indexing of a large vault is best done on desktop due to processing time and battery considerations. Once the vault is indexed, the embedding data syncs with your vault files (if you use iCloud or Obsidian Sync), so mobile access works with the existing embeddings without re-processing on the phone.</div>
 </div>
 <div class="faq-item">
 <div class="faq-question"><span>How is Smart Connections different from Obsidian's built-in graph view?</span><span>+</span></div>

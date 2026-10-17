@@ -754,6 +754,8 @@ function initBlogI18n() {
 }
 
 function applyBlogTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
     const t = blogTranslations[lang] || blogTranslations.en;
 

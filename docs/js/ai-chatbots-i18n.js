@@ -232,6 +232,8 @@ function initChatbotsCategoryI18n() {
 }
 
 function applyChatbotsCategoryTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
     const t = chatbotsCategoryTranslations[lang] || chatbotsCategoryTranslations.en;
 

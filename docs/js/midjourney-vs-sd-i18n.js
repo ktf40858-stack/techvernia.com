@@ -1449,6 +1449,8 @@ if (typeof window !== 'undefined') {
 }
 
 function applyTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     if (!translations[lang]) {
         
         return;

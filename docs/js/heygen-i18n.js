@@ -944,6 +944,8 @@ function getHeyGenTranslation(key, lang) {
 
 // Appliquer les traductions heygen
 function applyHeyGenTranslations(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     
 
     let count = 0;

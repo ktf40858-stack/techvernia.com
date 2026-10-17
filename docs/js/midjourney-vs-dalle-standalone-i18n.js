@@ -137,6 +137,8 @@ function setLanguage(lang) {
 }
 
 function updateLanguageSelector(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     const langCurrent = document.querySelector('.lang-current');
     if (langCurrent) {
         langCurrent.textContent = lang.toUpperCase();

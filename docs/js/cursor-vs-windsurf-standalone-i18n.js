@@ -191,6 +191,8 @@ function setLanguage(lang) {
  * Update language selector UI
  */
 function updateLanguageSelector(lang) {
+    if (lang === 'en') return; // TV: English is the static HTML, never overwrite it
+
     // Update current language display
     const langCurrent = document.querySelector('.lang-current');
     if (langCurrent) {
