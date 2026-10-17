@@ -1,0 +1,294 @@
+/* ==========================================================================
+   TechVernia — thème « premium noir » (inspiré de unity.com)
+   Chargé EN DERNIER sur chaque page : il redéfinit les variables de style.css
+   et neutralise le néon. Une seule couleur d'accent, à plat.
+   ========================================================================== */
+
+:root {
+    /* Surfaces */
+    --bg-primary: #000000;
+    --bg-secondary: #0A0A0A;
+    --bg-tertiary: #141414;
+    --bg-card: #141414;
+    --bg-card-hover: #1B1B1B;
+
+    /* Texte */
+    --text-primary: #F5F5F5;
+    --text-secondary: #A3A3A3;
+    --text-tertiary: #737373;
+    --text-muted: #525252;
+
+    /* Accent unique : le cyan de l'emblème, à plat */
+    --accent-primary: #22CCEE;
+    --accent-secondary: #22CCEE;
+    --accent-ink: #001014;
+
+    /* Les dégradés deviennent des aplats */
+    --gradient-primary: linear-gradient(#22CCEE, #22CCEE);
+    --gradient-secondary: linear-gradient(#22CCEE, #22CCEE);
+    --gradient-success: linear-gradient(#10B981, #10B981);
+    --gradient-bg: none;
+
+    /* Plus de lueurs */
+    --shadow-sm: none;
+    --shadow-md: 0 1px 0 rgba(255, 255, 255, 0.04) inset;
+    --shadow-lg: 0 24px 48px -24px rgba(0, 0, 0, 0.8);
+    --shadow-glow: none;
+    --shadow-glow-purple: none;
+
+    --border-color: rgba(255, 255, 255, 0.08);
+    --border-color-hover: rgba(255, 255, 255, 0.16);
+
+    /* Typo : Outfit pour les titres, Inter pour le texte */
+    --font-display: 'Outfit', 'Inter', system-ui, sans-serif;
+    --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --font-ai: var(--font-display);
+
+    --radius-lg: 14px;
+    --radius-xl: 20px;
+}
+
+/* ---------- Base ---------- */
+html { background: #000; }
+body {
+    background: #000 !important;
+    background-image: none !important;
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+::selection { background: rgba(34, 204, 238, 0.35); color: #fff; }
+
+/* Le néon disparaît partout */
+*, *::before, *::after { text-shadow: none !important; }
+.neon-icon, .neon-icon::after, .neon-icon::before,
+[class*="glow"], [class*="-glow"] { filter: none !important; }
+[class*="glow"]:not(img):empty { display: none !important; }
+
+/* Canvas et particules décoratives (déjà stoppés en JS) */
+#neural-bg, #particles-container, .particles-container, .neural-bg,
+.floating-orbs, .orb, .data-streams, .circuit-pattern, .holographic-grid { display: none !important; }
+
+/* ---------- Titres ---------- */
+h1, h2, h3, h4,
+.section-title, .page-title, .hero-title {
+    font-family: var(--font-display) !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    text-wrap: balance;
+}
+h1, .page-title, .hero-title { letter-spacing: -0.035em; line-height: 1.02; }
+h2, .section-title { line-height: 1.08; }
+h4 { letter-spacing: -0.01em; }
+
+/* Texte en dégradé -> blanc net */
+.gradient-text, .gradient-text-alt, .text-gradient, .animated-gradient,
+[class*="gradient-text"], h1 span[style*="gradient"], h2 span[style*="gradient"] {
+    background: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    -webkit-text-fill-color: currentColor !important;
+    color: #FFFFFF !important;
+}
+
+a { transition: color 150ms ease; }
+:is(main, article, .review-section, .review-content, .article-content, .blog-content, .guide-content) :is(p, li) a:not(.btn) { color: var(--accent-primary); }
+.nav-menu a, .nav-link, .dropdown-menu a, .footer a, .lang-option { color: var(--text-secondary); }
+.footer-links a { color: var(--text-primary); }
+.nav-link.active { color: #FFFFFF; }
+
+/* ---------- Navigation ---------- */
+.navbar, .navbar.scrolled {
+    background: rgba(0, 0, 0, 0.78) !important;
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0 !important;
+}
+.navbar .nav-container { min-height: 64px; }
+.nav-link { color: var(--text-secondary); font-weight: 500; }
+.nav-link.active, .nav-link[aria-current] { color: #FFFFFF; }
+.nav-link::after { background: var(--accent-primary) !important; height: 2px !important; box-shadow: none !important; }
+@media (hover: hover) and (pointer: fine) { .nav-link:hover { color: #FFFFFF; } }
+
+/* Logo officiel (emblème + mot) */
+.logo, .footer-logo { display: inline-flex !important; align-items: center; gap: 10px; }
+.tv-mark { width: 34px !important; height: 34px !important; filter: none !important; }
+.tv-wordmark { height: 15px !important; width: auto !important; filter: none !important; }
+.footer .tv-mark { width: 40px !important; height: 40px !important; }
+.footer .tv-wordmark { height: 17px !important; }
+@media (max-width: 480px) { .tv-mark { width: 30px !important; height: 30px !important; } .tv-wordmark { height: 12px !important; } }
+
+.dropdown-menu, .lang-dropdown {
+    background: #0E0E0E !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.9) !important;
+}
+.lang-btn, .search-btn {
+    background: transparent !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 999px !important;
+    color: var(--text-secondary) !important;
+}
+
+/* ---------- Boutons : pilules ---------- */
+.btn, .btn-primary, .btn-secondary, .btn-outline, .btn-futuristic, .cta-button, .btn-cta {
+    border-radius: 999px !important;
+    box-shadow: none !important;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.btn-primary, .btn-futuristic.btn-primary, .cta-button, .btn-cta {
+    background: var(--accent-primary) !important;
+    color: var(--accent-ink) !important;
+    border: 0 !important;
+}
+.btn-secondary, .btn-outline, .btn-futuristic.btn-secondary {
+    background: #1F1F1F !important;
+    color: #FFFFFF !important;
+    border: 0 !important;
+}
+@media (hover: hover) and (pointer: fine) {
+    .btn-primary:hover, .cta-button:hover, .btn-cta:hover { background: #5BDDF4 !important; transform: none; }
+    .btn-secondary:hover, .btn-outline:hover { background: #2B2B2B !important; transform: none; }
+}
+
+/* ---------- Héros de page : noir, sans dégradé coloré ---------- */
+.review-hero, .page-hero, .category-hero, .blog-hero, .article-hero, .guide-hero,
+.cert-hero, .hero-section, .page-header, .tool-hero, .comparison-hero, .about-hero, header.hero {
+    background: #000 !important;
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero::before, .review-hero::after, .page-hero::before, .page-hero::after,
+.category-hero::before, .category-hero::after, .hero::before, .hero::after { display: none !important; }
+
+/* ---------- Cartes ---------- */
+.tool-card, .feature-card, .sidebar-card, .category-card, .blog-card, .value-card, .why-card,
+.rating-box, .pros-box, .cons-box, .pros-card, .cons-card, .quick-stat, .stat-card, .guide-card,
+.related-tool, .comparison-card, .pricing-card, .info-card, .cert-card, .content-card, .card,
+.mission-card, .approach-card, .tool-item, .author-bio {
+    background: #141414 !important;
+    border: 1px solid transparent !important;
+    border-radius: 20px !important;
+    box-shadow: none !important;
+}
+.verdict-box, .highlight-box, .tip-box, .callout, .info-box, .note-box {
+    background: #0E0E0E !important;
+    border: 1px solid var(--border-color) !important;
+    border-left: 2px solid var(--accent-primary) !important;
+    border-radius: 16px !important;
+}
+.sidebar-card[style*="gradient"], .cta-box, .cta-card {
+    background: #0E0E0E !important;
+    box-shadow: inset 0 0 0 1px rgba(34, 204, 238, 0.35) !important;
+}
+@media (hover: hover) and (pointer: fine) {
+    .tool-card:hover, .category-card:hover, .blog-card:hover, .related-tool:hover, .guide-card:hover, .feature-card:hover {
+        background: #1B1B1B !important;
+        border-color: transparent !important;
+        transform: none !important;
+        box-shadow: none !important;
+    }
+}
+.feature-card-icon, .category-icon, .value-icon, .card-icon {
+    background: #1F1F1F !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    color: #FFFFFF !important;
+}
+.feature-card-icon svg, .category-icon svg, .value-icon svg { color: var(--accent-primary); stroke: currentColor; }
+
+/* Logos d'outils : tuile claire et nette */
+.tool-logo-xl, .review-logo, .tool-logo, .related-tool-logo { box-shadow: none !important; filter: none !important; }
+
+/* ---------- Notes, barres, badges ---------- */
+.rating-score, .quick-stat-value, .stat-value, .stat-number, .score, .price {
+    font-family: var(--font-display) !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    -webkit-text-fill-color: currentColor !important;
+    background: none !important;
+}
+.stat-number::after { color: var(--accent-primary); }
+.rating-item-fill, .bar-fill, .progress-fill, .rating-fill {
+    background: var(--accent-primary) !important;
+    box-shadow: none !important;
+}
+.rating-item-bar, .bar, .progress-bar { background: rgba(255, 255, 255, 0.08) !important; }
+.badge, .review-badges .badge, .tag, .category-tag, .level-badge, .hero-badge, .section-badge, .spotlight-badge {
+    background: #1F1F1F !important;
+    color: #E5E5E5 !important;
+    border: 0 !important;
+    border-radius: 999px !important;
+    box-shadow: none !important;
+    -webkit-text-fill-color: currentColor !important;
+}
+
+/* ---------- Tableaux, FAQ, sommaire ---------- */
+table, .pricing-table { border-collapse: collapse; }
+.pricing-table th, .comparison-table th, table th { background: #0E0E0E !important; color: #FFFFFF; border-color: var(--border-color) !important; }
+.pricing-table td, .comparison-table td, table td { border-color: var(--border-color) !important; }
+.faq-item { border-color: var(--border-color) !important; background: transparent !important; }
+.faq-question { font-family: var(--font-display); font-weight: 500; }
+.toc-list a { color: var(--text-secondary); }
+@media (hover: hover) and (pointer: fine) { .toc-list a:hover { color: #FFFFFF; } }
+
+/* ---------- Pied de page ---------- */
+.footer {
+    background: #000 !important;
+    border-top: 1px solid var(--border-color);
+}
+.footer h4, .footer-links h4 {
+    font-family: var(--font-sans) !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.2em !important;
+    text-transform: uppercase;
+    color: var(--text-tertiary) !important;
+}
+.footer-links a { color: var(--text-primary); }
+@media (hover: hover) and (pointer: fine) { .footer-links a:hover { color: var(--accent-primary); } }
+.social-link { background: #141414 !important; border: 0 !important; border-radius: 999px !important; }
+
+/* ---------- Bannière cookies ---------- */
+.cookie-banner, #cookie-banner, .cookie-consent {
+    background: #0E0E0E !important;
+    border-top: 1px solid var(--border-color) !important;
+    box-shadow: none !important;
+}
+
+/* ---------- Mouvement réduit ---------- */
+@media (prefers-reduced-motion: reduce) {
+    .btn:active, .btn-primary:active { transform: none !important; }
+}
+
+/* ---------- Correctifs ---------- */
+/* Icônes dont le dégradé SVG n'existe pas dans la page : couleur de repli */
+svg [stroke^="url(#"] { stroke: var(--accent-primary) !important; }
+svg [fill^="url(#"] { fill: var(--accent-primary) !important; }
+svg [filter^="url(#"] { filter: none !important; }
+
+/* Titres : jamais de dégradé, même écrit en dur dans la page */
+h1, h2, h3, .review-hero-info h1, .guide-hero h1, .cert-hero h1 {
+    background: none !important;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    -webkit-text-fill-color: currentColor !important;
+    color: #FFFFFF !important;
+}
+
+/* Nav compacte sur téléphone (le logo officiel est plus large que l'ancien) */
+@media (max-width: 480px) {
+    .navbar .nav-container { gap: 8px; }
+    .navbar .logo { min-width: 0; flex-shrink: 1; }
+    .tv-wordmark { height: 11px !important; }
+}
+@media (max-width: 400px) {
+    .navbar .tv-wordmark { display: none !important; }
+    .nav-actions { gap: 6px !important; }
+    .lang-btn .lang-current, .lang-btn .chevron { display: none !important; }
+}
