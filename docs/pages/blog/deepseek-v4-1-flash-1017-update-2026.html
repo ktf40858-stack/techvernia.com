@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="DeepSeek released V4.1-Flash-1017 on October 17, 2026: a 'minor update' to its open-weight Flash model that jumps from 31.2 to 42.3 on Terminal-Bench 4.0, with shorter outputs, the same API name and price, and MIT-licensed weights. Benchmarks, agent features, limits and how to try it."/>
+<meta name="keywords" content="DeepSeek V4.1 Flash, DeepSeek-V4.1-Flash-1017, deepseek-flash, DeepSeek update October 2026, open-source LLM, open-weight model, MIT license AI model, Terminal-Bench 4.0, DeepSWE, Humanity's Last Exam, DeepSeek Harness, AI coding agent, DeepSeek vs Claude Opus 5"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/deepseek-v4-1-flash-1017-update-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/deepseek-v4-1-flash-1017-update-2026.html"/>
+<meta property="og:title" content="DeepSeek V4.1 Flash Gets 35% Better in Five Weeks, Without a New Name"/>
+<meta property="og:description" content="A 'minor update' with double-digit gains on agent benchmarks, same price, free MIT weights. What changed, what it still lacks, and how to try it."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/deepseek-v4-1-flash-1017-update-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="DeepSeek V4.1 Flash-1017: +35% on Agent Tasks in Five Weeks"/>
+<meta name="twitter:description" content="Same name, same price, MIT weights. The benchmarks, the fine print, and how to test it on your own coding agents."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "DeepSeek V4.1 Flash Gets 35% Better in Five Weeks, Without a New Name",
+  "description": "A practical guide to DeepSeek-V4.1-Flash-1017, the October 17, 2026 update to DeepSeek's open-weight Flash model. Covers benchmark gains, agent features, pricing, limits, and how to try it.",
+  "image": "https://techvernia.com/assets/images/blog-covers/deepseek-v4-1-flash-1017-update-2026.webp",
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/deepseek-v4-1-flash-1017-update-2026.html"
+  }
+}
+</script>
+
+<title>DeepSeek V4.1 Flash-1017: +35% on Agent Tasks in Five Weeks | TechVernia</title>
+
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-section-title { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-primary); margin: 0 0 var(--space-sm); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08)), var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<style>
+.code-block {
+    background: rgba(2, 6, 23, 0.85);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+    overflow-x: auto;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--text-secondary);
+    white-space: pre;
+}
+.code-block .cmt { color: #64748b; }
+.code-block .hl { color: var(--accent-primary); }
+.article-content p code, .article-content li code, .faq-answer code {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 0.9em;
+    background: rgba(0, 217, 255, 0.08);
+    border: 1px solid rgba(0, 217, 255, 0.18);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: var(--accent-primary);
+    white-space: nowrap;
+}
+.status-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; font-size: var(--text-sm); }
+.status-table th, .status-table td { text-align: left; padding: var(--space-md); border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+.status-table th { color: var(--text-primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: var(--text-xs); }
+.status-table td strong { color: var(--text-primary); }
+.status-ok { color: #10b981; font-weight: 700; }
+.status-bad { color: #f87171; font-weight: 700; }
+@media (max-width: 640px) { .status-table { font-size: var(--text-xs); } .status-table th, .status-table td { padding: var(--space-sm); } }
+</style>
+<link href="../../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/deepseek-v4-1-flash-1017-update-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/deepseek-v4-1-flash-1017-update-2026.html" />
+<!-- premium-theme -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/premium.css">
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img class="tv-mark" src="../../assets/images/brand/techvernia-mark.webp" alt="" width="34" height="34"><img class="tv-wordmark" src="../../assets/images/brand/techvernia-wordmark.webp" alt="TechVernia" width="134" height="15">
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>DeepSeek V4.1 Flash Gets 35% Better in Five Weeks, Without a New Name</h1>
+                <p class="subtitle">On October 17, DeepSeek pushed DeepSeek-V4.1-Flash-1017, a "minor update" to the open-weight model it launched on September 10. The scores on agent and coding benchmarks jumped by double digits, outputs got shorter, and the API name, the price and the MIT license stayed the same. Here is what changed, what the numbers do not say, and how to try it on your own work.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>8 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>October 21, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+<div class="callout">
+    <strong>For information only.</strong> This article is based on the official <a href="https://api-docs.deepseek.com/updates/" target="_blank" rel="noopener noreferrer">DeepSeek API change log</a>, the <a href="https://api-docs.deepseek.com/" target="_blank" rel="noopener noreferrer">DeepSeek API documentation</a>, and coverage by <a href="https://siliconangle.com/2026/10/18/deepseek-releases-updated-v4-1-flash-model-it-says-completes-tasks-faster/" target="_blank" rel="noopener noreferrer">SiliconANGLE</a>. TechVernia has no commercial relationship with DeepSeek, Anthropic or Tencent.
+</div>
+
+<h2>A "Minor Update" With Major Numbers</h2>
+
+<p>AI labs usually save big jumps for big launches, with a new version number, a livestream and a blog post. DeepSeek did the opposite.</p>
+
+<p>On <strong>October 17, 2026</strong>, it replaced the model behind its <code>deepseek-flash</code> API name with <strong>DeepSeek-V4.1-Flash-1017</strong>. The suffix is simply the date: October 17. The Hugging Face model card calls it a "minor update" that "reduces task execution time and output length."</p>
+
+<p>Yet the model it replaces is only five weeks old. V4.1-Flash launched on September 10 as the smallest model in DeepSeek's new architecture family, with native image understanding. In those five weeks, its score on Terminal-Bench 4.0, a test of agents working in a real command line, went from <strong>31.2 to 42.3</strong>.</p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">+35%</span>
+        <span class="spec-label">Terminal-Bench 4.0 (31.2 to 42.3)</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">77.0%</span>
+        <span class="spec-label">DeepSWE v1.1, real software fixes</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">5 weeks</span>
+        <span class="spec-label">Between the September 10 launch and the update</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">MIT</span>
+        <span class="spec-label">Open weights on Hugging Face</span>
+    </div>
+</div>
+
+<h2>What Changed: The Benchmarks</h2>
+
+<p>DeepSeek published a before-and-after table in its change log. Here are the lines that matter most for coding and agent work.</p>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Benchmark</th><th>V4.1-Flash (Sept 10)</th><th>V4.1-Flash-1017 (Oct 17)</th><th>Change</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>Terminal-Bench 4.0</strong> (agents in a terminal)</td><td>31.2</td><td class="status-ok">42.3</td><td>+35%</td></tr>
+        <tr><td><strong>ProgramBench</strong> (building programs)</td><td>20.3</td><td class="status-ok">29.1</td><td>+43%</td></tr>
+        <tr><td><strong>Humanity's Last Exam</strong> (no tools)</td><td>36.8</td><td class="status-ok">42.6</td><td>+5.8 pts</td></tr>
+        <tr><td><strong>DeepSWE v1.1</strong> (real software fixes)</td><td>74.2</td><td class="status-ok">77.0</td><td>+2.8 pts</td></tr>
+        <tr><td><strong>NL2Repo-Bench</strong> (a repo from a description)</td><td>65.4</td><td class="status-ok">68.2</td><td>+2.8 pts</td></tr>
+        <tr><td><strong>Automation-Bench</strong></td><td>54.8</td><td class="status-ok">60.5</td><td>+5.7 pts</td></tr>
+        <tr><td><strong>Agents' Last Exam</strong></td><td>31.8</td><td class="status-ok">35.4</td><td>+3.6 pts</td></tr>
+        <tr><td><strong>BabyVision</strong> (with tools)</td><td>89.6</td><td class="status-ok">92.5</td><td>+2.9 pts</td></tr>
+    </tbody>
+</table>
+
+<p>The pattern is clear. The biggest gains are on <strong>long, multi-step agent tasks</strong>: driving a terminal, building a program, automating a workflow. Pure knowledge tests moved less. This update was tuned to make the model a better worker, not a better quiz contestant.</p>
+
+<p>Two details from the change log are worth knowing. Terminal-Bench 4.0 was run inside the Claude Code framework, and DeepSWE with Mini-SWE-V2. So these are scores of the model plus a specific agent harness, not of the model alone.</p>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">Hidden Win</div>
+    <h3>Shorter Answers Are a Price Cut</h3>
+    <p>DeepSeek says the update cuts both task execution time and output length. That sounds like a detail, but on an API you pay per output token. If the model reaches the same result with fewer tokens, each task costs less, even though the price per token did not change. For agents that run hundreds of steps a day, this is often worth more than a few benchmark points. DeepSeek did not publish exact figures, so measure it on your own tasks.</p>
+</div>
+
+<h2>What Stayed the Same</h2>
+
+<ul>
+    <li><strong>The API name.</strong> It is still <code>deepseek-flash</code>. If you call it, you are already on 1017, with no code change.</li>
+    <li><strong>The price.</strong> The change log says calling method and pricing are unchanged. At the September launch, off-peak input started at about 15 cents per million uncached tokens, according to SiliconANGLE. Check the official pricing page for current peak and off-peak rates.</li>
+    <li><strong>The license.</strong> The weights are on Hugging Face under the MIT license, one of the most permissive licenses in software. You can host, modify and use the model commercially.</li>
+    <li><strong>The apps.</strong> The DeepSeek web and mobile apps were updated to 1017 too.</li>
+    <li><strong>The context window.</strong> Several model directories list a context of about 1 million tokens for V4.1-Flash. Third-party listings also describe it as a large mixture-of-experts model of about 552B total parameters with only a small fraction active per token. DeepSeek's change log does not repeat these figures, so treat them as reported.</li>
+</ul>
+
+<h2>Built for Agents, Not Chat</h2>
+
+<p>The clearest sign of where DeepSeek is heading is who it tuned this update for. The change log names three agent products:</p>
+
+<ul>
+    <li><strong>DeepSeek Harness</strong>, DeepSeek's own agent runtime. Version 0.2.1-rc.1 or later is recommended.</li>
+    <li><strong>CodeBuddy</strong>, Tencent's coding assistant.</li>
+    <li><strong>WorkBuddy</strong>, Tencent's desktop office agent, which has offered V4.1-Flash since September 10.</li>
+</ul>
+
+<p>DeepSeek also offers two tools that agents need constantly. The <strong>Search API</strong> returns up to 50 ranked web results per query, and the <strong>Fetch API</strong> turns a web page into Markdown. According to SiliconANGLE, each costs 75 cents per 1,000 successful requests, and calls made through DeepSeek Harness, Claude Code or OpenAI Codex are <strong>free until November 1</strong>.</p>
+
+<p>That last point is a strategic choice. DeepSeek is not asking developers to switch tools. It is offering to sit inside the tools they already use.</p>
+
+<h2>The Fine Print</h2>
+
+<div class="callout-orange">
+    <strong>Self-reported scores.</strong> Every number in the table above comes from DeepSeek's own testing. No independent lab has published results for 1017 yet. Benchmarks also depend heavily on the agent framework used to run them.
+</div>
+
+<h3>Claude Opus 5 Still Leads Overall</h3>
+<p>On DeepSWE, the 1017 update edges past Claude Opus 5, 77% against 74%. That is the headline some outlets ran with. But according to SiliconANGLE, Claude Opus 5 still leads on <strong>7 of the 11 benchmarks</strong> DeepSeek published, with a gap of almost 14 points on Humanity's Last Exam. A cheap, open Flash model is closing the gap on specific tasks, not overtaking frontier models across the board.</p>
+
+<h3>Reliability</h3>
+<p>On October 15, two days before the update, the DeepSeek API suffered a nearly five-hour outage, one of its worst this year according to Yicai Global as cited by SiliconANGLE. DeepSeek apologized, issued credits based on the previous week's spending, and said it would remove single points of dependency. Some experts pointed to a shortage of computing capacity.</p>
+
+<h3>Data Location</h3>
+<p>For many companies, sending code or client data to a China-based API is a compliance problem, whatever the benchmark scores. This is where the MIT weights matter: you can run the model on your own servers or through a cloud provider in your region, and keep your data where your policies require. We covered this question in detail in our article on <a href="deepseek-data-privacy-china-2026.html">DeepSeek and data privacy</a>.</p>
+
+<h2>Who Should Care</h2>
+
+<div class="insight-card">
+    <div class="insight-number">02</div>
+    <div class="insight-label">Use Cases</div>
+    <h3>Where V4.1-Flash-1017 Makes Sense</h3>
+    <ul>
+        <li><strong>Teams running coding agents at scale:</strong> high-volume tasks where a cheaper model with shorter outputs changes the monthly bill.</li>
+        <li><strong>Companies that must self-host:</strong> MIT weights mean no API dependency and no data leaving your infrastructure.</li>
+        <li><strong>Developers already on <code>deepseek-flash</code>:</strong> you got the upgrade automatically, so re-check your agent's behavior and costs.</li>
+        <li><strong>Product builders:</strong> a strong open model as a fallback or router target next to a closed frontier model.</li>
+        <li><strong>Researchers:</strong> an open model that improves this fast is a useful reference point for fine-tuning experiments.</li>
+    </ul>
+</div>
+
+<h2>How to Try It</h2>
+
+<h3>1. Through the API</h3>
+<p>The DeepSeek API is compatible with both the OpenAI and the Anthropic formats. With the OpenAI Python SDK, only the base URL and the model name change:</p>
+
+<div class="code-block"><span class="cmt"># pip install openai</span>
+from openai import OpenAI
+
+client = OpenAI(api_key="YOUR_DEEPSEEK_KEY",
+                base_url="<span class="hl">https://api.deepseek.com</span>")
+
+resp = client.chat.completions.create(
+    model="<span class="hl">deepseek-flash</span>",   <span class="cmt"># now served by V4.1-Flash-1017</span>
+    messages=[{"role": "user",
+               "content": "Explain this stack trace and propose a fix: ..."}],
+)
+print(resp.choices[0].message.content)</div>
+
+<p>For tools that speak the Anthropic format, the documentation lists <code>https://api.deepseek.com/anthropic</code> as the base URL. The API also exposes a <code>thinking</code> option and a <code>reasoning_effort</code> setting for harder tasks.</p>
+
+<h3>2. In the Apps</h3>
+<p>The free DeepSeek web and mobile apps already run 1017. This is the fastest way to get a feel for it, but do not paste confidential data there.</p>
+
+<h3>3. Self-Hosted</h3>
+<p>Download the weights from Hugging Face and serve them on your own hardware or with a cloud provider. This removes the data-location issue and the outage risk, but a model of this size still needs serious GPUs. For smaller local setups, see our <a href="../categories/ai-local-llm.html">local LLM tools</a>.</p>
+
+<h3>4. Test It Fairly</h3>
+<p>Take ten real tasks from your backlog. Run them through V4.1-Flash-1017 and through the model you use today, with the same agent framework. Measure three things: was the task solved, how many tokens did it use, and what did it cost. A benchmark gain is only real if it shows up on your own work.</p>
+
+<div class="highlight-box">
+    <p><strong>DeepSeek V4.1-Flash-1017 is a big upgrade disguised as a small one.</strong> Double-digit gains on agent benchmarks, shorter outputs, same price and free MIT weights. It does not beat Claude Opus 5 overall, and the scores are self-reported, but it is worth a side-by-side test on your own coding and agent tasks.</p>
+</div>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What is DeepSeek-V4.1-Flash-1017?</div>
+        <div class="faq-answer">It is an updated version of DeepSeek's V4.1-Flash model, released on October 17, 2026. It replaces the September 10 version behind the <code>deepseek-flash</code> API name and in the DeepSeek apps, with higher scores on agent and coding benchmarks and shorter outputs.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Do I need to change my code?</div>
+        <div class="faq-answer">No. The API name <code>deepseek-flash</code> now points to 1017, and the calling method is unchanged. If you rely on stable behavior, re-test your prompts and agents, because the model under the name changed.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Did the price change?</div>
+        <div class="faq-answer">No. DeepSeek's change log says pricing is unchanged. Because outputs are shorter, the cost per task may actually go down.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Is it open source?</div>
+        <div class="faq-answer">The weights are published on Hugging Face under the MIT license, which allows commercial use, modification and self-hosting.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Is it better than Claude Opus 5?</div>
+        <div class="faq-answer">On DeepSWE v1.1 it scores 77% against 74% for Claude Opus 5, according to DeepSeek. But Claude Opus 5 still leads on 7 of the 11 benchmarks DeepSeek published, including a gap of almost 14 points on Humanity's Last Exam.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Can I use it with Claude Code?</div>
+        <div class="faq-answer">DeepSeek offers an Anthropic-compatible API endpoint, and its Terminal-Bench 4.0 score was measured inside the Claude Code framework. According to SiliconANGLE, Search and Fetch API calls made through Claude Code, OpenAI Codex or DeepSeek Harness are free until November 1.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>As a network engineer, I learned long ago to watch trends, not snapshots. One good benchmark score tells you little. A curve that keeps rising tells you a lot.</p>
+
+<p>That is what stands out here. DeepSeek did not need a new version number to gain 11 points on Terminal-Bench. It shipped a quiet update five weeks after launch, and the model is noticeably better at the work agents actually do. <strong>Closed labs ship big launches; open labs are shipping fast iterations</strong>, and the gap on specific tasks is shrinking month after month.</p>
+
+<p>My advice: do not migrate everything because of one table. But if you run coding or automation agents, add an open model like this one to your test set, measure cost per solved task, and keep your data policies in mind. If an open model you can host yourself keeps improving this fast, paying frontier prices for every single task gets harder to justify.</p>
+
+<p>So, <strong>would you put an open model like DeepSeek V4.1-Flash behind your coding agents, or do closed models still earn their price?</strong></p>
+
+<p><strong>Sources:</strong></p>
+<ul>
+    <li><a href="https://api-docs.deepseek.com/updates/" target="_blank" rel="noopener noreferrer">DeepSeek API Docs: Change Log (V4.1-Flash and V4.1-Flash-1017)</a></li>
+    <li><a href="https://api-docs.deepseek.com/" target="_blank" rel="noopener noreferrer">DeepSeek API Docs: Your First API Call</a></li>
+    <li><a href="https://siliconangle.com/2026/10/18/deepseek-releases-updated-v4-1-flash-model-it-says-completes-tasks-faster/" target="_blank" rel="noopener noreferrer">SiliconANGLE: DeepSeek releases updated V4.1-Flash model it says completes tasks faster</a></li>
+    <li><a href="https://aiweekly.co/alerts/deepseek-posts-v41-flash-552b-moe-8b-active-1m-context" target="_blank" rel="noopener noreferrer">AI Weekly: DeepSeek posts V4.1-Flash, 552B MoE, 1M context</a></li>
+</ul>
+
+<p><em>This article is published for information purposes only, to help readers discover and evaluate new AI tools.</em></p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="deepseek-vs-chatgpt-network-engineers-2026.html">DeepSeek vs ChatGPT for Network Engineers: 3-Week Real-World Test</a></li>
+    <li><a href="open-source-vs-closed-source-ai-2026.html">Open Source vs Closed Source AI: Is 2026 the Tipping Point?</a></li>
+    <li><a href="meta-muse-spark-open-mac-studio-2026.html">Meta Muse Spark Open: An 816B AI Model That Runs on Two Mac Studios</a></li>
+    <li><a href="../reviews/chatbots/deepseek.html">DeepSeek Chat Review 2026</a></li>
+</ul>
+
+</article>
+
+
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h4 class="author-section-title">About the Author</h4>
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kodjo Apedoh",
+  "jobTitle": "Network Engineer & AI Entrepreneur",
+  "description": "Founder of TechVernia and SankaraShield. Certified Network Security Engineer with 4+ years of experience. Specializes in AI tools research, network automation, and cybersecurity.",
+  "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+  "image": "https://techvernia.com/assets/images/authors/kodjo-apedoh.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+    "https://techvernia.com"
+  ]
+}
+</script>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
