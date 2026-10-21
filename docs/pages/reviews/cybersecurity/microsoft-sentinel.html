@@ -2,7 +2,6 @@
 
 <html data-theme="dark" lang="en">
 <head>
-<meta name="robots" content="noindex, follow"/>
 <!-- Google Analytics 4 - TechVernia -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S2YLSEB9VR"></script>
 <script>
@@ -14,8 +13,10 @@
 <!-- End Google Analytics -->
 
 <meta charset="utf-8"/>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Microsoft Sentinel review - cloud-native SIEM with Security Copilot AI, Azure integration, and automated threat response." name="description"/>
+<meta content="Microsoft Sentinel review: cloud SIEM moving to the Defender portal, billed per GB or by commitment tier, with a 31-day free trial up to 10 GB/day." name="description"/>
 <meta content="Microsoft Sentinel review, cloud SIEM, Security Copilot, Azure security, threat detection" name="keywords"/>
 <title>Microsoft Sentinel Review 2026 - Cloud SIEM with AI | TechVernia</title>
 <link href="../../../css/style.css" rel="stylesheet"/>
@@ -217,10 +218,10 @@
 <div class="review-logo"><img alt="microsoft-sentinel logo" onerror="this.outerHTML='&lt;div style=\'display:flex;align-items:center;justify-content:center;width:100%;height:100%;font-size:2rem;font-weight:800;color:white;\'&gt;MS&lt;/div&gt;'" src="../../../assets/images/logos/microsoft-sentinel.png" style="width: 100%; height: 100%; object-fit: contain; padding: 10px;"/></div>
 <div class="review-hero-info">
 <h1>Microsoft Sentinel Review</h1>
-<p class="company">by Microsoft • Cloud-Native SIEM with AI</p>
+<p class="company">by Microsoft • Cloud-native SIEM, now in the Microsoft Defender portal</p>
 <div class="rating-large"><span class="stars">★★★★☆</span><span class="score">4.6/5</span></div>
 <div class="review-meta">
-<div class="meta-item"><span><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg></span><span>Updated: May 2026</span></div>
+<div class="meta-item"><span><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg></span><span>Updated: October 2026</span></div>
 <div class="meta-item"><span><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="10" rx="2" width="18" x="3" y="11"></rect><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle><path d="M9 7L9 9M15 7L15 9M12 2v5"></path></svg></span><span>Security Copilot</span></div>
 </div>
 </div>
@@ -230,174 +231,128 @@
 <div class="review-layout">
 <main class="review-main">
 <section class="review-section" id="overview">
-<h2><span data-i18n="review.microsoft-sentinel.overview">Overview</span></h2>
-<p><span data-i18n="review.microsoft-sentinel.microsoft.sentinel.is.a.cloud-native">Microsoft Sentinel is a cloud-native SIEM and SOAR solution built on Azure. It provides intelligent security analytics and threat intelligence across the enterprise, with deep integration into the Microsoft security ecosystem.</span></p>
-<p><span data-i18n="review.microsoft-sentinel.security.copilot.integration.brings.generative">Security Copilot integration brings generative AI to incident investigation, allowing analysts to use natural language to query security data, understand incidents, and generate reports. This significantly accelerates security operations.</span></p>
-<p><span>For organizations already invested in Microsoft 365 and Azure, Sentinel offers compelling value with seamless data collection and native integrations. Note that Microsoft is moving Sentinel management to the Microsoft Defender portal: the Azure portal experience is scheduled to close on March 31, 2027.</span></p>
+<h2>Overview</h2>
+<p>Microsoft Sentinel is Microsoft’s cloud-native SIEM. It is enabled on an Azure Monitor Log Analytics workspace, collects data through connectors, and supports detection, investigation, hunting with Kusto Query Language (KQL) and automated response through automation rules and Azure Logic Apps playbooks.</p>
+<p>Microsoft is moving Sentinel into the Microsoft Defender portal as part of its unified security operations experience. According to Microsoft’s documentation, after March 31, 2027 Sentinel will no longer be supported in the Azure portal. Microsoft has also added a Sentinel data lake tier for low-cost long-term retention and querying, and a Sentinel MCP server that lets AI agents query Sentinel data; some of its tools consume Security Copilot compute units (SCUs).</p>
+<p>Billing is consumption-based. Analytics-tier ingestion is charged pay-as-you-go per GB or through commitment tiers starting at 100 GB per day, data lake usage has its own meters, and several Microsoft sources, such as Azure Activity logs, Office 365 audit logs and security alerts from Defender products, can be ingested at no charge.</p>
 </section>
 <section class="review-section" id="features">
-<h2><span data-i18n="review.microsoft-sentinel.key.features">Key Features</span></h2>
+<h2>Key Features</h2>
 <div class="features-grid">
-<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="10" rx="2" width="18" x="3" y="11"></rect><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle><path d="M9 7L9 9M15 7L15 9M12 2v5"></path></svg> Security Copilot</h4><p><span data-i18n="review.microsoft-sentinel.generative.ai.for.incident.investigation">Generative AI for incident investigation, threat hunting, and report generation.</span></p></div>
-<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg> Cloud-Native</h4><p><span data-i18n="review.microsoft-sentinel.serverless.architecture.with.automatic.scaling">Serverless architecture with automatic scaling and no infrastructure to manage.</span></p></div>
-<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> Microsoft Integration</h4><p><span data-i18n="review.microsoft-sentinel.native.connectors.for.m365.azure">Native connectors for M365, Azure AD, Defender, and entire Microsoft stack.</span></p></div>
-<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg> Analytics Rules</h4><p><span data-i18n="review.microsoft-sentinel.ml-based.anomaly.detection.and.customizable">ML-based anomaly detection and customizable correlation rules.</span></p></div>
-<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> Automation</h4><p><span data-i18n="review.microsoft-sentinel.logic.apps.integration.for.automated">Logic Apps integration for automated response playbooks.</span></p></div>
-<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg> KQL Language</h4><p><span data-i18n="review.microsoft-sentinel.kusto.query.language.for.powerful">Kusto Query Language for powerful data exploration and hunting.</span></p></div>
+<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> Data Connectors</h4><p>Connectors for Microsoft and third-party sources; Azure Activity, Office 365 audit logs and Defender alerts are free to ingest.</p></div>
+<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg> KQL Hunting</h4><p>Query, hunt and build analytics rules with Kusto Query Language.</p></div>
+<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> Automation</h4><p>Automation rules and Logic Apps playbooks for response (Logic Apps billed separately).</p></div>
+<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg> Sentinel Data Lake</h4><p>Low-cost long-term retention with KQL queries, jobs and notebooks, billed on separate meters.</p></div>
+<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg> Defender Portal</h4><p>Sentinel in the Microsoft Defender portal alongside Defender XDR, the only supported experience after March 31, 2027.</p></div>
+<div class="feature-card"><h4><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><rect height="10" rx="2" width="18" x="3" y="11"></rect><circle cx="8" cy="15" r="1"></circle><circle cx="16" cy="15" r="1"></circle><path d="M9 7L9 9M15 7L15 9M12 2v5"></path></svg> MCP Server and Copilot</h4><p>AI agents can query Sentinel through its MCP server; some tools, such as the entity analyzer, consume Security Copilot SCUs.</p></div>
 </div>
 </section>
 <section class="review-section" id="pros-cons">
-<h2><span data-i18n="review.microsoft-sentinel.pros.cons">Pros & Cons</span></h2>
+<h2>Pros &amp; Cons</h2>
 <div class="pros-cons-grid">
 <div class="pros-card">
-<h3><span data-i18n="review.microsoft-sentinel.advantages">Advantages</span></h3>
+<h3>Advantages</h3>
 <ul>
-<li><span data-i18n="review.microsoft-sentinel.security.copilot.ai.integration">Security Copilot AI integration</span></li>
-<li><span data-i18n="review.microsoft-sentinel.excellent.microsoft.ecosystem.fit">Excellent Microsoft ecosystem fit</span></li>
-<li><span data-i18n="review.microsoft-sentinel.pay-as-you-go.pricing">Pay-as-you-go pricing</span></li>
-<li><span data-i18n="review.microsoft-sentinel.no.infrastructure.to.manage">No infrastructure to manage</span></li>
-<li><span data-i18n="review.microsoft-sentinel.free.data.ingestion.from.m365">Free data ingestion from M365</span></li>
-<li><span data-i18n="review.microsoft-sentinel.rapid.deployment">Rapid deployment</span></li>
+<li>31-day free trial for up to 10 GB/day of analytics-tier data</li>
+<li>Free ingestion for several Microsoft data sources and Defender alerts</li>
+<li>Commitment tiers save up to 52% compared with pay-as-you-go, per Microsoft</li>
+<li>No SIEM infrastructure to deploy or maintain</li>
+<li>First 90 days of retention included at no charge</li>
 </ul>
 </div>
 <div class="cons-card">
-<h3><span data-i18n="review.microsoft-sentinel.disadvantages">Disadvantages</span></h3>
+<h3>Disadvantages</h3>
 <ul>
-<li><span data-i18n="review.microsoft-sentinel.costs.can.spike.with.data">Costs can spike with data volume</span></li>
-<li><span data-i18n="review.microsoft-sentinel.azure.lock-in">Azure lock-in</span></li>
-<li><span data-i18n="review.microsoft-sentinel.kql.learning.curve">KQL learning curve</span></li>
-<li><span data-i18n="review.microsoft-sentinel.less.mature.than.splunk">Less mature than Splunk</span></li>
-<li><span data-i18n="review.microsoft-sentinel.third-party.integrations.vary">Third-party integrations vary</span></li>
+<li>Costs grow with data volume and need active management</li>
+<li>Logic Apps, notebooks and Azure Functions used with Sentinel are billed separately</li>
+<li>Raw logs from several Defender and Microsoft Entra ID sources are paid even though their alerts are free</li>
+<li>Azure portal experience ends March 31, 2027, so teams must move to the Defender portal</li>
+<li>Commitment tiers apply per workspace and cannot be shared across workspaces</li>
 </ul>
 </div>
 </div>
 </section>
 <section class="review-section" id="pricing">
-<h2><span data-i18n="review.microsoft-sentinel.pricing">Pricing</span></h2>
-<p><span data-i18n="review.microsoft-sentinel.enterprise.pricing.based.on.deployment">Enterprise pricing based on deployment scale and features:</span></p>
+<h2>Pricing</h2>
+<p>Sentinel is billed on consumption. Per-GB rates vary by region and are listed on Microsoft’s Sentinel pricing page.</p>
 <div class="features-grid">
-<div class="feature-card"><h4>Enterprise Model</h4><p><span data-i18n="review.microsoft-sentinel.custom.pricing.based.on.organization">Custom pricing based on organization size</span></p></div>
-<div class="feature-card"><h4>Tiered Licensing</h4><p><span data-i18n="review.microsoft-sentinel.multiple.tiers.with.increasing.capabilities">Multiple tiers with increasing capabilities</span></p></div>
-<div class="feature-card"><h4>Volume Discounts</h4><p><span data-i18n="review.microsoft-sentinel.available.for.large.deployments">Available for large deployments</span></p></div>
-<div class="feature-card"><h4>Professional Services</h4><p><span data-i18n="review.microsoft-sentinel.implementation.and.support.packages">Implementation and support packages</span></p></div>
-<div class="feature-card"><h4>Annual Contracts</h4><p><span data-i18n="review.microsoft-sentinel.typically.multi-year.commitments">Typically multi-year commitments</span></p></div>
-<div class="feature-card"><h4>Demo Available</h4><p><span data-i18n="review.microsoft-sentinel.contact.sales.for.custom.quote">Contact sales for custom quote</span></p></div>
+<div class="feature-card"><h4>Free trial</h4><p>The first 10 GB/day ingested on the Analytics logs plan is free for 31 days, up to 20 workspaces per Azure tenant.</p></div>
+<div class="feature-card"><h4>Pay-as-you-go (analytics tier)</h4><p>Charged per GB of data ingested; retention beyond 90 days is extra.</p></div>
+<div class="feature-card"><h4>Commitment tiers</h4><p>A fixed daily fee for 100 GB/day up to 50,000 GB/day, with usage above the tier billed at the same discounted rate. Lowering a tier is allowed every 31 days.</p></div>
+<div class="feature-card"><h4>Data lake tier</h4><p>Separate meters for ingestion, processing, storage (billed at 6:1 compression) and queries, plus compute hours for notebooks.</p></div>
 </div>
+<p style="margin-top: var(--space-lg);">Microsoft lists a 50 GB/day commitment tier in public preview with promotional pricing from October 1, 2025 to December 31, 2026, and advertises up to 5 MB per user per day of free ingestion for key security logs through a Microsoft 365 offer.</p>
+</section>
 <!-- Certifications Section -->
 <section class="review-section" id="certifications">
-<h2><span data-i18n="review.microsoft-sentinel.recommended.certifications">Recommended Certifications</span></h2>
-<p style="margin-bottom: var(--space-xl); color: var(--text-secondary);"><span data-i18n="review.microsoft-sentinel.microsoft.offers.a.comprehensive.security">Microsoft offers a comprehensive security certification path covering cloud security, identity management, compliance, and security operations. These role-based certifications align with real-world job responsibilities in modern cloud-first environments.</span></p>
-<div class="certifications-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-lg); margin: var(--space-xl) 0; position: relative; z-index: 1000;">
-<!-- SC-900: Security Fundamentals -->
-<a class="cert-card" href="../../certifications/microsoft-sc900.html" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); text-decoration: none; display: block; position: relative; z-index: 1001;">
-<div style="text-align: center; margin-bottom: var(--space-md);">
-<img alt="SC-900: Security Fundamentals Badge" src="../../../assets/images/certifications/microsoft-sc900.png?v=official" style="width: 100px; height: 100px; object-fit: contain;"/>
+<h2>Recommended Certifications</h2>
+<p style="margin-bottom: var(--space-xl); color: var(--text-secondary);">Microsoft’s role-based security certifications cover security operations with Sentinel and Defender XDR, identity and Azure security.</p>
+<div class="certifications-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-lg); margin: var(--space-xl) 0;">
+<a class="cert-card" href="../../certifications/microsoft-sc900.html" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); text-decoration: none; display: block;">
+<div style="text-align: center; margin-bottom: var(--space-md);"><img alt="SC-900: Security, Compliance, and Identity Fundamentals Badge" src="../../../assets/images/certifications/microsoft-sc900.png?v=official" style="width: 100px; height: 100px; object-fit: contain;"/></div>
+<h3 style="margin-bottom: var(--space-xs); color: var(--text-primary); font-size: var(--text-lg);">SC-900: Security, Compliance, and Identity Fundamentals</h3>
+<div style="color: var(--accent-color); font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--space-sm);">Fundamentals</div>
+<p style="color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.5;">Entry-level certification covering security, compliance and identity concepts across Microsoft cloud services.</p>
+<div style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-color);"><span style="color: var(--text-tertiary); font-size: var(--text-xs);">Exam: SC-900</span></div>
+</a>
+<a class="cert-card" href="../../certifications/microsoft-sc200.html" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); text-decoration: none; display: block;">
+<div style="text-align: center; margin-bottom: var(--space-md);"><img alt="SC-200: Security Operations Analyst Badge" src="../../../assets/images/certifications/microsoft-sc200.png?v=official" style="width: 100px; height: 100px; object-fit: contain;"/></div>
+<h3 style="margin-bottom: var(--space-xs); color: var(--text-primary); font-size: var(--text-lg);">SC-200: Security Operations Analyst</h3>
+<div style="color: var(--accent-color); font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--space-sm);">Associate</div>
+<p style="color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.5;">Investigate, respond to and hunt for threats with Microsoft Sentinel, Defender XDR and Defender for Cloud.</p>
+<div style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-color);"><span style="color: var(--text-tertiary); font-size: var(--text-xs);">Exam: SC-200</span></div>
+</a>
+<a class="cert-card" href="../../certifications/microsoft-sc300.html" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); text-decoration: none; display: block;">
+<div style="text-align: center; margin-bottom: var(--space-md);"><img alt="SC-300: Identity and Access Administrator Badge" src="../../../assets/images/certifications/microsoft-sc300.png?v=official" style="width: 100px; height: 100px; object-fit: contain;"/></div>
+<h3 style="margin-bottom: var(--space-xs); color: var(--text-primary); font-size: var(--text-lg);">SC-300: Identity and Access Administrator</h3>
+<div style="color: var(--accent-color); font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--space-sm);">Associate</div>
+<p style="color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.5;">Implement identity and access management with Microsoft Entra ID, including Conditional Access and Privileged Identity Management.</p>
+<div style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-color);"><span style="color: var(--text-tertiary); font-size: var(--text-xs);">Exam: SC-300</span></div>
+</a>
+<a class="cert-card" href="../../certifications/microsoft-sc400.html" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); text-decoration: none; display: block;">
+<div style="text-align: center; margin-bottom: var(--space-md);"><img alt="SC-400: Information Protection (retired) Badge" src="../../../assets/images/certifications/microsoft-sc400.png?v=official" style="width: 100px; height: 100px; object-fit: contain;"/></div>
+<h3 style="margin-bottom: var(--space-xs); color: var(--text-primary); font-size: var(--text-lg);">SC-400: Information Protection (retired)</h3>
+<div style="color: var(--accent-color); font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--space-sm);">Retired May 31, 2025</div>
+<p style="color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.5;">Replaced by SC-401. Covered data loss prevention, information protection and insider risk in Microsoft 365.</p>
+<div style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-color);"><span style="color: var(--text-tertiary); font-size: var(--text-xs);">Exam: SC-400 (retired), replaced by SC-401</span></div>
+</a>
+<a class="cert-card" href="../../certifications/microsoft-az500.html" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); text-decoration: none; display: block;">
+<div style="text-align: center; margin-bottom: var(--space-md);"><img alt="AZ-500: Azure Security Engineer Badge" src="../../../assets/images/certifications/microsoft-az500.png?v=official" style="width: 100px; height: 100px; object-fit: contain;"/></div>
+<h3 style="margin-bottom: var(--space-xs); color: var(--text-primary); font-size: var(--text-lg);">AZ-500: Azure Security Engineer</h3>
+<div style="color: var(--accent-color); font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--space-sm);">Associate</div>
+<p style="color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.5;">Secure Azure identity, networking, compute, storage and security operations.</p>
+<div style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-color);"><span style="color: var(--text-tertiary); font-size: var(--text-xs);">Exam: AZ-500</span></div>
+</a>
 </div>
-<h3 style="margin-bottom: var(--space-xs); color: var(--text-primary); font-size: var(--text-lg);"><span data-i18n="review.microsoft-sentinel.sc-900.security.fundamentals">SC-900: Security Fundamentals</span></h3>
-<div style="color: var(--accent-color); font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--space-sm);">Fundamentals</div></a>
-<p style="color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.5;"><span data-i18n="review.microsoft-sentinel.entry-level.certification.covering.security.compliance">Entry-level certification covering security, compliance, and identity concepts across Microsoft cloud services.</span></p>
-<div style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center;">
-<span style="color: var(--text-tertiary); font-size: var(--text-xs);">Exam: SC-900</span>
-</div>
-</div>
-<!-- SC-200: Security Operations Analyst -->
-<a class="cert-card" href="../../certifications/microsoft-sc200.html" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); text-decoration: none; display: block; position: relative; z-index: 1001;">
-<div style="text-align: center; margin-bottom: var(--space-md);">
-<img alt="SC-200: Security Operations Analyst Badge" src="../../../assets/images/certifications/microsoft-sc200.png?v=official" style="width: 100px; height: 100px; object-fit: contain;"/>
-</div>
-<h3 style="margin-bottom: var(--space-xs); color: var(--text-primary); font-size: var(--text-lg);"><span data-i18n="review.microsoft-sentinel.sc-200.security.operations.analyst">SC-200: Security Operations Analyst</span></h3>
-<div style="color: var(--accent-color); font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--space-sm);">Associate Level</div></a>
-<p style="color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.5;"><span data-i18n="review.microsoft-sentinel.investigate.respond.to.and.hunt">Investigate, respond to, and hunt for threats using Microsoft Sentinel, Defender XDR, and threat intelligence.</span></p>
-<div style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center;">
-<span style="color: var(--text-tertiary); font-size: var(--text-xs);">Exam: SC-200</span>
-</div>
-</section></section></main></div>
-<!-- SC-300: Identity Administrator -->
-<a class="cert-card" href="../../certifications/microsoft-sc300.html" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); text-decoration: none; display: block; position: relative; z-index: 1001;">
-<div style="text-align: center; margin-bottom: var(--space-md);">
-<img alt="SC-300: Identity Administrator Badge" src="../../../assets/images/certifications/microsoft-sc300.png?v=official" style="width: 100px; height: 100px; object-fit: contain;"/>
-</div>
-<h3 style="margin-bottom: var(--space-xs); color: var(--text-primary); font-size: var(--text-lg);">SC-300: Identity Administrator</h3>
-<div style="color: var(--accent-color); font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--space-sm);">Associate Level</div></a>
-<p style="color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.5;">Design and implement identity and access management solutions using Azure AD, conditional access, and PIM.</p>
-<div style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center;">
-<span style="color: var(--text-tertiary); font-size: var(--text-xs);">Exam: SC-300</span>
-</div>
-
-<!-- SC-400: Information Protection -->
-<a class="cert-card" href="../../certifications/microsoft-sc400.html" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); text-decoration: none; display: block; position: relative; z-index: 1001;">
-<div style="text-align: center; margin-bottom: var(--space-md);">
-<img alt="SC-400: Information Protection Badge" src="../../../assets/images/certifications/microsoft-sc400.png?v=official" style="width: 100px; height: 100px; object-fit: contain;"/>
-</div>
-<h3 style="margin-bottom: var(--space-xs); color: var(--text-primary); font-size: var(--text-lg);">SC-400: Information Protection</h3>
-<div style="color: var(--accent-color); font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--space-sm);">Associate Level — Retired May 31, 2025</div></a>
-<p style="color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.5;">Retired on May 31, 2025 and replaced by SC-401. Covered how to implement data loss prevention, information governance, and insider risk management in Microsoft 365.</p>
-<div style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center;">
-<span style="color: var(--text-tertiary); font-size: var(--text-xs);">Exam: SC-400 (retired) → SC-401</span>
-</div>
-
-<!-- AZ-500: Azure Security -->
-<a class="cert-card" href="../../certifications/microsoft-az500.html" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-lg); text-decoration: none; display: block; position: relative; z-index: 1001;">
-<div style="text-align: center; margin-bottom: var(--space-md);">
-<img alt="AZ-500: Azure Security Badge" src="../../../assets/images/certifications/microsoft-az500.png?v=official" style="width: 100px; height: 100px; object-fit: contain;"/>
-</div>
-<h3 style="margin-bottom: var(--space-xs); color: var(--text-primary); font-size: var(--text-lg);">AZ-500: Azure Security</h3>
-<div style="color: var(--accent-color); font-weight: 600; font-size: var(--text-sm); margin-bottom: var(--space-sm);">Associate Level</div></a>
-<p style="color: var(--text-secondary); font-size: var(--text-sm); line-height: 1.5;">Secure Azure infrastructure, implement platform protection, manage identity, and configure security operations.</p>
-<div style="margin-top: var(--space-md); padding-top: var(--space-md); border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center;">
-<span style="color: var(--text-tertiary); font-size: var(--text-xs);">Exam: AZ-500</span>
-</div>
-
-
 <div style="background: var(--bg-tertiary); border-radius: var(--radius-lg); padding: var(--space-xl); margin-top: var(--space-xl);">
 <h4 style="margin-bottom: var(--space-md);"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg> Get Started with Certification</h4>
-<p style="margin-bottom: var(--space-md);">Official training and certification resources:</p>
-<a class="btn btn-primary" href="https://www.microsoft.com/security/business/siem-and-xdr/microsoft-sentinel" rel="noopener noreferrer" target="_blank">Visit Certification Portal →</a>
+<p style="margin-bottom: var(--space-md);">Official Microsoft certification catalog:</p>
+<a class="btn btn-primary" href="https://learn.microsoft.com/en-us/credentials/" rel="noopener noreferrer" target="_blank">Microsoft Learn Credentials →</a>
 </div>
-
-
+</section>
 <section class="review-section" id="use-cases">
-<h2><span data-i18n="review.common.best.use.cases">Best Use Cases</span></h2>
-<h3><span data-i18n="review.common.best.for">Best For:</span></h3>
+<h2>Best Use Cases</h2>
+<h3>Best For:</h3>
 <ul>
-<li><strong>Enterprise Organizations:</strong> Large companies with complex security needs</li>
-<li><strong>Regulated Industries:</strong> Financial services, healthcare, government</li>
-<li><strong>Global Operations:</strong> Multi-site organizations requiring centralized security</li>
-<li><strong>Compliance Requirements:</strong> Industries with strict regulatory mandates</li>
-<li><strong>Security-First Companies:</strong> Organizations prioritizing advanced protection</li>
-<li><strong>SOC Teams:</strong> Security operations requiring comprehensive tools</li>
+<li>Organizations already using Microsoft 365, Defender XDR and Azure</li>
+<li>Security teams that want a SIEM without managing infrastructure</li>
+<li>SOC analysts comfortable with KQL</li>
+<li>Teams that need cheaper long-term log retention through the data lake tier</li>
 </ul>
-<h3><span data-i18n="review.common.may.not.be.ideal.for">May Not Be Ideal For:</span></h3>
+<h3>May Not Be Ideal For:</h3>
 <ul>
-<li>Small businesses with limited budgets</li>
-<li>Organizations seeking simple solutions</li>
-<li>Companies with minimal security requirements</li>
-<li>Startups needing quick deployment</li>
+<li>Buyers who want a fixed per-user or per-device SIEM price</li>
+<li>Teams that do not want to work in the Azure and Defender portals</li>
+<li>Environments where most data comes from high-volume paid sources and ingestion budgets are tight</li>
 </ul>
 </section>
 <section class="review-section" id="comparison">
-<h2><span data-i18n="review.common.comparison">Comparison with Competitors</span></h2>
-<h3><span data-i18n="review.common.platform.comparison">Platform Comparison</span></h3>
-<div class="pros-cons-grid">
-<div class="pros-card">
-<h3><span data-i18n="review.common.key.advantages">Key Advantages</span></h3>
+<h2>Comparison with Competitors</h2>
+<h3>Microsoft Sentinel vs Alternatives</h3>
 <ul>
-<li>Enterprise-grade capabilities</li>
-<li>Strong industry reputation</li>
-<li>Comprehensive feature set</li>
-<li>Proven track record</li>
+<li><strong>vs Splunk Enterprise Security:</strong> Splunk ES is quote-based with activity, workload or ingest pricing and comes in Essentials and Premier editions; Sentinel publishes per-GB and commitment-tier pricing on Azure.</li>
+<li><strong>vs Rapid7 and Qualys:</strong> these focus on vulnerability and exposure management; Sentinel collects and correlates security logs and alerts, including from such tools.</li>
 </ul>
-</div>
-<div class="pros-card">
-<h3><span data-i18n="review.common.considerations">Considerations</span></h3>
-<ul>
-<li>Premium pricing model</li>
-<li>Complex implementation</li>
-<li>Enterprise-focused features</li>
-<li>Learning curve for full utilization</li>
-</ul>
-</div>
-</div>
 </section>
 <!-- Screenshots Section -->
 <section class="container-custom section-padding" id="screenshots">
@@ -414,34 +369,34 @@
 </div>
 </section>
 <section class="review-section" id="faq">
-<h2><span data-i18n="review.common.frequently.asked.questions">Frequently Asked Questions</span></h2>
+<h2>Frequently Asked Questions</h2>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4><span data-i18n="review.microsoft-sentinel.faq.q1">What makes this solution unique?</span></h4>
-<p><span data-i18n="review.microsoft-sentinel.faq.a1">This platform combines advanced capabilities with enterprise-grade scalability, providing comprehensive protection for organizations of all sizes. Its proven track record and continuous innovation make it a trusted choice.</span></p>
+<h4>Is there a free trial?</h4>
+<p>Yes. When you enable Sentinel on a Log Analytics workspace, the first 10 GB/day on the Analytics logs plan is free for 31 days.</p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4><span data-i18n="review.microsoft-sentinel.faq.q2">How does pricing work?</span></h4>
-<p><span data-i18n="review.microsoft-sentinel.faq.a2">Pricing is customized based on organization size, features required, and deployment model. Contact sales for a detailed quote tailored to your specific needs and use case.</span></p>
+<h4>Which data is free to ingest?</h4>
+<p>Microsoft lists Azure Activity logs, Sentinel health data, Office 365 audit logs (SharePoint, Exchange, Teams) and security alerts from Defender products and Defender for Cloud, among others.</p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4><span data-i18n="review.microsoft-sentinel.faq.q3">What kind of support is available?</span></h4>
-<p><span data-i18n="review.microsoft-sentinel.faq.a3">Enterprise support includes dedicated account management, 24/7 technical support, regular training, and professional services for implementation and optimization.</span></p>
+<h4>Is Sentinel leaving the Azure portal?</h4>
+<p>Yes. After March 31, 2027 Sentinel will only be available in the Microsoft Defender portal.</p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4><span data-i18n="review.microsoft-sentinel.faq.q4">Is there a free trial?</span></h4>
-<p><span data-i18n="review.microsoft-sentinel.faq.a4">Demos and proof-of-concept deployments are available. Contact the sales team to arrange a personalized evaluation in your environment.</span></p>
+<h4>What is the Sentinel data lake?</h4>
+<p>A low-cost tier for long-term retention and querying of security data, billed on separate ingestion, processing, storage and query meters.</p>
 </div>
 <div class="feature-card" style="margin-bottom: var(--space-md);">
-<h4><span data-i18n="review.microsoft-sentinel.faq.q5">What industries use this solution?</span></h4>
-<p><span data-i18n="review.microsoft-sentinel.faq.a5">Organizations across financial services, healthcare, government, retail, manufacturing, and technology sectors rely on this platform for their security needs.</span></p>
+<h4>Do I need Security Copilot?</h4>
+<p>No. Copilot is optional; some Sentinel MCP tools, such as the entity analyzer, consume Security Copilot compute units when used.</p>
 </div>
 </section>
 <section class="review-section" id="verdict">
-<h2><span data-i18n="review.common.final.verdict">Final Verdict</span></h2>
+<h2>Final Verdict</h2>
 <div class="verdict-box">
 <div class="verdict-score">4.6/5</div>
 <div class="verdict-label">Very Good</div>
-<p style="margin-top: var(--space-lg); color: var(--text-secondary); max-width: 600px; margin-left: auto; margin-right: auto;">Microsoft Sentinel is the natural choice for Microsoft-centric organizations. Security Copilot adds powerful AI capabilities, and the cloud-native architecture eliminates infrastructure burden. Best value for existing Microsoft customers.</p>
+<p style="margin-top: var(--space-lg); color: var(--text-secondary); max-width: 600px; margin-left: auto; margin-right: auto;">Microsoft Sentinel is the natural SIEM for organizations already on Microsoft 365, Defender and Azure: many Microsoft sources ingest for free and there is no infrastructure to run. Its consumption pricing rewards careful data tiering, and teams still using the Azure portal should plan the move to the Defender portal before March 31, 2027.</p>
 <div class="rating-breakdown">
 <div class="rating-row"><span class="label">AI Capabilities</span><div class="bar"><div class="bar-fill" style="width: 90%;"></div></div><span class="score">9.0</span></div>
 <div class="rating-row"><span class="label">Integration</span><div class="bar"><div class="bar-fill" style="width: 95%;"></div></div><span class="score">9.5</span></div>
@@ -449,30 +404,30 @@
 <div class="rating-row"><span class="label">Value</span><div class="bar"><div class="bar-fill" style="width: 85%;"></div></div><span class="score">8.5</span></div>
 </div>
 <div class="cta-buttons">
-<a class="btn btn-primary" href="https://www.microsoft.com/security/business/siem-and-xdr/microsoft-sentinel" rel="nofollow sponsored">Try Free →</a>
+<a class="btn btn-primary" href="https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-sentinel" rel="nofollow sponsored" target="_blank">Visit Microsoft Sentinel →</a>
 <a class="btn btn-outline" href="../../categories/ai-cybersecurity.html">Compare Alternatives</a>
 </div>
 </div>
 </section>
-
+</main>
 <aside class="review-sidebar">
 <div class="sidebar-card">
-<h3><span data-i18n="review.common.quick.stats">Quick Stats</span></h3>
+<h3>Quick Stats</h3>
 <div class="quick-stats">
 <div class="stat-row"><span class="stat-label">Rating</span><span class="stat-value">4.6/5 ★</span></div>
-<div class="stat-row"><span class="stat-label">Price</span><span class="stat-value">Pay-as-you-go</span></div>
-<div class="stat-row"><span class="stat-label">Free Trial</span><span class="stat-value">31 Days</span></div>
-<div class="stat-row"><span class="stat-label">Best For</span><span class="stat-value">MS Customers</span></div>
-<div class="stat-row"><span class="stat-label">Platform</span><span class="stat-value">Azure</span></div>
+<div class="stat-row"><span class="stat-label">Price</span><span class="stat-value">Per GB or commitment tier</span></div>
+<div class="stat-row"><span class="stat-label">Free Trial</span><span class="stat-value">31 days, 10 GB/day</span></div>
+<div class="stat-row"><span class="stat-label">Best For</span><span class="stat-value">Microsoft customers</span></div>
+<div class="stat-row"><span class="stat-label">Platform</span><span class="stat-value">Azure / Defender portal</span></div>
 </div>
 </div>
 <div class="sidebar-card" style="background: linear-gradient(135deg, rgba(14, 165, 233, 0.2), rgba(2, 132, 199, 0.2));">
 <h3>Try Sentinel Free</h3>
-<p style="font-size: var(--text-sm); color: var(--text-secondary); margin-bottom: var(--space-md);">31-day free trial on Azure.</p>
-<a class="btn btn-primary" href="https://azure.microsoft.com/en-us/products/microsoft-sentinel" rel="nofollow sponsored" style="width: 100%; text-align: center;" target="_blank">Start Free Trial →</a>
+<p style="font-size: var(--text-sm); color: var(--text-secondary); margin-bottom: var(--space-md);">First 10 GB/day free for 31 days on a new workspace.</p>
+<a class="btn btn-primary" href="https://www.microsoft.com/en-us/security/pricing/microsoft-sentinel/" rel="nofollow sponsored" style="width: 100%; text-align: center;" target="_blank">View Pricing and Trial →</a>
 </div>
 </aside>
-
+</div>
 <footer class="footer"><div class="container"><div class="footer-bottom"><p class="copyright">© 2026 TechVernia. All rights reserved.</p></div></div></footer>
 <script src="../../../js/main.js"></script>
 <script src="../../../js/microsoft-sentinel-i18n.js"></script>
