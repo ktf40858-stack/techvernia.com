@@ -203,6 +203,20 @@
 </a>
 </div>
 </div>
+<section class="tv-category-guide">
+<h2>What are vector databases?</h2>
+<p>Vector databases store embeddings, numerical representations of text, images or other data produced by AI models, and retrieve the items most similar to a query. They are the retrieval layer behind most retrieval-augmented generation (RAG) systems, semantic search, recommendation features and long-term memory for AI agents. A traditional database matches exact values; a vector database finds content that is close in meaning, usually combined with metadata filters such as user, date or category. The three databases in this category take clearly different design positions: Pinecone is a fully managed serverless service, Qdrant is an open-source engine written in Rust that you can self-host or run in a managed cloud, and Weaviate is an open-source database written in Go that can generate embeddings itself through built-in modules.</p>
+<h2>How to choose</h2>
+<ul>
+<li><strong>Managed or self-hosted:</strong> Pinecone removes operational work entirely, while Qdrant (Apache 2.0) and Weaviate (BSD-3) offer self-hosted versions without feature restrictions, according to their reviews.</li>
+<li><strong>Filtering and hybrid search:</strong> real applications combine similarity with metadata filters and keyword matching. Qdrant integrates filtering into the vector search itself, while Pinecone and Weaviate both support hybrid search.</li>
+<li><strong>Who creates the embeddings:</strong> Weaviate can vectorize data on insert through its modules; with leaner engines, your application generates embeddings and sends vectors.</li>
+<li><strong>Cost predictability:</strong> consumption-based pricing is hard to forecast before you have production traffic, so estimate storage and query volumes early.</li>
+<li><strong>Multi-tenancy and API style:</strong> if you serve many customers from one cluster, check tenant isolation; Weaviate's GraphQL interface may also require a learning step.</li>
+</ul>
+<h2>Where to start</h2>
+<p><a href="../reviews/data/pinecone.html">Pinecone</a> suits teams whose product is the application rather than the infrastructure and who want a managed service with a free tier. <a href="../reviews/data/qdrant.html">Qdrant</a> fits teams that want strong performance while keeping control of their data, with the same engine available on their own servers or in Qdrant Cloud. <a href="../reviews/data/weaviate.html">Weaviate</a> is a good match for projects that want embedding and generation handled inside the database, along with built-in multi-tenancy.</p>
+</section>
 </main>
 <footer class="footer">
 <div class="container">

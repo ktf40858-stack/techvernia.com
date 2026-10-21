@@ -335,6 +335,20 @@
 
 </div>
 </div>
+<section class="tv-category-guide">
+<h2>What are AI agents and automation tools?</h2>
+<p>AI agent and automation tools let software carry out multi-step work on its own: reading an input, calling a language model, using tools or APIs, and deciding what to do next. This category spans three layers. Developer frameworks such as CrewAI, LangChain and LlamaIndex provide code-level building blocks for agents, retrieval and memory. Visual workflow platforms such as n8n, Make, Gumloop and Dify let teams wire models into business processes on a canvas. Supporting infrastructure fills the gaps real deployments run into: browser agents (Browser Use, Skyvern), managed browsers (Browserbase), web extraction (Firecrawl), long-term memory (Mem0, Letta) and safety rails (NeMo Guardrails). Typical uses include research pipelines, document and lead processing, internal assistants grounded in company data, and automating web forms that have no API.</p>
+<h2>How to choose</h2>
+<ul>
+<li><strong>Code or canvas:</strong> frameworks give full control but require Python or TypeScript skills; visual builders are faster for operations teams but harder to test and version.</li>
+<li><strong>Hosting and data control:</strong> n8n, Dify, Flowise, Firecrawl and Skyvern can be self-hosted according to their reviews, while Make and Gumloop are cloud-only.</li>
+<li><strong>Billing unit:</strong> operations, credits, messages and tokens scale very differently. Model your expected volume against each vendor's unit before committing, especially for message-based plans such as Copilot Studio.</li>
+<li><strong>Model flexibility:</strong> check whether you can switch LLM providers without rebuilding your workflows.</li>
+<li><strong>Project health:</strong> this field moves fast. AutoGen has been archived in favor of Microsoft Agent Framework and Flowise is now owned by Workday, so confirm a tool's maintenance status before building on it.</li>
+</ul>
+<h2>Where to start</h2>
+<p>Based on each vendor's documentation, a few entry points cover most needs. <a href="../reviews/agents/crewai.html">CrewAI</a> suits Python developers who want to assemble role-based teams of agents with an open-source framework. <a href="../reviews/agents/n8n.html">n8n</a> fits technical teams that want a self-hostable workflow platform with native AI agent nodes. <a href="../reviews/agents/make.html">Make</a> is a reasonable first step for no-code users, with a visual scenario builder and a free plan to experiment on. <a href="../reviews/agents/llamaindex.html">LlamaIndex</a> is aimed at projects where retrieval over your own data is the core problem. <a href="../reviews/agents/copilot-studio.html">Copilot Studio</a> makes most sense for organizations already standardized on Microsoft 365 and Teams.</p>
+</section>
 </main>
 <!-- Footer -->
 <footer class="footer">

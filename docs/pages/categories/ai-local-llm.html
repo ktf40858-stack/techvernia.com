@@ -215,6 +215,20 @@
 </a>
 </div>
 </div>
+<section class="tv-category-guide">
+<h2>What are local LLM tools?</h2>
+<p>Local LLM tools let you run large language models on hardware you control instead of sending prompts to a hosted service. The category covers desktop apps that download and chat with models on a laptop, applications that make your own documents searchable without a vendor, self-hosted web interfaces that give a whole team a private assistant, and inference servers built to handle many concurrent users on GPUs. Typical reasons to go local are confidential material that cannot leave the organisation, offline or air-gapped environments, verifiable privacy, and developers who want to prototype against a local endpoint before choosing a hosted model.</p>
+<h2>How to choose</h2>
+<ul>
+<li><strong>One user or many.</strong> A desktop app is enough for personal use; teams need accounts and role-based access, and serving many concurrent users calls for a dedicated inference server.</li>
+<li><strong>Hardware fit.</strong> Check which model formats are supported, such as GGUF or MLX, and whether the tool tells you up front if your machine can run a given model.</li>
+<li><strong>API compatibility.</strong> An OpenAI-compatible local endpoint lets existing code switch to a local model by changing the base URL.</li>
+<li><strong>Licence and auditability.</strong> Open-source licences let you inspect the code; some free desktop apps require a separate licence for business use.</li>
+<li><strong>Document handling.</strong> If you need to query your own files, look for built-in ingestion, embeddings and separate workspaces.</li>
+</ul>
+<h2>Where to start</h2>
+<p>Based on each vendor's documentation, <a href="../reviews/local-llm/lm-studio.html">LM Studio</a> suits individuals and developers who want a simple desktop app with a local OpenAI-compatible server. <a href="../reviews/local-llm/jan.html">Jan</a> fits privacy-focused users who want an open-source assistant that works fully offline. <a href="../reviews/local-llm/anythingllm.html">AnythingLLM</a> is for small organisations that want to make contracts, policies or documentation queryable in separate workspaces. <a href="../reviews/local-llm/open-webui.html">Open WebUI</a> suits teams that want a self-hosted, multi-user private assistant mixing local and hosted models. <a href="../reviews/local-llm/vllm.html">vLLM</a> is the option for engineers serving many concurrent users from GPUs, not for single-user desktop use.</p>
+</section>
 </main>
 <footer class="footer">
 <div class="container">

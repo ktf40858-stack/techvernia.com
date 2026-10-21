@@ -203,6 +203,20 @@
 </a>
 </div>
 </div>
+<section class="tv-category-guide">
+<h2>What are LLMOps and observability tools?</h2>
+<p>LLMOps platforms help teams run applications built on large language models after the prototype stage. Tracing records every step of a request, including nested model calls, retrievals and tool invocations with their inputs and outputs, so a failure in a multi-step agent becomes an ordinary debugging problem. Evaluation scores whether outputs are good, using datasets and scorers that can be deterministic checks or model-graded judgements. Most platforms also add prompt management and human review, so a bad production trace can be turned into a test case that guards future changes. The typical users are engineering teams shipping LLM features to production.</p>
+<h2>How to choose</h2>
+<ul>
+<li><strong>Tracing or evaluation first.</strong> Some platforms start from production debugging, others from controlled experiments that compare a prompt or model change against what you shipped before.</li>
+<li><strong>Framework coupling.</strong> Deep integration with one agent framework can reveal more structure, while framework-agnostic tools fit mixed stacks.</li>
+<li><strong>Hosting and licence.</strong> If traces contain sensitive data, check whether a self-hosted deployment is available and under what licence or plan.</li>
+<li><strong>Human review workflow.</strong> Annotation queues that route traces to domain experts turn their judgement into repeatable evaluation datasets.</li>
+<li><strong>Cost at volume.</strong> Pricing usually scales with traces, events or evaluation runs, so estimate production traffic before committing.</li>
+</ul>
+<h2>Where to start</h2>
+<p>Based on each vendor's documentation, <a href="../reviews/llmops/langfuse.html">Langfuse</a> suits teams that want tracing, datasets, evaluations and prompt management in one product, with a free self-hosted option under the MIT licence. <a href="../reviews/llmops/langsmith.html">LangSmith</a> fits teams building on LangChain and LangGraph, since it visualises agent graphs node by node and offers annotation queues for human review. <a href="../reviews/llmops/braintrust.html">Braintrust</a> is aimed at teams that ship frequent prompt and model changes and want experiment-based evaluation to catch regressions before users see them. A practical approach is to start on a free tier, instrument a single production feature, and expand once you see which signals your team actually uses.</p>
+</section>
 </main>
 <footer class="footer">
 <div class="container">
