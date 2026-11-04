@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="VOLTA, a Windows infostealer documented by Cisco Talos on October 31, 2026, sends each victim's stolen profile to Claude Opus 4.6 through OpenRouter, falling back to Kimi K2 and Gemini 2.5 Flash after a refusal, to rank what the victim is worth. How it works, what it changes, and how to detect it."/>
+<meta name="keywords" content="VOLTA infostealer, VOLTA-AUTODOXER, Cisco Talos VOLTA, AI malware, LLM malware, infostealer AI ranking, OpenRouter malware, Claude Opus malware abuse, headless Chrome App-Bound Encryption bypass, autodox, AI cybercrime 2026, infostealer detection"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/volta-infostealer-ai-ranks-victims-worth-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/volta-infostealer-ai-ranks-victims-worth-2026.html"/>
+<meta property="og:title" content="VOLTA: The Infostealer That Asks AI What You Are Worth"/>
+<meta property="og:description" content="A new infostealer sends your stolen data to an AI and asks what you are worth. If one model refuses, it asks the next. How VOLTA works and how to detect it."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/volta-infostealer-ai-ranks-victims-worth-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="VOLTA: Malware That Asks AI What You Are Worth"/>
+<meta name="twitter:description" content="VOLTA steals your sessions, finds your home address, then asks Claude, Kimi or Gemini to rank your value. How to detect it."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "VOLTA: The Infostealer That Asks AI What You Are Worth",
+  "description": "How the VOLTA infostealer uses an AI model fallback chain to rank victims by value, what Cisco Talos found, what is still unknown, and how defenders can detect it.",
+  "image": "https://techvernia.com/assets/images/blog-covers/volta-infostealer-ai-ranks-victims-worth-2026.webp",
+  "datePublished": "2026-11-04",
+  "dateModified": "2026-11-04",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/volta-infostealer-ai-ranks-victims-worth-2026.html"
+  }
+}
+</script>
+
+<title>VOLTA Infostealer Asks AI What You Are Worth | TechVernia</title>
+
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-section-title { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-primary); margin: 0 0 var(--space-sm); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08)), var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<style>
+.code-block {
+    background: rgba(2, 6, 23, 0.85);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+    overflow-x: auto;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--text-secondary);
+    white-space: pre;
+}
+.code-block .cmt { color: #64748b; }
+.code-block .hl { color: var(--accent-primary); }
+.article-content p code, .article-content li code, .faq-answer code {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 0.9em;
+    background: rgba(0, 217, 255, 0.08);
+    border: 1px solid rgba(0, 217, 255, 0.18);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: var(--accent-primary);
+    white-space: nowrap;
+}
+.status-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; font-size: var(--text-sm); }
+.status-table th, .status-table td { text-align: left; padding: var(--space-md); border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+.status-table th { color: var(--text-primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: var(--text-xs); }
+.status-table td strong { color: var(--text-primary); }
+.status-ok { color: #10b981; font-weight: 700; }
+.status-bad { color: #f87171; font-weight: 700; }
+@media (max-width: 640px) { .status-table { font-size: var(--text-xs); } .status-table th, .status-table td { padding: var(--space-sm); } }
+</style>
+<link href="../../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/volta-infostealer-ai-ranks-victims-worth-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/volta-infostealer-ai-ranks-victims-worth-2026.html" />
+<!-- premium-theme -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/premium.css">
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img class="tv-mark" src="../../assets/images/brand/techvernia-mark.webp" alt="" width="34" height="34"><img class="tv-wordmark" src="../../assets/images/brand/techvernia-wordmark.webp" alt="TechVernia" width="134" height="15">
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>VOLTA: The Infostealer That Asks AI What You Are Worth</h1>
+                <p class="subtitle">On October 31, Cisco Talos described VOLTA, a Windows infostealer that does not stop at stealing passwords and sessions. It sends a profile of each victim to a large language model and asks it to rank the victim's assets and judge their security habits. If one model refuses, it simply asks the next. Here is how it works, what it really changes, and what defenders can do today.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>8 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>November 4, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+<div class="callout">
+    <strong>For information only.</strong> This article is based on Cisco Talos' analysis of VOLTA (October 31, 2026), as summarized by <a href="https://blog.gridinsoft.com/volta-stealer-ai-victim-dossier/" target="_blank" rel="noopener noreferrer">Gridinsoft</a>, <a href="https://ai-tldr.dev/releases/talos-volta-infostealer-llm-victim-ranking/" target="_blank" rel="noopener noreferrer">AI-TLDR</a> and <a href="https://www.aichatdaily.com/ai-security/talos-finds-volta-infostealer-using-claude-rank-victims" target="_blank" rel="noopener noreferrer">AI Chat Daily</a>. TechVernia has not analyzed the malware sample itself and has no commercial relationship with Cisco, Anthropic, Google, Moonshot AI or OpenRouter.
+</div>
+
+<h2>A Thief With an Analyst</h2>
+
+<p>Infostealers are the most common malware on Windows today. They grab saved passwords, cookies and crypto wallets, then ship everything to an operator who decides what is worth using. That last step, <strong>deciding who is worth the effort</strong>, has always been human work.</p>
+
+<p>VOLTA, also called <strong>VOLTA-AUTODOXER</strong>, hands that step to an AI. Cisco Talos first saw it on <strong>October 11, 2026</strong> and published its analysis on <strong>October 31</strong>. It is sold as a <strong>builder</strong>, so each buyer gets a custom Windows binary (PE32+, x86-64) that <strong>deletes itself</strong> once the job is done.</p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">Oct 11</span>
+        <span class="spec-label">First sample seen by Cisco Talos</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">3</span>
+        <span class="spec-label">AI models in its fallback chain</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">0.2</span>
+        <span class="spec-label">Temperature used for consistent "appraisals"</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">1</span>
+        <span class="spec-label">API call to replace a human analyst</span>
+    </div>
+</div>
+
+<h2>What VOLTA Steals</h2>
+
+<ul>
+    <li><strong>Browsers:</strong> saved passwords, cookies and payment cards.</li>
+    <li><strong>Apps:</strong> Outlook, Slack, Discord, Telegram, Steam and Roblox data.</li>
+    <li><strong>Technical secrets:</strong> SSH keys, cloud and VPN configuration files, crypto wallets and saved Wi-Fi passwords.</li>
+</ul>
+
+<p>Then it goes a step further than a classic stealer. Using the sessions it just stole, VOLTA <strong>searches Gmail for retail receipts</strong> and pulls <strong>Uber Eats and DoorDash order history</strong> to confirm the victim's home address. Stolen data becomes a physical location.</p>
+
+<h2>The AI Stage, Step by Step</h2>
+
+<ol>
+    <li>Everything collected goes into a file called <code>Identity_Report.txt</code>.</li>
+    <li>VOLTA converts it to JSON and sends it, with a system prompt, to the <strong>OpenRouter</strong> chat completions API at temperature 0.2.</li>
+    <li>The default model is <strong>Claude Opus 4.6</strong>.</li>
+    <li>VOLTA scans the reply for refusal phrases such as "I can't" or "I'm not able". If it finds one, it sends the same request to <strong>Kimi K2</strong>, then to <strong>Gemini 2.5 Flash</strong>.</li>
+    <li>The answer is saved as <code>AI_Analysis.txt</code>, and both files can be packed into <code>volta_dox.zip</code> for the operator.</li>
+</ol>
+
+<p>The report has two sections. <strong>"WHAT THEY'RE WORTH"</strong> ranks the victim's assets as low, medium or high value. <strong>"THEIR OPSEC"</strong> judges their password habits. The data sent to the model includes the victim's <strong>home address, employer, inferred birth year, last four card digits and Slack workspaces</strong>.</p>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">Key Point</div>
+    <h3>Refusals Are Not a Security Control</h3>
+    <p>The safety training of one model does work in the narrow sense: a refusal is a real outcome VOLTA had to plan for. But the attacker does not need every model to say yes. They need one. A simple string check and a list of fallbacks turns each refusal into a short delay. Model-level guardrails reduce misuse; they cannot be the only line of defense when attackers can shop across providers through a single API router.</p>
+</div>
+
+<h2>What Really Changes: "Effort Displacement"</h2>
+
+<p>Talos calls this <strong>effort displacement</strong>. A stealer campaign can collect thousands of logs. Sorting them, finding the crypto holder, the company admin or the person with a saved corporate VPN profile, used to take time and skill. VOLTA turns that triage into <strong>one API call per victim</strong>.</p>
+
+<p>Three details make this worth attention:</p>
+
+<ul>
+    <li><strong>The AI step is optional.</strong> Without an API key, VOLTA still steals and sends everything. The model does not make the theft possible; it decides who gets hit first.</li>
+    <li><strong>No attacker server to block.</strong> VOLTA relies only on third-party services. There is no classic command-and-control domain to add to a blocklist.</li>
+    <li><strong>Doxing at scale.</strong> Receipts and delivery history turn a stolen login into a home address. That raises the risk well beyond account takeover, toward extortion and physical threats.</li>
+</ul>
+
+<h2>How to Detect and Defend</h2>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Signal or control</th><th>Why it matters</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>Chrome launched with <code>--headless</code></strong></td><td>VOLTA uses headless Chrome to get around App-Bound Encryption. Use application control to limit which processes can do this, and at minimum alert when anything outside known developer tools does.</td></tr>
+        <tr><td><strong>Calls to OpenRouter or LLM APIs</strong></td><td>A finance laptop that never uses AI suddenly talking to an LLM router is a strong signal. Baseline which hosts use AI APIs and alert on the rest.</td></tr>
+        <tr><td><strong>Files on disk</strong></td><td>Look for <code>Identity_Report.txt</code>, <code>AI_Analysis.txt</code>, <code>volta_dox.zip</code> and <code>%APPDATA%\volta_debug.txt</code>.</td></tr>
+        <tr><td><strong>Credential storage</strong></td><td>Move credentials out of the browser into hardware-backed stores and password managers, and enforce phishing-resistant MFA so stolen cookies age out fast.</td></tr>
+    </tbody>
+</table>
+
+<div class="insight-card">
+    <div class="insight-number">02</div>
+    <div class="insight-label">If You Are Infected</div>
+    <h3>Response Checklist</h3>
+    <ul>
+        <li><strong>Isolate the device</strong> and keep alerts and logs before cleaning.</li>
+        <li><strong>Keep <code>%APPDATA%\volta_debug.txt</code>.</strong> The malware deletes itself, but this log can show what was collected and whether the AI call worked.</li>
+        <li><strong>Reset passwords from a clean device</strong>, never from the infected one, starting with primary email and accounts that can reset others.</li>
+        <li><strong>Revoke sessions and tokens</strong>, including Slack, cloud and VPN access, and rotate SSH keys.</li>
+        <li><strong>Move crypto</strong> to a new wallet created on a clean, ideally air-gapped device if a seed phrase was stored in plain text.</li>
+        <li><strong>Involve your security team</strong> if any work credentials were on the machine.</li>
+    </ul>
+</div>
+
+<h2>The Fine Print</h2>
+
+<div class="callout-orange">
+    <strong>One sample, early days.</strong> Talos analyzed a single sample. There is no published victim count, no known universal delivery lure, and no reported financial losses yet.
+</div>
+
+<p>We also do not know how many buyers have the builder, or how often the AI stage is actually configured in real campaigns. The behavior is documented; the scale is not.</p>
+
+<div class="highlight-box">
+    <p><strong>VOLTA is a Windows infostealer documented by Cisco Talos on October 31, 2026 that sends each victim's stolen profile to an AI model through OpenRouter, starting with Claude Opus 4.6 and falling back to Kimi K2 and Gemini 2.5 Flash after a refusal, to rank the victim's value and security habits.</strong> The AI stage is optional, but it turns the operator's triage into one API call. Defenders should watch headless Chrome launches and unexpected LLM API traffic.</p>
+</div>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What is VOLTA?</div>
+        <div class="faq-answer">VOLTA, also called VOLTA-AUTODOXER, is a Windows infostealer sold as a builder. Cisco Talos first saw it on October 11, 2026. It steals browser data, app sessions, SSH keys, cloud and VPN configs and crypto wallets, then optionally asks an AI model to rank each victim's value.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Which AI models does VOLTA use?</div>
+        <div class="faq-answer">According to Talos, its default is Claude Opus 4.6 through OpenRouter. If the reply contains a refusal phrase, it retries with Kimi K2 and then Gemini 2.5 Flash.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Does the AI make the theft possible?</div>
+        <div class="faq-answer">No. The AI stage is optional. Without an API key, VOLTA still steals and exfiltrates data. The model only ranks victims, so the operator knows who to exploit first.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How can I detect VOLTA?</div>
+        <div class="faq-answer">Watch for Chrome started with <code>--headless</code> by unexpected processes, calls to OpenRouter or other LLM APIs from machines that never use them, and files such as <code>Identity_Report.txt</code>, <code>AI_Analysis.txt</code> or <code>%APPDATA%\volta_debug.txt</code>.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How many people are affected?</div>
+        <div class="faq-answer">Unknown. Talos described one sample and did not publish a victim count, a common delivery method or financial losses.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>For two years, the debate was whether AI would write better malware. VOLTA shows a quieter shift: <strong>AI as the criminal's business analyst</strong>. It reads your receipts, your Slack workspaces and your password habits, then writes a short report on your value.</p>
+
+<p>As a network security engineer, I see a clear lesson in where to look. The theft itself happens on the endpoint, but the AI stage needs to <strong>leave the network</strong>. Egress is where this kind of malware shows itself. A workstation sending personal data to an LLM router at 3 a.m. is now a detection rule worth writing, and most SOCs do not have it yet.</p>
+
+<p>The second lesson is for AI providers and API routers. Refusals clearly happen, which is why VOLTA needs a fallback list. The next step is shared abuse signals across providers, so that a request refused by one model is not quietly answered by another.</p>
+
+<p><strong>Would your SOC notice a workstation sending your users' data to an AI model?</strong></p>
+
+<p><strong>Sources:</strong></p>
+<ul>
+    <li><a href="https://blog.gridinsoft.com/volta-stealer-ai-victim-dossier/" target="_blank" rel="noopener noreferrer">Gridinsoft: VOLTA Stealer asks AI to rank victims using stolen receipts and sessions</a></li>
+    <li><a href="https://ai-tldr.dev/releases/talos-volta-infostealer-llm-victim-ranking/" target="_blank" rel="noopener noreferrer">AI-TLDR: Talos VOLTA infostealer, malware asks an LLM how much each victim is worth</a></li>
+    <li><a href="https://www.aichatdaily.com/ai-security/talos-finds-volta-infostealer-using-claude-rank-victims" target="_blank" rel="noopener noreferrer">AI Chat Daily: Talos finds VOLTA infostealer using Claude to rank victims</a></li>
+    <li><a href="https://dnyuz.com/2026/10/31/spooky-new-infostealer-malware-uses-ai-to-autodox-victims/" target="_blank" rel="noopener noreferrer">Spooky new infostealer malware uses AI to "autodox" victims</a></li>
+    <li><a href="https://explainx.ai/blog/volta-infostealer-llm-ranks-victims-worth-talos-openrouter-what-to-do-2026" target="_blank" rel="noopener noreferrer">ExplainX: VOLTA infostealer, what to do</a></li>
+</ul>
+
+<p><em>This article is published for information purposes only, to help readers understand emerging AI security threats.</em></p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="midnight-blizzard-claude-ai-malware-evasion-2026.html">Russian State Hackers Used Claude Agents to Rewrite Their Malware Every Time It Got Caught</a></li>
+    <li><a href="papercut-ai-agent-swarm-attack-2026.html">One Attacker, Hundreds of AI Agents: How a Swarm Breached 395 Organizations Through PaperCut</a></li>
+    <li><a href="gitspawn-ai-coding-agents-rce-2026.html">One Line in a Repository Runs Attacker Code Inside Seven AI Coding Agents</a></li>
+    <li><a href="ai-soc-agent-prompt-injection-tool-gateway-2026.html">I Built an AI SOC Agent, Then Tried to Hijack It</a></li>
+</ul>
+
+</article>
+
+
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h4 class="author-section-title">About the Author</h4>
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kodjo Apedoh",
+  "jobTitle": "Network Engineer & AI Entrepreneur",
+  "description": "Founder of TechVernia and SankaraShield. Certified Network Security Engineer with 4+ years of experience. Specializes in AI tools research, network automation, and cybersecurity.",
+  "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+  "image": "https://techvernia.com/assets/images/authors/kodjo-apedoh.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+    "https://techvernia.com"
+  ]
+}
+</script>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
