@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="On November 5, 2026, Microsoft made two features generally available: Defender discovery of more than 50 local AI agents and their MCP servers on Windows and macOS, and Microsoft Execution Containers (MXC), an OS-enforced containment layer for AI agents on Windows. What shadow AI agents are, why they matter, and a six-step plan for security teams."/>
+<meta name="keywords" content="shadow AI, shadow AI agents, local AI agents security, Microsoft Execution Containers, MXC, Microsoft Defender AI agent discovery, MCP server security, AI agent inventory, AI agent least privilege, AI agent containment, Agent 365, endpoint security AI agents 2026"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/shadow-ai-agents-microsoft-defender-mxc-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/shadow-ai-agents-microsoft-defender-mxc-2026.html"/>
+<meta property="og:title" content="Your Employees Already Run AI Agents You Cannot See"/>
+<meta property="og:description" content="Microsoft now discovers 50+ local AI agents and contains them at the OS level. What shadow AI agents are and how to get them under control."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/shadow-ai-agents-microsoft-defender-mxc-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="The AI Agents You Cannot See"/>
+<meta name="twitter:description" content="Local AI agents act with your users' access. Microsoft now discovers and contains them. A six-step plan for security teams."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Your Employees Already Run AI Agents You Cannot See",
+  "description": "Microsoft Defender now discovers local AI agents and their MCP servers, and Microsoft Execution Containers contain them at the OS level. What shadow AI agents are, why they matter and how to control them.",
+  "image": "https://techvernia.com/assets/images/blog-covers/shadow-ai-agents-microsoft-defender-mxc-2026.webp",
+  "datePublished": "2026-11-11",
+  "dateModified": "2026-11-11",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/shadow-ai-agents-microsoft-defender-mxc-2026.html"
+  }
+}
+</script>
+
+<title>Your Employees Already Run AI Agents You Cannot See | TechVernia</title>
+
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-section-title { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-primary); margin: 0 0 var(--space-sm); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08)), var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<style>
+.code-block {
+    background: rgba(2, 6, 23, 0.85);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+    overflow-x: auto;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--text-secondary);
+    white-space: pre;
+}
+.code-block .cmt { color: #64748b; }
+.code-block .hl { color: var(--accent-primary); }
+.article-content p code, .article-content li code, .faq-answer code {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 0.9em;
+    background: rgba(0, 217, 255, 0.08);
+    border: 1px solid rgba(0, 217, 255, 0.18);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: var(--accent-primary);
+    white-space: nowrap;
+}
+.status-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; font-size: var(--text-sm); }
+.status-table th, .status-table td { text-align: left; padding: var(--space-md); border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+.status-table th { color: var(--text-primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: var(--text-xs); }
+.status-table td strong { color: var(--text-primary); }
+.status-ok { color: #10b981; font-weight: 700; }
+.status-bad { color: #f87171; font-weight: 700; }
+@media (max-width: 640px) { .status-table { font-size: var(--text-xs); } .status-table th, .status-table td { padding: var(--space-sm); } }
+</style>
+<link href="../../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/shadow-ai-agents-microsoft-defender-mxc-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/shadow-ai-agents-microsoft-defender-mxc-2026.html" />
+<!-- premium-theme -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/premium.css">
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img class="tv-mark" src="../../assets/images/brand/techvernia-mark.webp" alt="" width="34" height="34"><img class="tv-wordmark" src="../../assets/images/brand/techvernia-wordmark.webp" alt="TechVernia" width="134" height="15">
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>Your Employees Already Run AI Agents You Cannot See</h1>
+                <p class="subtitle">Coding assistants, desktop copilots and agents wired to company tools through MCP servers now run on ordinary laptops, with the user's own access. On November 5, Microsoft shipped two features that treat them as a security problem: Defender can now discover them, and a new OS-level layer can contain them. Here is what changed, why it matters, and a six-step plan for any security team, Microsoft shop or not.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>7 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>November 11, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+<div class="callout">
+    <strong>For information only.</strong> This article is based on Microsoft's official announcement, <a href="https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/" target="_blank" rel="noopener noreferrer">"What's new in Microsoft Security: November 2026"</a> (November 5, 2026). TechVernia has not tested these features and has no commercial relationship with Microsoft.
+</div>
+
+<h2>A New Kind of Shadow IT</h2>
+
+<p>For twenty years, security teams fought <strong>shadow IT</strong>: apps and cloud services employees adopted without asking, quietly holding company data. The fix was always the same. Find them, then decide what to allow.</p>
+
+<p>Local AI agents are the next wave, and they are harder. A coding assistant, a desktop copilot or an agent connected to company tools through <strong>Model Context Protocol (MCP) servers</strong> installs in minutes. Once running, it can <strong>read files, run commands, open network connections and act with the user's own permissions</strong>.</p>
+
+<p>The difference with classic shadow IT is simple: an unapproved app <strong>stores</strong> data. An unapproved agent <strong>takes actions</strong>.</p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">50+</span>
+        <span class="spec-label">Local AI agents Defender can now discover</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">2</span>
+        <span class="spec-label">Platforms covered by discovery: Windows and macOS</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">GA</span>
+        <span class="spec-label">Both features generally available, November 5, 2026</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">4</span>
+        <span class="spec-label">Areas MXC restricts: files, network, processes, user interactions</span>
+    </div>
+</div>
+
+<h2>What Microsoft Shipped</h2>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">Discovery</div>
+    <h3>Defender Finds Local AI Agents</h3>
+    <p>Microsoft Defender now discovers <strong>more than 50 supported local AI agents</strong> on Windows and macOS <strong>by observing their activity</strong>. It also maps the <strong>MCP servers</strong> each agent is configured to use, and links together the agent, the device and the user account. For a security team, that is the first real inventory of which agents run where, and what they are plugged into.</p>
+</div>
+
+<div class="insight-card">
+    <div class="insight-number">02</div>
+    <div class="insight-label">Containment</div>
+    <h3>Microsoft Execution Containers (MXC)</h3>
+    <p>MXC is an <strong>operating system-enforced containment layer for AI agents</strong> on Windows, designed to limit what an agent can access. It applies least-privilege controls to <strong>files, network, processes and user interactions</strong>, with stronger isolation for higher-risk scenarios. Teams can <strong>tune and validate policies before enforcing them broadly</strong>. Integration with Intune, Entra and Agent 365 is announced as upcoming.</p>
+</div>
+
+<p>In the same announcement, Microsoft described where it wants to go next: <strong>dynamic permissions</strong> that give an agent access scoped to its current task, and only for as long as the task lasts; a <strong>dynamic risk score</strong> that checks whether an agent's authority still matches its behavior; and <strong>conditional access</strong> that can narrow permissions or require human approval for higher-impact actions. Microsoft did not state availability dates for these.</p>
+
+<h2>Why It Matters</h2>
+
+<p>An agent running with a user's permissions is, in practice, <strong>an insider that never sleeps</strong>. It can be wrong, and it can be manipulated. If a web page, an email or a document injects instructions into it (prompt injection), the attacker inherits everything the agent can touch: files, tokens, internal tools behind MCP servers.</p>
+
+<ul>
+    <li><strong>You cannot protect what you have not inventoried.</strong> Most organizations today cannot answer a simple question: which AI agents are running on our endpoints right now?</li>
+    <li><strong>MCP servers widen the blast radius.</strong> Each server an agent connects to is a new path to data or actions, often configured by the user, not by IT.</li>
+    <li><strong>Agents blur attribution.</strong> When an agent sends an email or deletes a file, the logs show the user. Tying actions to the agent is exactly what Microsoft's announced integrations aim at.</li>
+</ul>
+
+<div class="callout">
+    <strong>The order matters.</strong> Discovery comes first, containment second. Blocking agents you have not inventoried only pushes them further into the shadows.
+</div>
+
+<h2>A Six-Step Plan for Security Teams</h2>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Step</th><th>What to do</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>1. Inventory</strong></td><td>List which AI agents run on your endpoints and which MCP servers they connect to. Defender customers can start with the new discovery view; others can begin with software inventory, process telemetry and config files.</td></tr>
+        <tr><td><strong>2. Assign owners</strong></td><td>Every approved agent needs a named human who answers for it, its permissions and its connections.</td></tr>
+        <tr><td><strong>3. Least privilege</strong></td><td>No agent should hold standing admin rights or broad file system access. Scope access to the task, not to the user.</td></tr>
+        <tr><td><strong>4. Watch the network</strong></td><td>Baseline where agents talk. A local agent opening outbound connections to unknown hosts deserves an alert.</td></tr>
+        <tr><td><strong>5. Human approval</strong></td><td>Require a person to confirm high-impact actions: deleting data, sending email, moving money, changing configurations.</td></tr>
+        <tr><td><strong>6. Test before blocking</strong></td><td>Run containment policies in audit mode first, measure what would break, then enforce.</td></tr>
+    </tbody>
+</table>
+
+<h2>The Fine Print</h2>
+
+<div class="callout-orange">
+    <strong>Early days.</strong> Microsoft has not published the full list of the 50+ agents Defender detects. The Intune, Entra and Agent 365 integrations for MXC are announced, not shipped. MXC is a Windows feature, and both tools only help organizations running Microsoft's security stack.
+</div>
+
+<p>The bigger point stands regardless of vendor: local agents are now endpoints with privileges, and they need the same lifecycle as any other privileged software.</p>
+
+<div class="highlight-box">
+    <p><strong>On November 5, 2026, Microsoft made two features generally available: Defender discovery of more than 50 local AI agents and their MCP servers on Windows and macOS, and Microsoft Execution Containers (MXC), an OS-enforced layer that limits what AI agents can access on Windows.</strong> Together they treat local agents as a new form of shadow IT that must be discovered, owned and contained.</p>
+</div>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What is a shadow AI agent?</div>
+        <div class="faq-answer">An AI agent running on a company device without the security team's knowledge or approval, such as a coding assistant or desktop copilot. Unlike a regular unapproved app, it can take actions with the user's permissions.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What is Microsoft Execution Containers (MXC)?</div>
+        <div class="faq-answer">An operating system-enforced containment layer for AI agents on Windows, generally available since November 5, 2026. It applies least-privilege limits to an agent's access to files, network, processes and user interactions.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Which AI agents can Defender discover?</div>
+        <div class="faq-answer">Microsoft says Defender discovers more than 50 supported local AI agents on Windows and macOS by observing their activity, along with their configured MCP servers. It has not published the full list.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Why do MCP servers matter for security?</div>
+        <div class="faq-answer">MCP servers connect an agent to tools and data, such as file systems, ticketing systems or internal APIs. Each one extends what the agent, or an attacker who manipulates it, can reach.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What if my company does not use Microsoft Defender?</div>
+        <div class="faq-answer">The same plan applies: inventory agents with your existing endpoint tools, assign owners, enforce least privilege, monitor outbound traffic and require human approval for high-impact actions.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>The real news here is not a product launch. It is that the largest security vendor on Windows now treats <strong>local AI agents as endpoints to discover and contain</strong>. That is a signal for every security policy, whatever stack you run.</p>
+
+<p>As a network security engineer, I would start with the network. Agents need to talk to models, tools and MCP servers, and that traffic is visible. Knowing which machines talk to which AI services is the cheapest inventory you can build this week, and it does not depend on any vendor.</p>
+
+<p><strong>Do you know how many AI agents are running in your company right now?</strong></p>
+
+<p><strong>Sources:</strong></p>
+<ul>
+    <li><a href="https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/" target="_blank" rel="noopener noreferrer">Microsoft Security blog: What's new in Microsoft Security, November 2026 (November 5, 2026)</a></li>
+</ul>
+
+<p><em>This article is published for information purposes only, to help readers understand emerging AI security risks.</em></p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="ai-soc-agent-prompt-injection-tool-gateway-2026.html">I Built an AI SOC Agent, Then Tried to Hijack It</a></li>
+    <li><a href="gitspawn-ai-coding-agents-rce-2026.html">One Line in a Repository Runs Attacker Code Inside Seven AI Coding Agents</a></li>
+    <li><a href="plugin4shell-ai-coding-agents-2026.html">Your AI Coding Agent Pinned That Plugin to a Commit Hash. It Never Checked Where It Landed.</a></li>
+    <li><a href="volta-infostealer-ai-ranks-victims-worth-2026.html">VOLTA: The Infostealer That Asks AI What You Are Worth</a></li>
+</ul>
+
+</article>
+
+
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h4 class="author-section-title">About the Author</h4>
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kodjo Apedoh",
+  "jobTitle": "Network Engineer & AI Entrepreneur",
+  "description": "Founder of TechVernia and SankaraShield. Certified Network Security Engineer with 4+ years of experience. Specializes in AI tools research, network automation, and cybersecurity.",
+  "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+  "image": "https://techvernia.com/assets/images/authors/kodjo-apedoh.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+    "https://techvernia.com"
+  ]
+}
+</script>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
