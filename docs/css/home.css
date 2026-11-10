@@ -178,3 +178,6 @@ img { display: block; max-width: 100%; }
 @media (hover: hover) and (pointer: fine) { .lang-option:hover { color: var(--white); background: rgba(255,255,255,.06); } }
 @media (max-width: 480px) { .lang-btn .lang-current { display: none; } .lang-btn { padding: 0; width: 38px; justify-content: center; } }
 @media (prefers-reduced-motion: reduce) { .lang-dropdown { transition: none; } }
+
+/* English-only site (November 2026): language selector disabled */
+.language-selector{display:none!important}

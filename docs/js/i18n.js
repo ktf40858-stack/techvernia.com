@@ -47,6 +47,11 @@ const languages = {
 
 // Current language - URL parameter first, then saved choice, then English
 function getStoredLanguage() {
+    // Site is English-only since November 2026: clear any saved language and stay in English
+    for (const storage of ['localStorage', 'sessionStorage']) {
+        try { window[storage].removeItem('language'); } catch (e) {}
+    }
+    return 'en';
     const urlLang = new URLSearchParams(window.location.search).get('lang');
     if (urlLang && languages[urlLang]) {
         return urlLang;

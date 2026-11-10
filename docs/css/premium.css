@@ -308,3 +308,6 @@ h1, h2, h3, .review-hero-info h1, .guide-hero h1, .cert-hero h1 {
 .tv-category-guide li { margin-bottom: 8px; }
 .tv-category-guide strong { color: var(--text-primary); }
 .tv-category-guide a { color: var(--accent-primary); text-decoration: underline; text-underline-offset: 2px; }
+
+/* English-only site (November 2026): language selector disabled */
+.language-selector{display:none!important}

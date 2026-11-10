@@ -1,8 +1,0 @@
-{
-  "review.salesforce-einstein.faq.q1": "How much does Salesforce Einstein cost?",
-  "review.salesforce-einstein.faq.a1": "Pricing varies based on deployment model, users, and features. Contact Salesforce for specific quotes tailored to your organization's needs.",
-  "review.salesforce-einstein.faq.q2": "What data sources does Salesforce Einstein support?",
-  "review.salesforce-einstein.faq.a2": "Salesforce Einstein supports 100+ native connectors including major databases, cloud platforms, SaaS applications, and file formats.",
-  "review.salesforce-einstein.faq.q3": "Does Salesforce Einstein require coding?",
-  "review.salesforce-einstein.faq.a3": "No, Salesforce Einstein features an intuitive visual interface that doesn't require coding for most analyses. Advanced users can leverage scripting for complex scenarios."
-}
