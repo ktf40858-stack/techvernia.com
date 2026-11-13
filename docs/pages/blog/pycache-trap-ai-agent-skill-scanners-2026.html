@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="Researchers paired benign Python source with a substituted .pyc bytecode cache and bypassed seven AI agent skill scanners 94-100% of the time. Plus the OpenAI render-deploy skill that made apps send tokens to an unregistered domain, and six practices for securing agent skills."/>
+<meta name="keywords" content="PyCache Trap, AI agent skills security, agent skill scanner, pyc bytecode cache attack, execution-aware validation, AI supply chain security, OpenAI render-deploy skill, render-internal.com, Codex token leak, Python __pycache__ security, AI agent dependency security 2026"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/pycache-trap-ai-agent-skill-scanners-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/pycache-trap-ai-agent-skill-scanners-2026.html"/>
+<meta property="og:title" content="The Skill Scanner Read the Code. Python Ran Something Else."/>
+<meta property="og:description" content="A substituted .pyc cache beat seven AI agent skill scanners 94-100% of the time. What the PyCache Trap is and how to secure agent skills."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/pycache-trap-ai-agent-skill-scanners-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="The Scanner Read the Code. Python Ran Something Else."/>
+<meta name="twitter:description" content="Seven agent skill scanners missed a substituted bytecode cache. Plus an official skill that leaked tokens. Six practices for security teams."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Skill Scanner Read the Code. Python Ran Something Else.",
+  "description": "Researchers bypassed seven AI agent skill scanners with a substituted Python bytecode cache, and an official OpenAI skill made apps leak tokens to an unregistered domain. What happened and how to secure agent skills.",
+  "image": "https://techvernia.com/assets/images/blog-covers/pycache-trap-ai-agent-skill-scanners-2026.webp",
+  "datePublished": "2026-11-13",
+  "dateModified": "2026-11-13",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/pycache-trap-ai-agent-skill-scanners-2026.html"
+  }
+}
+</script>
+
+<title>The Skill Scanner Read the Code. Python Ran Something Else. | TechVernia</title>
+
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-section-title { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-primary); margin: 0 0 var(--space-sm); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08)), var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<style>
+.code-block {
+    background: rgba(2, 6, 23, 0.85);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+    overflow-x: auto;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--text-secondary);
+    white-space: pre;
+}
+.code-block .cmt { color: #64748b; }
+.code-block .hl { color: var(--accent-primary); }
+.article-content p code, .article-content li code, .faq-answer code {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 0.9em;
+    background: rgba(0, 217, 255, 0.08);
+    border: 1px solid rgba(0, 217, 255, 0.18);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: var(--accent-primary);
+    white-space: nowrap;
+}
+.status-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; font-size: var(--text-sm); }
+.status-table th, .status-table td { text-align: left; padding: var(--space-md); border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+.status-table th { color: var(--text-primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: var(--text-xs); }
+.status-table td strong { color: var(--text-primary); }
+.status-ok { color: #10b981; font-weight: 700; }
+.status-bad { color: #f87171; font-weight: 700; }
+@media (max-width: 640px) { .status-table { font-size: var(--text-xs); } .status-table th, .status-table td { padding: var(--space-sm); } }
+</style>
+<link href="../../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/pycache-trap-ai-agent-skill-scanners-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/pycache-trap-ai-agent-skill-scanners-2026.html" />
+<!-- premium-theme -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/premium.css">
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img class="tv-mark" src="../../assets/images/brand/techvernia-mark.webp" alt="" width="34" height="34"><img class="tv-wordmark" src="../../assets/images/brand/techvernia-wordmark.webp" alt="TechVernia" width="134" height="15">
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>The Skill Scanner Read the Code. Python Ran Something Else.</h1>
+                <p class="subtitle">AI agents now install skills: bundles of instructions and code that run with the agent's access. Security teams rely on skill scanners to review them. In October, researchers showed that a skill with clean Python source and a substituted bytecode cache fooled seven scanners almost every time, and a second report showed an official OpenAI skill that made real apps send tokens to a domain nobody owned. Here is what happened and how to protect your team.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>7 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>November 13, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+<div class="callout">
+    <strong>For information only.</strong> This article is based on the research paper <a href="https://arxiv.org/abs/2610.10612" target="_blank" rel="noopener noreferrer">"PyCache Trap: The Inspection-Execution Gap in Agent Skill Scanners"</a> (arXiv 2610.10612, October 2026) and on AIR Security's report <a href="https://www.air.security/blog-posts/render-openai" target="_blank" rel="noopener noreferrer">"OpenAI Sesame"</a> (October 14, 2026). TechVernia has not reproduced these results and has no commercial relationship with the companies mentioned.
+</div>
+
+<h2>Skills Are the New Packages</h2>
+
+<p>AI agents no longer work alone. Coding agents and desktop assistants now load <strong>skills</strong>: small bundles that combine written instructions with executable scripts, so an agent can deploy an app, process a document or call an internal tool.</p>
+
+<p>That makes a skill a <strong>software dependency</strong>, with one twist. The one installing it, and deciding when to run it, is often the agent itself. A human may never read what it does.</p>
+
+<p>To manage that risk, a new category of tools appeared: <strong>skill scanners</strong>. They review a skill's documentation and source code before it is trusted. Two pieces of research published in October show why reading the skill is not the same as knowing what it will do.</p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">7</span>
+        <span class="spec-label">Skill scanners tested by the PyCache Trap researchers</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">94-100%</span>
+        <span class="spec-label">Attack success rate across 100 skills</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">100/100</span>
+        <span class="spec-label">Substituted caches caught by the proposed defense</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">92.8%</span>
+        <span class="spec-label">Defense recall at a 10% false positive rate, five attack families</span>
+    </div>
+</div>
+
+<h2>How the PyCache Trap Works</h2>
+
+<p>When Python imports a module, it can use a <strong>compiled bytecode cache</strong>, a <code>.pyc</code> file usually stored in a <code>__pycache__</code> folder, instead of compiling the <code>.py</code> source again. Under the right conditions, the loader accepts that cache and runs it. Nobody reads <code>.pyc</code> files: they are binary, and scanners focus on the source.</p>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">What the reviewer sees</div>
+    <h3>Clean Python Source</h3>
+    <p>The skill ships with <strong>benign, readable <code>.py</code> code</strong> and honest documentation. Any human reviewer or scanner would approve it.</p>
+</div>
+
+<div class="insight-card">
+    <div class="insight-number">02</div>
+    <div class="insight-label">What actually runs</div>
+    <h3>A Substituted Bytecode Cache</h3>
+    <p>Next to it, the skill bundles a <strong><code>.pyc</code> cache that the loader accepts but that behaves differently</strong> from the source. The skill's instructions then make the agent call that module during a normal, task-relevant step.</p>
+</div>
+
+<p>The researchers tested this on <strong>100 skills against seven skill scanners</strong>. The attack succeeded <strong>94% to 100% of the time</strong>, and none of the scanners recognized what the substituted cache actually did. They call it the <strong>inspection-execution gap</strong>: the scanners inspect one artifact, the runtime executes another.</p>
+
+<div class="callout">
+    <strong>The core problem.</strong> Security review assumes that the code you read is the code that runs. In a skill that bundles compiled artifacts, that assumption is false.
+</div>
+
+<h2>The Proposed Defense: Execution-Aware Validation</h2>
+
+<p>The paper proposes <strong>execution-aware validation (EAV)</strong>. Instead of only reading files, it builds a typed graph that links a skill's <strong>instructions, scripts, imports and runtime artifacts</strong>, so it knows what the agent can actually load. It then checks every compiled artifact by <strong>trusted reproduction</strong>: rebuild it from the reviewed source and compare.</p>
+
+<p>In the researchers' evaluation, EAV detected <strong>all 100 source-present cache substitutions</strong> and reached <strong>92.8% recall at a 10.0% false positive rate</strong> across five attack families, measured against 200 benign skills.</p>
+
+<h2>Not a One-Off: The Render Skill That Leaked Tokens</h2>
+
+<p>A second case, reported by AIR Security on October 14, shows a different failure with the same lesson. It involved OpenAI's <strong>official <code>render-deploy</code> skill</strong>, which teaches agents how to deploy apps to the Render cloud platform.</p>
+
+<ul>
+    <li>The skill's reference files said private Render services live under <code>render-internal.com</code>, with examples such as <code>internal-api.render-internal.com</code>.</li>
+    <li><strong>That domain did not belong to Render</strong>, and it was not registered.</li>
+    <li>When the researchers asked Codex to deploy two services that talk to each other, it wrote the domain into the generated code as the <strong>default internal API address</strong>, and into the deployment configuration.</li>
+    <li>After the researchers registered the domain as a passive sinkhole, <strong>real applications sent it live calls carrying tokens</strong>.</li>
+</ul>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Date (2026)</th><th>Event</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>January 27</strong></td><td>The wrong domain appears in the skill's first commit.</td></tr>
+        <tr><td><strong>March 13</strong></td><td>The skill is bundled in the <code>openai/plugins</code> repository.</td></tr>
+        <tr><td><strong>August 14</strong></td><td>Render removes every <code>render-internal.com</code> reference from the skill.</td></tr>
+        <tr><td><strong>August 26</strong></td><td>OpenAI removes the Render plugin from <code>openai/plugins</code>.</td></tr>
+        <tr><td><strong>October 14</strong></td><td>AIR Security publishes the report. The domain is now under Render's control.</td></tr>
+    </tbody>
+</table>
+
+<p>AIR Security did not publish how many applications or tokens were affected. Anyone who generated code with the old skill should still check it: a default value written into an app does not disappear when the skill is fixed.</p>
+
+<h2>What Security Teams Should Do Now</h2>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Practice</th><th>Why</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>1. Reject or rebuild bytecode</strong></td><td>Do not admit skills that ship <code>.pyc</code> files or <code>__pycache__</code> folders. If compiled files are needed, rebuild them yourself from the reviewed source.</td></tr>
+        <tr><td><strong>2. Scan what can load</strong></td><td>Review every file the runtime can execute or import, not only the files a human can read.</td></tr>
+        <tr><td><strong>3. Treat domains as dependencies</strong></td><td>Verify that every domain, URL and package a skill mentions belongs to who it claims. Check registration and ownership.</td></tr>
+        <tr><td><strong>4. Search generated code</strong></td><td>Grep your repositories and vendored skill copies for <code>render-internal.com</code> and other defaults that came from skills.</td></tr>
+        <tr><td><strong>5. Control who installs skills</strong></td><td>Keep an approved list of skills, pin versions and stop agents from installing new ones on their own.</td></tr>
+        <tr><td><strong>6. Watch outbound traffic</strong></td><td>An app calling an unknown "internal" domain over the internet is a strong alert signal.</td></tr>
+    </tbody>
+</table>
+
+<h2>The Fine Print</h2>
+
+<div class="callout-orange">
+    <strong>Research, not a known campaign.</strong> The PyCache Trap is an academic attack. The paper does not report it being used in the wild, and the summaries we reviewed do not name the seven scanners tested. The defense numbers come from the authors' own evaluation. In the Render case, AIR Security found real token-bearing traffic but did not publish victim counts.
+</div>
+
+<div class="highlight-box">
+    <p><strong>In October 2026, researchers showed that pairing benign Python source with a substituted bytecode cache bypassed seven AI agent skill scanners 94-100% of the time across 100 skills, while AIR Security showed that OpenAI's official render-deploy skill led Codex to write an unregistered domain into generated apps, which then sent it live, token-bearing calls.</strong> Both point to the same rule: a skill is a dependency, and reviewing what it says is not enough.</p>
+</div>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What is an AI agent skill?</div>
+        <div class="faq-answer">A package that bundles instructions with executable resources, such as Python scripts, so an AI agent can perform a specific task, for example deploying an app or processing files.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What is the PyCache Trap?</div>
+        <div class="faq-answer">An attack described in arXiv paper 2610.10612. A skill ships benign Python source plus a substituted <code>.pyc</code> bytecode cache that Python's loader accepts and runs instead. Scanners review the clean source and miss the cache.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How well did skill scanners do?</div>
+        <div class="faq-answer">Across 100 skills and seven scanners, the attack succeeded 94% to 100% of the time. None of the scanners recognized what the substituted cache did.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What was wrong with OpenAI's render-deploy skill?</div>
+        <div class="faq-answer">It described <code>render-internal.com</code> as Render's private network domain, but Render did not own it and it was unregistered. Codex wrote it into generated apps as a default address, and those apps later sent token-bearing calls to it. Render fixed the skill and now controls the domain.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How can I protect my team?</div>
+        <div class="faq-answer">Reject or rebuild bundled bytecode, scan everything the runtime can load, verify every domain a skill references, search generated code for bad defaults, and stop agents from installing skills without approval.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>We spent a decade learning, the hard way, that reviewing source code is not enough in software supply chains. That is why <strong>reproducible builds and signed artifacts</strong> exist. Agent skills are replaying that history at high speed, and the user installing them is often an agent that never asks why.</p>
+
+<p>The scanners in this study did their job: they read the code. The problem is that reading the code and running the code are no longer the same thing. As a network security engineer, I would add one more layer the attacker cannot hide from: <strong>the network</strong>. A fake "internal" domain still has to resolve and connect somewhere, and that traffic is visible.</p>
+
+<p><strong>Does your organization review agent skills before they run, or are agents installing them on their own?</strong></p>
+
+<p><strong>Sources:</strong></p>
+<ul>
+    <li><a href="https://arxiv.org/abs/2610.10612" target="_blank" rel="noopener noreferrer">Liao et al., "PyCache Trap: The Inspection-Execution Gap in Agent Skill Scanners," arXiv 2610.10612 (October 7, 2026)</a></li>
+    <li><a href="https://www.air.security/blog-posts/render-openai" target="_blank" rel="noopener noreferrer">AIR Security: OpenAI Sesame, Skill Vulnerability in OpenAI's Official Skill Made Production Apps Leak Tokens (October 14, 2026)</a></li>
+    <li><a href="https://adversa.ai/blog/top-agent-skill-security-resources-november-2026/" target="_blank" rel="noopener noreferrer">Adversa AI: Agent skill security resources, November 2026</a></li>
+</ul>
+
+<p><em>This article is published for information purposes only, to help readers understand emerging AI security risks.</em></p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="shadow-ai-agents-microsoft-defender-mxc-2026.html">Your Employees Already Run AI Agents You Cannot See</a></li>
+    <li><a href="plugin4shell-ai-coding-agents-2026.html">Your AI Coding Agent Pinned That Plugin to a Commit Hash. It Never Checked Where It Landed.</a></li>
+    <li><a href="gitspawn-ai-coding-agents-rce-2026.html">One Line in a Repository Runs Attacker Code Inside Seven AI Coding Agents</a></li>
+    <li><a href="ai-soc-agent-prompt-injection-tool-gateway-2026.html">I Built an AI SOC Agent, Then Tried to Hijack It</a></li>
+</ul>
+
+</article>
+
+
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h4 class="author-section-title">About the Author</h4>
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kodjo Apedoh",
+  "jobTitle": "Network Engineer & AI Entrepreneur",
+  "description": "Founder of TechVernia and SankaraShield. Certified Network Security Engineer with 4+ years of experience. Specializes in AI tools research, network automation, and cybersecurity.",
+  "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+  "image": "https://techvernia.com/assets/images/authors/kodjo-apedoh.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+    "https://techvernia.com"
+  ]
+}
+</script>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
