@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8248464433423786"
+     crossorigin="anonymous"></script><meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="Google Threat Intelligence Group reported on November 17, 2026 that attackers now use AI frameworks to find and exploit vulnerabilities with no human in the loop. Inside exploit_agent, ARTEX and the FBI alert, the closing patch window, LLMjacking and what defenders should do now."/>
+<meta name="keywords" content="AI agents cyberattack, Google GTIG report, exploit_agent, ARTEX FBI FLASH alert, AI offensive frameworks, patch diffing, n-day exploitation, LLMjacking, machine speed attacks, vulnerability management 2026"/>
+<meta name="author" content="Kodjo Apedoh"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://techvernia.com/pages/blog/ai-agents-hack-without-human-google-gtig-2026.html"/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://techvernia.com/pages/blog/ai-agents-hack-without-human-google-gtig-2026.html"/>
+<meta property="og:title" content="AI Agents Now Hack Without a Human. Google Just Caught One Doing It."/>
+<meta property="og:description" content="Google caught AI agents turning security patches into live attacks with no human involved. What it means for defenders."/>
+<meta property="og:image" content="https://techvernia.com/assets/images/blog-covers/ai-agents-hack-without-human-google-gtig-2026.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="AI Agents Now Hack Without a Human."/>
+<meta name="twitter:description" content="Google GTIG: exploit_agent, ARTEX and the FBI alert, the closing patch window, LLMjacking, and five actions for defenders."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "AI Agents Now Hack Without a Human. Google Just Caught One Doing It.",
+  "description": "Google Threat Intelligence Group found attackers using AI frameworks to discover and exploit vulnerabilities without a human in the loop. What exploit_agent and ARTEX do and how defenders should respond.",
+  "image": "https://techvernia.com/assets/images/blog-covers/ai-agents-hack-without-human-google-gtig-2026.webp",
+  "datePublished": "2026-11-18",
+  "dateModified": "2026-11-18",
+  "author": {
+    "@type": "Person",
+    "name": "Kodjo Apedoh",
+    "jobTitle": "Network Engineer & AI Entrepreneur",
+    "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechVernia",
+    "logo": { "@type": "ImageObject", "url": "https://techvernia.com/assets/images/logo-techvernia-neon.svg" }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://techvernia.com/pages/blog/ai-agents-hack-without-human-google-gtig-2026.html"
+  }
+}
+</script>
+
+<title>AI Agents Now Hack Without a Human. Google Just Caught One Doing It. | TechVernia</title>
+
+<link href="../../css/style.css" rel="stylesheet"/>
+<link href="../../css/animations.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+.review-hero {
+    padding: calc(80px + var(--space-4xl)) 0 var(--space-3xl);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+.review-hero-content {
+    max-width: 820px;
+    margin: 0 auto;
+}
+.review-hero-info h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; margin-bottom: var(--space-sm); line-height: 1.2; }
+.review-hero-info .subtitle { color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-md); }
+.article-meta { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg); }
+.meta-item { display: flex; align-items: center; gap: var(--space-xs); font-size: var(--text-sm); color: var(--text-secondary); }
+.article-content { max-width: 820px; margin: 0 auto; padding: var(--space-4xl) var(--space-lg); }
+.article-content h2 { font-size: var(--text-3xl); font-weight: 700; margin: var(--space-3xl) 0 var(--space-lg); color: var(--text-primary); }
+.article-content h3 { font-size: var(--text-2xl); font-weight: 600; margin: var(--space-2xl) 0 var(--space-md); color: var(--text-primary); }
+.article-content p { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-lg); }
+.article-content ul, .article-content ol { margin: var(--space-lg) 0; padding-left: var(--space-xl); }
+.article-content li { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.insight-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    margin: var(--space-2xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+.insight-number {
+    position: absolute;
+    top: var(--space-lg);
+    right: var(--space-xl);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(59, 130, 246, 0.1);
+    line-height: 1;
+}
+.insight-label {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(16, 185, 129, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    padding: 4px 14px;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-primary);
+    margin-bottom: var(--space-md);
+}
+.insight-card h3 { margin-top: var(--space-sm); }
+.callout {
+    background: rgba(0, 217, 255, 0.05);
+    border-left: 3px solid var(--accent-primary);
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout strong { color: var(--accent-primary); }
+.callout-orange {
+    background: rgba(251, 146, 60, 0.05);
+    border-left: 3px solid #fb923c;
+    padding: var(--space-lg);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    margin: var(--space-lg) 0;
+}
+.callout-orange strong { color: #fb923c; }
+.highlight-box {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+}
+.highlight-box p { margin-bottom: 0; }
+.spec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+.spec-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-align: center;
+}
+.spec-box .spec-value { font-size: var(--text-3xl); font-weight: 900; color: var(--accent-primary); display: block; margin-bottom: var(--space-xs); }
+.spec-box .spec-label { font-size: var(--text-sm); color: var(--text-secondary); }
+@media (max-width: 640px) { .spec-grid { grid-template-columns: 1fr; } }
+.faq-section { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; }
+.faq-item { margin-bottom: var(--space-xl); }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-question { font-size: var(--text-xl); font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-sm); }
+.faq-answer { font-size: var(--text-base); line-height: 1.8; color: var(--text-secondary); }
+.author-section-title { font-size: var(--text-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-primary); margin: 0 0 var(--space-sm); }
+.author-bio { background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08)), var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: var(--space-2xl); margin: var(--space-3xl) 0; display: flex; gap: var(--space-xl); align-items: start; }
+.author-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-primary); }
+.author-info h3 { margin: 0 0 var(--space-xs); font-size: var(--text-xl); }
+.author-title { color: var(--accent-primary); font-weight: 600; margin-bottom: var(--space-sm); }
+.author-description { color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-md); }
+.author-link { color: var(--accent-primary); text-decoration: none; font-weight: 500; }
+.author-link:hover { text-decoration: underline; }
+</style>
+<style>
+.code-block {
+    background: rgba(2, 6, 23, 0.85);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+    overflow-x: auto;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--text-secondary);
+    white-space: pre;
+}
+.code-block .cmt { color: #64748b; }
+.code-block .hl { color: var(--accent-primary); }
+.article-content p code, .article-content li code, .faq-answer code {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 0.9em;
+    background: rgba(0, 217, 255, 0.08);
+    border: 1px solid rgba(0, 217, 255, 0.18);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: var(--accent-primary);
+    white-space: nowrap;
+}
+.status-table { width: 100%; border-collapse: collapse; margin: var(--space-xl) 0; font-size: var(--text-sm); }
+.status-table th, .status-table td { text-align: left; padding: var(--space-md); border-bottom: 1px solid var(--border-color); color: var(--text-secondary); }
+.status-table th { color: var(--text-primary); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; font-size: var(--text-xs); }
+.status-table td strong { color: var(--text-primary); }
+.status-ok { color: #10b981; font-weight: 700; }
+.status-bad { color: #f87171; font-weight: 700; }
+@media (max-width: 640px) { .status-table { font-size: var(--text-xs); } .status-table th, .status-table td { padding: var(--space-sm); } }
+</style>
+<link href="../../css/responsive.css" rel="stylesheet"/>
+<link rel="alternate" hreflang="x-default" href="https://techvernia.com/pages/blog/ai-agents-hack-without-human-google-gtig-2026.html" />
+<link rel="alternate" hreflang="en" href="https://techvernia.com/pages/blog/ai-agents-hack-without-human-google-gtig-2026.html" />
+<!-- premium-theme -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/premium.css">
+</head>
+<body>
+<canvas id="neural-bg"></canvas>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="../../index.html" class="logo">
+            <img class="tv-mark" src="../../assets/images/brand/techvernia-mark.webp" alt="" width="34" height="34"><img class="tv-wordmark" src="../../assets/images/brand/techvernia-wordmark.webp" alt="TechVernia" width="134" height="15">
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../categories.html" class="nav-link">Categories</a></li>
+            <li class="nav-item"><a href="../guides.html" class="nav-link">Guides</a></li>
+            <li class="nav-item"><a href="../comparisons.html" class="nav-link">Compare</a></li>
+            <li class="nav-item"><a href="../ai-history.html" class="nav-link">AI History</a></li>
+            <li class="nav-item"><a href="../blog.html" class="nav-link active">Blog</a></li>
+            <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <div class="language-selector">
+                <button aria-label="Select Language" class="lang-btn" id="lang-btn">
+                    <span class="lang-icon"><svg class="neon-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+                    <span class="lang-current">EN</span>
+                    <svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <button class="lang-option active" data-lang="en"><span class="flag">US</span> English</button>
+                    <button class="lang-option" data-lang="fr"><span class="flag">FR</span> Francais</button>
+                </div>
+            </div>
+            <button aria-label="Search" class="search-btn" id="search-btn">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+            </button>
+            <button aria-label="Toggle Menu" class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+<header class="review-hero">
+    <div class="container">
+        <div class="review-hero-content">
+            <div class="review-hero-info">
+                <h1>AI Agents Now Hack Without a Human. Google Just Caught One Doing It.</h1>
+                <p class="subtitle">Google says attackers have crossed a line: AI agents that compare a security patch with the old code, find the flaw, write the exploit and launch it, with no human involved. ARTEX is already the subject of an FBI alert. The intrusion mechanics have not changed, but their speed has. Here is what Google found and how to respond.</p>
+                <div class="article-meta">
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 4.5a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .146.354l2.5 2.5a.5.5 0 1 0 .708-.708L7 8.293V4.5z"/></svg>
+                        <span>7 min read</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4.5 1A2.5 2.5 0 0 0 2 3.5v9A2.5 2.5 0 0 0 4.5 15h7a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 11.5 1h-7z"/></svg>
+                        <span>November 18, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                        <span>By Kodjo Apedoh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<article class="article-content">
+<div class="callout">
+    <strong>For information only.</strong> This article is based on Google Threat Intelligence Group (GTIG) and Mandiant findings published on November 17, 2026, as reported by <a href="https://www.helpnetsecurity.com/2026/11/17/ai-powered-cyberattacks-gtig-report/" target="_blank" rel="noopener noreferrer">Help Net Security</a> and <a href="https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/" target="_blank" rel="noopener noreferrer">SecurityWeek</a>. TechVernia has not reviewed the original report or the FBI alert directly and has no commercial relationship with the companies mentioned.
+</div>
+
+<h2>The Human Just Left the Attack</h2>
+
+<p>For years, the security industry has warned that AI would one day run cyberattacks on its own. On <strong>November 17, 2026</strong>, Google said that day has arrived.</p>
+
+<p>Google Threat Intelligence Group (GTIG) reported that, in the past quarter, it saw threat actors use AI frameworks to <strong>discover and exploit vulnerabilities without a human in the loop</strong>, for the first time. GTIG calls it "a paradigm shift towards intrusions occurring at machine speed."</p>
+
+<p>The attacks themselves are not new. What changed is who runs them, and how fast.</p>
+
+<div class="spec-grid">
+    <div class="spec-box">
+        <span class="spec-value">0</span>
+        <span class="spec-label">Humans needed to turn a new patch into a live attack, in one operation found by GTIG</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">5+</span>
+        <span class="spec-label">AI attack frameworks seen in use: ARTEX, CAIRN, CyberStrikeAI, PentAGI, HexStrike AI</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">22</span>
+        <span class="spec-label">Zero-day exploits counted in August 2026, against a 2025 average of 8 per month</span>
+    </div>
+    <div class="spec-box">
+        <span class="spec-value">$1M</span>
+        <span class="spec-label">Worst LLMjacking case: stolen AI and cloud access abused before it was stopped</span>
+    </div>
+</div>
+
+<h2>Inside exploit_agent</h2>
+
+<p>The clearest case came from an <strong>exposed staging server</strong>. On it, GTIG found a framework its operators called <strong>"exploit_agent"</strong>: a multi-agent system connected to several frontier and local AI models.</p>
+
+<p>Its workflow is short:</p>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Step</th><th>What the agents do</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>1. Diff</strong></td><td>Compare a popular web application's code before and after a security patch is announced.</td></tr>
+        <tr><td><strong>2. Find</strong></td><td>Identify the vulnerability the patch was written to fix.</td></tr>
+        <tr><td><strong>3. Weaponize</strong></td><td>Draft a working exploit for that vulnerability.</td></tr>
+        <tr><td><strong>4. Launch</strong></td><td>Run the exploit against real targets, with no human approval in between.</td></tr>
+    </tbody>
+</table>
+
+<p>The same server held <strong>stolen victim data</strong>, brute-force scripts and tools to install and remove webshells. Configuration comments were written in Russian, and one label read "for auto-exploitation (exploit_agent pilot)." Victim telemetry pointed to French websites in media, entertainment and education.</p>
+
+<p>This technique has a name: <strong>patch diffing</strong>. Human researchers have done it for decades. It is slow, skilled work. It is also exactly the kind of task large language models do well: read two versions of code, explain what changed, and write code that uses the difference.</p>
+
+<h2>Not One Tool, an Ecosystem</h2>
+
+<p>exploit_agent is not alone. GTIG and Mandiant saw attackers using several AI offensive frameworks, some of them open source, and some groups building their own.</p>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Framework</th><th>What was reported</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>ARTEX</strong></td><td>The most used, mainly by Chinese-speaking groups. The <strong>FBI issued a FLASH alert on November 13, 2026</strong>: in use since at least August 2026 against financial services, government, technology, defense, healthcare, energy and other sectors.</td></tr>
+        <tr><td><strong>CAIRN</strong></td><td>Used in activity targeting the US aerospace sector.</td></tr>
+        <tr><td><strong>PentAGI</strong></td><td>Used for systematic reconnaissance and vulnerability scanning across organizations in Asia.</td></tr>
+        <tr><td><strong>CyberStrikeAI, HexStrike AI</strong></td><td>Also observed in attacker operations.</td></tr>
+        <tr><td><strong>Custom frameworks</strong></td><td>GTIG saw a China-nexus group building its own automated attack framework, likely for espionage.</td></tr>
+    </tbody>
+</table>
+
+<p>According to the reporting, these tools can find and exploit simple vulnerabilities and <strong>adapt their tactics</strong> based on how a target responds.</p>
+
+<h2>The Patch Window Is Closing</h2>
+
+<p>Most vulnerability management programs rest on one quiet assumption: <strong>after a patch is released, defenders have time</strong>. Attackers need days or weeks to reverse engineer the fix and build a reliable exploit. Defenders patch in between.</p>
+
+<p>AI breaks that assumption. GTIG notes that automating vulnerability analysis and exploit development lets threat actors <strong>shorten the time between a patch's release and its active exploitation</strong>. The broader numbers point the same way: GTIG's September analysis found that vulnerability disclosures and exploits nearly doubled between January and August 2026.</p>
+
+<div class="callout">
+    <strong>A monthly patch cycle is now a monthly exposure window.</strong> If a working exploit can appear within hours of a fix, an internet-facing system patched "next maintenance window" stays open to automated attacks for weeks. Organizations that still patch monthly, such as hospitals, water utilities and regional energy providers, carry the most risk.
+</div>
+
+<p>There is a side effect too. After patches for two PHP flaws (CVE-2026-109618 and CVE-2026-109619) landed on October 21, <strong>hundreds of non-functional proofs of concept</strong> appeared online. The security community had to check each one. AI does not only speed up attackers. It also floods defenders with noise.</p>
+
+<h2>LLMjacking: Your AI Bill as the Target</h2>
+
+<p>The same reporting describes a second trend: attackers stealing access to AI itself. Mandiant responded to several <strong>LLMjacking</strong> incidents in 2026, where attackers hijacked cloud environments to consume the victim's compute and AI model quotas.</p>
+
+<ul>
+    <li>In some cases, fraudulent charges passed <strong>$100,000 in a single day</strong>.</li>
+    <li>In the worst cases, the total reached <strong>$1 million</strong> before the abuse was stopped.</li>
+    <li>One botnet using leaked credentials generated <strong>millions of AI API calls in about 24 hours</strong> before the keys were revoked.</li>
+    <li>Stolen access is resold through "LLM Mixers," at $0.10 to $25 per million tokens.</li>
+</ul>
+
+<p>For any company running AI workloads in the cloud, an exposed API key is no longer just a data risk. It is a direct financial risk.</p>
+
+<h2>The Good News</h2>
+
+<div class="insight-card">
+    <div class="insight-number">01</div>
+    <div class="insight-label">Same mechanics</div>
+    <h3>The Attacks Still Need the Same Doors</h3>
+    <p>GTIG stresses that the mechanics of intrusions have not changed. These agents still abuse <strong>unpatched systems and compromised credentials</strong>. Every control that closes those doors still works against an AI attacker.</p>
+</div>
+
+<div class="insight-card">
+    <div class="insight-number">02</div>
+    <div class="insight-label">Speed is noisy</div>
+    <h3>They Trade Stealth for Velocity</h3>
+    <p>According to GTIG, these frameworks generate traffic and code traces that make them <strong>easier to detect</strong>. An agent that tests exploits at machine speed leaves a loud trail. Teams that watch their logs have a real chance to catch it.</p>
+</div>
+
+<h2>What to Do Now</h2>
+
+<table class="status-table">
+    <thead>
+        <tr><th>Action</th><th>Why</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>1. Patch internet-facing systems in days</strong></td><td>Prioritize anything exposed to the internet. The window between a fix and a working exploit is shrinking fast.</td></tr>
+        <tr><td><strong>2. Watch the days after a patch</strong></td><td>Expect bursts of exploit attempts right after a vendor releases a fix. Raise monitoring on affected systems until they are patched.</td></tr>
+        <tr><td><strong>3. Lock down credentials</strong></td><td>Enforce MFA, remove unused keys, and rotate any exposed cloud or AI API key. Set budget alerts so LLMjacking shows up as a cost spike, not a surprise invoice.</td></tr>
+        <tr><td><strong>4. Automate detection and response</strong></td><td>Machine-speed attacks need machine-speed defense. Automate the first response steps for the most common alerts.</td></tr>
+        <tr><td><strong>5. Hunt for the noise</strong></td><td>Look for rapid, repeated exploit attempts and webshell activity on web servers. Automated attackers rarely slow down.</td></tr>
+    </tbody>
+</table>
+
+<h2>The Fine Print</h2>
+
+<div class="callout-orange">
+    <strong>What to read with care.</strong> This article relies on press coverage of Google's findings, not on the original GTIG report or the FBI FLASH alert, which TechVernia has not reviewed directly. Details such as attribution and victim sectors come from Google and the FBI as reported. The CVE identifiers mentioned are cited by Help Net Security. Check the original sources before making security decisions.
+</div>
+
+<div class="highlight-box">
+    <p><strong>On November 17, 2026, Google Threat Intelligence Group reported that attackers are now using AI frameworks to discover and exploit vulnerabilities without a human in the loop, including a system called exploit_agent that turns new security patches into live attacks.</strong> The mechanics of intrusion have not changed, but their speed has, and a monthly patch cycle is no longer fast enough for internet-facing systems.</p>
+</div>
+
+<div class="faq-section">
+    <h2 style="margin-top: 0; font-size: var(--text-2xl);">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What did Google find?</div>
+        <div class="faq-answer">Google Threat Intelligence Group saw threat actors use AI frameworks to fully automate vulnerability discovery and exploitation, without human involvement, for the first time. One framework, exploit_agent, compared code before and after security patches, built exploits and launched them.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What is ARTEX?</div>
+        <div class="faq-answer">An AI-driven offensive framework that GTIG describes as the most used, mainly by Chinese-speaking groups. The FBI issued a FLASH alert about it on November 13, 2026, warning that it has been used since at least August 2026 against many sectors.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What is patch diffing?</div>
+        <div class="faq-answer">Comparing software before and after a security update to find the vulnerability the update fixed. Attackers then target systems that have not installed the update yet.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">What is LLMjacking?</div>
+        <div class="faq-answer">Stealing credentials to use a victim's AI models and cloud compute. The victim pays the bill. Mandiant saw cases reach $1 million.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Can AI-driven attacks be detected?</div>
+        <div class="faq-answer">Yes. According to GTIG, these frameworks trade stealth for speed and leave noisy traffic and code traces. Good logging, monitoring and fast patching remain effective.</div>
+    </div>
+</div>
+
+<h2>My Take</h2>
+
+<p>AI did not invent a new type of attack. It removed the slowest part of an old one: <strong>the human</strong>. Patch diffing, exploit writing and scanning used to take skilled people days. Now they take an agent hours.</p>
+
+<p>As a network security engineer, I read this report as a deadline, not a headline. The basics still win: patch what faces the internet, protect credentials, watch the logs. But they now have to run at the attacker's speed, which means <strong>automation on the defender's side too</strong>.</p>
+
+<p><strong>How fast can your team patch a critical internet-facing flaw today?</strong></p>
+
+<p><strong>Sources:</strong></p>
+<ul>
+    <li><a href="https://www.helpnetsecurity.com/2026/11/17/ai-powered-cyberattacks-gtig-report/" target="_blank" rel="noopener noreferrer">Help Net Security: Google finds AI agent writing and launching exploits with no human in the loop</a></li>
+    <li><a href="https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/" target="_blank" rel="noopener noreferrer">SecurityWeek: AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says</a></li>
+    <li><a href="https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html" target="_blank" rel="noopener noreferrer">The Hacker News: Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches</a></li>
+</ul>
+
+<p><em>This article is published for information purposes only, to help readers understand AI-driven threats and how to defend against them.</em></p>
+
+<p><strong>Related Articles:</strong></p>
+<ul>
+    <li><a href="volta-infostealer-ai-ranks-victims-worth-2026.html">VOLTA: The Infostealer That Asks AI What You Are Worth</a></li>
+    <li><a href="ai-soc-agent-prompt-injection-tool-gateway-2026.html">I Built an AI SOC Agent, Then Tried to Hijack It</a></li>
+    <li><a href="pycache-trap-ai-agent-skill-scanners-2026.html">The Skill Scanner Read the Code. Python Ran Something Else.</a></li>
+    <li><a href="chatgpt-wallet-ai-agents-payments-2026.html">ChatGPT Can Now Spend Your Money. Here Is What Face ID Does Not Check.</a></li>
+</ul>
+
+</article>
+
+
+
+<div class="container" style="max-width: 820px;">
+<div class="author-bio">
+    <img src="../../assets/images/authors/kodjo-apedoh.jpg" alt="Kodjo Apedoh" class="author-photo">
+    <div class="author-info">
+        <h4 class="author-section-title">About the Author</h4>
+        <h3>Kodjo Apedoh</h3>
+        <div class="author-title">Network Engineer & AI Entrepreneur</div>
+        <p class="author-description">Founder of TechVernia & SankaraShield. Certified Network Security Engineer with 4+ years of experience specializing in network automation (Python), AI tools research, and advanced security implementations. Also builds iOS and Android applications. Holds certifications from Palo Alto Networks, Fortinet, and Cisco. Based in Arlington, Virginia.</p>
+        <a href="https://www.linkedin.com/in/kodjo-apedoh-03030990" target="_blank" rel="noopener noreferrer" class="author-link">Connect on LinkedIn →</a>
+    </div>
+</div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kodjo Apedoh",
+  "jobTitle": "Network Engineer & AI Entrepreneur",
+  "description": "Founder of TechVernia and SankaraShield. Certified Network Security Engineer with 4+ years of experience. Specializes in AI tools research, network automation, and cybersecurity.",
+  "url": "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+  "image": "https://techvernia.com/assets/images/authors/kodjo-apedoh.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/kodjo-apedoh-03030990",
+    "https://techvernia.com"
+  ]
+}
+</script>
+</main>
+
+<script src="../../js/animations.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>
